@@ -1,0 +1,118 @@
+{
+ "id": "rhodes",
+ "tag": "SSR · HAMMER · ICE",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Daisho",
+  "Ro",
+  "Icarus"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Frost ×4",
+   "",
+   "Frost 4 ชิ้น: ตีโดน → น้ำแข็ง +24% 8 วิ"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายชาร์จ",
+   "weapon": "Diablos Sledge VI*",
+   "alt": "ATK 1032 · น้ำแข็ง 516 · คริ -6%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Baan Vambraces VI",
+    "waist": "Radiant Rathalos Coil VI",
+    "legs": "Radiant Anja Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Charge Enhancement 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Deterrence 1"
+    },
+    {
+     "n": "Fire Resistance 1"
+    },
+    {
+     "n": "Hunting Instinct 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    }
+   ]
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุน้ำแข็ง",
+   "weapon": "Diablos Sledge VI*",
+   "alt": "ATK 1032 · น้ำแข็ง 516 · คริ -6%",
+   "armor": {
+    "head": "Radiant Legiana Helm VI",
+    "chest": "High Metal Mail VI",
+    "arms": "Baan Vambraces VI",
+    "waist": "Radiant Rathalos Coil VI",
+    "legs": "High Metal Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Silence of the Veins",
+     "tag": "set"
+    },
+    {
+     "n": "Ice Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Charge Enhancement 6"
+    },
+    {
+     "n": "Blessing 1"
+    },
+    {
+     "n": "Roar Resistance 1"
+    },
+    {
+     "n": "Deterrence 1"
+    },
+    {
+     "n": "Relentless Pursuit 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    },
+    {
+     "n": "Defense Up 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai · * ชื่ออาวุธแปลจากชื่อญี่ปุ่น"
+}

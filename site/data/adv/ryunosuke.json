@@ -1,0 +1,143 @@
+{
+ "id": "ryunosuke",
+ "name": "Ryunosuke",
+ "profile": {
+  "class": "Support",
+  "weapon": "Long Sword",
+  "element": "Fire · ไฟ",
+  "rarity": "SR",
+  "obtain": "Standard Recruitment / อีเวนต์ Rank Rush",
+  "buddy": "Ravinge (หรือ Tidal Sound)"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Chain Slash",
+   "คอมโบ 5 ฮิต เติมเกจ Spirit"
+  ],
+  [
+   "SKILL 1",
+   "Spirit Slash",
+   "ใช้เกจฟัน 3 ครั้ง · กดต่อหลบแล้วเข้า Feasting"
+  ],
+  [
+   "SKILL 2",
+   "Inebriated: Swig",
+   "ปัดแล้วโยน · ปัดสำเร็จ → Inebriated: Burst"
+  ],
+  [
+   "SKILL 3",
+   "Piercing Flavors",
+   "เกจแดง ใช้ทุกระดับแทง Rupture"
+  ],
+  [
+   "EVADE",
+   "Spin Slash",
+   "Perfect Evade → หมุนฟัน เกจขึ้น"
+  ],
+  [
+   "ULTIMATE",
+   "Grand Feast",
+   "ทีมดาเมจไฟ +12% + กันสถานะผิดปกติ 10 วิ"
+  ],
+  [
+   "CO-OP",
+   "Hunger Slash",
+   "ทีม ATK +20% 20 วิ แล้วฟันคู่"
+  ],
+  [
+   "SQUADMATE",
+   "Myriad Flavors Charge",
+   "Burst ตัวหลักโดน → Ultimate Energy 4 + ฮีล + ล้างสถานะ · ทุก 50 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายไฟ: อัลติเพิ่มดาเมจไฟทีมสูงสุด 15% 20 วิ ตามชาร์จอัลติ"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Seared Swordplay",
+   "ครบ 3 สถานะ → Well-fed 50 วิ สกิลเพิ่ม Rupture 3 ฮิต"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Lasting Flavor",
+   "ทีมอาหารอยู่นานขึ้น 25%"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Well-Fueled",
+   "ตอนเปิด Grand Feast ทั้งทีมดาเมจไฟเพิ่มอีก **+20%**"
+  ],
+  [
+   "Share the Meal",
+   "ใช้อัลติ → บัฟ ATK และ ATK ธาตุจากอัลติเพิ่ม **+5%** ต่อเพื่อนสายไฟ 1 ตัวในทีม"
+  ],
+  [
+   "Tipsy Blade",
+   "Well-fed นานขึ้น **10 วิ** · ระหว่าง Well-fed เกจ Spirit จาก Feasting ขึ้นเร็วขึ้น **60%**"
+  ],
+  [
+   "Gourmand's Edge",
+   "Inebriated: Torrent โดน → เกจ Spirit **+1 ระดับ** · เกจ Spirit ขึ้นต่อเนื่องนานขึ้น **100%**"
+  ],
+  [
+   "Hearth Blade",
+   "ระหว่าง Well-fed ดาเมจสกิล Skill 1 **+20%** และใช้เกจ Spirit น้อยลง"
+  ],
+  [
+   "Drunken Tide",
+   "ดาเมจสกิล Rupture จาก Skill 3 **+40%**"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Gluttonous Wanderer” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Prized Matsutake",
+   "×1.5"
+  ],
+  [
+   "Black Pearl Roe",
+   "×1.5"
+  ],
+  [
+   "Thick-Cut Tail",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Wooden Carving",
+   "×0.5"
+  ],
+  [
+   "Vista Display",
+   "×0.5"
+  ],
+  [
+   "Dome Landscape",
+   "×0.5"
+  ]
+ ]
+}

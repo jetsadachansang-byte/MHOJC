@@ -1,0 +1,28 @@
+{"id":"pyro","name":"Pyro","profile":{"class":"Assault","weapon":"Great Sword","element":"Dragon · มังกร","rarity":"SSR","obtain":"Standard Recruitment / Adventurer's Chronicles","buddy":"Daisho"},
+"skills_src":"GameWith.ai",
+"skills":[
+ ["BASIC","Charged Slash","ชาร์จฟัน ต่อ Strong / True Charged Slash · ตีโดนลดเวลาชาร์จ Skill 3"],
+ ["SKILL 1","Heat Tackle","พุ่งชนแบบ Unwavering · ปัดโดน Fervor +1"],
+ ["SKILL 2","Reckless Charge Slash","ชาร์จฟันตามทิศ ยกเลิกชาร์จอื่นได้"],
+ ["SKILL 3","Fortifying Slash","ที่ Fervor Lv3 ฟันหนัก · กดค้าง → True Fortifying Slash"],
+ ["EVADE","Rising Dragon Slash","Perfect Evade → ฟันพุ่งไกล"],
+ ["ULTIMATE","Blazing Fury","แทงแล้วฟันหลายฮิต · Unwavering ตลอดท่า"],
+ ["CO-OP","Peerless V-Slash","คอมโบกับ Buddy ปิดด้วยฟันเสย · ฟื้นสตามินา"],
+ ["SQUADMATE","Fortifying Follow-Up","มอนติด Suppression → ตามตีหนัก · ทุก 40 วิ"]],
+"traits":[
+ ["CORE PASSIVE","","สายมังกร: ดาเมจมังกร +1% → ดาเมจ +0.2% (สูงสุด 22.5%)"],
+ ["TRAIT · เฉพาะตัว","Robust Physique","อยู่กลางอากาศ ดาเมจ +20%"],
+ ["TRAIT · SURVIVAL","Climbing Expert","ทีมปีนป่ายใช้สตามินา -20%"]],
+"insights_src":"gacha.gg / GameWith",
+"insights":[
+ ["Inferno: Battle Ready","ดาเมจอัลติ **+60%**"],
+ ["Inferno: Overload","ใช้อัลติ → ทำดาเมจวงกว้างเพิ่ม 1 ครั้ง · ถ้าโดน ดาเมจสกิล **+25%** 15 วิ"],
+ ["Unyielding Roar","อัลติโดน → ชาร์จ Basic Attack เริ่มที่ระดับ 1 และชาร์จนานเกินไม่ลดดาเมจ · **20 วิ**"],
+ ["Rampage","Skill 1 ปัดได้ หรือ Skill 3 เข้า Ferocity แล้วโดนมอน → **ฟื้น HP** · ดาเมจที่ทำ 0.5% เปลี่ยนเป็น HP (สูงสุด 40)"],
+ ["Fleeting Strike","ฟัน Basic Attack ที่ชาร์จถึงจังหวะพอดีโดน → ดาเมจมังกร **+40%** 15 วิ"],
+ ["Fatal Blow","ดาเมจสกิล Fortifying Slash **+30%** · True Fortifying Slash **+60%**"]],
+"gifts_like_note":"Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+"gifts_like":[["Journey Cord","×1.5"],["Worn Adventurer Badge","×1.5"],["Elder Dragon Banner","×1.5"],["Adventurer's Charm","×1.5"],["Exploration Badge","×1.5"],["Journey Memento","×1.5"]],
+"gifts_dislike_note":"Bond ×0.5","gifts_dislike":[["Outlands Poetry","×0.5"],["Bonfire Album","×0.5"],["Kulune Songbook","×0.5"]],
+"bond_reward":"Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Sword Inferno” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+"source":"ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026"}

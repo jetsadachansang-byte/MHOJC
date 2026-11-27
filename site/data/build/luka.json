@@ -1,0 +1,111 @@
+{
+ "id": "luka",
+ "tag": "SSR · BOW · THUNDER",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [],
+ "buddies_empty": "ยังไม่มีเว็บแนะนำ",
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Thunder ×4",
+   "",
+   "Thunder 4 ชิ้น: ทำดาเมจ → สายฟ้า +5% 12 วิ (สูงสุด 5)"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายยิงทะลุ",
+   "weapon": "Radiant Kadachi Strikebow VI",
+   "alt": "ATK 997 · สายฟ้า 498 · คริ 3%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Tzitzi Vambraces VI",
+    "waist": "Radiant Tzitzi Coil VI",
+    "legs": "Leather Pants VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Piercing Strike 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Ballistics 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    },
+    {
+     "n": "Iron Skin 1"
+    }
+   ]
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุสายฟ้า",
+   "weapon": "Radiant Kadachi Strikebow VI",
+   "alt": "ATK 997 · สายฟ้า 498 · คริ 3%",
+   "armor": {
+    "head": "Kadachi Helm VI",
+    "chest": "Radiant Girros Mail VI",
+    "arms": "Tzitzi Vambraces VI",
+    "waist": "Radiant Tzitzi Coil VI",
+    "legs": "Ingot Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Thunder Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Piercing Strike 6"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Deterrence 1"
+    },
+    {
+     "n": "Fearless 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    },
+    {
+     "n": "Defense Up 1"
+    },
+    {
+     "n": "Paralysis Resistance 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai"
+}

@@ -1,0 +1,28 @@
+{"id":"midori","name":"Midori","profile":{"class":"Assault","weapon":"Long Sword","element":"Fire · ไฟ","rarity":"SSR","obtain":"Limited Recruitment","buddy":"Kojiro (หรือ Tidal Claw)"},
+"skills_src":"GameWith.ai",
+"skills":[
+ ["BASIC","Chain Slash","คอมโบหลายฮิต เติมเกจ Spirit · Sidestep Slash เพิ่มเกจ"],
+ ["SKILL 1","Spirit Slash","ฟันสูงสุด 3 ครั้ง ใช้เกจ · กดค้าง Charged Spirit Blade เติมเกจ 60%"],
+ ["SKILL 2","Blade of Truth","ใช้เกจเยอะ หมุนฟัน 2 รอบ ทำ Rupture · เกจ +1 ระดับ"],
+ ["SKILL 3","Moment of Insight","ท่า Burst 3 จังหวะ · กด Precise Tap ตรงวงแดงดาเมจพุ่ง"],
+ ["EVADE","Standing Spin Slash","Perfect Evade → วิ่งฟัน Side Slash + Peerless Slash เกจขึ้นเยอะ"],
+ ["ULTIMATE","Final Curtain","ฟันหลายครั้ง + Rupture"],
+ ["CO-OP","Felyne Draw Technique","ตีคู่ Buddy · เกจ +1 ระดับ"],
+ ["SQUADMATE","Instant Follow-Up","มอนติด Suppression → ตามตีหนัก · ทุก 40 วิ"]],
+"traits":[
+ ["CORE PASSIVE","","สายไฟ: Affinity ทุก 1% → ดาเมจ +0.25% (สูงสุด 22.5%)"],
+ ["TRAIT · เฉพาะตัว","Grand Entrance","ใช้เกจ Spirit ระดับละ 1 → ดาเมจ +5% 5 วิ (สูงสุด 3 สแตก)"],
+ ["TRAIT · SURVIVAL","Nightfall Wanderer","กลางคืนใช้สตามินา -5%"]],
+"insights_src":"gacha.gg / GameWith",
+"insights":[
+ ["Maple Season Melody","Skill 2 หรือ Standing Spin Slash โดน → ได้ Maple Season 1 สแตก\nMaple Season: ดาเมจสกิล **+9%** 30 วิ (สูงสุด 3 สแตก)"],
+ ["Maple Season Echo","ระหว่าง Maple Season ดาเมจ Skill 3 **+34%**"],
+ ["Endless Tones","ตอนใช้ Skill 3 กด Precise Tap ติดกัน 2 ครั้ง → เกจ Spirit ขึ้นถึง**ระดับแดง** · ทำงานได้ 1 ครั้งทุก **45 วิ**"],
+ ["Momentary Resonance","เวลาอมตะตอนหลบนานขึ้น และกด **Perfect Evade** ง่ายขึ้น · Standing Spin Slash ที่ต่อจาก Perfect Evade เร็วขึ้น และเกจ Spirit **เต็ม**"],
+ ["Majestic Fireworks","ใช้อัลติ → ดาเมจสกิลไฟ **+18%** 30 วิ"],
+ ["Shadow Legion","ใช้อัลติ → ดาเมจสกิล **+40%** และทำลายชิ้นส่วน **+20%**"]],
+"gifts_like_note":"Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+"gifts_like":[["Outlands Poetry","×1.5"],["Bonfire Album","×1.5"],["Kulune Songbook","×1.5"],["Adventurer's Charm","×1.5"],["Exploration Badge","×1.5"],["Journey Memento","×1.5"]],
+"gifts_dislike_note":"Bond ×0.5","gifts_dislike":[["Journey Cord","×0.5"],["Worn Adventurer Badge","×0.5"],["Elder Dragon Banner","×0.5"]],
+"bond_reward":"Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Blade Songstress” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+"source":"ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026"}

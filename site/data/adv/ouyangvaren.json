@@ -1,0 +1,143 @@
+{
+ "id": "ouyangvaren",
+ "name": "Ouyang Varen",
+ "profile": {
+  "class": "Assault",
+  "weapon": "Lance",
+  "element": "Water · น้ำ",
+  "rarity": "SR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Tidal Claw (หรือ Fortie)"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Thrust",
+   "แทง 3 ครั้ง · ครั้งที่ 3 ได้ Sharpness 1"
+  ],
+  [
+   "SKILL 1",
+   "Defensive Stance",
+   "การ์ด · Perfect Guard ได้ Sharpness 1 · ต่อ Counter Thrust"
+  ],
+  [
+   "SKILL 2",
+   "Defensive Maneuver",
+   "พุ่งปัด · ต่อ Rending Sweep ใช้ Sharpness ทั้งหมด"
+  ],
+  [
+   "SKILL 3",
+   "Piercing Thrust",
+   "ชาร์จ Sharpness สูงสุด 3 แล้วแทงแรง"
+  ],
+  [
+   "EVADE",
+   "Leaping Thrust",
+   "พุ่งแทงหลายฮิต · Perfect Evade อมตะ 0.5 วิ"
+  ],
+  [
+   "ULTIMATE",
+   "Sentinel Thrust",
+   "ปัดปกป้องเพื่อน แล้วสวนการันตีสะดุด"
+  ],
+  [
+   "CO-OP",
+   "Earthshaker",
+   "กระโดดกระแทกลง ได้ Sharpness 3"
+  ],
+  [
+   "SQUADMATE",
+   "Breaching Follow-Up",
+   "มอนติด Suppression → ตามแทง · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายน้ำ: ดาเมจน้ำเพิ่มตามค่าน้ำ (สูงสุด 22.5%)"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Heart of Justice",
+   "Basic Attack แต่ละครั้ง ATK +5% 10 วิ (สูงสุด 3 สแตก)"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Flamewind Respite",
+   "พื้นที่ร้อน ฟื้นสตามินา +15%"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Desert Storm",
+   "ดาเมจสกิล Skill 3 **+20%** และเวลาชาร์จ **-20%**"
+  ],
+  [
+   "Indomitable",
+   "Sharpness แต่ละสแตก → ดาเมจสกิลน้ำ **+20%**"
+  ],
+  [
+   "Hoarfrost Lance",
+   "แทงครั้งที่ 3 แล้วได้ **Pierce 1 สแตก** แม้แทงไม่โดน"
+  ],
+  [
+   "Unstoppable Momentum",
+   "ใช้อัลติ → ตีเพิ่มหลายฮิต · โดนแล้วได้ Sharpness **3 สแตก**"
+  ],
+  [
+   "Ironclad Glory",
+   "ใช้อัลติ → ทั้งทีมทำลายชิ้นส่วน **+30%** 15 วิ"
+  ],
+  [
+   "Aquatic Surge",
+   "ปัดด้วย Skill 2 สำเร็จ → ดาเมจสกิลครั้งถัดไป **+48%** (อยู่ได้ 30 วิ)"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Righteous Guardian” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Journey Cord",
+   "×1.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×1.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Prized Matsutake",
+   "×0.5"
+  ],
+  [
+   "Black Pearl Roe",
+   "×0.5"
+  ],
+  [
+   "Thick-Cut Tail",
+   "×0.5"
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+{"id":"09-stylia-build","who":"stylia","kind":"rows","eyebrow":"MHO · STYLIA · BUILD","title":"Stylia","subtitle":"อาวุธ · เซ็ตเกราะ · สกิล · Visage",
+"sections":[
+ {"h":"BUILD จาก MHOBUILDS (ระดับ R11)","rows":[
+   ["","อาวุธ","**Brilliant Hippogriff (Ice)** · ATK 656 · น้ำแข็ง 328"],
+   ["","เซ็ตเกราะ","หัว **Pukei Hood** · อก **Radiant Pukei Mail** · แขน **Radiant Girros Vambraces** · เอว **Diablos Coil** · ขา **Radiant Barroth Greaves**"],
+   ["","สกิลเกราะ","[Bow Skill Boost 4] [Pierce 4] [Combo Enhancement 3] [Weakspot Follow-Up 2] [Ballistics 1] [Hunting Instinct 1]"],
+   ["","ล่ามอนเก็บของ","Pukei-Pukei · Radiant Pukei-Pukei · Radiant Great Girros · Diablos · Radiant Barroth"],
+   ["","สไตล์ build","เน้น **Pierce** · ตีระยะใกล้แรงสุด · คอมโบเร็ว · เน้นธาตุ · ยิงชาร์จ"]]},
+ {"h":"VISAGE ธาตุน้ำแข็ง","rows":[
+   ["","Ink of Frost","**2 ชิ้น:** ดาเมจน้ำแข็ง +5% · **4 ชิ้น:** ตีโดนมอน → ดาเมจน้ำแข็ง **+24%** 8 วิ"],
+   ["","การ์ดในเซ็ต","**Nergigante** (cost 3 · ใหม่ · ใส่ Core เพิ่มดาเมจน้ำแข็งเมื่อใช้อาวุธน้ำแข็ง) · **Legiana** (cost 4) · **Radiant Legiana** (cost 3)"]]},
+ {"h":"BUDDY ที่เข้ากัน","rows":[["","Buddy","**Elwin** (SSR) ยิงชาร์จสุด → น้ำแข็ง +15/20/25% 10 วิ\n**Ravinge** (SR) ทั้งทีมดาเมจธาตุ +1.8/3/4% · **Blademaster** (SR) ทั้งทีมดาเมจ +1/1.3/1.8%"]]}],
+"source":"ข้อมูล: mhobuilds · GameWith.ai · ก่อนเข้าเกม · ยังไม่มีเว็บไหนลง Visage แนะนำเฉพาะ Stylia"}

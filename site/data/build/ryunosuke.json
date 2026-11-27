@@ -1,0 +1,139 @@
+{
+ "id": "ryunosuke",
+ "tag": "SR · LONG SWORD · FIRE",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Ravinge",
+  "Blademaster"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Flames ×4",
+   "",
+   "Flames 4 ชิ้น: ตีโดนจุดอ่อน → ไฟ +24% 20 วิ"
+  ],
+  [
+   "สายซัพ",
+   "Kushala + Ink of Grace ×4 + Ink of Guidance ×2",
+   "",
+   "GameWith JP: เล่นเป็นตัวซัพ วาง Grace ไว้ช่อง Core"
+  ],
+  [
+   "ตัวเลือก",
+   "Ink of Guidance ×4 / Grace ×4 ก็ได้ตามทีม",
+   "",
+   ""
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สาย Bento Lover",
+   "weapon": "Radiant Wyvern Blade \"Blood\" VI",
+   "alt": "ATK 997 · ไฟ 498 · คริ 3%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Diablos Vambraces VI",
+    "waist": "Radiant Jagras Coil VI",
+    "legs": "Diablos Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Diablos's Footing",
+     "tag": "set"
+    },
+    {
+     "n": "Bento Lover 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Guard Technique 1"
+    },
+    {
+     "n": "Unleashed 1"
+    },
+    {
+     "n": "Weakspot Follow-Up 1"
+    },
+    {
+     "n": "Thrifty Meal 1"
+    },
+    {
+     "n": "Defense Up 1"
+    }
+   ],
+   "note": "Bento Lover: ดาเมจเพิ่มหลังกินเนื้อ/อาหารพกพาระหว่างล่า"
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุไฟ",
+   "weapon": "Radiant Wyvern Blade \"Blood\" VI",
+   "alt": "ATK 997 · ไฟ 498 · คริ 3%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Rathalos Vambraces VI",
+    "waist": "Anja Coil VI",
+    "legs": "Radiant Rathalos Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Fire Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Health Cycle 1"
+    },
+    {
+     "n": "Suppression Recovery 1"
+    },
+    {
+     "n": "Quick-Bite 1"
+    },
+    {
+     "n": "Adversity 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai"
+}

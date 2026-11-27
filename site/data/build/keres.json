@@ -1,0 +1,120 @@
+{
+ "id": "keres",
+ "tag": "SSR · DUAL BLADES · DRAGON",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Hoppy",
+  "Devu",
+  "Nako"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Dragon ×4",
+   "",
+   "Dragon 4 ชิ้น: หลังใช้อัลติ → มังกร +24% 60 วิ"
+  ],
+  [
+   "สายซัพ",
+   "Ink of Combat ×4 + Ink of Guidance ×2",
+   "",
+   "Combat 4 ชิ้น: อัลติติดดีบัฟ → ทีมดาเมจ +6.5%"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายคอมโบ",
+   "weapon": "Radiant Blood-drinker Chainblade VI",
+   "alt": "ATK 944 · มังกร 472 · คริ 6%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Girros Vambraces VI",
+    "waist": "Kulu Coil VI",
+    "legs": "Radiant Kulu Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Combo Enhancement 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Weakspot Exploit 2"
+    },
+    {
+     "n": "Fire Resistance 2"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Flinching-Free 1"
+    }
+   ]
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุมังกร",
+   "weapon": "Radiant Blood-drinker Chainblade VI",
+   "alt": "ATK 944 · มังกร 472 · คริ 6%",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Hornetaur Vambraces VI",
+    "waist": "Diablos Nero Coil VI",
+    "legs": "Bone Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Dragon Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Stun Resistance 2"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Health Boost 1"
+    },
+    {
+     "n": "Breaker 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai"
+}

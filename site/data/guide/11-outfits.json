@@ -1,0 +1,6 @@
+{"id":"11-outfits","who":"both","kind":"outfits","eyebrow":"MHO · NEW OUTFITS","date":"Season 0 ครึ่งหลัง · เริ่ม 27 พ.ย. 10:00 น.","title":"ชุดแฟชั่นใหม่ Freya & Stylia",
+"main":[
+ {"id":"freya-rose-queen","tag":"FREYA EXCLUSIVE","name":"Rose Queen","chips":["ลิมิเต็ด","Wish"],"lines":["ได้จาก **Wish** (กาชาชุด)","เปิดถึง **22 ม.ค. 2027**","มาพร้อม **สกินอาวุธ Great Sword** และ **ชุด Buddy** ธีมเดียวกัน"],"notes":["* ชื่อ EN อ้างอิงจากข่าวอัปเดต อาจต่างเล็กน้อยในเกม","* ชุดประจำตัวของ Freya คือ Regal Vow (ได้พร้อมตัวละคร)"]},
+ {"id":"stylia-silken-dancer","tag":"STYLIA EXCLUSIVE","name":"Silken Dancer","chips":["ขายถาวร","Shop","ลดราคาช่วงเปิดตัว"],"lines":["ซื้อได้ใน **Shop** แบบถาวร","ลดราคา **27 พ.ย. – 4 ธ.ค. 2026**","หมดช่วงลดแล้วกลับเป็น **ราคาปกติ**"],"notes":[]}],
+"small":[{"id":"weapon-flying-feather","name":"Flying Feather","desc":"สกินอาวุธ\nใช้ได้เฉพาะ **Bow** · ขายถาวร"},{"id":"buddy-flower-bearing-plume","name":"Flower-Bearing Plume","desc":"ชุด Buddy\nเฉพาะสาย **Support** · ขายถาวร"}],
+"source":"ข้อมูล ณ 26 พ.ย. 2026 · อาจมีปรับหลังอัปเดตเข้าเกม"}

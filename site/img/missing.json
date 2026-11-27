@@ -1,0 +1,83 @@
+[
+ {
+  "category": "adventurer full art",
+  "name": "Rhodes",
+  "reason": "no art found: GameWith.ai has only the card icon and no GameWith JP page shows this character"
+ },
+ {
+  "category": "buddy icon",
+  "name": "Arya",
+  "reason": "not listed on GameWith.ai buddies (new buddy); not found on GameWith JP list",
+  "using_instead": "img/buddy/featured/arya.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "buddy icon",
+  "name": "Elwin",
+  "reason": "not listed on GameWith.ai buddies (new buddy); not found on GameWith JP list",
+  "using_instead": "img/buddy/featured/elwin.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "gift icon",
+  "name": "Sheet",
+  "reason": "no item with this name on GameWith.ai items"
+ },
+ {
+  "category": "outfit / skin",
+  "name": "Rose Queen",
+  "reason": "no outfit pages on GameWith.ai; not found on GameWith JP pages checked",
+  "using_instead": "img/outfit/freya-rose-queen.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "outfit / skin",
+  "name": "Regal Vow",
+  "reason": "no outfit pages on GameWith.ai; not found on GameWith JP pages checked"
+ },
+ {
+  "category": "outfit / skin",
+  "name": "Silken Dancer",
+  "reason": "no outfit pages on GameWith.ai; not found on GameWith JP pages checked",
+  "using_instead": "img/outfit/stylia-silken-dancer.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "outfit / skin",
+  "name": "Flying Feather",
+  "reason": "no outfit pages on GameWith.ai; not found on GameWith JP pages checked",
+  "using_instead": "img/outfit/weapon-flying-feather.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "outfit / skin",
+  "name": "Flower-Bearing Plume",
+  "reason": "no outfit pages on GameWith.ai; not found on GameWith JP pages checked",
+  "using_instead": "img/outfit/buddy-flower-bearing-plume.webp (official promo image from your pack in assets/images)"
+ },
+ {
+  "category": "skill icons",
+  "name": "all armor skills",
+  "reason": "GameWith.ai skills pages have no skill icons"
+ },
+ {
+  "category": "build weapon image",
+  "name": "Radiant Duel Desterio",
+  "reason": "name translated from Japanese, not listed on GameWith.ai EN"
+ },
+ {
+  "category": "build weapon image",
+  "name": "Radiant Blood-drinker Chainblade",
+  "reason": "GameWith.ai page has no weapon image (shows only the weapon type icon)"
+ },
+ {
+  "category": "build weapon image",
+  "name": "Radiant Wyvern Blade \"Blood\"",
+  "reason": "GameWith.ai page has no weapon image (shows only the weapon type icon)"
+ },
+ {
+  "category": "build weapon image",
+  "name": "Radiant Rad Baruk",
+  "reason": "name translated from Japanese, not listed on GameWith.ai EN"
+ },
+ {
+  "category": "build weapon image",
+  "name": "Radiant Fernlike",
+  "reason": "name translated from Japanese, not listed on GameWith.ai EN"
+ }
+]

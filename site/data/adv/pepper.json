@@ -1,0 +1,143 @@
+{
+ "id": "pepper",
+ "name": "Pepper",
+ "profile": {
+  "class": "Disruptor",
+  "weapon": "Heavy Bowgun",
+  "element": "Water · น้ำ",
+  "rarity": "SSR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Hoppy"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Shoot",
+   "ยิง Spread Ammo เสมอ · ฮิตที่ 3 ได้ Focus 1"
+  ],
+  [
+   "SKILL 1",
+   "Guard",
+   "Perfect Guard → รีโหลด + Focus 1 · ต่อ Counter Tackle / Aerial Slam"
+  ],
+  [
+   "SKILL 2",
+   "Bouncy Dash",
+   "ใช้ Focus 1 พุ่ง · โดน → ลอยกลางอากาศ + รีโหลด"
+  ],
+  [
+   "SKILL 3",
+   "Pressurized / Aerial Blast",
+   "ระเบิดพื้นที่ได้ Focus · กลางอากาศปัดได้"
+  ],
+  [
+   "EVADE",
+   "Burst Strike",
+   "Perfect Evade → รีโหลดยิงแรง Focus 1"
+  ],
+  [
+   "ULTIMATE",
+   "Fluffy, Attack!",
+   "มอนอัมพาต 8 วิ + ติด Suppression"
+  ],
+  [
+   "CO-OP",
+   "Aerial Waltz",
+   "กระโดดยิงกระสุนเกลียว"
+  ],
+  [
+   "SQUADMATE",
+   "Devastating Pressure",
+   "หลังตัวหลัก React → มอนรับดาเมจกลางอากาศ +20% 15 วิ · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายน้ำ: มอนติด Suppression รับดาเมจเพิ่มสูงสุด 15% 15 วิ"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Aerial Fighter",
+   "ใช้ Spread Ammo เสมอ ระยะไกลขึ้น กระจายแคบลง"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Forager's Touch",
+   "เก็บวัตถุดิบอาหาร 25% ได้เพิ่ม 1"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Echoing Chimes",
+   "อัลติทำให้มอนติด Suppression → มอนรับดาเมจน้ำ **+36%** 10 วิ"
+  ],
+  [
+   "Fluffy Fuzzy Fantasy",
+   "เวลาควบคุมมอนจากอัลติ **+2 วิ**"
+  ],
+  [
+   "Featherflow Guard",
+   "ใช้ Concentration แต่ละครั้ง → ดาเมจน้ำ **+20%** (สูงสุด 3 สแตก · 5 วิ)"
+  ],
+  [
+   "Fluffy Spin",
+   "ปัดด้วย Aerial Blast สำเร็จ → Firepower Pursuit ครั้งถัดไปดาเมจ **+100%**"
+  ],
+  [
+   "Windborne Fluff",
+   "Aerial Blast ตีเพิ่ม **1 ฮิต** และแรงสะท้อนลดลงเล็กน้อย"
+  ],
+  [
+   "Thousand Plumes",
+   "ใช้อัลติ → กระสุน Firepower Pursuit **+3** 10 วิ"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Bubbly Spark” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Glowmoss Bottle",
+   "×1.5"
+  ],
+  [
+   "Forest Amber",
+   "×1.5"
+  ],
+  [
+   "Moonfeather Chime",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Journey Cord",
+   "×0.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×0.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×0.5"
+  ]
+ ]
+}

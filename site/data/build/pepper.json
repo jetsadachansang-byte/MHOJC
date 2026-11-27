@@ -1,0 +1,120 @@
+{
+ "id": "pepper",
+ "tag": "SSR · HEAVY BOWGUN · WATER",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Hoppy",
+  "Falee Hendsom",
+  "Barim"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Water ×4",
+   "",
+   "Water 4 ชิ้น: ทีมใช้อัลติแต่ละครั้ง → น้ำ +6% 60 วิ (สูงสุด 4)"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายคอมโบ",
+   "weapon": "Radiant Jagras Cannon VI*",
+   "alt": "ATK 967 · น้ำ 484",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Girros Vambraces VI",
+    "waist": "Kulu Coil VI",
+    "legs": "Radiant Kulu Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Combo Enhancement 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Weakspot Exploit 2"
+    },
+    {
+     "n": "Fire Resistance 2"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Flinching-Free 1"
+    }
+   ]
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุน้ำ",
+   "weapon": "Radiant Jagras Cannon VI*",
+   "alt": "ATK 967 · น้ำ 484",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Jyura Vambraces VI",
+    "waist": "Tzitzi Coil VI",
+    "legs": "Radiant Tzitzi Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Water Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Relentless Pursuit 1"
+    },
+    {
+     "n": "Stun Resistance 1"
+    },
+    {
+     "n": "Hunting Instinct 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai · * ชื่ออาวุธแปลจากชื่อญี่ปุ่น"
+}

@@ -1,0 +1,127 @@
+{
+ "id": "freya",
+ "tag": "SSR · GREAT SWORD · FIRE",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Arya",
+  "Hoppy",
+  "Falee Hendsom"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Flames ×4",
+   "",
+   "Flames 4 ชิ้น: ตีโดนจุดอ่อน → ไฟ +24% 20 วิ"
+  ],
+  [
+   "หลัง S0",
+   "Core Radiant Rathalos + Ink of Flames ×4 (Gamerch)",
+   "",
+   ""
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายชาร์จ",
+   "weapon": "Luminous Durandal (Fire)",
+   "alt": "ถ้ายังไม่มี: Radiant Red Wing VI*",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Baan Vambraces VI",
+    "waist": "Radiant Rathalos Coil VI",
+    "legs": "Radiant Anja Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Charge Enhancement 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Deterrence 1"
+    },
+    {
+     "n": "Fire Resistance 1"
+    },
+    {
+     "n": "Hunting Instinct 1"
+    },
+    {
+     "n": "Sleep Resistance 1"
+    }
+   ],
+   "note": "Charge Enhancement: Baan 3 + Radiant Rathalos Coil 3 + Radiant Anja Greaves 2"
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุไฟ",
+   "weapon": "Luminous Durandal (Fire)",
+   "alt": "ถ้ายังไม่มี: Radiant Red Wing VI*",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Rathalos Vambraces VI",
+    "waist": "Anja Coil VI",
+    "legs": "Radiant Rathalos Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Fire Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Health Cycle 1"
+    },
+    {
+     "n": "Suppression Recovery 1"
+    },
+    {
+     "n": "Quick-Bite 1"
+    },
+    {
+     "n": "Adversity 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai · * ชื่ออาวุธแปลจากชื่อญี่ปุ่น"
+}

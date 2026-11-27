@@ -1,0 +1,11 @@
+{"id":"03-freya-insights","who":"freya","kind":"rows","eyebrow":"MHO · FREYA · TRAITS & INSIGHTS","title":"Freya","subtitle":"Trait · Insight · Awakening",
+"sections":[
+ {"h":"TRAITS","rows":[["","Inner Flame","ATK **+10 / +20 / +40** ตาม Inner Flame Lv.1 / 2 / 3 (Gamerch เขียน +5% / 10% / 15%)"],
+   ["","อื่นๆ","**Fire Damage Up:** ดาเมจไฟ +10% · **Fire Resonance:** ทำลายชิ้นส่วน +35% · **Carving Expert:** แล่มอนเล็กได้วัตถุดิบ +1"]]},
+ {"h":"INSIGHTS","rows":[["","1 · Flames of Verdict","อัลติโดน → มอนรับดาเมจ **+25%** 15 วิ"],["","2 · Everlasting Flames","ดาเมจไฟ **+20%** · Suppression จากอัลตินานขึ้น **2 วิ**"],
+   ["","3 · Blazing Surge","เวลาชาร์จ Dragonbreaker Slash และ Blazing Anchor **-20%** · ดาเมจ Flame Dance และ Dragonbreaker Slash **+20%**"],
+   ["","4 · Spirit Igniter","Blazing Soul อยู่นานขึ้น **10 วิ**"],["","5 · Supremacy","หลังใช้ Spiral Sheathe ดาเมจสกิล **+17%** 10 วิ · ระหว่างท่ารับดาเมจ **-80%**"],
+   ["","6 · Absolute Suppression","หลังใช้ Spiral Sheathe ความเร็ว +10% ดาเมจไฟ **+20%** 5 วิ · ปัดสำเร็จ → ความเร็ว +15% ดาเมจไฟ **+30%** 10 วิ"]]}],
+"table":{"h":"AWAKENING (ค่าสะสม)","head":["Awakening","0","1","2","3","4","5","6"],"rows":[["ATK พื้นฐาน","32","58","84","111","138","169","200"],["DEF โบนัส","90","177","278","383","490","490","490"],["ดาเมจธาตุโบนัส","15","28","41","54","67","83","100"]]},
+"gifts":{"h":"ของขวัญที่ชอบ","items":[["Wooden Carving","+50%"],["Vista Display","+50%"],["Dome Landscape","+50%"]],"note":"+ ชุดที่ทุกตัวชอบ (Adventurer's Charm ฯลฯ) · ไม่มีของที่ชอบน้อย"},
+"source":"ข้อมูล: mhohub · gacha.gg · Gamerch · ก่อนเข้าเกม"}

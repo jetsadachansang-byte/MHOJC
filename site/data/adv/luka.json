@@ -1,0 +1,28 @@
+{"id":"luka","name":"Luka","profile":{"class":"Assault","weapon":"Bow","element":"Thunder · สายฟ้า","rarity":"SSR","obtain":"Standard Recruitment / อีเวนต์ Surging Lightning","buddy":"Pipa"},
+"skills_src":"GameWith.ai",
+"skills":[
+ ["BASIC","Rapid Fire","ธนูทะลุระยะไกล · กดค้างชาร์จ 4 ระดับ (ทะลุ 3–6 ฮิต)"],
+ ["SKILL 1","Slide Shot","สไลด์ยิง ชาร์จ +1 · รีโหลด Thunder Coating 25 · Precise Tap → Thunderous Spin"],
+ ["SKILL 2","Arc Drift","เคลื่อนเป็นวงโค้ง แล้วยิงทะลุ 6 ฮิต · ชาร์จ +1"],
+ ["SKILL 3","Swift Volley","ใช้ Coating 100 ยิง 2 ดอก · Precise Tap ยิงต่อแรงขึ้นเรื่อยๆ"],
+ ["EVADE","Boltstep Counter","Perfect Evade → ยิงสวนอัตโนมัติ ชาร์จขึ้นระดับดีที่สุด"],
+ ["ULTIMATE","Voltic Volley","ยิงรัว 7 ดอก + ดอกปิด · เข้า Thunderclap 15 วิ"],
+ ["CO-OP","Felyne Arrow","ยิง Buddy เป็นสว่านเกลียว ดาเมจหนัก"],
+ ["SQUADMATE","Swift Follow-Up","มอนติด Suppression → ตามตีหนัก · ทุก 40 วิ"]],
+"traits":[
+ ["CORE PASSIVE","","สายฟ้า: ดาเมจสายฟ้า +1% → ดาเมจ +0.2% (สูงสุด 22.5%)"],
+ ["TRAIT · เฉพาะตัว","Piercing Transformation","ลูกธนูทะลุหลายฮิตตามขนาดมอน 3–6 ฮิต"],
+ ["TRAIT · SURVIVAL","Woodland Craft","ตัดไม้ 25% ได้ไม้เพิ่ม 1"]],
+"insights_src":"gacha.gg / GameWith",
+"insights":[
+ ["Thunderous Pact","ระหว่าง Thunderclap Affinity **+35%**"],
+ ["Final Arrow","ดาเมจอัลติ **+60%**"],
+ ["Lightning Swift","ชาร์จระดับ 4 ใช้ Thunderous Spin ได้ด้วย Precise Tap ที่ Skill 1 หลัง Basic Attack · Skill 1 ใช้ Stamina **-5**"],
+ ["Lightning Epiphany","หลังใช้อัลติ เติม Thunder Coating **เต็ม** และระดับชาร์จขึ้นถึงจุดที่ดีที่สุด"],
+ ["Meteor Lightning","Precise Tap สำเร็จ → ดาเมจสกิล **+30%** 3 วิ"],
+ ["Electrical Sparks","Skill 3 ได้ **Unwavering** ระหว่างใช้ท่า และดาเมจสกิล **+15%**"]],
+"gifts_like_note":"Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+"gifts_like":[["Journey Cord","×1.5"],["Worn Adventurer Badge","×1.5"],["Elder Dragon Banner","×1.5"],["Adventurer's Charm","×1.5"],["Exploration Badge","×1.5"],["Journey Memento","×1.5"]],
+"gifts_dislike_note":"Bond ×0.5","gifts_dislike":[["Wooden Carving","×0.5"],["Vista Display","×0.5"],["Dome Landscape","×0.5"]],
+"bond_reward":"Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Surging Lightning” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+"source":"ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026"}

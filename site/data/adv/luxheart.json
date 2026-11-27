@@ -1,0 +1,143 @@
+{
+ "id": "luxheart",
+ "name": "Luxheart",
+ "profile": {
+  "class": "Disruptor",
+  "weapon": "Great Sword",
+  "element": "Thunder · สายฟ้า",
+  "rarity": "SR",
+  "obtain": "Standard Recruitment / อีเวนต์ Rank Rush",
+  "buddy": "Falee Hendsom (หรือ Nako)"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Charged Slash",
+   "ชาร์จฟัน · มี Heat → Fleeting Star 3 จังหวะ"
+  ],
+  [
+   "SKILL 1",
+   "Guard",
+   "Perfect Guard ได้ Heat 1 ต่อ Fleeting Star III"
+  ],
+  [
+   "SKILL 2",
+   "Starlight Burst: Ignition",
+   "ได้ Heat ตอนใช้และตอนโดน (สูงสุด 6)"
+  ],
+  [
+   "SKILL 3",
+   "Grand Performance",
+   "Heat 4+ ใช้หมด ระเบิดพลุวงกว้าง แรงตาม Heat"
+  ],
+  [
+   "EVADE",
+   "Trailing Blade Slash",
+   "Perfect Evade → ฟันชาร์จได้ Heat 1–2"
+  ],
+  [
+   "ULTIMATE",
+   "Heating Up",
+   "ระเบิดพลุ มอนมึน + ติด Suppression · เก็บได้ 3 ครั้ง"
+  ],
+  [
+   "CO-OP",
+   "Perfect Partners",
+   "โจมตีดอกเหล็ก ได้ Heat 2"
+  ],
+  [
+   "SQUADMATE",
+   "Starlight Devastation",
+   "หลังตัวหลัก React → มึนนานขึ้น 2 วิ + ทำลายชิ้นส่วนหนัก · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายฟ้า: มอนมึนรับดาเมจเพิ่มสูงสุด 15%"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Oh, So Brightly I Shine",
+   "มี Heat อยู่ ดาเมจสายฟ้า +40%"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Daylight Wanderer",
+   "กลางวันทีมใช้สตามินา -5%"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Triumphant Entrance",
+   "เริ่มล่ามีอัลติให้ใช้ **+1 ครั้ง**"
+  ],
+  [
+   "Dazzling Display",
+   "ดาเมจใส่มอนที่มึน **+15%**"
+  ],
+  [
+   "Brilliant Spectacle",
+   "ใช้ Grand Performance ด้วย Heat 5 / 6 แต้ม → ได้ Heat คืน **1 / 2** แต้ม"
+  ],
+  [
+   "Bright Like a Star",
+   "หลังใช้อัลติ ได้ Heat **3**"
+  ],
+  [
+   "The Climax",
+   "Grand Performance ที่ใช้ Heat 6 → ดาเมจสายฟ้า **+50%** และได้ Unwavering ระหว่างใช้ท่า"
+  ],
+  [
+   "Lightning Splendor",
+   "Grand Performance ดาเมจสายฟ้า **+5%** ต่อ Heat 1 แต้มที่ใช้"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Blinding Light” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Outlands Poetry",
+   "×1.5"
+  ],
+  [
+   "Bonfire Album",
+   "×1.5"
+  ],
+  [
+   "Kulune Songbook",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Journey Cord",
+   "×0.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×0.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×0.5"
+  ]
+ ]
+}

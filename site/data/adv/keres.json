@@ -1,0 +1,143 @@
+{
+ "id": "keres",
+ "name": "Keres",
+ "profile": {
+  "class": "Disruptor",
+  "weapon": "Dual Blades",
+  "element": "Dragon · มังกร",
+  "rarity": "SSR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Devu"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Chain Slash",
+   "ฟันสูงสุด 4 ครั้ง เติม Demon Gauge"
+  ],
+  [
+   "SKILL 1",
+   "Demon Mode",
+   "เกจ 40%+ เข้า Demon Mode เร็วขึ้น สกิลแรงขึ้น"
+  ],
+  [
+   "SKILL 2",
+   "Evasive Fang",
+   "กระโดดถอยพร้อมปัด ต่อ Enhanced Chain Slash"
+  ],
+  [
+   "SKILL 3",
+   "Wolf Howl",
+   "คอมโบ 3 จังหวะ · Demon Mode: Wolf Howl III"
+  ],
+  [
+   "EVADE",
+   "Cross Slash",
+   "หลบแล้วพุ่งฟัน · Perfect Evade → หมุนฟัน"
+  ],
+  [
+   "ULTIMATE",
+   "Bone Frenzy",
+   "มอนสะดุด + ปักหนามกระดูก มอนรับมังกร +13% (จุดหนาม +25%) 30 วิ"
+  ],
+  [
+   "CO-OP",
+   "Spiral Onslaught",
+   "Buddy ส่งขึ้นฟ้าหมุนฟัน"
+  ],
+  [
+   "SQUADMATE",
+   "Feral Intimidation",
+   "หลังตัวหลัก React → ทำลายชิ้นส่วนมังกร +35% 15 วิ + การันตี Suppression · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "มอนที่ติดหนาม รับดาเมจอัลติเพิ่มสูงสุด 15% ตาม Affinity"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Awareness",
+   "ตีจุดอ่อน ดาเมจมังกร +40%"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Always Full",
+   "ทีมอิ่มเต็ม ฟื้นสตามินาเร็วขึ้น 10%"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Bone Spikes: Extended",
+   "Bone Spikes อยู่นานขึ้น **15 วิ**"
+  ],
+  [
+   "Bone Spikes: Vulnerability",
+   "ทั้งทีมทำดาเมจมังกรเพิ่มใส่มอนที่มี Bone Spikes **+25%** · ใส่ชิ้นส่วนใกล้ Bone Spikes **+50%**"
+  ],
+  [
+   "Feasting Frenzy",
+   "หลังใช้อัลติ Demon Gauge ไม่ลด **10 วิ**"
+  ],
+  [
+   "Rapid Pulse",
+   "Demon Mode: Wolf Howl II / III ได้ **Unwavering** ระหว่างใช้ท่า และดาเมจสกิล **+40%**"
+  ],
+  [
+   "Thrill of the Hunt",
+   "ระหว่าง Demon Mode ดาเมจมังกร **+40%**"
+  ],
+  [
+   "Pursuit Combo",
+   "ดาเมจสกิล Demon Mode: Bone Piercer **+60%**"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Bloodstained Claws” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Journey Cord",
+   "×1.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×1.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Wooden Carving",
+   "×0.5"
+  ],
+  [
+   "Vista Display",
+   "×0.5"
+  ],
+  [
+   "Dome Landscape",
+   "×0.5"
+  ]
+ ]
+}

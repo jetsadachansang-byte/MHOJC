@@ -1,0 +1,1908 @@
+{
+ "anjanath": {
+  "n": "Anjanath",
+  "cls": "Brute Wyvern",
+  "rank": "★3–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 3,
+   "Thunder": 2,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "เล็ก",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไฟลุก",
+  "breakable": "หัว, ขาหลัง, หาง",
+  "area": "ทั้ง 5 พื้นที่"
+ },
+ "barroth": {
+  "n": "Barroth",
+  "cls": "Brute Wyvern",
+  "rank": "★2–★9",
+  "el": {
+   "Fire": 3,
+   "Water": 3,
+   "Thunder": 1,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 3,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "ขาหน้า (ปกติ)",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า (มีโคลน)",
+    1,
+    1,
+    1
+   ],
+   [
+    "หาง (ปกติ)",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง (มีโคลน)",
+    1,
+    1,
+    1
+   ]
+  ],
+  "aim": "ขาหน้า (ปกติ)",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "น้ำเกาะ",
+  "breakable": "หัว, ขาหน้า, ขาหลัง, หาง",
+  "area": "Desert Oasis, Golden Expanse"
+ },
+ "black-diablos": {
+  "n": "Black Diablos",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 2,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    2
+   ],
+   [
+    "ท้อง",
+    3,
+    3,
+    2
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    1,
+    3
+   ],
+   [
+    "ปีกขวา",
+    2,
+    1,
+    3
+   ]
+  ],
+  "aim": "ท้อง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ใหญ่",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ลำตัว, หาง",
+  "area": "Desert Oasis"
+ },
+ "diablos": {
+  "n": "Diablos",
+  "cls": "Flying Wyvern",
+  "rank": "★9",
+  "el": {
+   "Fire": 1,
+   "Water": 2,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 2
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    2
+   ],
+   [
+    "ท้อง",
+    3,
+    3,
+    2
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    1,
+    3
+   ],
+   [
+    "ปีกขวา",
+    2,
+    1,
+    3
+   ]
+  ],
+  "aim": "ท้อง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ใหญ่",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ลำตัว, หาง",
+  "area": "Desert Oasis"
+ },
+ "great-girros": {
+  "n": "Great Girros",
+  "cls": "Fanged Wyvern",
+  "rank": "★2–★9",
+  "el": {
+   "Fire": 2,
+   "Water": 3,
+   "Thunder": 1,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 3,
+   "Paralyzed": 1,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "อัมพาต",
+  "breakable": "หัว, ขาหน้า, หาง",
+  "area": "Muddy Swamp"
+ },
+ "great-jagras": {
+  "n": "Great Jagras",
+  "cls": "Fanged Wyvern",
+  "rank": "★1–★9",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 3,
+   "Paralyzed": 3,
+   "Blast": 3,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า",
+    2,
+    2,
+    2
+   ],
+   [
+    "ท้อง",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ขาหน้า, ลำตัว",
+  "area": "Outlands, Muddy Swamp"
+ },
+ "jyuratodus": {
+  "n": "Jyuratodus",
+  "cls": "Piscine Wyvern",
+  "rank": "★2–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 3,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 1,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว (ปกติ)",
+    3,
+    3,
+    3
+   ],
+   [
+    "หัว (มีโคลน)",
+    3,
+    3,
+    2
+   ],
+   [
+    "หาง",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "หัว (ปกติ)",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ไม่มี",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "น้ำเกาะ",
+  "breakable": "หัว, ลำตัว, หาง, ครีบ",
+  "area": "Desert Oasis, Golden Expanse, Outlands"
+ },
+ "kulu-ya-ku": {
+  "n": "Kulu-Ya-Ku",
+  "cls": "Bird Wyvern",
+  "rank": "★1–★9",
+  "el": {
+   "Fire": 2,
+   "Water": 3,
+   "Thunder": 2,
+   "Ice": 2,
+   "Dragon": 2
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ไม่มี",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไฟลุก",
+  "breakable": "หัว, ขาหน้า",
+  "area": "Desert Oasis, Golden Expanse, Outlands, Muddy Swamp"
+ },
+ "kushala-daora": {
+  "n": "Kushala Daora",
+  "cls": "Elder Dragons",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 2
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 1,
+   "Paralyzed": 1,
+   "Blast": 3,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    2
+   ],
+   [
+    "ขาหน้า",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    3
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "—",
+   "Screamer Pod": "—"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ใหญ่"
+  },
+  "inflicts": "ไฟลุก",
+  "breakable": "หัว, ปีก, หาง",
+  "area": "Golden Expanse, Outlands, Muddy Swamp"
+ },
+ "legiana": {
+  "n": "Legiana",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 2,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    2,
+    2
+   ],
+   [
+    "ปีกขวา",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "น้ำแข็งเกาะ",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "Muddy Swamp, Mistwood"
+ },
+ "odogaron": {
+  "n": "Odogaron",
+  "cls": "Fanged Wyvern",
+  "rank": "★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "เลือดออก",
+  "breakable": "หัว, ขาหน้า, ขาหลัง, หาง",
+  "area": "ไม่ระบุ"
+ },
+ "paolumu": {
+  "n": "Paolumu",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 3,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    2,
+    2
+   ],
+   [
+    "ถุงคอ",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "ถุงคอ",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "อก, ปีก, ลำตัว, หาง",
+  "area": "Muddy Swamp, Mistwood"
+ },
+ "pink-rathian": {
+  "n": "Pink Rathian",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    2,
+    2
+   ],
+   [
+    "ปีกขวา",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "พิษ, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "ทั้ง 5 พื้นที่"
+ },
+ "pukei-pukei": {
+  "n": "Pukei-Pukei",
+  "cls": "Bird Wyvern",
+  "rank": "★1–★9",
+  "el": {
+   "Fire": 2,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 3,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีก",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "พิษ, พิษร้าย",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "ทั้ง 5 พื้นที่"
+ },
+ "radiant-anjanath": {
+  "n": "Radiant Anjanath",
+  "cls": "Brute Wyvern",
+  "rank": "★5–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 3,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "เล็ก",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไฟลุก",
+  "breakable": "หัว, ขาหลัง, หาง",
+  "area": "ทั้ง 5 พื้นที่",
+  "radiant": true
+ },
+ "radiant-barroth": {
+  "n": "Radiant Barroth",
+  "cls": "Brute Wyvern",
+  "rank": "★6–★10",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 3,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว (ปกติ)",
+    2,
+    3,
+    1
+   ],
+   [
+    "หัว (มีโคลน)",
+    1,
+    1,
+    1
+   ],
+   [
+    "ขาหน้า (ปกติ)",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า (มีโคลน)",
+    1,
+    1,
+    1
+   ]
+  ],
+  "aim": "ขาหน้า (ปกติ)",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "เล็ก",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "น้ำเกาะ",
+  "breakable": "หัว, ขาหน้า, ขาหลัง, หาง",
+  "area": "Desert Oasis, Golden Expanse",
+  "radiant": true
+ },
+ "radiant-black-diablos": {
+  "n": "Radiant Black Diablos",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    1
+   ],
+   [
+    "ท้อง",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "ท้อง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "เล็ก",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ลำตัว, หาง",
+  "area": "Desert Oasis",
+  "radiant": true
+ },
+ "radiant-diablos": {
+  "n": "Radiant Diablos",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    1
+   ],
+   [
+    "ท้อง",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "ท้อง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ใหญ่",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ลำตัว, หาง",
+  "area": "Desert Oasis",
+  "radiant": true
+ },
+ "radiant-great-girros": {
+  "n": "Radiant Great Girros",
+  "cls": "Fanged Wyvern",
+  "rank": "★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 3,
+   "Paralyzed": 1,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "อัมพาต",
+  "breakable": "หัว, ขาหน้า, หาง",
+  "area": "Muddy Swamp",
+  "radiant": true
+ },
+ "radiant-great-jagras": {
+  "n": "Radiant Great Jagras",
+  "cls": "Fanged Wyvern",
+  "rank": "★4–★9",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 3,
+   "Paralyzed": 3,
+   "Blast": 3,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "ท้อง",
+    2,
+    3,
+    1
+   ]
+  ],
+  "aim": "ท้อง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว, ขาหน้า, ลำตัว",
+  "area": "Outlands, Muddy Swamp, Mistwood",
+  "radiant": true
+ },
+ "radiant-jyuratodus": {
+  "n": "Radiant Jyuratodus",
+  "cls": "Piscine Wyvern",
+  "rank": "★7–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 1,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว (ปกติ)",
+    3,
+    3,
+    3
+   ],
+   [
+    "หัว (มีโคลน)",
+    3,
+    3,
+    2
+   ],
+   [
+    "ลำตัว",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "หัว (ปกติ)",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ไม่มี",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "น้ำเกาะ",
+  "breakable": "หัว, ลำตัว, หาง, ครีบ",
+  "area": "Desert Oasis",
+  "radiant": true
+ },
+ "radiant-kulu-ya-ku": {
+  "n": "Radiant Kulu-Ya-Ku",
+  "cls": "Bird Wyvern",
+  "rank": "★6–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 3,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า",
+    2,
+    3,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ใหญ่"
+  },
+  "inflicts": "ไฟลุก",
+  "breakable": "หัว, ขาหน้า",
+  "area": "Desert Oasis, Golden Expanse, Outlands, Muddy Swamp",
+  "radiant": true
+ },
+ "radiant-legiana": {
+  "n": "Radiant Legiana",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีกซ้าย",
+    3,
+    2,
+    1
+   ],
+   [
+    "ปีกขวา",
+    3,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "น้ำแข็งเกาะ",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "Muddy Swamp, Mistwood",
+  "radiant": true
+ },
+ "radiant-odogaron": {
+  "n": "Radiant Odogaron",
+  "cls": "Fanged Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหน้า",
+    3,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "เลือดออก",
+  "breakable": "หัว, ขาหน้า, ขาหลัง, หาง",
+  "area": "ไม่ระบุ",
+  "radiant": true
+ },
+ "radiant-paolumu": {
+  "n": "Radiant Paolumu",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 3,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    2
+   ],
+   [
+    "ถุงคอ",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "อก, ปีก, ลำตัว, หาง",
+  "area": "Muddy Swamp, Mistwood",
+  "radiant": true
+ },
+ "radiant-pink-rathian": {
+  "n": "Radiant Pink Rathian",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "หาง",
+    3,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "พิษ, พิษร้าย, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "Desert Oasis, Golden Expanse, Outlands, Muddy Swamp",
+  "radiant": true
+ },
+ "radiant-pukei-pukei": {
+  "n": "Radiant Pukei-Pukei",
+  "cls": "Bird Wyvern",
+  "rank": "★4–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 3,
+   "Paralyzed": 3,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "พิษ",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "Desert Oasis, Golden Expanse, Outlands, Muddy Swamp",
+  "radiant": true
+ },
+ "radiant-radobaan": {
+  "n": "Radiant Radobaan",
+  "cls": "Brute Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 1,
+   "Paralyzed": 2,
+   "Blast": 3,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ลำตัว",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ใหญ่",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "ขากรรไกร, ลำตัวด้านข้าง, หาง",
+  "area": "Desert Oasis",
+  "radiant": true
+ },
+ "radiant-rathalos": {
+  "n": "Radiant Rathalos",
+  "cls": "Flying Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    3,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "เล็ก",
+   "แรงลม": "ใหญ่"
+  },
+  "inflicts": "พิษ, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "ทั้ง 5 พื้นที่",
+  "radiant": true
+ },
+ "radiant-rathian": {
+  "n": "Radiant Rathian",
+  "cls": "Flying Wyvern",
+  "rank": "★3–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 3,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "หาง",
+    3,
+    2,
+    1
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "พิษ, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "Desert Oasis, Golden Expanse, Muddy Swamp, Mistwood",
+  "radiant": true
+ },
+ "radiant-tobi-kadachi": {
+  "n": "Radiant Tobi-Kadachi",
+  "cls": "Fanged Wyvern",
+  "rank": "★9",
+  "el": {
+   "Fire": 1,
+   "Water": 3,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หาง",
+    3,
+    3,
+    2
+   ]
+  ],
+  "aim": "หาง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "สายฟ้าช็อต",
+  "breakable": "หัว, ขาหน้า, ลำตัว, หาง",
+  "area": "Outlands, Mistwood",
+  "radiant": true
+ },
+ "radiant-tzitzi-ya-ku": {
+  "n": "Radiant Tzitzi-Ya-Ku",
+  "cls": "Bird Wyvern",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "อวัยวะเรืองแสง",
+    3,
+    1,
+    2
+   ]
+  ],
+  "aim": "อวัยวะเรืองแสง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ไม่มี",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ใหญ่"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว",
+  "area": "Muddy Swamp",
+  "radiant": true
+ },
+ "radobaan": {
+  "n": "Radobaan",
+  "cls": "Brute Wyvern",
+  "rank": "★9",
+  "el": {
+   "Fire": 2,
+   "Water": 2,
+   "Thunder": 2,
+   "Ice": 2,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 1,
+   "Paralyzed": 2,
+   "Blast": 3,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ขาหลัง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ใหญ่",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "ขากรรไกร, ลำตัวด้านข้าง, หาง",
+  "area": "Desert Oasis"
+ },
+ "rathalos": {
+  "n": "Rathalos",
+  "cls": "Flying Wyvern",
+  "rank": "★8–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    2,
+    2
+   ],
+   [
+    "ปีกขวา",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ใหญ่"
+  },
+  "inflicts": "พิษ, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "ทั้ง 5 พื้นที่"
+ },
+ "rathian": {
+  "n": "Rathian",
+  "cls": "Flying Wyvern",
+  "rank": "★7–★9",
+  "el": {
+   "Fire": 1,
+   "Water": 1,
+   "Thunder": 2,
+   "Ice": 1,
+   "Dragon": 3
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 1,
+   "Stun": 3
+  },
+  "parts": [
+   [
+    "หัว",
+    3,
+    3,
+    3
+   ],
+   [
+    "ปีกซ้าย",
+    2,
+    2,
+    2
+   ],
+   [
+    "ปีกขวา",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    2,
+    2,
+    2
+   ]
+  ],
+  "aim": "หัว",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "เล็ก"
+  },
+  "inflicts": "พิษ, ไฟลุก",
+  "breakable": "หัว, ปีก, ลำตัว, หาง",
+  "area": "ทั้ง 5 พื้นที่"
+ },
+ "ruger-aidal": {
+  "n": "Ruger Aidal",
+  "cls": "Elder Dragons",
+  "rank": "ไม่ระบุ",
+  "el": {
+   "Fire": 3,
+   "Water": 1,
+   "Thunder": 1,
+   "Ice": 3,
+   "Dragon": 2
+  },
+  "st": {
+   "Poison": 1,
+   "Sleep": 1,
+   "Paralyzed": 1,
+   "Blast": 3,
+   "Stun": 1
+  },
+  "parts": [
+   [
+    "หัว",
+    1,
+    2,
+    2
+   ],
+   [
+    "ปีก",
+    2,
+    1,
+    2
+   ],
+   [
+    "ขาหน้า",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    3,
+    1,
+    1
+   ]
+  ],
+  "aim": "ขาหน้า",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "—",
+   "Screamer Pod": "—"
+  },
+  "beh": {
+   "คำราม": "ใหญ่",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไฟลุก, มึน",
+  "breakable": "หัว, ขาหน้า, ขาหลัง, ปีก, หาง, ลำตัว",
+  "area": "ไม่ระบุ"
+ },
+ "tobi-kadachi": {
+  "n": "Tobi-Kadachi",
+  "cls": "Fanged Wyvern",
+  "rank": "★5–★9",
+  "el": {
+   "Fire": 2,
+   "Water": 2,
+   "Thunder": 1,
+   "Ice": 2,
+   "Dragon": 1
+  },
+  "st": {
+   "Poison": 3,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "หัว",
+    2,
+    2,
+    2
+   ],
+   [
+    "หาง",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "หาง",
+  "items": {
+   "Flash Pod": "ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "เล็ก",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "สายฟ้าช็อต",
+  "breakable": "หัว, ขาหน้า, ลำตัว, หาง",
+  "area": "Outlands, Mistwood"
+ },
+ "tzitzi-ya-ku": {
+  "n": "Tzitzi-Ya-Ku",
+  "cls": "Bird Wyvern",
+  "rank": "★10",
+  "el": {
+   "Fire": 2,
+   "Water": 2,
+   "Thunder": 3,
+   "Ice": 3,
+   "Dragon": 2
+  },
+  "st": {
+   "Poison": 2,
+   "Sleep": 2,
+   "Paralyzed": 2,
+   "Blast": 2,
+   "Stun": 2
+  },
+  "parts": [
+   [
+    "อวัยวะเรืองแสง",
+    3,
+    3,
+    3
+   ]
+  ],
+  "aim": "อวัยวะเรืองแสง",
+  "items": {
+   "Flash Pod": "ไม่ได้ผล",
+   "Pitfall Trap": "ได้ผล",
+   "Screamer Pod": "ไม่ได้ผล"
+  },
+  "beh": {
+   "คำราม": "ไม่มี",
+   "แผ่นดินไหว": "ไม่มี",
+   "แรงลม": "ไม่มี"
+  },
+  "inflicts": "ไม่มี",
+  "breakable": "หัว",
+  "area": "Muddy Swamp"
+ }
+}

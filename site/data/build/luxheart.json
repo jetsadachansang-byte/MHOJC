@@ -1,0 +1,127 @@
+{
+ "id": "luxheart",
+ "tag": "SR · GREAT SWORD · THUNDER",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [],
+ "buddies_empty": "ยังไม่มีเว็บแนะนำ",
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Thunder ×4",
+   "",
+   "Thunder 4 ชิ้น: ทำดาเมจ → สายฟ้า +5% 12 วิ (สูงสุด 5)"
+  ],
+  [
+   "สายซัพ",
+   "Ink of Guidance ×4 + Ink of Grace ×2",
+   "",
+   "GameWith JP แนะนำเมื่อใช้เป็นตัวรอง"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สาย Perfect Guard",
+   "weapon": "Radiant Lightning Punisher VI",
+   "alt": "ATK 1019 · สายฟ้า 510",
+   "armor": {
+    "head": "Alloy Helm VI",
+    "chest": "Lumu Mail VI",
+    "arms": "Radiant Anja Vambraces VI",
+    "waist": "Rathalos Coil VI",
+    "legs": "Lumu Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Paolumu's Presence",
+     "tag": "set"
+    },
+    {
+     "n": "Offensive Defense 7",
+     "tag": "max"
+    },
+    {
+     "n": "Wrecker 4",
+     "tag": "max"
+    },
+    {
+     "n": "Fire Resistance 2"
+    },
+    {
+     "n": "Breaker 2"
+    },
+    {
+     "n": "Blessing 1"
+    },
+    {
+     "n": "Weakspot Exploit 1"
+    },
+    {
+     "n": "Water Resistance 1"
+    },
+    {
+     "n": "Flawless 1"
+    },
+    {
+     "n": "Windproof 1"
+    }
+   ],
+   "note": "Offensive Defense: ดาเมจเพิ่มหลัง Perfect Guard"
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุสายฟ้า",
+   "weapon": "Radiant Lightning Punisher VI",
+   "alt": "ATK 1019 · สายฟ้า 510",
+   "armor": {
+    "head": "Kadachi Helm VI",
+    "chest": "Lumu Mail VI",
+    "arms": "Girros Vambraces VI",
+    "waist": "Radiant Girros Coil VI",
+    "legs": "Lumu Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Paolumu's Presence",
+     "tag": "set"
+    },
+    {
+     "n": "Thunder Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Offensive Defense 5"
+    },
+    {
+     "n": "Deterrence 2"
+    },
+    {
+     "n": "Unleashed 1"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Blessing 1"
+    },
+    {
+     "n": "Fearless 1"
+    },
+    {
+     "n": "Flawless 1"
+    },
+    {
+     "n": "Windproof 1"
+    }
+   ]
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai"
+}

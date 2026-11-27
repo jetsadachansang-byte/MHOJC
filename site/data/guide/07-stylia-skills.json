@@ -1,0 +1,13 @@
+{"id":"07-stylia-skills","who":"stylia","kind":"rows","eyebrow":"MHO · STYLIA · SKILLS","title":"Stylia","subtitle":"สกิลทั้งหมด (ไฟล์เกม)",
+"rows":[
+ ["ระบบหลัก","Performance Frequency","ค่า Frequency แบ่งเป็น 3 เฟส **Prelude** · **Resonance** · **Elegy** · เฟส **Resonance** เสริมทุกสกิล · เฟส **Elegy** ล็อกบางสกิล"],
+ ["BASIC ATTACK","Rapid Fire","แตะยิงธนูระยะไกล · กดค้าง **ชาร์จได้ 4 ระดับ** · ยิงโดนในเฟส Prelude / Resonance → Frequency **+5**"],
+ ["SKILL 1","Waltz","ยิงระยะไกลพร้อมขยับตัว **ปัดการโจมตีได้** · ปัดสำเร็จคืนสตามินา 50% · ลด Frequency 3 (Prelude) / 15 (Elegy) · ร่าง **Resonant Waltz** ลด 15 (Resonance)"],
+ ["SKILL 2","Swan Step","ยิง **Echo Arrow** โดน → Frequency **+20** · ลูกธนูค้าง 30 วิ สูงสุด 6 ดอก · **Resonant Swan Step** ยิง 2 ดอก · ใช้ไม่ได้ในเฟส Elegy"],
+ ["SKILL 3","Double / Triple Lutz","**Double Lutz:** Frequency +15 ชาร์จ +1 ยิงกลางอากาศ 2 ดอก · **Triple Lutz** (Burst): 3 ดอก + ท่าปิดกระจาย · ดอกละ +10 · ท่าปิด **จุดระเบิด Echo Arrow** · ใช้ไม่ได้ใน Elegy"],
+ ["EVADE","Roll","กลิ้งหลบ · **Perfect Evade** อมตะ 0.5 วิ"],
+ ["ULTIMATE","Royal Salutation","ดีดพิณแต่ละครั้ง เพื่อนได้ **ดาเมจธาตุ +6%** ต่อสแตก (ครั้งแรก 1 · ครั้งที่สอง 2 · สูงสุด 3) · ช่วง Resonance กว้างขึ้น **20% 15 วิ**"],
+ ["CO-OP SKILL","Princess's Flight","Buddy มาช่วย Stylia **เข้าเฟส Resonance** · ตีโดนจุด Co-op Focus → เฟส Co-op เพิ่ม"],
+ ["SQUADMATE SKILL","Resonance Charge","Burst ของตัวหลักโดน → ทีมได้ Ultimate Energy **11** ใน 6 วิ + **ดาเมจคริธาตุ +30%** 15 วิ · **ทุก 50 วิ**"],
+ ["INSIGHT (เผย 2)","Opening Overture / Encore Echo","**Opening Overture:** เล่นอัลติครั้งแรก → ทีมดาเมจคริธาตุ **+20%**\n**Encore Echo:** ปัดด้วย Skill 1 สำเร็จ → ท่าปิด Skill 3 ครั้งถัดไปเพิ่ม Echo Arrow"]],
+"source":"ข้อมูล: mhohub (ไฟล์เกม ยังไม่ยืนยันในเกม) · ตัด Trait ที่ดูเป็นข้อมูลของตัวอื่นออก"}
