@@ -19,7 +19,8 @@
  {
   "category": "gift icon",
   "name": "Sheet",
-  "reason": "no item with this name on GameWith.ai items"
+  "reason": "no item with this name on GameWith.ai items",
+  "using_instead": "img/gift/sheet.webp (official promo image from your pack in assets/images)"
  },
  {
   "category": "outfit / skin",

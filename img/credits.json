@@ -7358,5 +7358,11 @@
   "source": "https://img.gamewith.jp/img/8040c07db42e6f1ed249a6260a882ce8.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/vespoid",
   "note": "background removed, resized"
+ },
+ "img/gift/sheet.webp": {
+  "source": "assets/images/03-gifts/sheet.png",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
+  "w": 128,
+  "h": 64
  }
 }
