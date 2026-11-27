@@ -226,7 +226,8 @@ renderBuddyCards=function(){
   const opts=['ทั้งหมด','SSR','SR','R','Assault','Disruptor','Support'];
   $('#bc-filter').innerHTML=opts.map(o=>`<button class="chip" aria-pressed="${o===bcF}" data-bcf="${o}">${o}${BT_TH[o]?' · '+BT_TH[o]:''}</button>`).join('');
   const list=MEDIA.buddyCards.filter(b=>(bcF==='ทั้งหมด'||b.r===bcF||b.t===bcF)&&(!bcQ||(b.n+' '+b.sp+' '+b.t+' '+(b.boost||'')).toLowerCase().includes(bcQ)));let h='',g='';
-  list.forEach(b=>{const k=b.r+' · '+b.t;if(k!==g){g=k;h+=`<div class="bc-group">${esc(b.r)} ${RSTAR[b.r]||''} · ${esc(b.t)} (${BT_TH[b.t]||''})</div>`}
+  const TO={Assault:0,Disruptor:1,Support:2},RO={SSR:0,SR:1,R:2};list.sort((x,y)=>(TO[x.t]??9)-(TO[y.t]??9)||(RO[x.r]??9)-(RO[y.r]??9)||x.n.localeCompare(y.n));
+  list.forEach(b=>{const k=b.t;if(k!==g){g=k;h+=`<div class="bc-group">${esc(b.t)} · ${BT_TH[b.t]||''} <small class="muted" style="font-weight:400">${list.filter(x=>x.t===k).length} ตัว</small></div>`}
     const parts=(b.boost||'').split(';').map(x=>x.trim()).filter(Boolean);
     h+=`<article class="bc"><button data-zoom="${b.img}" data-cap="${esc(b.n)} · ${b.r} · ${esc(b.t)}" aria-label="ขยายรูป ${esc(b.n)}">${b.img?IMG(b.img,'',b.n):blank(b.n)}</button>
      <div class="meta"><b><span>${esc(b.n)}</span><span class="rk ${b.r}">${b.r}</span></b><span class="stars2">${RSTAR[b.r]||''}</span>
@@ -519,3 +520,13 @@ document.addEventListener('click',e=>{const c=e.target.closest('[data-mcat]'),b=
   else if(b){mView=+b.dataset.mback;if(mView===0){monQ='';$('#mon-q').value=''}renderMonsters();scrollTo(0,0)}
   else if(s||e.target.closest('[data-mon]')){mView=2;renderMonsters();scrollTo(0,0)}});
 renderMonsters();
+
+/* ---- group characters by element, skills by category ---- */
+const _rc3=renderChars;renderChars=function(){_rc3();const G=$('#ch-grid');const list=CH.filter(c=>chF==='ทั้งหมด'||c.r===chF||c.w===chF);if(!list.length)return;
+  const EO=['Fire','Water','Thunder','Ice','Dragon'];const els=[...new Set(list.map(c=>c.el))].sort((a,b)=>EO.indexOf(a)-EO.indexOf(b));
+  G.innerHTML=els.map(e=>{const l=list.filter(c=>c.el===e).sort((a,b)=>(a.r==='SSR'?0:1)-(b.r==='SSR'?0:1)||a.n.localeCompare(b.n));const k=ELK(e);
+    return `<div class="bc-group">${k?ei(k)+' ธาตุ'+WK_TH[k]:esc(e)} <small class="muted" style="font-weight:400">${l.length} ตัว</small></div>`+l.map(chCard).join('')}).join('')};
+const _rs3=renderSkills;renderSkills=function(){_rs3();if(skCat!=='ทั้งหมด')return;const G=$('#sk-grid');const arts=[...G.querySelectorAll('article.sk-card')];if(!arts.length)return;
+  const by={};arts.forEach(a=>{const c=(a.querySelector('.cat')||{}).textContent.split(' · ')[0];(by[c]=by[c]||[]).push(a)});G.innerHTML='';
+  [...CAT_ORDER,...Object.keys(by).filter(c=>!CAT_ORDER.includes(c))].forEach(c=>{if(!by[c])return;G.insertAdjacentHTML('beforeend',`<div class="bc-group">${esc(c)} <small class="muted" style="font-weight:400">${by[c].length} สกิล</small></div>`);by[c].forEach(a=>G.appendChild(a))})};
+renderChars();renderSkills();renderBuddyCards();
