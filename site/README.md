@@ -14,3 +14,10 @@ Thai fan site for Monster Hunter Outlanders, deployed at https://mho-builder-9qq
 - `manifest-armor.json` – every set, piece names, top-rarity skills, set skill, image paths and source URLs (GameWith.ai).
 - `missing-armor.json` – pieces with no usable artwork. `conflicts-armor.json` – data differences between GameWith.ai and mhoutlandersbuild.com (currently none).
 - Pipeline: `tools/make_armor_manifest.py` (manifest) → `tools/build_armor_db.py` (site database + web images).
+
+## Real images (branch real-images)
+
+- `tools/fetch_real_images.py` downloads images from GameWith.ai / GameWith JP into `img/` (WebP q82: icons 256px, portraits 512px, full art ≤1600px) and writes `img/credits.json` (source URL of every image) and `img/missing.json`.
+- `tools/build_media.py` → `media.js`; `tools/build_cards.py` → `cards.js` from `data/` (character info, builds, guides and monster cards transcribed from the old image cards, content unchanged).
+- `src/ui2.js` renders those as HTML. `vendor/html2canvas.min.js` (MIT) powers “บันทึกเป็นรูป”.
+- Old images are kept in `img/_old/` (not used by the site).

@@ -1,0 +1,143 @@
+{
+ "id": "raya",
+ "name": "Raya",
+ "profile": {
+  "class": "Disruptor",
+  "weapon": "Dual Blades",
+  "element": "Fire · ไฟ",
+  "rarity": "SR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Nako (หรือ Falee Hendsom)"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Chain Slash",
+   "ฟันสูงสุด 4 ครั้ง เติม Demon Gauge"
+  ],
+  [
+   "SKILL 1",
+   "Demon Mode",
+   "เพิ่มพลัง ความเร็ว ไม่สะดุด"
+  ],
+  [
+   "SKILL 2",
+   "Whirling Dance",
+   "หมุนฟัน · หลังใช้สกิล ปัดได้ → Rising Whirling Dance"
+  ],
+  [
+   "SKILL 3",
+   "Chain Dance",
+   "พุ่ง 3 ครั้งเติมเกจ ต่อ Cross Chain Dance"
+  ],
+  [
+   "EVADE",
+   "Cross Slash",
+   "หลบแล้วพุ่งฟัน · Perfect Evade อมตะ 0.5 วิ"
+  ],
+  [
+   "ULTIMATE",
+   "Berserker Dance",
+   "ธูปทำมอนติด Suppression + Buddy วางกับดัก ขัง 4 วิ"
+  ],
+  [
+   "CO-OP",
+   "Returning Dance",
+   "ยิงตัวจากรถธูป คอมโบหลายฮิต"
+  ],
+  [
+   "SQUADMATE",
+   "Whirling Intimidation",
+   "หลังตัวหลัก React → กับดักนานขึ้น 1 วิ + การันตี Suppression · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "กับดักจากอัลติขังนานขึ้นตามชาร์จอัลติ (สูงสุด +1.5 วิ)"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Trump Card",
+   "คอมโบโดน Demon Gauge +5"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Bonepile Excavation",
+   "เก็บฟอสซิล 25% ได้เพิ่ม 1"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Twirling Grace",
+   "Demon Mode: หลัง Rising Whirling Dance กด Skill 3 → ใช้ Devastating Whirling Dance ทันที · โดนแล้ว 50% โอกาส Demon Gauge **+20**"
+  ],
+  [
+   "Windstride",
+   "ดาเมจสกิล Rising / Devastating Whirling Dance **+25%**"
+  ],
+  [
+   "Endless Rotation",
+   "ช่วงปัดของ Skill 2 นานขึ้น · Unwavering ระหว่าง Rising / Devastating Whirling Dance นานขึ้น"
+  ],
+  [
+   "Fiery Inhibitor",
+   "อัลติโดน → มอนรับดาเมจไฟ **+36%** 15 วิ"
+  ],
+  [
+   "Graceful One",
+   "ชาร์จอัลติ **+20%**"
+  ],
+  [
+   "Lingering Chain Dance",
+   "ดาเมจสกิล Cross Chain Dance ที่ต่อจาก Skill 3 **+30%**"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Fluttering Plume” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Outlands Poetry",
+   "×1.5"
+  ],
+  [
+   "Bonfire Album",
+   "×1.5"
+  ],
+  [
+   "Kulune Songbook",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Wooden Carving",
+   "×0.5"
+  ],
+  [
+   "Vista Display",
+   "×0.5"
+  ],
+  [
+   "Dome Landscape",
+   "×0.5"
+  ]
+ ]
+}

@@ -146,7 +146,7 @@
         </div>
       </div>
       <div class="field-card"><div>
-        <button class="hero-art zoom" data-zoom="img/banner/og-cover-1200x630.webp" style="padding:0;margin:0 0 14px;width:100%;background:none" aria-label="ขยายภาพปก"><img src="img/banner/og-cover-1200x630.webp" alt="Monster Hunter Outlanders"></button>
+        
         <h3>ในบันทึกเล่มนี้</h3>
         <div class="tally" id="tally"></div>
         <div class="coords">ข้อมูลจาก 3rd Closed Beta Test · อัปเดต พ.ย. 2026</div>
@@ -158,10 +158,6 @@
       <a class="route" href="#builder"><span class="eyebrow">เครื่องมือ</span><h4>จัดบิลด์ 6 ช่อง</h4><p>อาวุธ 1 ชิ้น และเกราะหัว ลำตัว แขน เอว ขา ระบบรวมเลเวลสกิล บวกเลเวลจากเซ็ทเอฟเฟกต์ และสรุปออปชั่นทั้งหมดเป็นภาษาไทย</p></a>
       <a class="route" href="#armor"><span class="eyebrow">ฐานข้อมูล</span><h4>ชุดเกราะ 48 ชุด</h4><p>เกราะครบ 240 ชิ้น พร้อมไอคอนและรูปชุดเต็มตัว พร้อมสกิลของแต่ละชิ้นและเซ็ทเอฟเฟกต์ที่ได้เมื่อใส่ครบ 2 หรือ 3 ชิ้น</p></a>
       <a class="route" href="#skills"><span class="eyebrow">ข้อมูลอ้างอิง</span><h4>สกิล 88 อย่าง</h4><p>ผลของทุกเลเวลเป็นภาษาไทย และบอกว่าได้จากเกราะชิ้นไหนหรือเซ็ทไหน</p></a>
-    </div>
-    <div class="section">
-      <h3>ข่าวและอัปเดต</h3>
-      <div class="news" id="home-news"></div>
     </div>
     <div class="section">
       <h3>ตัวละคร</h3>
@@ -214,6 +210,10 @@
           <div class="sum" id="bd-summary"></div>
         </div>
         <div class="panel">
+          <div class="panel-h"><h3>การ์ดบิลด์</h3><button class="btn btn-brass btn-sm" id="bd-shot" type="button">บันทึกเป็นรูป</button></div>
+          <div id="bd-card" style="padding:14px 16px"></div>
+        </div>
+        <div class="panel">
           <div class="panel-h"><h3>ค่าสถานะ</h3><span class="muted" style="font-size:12px">ค่าพื้นฐาน + สกิลที่คำนวณได้</span></div>
           <div class="stats" id="bd-stats"></div>
           <div class="res" id="bd-res"></div>
@@ -255,7 +255,7 @@
     <div class="section">
       <h3>บัดดี้ทั้งหมด</h3>
       <p class="muted" style="margin:-4px 0 14px;font-size:14px">บัดดี้ 38 ตัว เรียงตามระดับ SSR → SR → R แล้วตามสาย Assault → Disruptor → Support · ค่าบัฟคือบัฟที่ให้ตัวละคร (Adventurer Boost) จาก GameWith.ai</p>
-      <div class="chips" id="bc-filter" style="margin-bottom:14px"></div>
+      <div style="display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:10px;margin-bottom:14px;align-items:center" class="bc-bar"><input class="input" id="bc-q" type="search" placeholder="ค้นหาบัดดี้ เช่น Kojiro, Rutaco"><div class="chips" id="bc-filter"></div></div>
       <div class="bc-grid" id="bc-grid"></div>
     </div>
   </div>
@@ -301,7 +301,7 @@
 <section id="v-monsters" data-view="monsters" hidden>
   <div class="wrap view">
     <div class="view-head"><div><div class="eyebrow">สารานุกรม</div><h2>มอนสเตอร์</h2><p>จุดอ่อนธาตุและสถานะ จุดอ่อนร่างกาย และอุปกรณ์ที่สร้างจากวัตถุดิบของมัน</p></div>
-      <div class="chips" id="mon-cls"></div></div>
+      <div style="display:grid;gap:10px;min-width:0"><input class="input" id="mon-q" type="search" placeholder="ค้นหามอนสเตอร์ เช่น Rathalos, Radiant"><div class="chips" id="mon-cls"></div></div></div>
     <div class="mon-layout">
       <div class="mon-grid" id="mon-grid"></div>
       <aside class="mon-detail" id="mon-detail" aria-live="polite"></aside>
@@ -311,8 +311,8 @@
 </main>
 
 <footer><div class="wrap">
-  <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับผู้พัฒนาหรือผู้จัดจำหน่ายเกม · ภาพและชื่อในเกมเป็นลิขสิทธิ์ของ Capcom
-  <span class="credit">ข้อมูลชุดเกราะและภาพชุดเกราะ: <a href="https://gamewith.ai/monster-hunter-outlanders/en/armor" target="_blank" rel="noopener">GameWith.ai</a> · ข้อมูลอ้างอิงเพิ่มเติม: <a href="https://game8.co/games/Monster-Hunter-Outlanders" target="_blank" rel="noopener">Game8</a>, mhoutlandersbuild.com · ตัวเลขอาจต่างจากเกมจริงหลังอัปเดต</span></span>
+  <span>ข้อมูลและรูปจาก GameWith / Game8 · เว็บแฟนเมด ไม่เกี่ยวข้องกับ Capcom · ภาพเป็นลิขสิทธิ์ของ Capcom
+  <span class="credit">แหล่งรูป: <a href="https://gamewith.ai/monster-hunter-outlanders/en/" target="_blank" rel="noopener">GameWith.ai</a> · <a href="https://gamewith.jp/mhoutlanders/" target="_blank" rel="noopener">GameWith JP</a> · ข้อมูลอ้างอิง: <a href="https://game8.co/games/Monster-Hunter-Outlanders" target="_blank" rel="noopener">Game8</a>, mhoutlandersbuild.com · รายการแหล่งที่มาของทุกรูปอยู่ที่ img/credits.json</span></span>
   <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
 </div></footer>
 
@@ -331,6 +331,8 @@
 
 <script src="db.js"></script>
 <script src="media.js"></script>
+<script src="cards.js"></script>
+<script src="vendor/html2canvas.min.js" defer></script>
 <script>
 const SK=DB.skills, SETS=DB.sets, ARMOR=DB.armor, WEAPONS=DB.weapons, MONS=DB.monsters;
 Object.entries(MEDIA.monsters).forEach(([k,v])=>{if(!DB.monsters.some(m=>m.k===k)){const bk=k.replace(/^radiant-/,''),base=DB.monsters.find(m=>m.k===bk),X={'ruger-aidal':['Elder Dragon','มังกรเฒ่า'],'black-diablos':['Flying Wyvern','วิเวิร์นบิน'],'pink-rathian':['Flying Wyvern','วิเวิร์นบิน']}[bk];DB.monsters.push({k,n:v.n,cls:base?base.cls:X?X[0]:'',clsTh:base?base.clsTh:X?X[1]:'',w:null,wp:'',rad:k.startsWith('radiant-'),nodata:true})}});
@@ -632,7 +634,7 @@ $('#theme-btn').addEventListener('click',()=>{const r=document.documentElement,c
 /* characters */
 const CH=MEDIA.characters;let chSel=CH[0].id,chTab='info',chF='ทั้งหมด';
 const EL_TH={Fire:'ไฟ',Water:'น้ำ',Thunder:'สายฟ้า',Ice:'น้ำแข็ง',Dragon:'มังกร'};
-const chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span><img src="${c.p}" alt="${esc(c.n)}" loading="lazy" decoding="async"><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
+let chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span><img src="${c.p}" alt="${esc(c.n)}" loading="lazy" decoding="async"><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
 function renderChars(){
   const opts=['ทั้งหมด','SSR','SR',...WTYPES.map(t=>t.n).filter(n=>CH.some(c=>c.w===n))];
   $('#ch-filter').innerHTML=opts.map(o=>`<button class="chip" aria-pressed="${o===chF}" data-chf="${esc(o)}">${esc(o)}</button>`).join('');
@@ -688,6 +690,5 @@ document.addEventListener('click',e=>{const z=e.target.closest('[data-zoom]');if
 const lbClose=()=>{$('#lb').hidden=true;$('#lb-img').src='';document.body.style.overflow=''};
 $('#lb-close').addEventListener('click',lbClose);$('#lb').addEventListener('click',e=>{if(e.target.id==='lb'||e.target.id==='lb-scroll')lbClose()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#lb').hidden)lbClose()});
-renderChars();renderMedia();
-renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();
+/* init moved to ui2.js */
 </script>

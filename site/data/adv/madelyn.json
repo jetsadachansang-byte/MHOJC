@@ -1,0 +1,143 @@
+{
+ "id": "madelyn",
+ "name": "Madelyn",
+ "profile": {
+  "class": "Support",
+  "weapon": "Bow",
+  "element": "Water · น้ำ",
+  "rarity": "SR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Ravinge"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Rapid Fire",
+   "ยิงไกล ชาร์จ 4 ระดับ · รีโหลด Catalyst Coating"
+  ],
+  [
+   "SKILL 1",
+   "Slide Shot",
+   "ยิงแม่นรีโหลด Coating · กดค้าง Detonating Shot จุดระเบิดสปอร์"
+  ],
+  [
+   "SKILL 2",
+   "Catalyst Burst",
+   "ใช้ Coating ยิงติดสปอร์"
+  ],
+  [
+   "SKILL 3",
+   "Spore Adhesion",
+   "ใช้ Coating 1/2/3 → สปอร์ +1/2/5"
+  ],
+  [
+   "EVADE",
+   "Piercing Shot",
+   "Perfect Evade → ยิงทะลุ รีโหลด Coating ทั้งหมด"
+  ],
+  [
+   "ULTIMATE",
+   "Stellar Injection",
+   "ปาขวดยาใส่เพื่อน ฮีล + เพิ่มดาเมจ ฮีลต่อ 10 วิ"
+  ],
+  [
+   "CO-OP",
+   "Leaping Arrow",
+   "กระโดดสองชั้นยิงทะลุ · รีโหลด 3"
+  ],
+  [
+   "SQUADMATE",
+   "Violet Plume Charge",
+   "Burst ตัวหลักโดน → Ultimate Energy 4 + ดาเมจน้ำ +25% 15 วิ · ทุก 50 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายน้ำ: ชาร์จอัลติ +1% → ฮีล +1 และทีมดาเมจ +0.2% (สูงสุด 30 / 10%)"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Regenerative Factor",
+   "ชาร์จอัลติ 10%+ → ดาเมจ Skill 2/3 เพิ่ม · 20%+ อัลติฮีลแรงขึ้น"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Herbal Knowledge",
+   "เก็บพืช 25% ได้เพิ่ม 1"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Precise Proportions",
+   "ดาเมจสกิลใส่มอนที่ติดสปอร์ **+2%** ต่อระดับสปอร์"
+  ],
+  [
+   "Potion Catalyst",
+   "หลังได้ Violet Plume Burst → สกิลถัดไปที่ใช้ Catalyst Coating ดาเมจ **+100%**"
+  ],
+  [
+   "Probiotic Colony",
+   "ระหว่างมอนติดสปอร์ โบนัสดาเมจจากอัลติ **×2**"
+  ],
+  [
+   "Potion Permeation",
+   "ผลฟื้นฟูของอัลติแรงขึ้น และบัฟอยู่นานขึ้น **10 วิ**"
+  ],
+  [
+   "Potion Refinement",
+   "ใช้ Catalyst Coating ครบ 3 อัน → เติมเพิ่ม **1 อัน**"
+  ],
+  [
+   "Extreme Catalyst",
+   "ใช้ Charged Shot → ชาร์จทุก 1 ระดับ เติม Catalyst Coating **+1** (สูงสุด 3)"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Fatal Cure” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Glowmoss Bottle",
+   "×1.5"
+  ],
+  [
+   "Forest Amber",
+   "×1.5"
+  ],
+  [
+   "Moonfeather Chime",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Journey Cord",
+   "×0.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×0.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×0.5"
+  ]
+ ]
+}

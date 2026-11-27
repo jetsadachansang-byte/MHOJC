@@ -1,0 +1,12 @@
+{"id":"02-freya-skills","who":"freya","kind":"rows","eyebrow":"MHO · FREYA · SKILLS","title":"Freya","subtitle":"สกิลทั้งหมด",
+"rows":[
+ ["BASIC ATTACK","Charged Slash","กดต่อเป็น Charged Slash → Strong Charged Slash ทุกขั้น **Inner Flame +1** · กดค้างชาร์จได้ (ชาร์จเกินดาเมจลด) · จบคอมโบ Inner Flame กลับเป็น Lv.1 · Burst: **True Charged Slash**"],
+ ["SKILL 1","Guard","การ์ด → Strong Wide Slash → True Charged Slash · **Perfect Guard** ปล่อย True Charged Slash ที่ชาร์จพอดีได้เลย\nการ์ดหลังเก็บดาบ (**Leaning Guard**) → True Dragonbreaker Slash · ถ้า Perfect Guard → **Ultimate Dragonbreaker Slash**"],
+ ["SKILL 2","Blazing Anchor","ใช้ตอน Inner Flame ยังไม่ถึง Lv.3 ฟันแรงแล้วปักดาบ เพิ่ม Inner Flame และระดับชาร์จ ได้ **Unwavering** ระหว่างท่า · ต่อ **Blazing Slash** โดย Inner Flame ไม่ลด"],
+ ["SKILL 3","Spiral Sheathe","หมุนตัวเก็บดาบ Inner Flame คงเดิม · ต้นท่า **ปัดการโจมตีได้** ปัดสำเร็จ → **Inner Flame Lv.3** และอยู่นานขึ้น"],
+ ["ต่อจาก SKILL 3","Flame Dance / Dragonbreaker","**Flame Dance:** Lv.1 Spiral Flame Dance · Lv.2 Flame Dance Loop · Lv.3 Flame Dance Finale\n**Dragonbreaker Slash:** Lv.1 ปกติ · Lv.2 True · Lv.3 Ultimate (ท่า Burst)"],
+ ["EVADE","Draw Slash","หลบแล้วฟันชักดาบ · **Perfect Evade** อมตะ 0.5 วิ"],
+ ["ULTIMATE","Blazing Soul Incineration","คลื่นกระแทก **มอนล้ม + ติด Suppression** แล้วเข้าสถานะ **Blazing Soul** (Inner Flame ค้าง Lv.3)\n⚠ ระยะเวลา: mhohub 15 วิ · Gamerch 25 วิ (ยังไม่ตรงกัน)"],
+ ["CO-OP SKILL","Flameblade Burst","ขยายดาบเป็นดาบยักษ์ ได้ Unwavering · ตีโดนจุด Co-op Focus → เฟส Co-op เพิ่ม"],
+ ["SQUADMATE SKILL","Inner Flame Vulnerability","ตัวหลัก React สำเร็จ → ตามตีซ้ำ มอนรับดาเมจธาตุทุกชนิด **+15% 15 วิ** และ **การันตี Stagger** · **ทุก 40 วิ** · ไม่ทริกเกอร์ Squadmate Skill สาย Assault\n⚠ Gamerch ไม่ได้ลงสกิลนี้"]],
+"source":"ข้อมูล: mhohub · gacha.gg · Gamerch · ก่อนเข้าเกม"}

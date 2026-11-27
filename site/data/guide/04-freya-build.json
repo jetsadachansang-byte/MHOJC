@@ -1,0 +1,14 @@
+{"id":"04-freya-build","who":"freya","kind":"rows","eyebrow":"MHO · FREYA · BUILD","title":"Freya","subtitle":"อาวุธ · เซ็ตเกราะ · สกิล · Visage",
+"sections":[
+ {"h":"BUILD จาก MHOBUILDS (ระดับ R11)","rows":[
+   ["","อาวุธ","**Wrecker Luminous Durandal (Fire)** · ATK 656 · ไฟ 328\nGamerch ก็แนะนำ Luminous Durandal (Fire) เป็นตัวท็อป"],
+   ["","เซ็ตเกราะ","หัว **Anja Helm** · อก **Radiant Rathalos Mail V** · แขน **Baan Vambraces** · เอว **Diablos Coil** · ขา **Radiant Barroth Greaves**"],
+   ["","สกิลเกราะ","[Wrecker 4] [Pierce 4] [Weakspot Follow-Up 3] [Charge Enhancement 3] [Critical Element 1]\nAffinity รวม 35%"],
+   ["","ล่ามอนเก็บของ","Anjanath · Radiant Rathalos · Diablos · Radiant Barroth"]]},
+ {"h":"VISAGE (การ์ด) จาก GAMERCH","rows":[
+   ["","Core Slot","**Radiant Rathalos** (cost 3) · ดาเมจไฟหลังใช้สกิลชาร์จ + ชาร์จอัลติ\nตัวเลือกอื่น: **Rathian** · **Rathalos** · **Radiant Kulu-Ya-Ku** · **Ruger Aidal** (S0 เท่านั้น)"],
+   ["","เซ็ต","**Ink of Flames 4 ชิ้น** + **Ink of Guidance 2 ชิ้น** (หรือ Ink of Combat 2 ชิ้น)"],
+   ["","ผลเซ็ต","**Flames 2:** ดาเมจไฟ +5% · **4:** ตีโดนจุดอ่อน → ดาเมจไฟ **+24%** 20 วิ\n**Guidance 2:** ชาร์จอัลติ +5% · **Combat 2:** Affinity +5%"],
+   ["","ค่าย่อยที่ควรได้","ดาเมจคริธาตุ › ดาเมจ › ATK ธาตุ › DEF · Cost 4 เน้นคริ/ชาร์จอัลติ"]]},
+ {"h":"ทีมแนะนำ (LDPLAYER)","rows":[["","ทีมไฟ","**Freya + Midori + Ryunosuke หรือ Raya** + ตัวหลัก (Bow / Heavy Bowgun หรืออาวุธไฟ)"]]}],
+"source":"ข้อมูล: mhobuilds · Gamerch · GameWith.ai · LDPlayer"}

@@ -1,0 +1,143 @@
+{
+ "id": "arkaya",
+ "name": "Arkaya",
+ "profile": {
+  "class": "Support",
+  "weapon": "Lance",
+  "element": "Dragon · มังกร",
+  "rarity": "SSR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Nailu"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Thrust",
+   "แทงสูงสุด 3 ครั้ง · ปุ่มเดียวกับ Earthrend Finisher"
+  ],
+  [
+   "SKILL 1",
+   "Boulder Stance",
+   "การ์ด · Perfect Guard + โจมตี → Reprisal Finisher ได้ Battle Spirit 1"
+  ],
+  [
+   "SKILL 2",
+   "Driving Assault",
+   "การ์ดพุ่ง · ความเร็วสุด + โจมตี → Seismic Rupture ได้ Battle Spirit 1"
+  ],
+  [
+   "SKILL 3",
+   "Pierce",
+   "กระแทกโล่แล้วแทง · กดค้าง Relentless Thrust ทุก 9 ฮิตได้ Battle Spirit 1"
+  ],
+  [
+   "EVADE",
+   "Leaping Thrust",
+   "หลบถอยแล้วกระโดดแทง · Perfect Evade อมตะ 0.5 วิ"
+  ],
+  [
+   "ULTIMATE",
+   "Indomitable Oath",
+   "ทีมได้ Shield + Affinity +8% 30 วิ · ได้ Battle Spirit 3"
+  ],
+  [
+   "CO-OP",
+   "Falcon Thrust",
+   "คลื่นเสียงกับ Buddy แล้วแทงกว้าง"
+  ],
+  [
+   "SQUADMATE",
+   "Battle Spirit Charge",
+   "Burst ตัวหลักโดน → Ultimate Energy 7 + Shield 20 · ทุก 50 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายมังกร: อัลติให้ Shield และ Affinity ทีมเพิ่มตามดาเมจมังกร (สูงสุด 30 / 12%)"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "Rising Resolve",
+   "สะสม Battle Spirit ได้ 3 → ปลด Earthrend Finisher"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Swift Miner",
+   "ทีมขุดแร่เร็วขึ้น 50%"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Undying Resolve",
+   "หลังใช้ Earthrend Finisher → ทั้งทีมดาเมจสกิล **+12%** 30 วิ"
+  ],
+  [
+   "Ultimate Protection",
+   "ใช้อัลติ → ทั้งทีมรับดาเมจ **-25%** 30 วิ"
+  ],
+  [
+   "Assault Command",
+   "หลังโจมตีตอนชักอาวุธ ได้ Battle Spirit **3 สแตก** · Shield ของ Earthrend Finisher ครั้งถัดไป **×2** · ใช้ได้ทุก 90 วิ"
+  ],
+  [
+   "Rapid Momentum",
+   "ระหว่างแทงรัวของ Relentless Thrust ฮิตที่ต้องใช้เพื่อได้ Battle Spirit **-33%**"
+  ],
+  [
+   "Dragon's Spirit",
+   "ใช้อัลติ → ดาเมจสกิลครั้งถัดไป **+100%**"
+  ],
+  [
+   "Surging Momentum",
+   "ดาเมจสกิล Earthrend Finisher **+80%**"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Pillar of the Desert” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Prized Matsutake",
+   "×1.5"
+  ],
+  [
+   "Black Pearl Roe",
+   "×1.5"
+  ],
+  [
+   "Thick-Cut Tail",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Journey Cord",
+   "×0.5"
+  ],
+  [
+   "Worn Adventurer Badge",
+   "×0.5"
+  ],
+  [
+   "Elder Dragon Banner",
+   "×0.5"
+  ]
+ ]
+}

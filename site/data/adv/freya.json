@@ -1,0 +1,27 @@
+{"id":"freya","name":"Freya","profile":{"class":"Disruptor","weapon":"Great Sword","element":"Fire · ไฟ","rarity":"SSR","obtain":"Festival Recruitment (ถึง 22 ม.ค. 2027)","buddy":"Arya"},
+"skills_src":"mhohub · gacha.gg",
+"skills":[
+ ["BASIC","Charged Slash","ทุกขั้น Inner Flame +1 · จบคอมโบกลับ Lv1"],
+ ["SKILL 1","Guard","Perfect Guard ปล่อย True Charged Slash · Leaning Guard → Dragonbreaker"],
+ ["SKILL 2","Blazing Anchor","Inner Flame < Lv3 ฟันปักดาบ เพิ่ม Inner Flame + Unwavering"],
+ ["SKILL 3","Spiral Sheathe","หมุนเก็บดาบ ปัดได้ · ปัดสำเร็จ → Inner Flame Lv3"],
+ ["EVADE","Draw Slash","Perfect Evade อมตะ 0.5 วิ"],
+ ["ULTIMATE","Blazing Soul Incineration","มอนล้ม + Suppression · Blazing Soul (15 หรือ 25 วิ แต่ละเว็บไม่ตรงกัน)"],
+ ["CO-OP","Flameblade Burst","ขยายเป็นดาบยักษ์ ได้ Unwavering"],
+ ["SQUADMATE","Inner Flame Vulnerability","ตัวหลัก React → มอนรับดาเมจธาตุ +15% 15 วิ + การันตี Stagger · ทุก 40 วิ"]],
+"traits":[
+ ["TRAIT · เฉพาะตัว","Inner Flame","ATK +10 / +20 / +40 ตาม Lv (Gamerch: +5/10/15%)"],
+ ["TRAIT","Fire Damage Up","ดาเมจไฟ +10%"]],
+"insights_src":"gacha.gg / GameWith",
+"insights":[
+ ["Flames of Verdict","อัลติโดน → มอนรับดาเมจ **+25%** 15 วิ"],
+ ["Everlasting Flames","ดาเมจไฟ **+20%** · อัลติทำให้มอนติด Suppression ได้ → Suppression นานขึ้นอีก **2 วิ**"],
+ ["Blazing Surge","เวลาชาร์จ Dragonbreaker Slash และ Blazing Anchor **-20%** · ดาเมจสกิล Flame Dance และ Dragonbreaker Slash **+20%**"],
+ ["Spirit Igniter","อัลติโดน → Blazing Soul อยู่นานขึ้น **10 วิ**"],
+ ["Supremacy","หลังเปิด Spiral Sheathe ดาเมจสกิล **+17%** 10 วิ · ระหว่าง Spiral Sheathe รับดาเมจ **-80%**"],
+ ["Absolute Suppression","หลังเปิด Spiral Sheathe ความเร็วเคลื่อนที่ **+10%** และดาเมจไฟ **+20%** 5 วิ\nถ้าปัดด้วย Spiral Sheathe สำเร็จ → ความเร็ว **+15%** และดาเมจไฟ **+30%** 10 วิ"]],
+"gifts_like_note":"Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+"gifts_like":[["Wooden Carving","×1.5"],["Vista Display","×1.5"],["Dome Landscape","×1.5"],["Adventurer's Charm","×1.5"],["Exploration Badge","×1.5"],["Journey Memento","×1.5"]],
+"gifts_dislike_note":"Bond ×0.5","gifts_dislike":[],"gifts_dislike_empty":"ไม่มีของที่ชอบน้อย",
+"bond_reward":"Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+"source":"ข้อมูล: mhohub · gacha.gg · gacha.gg · Fextralife · 27 พ.ย. 2026"}

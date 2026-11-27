@@ -1,0 +1,76 @@
+{
+ "id": "haze",
+ "tag": "SSR · DUAL BLADES · THUNDER",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [],
+ "buddies_empty": "ยังไม่มีเว็บแนะนำ",
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "เซ็ต",
+   "Kushala ×2 + Ink of Thunder ×4",
+   "",
+   "Thunder 4 ชิ้น: ทำดาเมจ → สายฟ้า +5% 12 วิ (สูงสุด 5)"
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ",
+   "empty": "GameWith JP ยังไม่ลงบิลเฉพาะของ Haze",
+   "empty_note": "ฝั่งขวาเป็นบิล Dual Blades ธาตุสายฟ้าจากหน้ารวมอาวุธ"
+  },
+  {
+   "title": "RADIANT",
+   "sub": "มอน Radiant · ธาตุสายฟ้า",
+   "weapon": "Radiant Duel Desterio VI*",
+   "alt": "ATK 1019 · สายฟ้า 510",
+   "armor": {
+    "head": "Kadachi Helm VI",
+    "chest": "Radiant Odogaron Mail VI",
+    "arms": "Radiant Girros Vambraces VI",
+    "waist": "Radiant Girros Coil VI",
+    "legs": "Ingot Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Great Girros's Command",
+     "tag": "set"
+    },
+    {
+     "n": "Thunder Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Combo Enhancement 6"
+    },
+    {
+     "n": "Fearless 2"
+    },
+    {
+     "n": "Flinching-Free 1"
+    },
+    {
+     "n": "Rejuvenation 1"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Deterrence 1"
+    },
+    {
+     "n": "Defense Up 1"
+    }
+   ],
+   "note": "จากหน้ารวมบิล Dual Blades ของ GameWith JP (ธาตุสายฟ้า)"
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai · * ชื่ออาวุธแปลจากชื่อญี่ปุ่น"
+}

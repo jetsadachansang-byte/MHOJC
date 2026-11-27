@@ -1,0 +1,133 @@
+{
+ "id": "stylia",
+ "tag": "SSR · BOW · ICE",
+ "updated": "อัปเดต 27 พ.ย. 2026",
+ "buddies": [
+  "Elwin"
+ ],
+ "visage_src": "GameWith JP",
+ "visage": [
+  [
+   "Core S0",
+   "Kushala Daora's Tempest",
+   "เฉพาะ S0",
+   "Core: ธาตุ +10% (ส่วนที่แตก 18%) · เซ็ต 2 ชิ้น: +3% (Suppression 10%)"
+  ],
+  [
+   "สายดาเมจ",
+   "Kushala ×2 + Ink of Frost ×4",
+   "",
+   "Frost 4 ชิ้น: ตีโดน → น้ำแข็ง +24% 8 วิ"
+  ],
+  [
+   "สายซัพ",
+   "Kushala + Ink of Grace ×4 + Ink of Guidance ×2",
+   "",
+   "Grace 4 ชิ้น: ให้บัฟทีม → ทีมดาเมจ +6.5% 60 วิ"
+  ],
+  [
+   "หลัง S0",
+   "Core Radiant Legiana + Frost ×4 + Grace ×2 (Gamerch)",
+   "",
+   ""
+  ]
+ ],
+ "builds": [
+  {
+   "title": "NORMAL",
+   "sub": "มอนปกติ · สายชาร์จ",
+   "weapon": "Radiant Fernlike VI*",
+   "alt": "ATK 988 · น้ำแข็ง 494",
+   "armor": {
+    "head": "Radiant Rath Heart Helm VI",
+    "chest": "Radiant Rath Heart Mail VI",
+    "arms": "Radiant Lumu Vambraces VI",
+    "waist": "Pukei Coil VI",
+    "legs": "Radiant Legiana Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Pink Rathian's Rampage",
+     "tag": "set"
+    },
+    {
+     "n": "Charged Power Shot 7",
+     "tag": "max"
+    },
+    {
+     "n": "Unshaken Resolve 3",
+     "tag": "max"
+    },
+    {
+     "n": "Critical Element 3",
+     "tag": "max"
+    },
+    {
+     "n": "Grace Under Pressure 2"
+    },
+    {
+     "n": "Blessing 1"
+    },
+    {
+     "n": "Ballistics 1"
+    },
+    {
+     "n": "Gathering Master 1"
+    },
+    {
+     "n": "Poison Resistance 1"
+    },
+    {
+     "n": "Insight 1"
+    }
+   ],
+   "note": "บิลเดียวกับที่ GameWith JP ลงให้ Madelyn (ธนูสายชาร์จ)"
+  },
+  {
+   "title": "SUPPORT",
+   "sub": "ซัพ · ธาตุน้ำแข็ง",
+   "weapon": "Radiant Fernlike VI*",
+   "alt": "ATK 988 · น้ำแข็ง 494",
+   "armor": {
+    "head": "Radiant Legiana Helm VI",
+    "chest": "Radiant Odogaron Mail VI",
+    "arms": "Legiana Vambraces VI",
+    "waist": "Chainmail Belt VI",
+    "legs": "Radiant Odogaron Greaves VI"
+   },
+   "skills": [
+    {
+     "n": "Odogaron's Surge",
+     "tag": "set"
+    },
+    {
+     "n": "Ice Damage Up 7",
+     "tag": "elem"
+    },
+    {
+     "n": "Combo Enhancement 3"
+    },
+    {
+     "n": "Rejuvenation 2"
+    },
+    {
+     "n": "Health Boost 2"
+    },
+    {
+     "n": "Blessing 2"
+    },
+    {
+     "n": "Unleashed 1"
+    },
+    {
+     "n": "Health Recovery 1"
+    },
+    {
+     "n": "Weakspot Exploit 1"
+    }
+   ],
+   "note": "อัดธาตุน้ำแข็งเต็ม + สกิลฟื้นเลือดเอง"
+  }
+ ],
+ "footer": "GameWith JP (อัปเดต 27 พ.ย. 2026) · ชื่อเกราะ/สกิลเทียบกับ GameWith.ai · * ชื่ออาวุธแปลจากชื่อญี่ปุ่น"
+}

@@ -1,0 +1,143 @@
+{
+ "id": "rhodes",
+ "name": "Rhodes",
+ "profile": {
+  "class": "Assault",
+  "weapon": "Hammer",
+  "element": "Ice · น้ำแข็ง",
+  "rarity": "SSR",
+  "obtain": "Standard Recruitment",
+  "buddy": "Ro"
+ },
+ "skills_src": "GameWith.ai",
+ "skills": [
+  [
+   "BASIC",
+   "Overhead Smash",
+   "คอมโบ 3 ฮิต สะสม Steam Energy"
+  ],
+  [
+   "SKILL 1",
+   "Charge",
+   "ชาร์จค้อน · กดค้าง → Skating Charge แปลง Steam เป็น Core Energy"
+  ],
+  [
+   "SKILL 2",
+   "Steam Stance",
+   "แปลง Steam ต่อเนื่อง · ปัดสำเร็จ → สวน Upswing"
+  ],
+  [
+   "SKILL 3",
+   "Steam Skyrender",
+   "ท่า Burst ใช้ Core Energy ทั้งหมด ดาเมจหนักมาก"
+  ],
+  [
+   "EVADE",
+   "Reverse Upswing",
+   "Perfect Evade → หมุนสวน ได้ Steam"
+  ],
+  [
+   "ULTIMATE",
+   "Mega Hammer",
+   "สร้างค้อนยักษ์ทุบทีเดียว"
+  ],
+  [
+   "CO-OP",
+   "Felyne Flywheel Smash!",
+   "เหวี่ยง Felyne หมุนโจมตี"
+  ],
+  [
+   "SQUADMATE",
+   "Steam Follow-Up",
+   "มอนติด Suppression → ตามทุบ · ทุก 40 วิ"
+  ]
+ ],
+ "traits": [
+  [
+   "CORE PASSIVE",
+   "",
+   "สายน้ำแข็ง: ดาเมจน้ำแข็ง +1% → ดาเมจ +0.2% (สูงสุด 22.5%)"
+  ],
+  [
+   "TRAIT · เฉพาะตัว",
+   "My Invention Never Fails",
+   "Skating Charged Attack ดาเมจน้ำแข็ง +20%"
+  ],
+  [
+   "TRAIT · SURVIVAL",
+   "Prospector's Eye",
+   "เก็บแร่ 25% ได้เพิ่ม 1"
+  ]
+ ],
+ "insights_src": "gacha.gg / GameWith",
+ "insights": [
+  [
+   "Ultra Hammer",
+   "ดาเมจอัลติ **+30%** · ถ้าโดนมอนที่มึนอยู่ เพิ่มอีก **+30%**"
+  ],
+  [
+   "Aftershock Resonance",
+   "หลังใช้อัลติ ดาเมจสกิลและ Squadmate Skill **+27%** 20 วิ"
+  ],
+  [
+   "Efficient Pulley",
+   "Skating Charge ใช้ Stamina **-60%**"
+  ],
+  [
+   "Counter Wind-up",
+   "ปัดสำเร็จใน Steam Stance → Skating Charged Attack ครั้งถัดไปได้ Core Energy **+50%** และไม่ใช้ Steam Energy"
+  ],
+  [
+   "Max Charge Bang",
+   "ดาเมจสกิล Steam Skyrender **+50%** · โดนแล้วได้ Steam Energy **50**"
+  ],
+  [
+   "Pressurized Wheel Strike",
+   "ใช้ Skating Charged Attack ตอน Steam Energy เกิน 50 → ดาเมจท่านี้ **+50%** และสะสมมึน **+50%**"
+  ]
+ ],
+ "bond_reward": "Lv2/4/6/8 ได้ของขวัญชิ้นใหญ่ที่ชอบ · Lv3 ฉายา “Thunder Smith” · Lv5 เหรียญ · Lv7 Sketch · Lv9 การ์ด · Lv10 Resonance Crystal",
+ "source": "ข้อมูล: GameWith.ai · gacha.gg · Fextralife · 27 พ.ย. 2026",
+ "gifts_like_note": "Bond ×1.5 · ส่งได้ 5 ชิ้น/วัน",
+ "gifts_like": [
+  [
+   "Wooden Carving",
+   "×1.5"
+  ],
+  [
+   "Vista Display",
+   "×1.5"
+  ],
+  [
+   "Dome Landscape",
+   "×1.5"
+  ],
+  [
+   "Adventurer's Charm",
+   "×1.5"
+  ],
+  [
+   "Exploration Badge",
+   "×1.5"
+  ],
+  [
+   "Journey Memento",
+   "×1.5"
+  ]
+ ],
+ "gifts_dislike_note": "Bond ×0.5",
+ "gifts_dislike": [
+  [
+   "Outlands Poetry",
+   "×0.5"
+  ],
+  [
+   "Bonfire Album",
+   "×0.5"
+  ],
+  [
+   "Kulune Songbook",
+   "×0.5"
+  ]
+ ]
+}
