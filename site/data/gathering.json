@@ -1,0 +1,1333 @@
+{
+ "maps": [
+  {
+   "id": "GL",
+   "n": "Giantwood Locale",
+   "exclusive": [
+    "Ancient Bone",
+    "Machalite Ore",
+    "Moonlit Mushroom",
+    "Sunbloom",
+    "Sunkissed Grass"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "areas": [
+    {
+     "n": "Muddy Swamp",
+     "Plant Resource Area": 1,
+     "Local Specialty Area": 1,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 1,
+     "total": 4
+    },
+    {
+     "n": "Mistwood",
+     "Plant Resource Area": 2,
+     "Local Specialty Area": 2,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 1,
+     "total": 6
+    },
+    {
+     "n": "Outlands",
+     "Plant Resource Area": 3,
+     "Local Specialty Area": 1,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 3,
+     "total": 8
+    }
+   ],
+   "route": [
+    "Honey & Mushroom Area",
+    "Tree Resource Area",
+    "Plant Resource Area",
+    "Local Specialty Area",
+    "Tree Resource Area",
+    "Local Specialty Area",
+    "Honey & Mushroom Area",
+    "Plant Resource Area",
+    "Tree Resource Area",
+    "Local Specialty Area",
+    "Plant Resource Area",
+    "Plant Resource Area",
+    "Tree Resource Area",
+    "Honey & Mushroom Area",
+    "Plant Resource Area",
+    "Plant Resource Area",
+    "Local Specialty Area",
+    "Tree Resource Area"
+   ]
+  },
+  {
+   "id": "SP",
+   "n": "Searing Plains",
+   "exclusive": [
+    "Bauble Cactus",
+    "Dragonbloom",
+    "Earth Crystal",
+    "Boulder Bone",
+    "Divineapple"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "areas": [
+    {
+     "n": "Golden Expanse",
+     "Plant Resource Area": 3,
+     "Local Specialty Area": 2,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 1,
+     "total": 7
+    },
+    {
+     "n": "Desert Oasis",
+     "Plant Resource Area": 2,
+     "Local Specialty Area": 2,
+     "Honey & Mushroom Area": 2,
+     "Tree Resource Area": 2,
+     "total": 8
+    }
+   ],
+   "route": [
+    "Plant Resource Area",
+    "Local Specialty Area",
+    "Tree Resource Area",
+    "Plant Resource Area",
+    "Local Specialty Area",
+    "Tree Resource Area",
+    "Plant Resource Area",
+    "Tree Resource Area",
+    "Plant Resource Area",
+    "Honey & Mushroom Area",
+    "Local Specialty Area",
+    "Plant Resource Area",
+    "Honey & Mushroom Area",
+    "Honey & Mushroom Area",
+    "Local Specialty Area"
+   ]
+  },
+  {
+   "id": "RA",
+   "n": "Rotfall Abyss",
+   "exclusive": [
+    "Dragonite Ore",
+    "Charred Bone",
+    "Heavenberry"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "areas": [
+    {
+     "n": "Luminant Lakelands",
+     "Plant Resource Area": 2,
+     "Local Specialty Area": 0,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 1,
+     "total": 4
+    },
+    {
+     "n": "Gloomshade Gorge",
+     "Plant Resource Area": 0,
+     "Local Specialty Area": 1,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 1,
+     "total": 3
+    }
+   ],
+   "route": [
+    "Tree Resource Area",
+    "Local Specialty Area",
+    "Honey & Mushroom Area",
+    "Tree Resource Area",
+    "Plant Resource Area",
+    "Honey & Mushroom Area",
+    "Plant Resource Area"
+   ]
+  },
+  {
+   "id": "GA",
+   "n": "Grand Archipelago",
+   "exclusive": [
+    "Coral Bone",
+    "Coral Crystal"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "note": "ยังไม่มีข้อมูลจุดเก็บพืช/ไม้/ของพิเศษของแมพนี้ในแหล่งข้อมูล (หน้าจุดเก็บของ GameWith ครอบคลุม 3 แมพ ณ 10 พ.ย. 2026) ยืนยันได้เฉพาะแร่ที่มีแค่แมพนี้"
+  }
+ ],
+ "resource_areas": [
+  {
+   "type": "Plant Resource Area",
+   "th": "จุดเก็บพืช",
+   "gatherer": "Plant Gatherer",
+   "materials": [
+    "Herb",
+    "Antidote Herb",
+    "Sleep Herb",
+    "Hot Pepper",
+    "Honey",
+    "Dustbush"
+   ]
+  },
+  {
+   "type": "Local Specialty Area",
+   "th": "จุดเก็บของพิเศษท้องถิ่น",
+   "gatherer": "Plant Gatherer",
+   "materials": [
+    "Bauble Cactus",
+    "Dragonbloom",
+    "Island Specialty Rice",
+    "Exquisite Island Rice",
+    "Fine Honeyfruit",
+    "Exotic Honeyfruit",
+    "Moonlit Mushroom",
+    "Divineapple",
+    "Sunbloom",
+    "Sunkissed Grass",
+    "Heavenberry"
+   ]
+  },
+  {
+   "type": "Honey & Mushroom Area",
+   "th": "จุดเก็บน้ำผึ้งและเห็ด",
+   "gatherer": "Plant Gatherer",
+   "materials": [
+    "Chillshroom",
+    "Parashroom",
+    "Nitroshroom"
+   ]
+  },
+  {
+   "type": "Mineral & Fossil Area",
+   "th": "จุดขุดแร่และฟอสซิล",
+   "gatherer": "Ore Gatherer (ได้ Zenny ด้วย)",
+   "materials": [
+    "Monster Bone S",
+    "Ancient Bone",
+    "Earth Crystal",
+    "Iron Ore",
+    "Machalite Ore",
+    "Dragonite Ore",
+    "Boulder Bone",
+    "Coral Bone",
+    "Charred Bone",
+    "Coral Crystal"
+   ]
+  },
+  {
+   "type": "Tree Resource Area",
+   "th": "จุดเก็บไม้",
+   "gatherer": "Wood Gatherer",
+   "materials": [
+    "Hardwood",
+    "Ironwood"
+   ]
+  }
+ ],
+ "materials": [
+  {
+   "id": "herb",
+   "n": "Herb",
+   "img": "img/material/herb.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บพืช",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Potion",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/herb"
+  },
+  {
+   "id": "antidote-herb",
+   "n": "Antidote Herb",
+   "img": "img/material/antidote-herb.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บพืช",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Antidote",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/antidote-herb"
+  },
+  {
+   "id": "sleep-herb",
+   "n": "Sleep Herb",
+   "img": "img/material/sleep-herb.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บพืช",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Tranq Launcher (ยาสลบ)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sleep-herb"
+  },
+  {
+   "id": "chillshroom",
+   "n": "Chillshroom",
+   "img": "img/material/chillshroom.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Honey & Mushroom Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บน้ำผึ้งและเห็ด",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Cool Drink",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/chillshroom"
+  },
+  {
+   "id": "hot-pepper",
+   "n": "Hot Pepper",
+   "img": "img/material/hot-pepper.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บพืช",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Hot Drink",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/hot-pepper"
+  },
+  {
+   "id": "parashroom",
+   "n": "Parashroom",
+   "img": "img/material/parashroom.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Honey & Mushroom Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บน้ำผึ้งและเห็ด",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Tranq Launcher (ยาสลบ)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/parashroom"
+  },
+  {
+   "id": "honey",
+   "n": "Honey",
+   "img": "img/material/honey.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)",
+    "จุดเก็บพืช"
+   ],
+   "use": "ผสมกับ Potion เป็น Mega Potion",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/honey"
+  },
+  {
+   "id": "nitroshroom",
+   "n": "Nitroshroom",
+   "img": "img/material/nitroshroom.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Honey & Mushroom Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บน้ำผึ้งและเห็ด",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "วัตถุดิบผสม (ตามคำอธิบายในเกม)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nitroshroom"
+  },
+  {
+   "id": "dustbush",
+   "n": "Dustbush",
+   "img": "img/material/dustbush.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Plant Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บพืช",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ผสม Dustproof Potion",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dustbush"
+  },
+  {
+   "id": "nulberry",
+   "n": "Nulberry",
+   "img": "img/material/nulberry.webp",
+   "cat": "วัตถุดิบผสมยา",
+   "cat_en": "Crafting Material",
+   "rarity": null,
+   "areas": [
+    "Gathering"
+   ],
+   "maps": null,
+   "how": [
+    "เก็บได้ในสนาม",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "ใช้รักษาสถานะผิดปกติหลายอย่าง",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry"
+  },
+  {
+   "id": "bauble-cactus",
+   "n": "Bauble Cactus",
+   "img": "img/material/bauble-cactus.webp",
+   "cat": "ของพิเศษท้องถิ่น",
+   "cat_en": "Local Specialty",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "SP"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Searing Plains เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/bauble-cactus"
+  },
+  {
+   "id": "dragonbloom",
+   "n": "Dragonbloom",
+   "img": "img/material/dragonbloom.webp",
+   "cat": "ของพิเศษท้องถิ่น",
+   "cat_en": "Local Specialty",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "SP"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Searing Plains เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "เก็บครบ 75 ปลดล็อกเมนู Lava Cocoa Cake (ฮีลแรงขึ้น 24%)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonbloom",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
+   ]
+  },
+  {
+   "id": "monster-bone-s",
+   "n": "Monster Bone S",
+   "img": "img/material/monster-bone-s.webp",
+   "cat": "กระดูก",
+   "cat_en": "Bones",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดขุดแร่และฟอสซิล",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "คราฟต์/อัปเกรดอาวุธและเกราะ",
+   "weapons": 31,
+   "armor": 16,
+   "gear": [
+    "Dragonbone Cleaver",
+    "Dragonbone Stabber",
+    "Dragonbone Twinblades",
+    "Dragonbone Lance",
+    "Dragonbone Basher",
+    "Dragonbone Cutter",
+    "Dragonbone Cannon",
+    "Dragonbone Bow",
+    "Power Shooter",
+    "Giant Jawblade",
+    "Bone Reaper",
+    "Strong Hatchets",
+    "Heavy Bone Lance",
+    "Grandrock",
+    "Hard Bone Strongarm",
+    "Hunter's Proudbow",
+    "Bone Strongarm",
+    "Heavy Shooter",
+    "Bone Slasher",
+    "Hard Bone Shotel",
+    "Wild Hatchets",
+    "Hard Bone Lance",
+    "Fossil Bludgeon",
+    "Hunter's Stoutbow",
+    "Bone Cleaver",
+    "Bone Shotel",
+    "Bone Hatchets",
+    "Bone Lance",
+    "Bone Bludgeon",
+    "Bone Shooter",
+    "Hunter's Bow",
+    "Bone Helm",
+    "Bone Set",
+    "Bone Mail",
+    "Bone Set",
+    "Bone Vambraces",
+    "Bone Set",
+    "Bone Coil",
+    "Bone Set",
+    "Bone Greaves",
+    "Bone Set",
+    "Hunter's Mail",
+    "Hunter Set",
+    "Hunter's Coil",
+    "Hunter Set",
+    "Hunter's Greaves",
+    "Hunter Set"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s"
+  },
+  {
+   "id": "ancient-bone",
+   "n": "Ancient Bone",
+   "img": "img/material/ancient-bone.webp",
+   "cat": "กระดูก",
+   "cat_en": "Bones",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "GL"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Giantwood Locale เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "คราฟต์/อัปเกรดอาวุธ · หลอมเป็น Research Points ได้ชิ้นละ 8",
+   "weapons": 8,
+   "armor": 0,
+   "gear": [
+    "Dragonbone Cleaver",
+    "Dragonbone Stabber",
+    "Dragonbone Twinblades",
+    "Dragonbone Lance",
+    "Dragonbone Basher",
+    "Dragonbone Cutter",
+    "Dragonbone Cannon",
+    "Dragonbone Bow"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/ancient-bone",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  },
+  {
+   "id": "earth-crystal",
+   "n": "Earth Crystal",
+   "img": "img/material/earth-crystal.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "SP"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Searing Plains เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "คราฟต์/อัปเกรดอาวุธและเกราะ · หลอมเป็น Research Points ได้ชิ้นละ 8",
+   "weapons": 8,
+   "armor": 12,
+   "gear": [
+    "Blacksteel Chopper",
+    "Blacksteel Long Sword",
+    "Blacksteel Twins",
+    "Blacksteel Lance",
+    "Blacksteel Hammer",
+    "Blacksteel Charger",
+    "Blacksteel Cannon",
+    "Blacksteel Bow",
+    "Alloy Helm",
+    "Alloy Set",
+    "Alloy Mail",
+    "Alloy Set",
+    "Alloy Vambraces",
+    "Alloy Set",
+    "Ingot Helm",
+    "Ingot Set",
+    "Ingot Mail",
+    "Ingot Set",
+    "Ingot Vambraces",
+    "Ingot Set"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/earth-crystal",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  },
+  {
+   "id": "iron-ore",
+   "n": "Iron Ore",
+   "img": "img/material/iron-ore.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดขุดแร่และฟอสซิล",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "คราฟต์/อัปเกรดอาวุธและเกราะ · Camp, Iron Axe, Iron Pickaxe, Iron Fishing Rod, Intermediate Expansion",
+   "weapons": 76,
+   "armor": 50,
+   "gear": [
+    "Guild Crimson Crest Great Sword",
+    "Guild Crimson Crest Great Sword (Water)",
+    "Guild Crimson Crest Great Sword (Fire)",
+    "Guild Crimson Crest Great Sword (Ice)",
+    "Guild Crimson Crest Great Sword (Thunder)",
+    "Guild Crimson Crest Great Sword (Dragon)",
+    "Guild Crimson Crest Long Sword",
+    "Guild Crimson Crest Long Sword (Water)",
+    "Guild Crimson Crest Long Sword (Fire)",
+    "Guild Crimson Crest Long Sword (Ice)",
+    "Guild Crimson Crest Long Sword (Thunder)",
+    "Guild Crimson Crest Long Sword (Dragon)",
+    "Guild Crimson Crest Dual Blades",
+    "Guild Crimson Crest Dual Blades (Water)",
+    "Guild Crimson Crest Dual Blades (Fire)",
+    "Guild Crimson Crest Dual Blades (Ice)",
+    "Guild Crimson Crest Dual Blades (Thunder)",
+    "Guild Crimson Crest Dual Blades (Dragon)",
+    "Guild Crimson Crest Lance",
+    "Guild Crimson Crest Lance (Water)",
+    "Guild Crimson Crest Lance (Fire)",
+    "Guild Crimson Crest Lance (Ice)",
+    "Guild Crimson Crest Lance (Thunder)",
+    "Guild Crimson Crest Lance (Dragon)",
+    "Guild Crimson Crest Hammer",
+    "Guild Crimson Crest Hammer (Water)",
+    "Guild Crimson Crest Hammer (Fire)",
+    "Guild Crimson Crest Hammer (Ice)",
+    "Guild Crimson Crest Hammer (Thunder)",
+    "Guild Crimson Crest Hammer (Dragon)",
+    "Guild Crimson Crest Charge Blade",
+    "Guild Crimson Crest Charge Blade (Water)",
+    "Guild Crimson Crest Charge Blade (Fire)",
+    "Guild Crimson Crest Charge Blade (Ice)",
+    "Guild Crimson Crest Charge Blade (Thunder)",
+    "Guild Crimson Crest Charge Blade (Dragon)",
+    "Guild Crimson Crest Heavy Bowgun",
+    "Guild Crimson Crest Heavy Bowgun (Water)",
+    "Guild Crimson Crest Heavy Bowgun (Fire)",
+    "Guild Crimson Crest Heavy Bowgun (Ice)",
+    "Guild Crimson Crest Heavy Bowgun (Thunder)",
+    "Guild Crimson Crest Heavy Bowgun (Dragon)",
+    "Guild Crimson Crest Bow",
+    "Guild Crimson Crest Bow (Water)",
+    "Guild Crimson Crest Bow (Fire)",
+    "Guild Crimson Crest Bow (Ice)",
+    "Guild Crimson Crest Bow (Thunder)",
+    "Guild Crimson Crest Bow (Dragon)",
+    "Iron Gospel",
+    "Chrome Slicers",
+    "Chrome Lance",
+    "Iron Archdemon",
+    "Chrome Guardian",
+    "Chrome Assault",
+    "Dark Scimitar",
+    "Dark Ripper",
+    "Dark Stinger",
+    "Chrome Razor",
+    "Proto Charge Blade",
+    "Dark Shotel",
+    "Taurus Pangas",
+    "Hornetaur Lance",
+    "Buster Sword",
+    "Iron Katana",
+    "Dual Blades",
+    "Iron Lance",
+    "Iron Hammer",
+    "Iron Assault",
+    "Iron Bow",
+    "Buster Blade",
+    "Iron Grace",
+    "Dual Slicers",
+    "Steel Lance",
+    "Iron Demon",
+    "Steel Assault",
+    "Steel Bow",
+    "Chainmail Vest",
+    "Chainmail Set",
+    "Chainmail Belt",
+    "Chainmail Set",
+    "Chainmail Trousers",
+    "Chainmail Set",
+    "Leather Headgear",
+    "Leather Set",
+    "Leather Vest",
+    "Leather Set",
+    "Leather Gloves",
+    "Leather Set",
+    "Leather Belt",
+    "Leather Set",
+    "Leather Pants",
+    "Leather Set",
+    "Vespoid Mail",
+    "Vespoid Set",
+    "Vespoid Coil",
+    "Vespoid Set",
+    "Vespoid Greaves",
+    "Vespoid Set",
+    "Alloy Coil",
+    "Alloy Set",
+    "Alloy Greaves",
+    "Alloy Set",
+    "Hornetaur Mail",
+    "Hornetaur Set",
+    "Hornetaur Coil",
+    "Hornetaur Set",
+    "Hornetaur Greaves",
+    "Hornetaur Set",
+    "High Metal Helm",
+    "High Metal Set",
+    "High Metal Braces",
+    "High Metal Set",
+    "High Metal Coil",
+    "High Metal Set",
+    "High Metal Greaves",
+    "High Metal Set",
+    "Guild Helm",
+    "Adventurers' Guild Set",
+    "Guild Mail",
+    "Adventurers' Guild Set",
+    "Guild Gauntlets",
+    "Adventurers' Guild Set",
+    "Guild Coil",
+    "Adventurers' Guild Set",
+    "Guild Greaves",
+    "Adventurers' Guild Set"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/iron-ore",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  },
+  {
+   "id": "machalite-ore",
+   "n": "Machalite Ore",
+   "img": "img/material/machalite-ore.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "GL"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Giantwood Locale เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "คราฟต์/อัปเกรดอาวุธและเกราะ · Fine Iron Axe, Fine Iron Pickaxe, Fine Fishing Rod, Advanced/Deluxe Expansion · หลอมเป็น Research Points ได้ชิ้นละ 8",
+   "weapons": 8,
+   "armor": 24,
+   "gear": [
+    "Blacksteel Chopper",
+    "Blacksteel Long Sword",
+    "Blacksteel Twins",
+    "Blacksteel Lance",
+    "Blacksteel Hammer",
+    "Blacksteel Charger",
+    "Blacksteel Cannon",
+    "Blacksteel Bow",
+    "Alloy Mail",
+    "Alloy Set",
+    "Alloy Coil",
+    "Alloy Set",
+    "Alloy Greaves",
+    "Alloy Set",
+    "Butterfly Vertex",
+    "Butterfly Set",
+    "Butterfly Thorax",
+    "Butterfly Set",
+    "Butterfly Brachia",
+    "Butterfly Set",
+    "King Beetle Vertex",
+    "King Beetle Set",
+    "King Beetle Thorax",
+    "King Beetle Set",
+    "King Beetle Brachia",
+    "King Beetle Set",
+    "Ingot Mail",
+    "Ingot Set",
+    "Ingot Coil",
+    "Ingot Set",
+    "Ingot Greaves",
+    "Ingot Set"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/machalite-ore",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  },
+  {
+   "id": "dragonite-ore",
+   "n": "Dragonite Ore",
+   "img": "img/material/dragonite-ore.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "RA"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Rotfall Abyss เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonite-ore"
+  },
+  {
+   "id": "lightcrystal",
+   "n": "Lightcrystal",
+   "img": "img/material/lightcrystal.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [],
+   "maps": null,
+   "how": [
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/lightcrystal"
+  },
+  {
+   "id": "boulder-bone",
+   "n": "Boulder Bone",
+   "img": "img/material/boulder-bone.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "SP"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Searing Plains เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "หลอมเป็น Research Points ได้ชิ้นละ 8",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/boulder-bone",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  },
+  {
+   "id": "coral-bone",
+   "n": "Coral Bone",
+   "img": "img/material/coral-bone.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Grand Archipelago เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone"
+  },
+  {
+   "id": "charred-bone",
+   "n": "Charred Bone",
+   "img": "img/material/charred-bone.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "RA"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Rotfall Abyss เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/charred-bone"
+  },
+  {
+   "id": "coral-crystal",
+   "n": "Coral Crystal",
+   "img": "img/material/coral-crystal.webp",
+   "cat": "แร่/กระดูก (เหมือง)",
+   "cat_en": "Ore",
+   "rarity": null,
+   "areas": [
+    "Mineral & Fossil Area"
+   ],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "จุดขุดแร่และฟอสซิล (Grand Archipelago เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal"
+  },
+  {
+   "id": "hardwood",
+   "n": "Hardwood",
+   "img": "img/material/hardwood.webp",
+   "cat": "ไม้",
+   "cat_en": "Gathering",
+   "rarity": null,
+   "areas": [
+    "Tree Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บไม้",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "สร้าง Field Craft (Wind Platform, Zip Line, Catapult, Camp, Gatherer ทั้ง 3 แบบ, Scoutfly Cage) · เครื่องมือ (ขวาน, พลั่ว, เบ็ด) · Expansion · หลอมเป็น Research Points ได้ชิ้นละ 2",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/hardwood",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   ]
+  },
+  {
+   "id": "ironwood",
+   "n": "Ironwood",
+   "img": "img/material/ironwood.webp",
+   "cat": "ไม้",
+   "cat_en": "Gathering",
+   "rarity": null,
+   "areas": [
+    "Tree Resource Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บไม้",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "Advanced Expansion (×2) และ Deluxe Expansion (×6)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/ironwood",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   ]
+  },
+  {
+   "id": "island-specialty-rice",
+   "n": "Island Specialty Rice",
+   "img": "img/material/island-specialty-rice.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/island-specialty-rice"
+  },
+  {
+   "id": "exquisite-island-rice",
+   "n": "Exquisite Island Rice",
+   "img": "img/material/exquisite-island-rice.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "เก็บครบ 50 ปลดล็อกเมนู Rou Jia Mo (ลดดาเมจที่ได้รับ 6%)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/exquisite-island-rice",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
+   ]
+  },
+  {
+   "id": "fine-honeyfruit",
+   "n": "Fine Honeyfruit",
+   "img": "img/material/fine-honeyfruit.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/fine-honeyfruit"
+  },
+  {
+   "id": "exotic-honeyfruit",
+   "n": "Exotic Honeyfruit",
+   "img": "img/material/exotic-honeyfruit.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": null,
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "เก็บครบ 50 ปลดล็อกเมนู Summer Tofu Pudding (ฮีลแรงขึ้น 16%)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/exotic-honeyfruit",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
+   ]
+  },
+  {
+   "id": "moonlit-mushroom",
+   "n": "Moonlit Mushroom",
+   "img": "img/material/moonlit-mushroom.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "GL"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Giantwood Locale เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/moonlit-mushroom"
+  },
+  {
+   "id": "divineapple",
+   "n": "Divineapple",
+   "img": "img/material/divineapple.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "SP"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Searing Plains เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/divineapple"
+  },
+  {
+   "id": "sunbloom",
+   "n": "Sunbloom",
+   "img": "img/material/sunbloom.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "GL"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Giantwood Locale เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunbloom"
+  },
+  {
+   "id": "sunkissed-grass",
+   "n": "Sunkissed Grass",
+   "img": "img/material/sunkissed-grass.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "GL"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Giantwood Locale เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunkissed-grass"
+  },
+  {
+   "id": "heavenberry",
+   "n": "Heavenberry",
+   "img": "img/material/heavenberry.webp",
+   "cat": "ของพิเศษ (Specialty Goods)",
+   "cat_en": "Specialty Goods",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "RA"
+   ],
+   "how": [
+    "จุดเก็บของพิเศษท้องถิ่น (Rotfall Abyss เท่านั้น)",
+    "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
+   ],
+   "use": "เก็บครบ 75 ปลดล็อกเมนู Crispy Spicy Tofu (ดาเมจ +20%)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
+   ]
+  }
+ ],
+ "gatherers": {
+  "unlock": "ปลดล็อกหลังเควสต์สตอรี่บทที่ 2 “Support from the Workshop” (ได้ทั้ง Plant, Wood และ Ore Gatherer)",
+  "cost": "สร้างอย่างละ Hardwood ×2",
+  "cycle": "เก็บของให้อัตโนมัติทุกวัน กดรับได้จากกระเป๋าหรือหน้าจัดการสิ่งก่อสร้างบนแผนที่ ไม่ต้องเดินไปที่จุด",
+  "limit": "เริ่มต้นวางได้อย่างละ 1 · Plant Gatherer ใช้โควตาร่วมกันทั้งจุดพืช จุดของพิเศษ และจุดน้ำผึ้ง/เห็ด",
+  "watchtower": [
+   {
+    "lv": 5,
+    "lusterwasp": 18,
+    "bonus": "Ore Gatherer +1"
+   },
+   {
+    "lv": 7,
+    "lusterwasp": 34,
+    "bonus": "Wood Gatherer +1"
+   },
+   {
+    "lv": 9,
+    "lusterwasp": 54,
+    "bonus": "Plant Gatherer +1"
+   }
+  ],
+  "watchtower_note": "อัปเลเวล Watchtower ด้วย Lusterwasp กดที่ Watchtower บนแผนที่ได้เลย แต่ละแมพมีเลเวลของตัวเอง ใช้ร่วมกันทุก Watchtower ในแมพนั้น",
+  "examples": [
+   {
+    "map": "Searing Plains",
+    "area": "Desert Oasis",
+    "gatherer": "Wood Gatherer",
+    "per_day": {
+     "Hardwood": 45,
+     "Ironwood": 15
+    },
+    "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   },
+   {
+    "map": "Giantwood Locale",
+    "area": "Outlands",
+    "gatherer": "Ore Gatherer",
+    "per_day": {
+     "Iron Ore": 12,
+     "Machalite Ore": 4,
+     "Monster Bone S": 18,
+     "Ancient Bone": 6
+    },
+    "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   }
+  ],
+  "examples_note": "ตัวเลขเป็นตัวอย่างที่แหล่งข้อมูลเห็นในเกม ในเกมบอกว่าขยับตำแหน่งที่วางแล้วจำนวนเปลี่ยนได้ จึงขึ้นกับจุดที่วาง",
+  "tools": "ขวาน/พลั่วไม่จำเป็นต้องมี แต่ช่วยเพิ่มโอกาสได้ไม้/แร่คุณภาพสูง: Wooden (เพิ่มเล็กน้อย) → Iron (เพิ่ม) → Fine Iron (เพิ่มมาก)",
+  "geo": "สกิลเกราะ Geo Expert: Lv1 เก็บกระดูกเพิ่ม 1 ครั้ง · Lv2 เพิ่มที่จุดของพิเศษ · Lv3 เพิ่มที่จุดแร่",
+  "source": [
+   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
+   "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood",
+   "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+  ]
+ },
+ "special": [
+  {
+   "n": "Heavenberry",
+   "text": "เก็บได้ที่จุดเก็บของพิเศษท้องถิ่น (Local Specialty Area) ของ Rotfall Abyss เท่านั้น ตามข้อมูลจุดเก็บ Rotfall Abyss มีจุดนี้ 1 จุด อยู่ที่ Gloomshade Gorge · ซื้อได้ที่ Resource Center · เก็บครบ 75 ปลดล็อก Crispy Spicy Tofu (ดาเมจ +20%)",
+   "respawn": null,
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
+   ]
+  },
+  {
+   "n": "Honey",
+   "text": "เก็บได้ที่จุดเก็บพืช (Plant Resource Area) · ใช้ผสมกับ Potion เป็น Mega Potion · ซื้อได้ที่ Resource Center",
+   "respawn": null,
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/honey",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
+   ]
+  }
+ ],
+ "updated": "2026-11-27",
+ "source": [
+  "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
+  "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+ ]
+}

@@ -347,6 +347,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .mcat-ic{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}.mcat-ic img,.mcat-ic svg{width:36px!important;height:36px!important;object-fit:contain}#v-monsters .view-head .input{width:100%}
 </style>
 
+<script>window.MATSLUG={"Herb": "herb", "Antidote Herb": "antidote-herb", "Sleep Herb": "sleep-herb", "Chillshroom": "chillshroom", "Hot Pepper": "hot-pepper", "Parashroom": "parashroom", "Honey": "honey", "Nitroshroom": "nitroshroom", "Dustbush": "dustbush", "Nulberry": "nulberry", "Bauble Cactus": "bauble-cactus", "Dragonbloom": "dragonbloom", "Monster Bone S": "monster-bone-s", "Ancient Bone": "ancient-bone", "Earth Crystal": "earth-crystal", "Iron Ore": "iron-ore", "Machalite Ore": "machalite-ore", "Dragonite Ore": "dragonite-ore", "Lightcrystal": "lightcrystal", "Boulder Bone": "boulder-bone", "Coral Bone": "coral-bone", "Charred Bone": "charred-bone", "Coral Crystal": "coral-crystal", "Hardwood": "hardwood", "Ironwood": "ironwood", "Island Specialty Rice": "island-specialty-rice", "Exquisite Island Rice": "exquisite-island-rice", "Fine Honeyfruit": "fine-honeyfruit", "Exotic Honeyfruit": "exotic-honeyfruit", "Moonlit Mushroom": "moonlit-mushroom", "Divineapple": "divineapple", "Sunbloom": "sunbloom", "Sunkissed Grass": "sunkissed-grass", "Heavenberry": "heavenberry"}</script>
 <style>
 .set-card{background:var(--surface);border:1px solid var(--line);min-width:0}
 .set-card>header{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
@@ -477,6 +478,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <a href="#skills">สกิล</a>
       <a href="#monsters">มอนสเตอร์</a>
       <a href="#buddies">บัดดี้</a>
+      <a href="#endemic">สัตว์ท้องถิ่น</a>
+      <a href="#gathering">การเก็บของ</a>
     </nav>
   </div>
 </header>
@@ -617,6 +620,27 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   </div>
 </section>
 
+<section id="v-endemic" data-view="endemic" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">ENDEMIC LIFE</div><h2>สัตว์ท้องถิ่น</h2><p>สัตว์ท้องถิ่นและสัตว์น้ำทุกชนิด: พบที่แมพไหน ช่วงเวลา/สภาพอากาศ วิธีใช้ ผลที่ได้ และรางวัลความสำเร็จ กดการ์ดเพื่อดูรายละเอียด</p></div></div>
+    <input class="input" id="en-q" type="search" placeholder="ค้นหาชื่อ เช่น Vigorwasp, Goldenfish" style="margin-bottom:10px">
+    <div class="chips" id="en-map" style="margin-bottom:8px"></div>
+    <div class="chips" id="en-type" style="margin-bottom:12px"></div>
+    <div class="mon-layout"><div class="en-grid" id="en-grid"></div><aside class="mon-detail" id="en-detail" aria-live="polite"></aside></div>
+    <p class="src2" id="en-src"></p>
+  </div>
+</section>
+
+<section id="v-gathering" data-view="gathering" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">GATHERING</div><h2>การเก็บของ</h2><p>เลือกแมพเพื่อดูพื้นที่และจุดเก็บของ หรือค้นหาวัตถุดิบว่าเก็บได้ที่ไหน ระบบ Gatherer (ที่เก็บของอัตโนมัติ) และของพิเศษ</p></div></div>
+    <input class="input" id="ga-q" type="search" placeholder="ค้นหาวัตถุดิบ เช่น Iron Ore, Heavenberry" style="margin-bottom:10px">
+    <div id="ga-res"></div>
+    <div class="chips" id="ga-map" style="margin:8px 0 12px"></div>
+    <div id="ga-body"></div>
+  </div>
+</section>
+
 <section id="v-buddies" data-view="buddies" hidden>
   <div class="wrap view">
     <div class="view-head"><div><div class="eyebrow">Buddies</div><h2>บัดดี้</h2><p>บัดดี้ใหม่ และบัดดี้ทั้งหมดพร้อมระดับ สาย และค่าบัฟ คลิกที่รูปเพื่อขยาย</p></div></div>
@@ -746,8 +770,8 @@ const setOfMon=n=>SETS.filter(s=>s.m===n);
 const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
 
 /* router */
-const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies'];
-function route(){let v=location.hash.slice(1);if(/^b-[a-f0-9]{12}$/.test(v))v='community';if(!VIEWS.includes(v))v='home';
+const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies','endemic','gathering'];
+function route(){let v=location.hash.slice(1);if(/^b-[a-f0-9]{12}$/.test(v))v='community';if(/^m-[a-z0-9-]+$/.test(v))v='gathering';if(/^e-[a-z0-9-]+$/.test(v))v='endemic';if(!VIEWS.includes(v))v='home';
   document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(v==='home')drawContour();window.scrollTo(0,0);}
@@ -1309,11 +1333,11 @@ function chainTotals(w,target){
 function weaponDetail(w){
   const d=wdOf(w);const tgt=wtTo[w.id]||(d.rows.length?d.rows[d.rows.length-1].r:w.r);
   const {tot,chain}=chainTotals(w,tgt);const names=chain.map(x=>{const g=WEAPONS.find(y=>y.slug===x);return g?g.n.replace(/ \((Fire|Water|Thunder|Ice|Dragon)\)$/,''):x});
-  const tiers=`<table><thead><tr><th>ระดับ</th><th>ชื่อ</th><th>โจมตี</th><th>คริ</th><th>ธาตุ</th><th>ความคม</th><th>วัตถุดิบขั้นนี้</th></tr></thead><tbody>${d.rows.map(r=>{const m=d.mats[r.r];return `<tr><td class="num">R${r.r}</td><td>${esc(r.n)}</td><td class="num">${r.atk??'—'}</td><td class="num">${r.aff==null?'—':r.aff+'%'}</td><td class="num">${r.ev==null?'—':(r.el?(WK_TH[{Paralyzed:'para',Paralysis:'para'}[r.el]||r.el.toLowerCase()]||r.el)+' ':'')+r.ev}</td><td>${esc(r.sh||'—')}</td><td style="font-size:12px">${m?`<b>${m.kind==='Craft'?'สร้าง':'อัป'}</b> `+m.items.map(([n,q])=>`${esc(n)} ×${(q||0).toLocaleString()}`).join(' · '):'—'}</td></tr>`}).join('')}</tbody></table>`;
+  const tiers=`<table><thead><tr><th>ระดับ</th><th>ชื่อ</th><th>โจมตี</th><th>คริ</th><th>ธาตุ</th><th>ความคม</th><th>วัตถุดิบขั้นนี้</th></tr></thead><tbody>${d.rows.map(r=>{const m=d.mats[r.r];return `<tr><td class="num">R${r.r}</td><td>${esc(r.n)}</td><td class="num">${r.atk??'—'}</td><td class="num">${r.aff==null?'—':r.aff+'%'}</td><td class="num">${r.ev==null?'—':(r.el?(WK_TH[{Paralyzed:'para',Paralysis:'para'}[r.el]||r.el.toLowerCase()]||r.el)+' ':'')+r.ev}</td><td>${esc(r.sh||'—')}</td><td style="font-size:12px">${m?`<b>${m.kind==='Craft'?'สร้าง':'อัป'}</b> `+m.items.map(([n,q])=>`${matLink(n)} ×${(q||0).toLocaleString()}`).join(' · '):'—'}</td></tr>`}).join('')}</tbody></table>`;
   const opts=d.rows.map(r=>`<option value="${r.r}" ${r.r===tgt?'selected':''}>R${r.r}</option>`).join('');
   return `<div class="grid2"><div class="tbl-wrap">${tiers}</div><div><b style="font-family:var(--f-display)">วัตถุดิบรวม ตั้งแต่ขั้นแรกถึง</b> <select class="input" style="width:auto;padding:4px 8px" data-wto="${w.id}">${opts}</select>
    <div class="src2" style="margin:4px 0 8px">นับต่อจากสายอัปเกรด: ${names.map(esc).join(' → ')}</div>
-   <div class="mtot">${Object.entries(tot).sort((a,b)=>a[0]==='Zenny'?1:b[0]==='Zenny'?-1:0).map(([n,q])=>`<div><span>${esc(n)}</span><b>×${q.toLocaleString()}</b></div>`).join('')||'<span class="muted">ยังไม่มีข้อมูลวัตถุดิบ</span>'}</div>
+   <div class="mtot">${Object.entries(tot).sort((a,b)=>a[0]==='Zenny'?1:b[0]==='Zenny'?-1:0).map(([n,q])=>`<div><span>${matLink(n)}</span><b>×${q.toLocaleString()}</b></div>`).join('')||'<span class="muted">ยังไม่มีข้อมูลวัตถุดิบ</span>'}</div>
    ${w.apex?'<p class="src2">อาวุธ Apex: เลือกธาตุตอนสร้าง (ไฟ น้ำ สายฟ้า น้ำแข็ง มังกร) ค่าสถานะเท่ากันทุกธาตุ</p>':''}<p class="src2">ช่องที่เป็น “—” คือเว็บต้นทางยังไม่มีค่า</p></div></div>`;
 }
 renderWeapons=function(){
@@ -1602,5 +1626,65 @@ document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
   else if(t=g('[data-ddbc]')){DD.bc=t.dataset.ddbc;renderBuddyCards();scrollTo(0,0)}
   else if(t=g('[data-ddback]')){const k=t.dataset.ddback;DD[k]=null;if(k==='sk')$('#sk-q').value='';if(k==='bc'){bcQ='';$('#bc-q').value=''}({ch:renderChars,sk:renderSkills,bc:renderBuddyCards})[k]();scrollTo(0,0)}});
 renderChars();renderSkills();renderBuddyCards();
+
+/* ---- Endemic Life + Gathering pages (data/endemic.json, data/gathering.json, lazy loaded) ---- */
+document.head.insertAdjacentHTML('beforeend','<style>.en-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;align-content:start}.en-card{background:var(--surface);border:1px solid var(--line);padding:8px 6px;display:grid;justify-items:center;gap:4px;text-align:center;cursor:pointer;font:inherit;color:inherit}.en-card[aria-pressed=true]{border-color:var(--brass);box-shadow:inset 0 0 0 1px var(--brass)}.en-card img{width:64px;height:64px;object-fit:contain}.en-card b{font-size:13px;line-height:1.2}.en-card small{font-size:11px;color:var(--muted)}.mpill{display:inline-block;font-size:11px;padding:1px 6px;margin:1px;border:1px solid var(--line-2)}.kv2{display:grid;grid-template-columns:120px 1fr;gap:6px 10px;font-size:14px;margin:10px 0}.kv2 dt{color:var(--muted)}.kv2 dd{margin:0}.ga-mat{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);padding:4px 8px 4px 4px;margin:3px;font-size:13px;color:inherit;text-decoration:none}.ga-mat img{width:32px;height:32px}.ga-card{background:var(--surface);border:1px solid var(--line);padding:12px 14px;margin-bottom:12px}.ga-card h4{margin:0 0 8px}.ga-tbl{width:100%;border-collapse:collapse;font-size:13px}.ga-tbl th,.ga-tbl td{border-bottom:1px solid var(--line);padding:6px;text-align:center}.ga-tbl th:first-child,.ga-tbl td:first-child{text-align:left}.ga-hit{display:grid;grid-template-columns:56px 1fr;gap:10px;align-items:start;background:var(--surface);border:1px solid var(--brass);padding:10px;margin-bottom:8px}.ga-hit img{width:56px;height:56px}@media (max-width:600px){.kv2{grid-template-columns:96px 1fr}}</style>');
+const DATA={};const loadJ=k=>DATA[k]?Promise.resolve(DATA[k]):fetch('data/'+k+'.json').then(r=>r.json()).then(j=>DATA[k]=j);
+const MPN={GL:'Giantwood Locale',SP:'Searing Plains',RA:'Rotfall Abyss',GA:'Grand Archipelago'};
+const srcLinks=s=>[].concat(s||[]).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https:\/\/gamewith\.ai\/monster-hunter-outlanders\/en\//,'GameWith: '))}</a>`).join(' · ');
+let enMap='all',enType='all',enSel=null;
+function renderEndemic(){loadJ('endemic').then(D=>{
+  $('#en-map').innerHTML=[['all','ทุกแมพ'],...D.maps.map(m=>[m.id,m.n])].map(([k,l])=>`<button class="chip" aria-pressed="${k===enMap}" data-enmap="${k}" type="button">${esc(l)}</button>`).join('');
+  $('#en-type').innerHTML=[['all','ทุกประเภท'],...Object.entries(D.types)].map(([k,l])=>`<button class="chip" aria-pressed="${k===enType}" data-entype="${k}" type="button">${esc(l)}</button>`).join('');
+  const q=($('#en-q').value||'').trim().toLowerCase();
+  const L=D.items.filter(e=>(enMap==='all'||e.maps.includes(enMap))&&(enType==='all'||e.type===enType)&&(!q||e.n.toLowerCase().includes(q)));
+  if(!enSel||!D.items.some(e=>e.id===enSel))enSel=(L[0]||D.items[0]).id;
+  $('#en-grid').innerHTML=L.map(e=>`<button class="en-card" data-ensel="${e.id}" aria-pressed="${e.id===enSel}" type="button">${IMG(e.img,'',e.n)}<b>${esc(e.n)}</b><small>${esc(D.types[e.type])}</small></button>`).join('')||'<p class="muted">ไม่พบสัตว์ที่ตรงกับตัวกรอง</p>';
+  const e=D.items.find(x=>x.id===enSel);const row=(k,v)=>v?`<dt>${k}</dt><dd>${v}</dd>`:'';
+  $('#en-detail').innerHTML=`<div class="head">${IMG(e.img,'',e.n,'style="width:88px;height:88px;object-fit:contain"')}<div><div class="eyebrow">${esc(e.type_en)}</div><h3>${esc(e.n)}</h3><div class="title">${esc(D.types[e.type])}</div></div></div>
+   <dl class="kv2">${row('แมพที่พบ',e.maps.map(m=>`<span class="mpill">${esc(MPN[m])}</span>`).join(''))}${row('ช่วงเวลา/อากาศ',esc(e.when))}${row('วิธีจับ/ใช้',esc(e.how))}${row('ผล/ประโยชน์',esc(e.effect))}${row('ขนาด (ใหญ่สุด/เล็กสุด)',e.size?esc(e.size.join(' / ')):'')}
+   ${row('รางวัลสะสม',e.rewards?e.rewards.map(r=>`<b>${esc(r.n)}</b>: ${esc(r.req)} → ฉายา “${esc(r.title)}” + ${esc(r.item)}`).join('<br>'):'')}</dl>
+   <p class="src2">ช่องที่ไม่แสดง = แหล่งข้อมูลไม่ได้ระบุ · ที่มา: ${srcLinks(e.source)}</p>`;
+  $('#en-src').innerHTML=`ทั้งหมด ${D.items.length} ชนิด · แสดง ${L.length} · ข้อมูล ณ ${esc(D.updated)} จาก ${srcLinks(D.source)}`;
+})}
+let gaMap='GL';
+const matChip=(m)=>`<a class="ga-mat" href="#m-${m.id}">${IMG(m.img,'',m.n)}<span>${esc(m.n)}</span></a>`;
+function matDetail(m,G){const maps=m.maps?m.maps.map(k=>MPN[k]):null;
+  return `<div class="ga-hit" id="ga-hit-${m.id}">${IMG(m.img,'',m.n)}<div><b>${esc(m.n)}</b> <span class="muted" style="font-size:12px">${esc(m.cat)}</span>
+   <dl class="kv2" style="margin:6px 0">${`<dt>เก็บได้ที่</dt><dd>${m.how.map(esc).join('<br>')}</dd>`}<dt>แมพ</dt><dd>${maps?maps.map(x=>`<span class="mpill">${esc(x)}</span>`).join(''):'ทุกแมพที่มีพื้นที่ประเภทนี้'}</dd>
+   ${m.use?`<dt>ใช้ทำอะไร</dt><dd>${esc(m.use)}</dd>`:''}${m.weapons||m.armor?`<dt>ใช้ในอุปกรณ์</dt><dd>อาวุธ ${m.weapons} ชิ้น · เกราะ ${m.armor} ชิ้น</dd>`:''}<dt>ความหายาก</dt><dd class="muted">ยังไม่มีข้อมูลยืนยัน</dd></dl>
+   <span class="src2">ที่มา: ${srcLinks(m.source)}</span></div></div>`}
+function renderGathering(){loadJ('gathering').then(G=>{
+  const q=($('#ga-q').value||'').trim().toLowerCase();const MB=Object.fromEntries(G.materials.map(m=>[m.n,m]));
+  $('#ga-res').innerHTML=q?(G.materials.filter(m=>m.n.toLowerCase().includes(q)).map(m=>matDetail(m,G)).join('')||'<p class="muted">ไม่พบวัตถุดิบนี้</p>'):'';
+  $('#ga-map').innerHTML=G.maps.map(m=>`<button class="chip" aria-pressed="${m.id===gaMap}" data-gamap="${m.id}" type="button">${esc(m.n)}</button>`).join('');
+  const M=G.maps.find(m=>m.id===gaMap);const T=['Plant Resource Area','Local Specialty Area','Honey & Mushroom Area','Tree Resource Area'];const TH=Object.fromEntries(G.resource_areas.map(r=>[r.type,r.th]));
+  let h=`<div class="ga-card"><h4>${esc(M.n)}</h4>`;
+  if(M.areas){h+=`<p class="src2">จำนวนจุดเก็บในแต่ละพื้นที่ (ไม่รวมจุดขุดแร่) · รวม ${M.areas.reduce((a,x)=>a+x.total,0)} จุด</p><div class="tbl-wrap"><table class="ga-tbl"><thead><tr><th>พื้นที่</th>${T.map(t=>`<th>${esc(TH[t])}</th>`).join('')}<th>รวม</th></tr></thead><tbody>${M.areas.map(a=>`<tr><td><b>${esc(a.n)}</b></td>${T.map(t=>`<td class="num">${a[t]||'—'}</td>`).join('')}<td class="num"><b>${a.total}</b></td></tr>`).join('')}</tbody></table></div>`;
+    h+=`<p class="src2" style="margin-top:8px">ลำดับเดินเก็บแนะนำ (ตามแหล่งข้อมูล): ${M.route.map((t,i)=>`${i+1}.${esc(TH[t])}`).join(' → ')}</p>`}
+  else h+=`<p class="muted">${esc(M.note)}</p>`;
+  h+=`<h4 style="margin-top:12px">ของที่มีเฉพาะแมพนี้</h4><div>${M.exclusive.map(n=>matChip(MB[n])).join('')||'<span class="muted">—</span>'}</div><p class="src2">ที่มา: ${srcLinks(M.source)}</p></div>`;
+  h+=`<div class="ga-card"><h4>ประเภทจุดเก็บ และของที่ได้</h4><div class="tbl-wrap"><table class="ga-tbl"><thead><tr><th>จุดเก็บ</th><th>ของที่เก็บได้</th><th>Gatherer ที่ใช้</th></tr></thead><tbody>${G.resource_areas.map(r=>`<tr><td><b>${esc(r.th)}</b><br><small class="muted">${esc(r.type)}</small></td><td style="text-align:left">${r.materials.filter(n=>gaMap==='GA'?MB[n].maps&&MB[n].maps.includes('GA'):!MB[n].maps||MB[n].maps.includes(gaMap)).map(n=>matChip(MB[n])).join('')||'<span class="muted">—</span>'}</td><td>${esc(r.gatherer)}</td></tr>`).join('')}</tbody></table></div>
+   <p class="src2">แสดงเฉพาะของที่เก็บได้ใน ${esc(M.n)}${gaMap==='GA'?' (ยืนยันได้เฉพาะของที่มีแค่แมพนี้)':''}</p></div>`;
+  const g=G.gatherers;
+  h+=`<div class="ga-card"><h4>Gatherer (ที่เก็บของอัตโนมัติ)</h4><dl class="kv2"><dt>ปลดล็อก</dt><dd>${esc(g.unlock)}</dd><dt>ค่าสร้าง</dt><dd>${esc(g.cost)}</dd><dt>การทำงาน</dt><dd>${esc(g.cycle)}</dd><dt>จำนวนที่วางได้</dt><dd>${esc(g.limit)}</dd></dl>
+   <table class="ga-tbl"><thead><tr><th>Watchtower Lv</th><th>Lusterwasp ที่ใช้</th><th>ได้เพิ่ม</th></tr></thead><tbody>${g.watchtower.map(w=>`<tr><td class="num">Lv${w.lv}</td><td class="num">${w.lusterwasp}</td><td>${esc(w.bonus)}</td></tr>`).join('')}</tbody></table><p class="src2">${esc(g.watchtower_note)}</p>
+   <h4 style="margin-top:10px">ตัวอย่างจำนวนที่ได้ต่อวัน</h4>${g.examples.map(x=>`<div style="margin:6px 0"><b>${esc(x.gatherer)}</b> · ${esc(x.map)} / ${esc(x.area)}<div>${Object.entries(x.per_day).map(([n,v])=>`<span class="ga-mat">${MB[n]?IMG(MB[n].img,'',n):''}<span>${esc(n)} ×${v}</span></span>`).join('')}</div></div>`).join('')}<p class="src2">${esc(g.examples_note)}</p>
+   <dl class="kv2"><dt>เครื่องมือ</dt><dd>${esc(g.tools)}</dd><dt>สกิลช่วยเก็บ</dt><dd>${esc(g.geo)}</dd></dl><p class="src2">ที่มา: ${srcLinks(g.source)}</p></div>`;
+  h+=`<div class="ga-card"><h4>ของพิเศษ</h4>${G.special.map(s=>`<div style="display:grid;grid-template-columns:48px 1fr;gap:10px;margin-bottom:10px">${MB[s.n]?IMG(MB[s.n].img,'',s.n,'style="width:48px;height:48px"'):''}<div><b>${esc(s.n)}</b><div style="font-size:14px">${esc(s.text)}</div><div class="src2">เวลา respawn: ${s.respawn?esc(s.respawn):'ยังไม่มีข้อมูลยืนยัน'} · ที่มา: ${srcLinks(s.source)}</div></div></div>`).join('')}</div>`;
+  h+=`<div class="ga-card"><h4>วัตถุดิบทั้งหมด (${G.materials.length})</h4><div>${G.materials.map(matChip).join('')}</div><p class="src2">กดวัตถุดิบเพื่อดูว่าเก็บได้ที่ไหนและใช้ทำอะไร</p></div>`;
+  $('#ga-body').innerHTML=h;
+})}
+document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
+  if(t=g('[data-enmap]')){enMap=t.dataset.enmap;renderEndemic()}else if(t=g('[data-entype]')){enType=t.dataset.entype;renderEndemic()}
+  else if(t=g('[data-ensel]')){enSel=t.dataset.ensel;renderEndemic();if(innerWidth<960)setTimeout(()=>$('#en-detail').scrollIntoView({block:'start'}),60)}
+  else if(t=g('[data-gamap]')){gaMap=t.dataset.gamap;renderGathering()}});
+let egT;document.addEventListener('input',e=>{if(e.target.id==='en-q'){clearTimeout(egT);egT=setTimeout(renderEndemic,120)}if(e.target.id==='ga-q'){clearTimeout(egT);egT=setTimeout(renderGathering,120)}});
+function egRoute(){const h=location.hash;let m;
+  if(h==='#endemic')renderEndemic();else if(m=h.match(/^#e-([a-z0-9-]+)$/)){enSel=m[1];renderEndemic()}
+  else if(h==='#gathering')renderGathering();else if(m=h.match(/^#m-([a-z0-9-]+)$/)){loadJ('gathering').then(G=>{const x=G.materials.find(y=>y.id===m[1]);if(x){$('#ga-q').value=x.n;if(x.maps)gaMap=x.maps[0]}renderGathering()})}}
+window.addEventListener('hashchange',egRoute);egRoute();
+/* link materials on weapon pages to the Gathering page */
+function matLink(n){return window.MATSLUG&&MATSLUG[n]?`<a href="#m-${MATSLUG[n]}" style="color:inherit;text-decoration:underline dotted">${esc(n)}</a>`:esc(n)}
 
 </script>

@@ -1,0 +1,764 @@
+{
+ "note": "สิ่งที่ยืนยันไม่ได้หรือขัดกัน (ไม่ได้ใส่ในเว็บ) และสิ่งที่เปลี่ยนจาก reference/ (ข้อมูลก่อนแพตช์ 27 พ.ย. 2026) · ตรวจกับ GameWith.ai EN วันที่ 27 พ.ย. 2026",
+ "not_used_or_unconfirmed": [
+  {
+   "topic": "ระดับความหายากของวัตถุดิบ",
+   "detail": "GameWith EN ไม่มีข้อมูล rarity ของวัตถุดิบเก็บได้ Game8 EN ไม่มีหน้า Materials ที่มีข้อมูลนี้ GameWith JP ไม่ได้ใช้ (ดูหัวข้อแหล่งข้อมูล) จึงเว้นว่างทุกชิ้น"
+  },
+  {
+   "topic": "จำนวนของต่อจุดวาง Gatherer (reference/gathering/old_data_guide.py)",
+   "detail": "ยืนยันได้แค่ 2 จุดจากตัวอย่างใน GameWith ซึ่งตัวเลขไม่ตรงกับของเก่า ที่เหลือไม่มีแหล่งยืนยัน จึงไม่ได้ใส่ GameWith ยังบอกว่าจำนวนเปลี่ยนตามตำแหน่งที่วาง",
+   "compare": [
+    {
+     "spot": "Giantwood Locale · Outlands · Ore Gatherer",
+     "old_per_12h": {
+      "Monster Bone S": 12,
+      "Ancient Bone": 4,
+      "Iron Ore": 18,
+      "Machalite Ore": 6
+     },
+     "new_per_day": {
+      "Iron Ore": 12,
+      "Machalite Ore": 4,
+      "Monster Bone S": 18,
+      "Ancient Bone": 6
+     },
+     "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+    },
+    {
+     "spot": "Searing Plains · Desert Oasis · Wood Gatherer",
+     "old_per_12h": [
+      {
+       "Hardwood": 21,
+       "Ironwood": 7
+      },
+      {
+       "Hardwood": 15,
+       "Ironwood": 5
+      }
+     ],
+     "new_per_day": {
+      "Hardwood": 45,
+      "Ironwood": 15
+     },
+     "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+    }
+   ]
+  },
+  {
+   "topic": "รอบการเก็บของ Gatherer",
+   "detail": "ของเก่าบอก “ทุก 12 ชม.” แต่ GameWith บอก “ทุกวัน” (daily output) ใช้ของใหม่",
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
+  },
+  {
+   "topic": "วัตถุดิบในข้อมูลเก่าที่ไม่พบในรายการไอเทมของ GameWith (780 ชิ้น)",
+   "items": [
+    "Underground Fruit",
+    "Light Pearl",
+    "Platinum Pearl",
+    "Super Abalone",
+    "Violet Abalone",
+    "Radiantite Crystal (ORANGE)",
+    "UNCONFIRMED-blight-cure-berry",
+    "Crimson Fruit"
+   ],
+   "detail": "ไม่ได้ใส่"
+  },
+  {
+   "topic": "จุดเก็บของใน Grand Archipelago (ของเก่า P11–P15, W7–W8, O8–O9 ที่ Saltthorn Dunes / Spore Isle)",
+   "detail": "หน้าจุดเก็บของ GameWith ครอบคลุมแค่ Giantwood Locale, Searing Plains, Rotfall Abyss (ณ 10 พ.ย. 2026) ยืนยันได้เฉพาะ Coral Bone และ Coral Crystal ว่ามาจากจุดขุดแร่ของ Grand Archipelago"
+  },
+  {
+   "topic": "ชื่อพื้นที่ใน Rotfall Abyss และจุดเก็บ Heavenberry",
+   "detail": "ไกด์ Heavenberry เก่าใช้ชื่อ Petrified Forest, Skyglow Vein, Crimson Moss Rift, Luminous Riverbed, Colossal Rift, Secluded Hollow, Giantwood Roots และบอกว่าได้ Heavenberry แบบสุ่มจากต้น Crimson Fruit 14 จุด ข้อมูล Gatherer เก่าวาง Heavenberry ไว้ที่ Luminant Lakelands 2 จุด แต่ GameWith บอกว่า Heavenberry มาจาก Local Specialty Area ของ Rotfall Abyss และนับจุดนี้ได้ 1 จุดที่ Gloomshade Gorge (Luminant Lakelands = 0) ใช้ของ GameWith ไม่ได้ใช้แผนที่มาร์กจุดเก่า",
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+   ]
+  },
+  {
+   "topic": "เวลา respawn ของ Heavenberry, Crimson Fruit, Honey",
+   "detail": "ไม่มีแหล่งไหนระบุ เว้นว่าง"
+  },
+  {
+   "topic": "Nulberry",
+   "detail": "ของเก่าวางไว้ในจุดเก็บพืช (Mistwood, Saltthorn Dunes) แต่ GameWith ไม่ได้ใส่ Nulberry ในรายการของจุดเก็บพืช บอกแค่ “Gathering” และ Resource Center จึงแสดงแค่ “เก็บได้ในสนาม”"
+  },
+  {
+   "topic": "สัตว์ท้องถิ่น: วิธีจับ (นอกจากปลา) และพื้นที่ย่อยในแมพ",
+   "detail": "GameWith ระบุแค่แมพ (Region = Habitat) ไม่มีพื้นที่ย่อย และไม่ระบุวิธีจับของแมลง/สัตว์ เว้นว่าง"
+  },
+  {
+   "topic": "รูปแผนที่พร้อมจุดมาร์ก",
+   "detail": "GameWith EN ใช้แผนที่แบบ interactive ไม่ใช่รูปนิ่ง ส่วนรูปแผนที่ใน reference ใช้ชื่อพื้นที่และจุดที่ขัดกับข้อมูลใหม่ จึงยังไม่ได้ใส่รูปแผนที่"
+  },
+  {
+   "topic": "การใช้ของพิเศษผสมยา (Vitality Pill, Antipara, Anti-Poison, Anti-Bleeding)",
+   "detail": "พบในหน้า GameWith JP แต่ไม่ได้ใช้ และยังจับคู่ชื่อญี่ปุ่นกับชื่ออังกฤษไม่ได้ชัวร์"
+  }
+ ],
+ "sources": {
+  "used": [
+   "GameWith.ai EN (ทุกข้อมูล)"
+  ],
+  "skipped": [
+   {
+    "site": "GameWith JP",
+    "reason": "ท้ายบทความเขียนขอไม่ให้เก็บข้อมูลอัตโนมัติ (สแครป) และบอกว่าอาจจำกัดการเข้าถึง จึงไม่ใช้"
+   },
+   {
+    "site": "Game8 EN",
+    "reason": "มีแค่หน้าแผนที่ ไม่มีข้อมูล Endemic Life/Materials/Gathering เพิ่มเติม"
+   },
+   {
+    "site": "Game8 JP",
+    "reason": "ไม่จำเป็น ข้อมูลจาก GameWith EN ครบแล้ว"
+   }
+  ]
+ },
+ "changes_vs_reference": {
+  "endemic": [
+   {
+    "item": "Vigorwasp",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Giant Vigorwasp",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Flashfly",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Nitrotoad",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Paratoad",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Sleeptoad",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Copperwing Flutterfly",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Nightglow Flutterfly",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Seerfly",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Gloomfly",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Broad-Eared Ghost Bat",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Serene Coralbird",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Orange Moly",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Emperor Hopper",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Hercudrome",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Gold Hercudrome",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Mythozard",
+    "field": "maps",
+    "old": [
+     "GL",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Iron Helmcrab",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Swiftsprig Hare",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Rosyfluff Hare",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Blissbill",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Pearl Warbler",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Ironfist Crab",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Red-Whisker Crayfish",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Bristly Crake",
+    "field": "maps",
+    "old": [
+     "GL"
+    ],
+    "new": [
+     "GL",
+     "GA"
+    ]
+   },
+   {
+    "item": "Scarlet Blossomfish",
+    "field": "bait",
+    "old": "Lure",
+    "new": "Fake Lure"
+   },
+   {
+    "item": "Whetfish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Whetfish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Whetfish",
+    "field": "bait",
+    "old": "Lure",
+    "new": "Fake Lure"
+   },
+   {
+    "item": "Sushifish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Sushifish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Sushifish",
+    "field": "bait",
+    "old": "Lure",
+    "new": "Fake Lure"
+   },
+   {
+    "item": "Goldenfry",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Goldenfry",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Goldenfry",
+    "field": "bait",
+    "old": "ดังโงะเดเมคิน",
+    "new": "Gunpowderfish Bait"
+   },
+   {
+    "item": "Bubblefish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Bubblefish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "GA"
+    ]
+   },
+   {
+    "item": "Bubblefish",
+    "field": "bait",
+    "old": "ดังโงะเดเมคิน",
+    "new": "Gunpowderfish Bait"
+   },
+   {
+    "item": "Goldenfish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Goldenfish",
+    "field": "maps",
+    "old": [
+     "GL",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Goldenfish",
+    "field": "bait",
+    "old": "ดังโงะทอง",
+    "new": "Goldenfish Bait"
+   },
+   {
+    "item": "Platinumfish",
+    "field": "bait",
+    "old": "ดังโงะทอง",
+    "new": "Goldenfish Bait"
+   },
+   {
+    "item": "King Spearfish",
+    "field": "bait",
+    "old": "เหยื่อแมลงทอง",
+    "new": "Baitbug"
+   },
+   {
+    "item": "Gastronome Tuna",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Gastronome Tuna",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Gastronome Tuna",
+    "field": "bait",
+    "old": "เหยื่อแมลงทอง",
+    "new": "Baitbug"
+   },
+   {
+    "item": "Burst Arowana",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Burst Arowana",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Burst Arowana",
+    "field": "bait",
+    "old": "ดังโงะอโรวาน่า",
+    "new": "Arowana Bait"
+   },
+   {
+    "item": "Bomb Arowana",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Great Bomb Arowana",
+    "field": "maps",
+    "old": [
+     "GL",
+     "SP",
+     "RA"
+    ],
+    "new": [
+     "GL",
+     "SP",
+     "RA",
+     "GA"
+    ]
+   },
+   {
+    "item": "Bomb Arowana",
+    "field": "bait",
+    "old": "ดังโงะอโรวาน่า",
+    "new": "Arowana Bait"
+   },
+   {
+    "item": "Starrycanth",
+    "field": "bait",
+    "old": "เหยื่อแมลงทอง",
+    "new": "Baitbug"
+   }
+  ],
+  "endemic_summary": "25 ชนิดพบเพิ่มที่ Grand Archipelago (ของเก่าไม่มี GA) · ชื่อเหยื่อตกปลาเปลี่ยนเป็นชื่อในเกม (Fake Lure, Gunpowderfish Bait, Goldenfish Bait, Baitbug, Arowana Bait)",
+  "gathering": [
+   "รอบ Gatherer: 12 ชม. → ทุกวัน",
+   "Outlands Ore Gatherer และ Desert Oasis Wood Gatherer ใช้ตัวเลขใหม่ (ดูด้านบน)",
+   "ตัด 8 วัตถุดิบที่ไม่พบในเกมตามรายการไอเทม GameWith",
+   "Heavenberry: จุดเก็บย้ายจาก Luminant Lakelands → Gloomshade Gorge (Local Specialty Area 1 จุด)",
+   "จุดเก็บต่อพื้นที่ใช้ตารางจำนวนจุดของ GameWith (GL 18, SP 15, RA 7 จุด)"
+  ]
+ }
+}
