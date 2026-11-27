@@ -492,3 +492,30 @@ async function cmView(id){const V=$('#cm-view');V.innerHTML='<div class="empty-n
 window.addEventListener('hashchange',cmRoute);
 try{$('#pub-author').value=localStorage.getItem('mho_author')||''}catch(e){}
 pubForm();cmRoute();
+
+/* ---- monsters: category menu -> list -> detail ---- */
+let mView=0;
+const _rm2=renderMonsters;
+renderMonsters=function(){
+  const q=monQ;if(q&&mView===0)mView=1;if(!q&&mView===1&&monCls==='ทั้งหมด')mView=0;
+  if(mView===0)monCls='ทั้งหมด';
+  _rm2();
+  const lay=document.querySelector('#v-monsters .mon-layout'),G=$('#mon-grid'),Dt=$('#mon-detail'),C=$('#mon-cls');
+  C.hidden=true;let nav=$('#mon-nav');if(!nav){nav=document.createElement('div');nav.id='mon-nav';lay.before(nav)}
+  lay.style.gridTemplateColumns='1fr';
+  if(mView===0){
+    const cats=[...new Set(MONS.map(m=>m.clsTh).filter(Boolean))].map(c=>({c,l:MONS.filter(m=>m.clsTh===c)}));cats.push({c:'Radiant',l:MONS.filter(m=>m.rad)});
+    nav.innerHTML='<h3 style="margin:0 0 10px">เลือกสายพันธุ์</h3>';
+    G.innerHTML=cats.map(({c,l})=>`<button class="mon-card" data-mcat="${esc(c)}" type="button"><span class="top"><span><span class="threat">${c==='Radiant'?'<span class="rad">RADIANT</span>':esc(l[0].cls)}</span><h4>${esc(c)}</h4><span class="muted" style="font-size:13px">${l.length} ตัว</span></span></span><span class="mcat-ic">${l.slice(0,6).map(m=>monIcon(m.k,'')).join('')}</span></button>`).join('');
+    G.hidden=false;Dt.hidden=true;return}
+  if(mView===1){nav.innerHTML=`<div style="display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap"><button class="btn btn-ghost btn-sm" data-mback="0" type="button">← ทุกสายพันธุ์</button><h3 style="margin:0">${q?'ผลการค้นหา':esc(monCls)}</h3></div>`;
+    if(q){G.innerHTML=MONS.filter(m=>(m.n+' '+(m.clsTh||'')+' '+(m.cls||'')+(m.rad?' radiant':'')).toLowerCase().includes(q)).map(m=>`<button class="mon-card" data-msel="${m.k}" type="button"><span class="top">${monIcon(m.k,'')}<span><span class="threat">${m.rad?'<span class="rad">RADIANT</span>':esc(m.cls)}</span><h4>${esc(m.n)}</h4></span></span></button>`).join('')||'<div class="empty-note">ไม่พบมอนสเตอร์</div>'}
+    G.hidden=false;Dt.hidden=true;return}
+  nav.innerHTML=`<div style="display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap"><button class="btn btn-ghost btn-sm" data-mback="1" type="button">← ${q?'ผลการค้นหา':esc(monCls)}</button><button class="x-btn" data-mback="0" type="button">ทุกสายพันธุ์</button></div>`;
+  G.hidden=true;Dt.hidden=false;
+};
+document.addEventListener('click',e=>{const c=e.target.closest('[data-mcat]'),b=e.target.closest('[data-mback]'),s=e.target.closest('[data-msel]');
+  if(c){monCls=c.dataset.mcat;mView=1;renderMonsters();scrollTo(0,0)}
+  else if(b){mView=+b.dataset.mback;if(mView===0){monQ='';$('#mon-q').value=''}renderMonsters();scrollTo(0,0)}
+  else if(s||e.target.closest('[data-mon]')){mView=2;renderMonsters();scrollTo(0,0)}});
+renderMonsters();

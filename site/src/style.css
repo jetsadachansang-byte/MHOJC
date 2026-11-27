@@ -338,4 +338,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .notice{border:1px dashed var(--line-2);padding:10px 14px;font-size:13px;color:var(--muted);margin-bottom:18px}
 .notice b{color:var(--fg)}
 .theme-btn{background:transparent;border:1px solid var(--line-2);color:var(--muted);padding:5px 10px;font-size:12px;cursor:pointer;flex:none}
+
+.mcat-ic{display:flex;gap:4px;flex-wrap:wrap;margin-top:8px}.mcat-ic img,.mcat-ic svg{width:36px!important;height:36px!important;object-fit:contain}#v-monsters .view-head .input{width:100%}
 </style>
