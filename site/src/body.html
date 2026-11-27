@@ -121,6 +121,7 @@
     <nav class="nav" aria-label="เมนูหลัก">
       <a href="#home">หน้าแรก</a>
       <a href="#builder">จัดบิลด์</a>
+      <a href="#community">คลังบิลด์</a>
       <a href="#adventurers">ตัวละคร</a>
       <a href="#armor">ชุดเกราะ</a>
       <a href="#weapons">อาวุธ</a>
@@ -198,6 +199,15 @@
         </div>
         <div class="panel">
           <div class="panel-h"><h3>บันทึกบิลด์</h3></div>
+          <div class="save-box" id="pub-box" style="border-bottom:1px solid var(--line)">
+            <b style="font-family:var(--f-display)" id="pub-title">เผยแพร่บิลด์นี้</b>
+            <input class="input" id="pub-name" maxlength="60" placeholder="ชื่อบิลด์">
+            <input class="input" id="pub-author" maxlength="30" placeholder="ชื่อผู้ลง">
+            <textarea class="input" id="pub-desc" maxlength="500" placeholder="คำอธิบาย (ไม่บังคับ)" style="font-family:var(--f-body);font-size:14px"></textarea>
+            <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" id="pub-public" checked> เปิดสาธารณะให้คนอื่นดูได้</label>
+            <div class="save-line"><button class="btn btn-brass btn-sm" id="pub-save" type="button">เผยแพร่</button><button class="btn btn-ghost btn-sm" id="pub-new" type="button" hidden>บันทึกเป็นบิลด์ใหม่</button><button class="btn btn-danger btn-sm" id="pub-del" type="button" hidden>ลบบิลด์</button></div>
+            <span class="muted" style="font-size:12px" id="pub-info">สิทธิ์แก้ไขผูกกับเบราว์เซอร์ที่ใช้ลงบิลด์ ถ้าล้างข้อมูลเบราว์เซอร์จะแก้ไขไม่ได้ เก็บรหัสผู้ลงไว้ได้หลังเผยแพร่</span>
+          </div>
           <div class="save-box">
             <div class="save-line"><input class="input" id="bd-name" placeholder="ตั้งชื่อบิลด์ เช่น Rathalos ไฟ Long Sword" maxlength="40"><button class="btn btn-brass btn-sm" id="bd-save">บันทึก</button></div>
             <div class="save-line"><button class="btn btn-ghost btn-sm" id="bd-export">คัดลอกโค้ดบิลด์</button><button class="btn btn-ghost btn-sm" id="bd-import-toggle">วางโค้ดบิลด์</button></div>
@@ -239,6 +249,15 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="v-community" data-view="community" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">ชุมชน</div><h2>คลังบิลด์</h2><p>บิลด์ที่ผู้เล่นเผยแพร่ไว้ กด “เปิดในหน้าจัดบิลด์” เพื่อลองใช้ เฉพาะผู้ลงบิลด์เท่านั้นที่แก้ไขหรือลบได้</p></div></div>
+    <div class="chips" id="cm-tabs" style="margin-bottom:12px"></div>
+    <input class="input" id="cm-q" type="search" placeholder="ค้นหาชื่อบิลด์ ผู้ลง หรืออาวุธ" style="margin-bottom:12px">
+    <div id="cm-list"></div>
   </div>
 </section>
 
@@ -387,7 +406,7 @@ const setOfMon=n=>SETS.filter(s=>s.m===n);
 const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
 
 /* router */
-const VIEWS=['home','builder','adventurers','armor','weapons','skills','monsters','buddies'];
+const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies'];
 function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='home';
   document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});

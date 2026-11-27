@@ -467,6 +467,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
     <nav class="nav" aria-label="เมนูหลัก">
       <a href="#home">หน้าแรก</a>
       <a href="#builder">จัดบิลด์</a>
+      <a href="#community">คลังบิลด์</a>
       <a href="#adventurers">ตัวละคร</a>
       <a href="#armor">ชุดเกราะ</a>
       <a href="#weapons">อาวุธ</a>
@@ -544,6 +545,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         </div>
         <div class="panel">
           <div class="panel-h"><h3>บันทึกบิลด์</h3></div>
+          <div class="save-box" id="pub-box" style="border-bottom:1px solid var(--line)">
+            <b style="font-family:var(--f-display)" id="pub-title">เผยแพร่บิลด์นี้</b>
+            <input class="input" id="pub-name" maxlength="60" placeholder="ชื่อบิลด์">
+            <input class="input" id="pub-author" maxlength="30" placeholder="ชื่อผู้ลง">
+            <textarea class="input" id="pub-desc" maxlength="500" placeholder="คำอธิบาย (ไม่บังคับ)" style="font-family:var(--f-body);font-size:14px"></textarea>
+            <label style="display:flex;gap:8px;align-items:center;font-size:14px"><input type="checkbox" id="pub-public" checked> เปิดสาธารณะให้คนอื่นดูได้</label>
+            <div class="save-line"><button class="btn btn-brass btn-sm" id="pub-save" type="button">เผยแพร่</button><button class="btn btn-ghost btn-sm" id="pub-new" type="button" hidden>บันทึกเป็นบิลด์ใหม่</button><button class="btn btn-danger btn-sm" id="pub-del" type="button" hidden>ลบบิลด์</button></div>
+            <span class="muted" style="font-size:12px" id="pub-info">สิทธิ์แก้ไขผูกกับเบราว์เซอร์ที่ใช้ลงบิลด์ ถ้าล้างข้อมูลเบราว์เซอร์จะแก้ไขไม่ได้ เก็บรหัสผู้ลงไว้ได้หลังเผยแพร่</span>
+          </div>
           <div class="save-box">
             <div class="save-line"><input class="input" id="bd-name" placeholder="ตั้งชื่อบิลด์ เช่น Rathalos ไฟ Long Sword" maxlength="40"><button class="btn btn-brass btn-sm" id="bd-save">บันทึก</button></div>
             <div class="save-line"><button class="btn btn-ghost btn-sm" id="bd-export">คัดลอกโค้ดบิลด์</button><button class="btn btn-ghost btn-sm" id="bd-import-toggle">วางโค้ดบิลด์</button></div>
@@ -585,6 +595,15 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="v-community" data-view="community" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">ชุมชน</div><h2>คลังบิลด์</h2><p>บิลด์ที่ผู้เล่นเผยแพร่ไว้ กด “เปิดในหน้าจัดบิลด์” เพื่อลองใช้ เฉพาะผู้ลงบิลด์เท่านั้นที่แก้ไขหรือลบได้</p></div></div>
+    <div class="chips" id="cm-tabs" style="margin-bottom:12px"></div>
+    <input class="input" id="cm-q" type="search" placeholder="ค้นหาชื่อบิลด์ ผู้ลง หรืออาวุธ" style="margin-bottom:12px">
+    <div id="cm-list"></div>
   </div>
 </section>
 
@@ -733,7 +752,7 @@ const setOfMon=n=>SETS.filter(s=>s.m===n);
 const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
 
 /* router */
-const VIEWS=['home','builder','adventurers','armor','weapons','skills','monsters','buddies'];
+const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies'];
 function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='home';
   document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
@@ -1477,5 +1496,53 @@ renderBuilder=function(){_rb3();
   renderDmg()};
 mskRender();
 renderChars();renderMedia();renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();
+
+/* ---- community builds: public sharing, owner-only edit via secret token ---- */
+const OWN={get(){try{return JSON.parse(localStorage.getItem('mho_owned')||'{}')}catch(e){return {}}},set(o){try{localStorage.setItem('mho_owned',JSON.stringify(o))}catch(e){}}};
+let EDIT=null,cmTab='pub',cmPub=null,cmMine=null;
+async function capi(path,opt={}){const id=opt.id,o=OWN.get();const h={'content-type':'application/json'};if(id&&o[id])h['x-owner-token']=o[id].t;
+  const r=await fetch('/api/builds'+(id?'/'+id:''),{method:opt.method||'GET',headers:h,body:opt.body?JSON.stringify(opt.body):undefined});
+  const j=await r.json().catch(()=>({}));if(!r.ok)throw Object.assign(new Error(j.error||r.status),{status:r.status});return j}
+const pubBody=()=>({name:$('#pub-name').value.trim(),author:$('#pub-author').value.trim(),desc:$('#pub-desc').value.trim(),public:$('#pub-public').checked,build:B});
+function pubForm(){const e=EDIT&&OWN.get()[EDIT];$('#pub-title').textContent=e?'กำลังแก้ไข: '+e.name:'เผยแพร่บิลด์นี้';$('#pub-save').textContent=e?'บันทึกการแก้ไข':'เผยแพร่';$('#pub-new').hidden=$('#pub-del').hidden=!e;
+  $('#pub-info').innerHTML=e?`ลิงก์: <a href="#b-${EDIT}">${location.origin}/#b-${EDIT}</a> · <button class="x-btn" data-cmcode="${EDIT}" type="button">คัดลอกรหัสผู้ลง</button>`:'สิทธิ์แก้ไขผูกกับเบราว์เซอร์ที่ใช้ลงบิลด์ เก็บ “รหัสผู้ลง” ไว้เพื่อแก้ไขจากเครื่องอื่น'}
+async function pubSave(asNew){const btn=$('#pub-save');btn.disabled=true;const body=pubBody();if(!body.name){toast('ใส่ชื่อบิลด์ก่อน');btn.disabled=false;return}
+  try{const o=OWN.get();if(EDIT&&o[EDIT]&&!asNew){await capi('',{id:EDIT,method:'PUT',body});o[EDIT].name=body.name;OWN.set(o);toast('บันทึกการแก้ไขแล้ว')}
+    else{const j=await capi('',{method:'POST',body});o[j.build.id]={t:j.token,name:body.name};OWN.set(o);EDIT=j.build.id;toast(body.public?'เผยแพร่แล้ว':'บันทึกแบบส่วนตัวแล้ว')}
+    try{localStorage.setItem('mho_author',body.author)}catch(e){}cmPub=cmMine=null;pubForm()}catch(e){toast(e.status===403?'แก้ไขได้เฉพาะผู้ลงบิลด์':'บันทึกไม่สำเร็จ ลองใหม่อีกครั้ง')}btn.disabled=false}
+async function cmDel(id){if(!confirm('ลบบิลด์นี้ถาวร?'))return;try{await capi('',{id,method:'DELETE'});const o=OWN.get();delete o[id];OWN.set(o);if(EDIT===id){EDIT=null;pubForm()}cmPub=cmMine=null;renderCommunity();toast('ลบแล้ว')}catch(e){toast(e.status===403?'ลบได้เฉพาะผู้ลงบิลด์':'ลบไม่สำเร็จ')}}
+async function cmOpen(id,edit){try{const j=await capi('',{id});const b=normalize(j.build.build);if(!b)throw 0;B=b;saveCur();
+    EDIT=j.owner&&edit!==false?id:null;if(EDIT){$('#pub-name').value=j.build.name;$('#pub-author').value=j.build.author;$('#pub-desc').value=j.build.desc;$('#pub-public').checked=j.build.public}
+    pubForm();if(location.hash!=='#builder')location.hash='builder';renderBuilder();toast('เปิด “'+j.build.name+'” โดย '+j.build.author)}catch(e){toast(e.status===403?'บิลด์นี้เป็นส่วนตัว':e.status===404?'ไม่พบบิลด์นี้':'โหลดไม่สำเร็จ')}}
+const cmDate=t=>t?new Date(t).toLocaleDateString('th-TH',{day:'numeric',month:'short',year:'2-digit'}):'';
+function cmCard(s,mine){const w=W_BY[s.weapon];const wi=w&&(weaponImg(w.n)||MEDIA.weaponIcons[w.t]);
+  return `<div class="saved-item" style="gap:10px;align-items:center">${wi?IMG(wi,'',w.n,'style="width:40px;height:40px;object-fit:contain"'):''}<span class="n" style="flex:1;min-width:0"><b>${esc(s.name)}</b><br><span class="muted" style="font-size:12px">${esc(s.author)} · ${w?esc(WT_BY[w.t].n)+' · '+esc(w.n):'ไม่มีอาวุธ'} · ${cmDate(s.updated)}${mine&&s.public===false?' · 🔒 ส่วนตัว':''}</span></span>
+   <button class="btn btn-ghost btn-sm" data-cmopen="${s.id}" type="button">เปิดในหน้าจัดบิลด์</button><button class="x-btn" data-cmlink="${s.id}" type="button">ลิงก์</button>${mine?`<button class="btn btn-ghost btn-sm" data-cmedit="${s.id}" type="button">แก้ไข</button><button class="x-btn" data-cmcode="${s.id}" type="button">รหัส</button><button class="x-btn" data-cmdel="${s.id}" type="button">ลบ</button>`:''}</div>`}
+async function renderCommunity(){const L=$('#cm-list');if(!L)return;const o=OWN.get(),n=Object.keys(o).length;
+  $('#cm-tabs').innerHTML=`<button class="chip" aria-pressed="${cmTab==='pub'}" data-cmtab="pub" type="button">บิลด์สาธารณะ</button><button class="chip" aria-pressed="${cmTab==='mine'}" data-cmtab="mine" type="button">บิลด์ของฉัน (${n})</button>`;
+  const q=($('#cm-q').value||'').toLowerCase().trim();const f=a=>a.filter(s=>{if(!q)return true;const w=W_BY[s.weapon];return (s.name+' '+s.author+' '+(w?w.n+' '+WT_BY[w.t].n:'')).toLowerCase().includes(q)});
+  try{if(cmTab==='pub'){if(!cmPub){L.innerHTML='<div class="empty-note">กำลังโหลด…</div>';cmPub=(await capi('')).builds}const a=f(cmPub);
+      L.innerHTML=a.length?a.map(s=>cmCard(s,!!o[s.id])).join(''):'<div class="empty-note">ยังไม่มีบิลด์สาธารณะ ไปที่หน้าจัดบิลด์แล้วกด “เผยแพร่” เพื่อเป็นคนแรก</div>'}
+    else{if(!cmMine){L.innerHTML='<div class="empty-note">กำลังโหลด…</div>';cmMine=[];for(const id of Object.keys(o)){try{const j=await capi('',{id});cmMine.push({...j.build,weapon:j.build.build.weapon})}catch(e){if(e.status===404){const x=OWN.get();delete x[id];OWN.set(x)}}}cmMine.sort((a,b)=>b.updated-a.updated)}
+      const a=f(cmMine);L.innerHTML=(a.length?a.map(s=>cmCard(s,true)).join(''):'<div class="empty-note">ยังไม่มีบิลด์ของคุณในเบราว์เซอร์นี้</div>')+
+      `<div class="save-box" style="margin-top:12px"><b style="font-family:var(--f-display)">กู้สิทธิ์ผู้ลงจากเครื่องอื่น</b><div class="save-line"><input class="input" id="cm-code" placeholder="วางรหัสผู้ลง เช่น abc123….xxxx"><button class="btn btn-brass btn-sm" id="cm-claim" type="button">เพิ่ม</button></div></div>`}}
+  catch(e){L.innerHTML='<div class="empty-note">โหลดไม่สำเร็จ ลองรีเฟรชหน้า</div>'}}
+const copyTxt=(t,m)=>{if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(()=>toast(m)).catch(()=>prompt('คัดลอก:',t));else prompt('คัดลอก:',t)};
+document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
+  if(t=g('[data-cmtab]')){cmTab=t.dataset.cmtab;renderCommunity()}
+  else if(t=g('[data-cmopen]'))cmOpen(t.dataset.cmopen,false);
+  else if(t=g('[data-cmedit]'))cmOpen(t.dataset.cmedit,true);
+  else if(t=g('[data-cmdel]'))cmDel(t.dataset.cmdel);
+  else if(t=g('[data-cmlink]'))copyTxt(location.origin+'/#b-'+t.dataset.cmlink,'คัดลอกลิงก์แล้ว');
+  else if(t=g('[data-cmcode]')){const id=t.dataset.cmcode,o=OWN.get();if(o[id])copyTxt(id+'.'+o[id].t,'คัดลอกรหัสผู้ลงแล้ว เก็บไว้เป็นความลับ')}
+  else if(g('#cm-claim')){const m=($('#cm-code').value||'').trim().match(/^([a-f0-9]{12})\.([a-f0-9]{32})$/);if(!m)return toast('รหัสไม่ถูกต้อง');const o=OWN.get();o[m[1]]={t:m[2],name:'…'};OWN.set(o);
+    capi('',{id:m[1]}).then(j=>{if(!j.owner)throw 0;o[m[1]].name=j.build.name;OWN.set(o);cmMine=null;renderCommunity();toast('กู้สิทธิ์แล้ว')}).catch(()=>{const x=OWN.get();delete x[m[1]];OWN.set(x);toast('รหัสไม่ถูกต้องหรือบิลด์ถูกลบแล้ว')})}
+  else if(g('#pub-save'))pubSave(false);else if(g('#pub-new'))pubSave(true);else if(g('#pub-del')&&EDIT)cmDel(EDIT);
+});
+let cmT;document.addEventListener('input',e=>{if(e.target.id==='cm-q'){clearTimeout(cmT);cmT=setTimeout(renderCommunity,150)}});
+function cmRoute(){const h=location.hash;const m=h.match(/^#b-([a-f0-9]{12})$/);if(m)cmOpen(m[1],true);else if(h==='#community'){cmPub=null;renderCommunity()}}
+window.addEventListener('hashchange',cmRoute);
+try{$('#pub-author').value=localStorage.getItem('mho_author')||''}catch(e){}
+pubForm();cmRoute();
 
 </script>
