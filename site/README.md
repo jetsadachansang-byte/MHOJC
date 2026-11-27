@@ -6,7 +6,7 @@ Thai fan site for Monster Hunter Outlanders, deployed at https://mho-builder-9qq
 - `db.js` – game database (armor, weapons, skills with Thai text, monster weaknesses). Built by `tools/parse.py` + `tools/build_db.py` from community data pages (mhoutlandersbuild.com, 3rd Closed Beta data).
 - `media.js` / `media.json` – image map. Built by `tools/optimize_images.py` from `assets/images/` (WebP, resized) into `img/`.
 - `img/armor/` – web copies of the armor icons and full-body images (from `assets/images/12-armor/`, built by `tools/build_armor_db.py`).
-- Images on the live site are served from the repo through jsDelivr.
+- Images on the live site are served through jsDelivr from the `cdn` branch, which holds only a copy of `site/img` (jsDelivr refuses repos over 50 MB, and this repo is larger because of `assets/images`). After changing images, copy `site/img` to the `cdn` branch and point the Cloudflare worker at the new `cdn` commit.
 
 ## Armor images (assets/images/12-armor)
 
