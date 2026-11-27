@@ -125,12 +125,12 @@ function advHTML(c){
   const gl=(arr,neg)=>arr.map(([n,x])=>`<div>${giftImg(n)?IMG(giftImg(n),'',n):blank(n)}<span>${esc(n)}</span><em class="${neg?'neg':''}">${esc(x)}</em></div>`).join('');
   return `<div class="cd" style="--elc:${ECOL[ELK(P.element)]||'var(--brass)'}">
    <h5>PROFILE</h5><div class="pf"><div><span>CLASS</span><b>${esc(P.class)}</b></div><div><span>WEAPON</span><b>${esc(P.weapon)}</b></div><div><span>ELEMENT</span><b>${esc(P.element)}</b></div><div><span>RARITY</span><b>${esc(P.rarity)}</b></div><div><span>วิธีได้</span><b>${esc(P.obtain)}</b></div><div><span>BUDDY แนะนำ</span><b>${esc(P.buddy)}</b></div></div>
-   <h5>SKILLS <small>${esc(d.skills_src)}</small></h5>${d.skills.map(([l,n,x])=>`<div class="srow"><span class="lab ${l==='ULTIMATE'?'ult':''}">${esc(l)}</span><div><b class="t">${esc(n)}</b><span class="d">${md(x)}</span></div></div>`).join('')}
+   <h5>SKILLS</h5>${d.skills.map(([l,n,x])=>`<div class="srow"><span class="lab ${l==='ULTIMATE'?'ult':''}">${esc(l)}</span><div><b class="t">${esc(n)}</b><span class="d">${md(x)}</span></div></div>`).join('')}
    ${d.traits.map(([l,n,x])=>`<div class="trait"><span>${esc(l)}</span>${n?`<b>${esc(n)}</b> — `:''}${md(x)}</div>`).join('')}
-   <h5>INSIGHTS <small>${esc(d.insights_src)}</small></h5>${d.insights.map(([n,x],i)=>`<div class="ins"><i>${i+1}</i><div><b class="t">${esc(n)}</b><span class="d">${md(x)}</span></div></div>`).join('')}${d.insights_pending?`<p class="src2">${esc(d.insights_pending)}</p>`:''}
+   <h5>INSIGHTS</h5>${d.insights.map(([n,x],i)=>`<div class="ins"><i>${i+1}</i><div><b class="t">${esc(n)}</b><span class="d">${md(x)}</span></div></div>`).join('')}${d.insights_pending?`<p class="src2">${esc(d.insights_pending)}</p>`:''}
    <h5>ของขวัญที่ชอบ <small>${esc(d.gifts_like_note)}</small></h5><div class="gl">${gl(d.gifts_like)}</div>
    <h5>ของขวัญที่ชอบน้อย <small>${esc(d.gifts_dislike_note)}</small></h5>${d.gifts_dislike.length?`<div class="gl">${gl(d.gifts_dislike,1)}</div>`:`<p class="src2">${esc(d.gifts_dislike_empty||'')}</p>`}
-   <h5>BOND REWARD</h5><div class="trait">${esc(d.bond_reward)}</div><p class="src2">${esc(d.source)}</p></div>`;
+   <h5>BOND REWARD</h5><div class="trait">${esc(d.bond_reward)}</div></div>`;
 }
 /* ---- recommended build (old build card) ---- */
 function bcolHTML(b,c){
@@ -146,8 +146,8 @@ function buildHTML(c){
   const d=CARDS.build[c.id];if(!d)return '<p class="muted">ยังไม่มีข้อมูล</p>';
   return `<div class="bc2" style="--elc:${ECOL[ELK(c.el)]||'var(--brass)'}"><div class="bc2-top"><div><span class="tg">${esc(d.tag)}</span><h4>${esc(c.n)}</h4>
    <div style="font-size:14px"><span class="rar" style="--rc:var(--elc)">BUDDY</span> ${d.buddies.length?d.buddies.map(esc).join(' · '):esc(d.buddies_empty||'')}</div><div class="src2">${esc(d.updated)}</div></div>${IMG(c.p,'',c.n)}</div>
-   <div class="vt"><b style="grid-column:1/-1;letter-spacing:.12em">การ์ด VISAGE <small style="display:inline;color:var(--muted)">${esc(d.visage_src)}</small></b>${d.visage.map(([k,n,so,x])=>`<span class="muted">${esc(k)}</span><span><b>${esc(n)}</b>${so?`<span class="so">${esc(so)}</span>`:''}${x?`<small>${esc(x)}</small>`:''}</span>`).join('')}</div>
-   <div class="bcols">${d.builds.map(b=>bcolHTML(b,c)).join('')}</div><p class="src2">${esc(d.footer)}</p></div>`;
+   <div class="vt"><b style="grid-column:1/-1;letter-spacing:.12em">การ์ด VISAGE</b>${d.visage.map(([k,n,so,x])=>`<span class="muted">${esc(k)}</span><span><b>${esc(n)}</b>${so?`<span class="so">${esc(so)}</span>`:''}${x?`<small>${esc(x)}</small>`:''}</span>`).join('')}</div>
+   <div class="bcols">${d.builds.map(b=>bcolHTML(b,c)).join('')}</div></div>`;
 }
 /* ---- guide pages (old Freya/Stylia guide images) ---- */
 function guideHTML(g,c){
@@ -156,16 +156,16 @@ function guideHTML(g,c){
   const head=`<div class="eb">${esc(g.eyebrow)}${g.date?` · ${esc(g.date)}`:''}</div>`;
   if(g.kind==='intro')return `<div class="gp" style="${st}">${head}<div class="intro"><div style="display:grid;gap:8px;align-content:start">${g.badge?`<span class="tg" style="background:var(--elc);color:var(--on-brass);font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.16em;padding:3px 10px;width:max-content">${esc(g.badge)}</span>`:''}<h4>${esc(g.title)}</h4>
     <div class="pf">${g.facts.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div>${g.quote?`<div class="q">${esc(g.quote)}</div>`:''}</div>${art?IMG(art,'',g.title,`data-zoom="${art}" data-cap="${esc(g.title)}"`):''}</div>
-    <div class="boxes">${g.boxes.map(([h,t,s])=>`<div class="box"><span>${esc(h)}</span>${md(t)}${s?`<small>${esc(s)}</small>`:''}</div>`).join('')}</div><p class="src2">${esc(g.source)}</p></div>`;
+    <div class="boxes">${g.boxes.map(([h,t,s])=>`<div class="box"><span>${esc(h)}</span>${md(t)}${s?`<small>${esc(s)}</small>`:''}</div>`).join('')}</div></div>`;
   if(g.kind==='outfits'){const O=Object.fromEntries(MEDIA.outfits.map(o=>[o.id,o]));
     return `<div class="gp">${head}<h4>${esc(g.title)}</h4>${g.main.map(m=>{const o=O[m.id]||{};return `<div class="of" style="--elc:${m.id.startsWith('freya')?ECOL.fire:ECOL.ice}">${o.img?IMG(o.img,'',m.name,`data-zoom="${o.full||o.img}" data-cap="${esc(m.name)}"`):blank(m.name)}<div><div class="eb">${esc(m.tag)}</div><h4 style="font-size:24px">${esc(m.name)}</h4><div class="chipz" style="margin:6px 0">${m.chips.map(x=>`<span>${esc(x)}</span>`).join('')}</div>${m.lines.map(l=>`<div style="font-size:14px">${md(l)}</div>`).join('')}${m.notes.map(n=>`<div class="src2">${esc(n)}</div>`).join('')}</div></div>`}).join('')}
-     <div class="boxes">${g.small.map(m=>{const o=O[m.id]||{};return `<div class="of" style="grid-template-columns:120px 1fr;--elc:${ECOL.ice}">${o.img?IMG(o.img,'',m.name,`style="width:120px" data-zoom="${o.full||o.img}" data-cap="${esc(m.name)}"`):blank(m.name)}<div><b style="font-family:var(--f-display);font-size:16px">${esc(m.name)}</b><div style="font-size:13px">${md(m.desc)}</div></div></div>`}).join('')}</div><p class="src2">${esc(g.source)}</p></div>`}
+     <div class="boxes">${g.small.map(m=>{const o=O[m.id]||{};return `<div class="of" style="grid-template-columns:120px 1fr;--elc:${ECOL.ice}">${o.img?IMG(o.img,'',m.name,`style="width:120px" data-zoom="${o.full||o.img}" data-cap="${esc(m.name)}"`):blank(m.name)}<div><b style="font-family:var(--f-display);font-size:16px">${esc(m.name)}</b><div style="font-size:13px">${md(m.desc)}</div></div></div>`}).join('')}</div></div>`}
   const rows=r=>r.map(([small,k,v])=>`<div class="row"><div class="k">${small?`<small>${esc(small)}</small>`:''}<b>${esc(k)}</b></div><div>${md(v)}</div></div>`).join('');
   const gl=(o,neg)=>o?`<div class="row"><div class="k"><b>${esc(o.h)}</b></div><div><div class="gl">${o.items.map(([n,x])=>`<div>${giftImg(n)?IMG(giftImg(n),'',n):blank(n)}<span>${esc(n)}</span><em class="${neg?'neg':''}">${esc(x)}</em></div>`).join('')}</div>${o.note?`<div class="src2">${esc(o.note)}</div>`:''}</div></div>`:'';
   return `<div class="gp" style="${st}">${head}<h4>${esc(g.title)}</h4><div class="sub">${esc(g.subtitle||'')}</div>
    ${g.rows?rows(g.rows):''}${(g.sections||[]).map(x=>`<h5 style="font-family:var(--f-display);color:var(--elc);letter-spacing:.12em;margin:6px 0 0">${esc(x.h)}</h5>${rows(x.rows)}`).join('')}
    ${g.table?`<h5 style="font-family:var(--f-display);color:var(--elc);letter-spacing:.12em;margin:6px 0 0">${esc(g.table.h)}</h5><div class="tbl-wrap"><table><thead><tr>${g.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${g.table.rows.map(r=>`<tr>${r.map((x,i)=>`<td style="${i?'':'text-align:left'}" class="num">${esc(x)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}
-   ${gl(g.gifts)}${gl(g.gifts_dislike,1)}<p class="src2">${esc(g.source)}</p></div>`;
+   ${gl(g.gifts)}${gl(g.gifts_dislike,1)}</div>`;
 }
 /* ---- characters page ---- */
 chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span>${MEDIA.weaponIcons[slugify(c.w)]?`<span class="wpn">${IMG(MEDIA.weaponIcons[slugify(c.w)],'',c.w)}</span>`:''}${c.p?IMG(c.p,'',c.n):blank(c.n)}<span class="elbar" style="display:block;background:${ECOL[ELK(c.el)]}"></span><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span style="color:${ECOL[ELK(c.el)]}">${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
@@ -180,7 +180,7 @@ renderChars=function(){
   if(chTab==='info')body=advHTML(c);
   if(chTab==='build')body=buildHTML(c)+(wt?`<div><button class="btn btn-ghost btn-sm" data-chbuild="${wt.id}">เปิดหน้าจัดบิลด์ด้วย ${esc(c.w)}</button></div>`:'');
   if(chTab==='guide')body=guides.map(g=>guideHTML(g,c)).join('');
-  if(chTab==='art')body=(c.f?IMG(c.f,'card-img',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):`${IMG(c.p,'card-img',c.n,`style="max-width:360px" data-zoom="${c.p}" data-cap="${esc(c.n)}"`)}<p class="src2">ยังไม่มีอาร์ตเวิร์กเต็มตัวของ ${esc(c.n)} บน GameWith จึงแสดงรูปโปรไฟล์แทน</p>`)+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>IMG(o.full||o.img,'card-img',o.n,`data-zoom="${o.full||o.img}" data-cap="${esc(o.n)}"`)).join('');
+  if(chTab==='art')body=(c.f?IMG(c.f,'card-img',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):`${IMG(c.p,'card-img',c.n,`style="max-width:360px" data-zoom="${c.p}" data-cap="${esc(c.n)}"`)}<p class="src2">ยังไม่มีอาร์ตเวิร์กเต็มตัวของ ${esc(c.n)} จึงแสดงรูปโปรไฟล์แทน</p>`)+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>IMG(o.full||o.img,'card-img',o.n,`data-zoom="${o.full||o.img}" data-cap="${esc(o.n)}"`)).join('');
   $('#ch-detail').innerHTML=`${c.f?IMG(c.f,'hero-full',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):''}<div class="ch-hero" style="${c.f?'grid-template-columns:96px minmax(0,1fr)':''}">${IMG(c.p,'',c.n)}<div><span class="rar" style="--rc:var(--brass)">${c.r}</span><h3>${esc(c.n)}</h3><dl class="kv"><dt>อาวุธ</dt><dd style="display:flex;gap:6px;align-items:center">${wIcon(slugify(c.w))}${esc(c.w)}${wt?' · '+wt.th:''}</dd><dt>ธาตุ</dt><dd style="color:${ECOL[ELK(c.el)]}">${EL_EN[c.el]?ei(EL_EN[c.el]):''} ${esc(c.el)} · ${EL_TH[c.el]||''}</dd></dl></div></div>
    <div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" aria-selected="${k===chTab}" data-chtab="${k}">${l}</button>`).join('')}</div><div class="tab-body">${body}</div>`;
 };
@@ -201,7 +201,7 @@ function monCardHTML(k){
    <div class="mbox"><h6>ส่วนอ่อน (ยิ่งมากยิ่งนิ่ม)</h6><table class="mt"><thead><tr><th>ส่วน</th><th>ตัด</th><th>ทุบ</th><th>กระสุน</th></tr></thead><tbody>${d.parts.map(p=>`<tr><td>${esc(p[0])}</td>${p.slice(1).map(v=>`<td class="num ${v===mxP?'hi':v<=1?'lo':''}">${v}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
    <div class="mbox"><h6>ไอเทม และพฤติกรรม</h6><div class="ib">${Object.entries(d.items).map(([a,b])=>`<div>${esc(a)}<b class="${col(b)}">${esc(b)}</b></div>`).join('')}${Object.entries(d.beh).map(([a,b])=>`<div>${esc(a)}<b class="${col(b)}">${esc(b)}</b></div>`).join('')}</div></div></div>
    <div class="mbox" style="font-size:14px">สถานะที่ใส่เรา: ${esc(d.inflicts)}<br>ส่วนที่ทำลายได้: ${esc(d.breakable)}<br>พื้นที่: ${esc(d.area)}</div>
-   <div class="src2" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px"><span>ข้อมูลจาก GameWith · 4 พ.ย. 2026 · ระดับดาว ${esc(d.rank)}</span><span>ค่า 1–3 · ยิ่งมากยิ่งได้ผล</span></div></div>`;
+   <div class="src2" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px"><span>ระดับดาว ${esc(d.rank)}</span><span>ค่า 1–3 · ยิ่งมากยิ่งได้ผล</span></div></div>`;
 }
 let monQ='';
 const _rm=renderMonsters;
@@ -260,7 +260,7 @@ function weaponDetail(w){
   return `<div class="grid2"><div class="tbl-wrap">${tiers}</div><div><b style="font-family:var(--f-display)">วัตถุดิบรวม ตั้งแต่ขั้นแรกถึง</b> <select class="input" style="width:auto;padding:4px 8px" data-wto="${w.id}">${opts}</select>
    <div class="src2" style="margin:4px 0 8px">นับต่อจากสายอัปเกรด: ${names.map(esc).join(' → ')}</div>
    <div class="mtot">${Object.entries(tot).sort((a,b)=>a[0]==='Zenny'?1:b[0]==='Zenny'?-1:0).map(([n,q])=>`<div><span>${esc(n)}</span><b>×${q.toLocaleString()}</b></div>`).join('')||'<span class="muted">ยังไม่มีข้อมูลวัตถุดิบ</span>'}</div>
-   ${w.apex?'<p class="src2">อาวุธ Apex: เลือกธาตุตอนสร้าง (ไฟ น้ำ สายฟ้า น้ำแข็ง มังกร) ค่าสถานะเท่ากันทุกธาตุ</p>':''}<p class="src2">ข้อมูล: GameWith.ai · ช่องที่เป็น “—” คือเว็บต้นทางยังไม่มีค่า</p></div></div>`;
+   ${w.apex?'<p class="src2">อาวุธ Apex: เลือกธาตุตอนสร้าง (ไฟ น้ำ สายฟ้า น้ำแข็ง มังกร) ค่าสถานะเท่ากันทุกธาตุ</p>':''}<p class="src2">ช่องที่เป็น “—” คือเว็บต้นทางยังไม่มีค่า</p></div></div>`;
 }
 renderWeapons=function(){
   $('#wt-list').innerHTML=WTYPES.map(t=>`<button aria-pressed="${t.id===wtSel}" data-wt="${t.id}">${wIcon(t.id)}<span>${t.n}<small style="display:block;font-size:11px;opacity:.75">${t.th} · ${WEAPONS.filter(w=>w.t===t.id&&!(w.apex&&!/\(Fire\)$/.test(w.n))).length} ชิ้น</small></span></button>`).join('');

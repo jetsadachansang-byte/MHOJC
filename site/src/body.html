@@ -260,7 +260,7 @@
     <div class="bd-feature" id="bd-feature"></div>
     <div class="section">
       <h3>บัดดี้ทั้งหมด</h3>
-      <p class="muted" style="margin:-4px 0 14px;font-size:14px">บัดดี้ 38 ตัว เรียงตามระดับ SSR → SR → R แล้วตามสาย Assault → Disruptor → Support · ค่าบัฟคือบัฟที่ให้ตัวละคร (Adventurer Boost) จาก GameWith.ai</p>
+      <p class="muted" style="margin:-4px 0 14px;font-size:14px">บัดดี้ 38 ตัว เรียงตามระดับ SSR → SR → R แล้วตามสาย Assault → Disruptor → Support · ค่าบัฟคือบัฟที่ให้ตัวละคร (Adventurer Boost)</p>
       <div style="display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:10px;margin-bottom:14px;align-items:center" class="bc-bar"><input class="input" id="bc-q" type="search" placeholder="ค้นหาบัดดี้ เช่น Kojiro, Rutaco"><div class="chips" id="bc-filter"></div></div>
       <div class="bc-grid" id="bc-grid"></div>
     </div>
@@ -317,8 +317,7 @@
 </main>
 
 <footer><div class="wrap">
-  <span>ข้อมูลและรูปจาก GameWith / Game8 · เว็บแฟนเมด ไม่เกี่ยวข้องกับ Capcom · ภาพเป็นลิขสิทธิ์ของ Capcom
-  <span class="credit">แหล่งรูป: <a href="https://gamewith.ai/monster-hunter-outlanders/en/" target="_blank" rel="noopener">GameWith.ai</a> · <a href="https://gamewith.jp/mhoutlanders/" target="_blank" rel="noopener">GameWith JP</a> · ข้อมูลอ้างอิง: <a href="https://game8.co/games/Monster-Hunter-Outlanders" target="_blank" rel="noopener">Game8</a>, mhoutlandersbuild.com · รายการแหล่งที่มาของทุกรูปอยู่ที่ img/credits.json</span></span>
+  <span>เว็บนี้ไม่ได้เกี่ยวข้องกับ OFFICIAL</span>
   <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
 </div></footer>
 
@@ -653,7 +652,7 @@ function renderChars(){
   const wt=WTYPES.find(t=>t.n===c.w);
   let body='';
   if(chTab==='info')body=`<img class="card-img" src="${c.info}" alt="การ์ดข้อมูล ${esc(c.n)}" loading="lazy" data-zoom="${c.info}" data-cap="${esc(c.n)} · ข้อมูลและสกิล">`;
-  if(chTab==='build')body=`<img class="card-img" src="${c.build}" alt="บิลด์แนะนำ ${esc(c.n)}" loading="lazy" data-zoom="${c.build}" data-cap="${esc(c.n)} · บิลด์แนะนำ"><p class="src-note">ชื่อเกราะในการ์ดบิลด์อ้างอิง GameWith (27 พ.ย. 2026) บางชิ้นเป็นระดับที่ใหม่กว่าฐานข้อมูลของเว็บ</p>${wt?`<div><button class="btn btn-ghost btn-sm" data-chbuild="${wt.id}">เปิดหน้าจัดบิลด์ด้วย ${esc(c.w)}</button></div>`:''}`;
+  if(chTab==='build')body=`<img class="card-img" src="${c.build}" alt="บิลด์แนะนำ ${esc(c.n)}" loading="lazy" data-zoom="${c.build}" data-cap="${esc(c.n)} · บิลด์แนะนำ"><p class="src-note"></p>${wt?`<div><button class="btn btn-ghost btn-sm" data-chbuild="${wt.id}">เปิดหน้าจัดบิลด์ด้วย ${esc(c.w)}</button></div>`:''}`;
   if(chTab==='guide')body=guides.map((g,i)=>`<img class="card-img" src="${g}" alt="ไกด์ ${esc(c.n)} หน้า ${i+1}" loading="lazy" data-zoom="${g}" data-cap="${esc(c.n)} · ไกด์ หน้า ${i+1}">`).join('');
   if(chTab==='art')body=`<img class="card-img" src="${c.f}" alt="${esc(c.n)}" loading="lazy" data-zoom="${c.f}" data-cap="${esc(c.n)}">`+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>`<img class="card-img" src="${o.full||o.img}" alt="คอสตูม" loading="lazy" data-zoom="${o.full||o.img}" data-cap="${esc(c.n)} · คอสตูม">`).join('');
   $('#ch-detail').innerHTML=`<div class="ch-hero"><img src="${c.p}" alt="${esc(c.n)}" data-zoom="${c.f}" data-cap="${esc(c.n)}"><div><span class="rar" style="--rc:var(--brass)">${c.r}</span><h3>${esc(c.n)}</h3><dl class="kv"><dt>อาวุธ</dt><dd style="display:flex;gap:6px;align-items:center">${wIcon(slugify(c.w))}${esc(c.w)}${wt?' · '+wt.th:''}</dd><dt>ธาตุ</dt><dd>${EL_EN[c.el]?ei(EL_EN[c.el]):''} ${esc(c.el)} · ${EL_TH[c.el]||''}</dd></dl></div></div>
