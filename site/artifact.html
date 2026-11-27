@@ -1350,22 +1350,48 @@ renderBuilder=function(){_rb();$('#bd-card').innerHTML=builderCardHTML();preShot
   document.querySelectorAll('#gear .gear-row').forEach(r=>{const k=r.querySelector('[data-pick]');if(!k||k.dataset.pick!=='weapon')return;const w=B.weapon&&W_BY[B.weapon];const im=w&&weaponImg(w.n);if(im)r.querySelector('.gear-ic').innerHTML=IMG(im,'',w.n,'style="width:48px;height:48px;object-fit:contain"')})};
 /* save as image: render only the card (skip the rest of the page) and pre-render in the background */
 const SHOT={key:null,blob:null,url:null,busy:null};
-async function makeShot(){
-  const el=$('#bd-card .bc2');if(!el||!window.html2canvas)return null;const key=el.innerHTML;
-  if(SHOT.key===key&&SHOT.blob)return SHOT;if(SHOT.busy&&SHOT.busyKey===key)return SHOT.busy;
-  SHOT.busyKey=key;SHOT.busy=(async()=>{
-    const bg=getComputedStyle(document.body).backgroundColor;
-    const cv=await html2canvas(el,{backgroundColor:bg,scale:2,useCORS:true,logging:false,
-      ignoreElements:n=>!(n===el||el.contains(n)||n.contains(el)||['STYLE','LINK','META','TITLE','HEAD'].includes(n.tagName))});
-    const blob=await new Promise(r=>cv.toBlob(r,'image/png'));
-    if(SHOT.url)URL.revokeObjectURL(SHOT.url);Object.assign(SHOT,{key,blob,url:URL.createObjectURL(blob),busy:null});return SHOT})();
-  return SHOT.busy;
+// draw the card straight onto a canvas (no html2canvas): instant and works on iPhone Safari
+function loadImg(src){return new Promise(r=>{if(!src)return r(null);const i=new Image();i.decoding='async';i.onload=()=>r(i);i.onerror=()=>r(null);i.src=src;if(i.complete&&i.naturalWidth)r(i)})}
+async function drawCard(){
+  const R=compute(),w=R.w,cs=getComputedStyle(document.documentElement),V=n=>cs.getPropertyValue(n).trim();
+  const ek=w&&ELSK[w.el]?w.el:'';const EC=ek?V('--'+ek):V('--brass');
+  const FD='"Chakra Petch","IBM Plex Sans Thai",sans-serif',FB='"IBM Plex Sans Thai",sans-serif';
+  const chips=[];Object.entries(R.sets).forEach(([k,n])=>{const st=SET_BY[k];if(n>=st.b.p)chips.push({n:st.b.n,tag:'set'})});
+  Object.keys(R.raw).sort((a,b)=>R.raw[b]-R.raw[a]).forEach(id=>{const mx=SK[id].lv.length,l=Math.min(R.raw[id],mx);const isEl=Object.values(ELSK).includes(id);chips.push({n:`${SK[id].en} ${l}`,tag:isEl&&l>=7?'elem':l>=mx&&mx>1?'max':null})});
+  chips.sort((a,b)=>({set:0,elem:1,max:2}[a.tag]??3)-({set:0,elem:1,max:2}[b.tag]??3));
+  const W=1080,P=48,S=2;const c=document.createElement('canvas');const x=c.getContext('2d');
+  // measure chip rows
+  x.font=`600 30px ${FD}`;let cx=P,cy=0,rowsH=0;const pos=[];
+  chips.forEach(ch=>{const tw=x.measureText(ch.n).width+(ch.tag?(ch.tag==='set'?70:80):0)+36;if(cx+tw>W-P){cx=P;cy+=58}pos.push([cx,cy,tw]);cx+=tw+12});rowsH=chips.length?cy+50:0;
+  const H=P+70+120+5*86+30+rowsH+130;c.width=W;c.height=H;
+  const items=[w?(weaponImg(w.n)||MEDIA.weaponIcons[w.t]):null,...SLOTS.map(sl=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];return a&&a.icon})];
+  const imgs=await Promise.all(items.map(loadImg));
+  x.fillStyle=V('--bg');x.fillRect(0,0,W,H);x.fillStyle=V('--surface-2');x.fillRect(16,16,W-32,H-32);x.strokeStyle=V('--line-2');x.lineWidth=2;x.strokeRect(16,16,W-32,H-32);
+  let y=P+50;x.fillStyle=EC;x.font=`700 52px ${FD}`;x.fillText('บิลด์ของฉัน',P,y);const tw=x.measureText('บิลด์ของฉัน').width;x.fillStyle=V('--muted');x.font=`500 28px ${FB}`;x.fillText(w?WT_BY[w.t].n:'ยังไม่เลือกอาวุธ',P+tw+20,y);
+  y+=30;if(imgs[0])x.drawImage(imgs[0],P,y,96,96);x.fillStyle=EC;x.font=`700 36px ${FD}`;x.fillText(w?w.n:'—',P+116,y+44);
+  x.fillStyle=V('--muted');x.font=`400 26px ${FB}`;if(w)x.fillText(`ATK ${w.atk??'—'}${w.el?` · ${WK_TH[w.el]} ${R.ev}`:''} · คริ ${R.aff}%`,P+116,y+84);
+  y+=114;x.fillStyle=EC;x.fillRect(P,y,W-2*P,5);y+=16;
+  SLOTS.forEach((sl,i)=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];x.fillStyle=V('--surface');x.fillRect(P,y+18,74,40);x.fillStyle=V('--muted');x.font=`400 24px ${FB}`;x.textAlign='center';x.fillText(SLOT_TH[sl],P+37,y+46);x.textAlign='left';
+    if(imgs[i+1])x.drawImage(imgs[i+1],P+92,y+6,64,64);x.fillStyle=V('--fg');x.font=`400 32px ${FB}`;x.fillText(a?a.n:'ว่าง',P+176,y+50);x.fillStyle=V('--line-2');x.fillRect(P,y+80,W-2*P,2);y+=86});
+  y+=30;chips.forEach((ch,i)=>{const [px,py,tw]=pos[i];const Y=y+py;
+    if(ch.tag==='set'){x.fillStyle='#efe9dc';x.fillRect(px,Y,tw,46)}else if(ch.tag==='elem'){x.fillStyle=EC;x.fillRect(px,Y,tw,46)}else{x.strokeStyle=ch.tag==='max'?EC:V('--line-2');x.lineWidth=2;x.strokeRect(px+1,Y+1,tw-2,44)}
+    x.fillStyle=ch.tag==='set'?'#1a1406':ch.tag==='elem'?V('--on-brass'):ch.tag==='max'?EC:V('--fg');x.font=`600 30px ${FD}`;x.fillText(ch.n,px+18,Y+33);
+    if(ch.tag){const lab=ch.tag==='set'?'SET':'MAX';const lx=px+18+x.measureText(ch.n).width+10;x.font=`700 20px ${FD}`;const lw=x.measureText(lab).width+12;x.fillStyle=ch.tag==='set'?'#1a1406':ch.tag==='elem'?V('--surface'):EC;x.fillRect(lx,Y+10,lw,26);x.fillStyle=ch.tag==='set'?'#efe9dc':ch.tag==='elem'?EC:V('--surface');x.fillText(lab,lx+6,Y+30)}});
+  y+=rowsH+40;x.font=`400 22px ${FB}`;x.fillStyle=V('--muted');x.fillText('▮ เซ็ตเกราะ   ▯ สกิลเต็มลิมิต',P,y);x.fillStyle=EC;x.fillText('▮ ธาตุเต็ม Lv7',P+330,y);x.fillStyle=V('--muted');x.textAlign='right';x.fillText('MHOUTLANDERTHGUILD · mhoutlanderthguild.pages.dev',W-P,y+40);x.textAlign='left';
+  return c;
 }
-let shotT;const preShot=()=>{clearTimeout(shotT);shotT=setTimeout(()=>{if(location.hash==='#builder'&&document.fonts)document.fonts.ready.then(()=>makeShot().catch(()=>{}))},700)};
+async function makeShot(){
+  const key=JSON.stringify([B.weapon,B.armor,B.cond,document.documentElement.dataset.theme||'']);
+  if(SHOT.key===key&&SHOT.blob)return SHOT;if(SHOT.busy&&SHOT.busyKey===key)return SHOT.busy;
+  SHOT.busyKey=key;SHOT.busy=(async()=>{const cv=await drawCard();const blob=await new Promise(r=>cv.toBlob(r,'image/png'));
+    if(SHOT.url)URL.revokeObjectURL(SHOT.url);Object.assign(SHOT,{key,blob,url:URL.createObjectURL(blob),busy:null});return SHOT})();
+  SHOT.busy.catch(()=>{SHOT.busy=null});return SHOT.busy;
+}
+let shotT;const preShot=()=>{clearTimeout(shotT);shotT=setTimeout(()=>{if(location.hash==='#builder')(document.fonts?document.fonts.ready:Promise.resolve()).then(()=>makeShot().catch(()=>{}))},700)};
 window.addEventListener('hashchange',preShot);
 $('#bd-shot').addEventListener('click',async()=>{
   const btn=$('#bd-shot');const fn='mhoutlanderthguild-build.png';
-  const ready=SHOT.blob&&SHOT.key===($('#bd-card .bc2')||{}).innerHTML;
+  const ready=SHOT.blob&&SHOT.key===JSON.stringify([B.weapon,B.armor,B.cond,document.documentElement.dataset.theme||'']);
   if(!ready){btn.disabled=true;btn.textContent='กำลังสร้างรูป…'}
   try{
     const r=ready?SHOT:await makeShot();if(!r)throw 0;
