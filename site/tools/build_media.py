@@ -15,7 +15,9 @@ for c in old['characters']:
 for b,src in [('arya','assets/images/02-buddies/arya.jpg'),('elwin','assets/images/02-buddies/elwin.jpg')]:
     p=f'img/buddy/featured/{b}.webp';kept(p,src);M['buddies'].append({'id':b,'n':b.capitalize(),'img':p})
 for g in old['gifts']:
-    M['gifts'].append({'n':g['n'],'img':R['gifts'].get(g['n'])})
+    im=R['gifts'].get(g['n'])
+    if not im and g['n']=='Sheet':im='img/gift/sheet.webp';kept(im,'assets/images/03-gifts/sheet.png')
+    M['gifts'].append({'n':g['n'],'img':im})
 OF={'freya-rose-queen':'Rose Queen · Freya','stylia-silken-dancer':'Silken Dancer · Stylia','weapon-flying-feather':'Flying Feather · สกินธนู','buddy-flower-bearing-plume':'Flower-Bearing Plume · ชุดบัดดี้'}
 for o in old['outfits']:
     i=o['id'];img=f'img/outfit/{i}.webp';full=f'img/outfit/{i}-full.webp' if os.path.exists(f'{S}/img/outfit/{i}-full.webp') else None
@@ -37,7 +39,7 @@ for root,_,fs in os.walk(f'{S}/img'):
             p=os.path.relpath(os.path.join(root,f),S);M['size'][p]=wh(p)
 json.dump(cred,open(f'{S}/img/credits.json','w'),ensure_ascii=False,indent=1)
 miss=json.load(open(f'{S}/img/missing.json'))
-use={'Arya':'img/buddy/featured/arya.webp','Elwin':'img/buddy/featured/elwin.webp','Rose Queen':'img/outfit/freya-rose-queen.webp','Silken Dancer':'img/outfit/stylia-silken-dancer.webp','Flying Feather':'img/outfit/weapon-flying-feather.webp','Flower-Bearing Plume':'img/outfit/buddy-flower-bearing-plume.webp'}
+use={'Sheet':'img/gift/sheet.webp','Arya':'img/buddy/featured/arya.webp','Elwin':'img/buddy/featured/elwin.webp','Rose Queen':'img/outfit/freya-rose-queen.webp','Silken Dancer':'img/outfit/stylia-silken-dancer.webp','Flying Feather':'img/outfit/weapon-flying-feather.webp','Flower-Bearing Plume':'img/outfit/buddy-flower-bearing-plume.webp'}
 for x in miss:
     if x['name'] in use:x['using_instead']=use[x['name']]+' (official promo image from your pack in assets/images)'
 import re,glob

@@ -133,11 +133,11 @@ function advHTML(c){
    <h5>BOND REWARD</h5><div class="trait">${esc(d.bond_reward)}</div><p class="src2">${esc(d.source)}</p></div>`;
 }
 /* ---- recommended build (old build card) ---- */
-function bcolHTML(b){
+function bcolHTML(b,c){
   if(b.empty)return `<div class="bcol"><h6>${esc(b.title)}<small>${esc(b.sub)}</small></h6><p style="font-size:15px">${esc(b.empty)}</p><p class="src2">${esc(b.empty_note)}</p></div>`;
-  const wi=weaponImg(b.weapon);const SLT={head:'หัว',chest:'อก',arms:'แขน',waist:'เอว',legs:'ขา'};
+  const wt=c&&MEDIA.weaponIcons[slugify(c.w)];const wi=weaponImg(b.weapon);const SLT={head:'หัว',chest:'อก',arms:'แขน',waist:'เอว',legs:'ขา'};
   return `<div class="bcol"><h6>${esc(b.title)}<small>${esc(b.sub)}</small></h6>
-   <div class="bw">${wi?IMG(wi,'',b.weapon):blank('อาวุธ')}<div><b>${esc(b.weapon)}</b><span>${esc(b.alt)}</span></div></div>
+   <div class="bw">${wi?IMG(wi,'',b.weapon):wt?IMG(wt,'',c.w,'style="filter:var(--icon-filter);padding:6px;background:var(--surface)" title="ไอคอนประเภทอาวุธ (ยังไม่มีรูปอาวุธชิ้นนี้)"'):blank('อาวุธ')}<div><b>${esc(b.weapon)}</b><span>${esc(b.alt)}</span></div></div>
    ${Object.entries(b.armor).map(([sl,n])=>{const a=armorByName(n);return `<div class="ba"><span class="sl">${SLT[sl]}</span>${a&&a.icon?IMG(a.icon,'',n):blank(SLOT_TH[sl])}<span>${esc(n)}</span></div>`}).join('')}
    <div class="chipz">${b.skills.map(chip).join('')}</div>${b.note?`<p class="src2">${esc(b.note)}</p>`:''}
    <div class="legend"><span>▮ เซ็ตเกราะ</span><span style="color:var(--elc)">▮ ธาตุเต็ม Lv7</span><span>▯ สกิลเต็มลิมิต</span></div></div>`;
@@ -147,7 +147,7 @@ function buildHTML(c){
   return `<div class="bc2" style="--elc:${ECOL[ELK(c.el)]||'var(--brass)'}"><div class="bc2-top"><div><span class="tg">${esc(d.tag)}</span><h4>${esc(c.n)}</h4>
    <div style="font-size:14px"><span class="rar" style="--rc:var(--elc)">BUDDY</span> ${d.buddies.length?d.buddies.map(esc).join(' · '):esc(d.buddies_empty||'')}</div><div class="src2">${esc(d.updated)}</div></div>${IMG(c.p,'',c.n)}</div>
    <div class="vt"><b style="grid-column:1/-1;letter-spacing:.12em">การ์ด VISAGE <small style="display:inline;color:var(--muted)">${esc(d.visage_src)}</small></b>${d.visage.map(([k,n,so,x])=>`<span class="muted">${esc(k)}</span><span><b>${esc(n)}</b>${so?`<span class="so">${esc(so)}</span>`:''}${x?`<small>${esc(x)}</small>`:''}</span>`).join('')}</div>
-   <div class="bcols">${d.builds.map(bcolHTML).join('')}</div><p class="src2">${esc(d.footer)}</p></div>`;
+   <div class="bcols">${d.builds.map(b=>bcolHTML(b,c)).join('')}</div><p class="src2">${esc(d.footer)}</p></div>`;
 }
 /* ---- guide pages (old Freya/Stylia guide images) ---- */
 function guideHTML(g,c){
@@ -180,7 +180,7 @@ renderChars=function(){
   if(chTab==='info')body=advHTML(c);
   if(chTab==='build')body=buildHTML(c)+(wt?`<div><button class="btn btn-ghost btn-sm" data-chbuild="${wt.id}">เปิดหน้าจัดบิลด์ด้วย ${esc(c.w)}</button></div>`:'');
   if(chTab==='guide')body=guides.map(g=>guideHTML(g,c)).join('');
-  if(chTab==='art')body=(c.f?IMG(c.f,'card-img',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):`<div class="blank" style="aspect-ratio:3/2">ยังไม่มีอาร์ตเวิร์กเต็มตัวของ ${esc(c.n)}</div>`)+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>IMG(o.full||o.img,'card-img',o.n,`data-zoom="${o.full||o.img}" data-cap="${esc(o.n)}"`)).join('');
+  if(chTab==='art')body=(c.f?IMG(c.f,'card-img',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):`${IMG(c.p,'card-img',c.n,`style="max-width:360px" data-zoom="${c.p}" data-cap="${esc(c.n)}"`)}<p class="src2">ยังไม่มีอาร์ตเวิร์กเต็มตัวของ ${esc(c.n)} บน GameWith จึงแสดงรูปโปรไฟล์แทน</p>`)+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>IMG(o.full||o.img,'card-img',o.n,`data-zoom="${o.full||o.img}" data-cap="${esc(o.n)}"`)).join('');
   $('#ch-detail').innerHTML=`${c.f?IMG(c.f,'hero-full',c.n,`data-zoom="${c.f}" data-cap="${esc(c.n)}"`):''}<div class="ch-hero" style="${c.f?'grid-template-columns:96px minmax(0,1fr)':''}">${IMG(c.p,'',c.n)}<div><span class="rar" style="--rc:var(--brass)">${c.r}</span><h3>${esc(c.n)}</h3><dl class="kv"><dt>อาวุธ</dt><dd style="display:flex;gap:6px;align-items:center">${wIcon(slugify(c.w))}${esc(c.w)}${wt?' · '+wt.th:''}</dd><dt>ธาตุ</dt><dd style="color:${ECOL[ELK(c.el)]}">${EL_EN[c.el]?ei(EL_EN[c.el]):''} ${esc(c.el)} · ${EL_TH[c.el]||''}</dd></dl></div></div>
    <div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" aria-selected="${k===chTab}" data-chtab="${k}">${l}</button>`).join('')}</div><div class="tab-body">${body}</div>`;
 };
@@ -255,7 +255,7 @@ function builderCardHTML(){
   Object.keys(R.raw).sort((a,b)=>R.raw[b]-R.raw[a]).forEach(id=>{const mx=SK[id].lv.length,l=Math.min(R.raw[id],mx);
     const isEl=Object.values(ELSK).includes(id);const tag=isEl&&l>=7?'elem':l>=mx&&mx>1?'max':null;chips.push({n:`${SK[id].en} ${l}`,tag})});
   chips.sort((a,b)=>({set:0,elem:1,max:2}[a.tag]??3)-({set:0,elem:1,max:2}[b.tag]??3));
-  const wi=w&&weaponImg(w.n);
+  const wi=w&&(weaponImg(w.n)||MEDIA.weaponIcons[w.t]);
   return `<div class="bc2" style="--elc:${ek?ECOL[ek]:'var(--brass)'}"><div class="bcol"><h6>บิลด์ของฉัน<small>${w?esc(WT_BY[w.t].n):'ยังไม่เลือกอาวุธ'}</small></h6>
    <div class="bw">${wi?IMG(wi,'',w.n):blank('อาวุธ')}<div><b>${w?esc(w.n):'—'}</b><span>${w?`ATK ${w.atk??'—'}${w.el?` · ${WK_TH[w.el]} ${R.ev}`:''} · คริ ${R.aff}%`:''}</span></div></div>
    ${SLOTS.map(sl=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];return `<div class="ba"><span class="sl">${SLOT_TH[sl]}</span>${a&&a.icon?IMG(a.icon,'',a.n):blank(SLOT_TH[sl])}<span>${a?esc(a.n):'<span class="muted">ว่าง</span>'}</span></div>`}).join('')}
