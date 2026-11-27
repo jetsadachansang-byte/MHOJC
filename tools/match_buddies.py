@@ -4,6 +4,7 @@ Run on a computer with internet:
     pip install opencv-python numpy scipy requests
     python tools/match_buddies.py            # dry run: prints the matches and writes match-preview.jpg
     python tools/match_buddies.py --apply    # renames files to <slug>.png and updates buddies.json
+    python tools/match_buddies.py --img site/img/buddy/cards --apply   # same, for the site's webp copies
 
 How it works: downloads each buddy's reference portrait from GameWith (URL in buddies.json),
 then compares only inside the same species + rarity group (both already known from the card badge),
@@ -16,7 +17,16 @@ import numpy as np, cv2, requests
 from scipy.optimize import linear_sum_assignment
 
 D = os.path.join(os.path.dirname(__file__), '..', 'assets', 'images', '09-buddies-all')
-meta = json.load(open(os.path.join(D, 'buddies.json'), encoding='utf-8'))
+META = os.path.join(D, 'buddies.json')
+IMG = D            # folder holding cat_a_01.* etc. Override: --img site/img/buddy/cards  (files may be .png or .webp)
+for k, a in enumerate(sys.argv):
+    if a == '--img': IMG = sys.argv[k+1]
+meta = json.load(open(META, encoding='utf-8'))
+def path_of(name):
+    for ext in ('.png', '.webp', '.jpg'):
+        p = os.path.join(IMG, name + ext)
+        if os.path.exists(p): return p
+    raise FileNotFoundError(name)
 os.makedirs(os.path.join(D, '_ref'), exist_ok=True)
 
 def load_ref(b):
@@ -48,7 +58,7 @@ result, tiles = {}, []
 for sp, by_r in meta['image_groups'].items():
     for ra, files in by_r.items():
         cands = [b for b in meta['buddies'] if b.get('species') == sp and b.get('rarity') == ra and b.get('ref_image')]
-        imgs = [body(cv2.imread(os.path.join(D, f + '.png'))) for f in files]
+        imgs = [body(cv2.imread(path_of(f))) for f in files]
         refs = [load_ref(b) for b in cands]
         S = np.array([[score(i, r) for r in refs] for i in imgs])
         rows, cols = linear_sum_assignment(-S)
@@ -65,8 +75,8 @@ print('preview ->', os.path.join(D, 'match-preview.jpg'))
 
 if '--apply' in sys.argv:
     for old, slug in result.items():
-        os.rename(os.path.join(D, old + '.png'), os.path.join(D, slug + '.png'))
+        src = path_of(old); os.rename(src, os.path.join(IMG, slug + os.path.splitext(src)[1]))
         for b in meta['buddies']:
             if b['slug'] == slug: b['file'] = '09-buddies-all/' + slug + '.png'; b['original_file'] = old + '.png'
-    json.dump(meta, open(os.path.join(D, 'buddies.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(meta, open(META, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print('renamed', len(result), 'files and updated buddies.json')
