@@ -576,6 +576,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <div id="bd-card" style="padding:14px 16px"></div>
         </div>
         <div class="panel">
+          <div class="panel-h"><h3>คำนวณดาเมจ</h3><span class="muted" style="font-size:12px">ค่าประมาณจากค่าในฐานข้อมูล</span></div>
+          <div id="bd-dmg" style="padding:12px 16px"></div>
+        </div>
+        <div class="panel">
           <div class="panel-h"><h3>ค่าสถานะ</h3><span class="muted" style="font-size:12px">ค่าพื้นฐาน + สกิลที่คำนวณได้</span></div>
           <div class="stats" id="bd-stats"></div>
           <div class="res" id="bd-res"></div>
@@ -690,7 +694,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <div class="toast" id="toast" hidden></div>
 <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="ดูรูปขนาดใหญ่"><div class="bar2"><span id="lb-cap"></span><button class="btn btn-ghost btn-sm" id="lb-close">ปิด</button></div><div class="scroll" id="lb-scroll"><img id="lb-img" alt=""></div></div>
 
-<script src="db.js?v=6ab38a7b"></script>
+<script src="db.js?v=f1679dbc"></script>
 <script src="media.js?v=9a4b0ccb"></script>
 <script src="cards.js?v=85b4070e"></script>
 <script src="weapons_detail.js?v=24eda988"></script>
@@ -1440,6 +1444,47 @@ document.addEventListener('click',e=>{const c=e.target.closest('[data-msk]');if(
 const _rb2=renderBuilder;
 renderBuilder=function(){_rb2();if(typeof mskRender==='function'&&MSK.size)mskRender();const m=MON_BY[B.target];const box=$('#bd-match');
   if(m&&box){const ic=MM[m.k]&&MM[m.k].icon,vis=MEDIA.visages[m.k];box.insertAdjacentHTML('afterbegin',`<div class="boss" style="flex-basis:100%">${IMG(ic,'',m.n)}<div><b>${esc(m.n)}</b><div class="muted" style="font-size:12px">${esc(m.clsTh||'')}</div></div>${vis?IMG(vis.img,'',vis.n,'style="margin-left:auto;width:64px;height:64px" title="Visage"'):''}</div>`)}};
+/* persist the skill search (text + selected skills) */
+try{const sv=JSON.parse(localStorage.getItem('mho_msk')||'{}');if(sv.q)$('#msk-q').value=sv.q;(sv.s||[]).forEach(id=>SK[id]&&MSK.add(id))}catch(e){}
+const mskSave=()=>{try{localStorage.setItem('mho_msk',JSON.stringify({q:$('#msk-q').value,s:[...MSK]}))}catch(e){}};
+$('#msk-q').addEventListener('input',mskSave);document.addEventListener('click',e=>{if(e.target.closest('[data-msk]'))mskSave()});
+// keep the picker search text between openings
+const _op=openPicker;let lastQ={};openPicker=function(k){_op(k);const q=lastQ[k]||'';$('#sheet-q').value=q;P.q=q;renderPicker()};
+$('#sheet-q').addEventListener('input',e=>{if(P)lastQ[P.kind]=e.target.value});
+/* boss source on every gear row */
+document.head.insertAdjacentHTML('beforeend','<style>.from{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted);margin-top:4px}.from img{width:26px;height:26px;object-fit:contain}.from b{color:var(--fg)}.dmg td{white-space:normal}.dmg .big{font-family:var(--f-display);font-size:30px;color:var(--brass)}.dmgopt{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}</style>');
+const monKey=n=>n?slugify(n):null;
+function bossHTML(n){if(!n)return '<div class="from">ได้จาก: วัตถุดิบทั่วไป (ไม่ใช่บอส)</div>';const k=monKey(n);return `<div class="from">ได้จาก: ${MM[k]?IMG(MM[k].icon,'',n):''}<b>${esc(n)}</b></div>`}
+/* damage estimate */
+const DMGON={};
+function dmgSkills(R){const out=[];Object.keys(R.raw).forEach(id=>{const l=Math.min(R.raw[id],SK[id].lv.length);const t=SK[id].lv[l-1]||'';const m=t.match(/ดาเมจ(?:ของท่านั้น)? \+(\d+(?:\.\d+)?)%/);if(m&&!/ดาเมจธาตุ/.test(t.slice(0,m.index+10)))out.push({id,l,p:+m[1],t})});return out}
+function renderDmg(){
+  const R=compute(),w=R.w;if(!w){$('#bd-dmg').innerHTML='<p class="muted">เลือกอาวุธก่อน</p>';return}
+  const ds=dmgSkills(R);ds.forEach(d=>{if(!(d.id in DMGON))DMGON[d.id]=true});
+  const dmgP=ds.filter(d=>DMGON[d.id]).reduce((t,d)=>t+d.p,0);
+  const aff=Math.max(-100,Math.min(100,R.aff));const CM=1.25;const crit=aff>=0?1+aff/100*(CM-1):1+aff/100*0.25;
+  const ce=[0,5,10,15][R.lv('critical-element')]||0;
+  const atk=w.atk||0;const raw=atk*(1+dmgP/100)*crit;
+  let ev=w.el&&ELSK[w.el]!==undefined?R.ev:0;const eb=R.eb||0;const ele=ev*(1+eb/100)*(1+dmgP/100)*(1+Math.max(0,aff)/100*ce/100);
+  const m=MON_BY[B.target];let note='';
+  if(m&&m.w&&w.el){const st=m.w[WK.indexOf(w.el)];note=`ธาตุ${WK_TH[w.el]}ต่อ ${esc(m.n)}: ${st}/3 ดาว`}
+  $('#bd-dmg').innerHTML=`<div style="display:flex;gap:18px;flex-wrap:wrap;align-items:end"><div><div class="muted" style="font-size:12px">ดาเมจรวมต่อหน่วย (กายภาพ + ธาตุ)</div><div class="big num">${(raw+ele).toFixed(1)}</div></div><div class="muted" style="font-size:13px">กายภาพ <b class="num">${raw.toFixed(1)}</b> · ธาตุ <b class="num">${ele.toFixed(1)}</b>${note?' · '+note:''}</div></div>
+   ${ds.length?`<div class="muted" style="font-size:12px;margin-top:8px">สกิลเพิ่มดาเมจที่มีเงื่อนไข (กดเปิด/ปิด)</div><div class="dmgopt">${ds.map(d=>`<button class="chip" type="button" aria-pressed="${DMGON[d.id]}" data-dmg="${d.id}" title="${esc(d.t)}">${esc(SK[d.id].en)} ${d.l} · +${d.p}%</button>`).join('')}</div>`:''}
+   <div class="tbl-wrap dmg"><table><tbody>
+    <tr><td>พลังโจมตีอาวุธ</td><td class="num">${atk}</td></tr>
+    <tr><td>คริติคอล (รวมสกิลและเงื่อนไขด้านบน)</td><td class="num">${aff}% → ตัวคูณ ×${crit.toFixed(3)}</td></tr>
+    <tr><td>ดาเมจเพิ่มจากสกิลที่เปิดอยู่</td><td class="num">+${dmgP}%</td></tr>
+    <tr><td>ค่าธาตุ${w.el?' '+WK_TH[w.el]:''}</td><td class="num">${ev}${eb?` · ดาเมจธาตุ +${eb}%`:''}${ce?` · คริติคอลธาตุ +${ce}%`:''}</td></tr>
+   </tbody></table></div>
+   <p class="src2">สูตร: กายภาพ = ATK × (1 + ดาเมจ%) × (1 + คริ% × 0.25) · ธาตุ = ค่าธาตุ × (1 + ดาเมจธาตุ%) × (1 + ดาเมจ%) × (1 + คริ% × คริติคอลธาตุ%) · ตัวคูณคริ 1.25 และสูตรนี้เป็นค่าประมาณตามระบบ Monster Hunter ทั่วไป ยังไม่รวมค่าท่าโจมตี (motion value) และความแข็งของจุดที่ตี เกมไม่ได้เปิดเผยสูตรจริง ใช้เปรียบเทียบบิลด์กันเอง</p>`;
+}
+document.addEventListener('click',e=>{const c=e.target.closest('[data-dmg]');if(c){DMGON[c.dataset.dmg]=!DMGON[c.dataset.dmg];renderDmg()}});
+const _rb3=renderBuilder;
+renderBuilder=function(){_rb3();
+  document.querySelectorAll('#gear .gear-row').forEach(r=>{const k=r.querySelector('[data-pick]');if(!k)return;const key=k.dataset.pick;let n=null,has=false;
+    if(key==='weapon'){const w=B.weapon&&W_BY[B.weapon];if(w){has=true;n=w.m}}else{const a=B.armor[key]&&AR_BY[B.armor[key]];if(a){has=true;n=SET_BY[a.set].m}}
+    if(has){const sub=r.querySelector('.gear-main');sub.insertAdjacentHTML('beforeend',bossHTML(n))}});
+  renderDmg()};
 mskRender();
 renderChars();renderMedia();renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();
 
