@@ -260,7 +260,7 @@ function builderCardHTML(){
    <div class="bw">${wi?IMG(wi,'',w.n):blank('อาวุธ')}<div><b>${w?esc(w.n):'—'}</b><span>${w?`ATK ${w.atk??'—'}${w.el?` · ${WK_TH[w.el]} ${R.ev}`:''} · คริ ${R.aff}%`:''}</span></div></div>
    ${SLOTS.map(sl=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];return `<div class="ba"><span class="sl">${SLOT_TH[sl]}</span>${a&&a.icon?IMG(a.icon,'',a.n):blank(SLOT_TH[sl])}<span>${a?esc(a.n):'<span class="muted">ว่าง</span>'}</span></div>`}).join('')}
    <div class="chipz">${chips.map(chip).join('')||'<span class="muted" style="border:0">ยังไม่มีสกิล</span>'}</div>
-   <div class="legend"><span>▮ เซ็ตเกราะ</span><span style="color:var(--elc)">▮ ธาตุเต็ม Lv7</span><span>▯ สกิลเต็มลิมิต</span><span style="margin-left:auto">MHO Builder · mho-builder-9qq.pages.dev</span></div></div></div>`;
+   <div class="legend"><span>▮ เซ็ตเกราะ</span><span style="color:var(--elc)">▮ ธาตุเต็ม Lv7</span><span>▯ สกิลเต็มลิมิต</span><span style="margin-left:auto">MHOUTLANDERTHGUILD · mho-builder-9qq.pages.dev</span></div></div></div>`;
 }
 const _rb=renderBuilder;
 renderBuilder=function(){_rb();$('#bd-card').innerHTML=builderCardHTML();
@@ -269,7 +269,7 @@ $('#bd-shot').addEventListener('click',async()=>{
   if(!window.html2canvas){toast('กำลังโหลดตัวสร้างรูป ลองกดอีกครั้ง');return}
   const el=$('#bd-card .bc2');const bg=getComputedStyle(document.body).backgroundColor;
   try{const cv=await html2canvas(el,{backgroundColor:bg,scale:2,useCORS:true});
-    cv.toBlob(b=>{const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='mho-build.png';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast('บันทึกรูปแล้ว')},'image/png');
+    cv.toBlob(b=>{const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='mhoutlanderthguild-build.png';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast('บันทึกรูปแล้ว')},'image/png');
   }catch(e){toast('บันทึกรูปไม่สำเร็จ ลองเปิดเว็บในเบราว์เซอร์แล้วลองใหม่')}
 });
 /* ---- home ---- */

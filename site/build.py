@@ -12,7 +12,7 @@ def vers(b):
         return m.group(0) if not os.path.exists(p) else f'src="{m.group(1)}?v={hashlib.md5(open(p,"rb").read()).hexdigest()[:8]}"'
     return re.sub(r'src="((?:db|media|cards)\.js|vendor/html2canvas\.min\.js)"',f,b)
 body=vers(body)
-title='<title>บันทึกนักล่า Outlanders</title>'
+title='<title>MHOUTLANDERTHGUILD</title>'
 open(os.path.join(H,'artifact.html'),'w',encoding='utf-8').write(f'{title}\n<meta name="claude:viewport-fit-sides" content="cover">\n{fonts}\n{style}\n{body}')
 std=style.replace('body{background:var(--bg)','body{margin:0;background:var(--bg)',1)
 open(os.path.join(H,'index.html'),'w',encoding='utf-8').write(f'''<!doctype html>
@@ -21,7 +21,7 @@ open(os.path.join(H,'index.html'),'w',encoding='utf-8').write(f'''<!doctype html
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="เว็บแฟนเมด Monster Hunter Outlanders ภาษาไทย: ตัวละคร ชุดเกราะ อาวุธ สกิล มอนสเตอร์ บัดดี้ และเครื่องมือจัดบิลด์">
-<meta property="og:title" content="บันทึกนักล่า Outlanders">
+<meta property="og:title" content="MHOUTLANDERTHGUILD">
 <meta property="og:image" content="/img/banner/og-cover-1200x630.webp">
 {title}
 {fonts}
