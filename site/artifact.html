@@ -530,6 +530,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
         <div class="panel">
           <div class="panel-h"><h3>อุปกรณ์</h3><span class="muted" style="font-size:13px" id="bd-filled"></span></div>
           <div class="gear" id="gear"></div>
+          <div class="target" id="bd-sets-pick">
+            <label>เซ็ทสกิลที่ต้องการ (เลือกได้หลายอัน)</label>
+            <div class="chips" id="ssk-chips"></div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><button class="btn btn-brass btn-sm" id="ssk-apply" type="button">ใส่เกราะให้อัตโนมัติ</button><button class="btn btn-ghost btn-sm" id="ssk-clear" type="button">ล้างที่เลือก</button><span class="muted" id="ssk-info" style="font-size:12px"></span></div>
+          </div>
           <div class="target">
             <label for="bd-target">มอนสเตอร์เป้าหมาย</label>
             <select class="input" id="bd-target"></select>
@@ -1319,6 +1324,32 @@ const _rh=renderHome;
 renderHome=function(){_rh();document.querySelectorAll('#weak-table img').forEach(i=>{const d=SZ[i.getAttribute('src')];if(d){i.width=d[0];i.height=d[1]}})};
 /* fill width/height for any image rendered by older templates */
 new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType!==1)continue;(n.tagName==='IMG'?[n]:n.querySelectorAll('img:not([width])')).forEach(i=>{const d=SZ[i.getAttribute('src')];if(d&&!i.hasAttribute('width')){i.setAttribute('width',d[0]);i.setAttribute('height',d[1])}})}}).observe(document.body,{childList:true,subtree:true});
+/* ---- builder: boss image + multi set-skill picker ---- */
+document.head.insertAdjacentHTML('beforeend','<style>.boss{display:flex;gap:12px;align-items:center;background:var(--surface-2);padding:10px;border:1px solid var(--line)}.boss img{width:84px;height:84px;object-fit:contain}.boss b{font-family:var(--f-display);font-size:18px}#ssk-chips .chip small{opacity:.7;margin-left:4px}#ssk-chips{max-height:210px;overflow-y:auto;padding:2px;border:1px solid var(--line);background:var(--bg)}</style>');
+let SSK=new Set();
+function sskRender(){
+  const list=[...SETS].sort((a,b)=>a.b.p-b.b.p||a.b.n.localeCompare(b.b.n));
+  $('#ssk-chips').innerHTML=list.map(s=>`<button class="chip" type="button" aria-pressed="${SSK.has(s.k)}" data-ssk="${s.k}" title="${esc(s.n)}: ${esc(SK[s.b.s].en)} +${s.b.add}">${esc(s.b.n)}<small>${s.b.p}ชิ้น</small></button>`).join('');
+  const need=[...SSK].reduce((t,k)=>t+SET_BY[k].b.p,0);
+  $('#ssk-info').textContent=SSK.size?`ใช้ ${need}/5 ชิ้น`+(need>5?' · เกิน 5 ชิ้น ลดเซ็ทลงก่อน':''):'กดเลือกเซ็ทสกิล แล้วกดใส่เกราะ';
+}
+document.addEventListener('click',e=>{const c=e.target.closest('[data-ssk]');if(!c)return;const k=c.dataset.ssk;SSK.has(k)?SSK.delete(k):SSK.add(k);sskRender()});
+$('#ssk-clear').addEventListener('click',()=>{SSK.clear();sskRender()});
+$('#ssk-apply').addEventListener('click',()=>{
+  const sets=[...SSK].map(k=>SET_BY[k]);const need=sets.reduce((t,s)=>t+s.b.p,0);
+  if(!sets.length){toast('เลือกเซ็ทสกิลก่อน');return}if(need>5){toast('รวมเกิน 5 ชิ้น');return}
+  // assign slots: try every slot order, keep the one with highest total defense
+  let best=null;
+  const go=(i,free,acc)=>{if(i===sets.length){const d=Object.values(acc).reduce((t,id)=>t+AR_BY[id].d,0);if(!best||d>best.d)best={d,acc:{...acc}};return}
+    const s=sets[i];const pick=(start,left,fr,a)=>{if(!left){go(i+1,fr,a);return}for(let j=start;j<fr.length;j++){const sl=fr[j];const id=s.k+'-'+sl;if(!AR_BY[id])continue;pick(j,left-1,fr.filter(x=>x!==sl),{...a,[sl]:id})}};pick(0,s.b.p,free,acc)};
+  go(0,[...SLOTS],{});
+  if(!best){toast('จัดเซ็ทนี้รวมกันไม่ได้');return}
+  Object.assign(B.armor,best.acc);saveCur();renderBuilder();toast('ใส่เกราะ '+Object.keys(best.acc).length+' ชิ้นแล้ว ช่องที่เหลือเลือกเองได้');
+});
+const _rb2=renderBuilder;
+renderBuilder=function(){_rb2();const m=MON_BY[B.target];const box=$('#bd-match');
+  if(m&&box){const ic=MM[m.k]&&MM[m.k].icon,vis=MEDIA.visages[m.k];box.insertAdjacentHTML('afterbegin',`<div class="boss" style="flex-basis:100%">${IMG(ic,'',m.n)}<div><b>${esc(m.n)}</b><div class="muted" style="font-size:12px">${esc(m.clsTh||'')}</div></div>${vis?IMG(vis.img,'',vis.n,'style="margin-left:auto;width:64px;height:64px" title="Visage"'):''}</div>`)}};
+sskRender();
 renderChars();renderMedia();renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();
 
 </script>
