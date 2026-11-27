@@ -1,6 +1,6 @@
 # MHO Builder site
 
-Thai fan site for Monster Hunter Outlanders, deployed at https://mho-builder-9qq.pages.dev
+Thai fan site for Monster Hunter Outlanders, deployed at https://mhoutlanderthguild.pages.dev
 
 - `src/style.css`, `src/body.html` – page source. Run `python3 build.py` to produce `index.html` (standalone) and `artifact.html`.
 - `db.js` – game database (armor, weapons, skills with Thai text, monster weaknesses). Built by `tools/parse.py` + `tools/build_db.py` from community data pages (mhoutlandersbuild.com, 3rd Closed Beta data).
