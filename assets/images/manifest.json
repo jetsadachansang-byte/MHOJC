@@ -319,194 +319,308 @@
  ],
  "buddies_all": [
   {
-   "file": "09-buddies-all/cat_a_01.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/daisho.png",
+   "name": "Daisho",
+   "slug": "daisho",
+   "rarity": "SSR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_a_02.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/kojiro.png",
+   "name": "Kojiro",
+   "slug": "kojiro",
+   "rarity": "SSR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_a_03.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/pipa.png",
+   "name": "Pipa",
+   "slug": "pipa",
+   "rarity": "SSR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_a_04.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/ro.png",
+   "name": "Ro",
+   "slug": "ro",
+   "rarity": "SSR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_a_05.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/devu.png",
+   "name": "Devu",
+   "slug": "devu",
+   "rarity": "SSR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/cat_a_06.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/hoppy.png",
+   "name": "Hoppy",
+   "slug": "hoppy",
+   "rarity": "SSR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/cat_a_07.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/nailu.png",
+   "name": "Nailu",
+   "slug": "nailu",
+   "rarity": "SSR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/cat_a_08.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/pheasant.png",
+   "name": "Pheasant",
+   "slug": "pheasant",
+   "rarity": "SSR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/cat_a_09.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/banako.png",
+   "name": "Banako",
+   "slug": "banako",
+   "rarity": "SR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_b_01.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/fortie.png",
+   "name": "Fortie",
+   "slug": "fortie",
+   "rarity": "SR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_b_02.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/icarus.png",
+   "name": "Icarus",
+   "slug": "icarus",
+   "rarity": "SR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_b_03.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/sand-velvet.png",
+   "name": "Sand Velvet",
+   "slug": "sand-velvet",
+   "rarity": "SR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_b_04.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/tidal-claw.png",
+   "name": "Tidal Claw",
+   "slug": "tidal-claw",
+   "rarity": "SR",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/cat_b_05.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/barim.png",
+   "name": "Barim",
+   "slug": "barim",
+   "rarity": "SR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/monkey_01.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/falee-hendsom.png",
+   "name": "Falee Hendsom",
+   "slug": "falee-hendsom",
+   "rarity": "SR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/monkey_02.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/nako.png",
+   "name": "Nako",
+   "slug": "nako",
+   "rarity": "SR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/monkey_03.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/reefcore.png",
+   "name": "Reefcore",
+   "slug": "reefcore",
+   "rarity": "SR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/monkey_04.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/sand-echo.png",
+   "name": "Sand Echo",
+   "slug": "sand-echo",
+   "rarity": "SR",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/monkey_05.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/ario.png",
+   "name": "Ario",
+   "slug": "ario",
+   "rarity": "SR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/monkey_06.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/blademaster.png",
+   "name": "Blademaster",
+   "slug": "blademaster",
+   "rarity": "SR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/monkey_07.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/golden-bell.png",
+   "name": "Golden Bell",
+   "slug": "golden-bell",
+   "rarity": "SR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/monkey_08.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/ravinge.png",
+   "name": "Ravinge",
+   "slug": "ravinge",
+   "rarity": "SR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/monkey_09.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/tidal-sound.png",
+   "name": "Tidal Sound",
+   "slug": "tidal-sound",
+   "rarity": "SR",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/monkey_10.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/alon.png",
+   "name": "Alon",
+   "slug": "alon",
+   "rarity": "R",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/monkey_11.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/aloo.png",
+   "name": "Aloo",
+   "slug": "aloo",
+   "rarity": "R",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/monkey_12.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/ron.png",
+   "name": "Ron",
+   "slug": "ron",
+   "rarity": "R",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/owl_01.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/shadow.png",
+   "name": "Shadow",
+   "slug": "shadow",
+   "rarity": "R",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/owl_02.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/zira.png",
+   "name": "Zira",
+   "slug": "zira",
+   "rarity": "R",
+   "type": "Assault",
+   "species": "Palico"
   },
   {
-   "file": "09-buddies-all/owl_03.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/aku.png",
+   "name": "Aku",
+   "slug": "aku",
+   "rarity": "R",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/owl_04.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/boomie.png",
+   "name": "Boomie",
+   "slug": "boomie",
+   "rarity": "R",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/owl_05.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/mac.png",
+   "name": "Mac",
+   "slug": "mac",
+   "rarity": "R",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/owl_06.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/pupo.png",
+   "name": "Pupo",
+   "slug": "pupo",
+   "rarity": "R",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/owl_07.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/wolfe.png",
+   "name": "Wolfe",
+   "slug": "wolfe",
+   "rarity": "R",
+   "type": "Disruptor",
+   "species": "Rutaco"
   },
   {
-   "file": "09-buddies-all/owl_08.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/bladey.png",
+   "name": "Bladey",
+   "slug": "bladey",
+   "rarity": "R",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/owl_09.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/horn.png",
+   "name": "Horn",
+   "slug": "horn",
+   "rarity": "R",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/owl_10.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/lido.png",
+   "name": "Lido",
+   "slug": "lido",
+   "rarity": "R",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/owl_11.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/mith.png",
+   "name": "Mith",
+   "slug": "mith",
+   "rarity": "R",
+   "type": "Support",
+   "species": "Trillan"
   },
   {
-   "file": "09-buddies-all/owl_12.png",
-   "name": null,
-   "note": "brightened, 2x; name unknown (rename when list is known)"
+   "file": "09-buddies-all/viper.png",
+   "name": "Viper",
+   "slug": "viper",
+   "rarity": "R",
+   "type": "Support",
+   "species": "Trillan"
   }
  ],
  "weapon_icons": [

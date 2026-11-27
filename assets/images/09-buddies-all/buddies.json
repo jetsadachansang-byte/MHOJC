@@ -10,7 +10,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +350; Affinity +9%",
    "ref_image": "https://img.gamewith.jp/img/552d83423c43ff822c0244bce9852805.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/kojiro"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/kojiro",
+   "file": "09-buddies-all/kojiro.png",
+   "original_file": "cat_b_02.png"
   },
   {
    "name": "Daisho",
@@ -20,7 +22,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +350; Dragon +15%",
    "ref_image": "https://img.gamewith.jp/img/288e2a5a55b451c05de89539cce02d41.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/daisho"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/daisho",
+   "file": "09-buddies-all/daisho.png",
+   "original_file": "cat_a_09.png"
   },
   {
    "name": "Pipa",
@@ -30,7 +34,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +350; Thunder +15%",
    "ref_image": "https://img.gamewith.jp/img/7ca48d4ceee3807b4b14856362097da6.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pipa"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pipa",
+   "file": "09-buddies-all/pipa.png",
+   "original_file": "cat_b_01.png"
   },
   {
    "name": "Ro",
@@ -40,7 +46,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +350; Ice +15%",
    "ref_image": "https://img.gamewith.jp/img/8e8ef0efb5eb27edcebb48c827d25ad5.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ro"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ro",
+   "file": "09-buddies-all/ro.png",
+   "original_file": "cat_a_08.png"
   },
   {
    "name": "Hoppy",
@@ -50,7 +58,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +350; Water +15%",
    "ref_image": "https://img.gamewith.jp/img/fa274c306c98109aa0f9b0d0add82f44.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/hoppy"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/hoppy",
+   "file": "09-buddies-all/hoppy.png",
+   "original_file": "monkey_08.png"
   },
   {
    "name": "Devu",
@@ -60,7 +70,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +350; Affinity +9%",
    "ref_image": "https://img.gamewith.jp/img/136db10131b3465d7846285b472a0480.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/devu"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/devu",
+   "file": "09-buddies-all/devu.png",
+   "original_file": "monkey_07.png"
   },
   {
    "name": "Nailu",
@@ -70,7 +82,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +350; Dragon +15%",
    "ref_image": "https://img.gamewith.jp/img/f0e7a7a4fe59deee770dea2d4d802df5.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nailu"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nailu",
+   "file": "09-buddies-all/nailu.png",
+   "original_file": "owl_08.png"
   },
   {
    "name": "Pheasant",
@@ -80,7 +94,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +350; Thunder +15%",
    "ref_image": "https://img.gamewith.jp/img/6ead107c95a50cb5d6058c20adad1d33.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pheasant"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pheasant",
+   "file": "09-buddies-all/pheasant.png",
+   "original_file": "owl_07.png"
   },
   {
    "name": "Icarus",
@@ -90,7 +106,9 @@
    "species": "Palico",
    "adventurer_boost": "Affinity +6.3%; Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/4d8609c13a393b357dab0e786b553c36.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/icarus"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/icarus",
+   "file": "09-buddies-all/icarus.png",
+   "original_file": "cat_a_01.png"
   },
   {
    "name": "Fortie",
@@ -100,7 +118,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +245; Water +10.5%",
    "ref_image": "https://img.gamewith.jp/img/d903b914986fa47c64a9064bf7db023f.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/fortie"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/fortie",
+   "file": "09-buddies-all/fortie.png",
+   "original_file": "cat_b_04.png"
   },
   {
    "name": "Banako",
@@ -110,7 +130,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +245; Affinity +6.3%",
    "ref_image": "https://img.gamewith.jp/img/c0e5a90b3cd6a2cd414ed81c78d2c732.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/banako"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/banako",
+   "file": "09-buddies-all/banako.png",
+   "original_file": "cat_b_03.png"
   },
   {
    "name": "Sand Velvet",
@@ -120,7 +142,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +245; Affinity +6.3%",
    "ref_image": "https://img.gamewith.jp/img/b8cff4d3311037bc142ca25ecd4290a8.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-velvet"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-velvet",
+   "file": "09-buddies-all/sand-velvet.png",
+   "original_file": "cat_a_02.png"
   },
   {
    "name": "Tidal Claw",
@@ -130,7 +154,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +245; Affinity +6.3%",
    "ref_image": "https://img.gamewith.jp/img/1c253b40230e8191fa3e486bacbe7ca0.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-claw"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-claw",
+   "file": "09-buddies-all/tidal-claw.png",
+   "original_file": "cat_a_03.png"
   },
   {
    "name": "Nako",
@@ -140,7 +166,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/f6ed9419426e89be60a880c25926fc32.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nako"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nako",
+   "file": "09-buddies-all/nako.png",
+   "original_file": "monkey_11.png"
   },
   {
    "name": "Barim",
@@ -150,7 +178,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
    "ref_image": "https://img.gamewith.jp/img/b222a6290cfe318aa2c5f7b26fb5b111.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/barim"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/barim",
+   "file": "09-buddies-all/barim.png",
+   "original_file": "monkey_12.png"
   },
   {
    "name": "Falee Hendsom",
@@ -160,7 +190,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +245; Thunder +10.5%",
    "ref_image": "https://img.gamewith.jp/img/eac09ded8cb660339f572e9fac64de1b.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/falee-hendsom"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/falee-hendsom",
+   "file": "09-buddies-all/falee-hendsom.png",
+   "original_file": "monkey_01.png"
   },
   {
    "name": "Sand Echo",
@@ -170,7 +202,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/974cb36600f1a25f1dc5b9704f7b08a7.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-echo"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-echo",
+   "file": "09-buddies-all/sand-echo.png",
+   "original_file": "monkey_09.png"
   },
   {
    "name": "Reefcore",
@@ -180,7 +214,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/dd76b480e1f08fb5d3c7c0e5b971d6af.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/reefcore"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/reefcore",
+   "file": "09-buddies-all/reefcore.png",
+   "original_file": "monkey_10.png"
   },
   {
    "name": "Ravinge",
@@ -190,7 +226,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
    "ref_image": "https://img.gamewith.jp/img/49e9b995f5dd7c886cc9dcf0cb063e1e.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ravinge"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ravinge",
+   "file": "09-buddies-all/ravinge.png",
+   "original_file": "owl_12.png"
   },
   {
    "name": "Ario",
@@ -200,7 +238,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/0f35a744f2e74798047c7d4ec44ae6b8.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ario"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ario",
+   "file": "09-buddies-all/ario.png",
+   "original_file": "owl_11.png"
   },
   {
    "name": "Golden Bell",
@@ -210,7 +250,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/e5d707259348ecf25b20f6ddf7df0844.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/golden-bell"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/golden-bell",
+   "file": "09-buddies-all/golden-bell.png",
+   "original_file": "owl_09.png"
   },
   {
    "name": "Tidal Sound",
@@ -220,7 +262,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +245",
    "ref_image": "https://img.gamewith.jp/img/da3b671ed4f96d667057d0bfaad53cf3.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-sound"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-sound",
+   "file": "09-buddies-all/tidal-sound.png",
+   "original_file": "owl_10.png"
   },
   {
    "name": "Blademaster",
@@ -230,7 +274,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
    "ref_image": "https://img.gamewith.jp/img/ef81d523418269e2c19bd099d0e3f298.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/blademaster"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/blademaster",
+   "file": "09-buddies-all/blademaster.png",
+   "original_file": "owl_01.png"
   },
   {
    "name": "Zira",
@@ -240,7 +286,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +172; Thunder +7.5%",
    "ref_image": "https://img.gamewith.jp/img/450277ddfc7f9f8f2d979734e1ff8930.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/zira"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/zira",
+   "file": "09-buddies-all/zira.png",
+   "original_file": "cat_a_06.png"
   },
   {
    "name": "Aloo",
@@ -250,7 +298,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +172; Water +7.5%",
    "ref_image": "https://img.gamewith.jp/img/0ef1a9e83a27725923fb5e97652ba1bb.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aloo"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aloo",
+   "file": "09-buddies-all/aloo.png",
+   "original_file": "cat_a_07.png"
   },
   {
    "name": "Shadow",
@@ -260,7 +310,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +172; Affinity +4.5%",
    "ref_image": "https://img.gamewith.jp/img/f58b9302bcf9ad18193eb5f773010604.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/shadow"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/shadow",
+   "file": "09-buddies-all/shadow.png",
+   "original_file": "cat_b_05.png"
   },
   {
    "name": "Ron",
@@ -270,7 +322,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +172; Ice +7.5%",
    "ref_image": "https://img.gamewith.jp/img/9210fc6d23c6ee1f1a38ab53413d9649.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ron"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ron",
+   "file": "09-buddies-all/ron.png",
+   "original_file": "cat_a_04.png"
   },
   {
    "name": "Alon",
@@ -280,7 +334,9 @@
    "species": "Palico",
    "adventurer_boost": "Elemental Attack +172; Dragon +7.5%",
    "ref_image": "https://img.gamewith.jp/img/3612bd431daa8d2fd455ebed73a93c4c.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/alon"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/alon",
+   "file": "09-buddies-all/alon.png",
+   "original_file": "cat_a_05.png"
   },
   {
    "name": "Boomie",
@@ -290,7 +346,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +172; Water +7.5%",
    "ref_image": "https://img.gamewith.jp/img/5fb39efce005fad2cc46ea81dd66f414.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/boomie"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/boomie",
+   "file": "09-buddies-all/boomie.png",
+   "original_file": "monkey_03.png"
   },
   {
    "name": "Pupo",
@@ -300,7 +358,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
    "ref_image": "https://img.gamewith.jp/img/945003bc95f35ecd12883b83201c332e.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pupo"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pupo",
+   "file": "09-buddies-all/pupo.png",
+   "original_file": "monkey_04.png"
   },
   {
    "name": "Mac",
@@ -310,7 +370,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +172; Thunder +7.5%",
    "ref_image": "https://img.gamewith.jp/img/40b43f07aee4f91aa05aad1e87ac512c.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mac"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mac",
+   "file": "09-buddies-all/mac.png",
+   "original_file": "monkey_02.png"
   },
   {
    "name": "Wolfe",
@@ -320,7 +382,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +172; Affinity +4.5%",
    "ref_image": "https://img.gamewith.jp/img/046eadfe1a40542caa1cb77a84513951.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/wolfe"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/wolfe",
+   "file": "09-buddies-all/wolfe.png",
+   "original_file": "monkey_05.png"
   },
   {
    "name": "Aku",
@@ -330,7 +394,9 @@
    "species": "Rutaco",
    "adventurer_boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
    "ref_image": "https://img.gamewith.jp/img/8fb80fdb946438aeafec9eeb5c53ffd1.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aku"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aku",
+   "file": "09-buddies-all/aku.png",
+   "original_file": "monkey_06.png"
   },
   {
    "name": "Viper",
@@ -340,7 +406,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
    "ref_image": "https://img.gamewith.jp/img/b29e1611f06a61750bbfb7195aa851b3.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/viper"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/viper",
+   "file": "09-buddies-all/viper.png",
+   "original_file": "owl_05.png"
   },
   {
    "name": "Bladey",
@@ -350,7 +418,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
    "ref_image": "https://img.gamewith.jp/img/016624225ba4a71183a56b67cd7fc9f4.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/bladey"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/bladey",
+   "file": "09-buddies-all/bladey.png",
+   "original_file": "owl_03.png"
   },
   {
    "name": "Horn",
@@ -360,7 +430,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +172; Dragon +7.5%",
    "ref_image": "https://img.gamewith.jp/img/ea466966174492b10d4562f0a3283791.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/horn"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/horn",
+   "file": "09-buddies-all/horn.png",
+   "original_file": "owl_04.png"
   },
   {
    "name": "Lido",
@@ -370,7 +442,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
    "ref_image": "https://img.gamewith.jp/img/c7468f8a74ccc490d82c98b0fda48750.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/lido"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/lido",
+   "file": "09-buddies-all/lido.png",
+   "original_file": "owl_06.png"
   },
   {
    "name": "Mith",
@@ -380,7 +454,9 @@
    "species": "Trillan",
    "adventurer_boost": "Elemental Attack +172; Thunder +7.5%",
    "ref_image": "https://img.gamewith.jp/img/4397eb8f4dbd32f3e6d1fabdb3935275.png",
-   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mith"
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mith",
+   "file": "09-buddies-all/mith.png",
+   "original_file": "owl_02.png"
   },
   {
    "name": "Arya",

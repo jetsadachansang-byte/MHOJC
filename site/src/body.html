@@ -79,9 +79,21 @@
 .bd-feature img{display:block;width:100%;aspect-ratio:1;object-fit:cover;cursor:zoom-in}
 .bd-feature figcaption{padding:10px 14px;font-size:14px}
 .bd-feature figcaption b{font-family:var(--f-display);font-size:18px;display:block}
-.bc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
-.bc-grid button{border:1px solid var(--line);background:var(--surface-2);padding:0;cursor:zoom-in}
-.bc-grid img{display:block;width:100%;aspect-ratio:890/1066;object-fit:cover}
+.bc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}
+.bc{background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;min-width:0}
+.bc>button{border:0;background:var(--surface-2);padding:0;cursor:zoom-in;display:block}
+.bc img{display:block;width:100%;aspect-ratio:890/1066;object-fit:cover}
+.bc .meta{padding:9px 11px 11px;display:grid;gap:4px;font-size:13px}
+.bc .meta b{font-family:var(--f-display);font-size:16px;display:flex;justify-content:space-between;gap:6px;align-items:baseline}
+.bc .rk{font-size:11px;padding:0 6px;line-height:17px;font-family:var(--f-display);font-weight:700}
+.bc .rk.SSR{background:var(--brass);color:var(--on-brass)}.bc .rk.SR{background:var(--r5);color:var(--bg)}.bc .rk.R{background:var(--r4);color:var(--bg)}
+.bc .stars2{color:var(--brass);letter-spacing:1px;font-size:12px}
+.bc .typ{display:flex;gap:6px;flex-wrap:wrap;color:var(--muted);font-size:12px}
+.bc .typ span{border:1px solid var(--line-2);padding:0 6px}
+.bc .boost{font-size:12px;color:var(--fg)}
+.bc .boost em{font-style:normal;color:var(--muted);display:block;font-size:11px}
+.bc-group{grid-column:1/-1;font-family:var(--f-display);font-weight:700;font-size:15px;margin-top:6px;display:flex;align-items:center;gap:10px;color:var(--brass)}
+.bc-group::after{content:"";flex:1;height:1px;background:var(--line)}
 .news{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
 @media (max-width:900px){.news{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .news figure{margin:0;background:var(--surface);border:1px solid var(--line);min-width:0}
@@ -238,11 +250,12 @@
 
 <section id="v-buddies" data-view="buddies" hidden>
   <div class="wrap view">
-    <div class="view-head"><div><div class="eyebrow">Buddies</div><h2>บัดดี้</h2><p>บัดดี้ใหม่และการ์ดบัดดี้ทั้งหมด คลิกที่รูปเพื่อขยาย</p></div></div>
+    <div class="view-head"><div><div class="eyebrow">Buddies</div><h2>บัดดี้</h2><p>บัดดี้ใหม่ และบัดดี้ทั้งหมดพร้อมระดับ สาย และค่าบัฟ คลิกที่รูปเพื่อขยาย</p></div></div>
     <div class="bd-feature" id="bd-feature"></div>
     <div class="section">
-      <h3>การ์ดบัดดี้ทั้งหมด</h3>
-      <p class="muted" style="margin:-4px 0 14px;font-size:14px">การ์ดบัดดี้ 38 ใบ ยังไม่มีข้อมูลชื่อ จะใส่ชื่อเมื่อมีรายชื่อจากในเกม</p>
+      <h3>บัดดี้ทั้งหมด</h3>
+      <p class="muted" style="margin:-4px 0 14px;font-size:14px">บัดดี้ 38 ตัว เรียงตามระดับ SSR → SR → R แล้วตามสาย Assault → Disruptor → Support · ค่าบัฟคือบัฟที่ให้ตัวละคร (Adventurer Boost) จาก GameWith.ai</p>
+      <div class="chips" id="bc-filter" style="margin-bottom:14px"></div>
       <div class="bc-grid" id="bc-grid"></div>
     </div>
   </div>
@@ -647,13 +660,29 @@ function renderMedia(){
   $('#gift-grid').innerHTML=MEDIA.gifts.map(g=>`<div class="gift"><img src="${g.img}" alt="" loading="lazy" decoding="async"><span>${esc(g.n)}</span></div>`).join('');
   const BN={arya:'Arya',elwin:'Elwin'};
   $('#bd-feature').innerHTML=MEDIA.buddies.map(b=>`<figure><img src="${b.img}" alt="${esc(b.n)}" loading="lazy" data-zoom="${b.img}" data-cap="${esc(b.n)}"><figcaption><b>${esc(b.n)}</b>${b.n==='Arya'?'บัดดี้คู่กับ Freya':b.n==='Elwin'?'บัดดี้คู่กับ Stylia':esc(b.note)}</figcaption></figure>`).join('');
-  $('#bc-grid').innerHTML=MEDIA.buddyCards.map((b,i)=>`<button data-zoom="${b.img}" data-cap="การ์ดบัดดี้ #${String(i+1).padStart(2,'0')}" aria-label="ขยายการ์ดบัดดี้ ${i+1}"><img src="${b.img}" alt="" loading="lazy" decoding="async"></button>`).join('');
+  renderBuddyCards();
   const NEWS={'news-arya':'บัดดี้ใหม่ Arya','news-elwin':'บัดดี้ใหม่ Elwin','news-rosequeen':'คอสตูม Rose Queen (Freya)','news-silken':'คอสตูม Silken Dancer (Stylia)'};
   $('#home-news').innerHTML=MEDIA.banners.filter(b=>NEWS[b.id]).map(b=>`<figure><img src="${b.img}" alt="${NEWS[b.id]}" loading="lazy" data-zoom="${b.img}" data-cap="${NEWS[b.id]}"><figcaption>${NEWS[b.id]}</figcaption></figure>`).join('');
   const OF={'freya-rose-queen':'Rose Queen · Freya','stylia-silken-dancer':'Silken Dancer · Stylia','weapon-flying-feather':'Flying Feather · สกินธนู','buddy-flower-bearing-plume':'Flower-Bearing Plume · ชุดบัดดี้'};
   $('#home-outfits').innerHTML=MEDIA.outfits.map(o=>`<figure><img src="${o.img}" alt="${OF[o.id]||o.id}" loading="lazy" data-zoom="${o.full||o.img}" data-cap="${OF[o.id]||o.id}"><figcaption>${OF[o.id]||o.id}</figcaption></figure>`).join('');
   $('#home-chars').innerHTML=CH.slice(0,10).map(chCard).join('');
 }
+/* buddy cards */
+const BT_TH={Assault:'จู่โจม',Disruptor:'ก่อกวน',Support:'สนับสนุน'},SP_TH={Palico:'Palico (แมว)',Rutaco:'Rutaco (ลิง)',Trillan:'Trillan (นก)'},RSTAR={SSR:'★★★',SR:'★★',R:'★'};
+let bcF='ทั้งหมด';
+function renderBuddyCards(){
+  const opts=['ทั้งหมด','SSR','SR','R','Assault','Disruptor','Support'];
+  $('#bc-filter').innerHTML=opts.map(o=>`<button class="chip" aria-pressed="${o===bcF}" data-bcf="${o}">${o}${BT_TH[o]?' · '+BT_TH[o]:''}</button>`).join('');
+  const list=MEDIA.buddyCards.filter(b=>bcF==='ทั้งหมด'||b.r===bcF||b.t===bcF);let h='',g='';
+  list.forEach(b=>{const k=b.r+' · '+b.t;if(k!==g){g=k;h+=`<div class="bc-group">${esc(b.r)} ${RSTAR[b.r]||''} · ${esc(b.t)} (${BT_TH[b.t]||''})</div>`}
+    const parts=(b.boost||'').split(';').map(x=>x.trim()).filter(Boolean);
+    h+=`<article class="bc"><button data-zoom="${b.img}" data-cap="${esc(b.n)} · ${b.r} · ${esc(b.t)}" aria-label="ขยายรูป ${esc(b.n)}"><img src="${b.img}" alt="${esc(b.n)}" loading="lazy" decoding="async"></button>
+     <div class="meta"><b><span>${esc(b.n)}</span><span class="rk ${b.r}">${b.r}</span></b><span class="stars2" aria-label="ระดับ ${b.r}">${RSTAR[b.r]||''}</span>
+     <span class="typ"><span>${esc(b.t)} · ${BT_TH[b.t]||''}</span><span>${esc(SP_TH[b.sp]||b.sp||'')}</span></span>
+     ${parts.length?`<span class="boost"><em>บัฟให้ตัวละคร</em>${parts.map(esc).join('<br>')}</span>`:''}</div></article>`});
+  $('#bc-grid').innerHTML=h||'<p class="muted">ไม่มีบัดดี้ที่ตรงกับตัวกรอง</p>';
+}
+document.addEventListener('click',e=>{const f=e.target.closest('[data-bcf]');if(f){bcF=f.dataset.bcf;renderBuddyCards()}});
 /* lightbox */
 document.addEventListener('click',e=>{const z=e.target.closest('[data-zoom]');if(!z)return;e.preventDefault();e.stopPropagation();$('#lb-img').src=z.dataset.zoom;$('#lb-img').alt=z.dataset.cap||'';$('#lb-cap').textContent=z.dataset.cap||'';$('#lb').hidden=false;$('#lb-scroll').scrollTop=0;document.body.style.overflow='hidden'},true);
 const lbClose=()=>{$('#lb').hidden=true;$('#lb-img').src='';document.body.style.overflow=''};

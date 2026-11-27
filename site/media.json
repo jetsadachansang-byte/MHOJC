@@ -321,156 +321,384 @@
  ],
  "buddyCards": [
   {
-   "id": "cat_a_01",
-   "img": "img/buddy/cards/cat_a_01.webp"
+   "id": "daisho",
+   "n": "Daisho",
+   "r": "SSR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +350; Dragon +15%",
+   "img": "img/buddy/cards/daisho.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/daisho"
   },
   {
-   "id": "cat_a_02",
-   "img": "img/buddy/cards/cat_a_02.webp"
+   "id": "kojiro",
+   "n": "Kojiro",
+   "r": "SSR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +350; Affinity +9%",
+   "img": "img/buddy/cards/kojiro.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/kojiro"
   },
   {
-   "id": "cat_a_03",
-   "img": "img/buddy/cards/cat_a_03.webp"
+   "id": "pipa",
+   "n": "Pipa",
+   "r": "SSR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +350; Thunder +15%",
+   "img": "img/buddy/cards/pipa.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pipa"
   },
   {
-   "id": "cat_a_04",
-   "img": "img/buddy/cards/cat_a_04.webp"
+   "id": "ro",
+   "n": "Ro",
+   "r": "SSR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +350; Ice +15%",
+   "img": "img/buddy/cards/ro.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ro"
   },
   {
-   "id": "cat_a_05",
-   "img": "img/buddy/cards/cat_a_05.webp"
+   "id": "devu",
+   "n": "Devu",
+   "r": "SSR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +350; Affinity +9%",
+   "img": "img/buddy/cards/devu.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/devu"
   },
   {
-   "id": "cat_a_06",
-   "img": "img/buddy/cards/cat_a_06.webp"
+   "id": "hoppy",
+   "n": "Hoppy",
+   "r": "SSR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +350; Water +15%",
+   "img": "img/buddy/cards/hoppy.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/hoppy"
   },
   {
-   "id": "cat_a_07",
-   "img": "img/buddy/cards/cat_a_07.webp"
+   "id": "nailu",
+   "n": "Nailu",
+   "r": "SSR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +350; Dragon +15%",
+   "img": "img/buddy/cards/nailu.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nailu"
   },
   {
-   "id": "cat_a_08",
-   "img": "img/buddy/cards/cat_a_08.webp"
+   "id": "pheasant",
+   "n": "Pheasant",
+   "r": "SSR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +350; Thunder +15%",
+   "img": "img/buddy/cards/pheasant.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pheasant"
   },
   {
-   "id": "cat_a_09",
-   "img": "img/buddy/cards/cat_a_09.webp"
+   "id": "banako",
+   "n": "Banako",
+   "r": "SR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +245; Affinity +6.3%",
+   "img": "img/buddy/cards/banako.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/banako"
   },
   {
-   "id": "cat_b_01",
-   "img": "img/buddy/cards/cat_b_01.webp"
+   "id": "fortie",
+   "n": "Fortie",
+   "r": "SR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +245; Water +10.5%",
+   "img": "img/buddy/cards/fortie.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/fortie"
   },
   {
-   "id": "cat_b_02",
-   "img": "img/buddy/cards/cat_b_02.webp"
+   "id": "icarus",
+   "n": "Icarus",
+   "r": "SR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Affinity +6.3%; Elemental Attack +245",
+   "img": "img/buddy/cards/icarus.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/icarus"
   },
   {
-   "id": "cat_b_03",
-   "img": "img/buddy/cards/cat_b_03.webp"
+   "id": "sand-velvet",
+   "n": "Sand Velvet",
+   "r": "SR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +245; Affinity +6.3%",
+   "img": "img/buddy/cards/sand-velvet.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-velvet"
   },
   {
-   "id": "cat_b_04",
-   "img": "img/buddy/cards/cat_b_04.webp"
+   "id": "tidal-claw",
+   "n": "Tidal Claw",
+   "r": "SR",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +245; Affinity +6.3%",
+   "img": "img/buddy/cards/tidal-claw.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-claw"
   },
   {
-   "id": "cat_b_05",
-   "img": "img/buddy/cards/cat_b_05.webp"
+   "id": "barim",
+   "n": "Barim",
+   "r": "SR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
+   "img": "img/buddy/cards/barim.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/barim"
   },
   {
-   "id": "monkey_01",
-   "img": "img/buddy/cards/monkey_01.webp"
+   "id": "falee-hendsom",
+   "n": "Falee Hendsom",
+   "r": "SR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +245; Thunder +10.5%",
+   "img": "img/buddy/cards/falee-hendsom.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/falee-hendsom"
   },
   {
-   "id": "monkey_02",
-   "img": "img/buddy/cards/monkey_02.webp"
+   "id": "nako",
+   "n": "Nako",
+   "r": "SR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/nako.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nako"
   },
   {
-   "id": "monkey_03",
-   "img": "img/buddy/cards/monkey_03.webp"
+   "id": "reefcore",
+   "n": "Reefcore",
+   "r": "SR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/reefcore.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/reefcore"
   },
   {
-   "id": "monkey_04",
-   "img": "img/buddy/cards/monkey_04.webp"
+   "id": "sand-echo",
+   "n": "Sand Echo",
+   "r": "SR",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/sand-echo.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-echo"
   },
   {
-   "id": "monkey_05",
-   "img": "img/buddy/cards/monkey_05.webp"
+   "id": "ario",
+   "n": "Ario",
+   "r": "SR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/ario.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ario"
   },
   {
-   "id": "monkey_06",
-   "img": "img/buddy/cards/monkey_06.webp"
+   "id": "blademaster",
+   "n": "Blademaster",
+   "r": "SR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
+   "img": "img/buddy/cards/blademaster.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/blademaster"
   },
   {
-   "id": "monkey_07",
-   "img": "img/buddy/cards/monkey_07.webp"
+   "id": "golden-bell",
+   "n": "Golden Bell",
+   "r": "SR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/golden-bell.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/golden-bell"
   },
   {
-   "id": "monkey_08",
-   "img": "img/buddy/cards/monkey_08.webp"
+   "id": "ravinge",
+   "n": "Ravinge",
+   "r": "SR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +245; Ultimate Charge Rate +4.2%",
+   "img": "img/buddy/cards/ravinge.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ravinge"
   },
   {
-   "id": "monkey_09",
-   "img": "img/buddy/cards/monkey_09.webp"
+   "id": "tidal-sound",
+   "n": "Tidal Sound",
+   "r": "SR",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +245",
+   "img": "img/buddy/cards/tidal-sound.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-sound"
   },
   {
-   "id": "monkey_10",
-   "img": "img/buddy/cards/monkey_10.webp"
+   "id": "alon",
+   "n": "Alon",
+   "r": "R",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +172; Dragon +7.5%",
+   "img": "img/buddy/cards/alon.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/alon"
   },
   {
-   "id": "monkey_11",
-   "img": "img/buddy/cards/monkey_11.webp"
+   "id": "aloo",
+   "n": "Aloo",
+   "r": "R",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +172; Water +7.5%",
+   "img": "img/buddy/cards/aloo.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aloo"
   },
   {
-   "id": "monkey_12",
-   "img": "img/buddy/cards/monkey_12.webp"
+   "id": "ron",
+   "n": "Ron",
+   "r": "R",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +172; Ice +7.5%",
+   "img": "img/buddy/cards/ron.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ron"
   },
   {
-   "id": "owl_01",
-   "img": "img/buddy/cards/owl_01.webp"
+   "id": "shadow",
+   "n": "Shadow",
+   "r": "R",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +172; Affinity +4.5%",
+   "img": "img/buddy/cards/shadow.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/shadow"
   },
   {
-   "id": "owl_02",
-   "img": "img/buddy/cards/owl_02.webp"
+   "id": "zira",
+   "n": "Zira",
+   "r": "R",
+   "t": "Assault",
+   "sp": "Palico",
+   "boost": "Elemental Attack +172; Thunder +7.5%",
+   "img": "img/buddy/cards/zira.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/zira"
   },
   {
-   "id": "owl_03",
-   "img": "img/buddy/cards/owl_03.webp"
+   "id": "aku",
+   "n": "Aku",
+   "r": "R",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
+   "img": "img/buddy/cards/aku.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aku"
   },
   {
-   "id": "owl_04",
-   "img": "img/buddy/cards/owl_04.webp"
+   "id": "boomie",
+   "n": "Boomie",
+   "r": "R",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +172; Water +7.5%",
+   "img": "img/buddy/cards/boomie.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/boomie"
   },
   {
-   "id": "owl_05",
-   "img": "img/buddy/cards/owl_05.webp"
+   "id": "mac",
+   "n": "Mac",
+   "r": "R",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +172; Thunder +7.5%",
+   "img": "img/buddy/cards/mac.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mac"
   },
   {
-   "id": "owl_06",
-   "img": "img/buddy/cards/owl_06.webp"
+   "id": "pupo",
+   "n": "Pupo",
+   "r": "R",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
+   "img": "img/buddy/cards/pupo.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pupo"
   },
   {
-   "id": "owl_07",
-   "img": "img/buddy/cards/owl_07.webp"
+   "id": "wolfe",
+   "n": "Wolfe",
+   "r": "R",
+   "t": "Disruptor",
+   "sp": "Rutaco",
+   "boost": "Elemental Attack +172; Affinity +4.5%",
+   "img": "img/buddy/cards/wolfe.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/wolfe"
   },
   {
-   "id": "owl_08",
-   "img": "img/buddy/cards/owl_08.webp"
+   "id": "bladey",
+   "n": "Bladey",
+   "r": "R",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
+   "img": "img/buddy/cards/bladey.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/bladey"
   },
   {
-   "id": "owl_09",
-   "img": "img/buddy/cards/owl_09.webp"
+   "id": "horn",
+   "n": "Horn",
+   "r": "R",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +172; Dragon +7.5%",
+   "img": "img/buddy/cards/horn.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/horn"
   },
   {
-   "id": "owl_10",
-   "img": "img/buddy/cards/owl_10.webp"
+   "id": "lido",
+   "n": "Lido",
+   "r": "R",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
+   "img": "img/buddy/cards/lido.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/lido"
   },
   {
-   "id": "owl_11",
-   "img": "img/buddy/cards/owl_11.webp"
+   "id": "mith",
+   "n": "Mith",
+   "r": "R",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +172; Thunder +7.5%",
+   "img": "img/buddy/cards/mith.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mith"
   },
   {
-   "id": "owl_12",
-   "img": "img/buddy/cards/owl_12.webp"
+   "id": "viper",
+   "n": "Viper",
+   "r": "R",
+   "t": "Support",
+   "sp": "Trillan",
+   "boost": "Elemental Attack +172; Ultimate Charge Rate +3%",
+   "img": "img/buddy/cards/viper.webp",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/viper"
   }
  ],
  "weaponIcons": {
