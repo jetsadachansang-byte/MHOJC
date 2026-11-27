@@ -526,9 +526,9 @@
       "Fearless 1",
       "Guard Technique 1"
      ],
-     "icon": null,
-     "source": null,
-     "icon_upscaled_from": 100
+     "icon": "12-armor/black-diablos/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_237.png",
+     "icon_upscaled_from": 84
     },
     {
      "part": "chest",
@@ -540,9 +540,9 @@
       "Fearless 1",
       "Guard Technique 1"
      ],
-     "icon": null,
-     "source": null,
-     "icon_upscaled_from": 100
+     "icon": "12-armor/black-diablos/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_238.png",
+     "icon_upscaled_from": 84
     },
     {
      "part": "arms",

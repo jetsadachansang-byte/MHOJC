@@ -1,17 +1,4 @@
 {
- "missing": [
-  {
-   "set": "Black Diablos",
-   "part": "head",
-   "name": "Diablos Nero Helm",
-   "reason": "GameWith.ai shows only a generic placeholder icon (no real artwork yet). Game8 has no per-piece armor icons; GameWith JP was not checked piece by piece"
-  },
-  {
-   "set": "Black Diablos",
-   "part": "chest",
-   "name": "Diablos Nero Mail",
-   "reason": "GameWith.ai shows only a generic placeholder icon (no real artwork yet). Game8 has no per-piece armor icons; GameWith JP was not checked piece by piece"
-  }
- ],
+ "missing": [],
  "upscaled_icons": 217
 }

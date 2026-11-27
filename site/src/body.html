@@ -183,12 +183,13 @@
       <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
         <div class="panel">
           <div class="panel-h"><h3>อุปกรณ์</h3><span class="muted" style="font-size:13px" id="bd-filled"></span></div>
-          <div class="gear" id="gear"></div>
-          <div class="target" id="bd-sets-pick">
-            <label>เซ็ทสกิลที่ต้องการ (เลือกได้หลายอัน)</label>
-            <div class="chips" id="ssk-chips"></div>
-            <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><button class="btn btn-brass btn-sm" id="ssk-apply" type="button">ใส่เกราะให้อัตโนมัติ</button><button class="btn btn-ghost btn-sm" id="ssk-clear" type="button">ล้างที่เลือก</button><span class="muted" id="ssk-info" style="font-size:12px"></span></div>
+          <div class="target" style="border-top:0;border-bottom:1px solid var(--line)" id="bd-sets-pick">
+            <label for="msk-q">ค้นหาสกิล (เลือกได้หลายสกิล) แล้วเลือกชิ้นเกราะที่มีสกิลนั้น</label>
+            <input class="input" id="msk-q" type="search" placeholder="พิมพ์ชื่อสกิล เช่น Critical, ไฟ, Charge">
+            <div class="chips" id="msk-chips"></div>
+            <div id="msk-res"></div>
           </div>
+          <div class="gear" id="gear"></div>
           <div class="target">
             <label for="bd-target">มอนสเตอร์เป้าหมาย</label>
             <select class="input" id="bd-target"></select>
@@ -337,6 +338,7 @@
 <script src="db.js"></script>
 <script src="media.js"></script>
 <script src="cards.js"></script>
+<script src="weapons_detail.js"></script>
 <script src="vendor/html2canvas.min.js" defer></script>
 <script>
 const SK=DB.skills, SETS=DB.sets, ARMOR=DB.armor, WEAPONS=DB.weapons, MONS=DB.monsters;
@@ -594,7 +596,7 @@ function renderPicker(){
   $('#sheet-tabs').hidden=!isW;
   const q=P.q.trim().toLowerCase();
   let items=isW?WEAPONS.filter(w=>w.t===P.tab):ARMOR.filter(a=>a.slot===P.kind);
-  items=items.filter(it=>{if(P.skill&&!it.s.some(x=>x[0]===P.skill))return false;if(q){const hay=(it.n+' '+(it.m||'')+' '+(it.s?it.s.map(x=>SK[x[0]].en+' '+SK[x[0]].th).join(' '):'')+(it.el?WK_TH[it.el]:'')+(it.set?' '+SET_BY[it.set].n+' '+SET_BY[it.set].b.n:'')).toLowerCase();if(!hay.includes(q))return false}return true});
+  items=items.filter(it=>{if(P.skill&&!it.s.some(x=>x[0]===P.skill))return false;if(!isW&&!P.skill&&typeof MSK!=='undefined'&&MSK.size&&!it.s.some(x=>MSK.has(x[0])))return false;if(q){const hay=(it.n+' '+(it.m||'')+' '+(it.s?it.s.map(x=>SK[x[0]].en+' '+SK[x[0]].th).join(' '):'')+(it.el?WK_TH[it.el]:'')+(it.set?' '+SET_BY[it.set].n+' '+SET_BY[it.set].b.n:'')).toLowerCase();if(!hay.includes(q))return false}return true});
   items.sort(isW?(a,b)=>(b.atk??0)-(a.atk??0):(a,b)=>SET_BY[b.set].r-SET_BY[a.set].r||b.d-a.d);
   const cur=isW?B.weapon:B.armor[P.kind];
   let h=cur?'<button class="opt remove" data-choose=""><span class="nm">ถอดออก</span><span class="meta"></span></button>':'';

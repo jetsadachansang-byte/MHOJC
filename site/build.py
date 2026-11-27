@@ -10,7 +10,7 @@ def vers(b):
     def f(m):
         p=os.path.join(H,m.group(1))
         return m.group(0) if not os.path.exists(p) else f'src="{m.group(1)}?v={hashlib.md5(open(p,"rb").read()).hexdigest()[:8]}"'
-    return re.sub(r'src="((?:db|media|cards)\.js|vendor/html2canvas\.min\.js)"',f,b)
+    return re.sub(r'src="((?:db|media|cards|weapons_detail)\.js|vendor/html2canvas\.min\.js)"',f,b)
 body=vers(body)
 title='<title>MHOUTLANDERTHGUILD</title>'
 open(os.path.join(H,'artifact.html'),'w',encoding='utf-8').write(f'{title}\n<meta name="claude:viewport-fit-sides" content="cover">\n{fonts}\n{style}\n{body}')

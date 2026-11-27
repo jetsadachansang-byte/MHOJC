@@ -241,9 +241,44 @@ renderMedia=function(){
   $('#home-outfits').innerHTML=MEDIA.outfits.map(o=>`<figure>${IMG(o.img,'',o.n,`data-zoom="${o.full||o.img}" data-cap="${esc(o.n)}"`)}<figcaption>${esc(o.n)}</figcaption></figure>`).join('');
   $('#home-chars').innerHTML=CH.slice(0,10).map(chCard).join('');
 };
-/* ---- weapons: real weapon images in table and picker ---- */
-const _rw=renderWeapons;
-renderWeapons=function(){_rw();document.querySelectorAll('#wt-table tbody tr').forEach(tr=>{const td=tr.querySelector('td.rname');if(!td)return;const n=td.firstChild&&td.firstChild.textContent;const im=weaponImg(n||'');td.insertAdjacentHTML('afterbegin',im?IMG(im,'gi',n,'style="width:32px;height:32px;margin-right:8px;vertical-align:middle"'):'')})};
+/* ---- weapons: tiers, Apex, material calculator ---- */
+document.head.insertAdjacentHTML('beforeend','<style>.wbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:10px}.wbar select{width:auto}.apx{font-size:10px;font-weight:700;padding:1px 6px;background:#c9a227;color:#1a1406;margin-left:6px;vertical-align:2px}.wdet td{white-space:normal}.wdet table{min-width:0;font-size:13px}.wdet .grid2{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px}@media (max-width:760px){.wdet .grid2{grid-template-columns:1fr}}.mtot div{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:3px 0;font-size:13px}.mtot b{font-family:var(--f-num)}</style>');
+let wtR='max',wtApex=false,wtOpen=null,wtTo={};
+const wdOf=w=>WD[w.slug]||{rows:[],mats:{}};
+const rowAt=(w,r)=>{const d=wdOf(w);if(r==='max')return {r:w.r,atk:w.atk,aff:w.aff,ev:w.ev,sh:w.sh};return d.rows.find(x=>x.r===+r)};
+function chainTotals(w,target){
+  const tot={};const add=(m)=>m.items.forEach(([n,q])=>{tot[n]=(tot[n]||0)+(q||0)});
+  const chain=[];let k=w.slug,guard=0;while(k&&WD[k]&&guard++<20){chain.unshift(k);k=WD[k].up}
+  chain.forEach((sl,i)=>{const d=WD[sl];const lim=i<chain.length-1?(WD[chain[i+1]].rows[0]||{r:99}).r-1:target;Object.entries(d.mats).forEach(([r,m])=>{if(+r<=lim)add(m)})});
+  return {tot,chain};
+}
+function weaponDetail(w){
+  const d=wdOf(w);const tgt=wtTo[w.id]||(d.rows.length?d.rows[d.rows.length-1].r:w.r);
+  const {tot,chain}=chainTotals(w,tgt);const names=chain.map(x=>{const g=WEAPONS.find(y=>y.slug===x);return g?g.n.replace(/ \((Fire|Water|Thunder|Ice|Dragon)\)$/,''):x});
+  const tiers=`<table><thead><tr><th>ระดับ</th><th>ชื่อ</th><th>โจมตี</th><th>คริ</th><th>ธาตุ</th><th>ความคม</th><th>วัตถุดิบขั้นนี้</th></tr></thead><tbody>${d.rows.map(r=>{const m=d.mats[r.r];return `<tr><td class="num">R${r.r}</td><td>${esc(r.n)}</td><td class="num">${r.atk??'—'}</td><td class="num">${r.aff==null?'—':r.aff+'%'}</td><td class="num">${r.ev==null?'—':(r.el?(WK_TH[{Paralyzed:'para',Paralysis:'para'}[r.el]||r.el.toLowerCase()]||r.el)+' ':'')+r.ev}</td><td>${esc(r.sh||'—')}</td><td style="font-size:12px">${m?`<b>${m.kind==='Craft'?'สร้าง':'อัป'}</b> `+m.items.map(([n,q])=>`${esc(n)} ×${(q||0).toLocaleString()}`).join(' · '):'—'}</td></tr>`}).join('')}</tbody></table>`;
+  const opts=d.rows.map(r=>`<option value="${r.r}" ${r.r===tgt?'selected':''}>R${r.r}</option>`).join('');
+  return `<div class="grid2"><div class="tbl-wrap">${tiers}</div><div><b style="font-family:var(--f-display)">วัตถุดิบรวม ตั้งแต่ขั้นแรกถึง</b> <select class="input" style="width:auto;padding:4px 8px" data-wto="${w.id}">${opts}</select>
+   <div class="src2" style="margin:4px 0 8px">นับต่อจากสายอัปเกรด: ${names.map(esc).join(' → ')}</div>
+   <div class="mtot">${Object.entries(tot).sort((a,b)=>a[0]==='Zenny'?1:b[0]==='Zenny'?-1:0).map(([n,q])=>`<div><span>${esc(n)}</span><b>×${q.toLocaleString()}</b></div>`).join('')||'<span class="muted">ยังไม่มีข้อมูลวัตถุดิบ</span>'}</div>
+   ${w.apex?'<p class="src2">อาวุธ Apex: เลือกธาตุตอนสร้าง (ไฟ น้ำ สายฟ้า น้ำแข็ง มังกร) ค่าสถานะเท่ากันทุกธาตุ</p>':''}<p class="src2">ข้อมูล: GameWith.ai · ช่องที่เป็น “—” คือเว็บต้นทางยังไม่มีค่า</p></div></div>`;
+}
+renderWeapons=function(){
+  $('#wt-list').innerHTML=WTYPES.map(t=>`<button aria-pressed="${t.id===wtSel}" data-wt="${t.id}">${wIcon(t.id)}<span>${t.n}<small style="display:block;font-size:11px;opacity:.75">${t.th} · ${WEAPONS.filter(w=>w.t===t.id&&!(w.apex&&!/\(Fire\)$/.test(w.n))).length} ชิ้น</small></span></button>`).join('');
+  const t=WT_BY[wtSel];
+  let ws=WEAPONS.filter(w=>w.t===wtSel&&(!wtApex||w.apex)&&!(w.apex&&!/\(Fire\)$/.test(w.n)));
+  if(wtR!=='max')ws=ws.filter(w=>{const r=rowAt(w,wtR);return r});
+  const val=(w,f)=>{const r=rowAt(w,wtR);return r?r[f]:null};
+  ws.sort((a,b)=>wtSort==='aff'?(val(b,'aff')??-99)-(val(a,'aff')??-99):wtSort==='r'?b.rmax-a.rmax||(b.atk??0)-(a.atk??0):(val(b,'atk')??-1)-(val(a,'atk')??-1));
+  $('#wt-info').innerHTML=`<div><div class="eyebrow">${t.ab}</div><h3 style="display:flex;align-items:center;gap:10px">${MEDIA.weaponIcons[t.id]?IMG(MEDIA.weaponIcons[t.id],'',t.n,'style="width:40px;height:40px;filter:var(--icon-filter)"'):''}${t.n}</h3><div class="muted" style="margin:-2px 0 8px">${t.th}</div><p>${esc(t.d)}</p></div>
+   <div class="wbar" style="align-content:start"><label class="muted" for="wt-r">แสดงค่าที่ระดับ</label><select class="input" id="wt-r">${['max',...Array.from({length:14},(_,i)=>i+1)].map(r=>`<option value="${r}" ${String(r)===String(wtR)?'selected':''}>${r==='max'?'สูงสุดที่มีข้อมูล':'R'+r}</option>`).join('')}</select><button class="chip" type="button" aria-pressed="${wtApex}" id="wt-apex">เฉพาะ Apex</button></div>`;
+  const th=(k,l)=>`<th><button class="x-btn" style="color:${wtSort===k?'var(--brass)':'inherit'};padding:0;font:inherit" data-wsort="${k}">${l}${wtSort===k?' ↓':''}</button></th>`;
+  $('#wt-table').innerHTML=`<thead><tr><th>ชื่ออาวุธ</th>${th('r','ระดับ')}${th('atk','โจมตี')}${th('aff','คริ')}<th>ธาตุ</th><th>ความคม</th><th></th></tr></thead><tbody>${ws.map(w=>{const r=rowAt(w,wtR)||{};const im=weaponImg(w.n)||MEDIA.weaponIcons[w.t];const nm=w.apex?w.n.replace(/ \(Fire\)$/,''):w.n;
+    return `<tr class="${rcls(w.rmax)}"><td class="rname" style="font-weight:600">${IMG(im,'gi',nm,'style="width:32px;height:32px;margin-right:8px;vertical-align:middle"')}${esc(nm)}${w.apex?'<span class="apx">APEX</span>':''}</td><td><span class="rar">R${w.rmin}–${w.rmax}</span></td><td class="num">${r.atk??'—'}</td><td>${affText(r.aff)}</td><td>${w.apex?'<span class="muted">เลือกได้</span>':w.el?`${ei(w.el)} ${WK_TH[w.el]} <span class="num">${r.ev??'—'}</span>`:'<span class="muted">—</span>'}</td><td>${r.sh?`<span class="sharp sh-${r.sh}"></span>${r.sh}`:'—'}</td><td style="white-space:nowrap"><button class="btn btn-ghost btn-sm" data-wdet="${w.id}">${wtOpen===w.id?'ปิด':'ระดับ/วัตถุดิบ'}</button> <button class="btn btn-ghost btn-sm" data-useweapon="${w.id}">ใช้ในบิลด์</button></td></tr>`}).join('')}</tbody>`;
+  if(!$('#wt-det'))$('#wt-info').insertAdjacentHTML('afterend','<div id="wt-det" class="wdet panel" style="padding:14px;margin-bottom:14px"></div>');
+  const ow=WEAPONS.find(x=>x.id===wtOpen);$('#wt-det').hidden=!ow;$('#wt-det').innerHTML=ow?`<div style="display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:8px"><b style="font-family:var(--f-display);font-size:18px">${esc(ow.apex?ow.n.replace(/ \(Fire\)$/,''):ow.n)}</b><button class="btn btn-ghost btn-sm" data-wdet="${ow.id}">ปิด</button></div>${weaponDetail(ow)}`:'';
+};
+document.addEventListener('change',e=>{if(e.target.id==='wt-r'){wtR=e.target.value;renderWeapons()}if(e.target.dataset.wto){wtTo[e.target.dataset.wto]=+e.target.value;renderWeapons()}});
+document.addEventListener('click',e=>{if(e.target.id==='wt-apex'){wtApex=!wtApex;renderWeapons();return}const d=e.target.closest('[data-wdet]');if(d){wtOpen=wtOpen===d.dataset.wdet?null:d.dataset.wdet;renderWeapons();if(wtOpen)$('#wt-det').scrollIntoView({block:'start'})}});
 const _rp=renderPicker;
 renderPicker=function(){_rp();if(P&&P.kind==='weapon')document.querySelectorAll('#sheet-list .opt[data-choose]').forEach(o=>{const w=W_BY[o.dataset.choose];if(!w)return;const im=weaponImg(w.n);if(im)o.querySelector('.nm').insertAdjacentHTML('afterbegin',IMG(im,'gi',w.n))})};
 /* ---- builder: build card with SET / element MAX / MAX tags + save as image ---- */
@@ -277,30 +312,27 @@ const _rh=renderHome;
 renderHome=function(){_rh();document.querySelectorAll('#weak-table img').forEach(i=>{const d=SZ[i.getAttribute('src')];if(d){i.width=d[0];i.height=d[1]}})};
 /* fill width/height for any image rendered by older templates */
 new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType!==1)continue;(n.tagName==='IMG'?[n]:n.querySelectorAll('img:not([width])')).forEach(i=>{const d=SZ[i.getAttribute('src')];if(d&&!i.hasAttribute('width')){i.setAttribute('width',d[0]);i.setAttribute('height',d[1])}})}}).observe(document.body,{childList:true,subtree:true});
-/* ---- builder: boss image + multi set-skill picker ---- */
-document.head.insertAdjacentHTML('beforeend','<style>.boss{display:flex;gap:12px;align-items:center;background:var(--surface-2);padding:10px;border:1px solid var(--line)}.boss img{width:84px;height:84px;object-fit:contain}.boss b{font-family:var(--f-display);font-size:18px}#ssk-chips .chip small{opacity:.7;margin-left:4px}#ssk-chips{max-height:210px;overflow-y:auto;padding:2px;border:1px solid var(--line);background:var(--bg)}</style>');
-let SSK=new Set();
-function sskRender(){
-  const list=[...SETS].sort((a,b)=>a.b.p-b.b.p||a.b.n.localeCompare(b.b.n));
-  $('#ssk-chips').innerHTML=list.map(s=>`<button class="chip" type="button" aria-pressed="${SSK.has(s.k)}" data-ssk="${s.k}" title="${esc(s.n)}: ${esc(SK[s.b.s].en)} +${s.b.add}">${esc(s.b.n)}<small>${s.b.p}ชิ้น</small></button>`).join('');
-  const need=[...SSK].reduce((t,k)=>t+SET_BY[k].b.p,0);
-  $('#ssk-info').textContent=SSK.size?`ใช้ ${need}/5 ชิ้น`+(need>5?' · เกิน 5 ชิ้น ลดเซ็ทลงก่อน':''):'กดเลือกเซ็ทสกิล แล้วกดใส่เกราะ';
+/* ---- builder: boss image + multi-skill search ---- */
+document.head.insertAdjacentHTML('beforeend','<style>.boss{display:flex;gap:12px;align-items:center;background:var(--surface-2);padding:10px;border:1px solid var(--line)}.boss img{width:84px;height:84px;object-fit:contain}.boss b{font-family:var(--f-display);font-size:18px}#msk-chips{max-height:150px;overflow-y:auto}#msk-chips .chip small{opacity:.7;margin-left:4px}.mrow{display:flex;gap:8px;align-items:center;padding:6px 0;border-top:1px solid var(--line);font-size:13px}.mrow img{width:34px;height:34px;object-fit:contain;background:var(--surface-2)}.mrow .n{flex:1;min-width:0}.mrow .n b{display:block;font-size:14px}.mrow .tag.hit-tag{font-weight:700}.mslot{font-family:var(--f-display);font-size:12px;color:var(--brass);margin-top:8px}</style>');
+const MSK=new Set();
+function mskRender(){
+  const q=$('#msk-q').value.trim().toLowerCase();
+  const ids=Object.keys(SK).filter(id=>ARMOR.some(a=>a.s.some(x=>x[0]===id))||SETS.some(st=>st.b.s===id));
+  const show=ids.filter(id=>MSK.has(id)||(q&&(SK[id].en+' '+SK[id].th).toLowerCase().includes(q))).sort((a,b)=>(MSK.has(b)-MSK.has(a))||SK[a].en.localeCompare(SK[b].en));
+  $('#msk-chips').innerHTML=(q||MSK.size)?show.slice(0,40).map(id=>`<button class="chip" type="button" aria-pressed="${MSK.has(id)}" data-msk="${id}">${esc(SK[id].en)}<small>${esc(SK[id].th)}</small></button>`).join('')||'<span class="muted" style="font-size:12px">ไม่พบสกิล</span>':'<span class="muted" style="font-size:12px">พิมพ์เพื่อค้นหา แล้วกดเลือกได้หลายสกิล</span>';
+  if(!MSK.size){$('#msk-res').innerHTML='';return}
+  const sel=[...MSK];const score=a=>sel.reduce((t,id)=>{const x=a.s.find(y=>y[0]===id);return t+(x?100+x[1]:0)},0)+(sel.includes(SET_BY[a.set].b.s)?50:0);
+  const setsHit=SETS.filter(st=>sel.includes(st.b.s));
+  let h=setsHit.length?`<div class="mslot">เซ็ทสกิลที่ตรง: ${setsHit.map(st=>`${esc(st.b.n)} (${esc(st.n)} · ${st.b.p} ชิ้น)`).join(' · ')}</div>`:'';
+  SLOTS.forEach(sl=>{const L=ARMOR.filter(a=>a.slot===sl&&score(a)>0).sort((x,y)=>score(y)-score(x)||y.d-x.d).slice(0,6);if(!L.length)return;
+    h+=`<div class="mslot">${SLOT_TH[sl]}</div>`+L.map(a=>`<div class="mrow">${a.icon?IMG(a.icon,'',a.n):''}<div class="n"><b>${esc(a.n)}</b><span class="tags">${a.s.map(([id,lv])=>`<span class="tag ${MSK.has(id)?'hit-tag':''}">${esc(SK[id].en)} ${lv}</span>`).join('')}${sel.includes(SET_BY[a.set].b.s)?`<span class="tag hit-tag">SET ${esc(SET_BY[a.set].b.n)}</span>`:''}</span></div><button class="btn ${B.armor[sl]===a.id?'btn-ghost':'btn-brass'} btn-sm" type="button" data-mput="${a.id}">${B.armor[sl]===a.id?'ใส่อยู่':'ใส่'}</button></div>`).join('')});
+  $('#msk-res').innerHTML=h;
 }
-document.addEventListener('click',e=>{const c=e.target.closest('[data-ssk]');if(!c)return;const k=c.dataset.ssk;SSK.has(k)?SSK.delete(k):SSK.add(k);sskRender()});
-$('#ssk-clear').addEventListener('click',()=>{SSK.clear();sskRender()});
-$('#ssk-apply').addEventListener('click',()=>{
-  const sets=[...SSK].map(k=>SET_BY[k]);const need=sets.reduce((t,s)=>t+s.b.p,0);
-  if(!sets.length){toast('เลือกเซ็ทสกิลก่อน');return}if(need>5){toast('รวมเกิน 5 ชิ้น');return}
-  // assign slots: try every slot order, keep the one with highest total defense
-  let best=null;
-  const go=(i,free,acc)=>{if(i===sets.length){const d=Object.values(acc).reduce((t,id)=>t+AR_BY[id].d,0);if(!best||d>best.d)best={d,acc:{...acc}};return}
-    const s=sets[i];const pick=(start,left,fr,a)=>{if(!left){go(i+1,fr,a);return}for(let j=start;j<fr.length;j++){const sl=fr[j];const id=s.k+'-'+sl;if(!AR_BY[id])continue;pick(j,left-1,fr.filter(x=>x!==sl),{...a,[sl]:id})}};pick(0,s.b.p,free,acc)};
-  go(0,[...SLOTS],{});
-  if(!best){toast('จัดเซ็ทนี้รวมกันไม่ได้');return}
-  Object.assign(B.armor,best.acc);saveCur();renderBuilder();toast('ใส่เกราะ '+Object.keys(best.acc).length+' ชิ้นแล้ว ช่องที่เหลือเลือกเองได้');
-});
+$('#msk-q').addEventListener('input',mskRender);
+document.addEventListener('click',e=>{const c=e.target.closest('[data-msk]');if(c){const k=c.dataset.msk;MSK.has(k)?MSK.delete(k):MSK.add(k);mskRender();return}
+  const u=e.target.closest('[data-mput]');if(u){const a=AR_BY[u.dataset.mput];B.armor[a.slot]=a.id;saveCur();renderBuilder();toast('ใส่ '+a.n+' แล้ว')}});
 const _rb2=renderBuilder;
-renderBuilder=function(){_rb2();const m=MON_BY[B.target];const box=$('#bd-match');
+renderBuilder=function(){_rb2();if(typeof mskRender==='function'&&MSK.size)mskRender();const m=MON_BY[B.target];const box=$('#bd-match');
   if(m&&box){const ic=MM[m.k]&&MM[m.k].icon,vis=MEDIA.visages[m.k];box.insertAdjacentHTML('afterbegin',`<div class="boss" style="flex-basis:100%">${IMG(ic,'',m.n)}<div><b>${esc(m.n)}</b><div class="muted" style="font-size:12px">${esc(m.clsTh||'')}</div></div>${vis?IMG(vis.img,'',vis.n,'style="margin-left:auto;width:64px;height:64px" title="Visage"'):''}</div>`)}};
-sskRender();
+mskRender();
 renderChars();renderMedia();renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();

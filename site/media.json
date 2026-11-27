@@ -1466,6 +1466,8 @@
   "barroth-arms": "img/armor/barroth/arms.webp",
   "barroth-waist": "img/armor/barroth/waist.webp",
   "barroth-legs": "img/armor/barroth/legs.webp",
+  "black-diablos-head": "img/armor/black-diablos/head.webp",
+  "black-diablos-chest": "img/armor/black-diablos/chest.webp",
   "black-diablos-arms": "img/armor/black-diablos/arms.webp",
   "black-diablos-waist": "img/armor/black-diablos/waist.webp",
   "black-diablos-legs": "img/armor/black-diablos/legs.webp",
@@ -3933,7 +3935,15 @@
    256,
    256
   ],
+  "img/armor/black-diablos/head.webp": [
+   256,
+   256
+  ],
   "img/armor/black-diablos/legs.webp": [
+   256,
+   256
+  ],
+  "img/armor/black-diablos/chest.webp": [
    256,
    256
   ],

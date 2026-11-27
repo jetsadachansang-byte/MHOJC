@@ -5568,6 +5568,20 @@
   "h": 256,
   "note": "cut out from GameWith icon (upscaled from 84px)"
  },
+ "img/armor/black-diablos/head.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_237.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/black-diablos",
+  "w": 256,
+  "h": 256,
+  "note": "cut out from GameWith icon (upscaled from 84px)"
+ },
+ "img/armor/black-diablos/chest.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_238.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/black-diablos",
+  "w": 256,
+  "h": 256,
+  "note": "cut out from GameWith icon (upscaled from 84px)"
+ },
  "img/armor/black-diablos/arms.webp": {
   "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_239.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/black-diablos",
@@ -7071,6 +7085,12 @@
   "w": 900,
   "h": 900
  },
+ "img/gift/sheet.webp": {
+  "source": "assets/images/03-gifts/sheet.png",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
+  "w": 128,
+  "h": 64
+ },
  "img/outfit/buddy-flower-bearing-plume.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
@@ -7358,11 +7378,5 @@
   "source": "https://img.gamewith.jp/img/8040c07db42e6f1ed249a6260a882ce8.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/vespoid",
   "note": "background removed, resized"
- },
- "img/gift/sheet.webp": {
-  "source": "assets/images/03-gifts/sheet.png",
-  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 128,
-  "h": 64
  }
 }
