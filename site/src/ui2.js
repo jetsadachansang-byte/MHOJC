@@ -301,11 +301,25 @@ const _rb=renderBuilder;
 renderBuilder=function(){_rb();$('#bd-card').innerHTML=builderCardHTML();
   document.querySelectorAll('#gear .gear-row').forEach(r=>{const k=r.querySelector('[data-pick]');if(!k||k.dataset.pick!=='weapon')return;const w=B.weapon&&W_BY[B.weapon];const im=w&&weaponImg(w.n);if(im)r.querySelector('.gear-ic').innerHTML=IMG(im,'',w.n,'style="width:48px;height:48px;object-fit:contain"')})};
 $('#bd-shot').addEventListener('click',async()=>{
+  const btn=$('#bd-shot');if(btn.disabled)return;
   if(!window.html2canvas){toast('กำลังโหลดตัวสร้างรูป ลองกดอีกครั้ง');return}
-  const el=$('#bd-card .bc2');const bg=getComputedStyle(document.body).backgroundColor;
-  try{const cv=await html2canvas(el,{backgroundColor:bg,scale:2,useCORS:true});
-    cv.toBlob(b=>{const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download='mhoutlanderthguild-build.png';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),4000);toast('บันทึกรูปแล้ว')},'image/png');
-  }catch(e){toast('บันทึกรูปไม่สำเร็จ ลองเปิดเว็บในเบราว์เซอร์แล้วลองใหม่')}
+  btn.disabled=true;const old=btn.textContent;btn.textContent='กำลังสร้างรูป…';
+  try{
+    if(document.fonts&&document.fonts.ready)await document.fonts.ready;
+    const el=$('#bd-card .bc2');const bg=getComputedStyle(document.body).backgroundColor;
+    const cv=await html2canvas(el,{backgroundColor:bg,scale:Math.min(2,window.devicePixelRatio||2),useCORS:true,logging:false});
+    const blob=await new Promise(r=>cv.toBlob(r,'image/png'));const url=URL.createObjectURL(blob);const fn='mhoutlanderthguild-build.png';
+    // 1) mobile share sheet (Save Image / Photos)
+    let done=false;const file=new File([blob],fn,{type:'image/png'});
+    if(navigator.canShare&&navigator.canShare({files:[file]})&&/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)){try{await navigator.share({files:[file],title:'บิลด์ MHOUTLANDERTHGUILD'});done=true}catch(e){}}
+    // 2) direct download (desktop)
+    if(!done){const a=document.createElement('a');a.href=url;a.download=fn;document.body.appendChild(a);a.click();a.remove()}
+    // 3) always show the picture so it can be saved by long-press / right-click
+    $('#lb-img').src=url;$('#lb-img').alt='การ์ดบิลด์';$('#lb-cap').innerHTML=`รูปบิลด์พร้อมแล้ว · มือถือ: กดค้างที่รูปแล้วเลือก “บันทึกรูป” · <a href="${url}" download="${fn}" style="color:#f3c04a">ดาวน์โหลด</a>`;
+    $('#lb').hidden=false;$('#lb-scroll').scrollTop=0;document.body.style.overflow='hidden';
+    toast('สร้างรูปบิลด์แล้ว');
+  }catch(e){console.error(e);toast('สร้างรูปไม่สำเร็จ ลองรีเฟรชหน้าแล้วกดใหม่')}
+  finally{btn.disabled=false;btn.textContent=old}
 });
 /* ---- home ---- */
 const _rh=renderHome;
