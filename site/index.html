@@ -1583,14 +1583,34 @@ document.addEventListener('click',e=>{const c=e.target.closest('[data-mcat]'),b=
   else if(s||e.target.closest('[data-mon]')){mView=2;renderMonsters();scrollTo(0,0)}});
 renderMonsters();
 
-/* ---- group characters by element, skills by category ---- */
-const _rc3=renderChars;renderChars=function(){_rc3();const G=$('#ch-grid');const list=CH.filter(c=>chF==='ทั้งหมด'||c.r===chF||c.w===chF);if(!list.length)return;
-  const EO=['Fire','Water','Thunder','Ice','Dragon'];const els=[...new Set(list.map(c=>c.el))].sort((a,b)=>EO.indexOf(a)-EO.indexOf(b));
-  G.innerHTML=els.map(e=>{const l=list.filter(c=>c.el===e).sort((a,b)=>(a.r==='SSR'?0:1)-(b.r==='SSR'?0:1)||a.n.localeCompare(b.n));const k=ELK(e);
-    return `<div class="bc-group">${k?ei(k)+' ธาตุ'+WK_TH[k]:esc(e)} <small class="muted" style="font-weight:400">${l.length} ตัว</small></div>`+l.map(chCard).join('')}).join('')};
-const _rs3=renderSkills;renderSkills=function(){_rs3();if(skCat!=='ทั้งหมด')return;const G=$('#sk-grid');const arts=[...G.querySelectorAll('article.sk-card')];if(!arts.length)return;
-  const by={};arts.forEach(a=>{const c=(a.querySelector('.cat')||{}).textContent.split(' · ')[0];(by[c]=by[c]||[]).push(a)});G.innerHTML='';
-  [...CAT_ORDER,...Object.keys(by).filter(c=>!CAT_ORDER.includes(c))].forEach(c=>{if(!by[c])return;G.insertAdjacentHTML('beforeend',`<div class="bc-group">${esc(c)} <small class="muted" style="font-weight:400">${by[c].length} สกิล</small></div>`);by[c].forEach(a=>G.appendChild(a))})};
+/* ---- drill-down menus: characters by element, skills by letter, buddies by type ---- */
+const DD={ch:null,sk:null,bc:null};
+const ddNav=(id,anchor,title,key)=>{let n=$('#'+id);if(!n){n=document.createElement('div');n.id=id;anchor.before(n)}
+  n.innerHTML=title==null?'<h3 style="margin:0 0 10px">'+key+'</h3>':`<div style="display:flex;gap:10px;align-items:center;margin-bottom:10px;flex-wrap:wrap"><button class="btn btn-ghost btn-sm" data-ddback="${key}" type="button">← ทั้งหมด</button><h3 style="margin:0">${title}</h3></div>`};
+const tile=(attr,eb,h,cnt,icons)=>`<button class="mon-card" ${attr} type="button"><span class="top"><span><span class="threat">${eb}</span><h4>${h}</h4><span class="muted" style="font-size:13px">${cnt}</span></span></span>${icons?`<span class="mcat-ic">${icons}</span>`:''}</button>`;
+const EO=['Fire','Water','Thunder','Ice','Dragon'];
+const _rc3=renderChars;renderChars=function(){chF='ทั้งหมด';_rc3();const G=$('#ch-grid'),D=$('#ch-detail');$('#ch-filter').hidden=true;
+  const lay=G.parentElement;
+  if(!DD.ch){ddNav('ch-nav',lay,null,'เลือกธาตุ');D.hidden=true;lay.style.gridTemplateColumns='1fr';
+    G.innerHTML=EO.filter(e=>CH.some(c=>c.el===e)).map(e=>{const l=CH.filter(c=>c.el===e),k=ELK(e);return tile(`data-ddch="${e}"`,esc(e),ei(k)+' ธาตุ'+WK_TH[k],l.length+' ตัว',l.map(c=>IMG(c.p,'',c.n)).join(''))}).join('');return}
+  const k=ELK(DD.ch);ddNav('ch-nav',lay,ei(k)+' ธาตุ'+WK_TH[k],'ch');D.hidden=false;lay.style.gridTemplateColumns='';
+  G.innerHTML=CH.filter(c=>c.el===DD.ch).sort((a,b)=>(a.r==='SSR'?0:1)-(b.r==='SSR'?0:1)||a.n.localeCompare(b.n)).map(chCard).join('')};
+const _rs3=renderSkills;renderSkills=function(){skCat='ทั้งหมด';_rs3();$('#sk-cat').hidden=true;const G=$('#sk-grid'),q=$('#sk-q').value.trim();G.style.gridTemplateColumns=(!q&&!DD.sk)?'repeat(auto-fill,minmax(140px,1fr))':'';
+  if(q){ddNav('sk-nav',G,'ผลการค้นหา','sk');return}
+  const L=id=>SK[id].en[0].toUpperCase();
+  if(!DD.sk){ddNav('sk-nav',G,null,'เลือกตัวอักษร');const ls=[...new Set(Object.keys(SK).map(L))].sort();
+    G.innerHTML=ls.map(l=>{const ids=Object.keys(SK).filter(id=>L(id)===l).sort((a,b)=>SK[a].en.localeCompare(SK[b].en));return tile(`data-ddsk="${l}"`,'ตัวอักษร',`<span style="font-size:28px">${l}</span>`,ids.length+' สกิล',`<span class="muted" style="font-size:12px;line-height:1.4">${ids.slice(0,4).map(id=>esc(SK[id].en)).join(', ')}${ids.length>4?'…':''}</span>`)}).join('');return}
+  ddNav('sk-nav',G,'สกิลที่ขึ้นต้นด้วย '+DD.sk,'sk');[...G.querySelectorAll('article.sk-card')].forEach(a=>{if(a.querySelector('h4').textContent.trim()[0].toUpperCase()!==DD.sk)a.remove()})};
+const BTY=['Assault','Disruptor','Support'];
+const _rb4=renderBuddyCards;renderBuddyCards=function(){const G=$('#bc-grid');$('#bc-filter').hidden=true;
+  if(bcQ){bcF='ทั้งหมด';_rb4();ddNav('bc-nav',G,'ผลการค้นหา','bc');return}
+  if(!DD.bc){ddNav('bc-nav',G,null,'เลือกสาย');G.innerHTML=BTY.map(t=>{const l=MEDIA.buddyCards.filter(b=>b.t===t);return tile(`data-ddbc="${t}"`,esc(t),esc(BT_TH[t]||t),l.length+' ตัว',l.slice(0,10).map(b=>IMG(b.img,'',b.n)).join(''))}).join('');return}
+  bcF=DD.bc;_rb4();ddNav('bc-nav',G,esc(DD.bc)+' · '+esc(BT_TH[DD.bc]||''),'bc')};
+document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
+  if(t=g('[data-ddch]')){DD.ch=t.dataset.ddch;const f=CH.find(c=>c.el===DD.ch);if(f)chSel=f.id;renderChars();scrollTo(0,0)}
+  else if(t=g('[data-ddsk]')){DD.sk=t.dataset.ddsk;renderSkills();scrollTo(0,0)}
+  else if(t=g('[data-ddbc]')){DD.bc=t.dataset.ddbc;renderBuddyCards();scrollTo(0,0)}
+  else if(t=g('[data-ddback]')){const k=t.dataset.ddback;DD[k]=null;if(k==='sk')$('#sk-q').value='';if(k==='bc'){bcQ='';$('#bc-q').value=''}({ch:renderChars,sk:renderSkills,bc:renderBuddyCards})[k]();scrollTo(0,0)}});
 renderChars();renderSkills();renderBuddyCards();
 
 </script>
