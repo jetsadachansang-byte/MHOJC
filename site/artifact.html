@@ -1,0 +1,975 @@
+<title>บันทึกนักล่า Outlanders</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: field-journal UI — sticky camp bar, contour-map hero, notched panels like an in-game HUD; builder = gear column + live readout column */
+:root{
+  --bg:#0d1615; --surface:#142120; --surface-2:#1b2b29; --line:#2a3c38; --line-2:#3b524c;
+  --fg:#ebe3cd; --muted:#98a69d; --brass:#d4a64e; --brass-dim:#8c6d2f; --ember:#e2733c; --moss:#69b39f; --danger:#e0564a;
+  --on-brass:#1a1406;
+  --fire:#e8653d; --water:#4c9be0; --thunder:#e6c53d; --ice:#93d6ea; --dragon:#b5506a; --poison:#a46ad0;
+  --r1:#8f948c; --r2:#d8d2c0; --r3:#8fc05a; --r4:#57a7d9; --r5:#a27ae0; --r6:#e39a3c; --r7:#e5584b;
+  --f-display:"Chakra Petch","IBM Plex Sans Thai",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-num:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --notch:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,10px 100%,0 calc(100% - 10px));
+  --hero-glow:rgba(212,166,78,.10);
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){
+  --bg:#ece4d2; --surface:#f6f0e2; --surface-2:#e3d8c0; --line:#cbbc9b; --line-2:#b3a17c;
+  --fg:#1c2521; --muted:#5a645d; --brass:#8e6512; --brass-dim:#b89a5c; --ember:#b4471a; --moss:#2b7565; --danger:#b3322a;
+  --on-brass:#fff8e8;
+  --fire:#c8471f; --water:#2a6fb0; --thunder:#a08000; --ice:#2d8aa8; --dragon:#8e2f48; --poison:#7643a8;
+  --r1:#7a7e76; --r2:#6b6553; --r3:#4f8a1f; --r4:#2470a6; --r5:#6c47b0; --r6:#b06a10; --r7:#b8342a;
+  --hero-glow:rgba(142,101,18,.10); color-scheme:light;
+}}
+:root[data-theme="light"]{
+  --bg:#ece4d2; --surface:#f6f0e2; --surface-2:#e3d8c0; --line:#cbbc9b; --line-2:#b3a17c;
+  --fg:#1c2521; --muted:#5a645d; --brass:#8e6512; --brass-dim:#b89a5c; --ember:#b4471a; --moss:#2b7565; --danger:#b3322a;
+  --on-brass:#fff8e8;
+  --fire:#c8471f; --water:#2a6fb0; --thunder:#a08000; --ice:#2d8aa8; --dragon:#8e2f48; --poison:#7643a8;
+  --r1:#7a7e76; --r2:#6b6553; --r3:#4f8a1f; --r4:#2470a6; --r5:#6c47b0; --r6:#b06a10; --r7:#b8342a;
+  --hero-glow:rgba(142,101,18,.10); color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:var(--brass)}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--f-display);line-height:1.2;text-wrap:balance;margin:0;font-weight:700}
+.num{font-family:var(--f-num);font-variant-numeric:tabular-nums}
+.eyebrow{font-family:var(--f-display);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brass);font-weight:600}
+.muted{color:var(--muted)}
+
+/* top bar */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:20px;min-height:58px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg);flex:none}
+.brand svg{width:28px;height:28px}
+.brand b{font-family:var(--f-display);font-size:17px;letter-spacing:.02em}
+.brand small{display:block;font-size:11px;color:var(--muted);line-height:1;font-family:var(--f-display);letter-spacing:.12em}
+.nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+.nav::-webkit-scrollbar{display:none}
+.nav a{flex:none;text-decoration:none;color:var(--muted);padding:8px 14px;font-family:var(--f-display);font-weight:600;font-size:15px;border-bottom:2px solid transparent}
+.nav a:hover{color:var(--fg)}
+.nav a[aria-current="page"]{color:var(--brass);border-bottom-color:var(--brass)}
+@media (max-width:640px){.bar .wrap{flex-wrap:wrap;gap:0;padding-block:8px 0}.nav{margin-left:-14px;width:calc(100% + 14px)}.brand small{display:none}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;font-family:var(--f-display);font-weight:600;font-size:15px;padding:11px 20px;clip-path:var(--notch);text-decoration:none;transition:filter .15s,transform .15s}
+.btn-brass{background:var(--brass);color:var(--on-brass)}
+.btn-brass:hover{filter:brightness(1.08)}
+.btn-ghost{background:var(--surface-2);color:var(--fg)}
+.btn-ghost:hover{background:var(--line)}
+.btn-sm{padding:7px 12px;font-size:13px}
+.btn-danger{background:transparent;color:var(--danger);box-shadow:inset 0 0 0 1px var(--danger)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);background:radial-gradient(ellipse at 75% 40%,var(--hero-glow),transparent 60%),var(--bg)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.3fr .9fr;gap:40px;align-items:end;padding-block:72px 56px}
+.hero h1{font-size:clamp(38px,6.4vw,76px);letter-spacing:-.01em;line-height:.98;margin:14px 0 18px}
+.hero h1 span{display:block;color:var(--brass)}
+.hero p.lead{font-size:17px;max-width:34em;color:var(--fg);opacity:.86;margin:0 0 26px}
+.hero .ctas{display:flex;gap:10px;flex-wrap:wrap}
+.field-card{background:var(--line-2);padding:1px;clip-path:var(--notch)}
+.field-card>div{background:var(--surface);clip-path:var(--notch);padding:20px 22px}
+.field-card h3{font-size:14px;color:var(--muted);font-weight:600;letter-spacing:.08em;margin-bottom:12px}
+.tally{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px}
+.tally div{border-top:1px solid var(--line);padding-top:8px}
+.tally b{font-family:var(--f-display);font-size:30px;line-height:1;display:block;color:var(--fg)}
+.tally span{font-size:13px;color:var(--muted)}
+.coords{margin-top:14px;font-family:var(--f-num);font-size:11px;color:var(--muted);letter-spacing:.06em}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-block:44px 36px}}
+
+/* sections */
+.view{padding-block:40px 72px}
+.view-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+.view-head>*{min-width:0;max-width:100%}
+.view-head h2{font-size:clamp(26px,3.4vw,36px)}
+.view-head p{margin:6px 0 0;color:var(--muted);max-width:44em}
+.section{margin-top:44px}
+.section>h3{font-size:20px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.section>h3::after{content:"";flex:1;height:1px;background:var(--line)}
+
+.routes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.route{display:block;text-decoration:none;color:var(--fg);background:var(--surface);border:1px solid var(--line);padding:20px;transition:border-color .15s,background .15s;min-width:0}
+.route:hover{border-color:var(--brass-dim);background:var(--surface-2)}
+.route .eyebrow{display:block;margin-bottom:8px}
+.route h4{font-size:20px;margin-bottom:6px}
+.route p{margin:0;color:var(--muted);font-size:14px}
+@media (max-width:760px){.routes{grid-template-columns:1fr}}
+
+/* element icons & stars */
+.ei{width:14px;height:14px;fill:currentColor;flex:none;vertical-align:-2px}
+.c-fire{color:var(--fire)}.c-water{color:var(--water)}.c-thunder{color:var(--thunder)}.c-ice{color:var(--ice)}.c-dragon{color:var(--dragon)}.c-poison{color:var(--poison)}
+.stars{display:inline-flex;gap:2px}
+.stars i{width:9px;height:9px;transform:rotate(45deg);background:currentColor;opacity:.18;display:inline-block}
+.stars i.on{opacity:1}
+
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-family:var(--f-display);font-weight:600;font-size:13px;color:var(--muted);letter-spacing:.04em;background:var(--surface-2)}
+tbody tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:var(--surface-2)}
+th.el{text-align:center}td.el{text-align:center}
+.mname{font-weight:600}
+.mname small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+
+/* rarity */
+.r1{--rc:var(--r1)}.r2{--rc:var(--r2)}.r3{--rc:var(--r3)}.r4{--rc:var(--r4)}.r5{--rc:var(--r5)}.r6{--rc:var(--r6)}.r7{--rc:var(--r7)}
+.rar{font-family:var(--f-num);font-size:11px;color:var(--rc);border:1px solid var(--rc);padding:0 5px;line-height:16px;display:inline-block}
+.rname{color:var(--rc)}
+
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line-2);background:transparent;padding:4px 11px;font-size:13px;cursor:pointer;color:var(--muted)}
+.chip:hover{color:var(--fg)}
+.chip[aria-pressed="true"]{background:var(--brass);border-color:var(--brass);color:var(--on-brass)}
+.tag{display:inline-flex;align-items:center;gap:4px;font-size:12px;background:var(--surface-2);padding:1px 8px;color:var(--fg);white-space:nowrap}
+.tag b{font-family:var(--f-num);font-weight:500;color:var(--brass)}
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.input{background:var(--bg);border:1px solid var(--line-2);padding:9px 12px;min-width:0;width:100%}
+.input::placeholder{color:var(--muted)}
+select.input{cursor:pointer}
+
+/* monsters */
+.mon-layout{display:grid;grid-template-columns:minmax(0,1fr) 400px;gap:24px;align-items:start}
+.mon-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
+.mon-card{text-align:left;background:var(--surface);border:1px solid var(--line);padding:14px 14px 12px;cursor:pointer;display:flex;flex-direction:column;gap:8px;min-width:0}
+.mon-card:hover{border-color:var(--line-2)}
+.mon-card[aria-pressed="true"]{border-color:var(--brass);background:var(--surface-2)}
+.mon-card .threat{font-family:var(--f-num);font-size:11px;color:var(--muted)}
+.mon-card h4{font-size:17px}
+.mon-card .cls{font-size:12px;color:var(--muted)}
+.weak-row{display:flex;gap:10px;flex-wrap:wrap;font-size:12px}
+.weak-row span{display:inline-flex;align-items:center;gap:3px}
+.mon-detail{position:sticky;top:76px;background:var(--surface);border:1px solid var(--line);padding:22px;min-width:0}
+.mon-detail h3{font-size:26px}
+.mon-detail .title{color:var(--brass);font-family:var(--f-display);font-weight:600;margin-top:2px}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px;margin:16px 0}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.weak-bars{display:grid;gap:6px;margin:8px 0 4px}
+.weak-bars div{display:grid;grid-template-columns:90px 1fr;align-items:center;gap:10px;font-size:13px}
+.weak-bars .meter{height:6px;background:var(--surface-2);position:relative}
+.weak-bars .meter i{position:absolute;inset:0 auto 0 0;background:currentColor}
+.mon-detail h4{font-size:14px;color:var(--muted);letter-spacing:.06em;margin-top:18px;margin-bottom:8px}
+.tip{border-left:2px solid var(--ember);padding:4px 0 4px 12px;font-size:14px;margin-top:16px}
+@media (max-width:960px){.mon-layout{grid-template-columns:1fr}.mon-detail{position:static;order:-1}}
+
+/* weapons */
+.wt-layout{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px;align-items:start}
+.wt-list{display:flex;flex-direction:column;border:1px solid var(--line);background:var(--surface)}
+.wt-list button{display:flex;align-items:center;gap:10px;border:0;background:transparent;text-align:left;padding:9px 12px;cursor:pointer;border-bottom:1px solid var(--line);color:var(--muted)}
+.wt-list button:last-child{border-bottom:0}
+.wt-list button:hover{color:var(--fg)}
+.wt-list button[aria-pressed="true"]{color:var(--fg);background:var(--surface-2);box-shadow:inset 3px 0 0 var(--brass)}
+.wt-ab{font-family:var(--f-display);font-weight:700;font-size:11px;width:34px;text-align:center;border:1px solid currentColor;padding:1px 0;flex:none;letter-spacing:.04em}
+.wt-info{background:var(--surface);border:1px solid var(--line);padding:22px;margin-bottom:14px;display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:24px}
+.wt-info h3{font-size:28px;margin-bottom:6px}
+.wt-info p{margin:0;color:var(--fg);opacity:.85;max-width:40em}
+.ratings{display:grid;gap:10px;align-content:start}
+.ratings div{font-size:13px}
+.ratings .meter{display:flex;gap:3px;margin-top:4px}
+.ratings .meter i{flex:1;height:5px;background:var(--surface-2)}
+.ratings .meter i.on{background:var(--brass)}
+@media (max-width:860px){.wt-layout{grid-template-columns:1fr}.wt-list{flex-direction:row;overflow-x:auto}.wt-list button{border-bottom:0;border-right:1px solid var(--line);flex:none}.wt-list button[aria-pressed="true"]{box-shadow:inset 0 -3px 0 var(--brass)}.wt-info{grid-template-columns:1fr}}
+.slots{display:inline-flex;gap:3px;vertical-align:middle}
+.slot-ic{width:15px;height:15px;display:inline-grid;place-items:center;font-family:var(--f-num);font-size:9px;color:var(--brass);border:1px solid var(--brass-dim);transform:rotate(45deg)}
+.slot-ic span{transform:rotate(-45deg)}
+.slot-ic.empty{border-style:dashed;color:var(--muted)}
+
+/* skills page */
+.sk-filter{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:14px;align-items:center;margin-bottom:18px}
+@media (max-width:700px){.sk-filter{grid-template-columns:1fr}}
+.sk-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:820px){.sk-grid{grid-template-columns:1fr}}
+.sk-card{background:var(--surface);border:1px solid var(--line);padding:16px 18px;min-width:0}
+.sk-card header{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:6px}
+.sk-card h4{font-size:18px}
+.sk-card .cat{font-size:12px;color:var(--muted)}
+.sk-card p{margin:0 0 10px;font-size:14px;color:var(--muted)}
+.lv-list{list-style:none;margin:0;padding:0;font-size:14px;display:grid;gap:3px}
+.lv-list li{display:grid;grid-template-columns:42px 1fr;gap:8px}
+.lv-list li b{font-family:var(--f-num);font-weight:500;color:var(--brass);font-size:12px;padding-top:2px}
+.lv-list li.cur{background:var(--surface-2);outline:1px solid var(--brass-dim)}
+.lv-list li.cur b{color:var(--fg)}
+.src{margin-top:12px;font-size:12px;color:var(--muted);display:grid;gap:4px}
+.src .tags{margin-top:2px}
+.setb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.setb{background:var(--surface);border:1px solid var(--line);padding:16px;min-width:0}
+.setb h4{font-size:16px;margin-bottom:10px}
+.tier{display:grid;grid-template-columns:46px 1fr;gap:8px;font-size:14px;padding:6px 0;border-top:1px dashed var(--line)}
+.tier .p{font-family:var(--f-num);font-size:12px;color:var(--brass);padding-top:2px}
+.tier b{font-family:var(--f-display);font-weight:600;display:block}
+.tier span{color:var(--muted);font-size:13px}
+
+/* builder */
+.bd-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:24px;align-items:start}
+@media (max-width:1000px){.bd-layout{grid-template-columns:1fr}}
+.panel{background:var(--surface);border:1px solid var(--line)}
+.panel-h{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.panel-h h3{font-size:16px;letter-spacing:.02em}
+.gear{display:flex;flex-direction:column}
+.gear-row{border-bottom:1px solid var(--line);padding:12px 16px;display:grid;grid-template-columns:56px minmax(0,1fr);gap:12px}
+.gear-row:last-child{border-bottom:0}
+.gear-ic{width:56px;height:56px;background:var(--surface-2);display:grid;place-items:center;clip-path:var(--notch);color:var(--rc,var(--muted))}
+.gear-ic svg{width:30px;height:30px;fill:currentColor}
+.gear-main{min-width:0}
+.gear-pick{width:100%;text-align:left;background:transparent;border:0;padding:0;cursor:pointer;display:block}
+.gear-pick .lbl{font-size:12px;color:var(--muted);font-family:var(--f-display);letter-spacing:.08em}
+.gear-pick .nm{font-family:var(--f-display);font-weight:600;font-size:17px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.gear-pick .nm.empty{color:var(--muted);font-weight:500}
+.gear-pick:hover .nm{text-decoration:underline;text-decoration-color:var(--brass-dim);text-underline-offset:4px}
+.gear-sub{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:6px;font-size:13px}
+.decos{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.deco{display:inline-flex;align-items:center;gap:7px;background:var(--bg);border:1px dashed var(--line-2);padding:4px 10px 4px 6px;font-size:13px;cursor:pointer;color:var(--muted);max-width:100%}
+.deco.filled{border-style:solid;border-color:var(--brass-dim);color:var(--fg)}
+.deco:hover{border-color:var(--brass)}
+.x-btn{background:transparent;border:0;color:var(--muted);cursor:pointer;padding:2px 6px;font-size:13px}
+.x-btn:hover{color:var(--danger)}
+
+.target{padding:12px 16px;border-top:1px solid var(--line);display:grid;gap:8px}
+.target label{font-size:12px;color:var(--muted);font-family:var(--f-display);letter-spacing:.08em}
+.match{font-size:13px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+
+.read{display:flex;flex-direction:column;gap:16px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid var(--line)}
+.stat{padding:14px 16px;border-right:1px solid var(--line);min-width:0}
+.stat:last-child{border-right:0}
+.stat span{font-size:12px;color:var(--muted);display:block}
+.stat b{font-family:var(--f-display);font-size:26px;line-height:1.15}
+.stat em{font-style:normal;font-size:12px;color:var(--moss);font-family:var(--f-num)}
+@media (max-width:520px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
+.res{display:flex;flex-wrap:wrap;gap:8px 18px;padding:12px 16px;font-size:13px;border-bottom:1px solid var(--line)}
+.res span{display:inline-flex;gap:5px;align-items:center}
+.res .neg{color:var(--danger)}
+.conds{display:flex;flex-wrap:wrap;gap:6px;padding:12px 16px;align-items:center}
+.conds .muted{font-size:12px;margin-right:4px}
+
+.sk-rows{display:flex;flex-direction:column}
+.sk-row{padding:11px 16px;border-bottom:1px solid var(--line)}
+.sk-row:last-child{border-bottom:0}
+.sk-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.sk-top .nm{font-family:var(--f-display);font-weight:600;font-size:16px;flex:1;min-width:120px}
+.pips{display:inline-flex;gap:3px}
+.pips i{width:14px;height:8px;background:var(--surface-2);box-shadow:inset 0 0 0 1px var(--line-2)}
+.pips i.on{background:var(--brass);box-shadow:none}
+.pips i.over{background:var(--ember);box-shadow:none}
+.sk-top .lv{font-family:var(--f-num);font-size:13px;min-width:54px;text-align:right}
+.sk-top .lv.max{color:var(--brass)}
+.sk-cur{font-size:14px;margin-top:3px}
+.sk-over{color:var(--ember);font-size:12px}
+.sk-src{font-size:12px;color:var(--muted);margin-top:2px}
+details.sk-all summary{cursor:pointer;font-size:12px;color:var(--brass);margin-top:4px;list-style:none;display:inline-block}
+details.sk-all summary::-webkit-details-marker{display:none}
+details.sk-all summary::before{content:"+ ";font-family:var(--f-num)}
+details.sk-all[open] summary::before{content:"− "}
+details.sk-all .lv-list{margin-top:6px}
+.empty-note{padding:22px 16px;color:var(--muted);font-size:14px}
+
+.sets{display:flex;flex-direction:column}
+.set-row{padding:12px 16px;border-bottom:1px solid var(--line)}
+.set-row:last-child{border-bottom:0}
+.set-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px}
+.set-top b{font-family:var(--f-display);font-size:16px}
+.pcs{display:inline-flex;gap:4px;align-items:center;font-family:var(--f-num);font-size:12px;color:var(--muted)}
+.pcs i{width:10px;height:10px;transform:rotate(45deg);border:1px solid var(--brass-dim)}
+.pcs i.on{background:var(--brass);border-color:var(--brass)}
+.set-tier{display:grid;grid-template-columns:88px 1fr;gap:4px 10px;font-size:14px;padding:7px 0;opacity:.62}
+.set-tier.on{background:linear-gradient(90deg,color-mix(in srgb,var(--moss) 14%,transparent),transparent);margin:0 -16px;padding:7px 16px}
+.set-pieces{font-size:12px;color:var(--muted);margin:-2px 0 4px}
+.set-tier.on{opacity:1}
+.set-tier .badge{font-family:var(--f-body);font-size:12px;padding:1px 6px;text-align:center;border:1px solid var(--line-2);height:fit-content;margin-top:2px;white-space:nowrap}
+.set-tier.on .badge{background:var(--moss);border-color:var(--moss);color:var(--bg)}
+.set-tier b{font-family:var(--f-display);font-weight:600}
+.set-tier span{display:block;color:var(--muted);font-size:13px}
+
+.sum{padding:14px 16px 16px;display:grid;gap:18px}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.kpi{background:var(--surface-2);padding:10px 12px;min-width:0}
+.kpi b{font-family:var(--f-display);font-size:24px;line-height:1;display:block}
+.kpi span{font-size:12px;color:var(--muted)}
+.sum h4{font-size:13px;color:var(--brass);letter-spacing:.06em;margin:0 0 4px;display:flex;align-items:center;gap:8px}
+.sum h4::after{content:"";flex:1;height:1px;background:var(--line)}
+.ol-row{display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:2px 16px;padding:8px 0;border-bottom:1px dashed var(--line);font-size:14px;align-items:baseline}
+.ol-row:last-child{border-bottom:0}
+.ol-row .k{font-family:var(--f-display);font-weight:600;font-size:15px}
+.ol-row .k small{display:block;font-family:var(--f-body);font-weight:400;color:var(--muted);font-size:12px}
+.ol-row .v b{font-family:var(--f-num);font-weight:500;color:var(--brass);font-size:12px;margin-right:6px}
+.ol-row.set .k{color:var(--moss)}
+.near{border:1px dashed var(--brass-dim);padding:10px 12px;font-size:14px;display:grid;gap:4px}
+.near b{font-family:var(--f-display);font-weight:600}
+@media (max-width:560px){.ol-row{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr 1fr}.kpi b{font-size:20px}}
+.save-box{padding:14px 16px;display:grid;gap:10px}
+.save-line{display:flex;gap:8px}
+.save-line .input{flex:1}
+.saved-list{display:flex;flex-direction:column}
+.saved-item{display:flex;align-items:center;gap:8px;padding:8px 16px;border-top:1px solid var(--line);font-size:14px}
+.saved-item .n{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+textarea.input{resize:vertical;min-height:64px;font-family:var(--f-num);font-size:12px}
+
+/* sheet / picker */
+.sheet{position:fixed;inset:0;z-index:50;display:flex;justify-content:center;align-items:flex-start;padding:max(24px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:rgba(5,10,9,.66)}
+.sheet-in{background:var(--surface);border:1px solid var(--line-2);width:100%;max-width:720px;max-height:100%;display:flex;flex-direction:column;min-height:0}
+.sheet-h{padding:14px 16px;border-bottom:1px solid var(--line);display:grid;gap:10px}
+.sheet-h .t{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.sheet-h h3{font-size:19px}
+.sheet-f{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,220px);gap:8px}
+@media (max-width:560px){.sheet-f{grid-template-columns:1fr}.sheet{padding-top:max(10px,env(safe-area-inset-top,0px))}}
+.sheet-list{overflow-y:auto;flex:1;min-height:0}
+.opt{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;width:100%;text-align:left;background:transparent;border:0;border-bottom:1px solid var(--line);padding:12px 16px;cursor:pointer}
+.opt:hover{background:var(--surface-2)}
+.opt.cur{box-shadow:inset 3px 0 0 var(--brass);background:var(--surface-2)}
+.opt .nm{font-family:var(--f-display);font-weight:600;font-size:16px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.opt .meta{font-size:13px;color:var(--muted);text-align:right;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.opt .tags{grid-column:1/-1}
+.opt.remove .nm{color:var(--danger);font-weight:500}
+.hit{outline:1px solid var(--brass)}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:9px 16px;font-size:14px;z-index:60;font-family:var(--f-display);font-weight:600}
+
+footer{border-top:1px solid var(--line);padding-block:26px;color:var(--muted);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.notice{border:1px dashed var(--line-2);padding:10px 14px;font-size:13px;color:var(--muted);margin-bottom:18px}
+.notice b{color:var(--fg)}
+.theme-btn{background:transparent;border:1px solid var(--line-2);color:var(--muted);padding:5px 10px;font-size:12px;cursor:pointer;flex:none}
+</style>
+<style>
+.set-card{background:var(--surface);border:1px solid var(--line);min-width:0}
+.set-card>header{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.set-card h4{font-size:18px}
+.set-card .bonus{padding:12px 16px;border-bottom:1px solid var(--line);background:linear-gradient(90deg,color-mix(in srgb,var(--moss) 10%,transparent),transparent);font-size:14px}
+.set-card .bonus b{font-family:var(--f-display);color:var(--moss)}
+.set-card .pc{display:grid;grid-template-columns:62px minmax(0,1fr) auto;gap:4px 10px;padding:9px 16px;border-bottom:1px dashed var(--line);font-size:14px;align-items:start}
+.set-card .pc:last-child{border-bottom:0}
+.set-card .pc .sl{color:var(--muted);font-size:12px;padding-top:2px}
+.set-card .pc .nm{font-weight:600}
+.set-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+@media (max-width:420px){.set-grid{grid-template-columns:1fr}}
+.ar-filter{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,260px) minmax(0,200px);gap:10px;margin-bottom:18px}
+@media (max-width:760px){.ar-filter{grid-template-columns:1fr}}
+.rad{font-family:var(--f-display);font-size:11px;font-weight:600;letter-spacing:.06em;color:var(--ember);border:1px solid var(--ember);padding:0 6px;line-height:17px}
+.sharp{display:inline-block;width:26px;height:8px;vertical-align:middle;margin-right:6px}
+.sh-Green{background:#5aa94a}.sh-Blue{background:#3d8fd8}.sh-Yellow{background:#d8b52f}
+.src-note{font-size:12px;color:var(--muted)}
+.gear-row .slot-note{font-size:12px;color:var(--muted)}
+.mi{width:28px;height:28px;object-fit:contain;flex:none;vertical-align:middle}
+.mi-lg{width:72px;height:72px}
+.wi{width:22px;height:22px;object-fit:contain;flex:none;filter:var(--icon-filter,none)}
+:root{--icon-filter:none}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--icon-filter:brightness(.35) sepia(.4)}}
+:root[data-theme="light"]{--icon-filter:brightness(.35) sepia(.4)}
+.mname-cell{display:flex;align-items:center;gap:10px}
+.mon-card .top{display:flex;align-items:center;gap:10px}
+.mon-card .top img{width:44px;height:44px;object-fit:contain}
+.mon-detail .head{display:flex;gap:14px;align-items:center}
+.card-img{display:block;width:100%;height:auto;border:1px solid var(--line);cursor:zoom-in;background:var(--surface-2)}
+.zoom{cursor:zoom-in}
+.ch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.ch-card{position:relative;border:1px solid var(--line);background:var(--surface);padding:0;cursor:pointer;text-align:left;overflow:hidden;min-width:0}
+.ch-card>img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--surface-2)}
+.ch-card .meta{padding:8px 10px;display:grid;gap:2px}
+.ch-card .meta b{font-family:var(--f-display);font-size:16px}
+.ch-card .meta span{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:5px}
+.ch-card[aria-pressed="true"]{border-color:var(--brass);box-shadow:0 0 0 1px var(--brass)}
+.rarity-tag{position:absolute;top:8px;left:8px;font-family:var(--f-display);font-weight:700;font-size:12px;padding:1px 8px;background:var(--brass);color:var(--on-brass)}
+.rarity-tag.sr{background:var(--surface-2);color:var(--fg)}
+.ch-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:24px;align-items:start}
+@media (max-width:980px){.ch-layout{grid-template-columns:1fr}}
+.ch-detail{background:var(--surface);border:1px solid var(--line);min-width:0}
+.ch-hero{display:grid;grid-template-columns:200px minmax(0,1fr);gap:18px;padding:18px;border-bottom:1px solid var(--line)}
+.ch-hero>img{width:100%;border:1px solid var(--line);cursor:zoom-in}
+@media (max-width:520px){.ch-hero{grid-template-columns:120px minmax(0,1fr)}}
+.ch-hero h3{font-size:30px}
+.ch-hero>div{min-width:0}
+.ch-hero dd{flex-wrap:wrap;min-width:0}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line);padding:0 12px;overflow-x:auto}
+.tabs button{border:0;background:transparent;padding:10px 12px;font-family:var(--f-display);font-weight:600;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;flex:none}
+.tabs button[aria-selected="true"]{color:var(--brass);border-bottom-color:var(--brass)}
+.tab-body{padding:16px;display:grid;gap:12px}
+.gift-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:10px}
+.gift{background:var(--surface);border:1px solid var(--line);padding:10px;display:grid;justify-items:center;gap:6px;text-align:center;font-size:13px}
+.gift img{width:56px;height:56px;object-fit:contain}
+.bd-feature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:700px){.bd-feature{grid-template-columns:1fr}}
+.bd-feature figure{margin:0;background:var(--surface);border:1px solid var(--line)}
+.bd-feature img{display:block;width:100%;aspect-ratio:1;object-fit:cover;cursor:zoom-in}
+.bd-feature figcaption{padding:10px 14px;font-size:14px}
+.bd-feature figcaption b{font-family:var(--f-display);font-size:18px;display:block}
+.bc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
+.bc-grid button{border:1px solid var(--line);background:var(--surface-2);padding:0;cursor:zoom-in}
+.bc-grid img{display:block;width:100%;aspect-ratio:890/1066;object-fit:cover}
+.news{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.news{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.news figure{margin:0;background:var(--surface);border:1px solid var(--line);min-width:0}
+.news img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;cursor:zoom-in}
+.news figcaption{padding:8px 12px;font-size:13px}
+.outfits{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.outfits{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.outfits figure{margin:0;border:1px solid var(--line);background:var(--surface)}
+.outfits img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;cursor:zoom-in}
+.outfits figcaption{padding:8px 12px;font-size:13px}
+.lb{position:fixed;inset:0;z-index:70;background:rgba(5,9,8,.9);display:flex;flex-direction:column;align-items:center;padding:max(12px,env(safe-area-inset-top,0px)) max(12px,env(safe-area-inset-right,0px)) max(12px,env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px))}
+.lb .bar2{width:100%;display:flex;justify-content:space-between;align-items:center;color:#eee;gap:10px;padding-bottom:8px;font-size:14px}
+.lb .scroll{overflow:auto;flex:1;width:100%;display:flex;justify-content:center;align-items:flex-start}
+.lb img{max-width:min(100%,1100px);height:auto;display:block}
+.hero-art{position:relative;display:block;border:1px solid var(--line-2);overflow:hidden}
+.hero-art img{display:block;width:100%;aspect-ratio:1200/630;object-fit:cover}
+</style>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="หน้าแรก">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="var(--brass)" d="M16 2 29 9v14l-13 7L3 23V9z" opacity=".22"/><path fill="none" stroke="var(--brass)" stroke-width="1.6" d="M16 2 29 9v14l-13 7L3 23V9z"/><path fill="var(--brass)" d="M16 7c2.4 3 4.6 4.6 4.6 9 0 3-2 5.6-4.6 6.6-2.6-1-4.6-3.6-4.6-6.6 0-2 .7-3.3 1.8-4.6.2 1.6.8 2.6 1.6 3.2-.2-3 .2-5.3 1.2-7.6z"/></svg>
+      <span><b>บันทึกนักล่า</b><small>OUTLANDERS FIELD BOOK</small></span>
+    </a>
+    <nav class="nav" aria-label="เมนูหลัก">
+      <a href="#home">หน้าแรก</a>
+      <a href="#builder">จัดบิลด์</a>
+      <a href="#adventurers">ตัวละคร</a>
+      <a href="#armor">ชุดเกราะ</a>
+      <a href="#weapons">อาวุธ</a>
+      <a href="#skills">สกิล</a>
+      <a href="#monsters">มอนสเตอร์</a>
+      <a href="#buddies">บัดดี้</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="v-home" data-view="home">
+  <div class="hero">
+    <canvas id="contour" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div>
+        <div class="eyebrow">คู่มือภาคสนามสำหรับนักล่า</div>
+        <h1>Monster Hunter <span>Outlanders</span></h1>
+        <p class="lead">ฐานข้อมูลชุดเกราะ อาวุธ สกิล และจุดอ่อนมอนสเตอร์ พร้อมเครื่องมือจัดบิลด์ อาวุธ 1 ชิ้นกับเกราะ 5 ชิ้น ดูสกิลและเซ็ทเอฟเฟกต์ที่ได้ทันทีที่เปลี่ยนชุด</p>
+        <div class="ctas">
+          <a class="btn btn-brass" href="#builder">เริ่มจัดบิลด์</a>
+          <a class="btn btn-ghost" href="#armor">ดูชุดเกราะทั้งหมด</a>
+        </div>
+      </div>
+      <div class="field-card"><div>
+        <button class="hero-art zoom" data-zoom="img/banner/og-cover-1200x630.webp" style="padding:0;margin:0 0 14px;width:100%;background:none" aria-label="ขยายภาพปก"><img src="img/banner/og-cover-1200x630.webp" alt="Monster Hunter Outlanders"></button>
+        <h3>ในบันทึกเล่มนี้</h3>
+        <div class="tally" id="tally"></div>
+        <div class="coords">ข้อมูลจาก 3rd Closed Beta Test · อัปเดต พ.ย. 2026</div>
+      </div></div>
+    </div>
+  </div>
+  <div class="wrap view">
+    <div class="routes">
+      <a class="route" href="#builder"><span class="eyebrow">เครื่องมือ</span><h4>จัดบิลด์ 6 ช่อง</h4><p>อาวุธ 1 ชิ้น และเกราะหัว ลำตัว แขน เอว ขา ระบบรวมเลเวลสกิล บวกเลเวลจากเซ็ทเอฟเฟกต์ และสรุปออปชั่นทั้งหมดเป็นภาษาไทย</p></a>
+      <a class="route" href="#armor"><span class="eyebrow">ฐานข้อมูล</span><h4>ชุดเกราะ 40 ชุด</h4><p>เกราะครบ 200 ชิ้น พร้อมสกิลของแต่ละชิ้นและเซ็ทเอฟเฟกต์ที่ได้เมื่อใส่ครบ 2 หรือ 3 ชิ้น</p></a>
+      <a class="route" href="#skills"><span class="eyebrow">ข้อมูลอ้างอิง</span><h4>สกิล 88 อย่าง</h4><p>ผลของทุกเลเวลเป็นภาษาไทย และบอกว่าได้จากเกราะชิ้นไหนหรือเซ็ทไหน</p></a>
+    </div>
+    <div class="section">
+      <h3>ข่าวและอัปเดต</h3>
+      <div class="news" id="home-news"></div>
+    </div>
+    <div class="section">
+      <h3>ตัวละคร</h3>
+      <div class="ch-grid" id="home-chars"></div>
+    </div>
+    <div class="section">
+      <h3>คอสตูมใหม่</h3>
+      <div class="outfits" id="home-outfits"></div>
+    </div>
+    <div class="section">
+      <h3>ตารางจุดอ่อน</h3>
+      <div class="tbl-wrap"><table id="weak-table"></table></div>
+      <p class="muted" style="font-size:13px;margin:8px 0 0">เพชร 3 = ได้ผลมาก · 2 = ได้ผล · 1 = ได้ผลน้อย · ว่าง = ไม่ได้ผล · คลิกชื่อเพื่อดูรายละเอียด</p>
+    </div>
+  </div>
+</section>
+
+<section id="v-builder" data-view="builder" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">เครื่องมือ</div><h2>จัดบิลด์</h2><p>บิลด์มี 6 ช่อง คืออาวุธ 1 ชิ้นและเกราะ 5 ชิ้น คลิกช่องเพื่อเลือกอุปกรณ์เอง ค่าเกราะใช้ระดับสูงสุดของแต่ละชิ้น</p></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn btn-ghost btn-sm" id="bd-sample">โหลดบิลด์ตัวอย่าง</button><button class="btn btn-danger btn-sm" id="bd-clear">ล้างบิลด์</button></div></div>
+    <div class="bd-layout">
+      <div style="display:flex;flex-direction:column;gap:16px;min-width:0">
+        <div class="panel">
+          <div class="panel-h"><h3>อุปกรณ์</h3><span class="muted" style="font-size:13px" id="bd-filled"></span></div>
+          <div class="gear" id="gear"></div>
+          <div class="target">
+            <label for="bd-target">มอนสเตอร์เป้าหมาย</label>
+            <select class="input" id="bd-target"></select>
+            <div class="match" id="bd-match"></div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-h"><h3>บันทึกบิลด์</h3></div>
+          <div class="save-box">
+            <div class="save-line"><input class="input" id="bd-name" placeholder="ตั้งชื่อบิลด์ เช่น Rathalos ไฟ Long Sword" maxlength="40"><button class="btn btn-brass btn-sm" id="bd-save">บันทึก</button></div>
+            <div class="save-line"><button class="btn btn-ghost btn-sm" id="bd-export">คัดลอกโค้ดบิลด์</button><button class="btn btn-ghost btn-sm" id="bd-import-toggle">วางโค้ดบิลด์</button></div>
+            <div id="bd-import-box" hidden style="display:grid;gap:8px">
+              <label for="bd-code" class="muted" style="font-size:12px">วางโค้ดที่ได้จากเพื่อน แล้วกดนำเข้า</label>
+              <textarea class="input" id="bd-code"></textarea>
+              <div><button class="btn btn-brass btn-sm" id="bd-import">นำเข้า</button></div>
+            </div>
+          </div>
+          <div class="saved-list" id="bd-saved"></div>
+        </div>
+      </div>
+      <div class="read" style="min-width:0">
+        <div class="panel">
+          <div class="panel-h"><h3>สรุปบิลด์</h3><span class="muted" style="font-size:12px">ออปชั่นทั้งหมดที่ได้จากชุดนี้</span></div>
+          <div class="sum" id="bd-summary"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-h"><h3>ค่าสถานะ</h3><span class="muted" style="font-size:12px">ค่าพื้นฐาน + สกิลที่คำนวณได้</span></div>
+          <div class="stats" id="bd-stats"></div>
+          <div class="res" id="bd-res"></div>
+          <div class="conds" id="bd-conds"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-h"><h3>เซ็ทเอฟเฟกต์</h3><span class="muted" style="font-size:12px">ใส่ชุดเดียวกันครบตามจำนวนชิ้นเพื่อรับเอฟเฟกต์</span></div>
+          <div class="sets" id="bd-sets"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-h"><h3>รายละเอียดสกิล</h3><span class="muted" style="font-size:13px" id="bd-skcount"></span></div>
+          <div class="sk-rows" id="bd-skills"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="v-adventurers" data-view="adventurers" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">Adventurers</div><h2>ตัวละคร</h2><p>ตัวละคร 15 ตัว คลิกเพื่อดูข้อมูลสกิล บิลด์แนะนำ และไกด์ คลิกที่รูปเพื่อขยายเต็มจอ</p></div>
+      <div class="chips" id="ch-filter"></div></div>
+    <div class="ch-layout">
+      <div class="ch-grid" id="ch-grid"></div>
+      <div class="ch-detail" id="ch-detail"></div>
+    </div>
+    <div class="section">
+      <h3>ของขวัญ (Bond)</h3>
+      <p class="muted" style="margin:-4px 0 14px;font-size:14px">ของขวัญที่ให้ตัวละครเพื่อเพิ่มค่าความสัมพันธ์ ของขวัญที่แต่ละตัวชอบดูได้ในแท็บ “ข้อมูล” ของตัวละคร</p>
+      <div class="gift-grid" id="gift-grid"></div>
+    </div>
+  </div>
+</section>
+
+<section id="v-buddies" data-view="buddies" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">Buddies</div><h2>บัดดี้</h2><p>บัดดี้ใหม่และการ์ดบัดดี้ทั้งหมด คลิกที่รูปเพื่อขยาย</p></div></div>
+    <div class="bd-feature" id="bd-feature"></div>
+    <div class="section">
+      <h3>การ์ดบัดดี้ทั้งหมด</h3>
+      <p class="muted" style="margin:-4px 0 14px;font-size:14px">การ์ดบัดดี้ 38 ใบ ยังไม่มีข้อมูลชื่อ จะใส่ชื่อเมื่อมีรายชื่อจากในเกม</p>
+      <div class="bc-grid" id="bc-grid"></div>
+    </div>
+  </div>
+</section>
+
+<section id="v-armor" data-view="armor" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">ฐานข้อมูล</div><h2>ชุดเกราะ</h2><p>ชุดเกราะทั้ง 40 ชุด ค่าป้องกันและสกิลเป็นค่าของระดับสูงสุดของแต่ละชิ้น</p></div></div>
+    <div class="ar-filter">
+      <input class="input" id="ar-q" type="search" placeholder="ค้นหาชื่อชุด ชิ้นเกราะ หรือมอนสเตอร์">
+      <select class="input" id="ar-skill" aria-label="กรองตามสกิล"></select>
+      <select class="input" id="ar-sort" aria-label="เรียงลำดับ"><option value="r">เรียงตามระดับ</option><option value="def">เรียงตามป้องกัน</option><option value="n">เรียงตามชื่อ A–Z</option></select>
+    </div>
+    <div class="set-grid" id="ar-grid"></div>
+  </div>
+</section>
+
+<section id="v-weapons" data-view="weapons" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">คลังอาวุธ</div><h2>อาวุธ</h2><p>อาวุธ 8 ประเภท ค่าที่แสดงเป็นค่าของระดับสูงสุดของแต่ละชิ้น กด “ใช้ในบิลด์” เพื่อส่งเข้าเครื่องมือจัดบิลด์</p></div></div>
+    <div class="wt-layout">
+      <div class="wt-list" id="wt-list" role="group" aria-label="ประเภทอาวุธ"></div>
+      <div style="min-width:0">
+        <div class="wt-info" id="wt-info"></div>
+        <div class="tbl-wrap"><table id="wt-table"></table></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="v-skills" data-view="skills" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">ข้อมูลอ้างอิง</div><h2>สกิล</h2><p>ผลของสกิลทุกเลเวลและแหล่งที่มา ค้นได้ทั้งชื่ออังกฤษ ชื่อไทย และคำอธิบาย</p></div></div>
+    <div class="sk-filter">
+      <input class="input" id="sk-q" type="search" placeholder="ค้นหาสกิล เช่น Insight, คริติคอล, ดาเมจธาตุ">
+      <div class="chips" id="sk-cat"></div>
+    </div>
+    <div class="sk-grid" id="sk-grid"></div>
+  </div>
+</section>
+
+<section id="v-monsters" data-view="monsters" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">สารานุกรม</div><h2>มอนสเตอร์</h2><p>จุดอ่อนธาตุและสถานะ จุดอ่อนร่างกาย และอุปกรณ์ที่สร้างจากวัตถุดิบของมัน</p></div>
+      <div class="chips" id="mon-cls"></div></div>
+    <div class="mon-layout">
+      <div class="mon-grid" id="mon-grid"></div>
+      <aside class="mon-detail" id="mon-detail" aria-live="polite"></aside>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับผู้พัฒนาหรือผู้จัดจำหน่ายเกม · ข้อมูลรวบรวมจากเว็บชุมชน (mhoutlandersbuild.com) อ้างอิง 3rd Closed Beta Test อาจต่างจากเกมจริง</span>
+  <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
+</div></footer>
+
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+  <div class="sheet-in">
+    <div class="sheet-h">
+      <div class="t"><h3 id="sheet-title">เลือก</h3><button class="btn btn-ghost btn-sm" id="sheet-close">ปิด</button></div>
+      <div class="chips" id="sheet-tabs"></div>
+      <div class="sheet-f"><input class="input" id="sheet-q" type="search" placeholder="ค้นหาชื่อหรือสกิล"><select class="input" id="sheet-skill" aria-label="กรองตามสกิล"></select></div>
+    </div>
+    <div class="sheet-list" id="sheet-list"></div>
+  </div>
+</div>
+<div class="toast" id="toast" hidden></div>
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="ดูรูปขนาดใหญ่"><div class="bar2"><span id="lb-cap"></span><button class="btn btn-ghost btn-sm" id="lb-close">ปิด</button></div><div class="scroll" id="lb-scroll"><img id="lb-img" alt=""></div></div>
+
+<script src="db.js"></script>
+<script src="media.js"></script>
+<script>
+const SK=DB.skills, SETS=DB.sets, ARMOR=DB.armor, WEAPONS=DB.weapons, MONS=DB.monsters;
+Object.entries(MEDIA.monsters).forEach(([k,v])=>{if(!DB.monsters.some(m=>m.k===k)){const bk=k.replace(/^radiant-/,''),base=DB.monsters.find(m=>m.k===bk),X={'ruger-aidal':['Elder Dragon','มังกรเฒ่า'],'black-diablos':['Flying Wyvern','วิเวิร์นบิน'],'pink-rathian':['Flying Wyvern','วิเวิร์นบิน']}[bk];DB.monsters.push({k,n:v.n,cls:base?base.cls:X?X[0]:'',clsTh:base?base.clsTh:X?X[1]:'',w:null,wp:'',rad:k.startsWith('radiant-'),nodata:true})}});
+const SET_BY=Object.fromEntries(SETS.map(s=>[s.k,s])), AR_BY=Object.fromEntries(ARMOR.map(a=>[a.id,a])), W_BY=Object.fromEntries(WEAPONS.map(w=>[w.id,w])), MON_BY=Object.fromEntries(MONS.map(m=>[m.k,m]));
+const SLOTS=['head','chest','arms','waist','legs'];
+const SLOT_TH={head:'หัว',chest:'ลำตัว',arms:'แขน',waist:'เอว',legs:'ขา'};
+const WK=['fire','water','thunder','ice','dragon','poison','sleep','para','blast','stun'];
+const WK_TH={fire:'ไฟ',water:'น้ำ',thunder:'สายฟ้า',ice:'น้ำแข็ง',dragon:'มังกร',poison:'พิษ',sleep:'หลับ',para:'อัมพาต',blast:'ระเบิด',stun:'มึน'};
+const WTYPES=[
+ {id:'great-sword',n:'Great Sword',th:'ดาบใหญ่',ab:'GS',d:'ฟันหนักทีละครั้ง ชาร์จพลังแล้วปล่อยดาเมจมหาศาล เหมาะกับคนที่อ่านจังหวะมอนสเตอร์เก่ง สกิลเด่น: Charge Enhancement, Wrecker'},
+ {id:'long-sword',n:'Long Sword',th:'ดาบยาว',ab:'LS',d:'ฟันต่อเนื่องเพื่อสะสมเกจวิญญาณดาบ แล้วปิดด้วยท่าโต้กลับ สกิลเด่น: Spirit Bind Blade, Counter Boost'},
+ {id:'dual-blades',n:'Dual Blades',th:'ดาบคู่',ab:'DB',d:'โจมตีรัวเร็ว เข้าโหมดอสูรเพื่อเพิ่มความเร็ว เหมาะกับบิลด์ธาตุ สกิลเด่น: Demonic Strength, Combo Enhancement'},
+ {id:'hammer',n:'Hammer',th:'ค้อน',ab:'HM',d:'ทุบหัวให้มึน ชาร์จได้ขณะเคลื่อนที่ สกิลเด่น: Intimidation, Charge Enhancement'},
+ {id:'lance',n:'Lance',th:'หอก',ab:'LC',d:'การ์ดแน่นหนา จิ้มต่อเนื่อง ยืนหน้ามอนสเตอร์ได้นาน สกิลเด่น: Pierce, Offensive Defense, Guard Technique'},
+ {id:'charge-blade',n:'Charge Blade',th:'ดาบชาร์จ',ab:'CB',d:'ชาร์จขวดพลังในโหมดดาบ แล้วปลดปล่อยในโหมดขวาน สกิลเด่น: Morph Boost, Offensive Defense'},
+ {id:'heavy-bowgun',n:'Heavy Bowgun',th:'หน้าไม้หนัก',ab:'HBG',d:'ยิงหนักหน่วงจากระยะไกล สกิลเด่น: Ammo Enhancement, Capacity Boost, Ballistics'},
+ {id:'bow',n:'Bow',th:'ธนู',ab:'BOW',d:'ยิงระยะกลาง ชาร์จลูกธนูแล้วปล่อยท่าสกิล สกิลเด่น: Bow Skill Boost, Charged Power Shot'}
+];
+const WT_BY=Object.fromEntries(WTYPES.map(t=>[t.id,t]));
+const CAT_ORDER=['โจมตี','ธาตุ','อาวุธเฉพาะ','ป้องกัน','ต้านทาน','สนับสนุน','เก็บของ','อุปกรณ์กิลด์'];
+
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const EP={fire:'M8 1c1 3 4.2 4.4 4.2 8.6A4.2 4.2 0 0 1 3.8 9.6c0-2 1-3.2 2-4.2 0 1.6.6 2.6 1.5 3.1C7.2 6 7 3.6 8 1z',water:'M8 1.5C6 5 3.6 7.5 3.6 10.1a4.4 4.4 0 0 0 8.8 0C12.4 7.5 10 5 8 1.5z',thunder:'M9.6 1 3.4 9.2h4.2L6.6 15l6.2-8.6H8.6z',ice:'M8 1l5.6 3.5v7L8 15l-5.6-3.5v-7zm0 3.2L5.2 6v4L8 11.8 10.8 10V6z',dragon:'M2.5 14.5c1-5.3 3.4-8.6 8.8-12-1.1 2.2-1.1 3.8 0 5.3 1-1 2.1-1.3 3.2-1.1-2.1 1.6-3.2 3.2-3.7 5.3-1.1-1.1-2.7-1.4-4.3-.9C5.4 12.1 4.1 13.4 2.5 14.5z',poison:'M5.5 14.5a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-6.2a2.3 2.3 0 1 1 0-4.6 2.3 2.3 0 0 1 0 4.6zm1.7 6.2a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2z',sleep:'M3 3h6v1.6L5.4 9H9v1.6H3V9l3.6-4.4H3zm7 5h4v1.2l-2.4 3h2.4V14h-4v-1.2l2.4-3H10z',para:'M8 1 9.6 6 15 6.2 10.7 9.4 12.3 14.6 8 11.5 3.7 14.6 5.3 9.4 1 6.2 6.4 6z',blast:'M8 1l1.6 3.8L13.5 3l-1.3 4L16 8.5l-3.8 1.4 1.3 4-3.9-1.8L8 15.9l-1.6-3.8-3.9 1.8 1.3-4L0 8.5l3.8-1.5-1.3-4 3.9 1.8z',stun:'M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2zm0 2.2a3.8 3.8 0 0 1 3.8 3.8H10a2 2 0 0 0-2-2z'};
+const ECOL={fire:'var(--fire)',water:'var(--water)',thunder:'var(--thunder)',ice:'var(--ice)',dragon:'var(--dragon)',poison:'var(--poison)',sleep:'var(--water)',para:'var(--thunder)',blast:'var(--ember)',stun:'var(--brass)'};
+const ei=k=>`<svg class="ei" style="color:${ECOL[k]}" viewBox="0 0 16 16" aria-hidden="true"><path d="${EP[k]}"/></svg>`;
+const stars=(n,k)=>`<span class="stars" style="color:${ECOL[k]}" aria-label="${n} จาก 3">${[1,2,3].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')}</span>`;
+const rcls=r=>'r'+Math.max(1,Math.min(7,Math.ceil(r*7/9)));
+const elemText=w=>w.el?`<span style="display:inline-flex;gap:4px;align-items:center">${ei(w.el)}${WK_TH[w.el]} <span class="num">${w.ev}</span></span>`:'<span class="muted">ไม่มีธาตุ</span>';
+const affText=a=>a==null?'<span class="muted">—</span>':`<span class="num" style="color:${a<0?'var(--danger)':a>0?'var(--moss)':'inherit'}">${a>0?'+':''}${a}%</span>`;
+const skTags=s=>`<span class="tags">${s.map(([id,lv])=>`<span class="tag" title="${esc(SK[id].th)}">${esc(SK[id].en)} <b>${lv}</b></span>`).join('')}</span>`;
+function toast(m){const t=$('#toast');t.textContent=m;t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>t.hidden=true,2200)}
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const GEAR_SVG={weapon:'M26 3 29 6 13 22l2 2-2 2-2-2-4 4-3-3 4-4-2-2 2-2 2 2z',head:'M16 4C9.5 4 6 9 6 15v5l4 3h12l4-3v-5C26 9 22.5 4 16 4zm-6 12h12v3H10z',chest:'M9 5l4 2h6l4-2 5 4-2 6-3-1v13H9V14l-3 1-2-6z',arms:'M10 6h6v8h2V8h4v9l-2 8h-9l-3-7V8h2z',waist:'M4 12h24v6H4zm9 1v4h6v-4z',legs:'M10 4h12l-1 12 2 12h-6l-1-10-1 10H9l2-12z'};
+const gIcon=k=>`<svg viewBox="0 0 32 32" aria-hidden="true"><path d="${GEAR_SVG[k]}"/></svg>`;
+const MM=MEDIA.monsters;
+const slugify=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const monIcon=(k,cls='mi')=>MM[k]?`<img class="${cls}" src="${MM[k].icon}" alt="" loading="lazy">`:'';
+const wIcon=t=>MEDIA.weaponIcons[t]?`<img class="wi" src="${MEDIA.weaponIcons[t]}" alt="" loading="lazy">`:'';
+const EL_EN={Fire:'fire',Water:'water',Thunder:'thunder',Ice:'ice',Dragon:'dragon'};
+const setOfMon=n=>SETS.filter(s=>s.m===n);
+const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
+
+/* router */
+const VIEWS=['home','builder','adventurers','armor','weapons','skills','monsters','buddies'];
+function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='home';
+  document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
+  document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
+  if(v==='home')drawContour();window.scrollTo(0,0);}
+window.addEventListener('hashchange',route);
+
+/* home */
+function drawContour(){const c=$('#contour');if(!c||c.offsetParent===null)return;const r=c.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);c.width=r.width*dpr;c.height=r.height*dpr;const x=c.getContext('2d');x.scale(dpr,dpr);
+  const cs=getComputedStyle(document.documentElement),col=cs.getPropertyValue('--brass').trim();x.strokeStyle=col;const W=r.width,H=r.height;
+  const peaks=[[W*.78,H*.45,15],[W*.98,H*.05,9],[W*.42,H*1.05,10],[W*.08,H*.15,6]];let seed=7;const rnd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+  peaks.forEach(([cx,cy,n])=>{const ph=[rnd()*6,rnd()*6,rnd()*6];for(let k=1;k<=n;k++){x.globalAlpha=k%5===0?.34:.13;x.lineWidth=k%5===0?1.3:1;x.beginPath();for(let a=0;a<=Math.PI*2+.01;a+=.05){const rr=k*22+Math.sin(a*3+ph[0]+k*.15)*9+Math.sin(a*5+ph[1])*5+Math.cos(a*2+ph[2]+k*.1)*k*2.2;const px=cx+Math.cos(a)*rr*1.25,py=cy+Math.sin(a)*rr*.8;a===0?x.moveTo(px,py):x.lineTo(px,py)}x.stroke()}});
+  x.globalAlpha=.9;x.fillStyle=cs.getPropertyValue('--ember').trim();const mx=W*.78,my=H*.45;x.beginPath();x.moveTo(mx,my-6);x.lineTo(mx+6,my);x.lineTo(mx,my+6);x.lineTo(mx-6,my);x.fill();x.globalAlpha=.6;x.font='11px "IBM Plex Mono", monospace';x.fillStyle=col;x.fillText('AESOLAND',mx+12,my+4);}
+let rz;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(drawContour,150)});
+function renderHome(){
+  $('#tally').innerHTML=[[SETS.length,'ชุดเกราะ ('+ARMOR.length+' ชิ้น)'],[WEAPONS.length,'อาวุธ ('+WTYPES.length+' ประเภท)'],[Object.keys(SK).length,'สกิล'],[MONS.length,'มอนสเตอร์']].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join('');
+  $('#weak-table').innerHTML=`<thead><tr><th>มอนสเตอร์</th>${WK.map(e=>`<th class="el">${ei(e)} ${WK_TH[e]}</th>`).join('')}</tr></thead><tbody>${MONS.filter(m=>m.w).map(m=>`<tr><td><a href="#monsters" data-mon="${m.k}" class="mname mname-cell" style="color:var(--fg);text-decoration:none">${monIcon(m.k)}<span>${esc(m.n)}<small>${esc(m.clsTh)}</small></span></a></td>${m.w.map((v,i)=>`<td class="el">${stars(v,WK[i])}</td>`).join('')}</tr>`).join('')}</tbody>`;
+}
+document.addEventListener('click',e=>{const a=e.target.closest('[data-mon]');if(a){monSel=a.dataset.mon;renderMonsters()}});
+
+/* monsters */
+let monSel=MONS[0].k,monCls='ทั้งหมด';
+function renderMonsters(){
+  const cl=['ทั้งหมด','Radiant',...new Set(MONS.map(m=>m.clsTh).filter(Boolean))];
+  $('#mon-cls').innerHTML=cl.map(c=>`<button class="chip" aria-pressed="${c===monCls}" data-cls="${esc(c)}">${esc(c)}</button>`).join('');
+  const list=MONS.filter(m=>monCls==='ทั้งหมด'||(monCls==='Radiant'?m.rad:m.clsTh===monCls));
+  $('#mon-grid').innerHTML=list.map(m=>`<button class="mon-card" aria-pressed="${m.k===monSel}" data-msel="${m.k}"><span class="top">${monIcon(m.k,'')}<span><span class="threat">${m.rad?'<span class="rad">RADIANT</span>':esc(m.cls)}</span><h4>${esc(m.n)}</h4></span></span><span class="cls">${esc(m.clsTh)}</span><span class="weak-row">${m.w?(WK.slice(0,5).map((e,i)=>m.w[i]>=2?`<span>${ei(e)}${stars(m.w[i],e)}</span>`:'').join('')||'<span class="muted">ไม่มีธาตุที่ได้ผลเด่น</span>'):'<span class="muted">ดูจุดอ่อนในการ์ดข้อมูล</span>'}</span></button>`).join('');
+  const m=MON_BY[monSel];
+  const card=MM[m.k]?`<h4>การ์ดข้อมูล</h4><img class="card-img" src="${MM[m.k].card}" alt="การ์ดข้อมูล ${esc(m.n)}" loading="lazy" data-zoom="${MM[m.k].card}" data-cap="${esc(m.n)}">`:'';
+  if(m.nodata){$('#mon-detail').innerHTML=`<div class="head">${monIcon(m.k,'mi mi-lg')}<div><div class="eyebrow">${esc(m.cls)}${m.rad?' · Radiant':''}</div><h3>${esc(m.n)}</h3><div class="title">${esc(m.clsTh)}</div></div></div><p class="muted" style="font-size:13px">ฐานข้อมูลจุดอ่อนยังไม่มีมอนสเตอร์ตัวนี้ ดูจุดอ่อนธาตุ สถานะ และส่วนอ่อนได้จากการ์ดข้อมูลด้านล่าง</p>${card}`;return}
+  const [cut,blunt,shot]=m.wp.split(' / ');
+  const sets=setOfMon(m.n),weps=wepOfMon(m.n);
+  const best=Math.max(...m.w.slice(0,5));
+  $('#mon-detail').innerHTML=`<div class="head">${monIcon(m.k,'mi mi-lg')}<div><div class="eyebrow">${esc(m.cls)}${m.rad?' · Radiant':''}</div><h3>${esc(m.n)}</h3><div class="title">${esc(m.clsTh)}</div></div></div>
+   <dl class="kv"><dt>จุดอ่อน (ฟัน)</dt><dd>${esc(cut||'—')}</dd><dt>จุดอ่อน (ทุบ)</dt><dd>${esc(blunt||'—')}</dd><dt>จุดอ่อน (ยิง)</dt><dd>${esc(shot||'—')}</dd></dl>
+   <h4>ธาตุ</h4><div class="weak-bars">${WK.slice(0,5).map((e,i)=>`<div><span>${ei(e)} ${WK_TH[e]}</span><span class="meter" style="color:${ECOL[e]}"><i style="width:${m.w[i]/3*100}%"></i></span></div>`).join('')}</div>
+   <h4>สถานะผิดปกติ</h4><div class="weak-bars">${WK.slice(5).map((e,i)=>`<div><span>${ei(e)} ${WK_TH[e]}</span><span class="meter" style="color:${ECOL[e]}"><i style="width:${m.w[i+5]/3*100}%"></i></span></div>`).join('')}</div>
+   <p class="muted" style="font-size:13px;margin:8px 0 0">ธาตุแนะนำ: ${WK.slice(0,5).filter((e,i)=>m.w[i]===best).map(e=>WK_TH[e]).join(', ')}</p>
+   <h4>อุปกรณ์จากวัตถุดิบ</h4><div style="display:grid;gap:6px;font-size:14px">
+   ${sets.map(s=>`<div>ชุดเกราะ <a href="#armor" data-arset="${s.k}"><b>${esc(s.n)}</b></a> · ${esc(s.b.n)}</div>`).join('')}
+   ${weps.length?`<div>อาวุธ ${weps.length} ชิ้น: ${weps.slice(0,8).map(w=>`<span class="tag">${esc(w.n)}</span>`).join(' ')}${weps.length>8?' …':''}</div>`:''}
+   ${!sets.length&&!weps.length?'<span class="muted">ยังไม่มีข้อมูลอุปกรณ์</span>':''}</div>
+   <div style="margin:16px 0"><button class="btn btn-ghost btn-sm" data-target-mon="${m.k}">ตั้งเป็นเป้าหมายในบิลด์</button></div>${card}`;
+}
+document.addEventListener('click',e=>{
+  const c=e.target.closest('[data-cls]');if(c){monCls=c.dataset.cls;renderMonsters()}
+  const s=e.target.closest('[data-msel]');if(s){monSel=s.dataset.msel;renderMonsters();if(innerWidth<960)$('#mon-detail').scrollIntoView({block:'start'})}
+  const t=e.target.closest('[data-target-mon]');if(t){B.target=t.dataset.targetMon;saveCur();renderBuilder();location.hash='builder'}
+  const a=e.target.closest('[data-arset]');if(a){$('#ar-q').value=SET_BY[a.dataset.arset].n;renderArmor()}
+});
+
+/* armor page */
+function renderArmor(){
+  const q=$('#ar-q').value.trim().toLowerCase(),sk=$('#ar-skill').value,so=$('#ar-sort').value;
+  let list=SETS.filter(s=>{const ps=ARMOR.filter(a=>a.set===s.k);
+    if(sk&&!(s.b.s===sk||ps.some(p=>p.s.some(x=>x[0]===sk))))return false;
+    if(q&&!(s.n+' '+(s.m||'')+' '+ps.map(p=>p.n).join(' ')).toLowerCase().includes(q))return false;return true});
+  list.sort((a,b)=>so==='def'?b.def-a.def:so==='n'?a.n.localeCompare(b.n):b.r-a.r||b.def-a.def);
+  $('#ar-grid').innerHTML=list.length?list.map(s=>{const ps=SLOTS.map(sl=>AR_BY[s.k+'-'+sl]);return `<article class="set-card ${rcls(s.r)}">
+   <header><div style="display:flex;gap:10px;align-items:center">${s.m?monIcon(slugify(s.m)):''}<div><h4 class="rname">${esc(s.n)}</h4><span class="muted" style="font-size:12px">${s.m?'จาก '+esc(s.m)+' · ':''}ระดับ ${s.rmin===s.r?s.r:s.rmin+'–'+s.r}</span></div></div><span class="num muted" style="font-size:13px">ป้องกันรวม ${s.def}</span></header>
+   <div class="bonus"><span class="muted" style="font-size:12px">เซ็ทเอฟเฟกต์ · ใส่ ${s.b.p} ชิ้น</span><br><b>${esc(s.b.n)}</b><br>${esc(SK[s.b.s].en)} +${s.b.add} เลเวล · ${esc(s.b.d)}</div>
+   ${ps.map(p=>`<div class="pc"><span class="sl">${SLOT_TH[p.slot]}</span><div><div class="nm">${esc(p.n)}</div>${skTags(p.s)}</div><span class="num muted" style="font-size:12px">${p.d}</span></div>`).join('')}</article>`}).join(''):'<p class="muted">ไม่พบชุดเกราะที่ตรงกับตัวกรอง ลองล้างคำค้นหรือเลือกสกิลอื่น</p>';
+}
+function initArmor(){
+  const used=[...new Set(ARMOR.flatMap(a=>a.s.map(x=>x[0])).concat(SETS.map(s=>s.b.s)))].sort((a,b)=>SK[a].en.localeCompare(SK[b].en));
+  $('#ar-skill').innerHTML='<option value="">ทุกสกิล</option>'+used.map(id=>`<option value="${id}">${esc(SK[id].en)} (${esc(SK[id].th)})</option>`).join('');
+  ['ar-q','ar-skill','ar-sort'].forEach(i=>$('#'+i).addEventListener('input',renderArmor));
+}
+
+/* weapons */
+let wtSel='long-sword',wtSort='atk';
+function renderWeapons(){
+  $('#wt-list').innerHTML=WTYPES.map(t=>`<button aria-pressed="${t.id===wtSel}" data-wt="${t.id}">${wIcon(t.id)||`<span class="wt-ab">${t.ab}</span>`}<span>${t.n}<small style="display:block;font-size:11px;opacity:.75">${t.th} · ${WEAPONS.filter(w=>w.t===t.id).length} ชิ้น</small></span></button>`).join('');
+  const t=WT_BY[wtSel];
+  $('#wt-info').innerHTML=`<div><div class="eyebrow">${t.ab}</div><h3 style="display:flex;align-items:center;gap:10px">${MEDIA.weaponIcons[t.id]?`<img src="${MEDIA.weaponIcons[t.id]}" alt="" style="width:40px;height:40px;filter:var(--icon-filter)">`:''}${t.n}</h3><div class="muted" style="margin:-2px 0 8px">${t.th}</div><p>${esc(t.d)}</p></div><div class="ratings"><div class="muted" style="font-size:13px">ค่าสูงสุดในประเภทนี้</div>${(()=>{const ws=WEAPONS.filter(w=>w.t===wtSel&&w.atk);const top=ws.reduce((a,b)=>b.atk>a.atk?b:a,ws[0]);return top?`<div><b class="num" style="font-size:24px;font-family:var(--f-display)">${top.atk}</b><div class="muted" style="font-size:12px">${esc(top.n)}</div></div>`:''})()}</div>`;
+  const ws=WEAPONS.filter(w=>w.t===wtSel).sort((a,b)=>wtSort==='aff'?(b.aff??-99)-(a.aff??-99):wtSort==='r'?b.r-a.r||(b.atk??0)-(a.atk??0):(b.atk??0)-(a.atk??0));
+  const th=(k,l)=>`<th><button class="x-btn" style="color:${wtSort===k?'var(--brass)':'inherit'};padding:0;font:inherit" data-wsort="${k}">${l}${wtSort===k?' ↓':''}</button></th>`;
+  $('#wt-table').innerHTML=`<thead><tr><th>ชื่ออาวุธ</th>${th('r','ระดับ')}${th('atk','พลังโจมตี')}${th('aff','คริติคอล')}<th>ธาตุ / สถานะ</th><th>ความคม</th><th>วัตถุดิบจาก</th><th></th></tr></thead><tbody>${ws.map(w=>`<tr class="${rcls(w.r)}"><td class="rname" style="font-weight:600">${esc(w.n)}${w.nc?' <span class="muted" style="font-weight:400;font-size:12px">(สร้างไม่ได้)</span>':''}</td><td><span class="rar">R${w.r}</span></td><td class="num">${w.atk??'—'}</td><td>${affText(w.aff)}</td><td>${elemText(w)}</td><td>${w.sh?`<span class="sharp sh-${w.sh}"></span>${w.sh}`:'—'}</td><td><span class="mname-cell" style="gap:6px">${w.m&&MON_BY[slugify(w.m)]?monIcon(slugify(w.m)):''}${esc(w.m||'—')}</span></td><td><button class="btn btn-ghost btn-sm" data-useweapon="${w.id}">ใช้ในบิลด์</button></td></tr>`).join('')}</tbody>`;
+}
+document.addEventListener('click',e=>{
+  const b=e.target.closest('[data-wt]');if(b){wtSel=b.dataset.wt;renderWeapons()}
+  const s=e.target.closest('[data-wsort]');if(s){wtSort=s.dataset.wsort;renderWeapons()}
+  const u=e.target.closest('[data-useweapon]');if(u){B.weapon=u.dataset.useweapon;saveCur();renderBuilder();location.hash='builder';toast('ใส่อาวุธแล้ว')}
+});
+
+/* skills page */
+let skCat='ทั้งหมด';
+function renderSkills(){
+  $('#sk-cat').innerHTML=['ทั้งหมด',...CAT_ORDER].map(c=>`<button class="chip" aria-pressed="${c===skCat}" data-skcat="${c}">${c}</button>`).join('');
+  const q=$('#sk-q').value.trim().toLowerCase();
+  const ids=Object.keys(SK).filter(id=>{const s=SK[id];return (skCat==='ทั้งหมด'||s.c===skCat)&&(!q||(s.en+s.th+s.d+s.lv.join(' ')).toLowerCase().includes(q))}).sort((a,b)=>SK[a].en.localeCompare(SK[b].en));
+  $('#sk-grid').innerHTML=ids.length?ids.map(id=>{const s=SK[id];const ar=ARMOR.filter(a=>a.s.some(x=>x[0]===id));const sb=SETS.filter(st=>st.b.s===id);
+   return `<article class="sk-card"><header><h4>${esc(s.en)}<small style="display:block;font-family:var(--f-body);font-weight:400;font-size:13px;color:var(--muted)">${esc(s.th)}</small></h4><span class="cat">${s.c} · สูงสุด Lv${s.lv.length}</span></header><p>${esc(s.d)}</p>
+   <ol class="lv-list">${s.lv.map((l,i)=>`<li><b>Lv${i+1}</b><span>${esc(l)}</span></li>`).join('')}</ol>
+   <div class="src">${ar.length?`<div>เกราะ (${ar.length} ชิ้น)<div class="tags">${ar.map(a=>`<span class="tag">${esc(a.n)} <b>${a.s.find(x=>x[0]===id)[1]}</b></span>`).join('')}</div></div>`:''}${sb.length?`<div>เซ็ทเอฟเฟกต์<div class="tags">${sb.map(st=>`<span class="tag">${esc(st.n)} · ${st.b.p} ชิ้น <b>+${st.b.add}</b></span>`).join('')}</div></div>`:''}${!ar.length&&!sb.length?'<div>ยังไม่พบเกราะที่ให้สกิลนี้ในฐานข้อมูล</div>':''}</div></article>`}).join(''):'<p class="muted">ไม่พบสกิลที่ตรงกับคำค้น ลองพิมพ์คำที่สั้นลง</p>';
+}
+$('#sk-q').addEventListener('input',renderSkills);
+document.addEventListener('click',e=>{const c=e.target.closest('[data-skcat]');if(c){skCat=c.dataset.skcat;renderSkills()}});
+
+/* builder */
+const SAMPLE={weapon:'long-sword--wyvern-blade-blood',armor:{head:'rathalos-head',chest:'rathalos-chest',arms:'rathalos-arms',waist:'radiant-kulu-ya-ku-waist',legs:'radiant-kulu-ya-ku-legs'},target:'legiana',cond:{weak:true,enraged:false,unleashed:false,radiant:false}};
+const EMPTY=()=>({weapon:null,armor:{head:null,chest:null,arms:null,waist:null,legs:null},target:'',cond:{weak:true,enraged:false,unleashed:false,radiant:false}});
+function normalize(b){if(!b||typeof b!=='object')return null;const e=EMPTY();if(b.target&&!(MON_BY[b.target]&&MON_BY[b.target].w))b.target='';e.weapon=W_BY[b.weapon]?b.weapon:null;SLOTS.forEach(s=>{const id=b.armor&&b.armor[s];e.armor[s]=AR_BY[id]&&AR_BY[id].slot===s?id:null});e.target=MON_BY[b.target]?b.target:'';e.cond=Object.assign(e.cond,b.cond||{});return e}
+function sampleBuild(){const b=JSON.parse(JSON.stringify(SAMPLE));if(!W_BY[b.weapon]){const w=WEAPONS.find(x=>x.t==='long-sword'&&x.el==='fire')||WEAPONS[0];b.weapon=w.id}return normalize(b)}
+let B=normalize(store.get('mho2_current',null))||sampleBuild();
+function saveCur(){store.set('mho2_current',B)}
+const INSIGHT=[0,2,4,6,8,10,13,16],WEX=[0,4,8,14],BSP=[0,3,5,7,11,15],UNL=[0,3,6,9,12,15],DEFUP=[0,5,10,15,20,25,30,35],HPB=[0,10,20,30];
+const EDMG=[0,3,6,9,12,16,20,28],EDMG_R=[0,8,15,23,30,40,50,70];
+const ELSK={fire:'fire-damage-up',water:'water-damage-up',thunder:'thunder-damage-up',ice:'ice-damage-up',dragon:'dragon-damage-up'};
+function compute(b=B){
+  const raw={},src={};const add=(id,lv,from)=>{raw[id]=(raw[id]||0)+lv;(src[id]=src[id]||[]).push(from+(lv>1?' ×'+lv:''))};
+  SLOTS.forEach(s=>{const a=b.armor[s]&&AR_BY[b.armor[s]];if(a)a.s.forEach(([id,lv])=>add(id,lv,SLOT_TH[s]))});
+  const sets={};SLOTS.forEach(s=>{const a=b.armor[s]&&AR_BY[b.armor[s]];if(a)sets[a.set]=(sets[a.set]||0)+1});
+  Object.entries(sets).forEach(([k,n])=>{const st=SET_BY[k];if(n>=st.b.p)add(st.b.s,st.b.add,'เซ็ท '+st.n.replace(/ Set$/,''))});
+  const lv=id=>Math.min(raw[id]||0,SK[id]?SK[id].lv.length:0);
+  const w=b.weapon&&W_BY[b.weapon],c=b.cond;
+  let aff=w&&w.aff!=null?w.aff:0;const affParts=[];
+  const ap=(v,l)=>{if(v){aff+=v;affParts.push(l+' +'+v)}};
+  ap(INSIGHT[lv('insight')]||0,'Insight');
+  if(c.weak)ap(WEX[lv('weakspot-exploit')]||0,'Weakspot Exploit');
+  if(c.enraged)ap(BSP[lv('battle-spirit')]||0,'Battle Spirit');
+  if(c.unleashed)ap(UNL[lv('unleashed')]||0,'Unleashed');
+  let def=0;SLOTS.forEach(s=>{const a=b.armor[s]&&AR_BY[b.armor[s]];if(a)def+=a.d});def+=DEFUP[lv('defense-up')]||0;
+  let eb=0,ev=w&&w.el?w.ev:0;
+  if(w&&ELSK[w.el]){const l=lv(ELSK[w.el]);eb=(c.radiant?EDMG_R:EDMG)[l]||0;if(l>=7)ev+=50}
+  return {raw,src,sets,lv,w,aff:Math.round(aff*10)/10,affParts,def,hp:HPB[lv('health-boost')]||0,eb,ev};
+}
+function renderBuilder(){
+  const R=compute(),w=R.w;
+  const filled=(w?1:0)+SLOTS.filter(s=>B.armor[s]).length;$('#bd-filled').textContent=`ใส่แล้ว ${filled}/6 ช่อง`;
+  const row=(key,icon,label,item,sub)=>`<div class="gear-row ${item?rcls(item.r||SET_BY[item.set].r):''}"><div class="gear-ic">${icon==='weapon'&&item&&MEDIA.weaponIcons[item.t]?`<img src="${MEDIA.weaponIcons[item.t]}" alt="" style="width:34px;height:34px;filter:var(--icon-filter)">`:gIcon(icon)}</div><div class="gear-main"><button class="gear-pick" data-pick="${key}"><span class="lbl">${label}</span><span class="nm ${item?'':'empty'}">${item?`<span class="rname">${esc(item.n)}</span>`:'+ เลือก'+label}</span></button>${item?`<div class="gear-sub">${sub}<button class="x-btn" data-unequip="${key}" aria-label="ถอด${label}">ถอด</button></div>`:''}</div></div>`;
+  let h=row('weapon','weapon','อาวุธ',w,w?`<span class="muted">${WT_BY[w.t].n}</span><span class="rar">R${w.r}</span><span class="num">โจมตี ${w.atk??'—'}</span><span>คริ ${affText(w.aff)}</span>${elemText(w)}`:'');
+  SLOTS.forEach(s=>{const a=B.armor[s]&&AR_BY[B.armor[s]];h+=row(s,s,SLOT_TH[s],a,a?`${skTags(a.s)}<span class="num muted">ป้องกัน ${a.d}</span>`:'')});
+  $('#gear').innerHTML=h;
+  $('#bd-target').innerHTML='<option value="">— ไม่ระบุ —</option>'+MONS.filter(m=>m.w).map(m=>`<option value="${m.k}" ${m.k===B.target?'selected':''}>${esc(m.n)}</option>`).join('');
+  const m=MON_BY[B.target]&&MON_BY[B.target].w?MON_BY[B.target]:null;let mt='';
+  if(m){const best=Math.max(...m.w.slice(0,5));const bestEl=WK.slice(0,5).filter((e,i)=>m.w[i]===best);
+    if(w&&w.el){const v=m.w[WK.indexOf(w.el)];mt=`${ei(w.el)} ${WK_TH[w.el]} ต่อ ${esc(m.n)} ${stars(v,w.el)} <span>${v>=3?'ได้ผลมาก':v===2?'ได้ผล':v===1?'ได้ผลน้อย':'ไม่ได้ผล'}</span>${WK.indexOf(w.el)<5&&v<best?` <span class="muted">· ธาตุที่ดีกว่า: ${bestEl.map(e=>WK_TH[e]).join('/')}</span>`:''}`}
+    else mt=`<span class="muted">${esc(m.n)} แพ้ธาตุ ${bestEl.map(e=>ei(e)+' '+WK_TH[e]).join(', ')}</span>`;
+    mt=monIcon(m.k)+' '+mt+` <span class="muted">· จุดอ่อนร่างกาย: ${esc(m.wp)}</span>`}
+  $('#bd-match').innerHTML=mt;
+
+  // summary
+  const ids=Object.keys(R.raw);const maxed=ids.filter(id=>R.raw[id]>=SK[id].lv.length).length;
+  const actives=[],nears=[];Object.entries(R.sets).forEach(([k,n])=>{const st=SET_BY[k];if(n>=st.b.p)actives.push({st,n});else nears.push({st,n})});
+  const byCat=CAT_ORDER.map(c=>[c,ids.filter(id=>SK[id].c===c).sort((a,b)=>R.raw[b]-R.raw[a])]).filter(x=>x[1].length);
+  let sh=`<div class="kpis"><div class="kpi"><b class="num">${ids.length}</b><span>สกิลที่ได้</span></div><div class="kpi"><b class="num">${maxed}</b><span>สกิลเลเวลเต็ม</span></div><div class="kpi"><b class="num" style="color:${actives.length?'var(--moss)':'inherit'}">${actives.length}</b><span>เซ็ทเอฟเฟกต์ทำงาน</span></div></div>`;
+  if(actives.length)sh+=`<div><h4>ออปชั่นจากเซ็ท (ใส่ครบแล้ว)</h4>${actives.map(({st,n})=>`<div class="ol-row set"><div class="k">${esc(st.b.n)}<small>${esc(st.n)} · ใส่ ${n}/${st.b.p} ชิ้นขึ้นไป</small></div><div class="v"><b>${esc(SK[st.b.s].en)} +${st.b.add}</b>${esc(st.b.d)}</div></div>`).join('')}</div>`;
+  sh+=byCat.map(([c,list])=>`<div><h4>ออปชั่นจากสกิล · ${c}</h4>${list.map(id=>{const s=SK[id],l=Math.min(R.raw[id],s.lv.length);return `<div class="ol-row"><div class="k">${esc(s.en)}<small>${esc(s.th)}</small></div><div class="v"><b>Lv${l}/${s.lv.length}</b>${esc(s.lv[l-1])}</div></div>`}).join('')}</div>`).join('');
+  if(nears.length)sh+=`<div><h4>ใส่เพิ่มอีกนิดจะได้เซ็ทเอฟเฟกต์</h4><div style="display:grid;gap:8px">${nears.map(({st,n})=>`<div class="near"><span>ใส่ <b>${esc(st.n)}</b> เพิ่มอีก <b class="num">${st.b.p-n}</b> ชิ้น จะได้ <b style="color:var(--moss)">${esc(st.b.n)}</b> (${esc(SK[st.b.s].en)} +${st.b.add})</span><span class="muted">${esc(st.b.d)}</span></div>`).join('')}</div></div>`;
+  if(!ids.length)sh+='<div class="empty-note" style="padding:0">ยังไม่มีออปชั่น เลือกเกราะจากช่องด้านซ้าย สรุปจะขึ้นที่นี่ทันที</div>';
+  $('#bd-summary').innerHTML=sh;
+
+  // stats
+  $('#bd-stats').innerHTML=`<div class="stat"><span>พลังโจมตี</span><b class="num">${w&&w.atk!=null?w.atk:'—'}</b>${w?`<em>${WT_BY[w.t].n}</em>`:''}</div>
+   <div class="stat"><span>คริติคอล</span><b class="num" style="color:${R.aff<0?'var(--danger)':'inherit'}">${w?R.aff+'%':'—'}</b>${R.affParts.length?`<em>${R.affParts.join(', ')}</em>`:''}</div>
+   <div class="stat"><span>ธาตุ / สถานะ</span><b class="num" style="font-size:22px">${w&&w.el?`${ei(w.el)} ${R.ev}`:'—'}</b>${R.eb?`<em>ดาเมจธาตุ +${R.eb}%</em>`:''}</div>
+   <div class="stat"><span>ป้องกัน</span><b class="num">${R.def}</b>${R.hp?`<em>HP +${R.hp}</em>`:''}</div>`;
+  const resIds=['fire-resistance','water-resistance','thunder-resistance','ice-resistance','dragon-resistance'];const RV=[0,6,12,20];
+  $('#bd-res').innerHTML='<span class="muted">ต้านทานธาตุจากสกิล</span>'+resIds.map((id,i)=>`<span>${ei(WK[i])}<span class="num">+${RV[R.lv(id)]||0}</span></span>`).join('');
+  const CONDS=[['weak','โจมตีจุดอ่อน'],['enraged','มอนสเตอร์โกรธ'],['unleashed','Unleashed ทำงาน'],['radiant','เป้าหมายเป็น Radiant']];
+  $('#bd-conds').innerHTML='<span class="muted">เงื่อนไขคำนวณ</span>'+CONDS.map(([k,l])=>`<button class="chip" aria-pressed="${!!B.cond[k]}" data-cond="${k}">${l}</button>`).join('');
+
+  // sets
+  const sk=Object.keys(R.sets).sort((a,b)=>R.sets[b]-R.sets[a]);
+  $('#bd-sets').innerHTML=sk.length?sk.map(k=>{const s=SET_BY[k],n=R.sets[k],on=n>=s.b.p;return `<div class="set-row ${rcls(s.r)}"><div class="set-top"><b class="rname">${esc(s.n)}</b><span class="pcs">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')} ${n}/5</span></div>
+    <div class="set-pieces">ใส่อยู่: ${SLOTS.filter(sl=>B.armor[sl]&&AR_BY[B.armor[sl]].set===k).map(sl=>SLOT_TH[sl]).join(', ')}</div>
+    <div class="set-tier ${on?'on':''}"><span class="badge">${on?'ได้รับแล้ว':'ใส่อีก '+(s.b.p-n)+' ชิ้น'}</span><div><b>${s.b.p} ชิ้น · ${esc(s.b.n)}</b><span>${esc(SK[s.b.s].en)} +${s.b.add} เลเวล · ${esc(s.b.d)}</span></div></div></div>`}).join(''):'<div class="empty-note">ยังไม่ได้ใส่เกราะ เซ็ทเอฟเฟกต์จะขึ้นเมื่อใส่ชุดเดียวกันตั้งแต่ 1 ชิ้น</div>';
+
+  // skill detail
+  const order=ids.sort((a,b)=>R.raw[b]/SK[b].lv.length-R.raw[a]/SK[a].lv.length||R.raw[b]-R.raw[a]);
+  $('#bd-skcount').textContent=ids.length?ids.length+' สกิล':'';
+  $('#bd-skills').innerHTML=order.length?order.map(id=>{const s=SK[id],mx=s.lv.length,tot=R.raw[id],l=Math.min(tot,mx),over=tot-mx;
+   return `<div class="sk-row"><div class="sk-top"><span class="nm">${esc(s.en)} <small class="muted" style="font-family:var(--f-body);font-weight:400;font-size:13px">${esc(s.th)}</small></span><span class="pips">${Array.from({length:mx},(_,i)=>`<i class="${i<l?'on':''}"></i>`).join('')}${over>0?Array.from({length:over},()=>'<i class="over"></i>').join(''):''}</span><span class="lv num ${l===mx?'max':''}">Lv${l}/${mx}</span></div>
+    <div class="sk-cur"><span class="muted" style="font-size:12px">ออปชั่นที่ได้:</span> ${esc(s.lv[l-1])}</div>${over>0?`<div class="sk-over">เกินเพดาน ${over} เลเวล ลองเปลี่ยนชิ้นที่ให้สกิลนี้เป็นชิ้นอื่น</div>`:''}
+    <div class="sk-src">จาก: ${R.src[id].join(', ')}</div>
+    <details class="sk-all"><summary>ดูทุกเลเวล</summary><ol class="lv-list">${s.lv.map((x,i)=>`<li class="${i===l-1?'cur':''}"><b>Lv${i+1}</b><span>${esc(x)}</span></li>`).join('')}</ol></details></div>`}).join(''):'<div class="empty-note">ยังไม่มีสกิล ลองเลือกเกราะจากช่องด้านซ้าย</div>';
+  renderSaved();
+}
+
+/* picker */
+let P=null;
+function openPicker(kind){
+  P={kind,q:'',skill:'',tab:kind==='weapon'?(B.weapon?W_BY[B.weapon].t:'long-sword'):'all'};
+  $('#sheet-q').value='';$('#sheet').hidden=false;document.body.style.overflow='hidden';
+  const pool=kind==='weapon'?[]:ARMOR.filter(a=>a.slot===kind);
+  const skills=[...new Set(pool.flatMap(a=>a.s.map(x=>x[0])))].sort((a,b)=>SK[a].en.localeCompare(SK[b].en));
+  $('#sheet-skill').hidden=kind==='weapon';
+  $('#sheet-skill').innerHTML='<option value="">ทุกสกิล</option>'+skills.map(id=>`<option value="${id}">${esc(SK[id].en)} (${esc(SK[id].th)})</option>`).join('');
+  renderPicker();setTimeout(()=>$('#sheet-q').focus({preventScroll:true}),30);
+}
+function closePicker(){$('#sheet').hidden=true;document.body.style.overflow='';P=null}
+function renderPicker(){
+  const isW=P.kind==='weapon';$('#sheet-title').textContent=isW?'เลือกอาวุธ':'เลือกเกราะ'+SLOT_TH[P.kind];
+  $('#sheet-tabs').innerHTML=isW?WTYPES.map(t=>`<button class="chip" aria-pressed="${P.tab===t.id}" data-ptab="${t.id}" style="display:inline-flex;align-items:center;gap:6px">${wIcon(t.id)}${t.n}</button>`).join(''):'';
+  $('#sheet-tabs').hidden=!isW;
+  const q=P.q.trim().toLowerCase();
+  let items=isW?WEAPONS.filter(w=>w.t===P.tab):ARMOR.filter(a=>a.slot===P.kind);
+  items=items.filter(it=>{if(P.skill&&!it.s.some(x=>x[0]===P.skill))return false;if(q){const hay=(it.n+' '+(it.m||'')+' '+(it.s?it.s.map(x=>SK[x[0]].en+' '+SK[x[0]].th).join(' '):'')+(it.el?WK_TH[it.el]:'')+(it.set?' '+SET_BY[it.set].n+' '+SET_BY[it.set].b.n:'')).toLowerCase();if(!hay.includes(q))return false}return true});
+  items.sort(isW?(a,b)=>(b.atk??0)-(a.atk??0):(a,b)=>SET_BY[b.set].r-SET_BY[a.set].r||b.d-a.d);
+  const cur=isW?B.weapon:B.armor[P.kind];
+  let h=cur?'<button class="opt remove" data-choose=""><span class="nm">ถอดออก</span><span class="meta"></span></button>':'';
+  h+=items.map(it=>{let meta,tags='';
+    if(isW)meta=`<span class="num">โจมตี ${it.atk??'—'} · คริ ${it.aff??'—'}%</span>${elemText(it)}<span class="muted">R${it.r}${it.m?' · '+esc(it.m):''}</span>`;
+    else{const st=SET_BY[it.set];meta=`<span class="num">ป้องกัน ${it.d}</span><span class="muted" style="font-size:12px">เซ็ท ${st.b.p} ชิ้น: ${esc(st.b.n)}</span>`;tags=skTags(it.s)}
+    const rc=rcls(isW?it.r:SET_BY[it.set].r);
+    return `<button class="opt ${rc} ${it.id===cur?'cur':''}" data-choose="${it.id}"><span class="nm"><span class="rname">${esc(it.n)}</span>${it.id===cur?'<span class="muted" style="font-size:12px;font-weight:500">กำลังใส่</span>':''}</span><span class="meta">${meta}</span>${tags}</button>`}).join('');
+  if(!items.length)h+='<div class="empty-note">ไม่พบรายการที่ตรงกับตัวกรอง ลองล้างคำค้นหรือเปลี่ยนสกิล</div>';
+  $('#sheet-list').innerHTML=h;$('#sheet-list').scrollTop=0;
+}
+$('#sheet-q').addEventListener('input',e=>{P.q=e.target.value;renderPicker()});
+$('#sheet-skill').addEventListener('change',e=>{P.skill=e.target.value;renderPicker()});
+$('#sheet-close').addEventListener('click',closePicker);
+$('#sheet').addEventListener('click',e=>{if(e.target.id==='sheet')closePicker()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&P)closePicker()});
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-ptab]');if(t&&P){P.tab=t.dataset.ptab;renderPicker();return}
+  const c=e.target.closest('[data-choose]');if(c&&P){const id=c.dataset.choose||null;if(P.kind==='weapon')B.weapon=id;else B.armor[P.kind]=id;saveCur();closePicker();renderBuilder();return}
+  const p=e.target.closest('[data-pick]');if(p){openPicker(p.dataset.pick);return}
+  const u=e.target.closest('[data-unequip]');if(u){const k=u.dataset.unequip;if(k==='weapon')B.weapon=null;else B.armor[k]=null;saveCur();renderBuilder();return}
+  const cd=e.target.closest('[data-cond]');if(cd){const k=cd.dataset.cond;B.cond[k]=!B.cond[k];saveCur();renderBuilder();return}
+});
+$('#bd-target').addEventListener('change',e=>{B.target=e.target.value;saveCur();renderBuilder()});
+$('#bd-sample').addEventListener('click',()=>{B=sampleBuild();saveCur();renderBuilder();toast('โหลดบิลด์ตัวอย่างแล้ว')});
+let clearArm=false;
+$('#bd-clear').addEventListener('click',e=>{if(!clearArm){clearArm=true;e.currentTarget.textContent='กดอีกครั้งเพื่อยืนยัน';setTimeout(()=>{clearArm=false;$('#bd-clear').textContent='ล้างบิลด์'},3000);return}clearArm=false;e.currentTarget.textContent='ล้างบิลด์';B=EMPTY();saveCur();renderBuilder();toast('ล้างบิลด์แล้ว')});
+function renderSaved(){const list=store.get('mho2_saved',[]);
+  $('#bd-saved').innerHTML=list.length?list.map((s,i)=>`<div class="saved-item"><span class="n">${esc(s.name)}</span><span class="muted" style="font-size:12px">${s.b.weapon&&W_BY[s.b.weapon]?WT_BY[W_BY[s.b.weapon].t].n:''}</span><button class="btn btn-ghost btn-sm" data-load="${i}">โหลด</button><button class="x-btn" data-del="${i}">ลบ</button></div>`).join(''):'<div class="empty-note" style="border-top:1px solid var(--line);padding:12px 16px">ยังไม่มีบิลด์ที่บันทึก บิลด์จะเก็บไว้ในเบราว์เซอร์นี้</div>'}
+$('#bd-save').addEventListener('click',()=>{const name=$('#bd-name').value.trim()||('บิลด์ '+new Date().toLocaleDateString('th-TH'));const list=store.get('mho2_saved',[]);list.unshift({name,b:JSON.parse(JSON.stringify(B))});store.set('mho2_saved',list.slice(0,30));$('#bd-name').value='';renderSaved();toast('บันทึก “'+name+'” แล้ว')});
+document.addEventListener('click',e=>{
+  const l=e.target.closest('[data-load]');if(l){const s=store.get('mho2_saved',[])[+l.dataset.load];if(s){B=normalize(s.b)||EMPTY();saveCur();renderBuilder();toast('โหลด “'+s.name+'” แล้ว')}}
+  const d=e.target.closest('[data-del]');if(d){const list=store.get('mho2_saved',[]);list.splice(+d.dataset.del,1);store.set('mho2_saved',list);renderSaved();toast('ลบแล้ว')}
+});
+const encode=b=>'MHO2.'+btoa(unescape(encodeURIComponent(JSON.stringify(b))));
+const decode=s=>JSON.parse(decodeURIComponent(escape(atob(s.trim().replace(/^MHO2\./,'')))));
+$('#bd-export').addEventListener('click',()=>{const code=encode(B);const fb=()=>{$('#bd-import-box').hidden=false;const ta=$('#bd-code');ta.value=code;ta.focus();ta.select();toast('เลือกโค้ดไว้แล้ว กดคัดลอกได้เลย')};if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(code).then(()=>toast('คัดลอกโค้ดบิลด์แล้ว')).catch(fb);else fb()});
+$('#bd-import-toggle').addEventListener('click',()=>{const b=$('#bd-import-box');b.hidden=!b.hidden;if(!b.hidden)$('#bd-code').focus()});
+$('#bd-import').addEventListener('click',()=>{try{const b=normalize(decode($('#bd-code').value));if(!b)throw 0;B=b;saveCur();renderBuilder();$('#bd-import-box').hidden=true;$('#bd-code').value='';toast('นำเข้าบิลด์แล้ว')}catch(e){toast('โค้ดไม่ถูกต้อง ตรวจว่าคัดลอกมาครบตั้งแต่ MHO2.')}});
+$('#theme-btn').addEventListener('click',()=>{const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');const n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);store.set('mho_theme',n);drawContour()});
+(()=>{const t=store.get('mho_theme',null);if(t)document.documentElement.setAttribute('data-theme',t)})();
+/* characters */
+const CH=MEDIA.characters;let chSel=CH[0].id,chTab='info',chF='ทั้งหมด';
+const EL_TH={Fire:'ไฟ',Water:'น้ำ',Thunder:'สายฟ้า',Ice:'น้ำแข็ง',Dragon:'มังกร'};
+const chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span><img src="${c.p}" alt="${esc(c.n)}" loading="lazy"><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
+function renderChars(){
+  const opts=['ทั้งหมด','SSR','SR',...WTYPES.map(t=>t.n).filter(n=>CH.some(c=>c.w===n))];
+  $('#ch-filter').innerHTML=opts.map(o=>`<button class="chip" aria-pressed="${o===chF}" data-chf="${esc(o)}">${esc(o)}</button>`).join('');
+  const list=CH.filter(c=>chF==='ทั้งหมด'||c.r===chF||c.w===chF);
+  $('#ch-grid').innerHTML=list.map(chCard).join('')||'<p class="muted">ไม่มีตัวละครที่ตรงกับตัวกรอง</p>';
+  const c=CH.find(x=>x.id===chSel);const guides=MEDIA.guides[c.id]||[];
+  const tabs=[['info','ข้อมูลและสกิล'],['build','บิลด์แนะนำ'],...(guides.length?[['guide','ไกด์ ('+guides.length+')']]:[]),['art','อาร์ตเวิร์ก']];
+  if(!tabs.some(t=>t[0]===chTab))chTab='info';
+  const wt=WTYPES.find(t=>t.n===c.w);
+  let body='';
+  if(chTab==='info')body=`<img class="card-img" src="${c.info}" alt="การ์ดข้อมูล ${esc(c.n)}" loading="lazy" data-zoom="${c.info}" data-cap="${esc(c.n)} · ข้อมูลและสกิล">`;
+  if(chTab==='build')body=`<img class="card-img" src="${c.build}" alt="บิลด์แนะนำ ${esc(c.n)}" loading="lazy" data-zoom="${c.build}" data-cap="${esc(c.n)} · บิลด์แนะนำ"><p class="src-note">ชื่อเกราะในการ์ดบิลด์อ้างอิง GameWith (27 พ.ย. 2026) บางชิ้นเป็นระดับที่ใหม่กว่าฐานข้อมูลของเว็บ</p>${wt?`<div><button class="btn btn-ghost btn-sm" data-chbuild="${wt.id}">เปิดหน้าจัดบิลด์ด้วย ${esc(c.w)}</button></div>`:''}`;
+  if(chTab==='guide')body=guides.map((g,i)=>`<img class="card-img" src="${g}" alt="ไกด์ ${esc(c.n)} หน้า ${i+1}" loading="lazy" data-zoom="${g}" data-cap="${esc(c.n)} · ไกด์ หน้า ${i+1}">`).join('');
+  if(chTab==='art')body=`<img class="card-img" src="${c.f}" alt="${esc(c.n)}" loading="lazy" data-zoom="${c.f}" data-cap="${esc(c.n)}">`+MEDIA.outfits.filter(o=>o.id.startsWith(c.id)).map(o=>`<img class="card-img" src="${o.full||o.img}" alt="คอสตูม" loading="lazy" data-zoom="${o.full||o.img}" data-cap="${esc(c.n)} · คอสตูม">`).join('');
+  $('#ch-detail').innerHTML=`<div class="ch-hero"><img src="${c.p}" alt="${esc(c.n)}" data-zoom="${c.f}" data-cap="${esc(c.n)}"><div><span class="rar" style="--rc:var(--brass)">${c.r}</span><h3>${esc(c.n)}</h3><dl class="kv"><dt>อาวุธ</dt><dd style="display:flex;gap:6px;align-items:center">${wIcon(slugify(c.w))}${esc(c.w)}${wt?' · '+wt.th:''}</dd><dt>ธาตุ</dt><dd>${EL_EN[c.el]?ei(EL_EN[c.el]):''} ${esc(c.el)} · ${EL_TH[c.el]||''}</dd></dl></div></div>
+   <div class="tabs" role="tablist">${tabs.map(([k,l])=>`<button role="tab" aria-selected="${k===chTab}" data-chtab="${k}">${l}</button>`).join('')}</div><div class="tab-body">${body}</div>`;
+}
+document.addEventListener('click',e=>{
+  const c=e.target.closest('[data-ch]');if(c){chSel=c.dataset.ch;if(location.hash!=='#adventurers')location.hash='adventurers';renderChars();if(innerWidth<980)setTimeout(()=>$('#ch-detail').scrollIntoView({block:'start'}),50)}
+  const t=e.target.closest('[data-chtab]');if(t){chTab=t.dataset.chtab;renderChars()}
+  const f=e.target.closest('[data-chf]');if(f){chF=f.dataset.chf;renderChars()}
+  const b=e.target.closest('[data-chbuild]');if(b){const w=WEAPONS.filter(x=>x.t===b.dataset.chbuild).sort((a,c)=>(c.atk??0)-(a.atk??0))[0];if(w){B.weapon=w.id;saveCur();renderBuilder()}location.hash='builder'}
+});
+function renderMedia(){
+  $('#gift-grid').innerHTML=MEDIA.gifts.map(g=>`<div class="gift"><img src="${g.img}" alt="" loading="lazy"><span>${esc(g.n)}</span></div>`).join('');
+  const BN={arya:'Arya',elwin:'Elwin'};
+  $('#bd-feature').innerHTML=MEDIA.buddies.map(b=>`<figure><img src="${b.img}" alt="${esc(b.n)}" loading="lazy" data-zoom="${b.img}" data-cap="${esc(b.n)}"><figcaption><b>${esc(b.n)}</b>${b.n==='Arya'?'บัดดี้คู่กับ Freya':b.n==='Elwin'?'บัดดี้คู่กับ Stylia':esc(b.note)}</figcaption></figure>`).join('');
+  $('#bc-grid').innerHTML=MEDIA.buddyCards.map((b,i)=>`<button data-zoom="${b.img}" data-cap="การ์ดบัดดี้ #${String(i+1).padStart(2,'0')}" aria-label="ขยายการ์ดบัดดี้ ${i+1}"><img src="${b.img}" alt="" loading="lazy"></button>`).join('');
+  const NEWS={'news-arya':'บัดดี้ใหม่ Arya','news-elwin':'บัดดี้ใหม่ Elwin','news-rosequeen':'คอสตูม Rose Queen (Freya)','news-silken':'คอสตูม Silken Dancer (Stylia)'};
+  $('#home-news').innerHTML=MEDIA.banners.filter(b=>NEWS[b.id]).map(b=>`<figure><img src="${b.img}" alt="${NEWS[b.id]}" loading="lazy" data-zoom="${b.img}" data-cap="${NEWS[b.id]}"><figcaption>${NEWS[b.id]}</figcaption></figure>`).join('');
+  const OF={'freya-rose-queen':'Rose Queen · Freya','stylia-silken-dancer':'Silken Dancer · Stylia','weapon-flying-feather':'Flying Feather · สกินธนู','buddy-flower-bearing-plume':'Flower-Bearing Plume · ชุดบัดดี้'};
+  $('#home-outfits').innerHTML=MEDIA.outfits.map(o=>`<figure><img src="${o.img}" alt="${OF[o.id]||o.id}" loading="lazy" data-zoom="${o.full||o.img}" data-cap="${OF[o.id]||o.id}"><figcaption>${OF[o.id]||o.id}</figcaption></figure>`).join('');
+  $('#home-chars').innerHTML=CH.slice(0,10).map(chCard).join('');
+}
+/* lightbox */
+document.addEventListener('click',e=>{const z=e.target.closest('[data-zoom]');if(!z)return;e.preventDefault();e.stopPropagation();$('#lb-img').src=z.dataset.zoom;$('#lb-img').alt=z.dataset.cap||'';$('#lb-cap').textContent=z.dataset.cap||'';$('#lb').hidden=false;$('#lb-scroll').scrollTop=0;document.body.style.overflow='hidden'},true);
+const lbClose=()=>{$('#lb').hidden=true;$('#lb-img').src='';document.body.style.overflow=''};
+$('#lb-close').addEventListener('click',lbClose);$('#lb').addEventListener('click',e=>{if(e.target.id==='lb'||e.target.id==='lb-scroll')lbClose()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#lb').hidden)lbClose()});
+renderChars();renderMedia();
+renderHome();renderMonsters();initArmor();renderArmor();renderWeapons();renderSkills();renderBuilder();route();
+</script>
