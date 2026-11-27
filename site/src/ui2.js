@@ -201,6 +201,7 @@ function monCardHTML(k){
    <div class="mbox"><h6>ส่วนอ่อน (ยิ่งมากยิ่งนิ่ม)</h6><table class="mt"><thead><tr><th>ส่วน</th><th>ตัด</th><th>ทุบ</th><th>กระสุน</th></tr></thead><tbody>${d.parts.map(p=>`<tr><td>${esc(p[0])}</td>${p.slice(1).map(v=>`<td class="num ${v===mxP?'hi':v<=1?'lo':''}">${v}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
    <div class="mbox"><h6>ไอเทม และพฤติกรรม</h6><div class="ib">${Object.entries(d.items).map(([a,b])=>`<div>${esc(a)}<b class="${col(b)}">${esc(b)}</b></div>`).join('')}${Object.entries(d.beh).map(([a,b])=>`<div>${esc(a)}<b class="${col(b)}">${esc(b)}</b></div>`).join('')}</div></div></div>
    <div class="mbox" style="font-size:14px">สถานะที่ใส่เรา: ${esc(d.inflicts)}<br>ส่วนที่ทำลายได้: ${esc(d.breakable)}<br>พื้นที่: ${esc(d.area)}</div>
+   ${d.note?`<div class="mbox" style="font-size:14px;border-left:3px solid var(--brass)">📌 ${esc(d.note)}</div>`:''}
    <div class="src2" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px"><span>ระดับดาว ${esc(d.rank)}</span><span>ค่า 1–3 · ยิ่งมากยิ่งได้ผล</span></div></div>`;
 }
 let monQ='';
