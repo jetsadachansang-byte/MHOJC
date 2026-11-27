@@ -244,10 +244,11 @@
 
 <section id="v-community" data-view="community" hidden>
   <div class="wrap view">
-    <div class="view-head"><div><div class="eyebrow">ชุมชน</div><h2>คลังบิลด์</h2><p>บิลด์ที่ผู้เล่นเผยแพร่ไว้ กด “เปิดในหน้าจัดบิลด์” เพื่อลองใช้ เฉพาะผู้ลงบิลด์เท่านั้นที่แก้ไขหรือลบได้</p></div></div>
-    <div class="chips" id="cm-tabs" style="margin-bottom:12px"></div>
+    <div class="view-head"><div><div class="eyebrow">ชุมชน</div><h2>คลังบิลด์</h2><p>บิลด์ที่ผู้เล่นเผยแพร่ไว้ กด “ดูบิลด์” เพื่อดูรายละเอียดทั้งหมด เฉพาะผู้ลงบิลด์เท่านั้นที่แก้ไขหรือลบได้</p></div></div>
+    <div id="cm-view" hidden></div>
+    <div id="cm-browse"><div class="chips" id="cm-tabs" style="margin-bottom:12px"></div>
     <input class="input" id="cm-q" type="search" placeholder="ค้นหาชื่อบิลด์ ผู้ลง หรืออาวุธ" style="margin-bottom:12px">
-    <div id="cm-list"></div>
+    <div id="cm-list"></div></div>
   </div>
 </section>
 
@@ -397,7 +398,7 @@ const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
 
 /* router */
 const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies'];
-function route(){let v=location.hash.slice(1);if(!VIEWS.includes(v))v='home';
+function route(){let v=location.hash.slice(1);if(/^b-[a-f0-9]{12}$/.test(v))v='community';if(!VIEWS.includes(v))v='home';
   document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
   if(v==='home')drawContour();window.scrollTo(0,0);}

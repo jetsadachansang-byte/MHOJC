@@ -446,7 +446,7 @@ async function cmOpen(id,edit){try{const j=await capi('',{id});const b=normalize
 const cmDate=t=>t?new Date(t).toLocaleDateString('th-TH',{day:'numeric',month:'short',year:'2-digit'}):'';
 function cmCard(s,mine){const w=W_BY[s.weapon];const wi=w&&(weaponImg(w.n)||MEDIA.weaponIcons[w.t]);
   return `<div class="saved-item" style="gap:10px;align-items:center">${wi?IMG(wi,'',w.n,'style="width:40px;height:40px;object-fit:contain"'):''}<span class="n" style="flex:1;min-width:0"><b>${esc(s.name)}</b><br><span class="muted" style="font-size:12px">${esc(s.author)} · ${w?esc(WT_BY[w.t].n)+' · '+esc(w.n):'ไม่มีอาวุธ'} · ${cmDate(s.updated)}${mine&&s.public===false?' · 🔒 ส่วนตัว':''}</span></span>
-   <button class="btn btn-ghost btn-sm" data-cmopen="${s.id}" type="button">เปิดในหน้าจัดบิลด์</button><button class="x-btn" data-cmlink="${s.id}" type="button">ลิงก์</button>${mine?`<button class="btn btn-ghost btn-sm" data-cmedit="${s.id}" type="button">แก้ไข</button><button class="x-btn" data-cmcode="${s.id}" type="button">รหัส</button><button class="x-btn" data-cmdel="${s.id}" type="button">ลบ</button>`:''}</div>`}
+   <a class="btn btn-ghost btn-sm" href="#b-${s.id}">ดูบิลด์</a><button class="x-btn" data-cmlink="${s.id}" type="button">ลิงก์</button>${mine?`<button class="btn btn-ghost btn-sm" data-cmedit="${s.id}" type="button">แก้ไข</button><button class="x-btn" data-cmcode="${s.id}" type="button">รหัส</button><button class="x-btn" data-cmdel="${s.id}" type="button">ลบ</button>`:''}</div>`}
 async function renderCommunity(){const L=$('#cm-list');if(!L)return;const o=OWN.get(),n=Object.keys(o).length;
   $('#cm-tabs').innerHTML=`<button class="chip" aria-pressed="${cmTab==='pub'}" data-cmtab="pub" type="button">บิลด์สาธารณะ</button><button class="chip" aria-pressed="${cmTab==='mine'}" data-cmtab="mine" type="button">บิลด์ของฉัน (${n})</button>`;
   const q=($('#cm-q').value||'').toLowerCase().trim();const f=a=>a.filter(s=>{if(!q)return true;const w=W_BY[s.weapon];return (s.name+' '+s.author+' '+(w?w.n+' '+WT_BY[w.t].n:'')).toLowerCase().includes(q)});
@@ -469,7 +469,25 @@ document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
   else if(g('#pub-save'))pubSave(false);else if(g('#pub-new'))pubSave(true);else if(g('#pub-del')&&EDIT)cmDel(EDIT);
 });
 let cmT;document.addEventListener('input',e=>{if(e.target.id==='cm-q'){clearTimeout(cmT);cmT=setTimeout(renderCommunity,150)}});
-function cmRoute(){const h=location.hash;const m=h.match(/^#b-([a-f0-9]{12})$/);if(m)cmOpen(m[1],true);else if(h==='#community'){cmPub=null;renderCommunity()}}
+function cmRoute(){const h=location.hash;const m=h.match(/^#b-([a-f0-9]{12})$/);$('#cm-view').hidden=!m;$('#cm-browse').hidden=!!m;if(m)cmView(m[1]);else if(h==='#community'){cmCur=null;cmPub=null;renderCommunity()}}
+let cmCur=null;
+function viewHTML(r,owner){const b=normalize(r.build)||EMPTY();const keep=B;B=b;let card;try{card=builderCardHTML().replace('<h6>บิลด์ของฉัน','<h6>'+esc(r.author))}finally{B=keep}
+  const R=compute(b),w=R.w;const ids=Object.keys(R.raw).sort((x,y)=>R.raw[y]-R.raw[x]);
+  const gear=[['อาวุธ',w,w&&w.m,w?`${esc(WT_BY[w.t].n)} · R${w.r} · ATK ${w.atk??'—'} · คริ ${affText(w.aff)}`:''],...SLOTS.map(sl=>{const a=b.armor[sl]&&AR_BY[b.armor[sl]];return [SLOT_TH[sl],a,a&&SET_BY[a.set]&&SET_BY[a.set].m,a?`ป้องกัน ${a.d} · ${a.s.map(([id,l])=>esc(SK[id].en)+' '+l).join(', ')}`:'']})]
+    .map(([lb,it,m,sub])=>`<div class="ol-row"><div class="k">${esc(lb)}</div><div class="v"><b>${it?esc(it.n):'<span class="muted">ว่าง</span>'}</b>${sub?`<span>${sub}</span>`:''}${it?bossHTML(m):''}</div></div>`).join('');
+  const sets=Object.entries(R.sets).map(([k,n])=>{const st=SET_BY[k],on=n>=st.b.p;return `<div class="ol-row ${on?'set':''}"><div class="k">${esc(st.n)}<small>ใส่ ${n}/${st.b.p} ชิ้น</small></div><div class="v"><b>${on?'✔ ':''}${esc(st.b.n)}</b><span>${esc(SK[st.b.s].en)} +${st.b.add} · ${esc(st.b.d)}</span></div></div>`}).join('');
+  const sk=ids.map(id=>{const s=SK[id],l=Math.min(R.raw[id],s.lv.length);return `<div class="ol-row"><div class="k">${esc(s.en)}<small>${esc(s.th)}</small></div><div class="v"><b>Lv${l}/${s.lv.length}</b><span>${esc(s.lv[l-1])}</span></div></div>`}).join('');
+  const m=MON_BY[b.target];let tg='';if(m&&m.w){tg=`${monIcon(m.k)} <b>${esc(m.n)}</b>`;if(w&&w.el){const v=m.w[WK.indexOf(w.el)];tg+=` · ${ei(w.el)} ${WK_TH[w.el]} ${stars(v,w.el)}`}tg+=` <span class="muted">· จุดอ่อน: ${esc(m.wp)}</span>`}
+  const cond=[['weak','โจมตีจุดอ่อน'],['enraged','มอนสเตอร์โกรธ'],['unleashed','Unleashed'],['radiant','Radiant']].filter(([k])=>b.cond[k]).map(x=>x[1]).join(', ');
+  const P=(t,h)=>h?`<div class="panel" style="margin-top:14px"><div class="panel-h"><h3>${t}</h3></div><div style="padding:12px 16px;display:grid;gap:8px">${h}</div></div>`:'';
+  return `<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px"><a class="btn btn-ghost btn-sm" href="#community">← กลับไปคลังบิลด์</a><button class="x-btn" data-cmlink="${r.id}" type="button">คัดลอกลิงก์</button>${owner?`<button class="btn btn-brass btn-sm" data-cmedit="${r.id}" type="button">แก้ไข (เจ้าของ)</button>`:''}</div>
+   <h2 style="margin:0">${esc(r.name)}</h2><p class="muted" style="margin:4px 0 0">โดย ${esc(r.author)} · อัปเดต ${cmDate(r.updated)}${r.public?'':' · 🔒 ส่วนตัว'}</p>${r.desc?`<p style="white-space:pre-wrap">${esc(r.desc)}</p>`:''}
+   <div style="margin-top:12px">${card}</div>
+   ${P('ค่าสถานะ',`<div class="stats"><div class="stat"><span>พลังโจมตี</span><b class="num">${w&&w.atk!=null?w.atk:'—'}</b></div><div class="stat"><span>คริติคอล</span><b class="num">${w?R.aff+'%':'—'}</b>${R.affParts.length?`<em>${R.affParts.join(', ')}</em>`:''}</div><div class="stat"><span>ธาตุ / สถานะ</span><b class="num" style="font-size:22px">${w&&w.el?`${ei(w.el)} ${R.ev}`:'—'}</b>${R.eb?`<em>ดาเมจธาตุ +${R.eb}%</em>`:''}</div><div class="stat"><span>ป้องกัน</span><b class="num">${R.def}</b>${R.hp?`<em>HP +${R.hp}</em>`:''}</div></div>`)}
+   ${P('เป้าหมาย',tg+(cond?`<div class="muted" style="font-size:13px">เงื่อนไขที่ตั้งไว้: ${cond}</div>`:''))}
+   ${P('อุปกรณ์และแหล่งที่มา',gear)}${P('เซ็ตเกราะ',sets)}${P('สกิลทั้งหมด ('+ids.length+')',sk)}`}
+async function cmView(id){const V=$('#cm-view');V.innerHTML='<div class="empty-note">กำลังโหลด…</div>';
+  try{const j=await capi('',{id});cmCur=j.build;V.innerHTML=viewHTML(j.build,j.owner)}catch(e){cmCur=null;V.innerHTML=`<a class="btn btn-ghost btn-sm" href="#community">← กลับไปคลังบิลด์</a><div class="empty-note">${e.status===403?'บิลด์นี้เป็นส่วนตัว':e.status===404?'ไม่พบบิลด์นี้ อาจถูกลบไปแล้ว':'โหลดไม่สำเร็จ'}</div>`}}
 window.addEventListener('hashchange',cmRoute);
 try{$('#pub-author').value=localStorage.getItem('mho_author')||''}catch(e){}
 pubForm();cmRoute();
