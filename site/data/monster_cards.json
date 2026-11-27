@@ -1762,7 +1762,7 @@
  "ruger-aidal": {
   "n": "Ruger Aidal",
   "cls": "Elder Dragons",
-  "rank": "ไม่ระบุ",
+  "rank": "★11",
   "el": {
    "Fire": 3,
    "Water": 1,
@@ -1816,7 +1816,8 @@
   },
   "inflicts": "ไฟลุก, มึน",
   "breakable": "หัว, ขาหน้า, ขาหลัง, ปีก, หาง, ลำตัว",
-  "area": "ไม่ระบุ"
+  "area": "ไม่มีในแผนที่ (เควสต์สตอรี่ / Apex Challenge)",
+  "note": "บอสของ Apex Challenge (ซีซั่น 0) เปิดหลังผ่านเควสต์สตอรี่ 45 เควสต์ตั้งแต่เปิดระบบซีซั่น · ใช้ Apex Challenge Pass ครั้งละ 1 ใบ (ได้ 3 ใบทุกวันจันทร์ 05:00) · รางวัล: Normal (พลังล่าแนะนำ 10500) Radiant Crystal ×4, Lucent Crystallite ×12 · Veteran (11163, ต้องมี Apex Weapon R9) Radiant Crystal ×6, Lucent Crystallite ×18 · Apex (16276, ต้องมี Apex Weapon R13) Radiant Crystal ×8, Lucent Crystallite ×24 · เคลียร์ครั้งแรก Normal/Apex ได้ Radiant Gem ×1 (ใช้สร้าง Apex Weapon) · วัตถุดิบจากการล่าปกติ: Ruger Aidal Prism Shell, Prismscale, Tail Blade, Crownhorn, Gleaming Claw, Crown Spikes, Gleaming Wingclaw, Crystal Gem, Skyglow Mane, Skyglow Radiantite · อุปกรณ์: ชุด Ruger Aidal Set และ Apex Weapon ทั้ง 8 แบบ"
  },
  "tobi-kadachi": {
   "n": "Tobi-Kadachi",
