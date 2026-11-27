@@ -365,6 +365,25 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .set-card .pc .sl{color:var(--muted);font-size:12px;padding-top:2px}
 .set-card .pc .nm{font-weight:600}
 .set-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.set-top2{display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.set-full{width:96px;height:144px;object-fit:contain;object-position:bottom;background:radial-gradient(ellipse at 50% 85%,var(--surface-2),transparent 70%);cursor:zoom-in}
+.set-full.ph{display:grid;place-items:center;color:var(--muted);font-size:11px;border:1px dashed var(--line-2)}
+.pc-icons{display:flex;gap:4px;margin-top:8px;flex-wrap:wrap}
+.pc-icons img,.pc-ic{width:40px;height:40px;object-fit:contain;background:var(--surface-2);border:1px solid var(--line)}
+.pc-ic{display:inline-grid;place-items:center;font-size:10px;color:var(--muted)}
+.set-card details>summary{cursor:pointer;list-style:none;padding:10px 16px;font-size:13px;color:var(--brass);font-family:var(--f-display);font-weight:600;border-bottom:1px solid var(--line)}
+.set-card details>summary::-webkit-details-marker{display:none}
+.set-card details>summary::before{content:"+ "}.set-card details[open]>summary::before{content:"− "}
+.set-card .pc{grid-template-columns:48px minmax(0,1fr) auto}
+.set-card .pc img.pi{width:44px;height:44px;object-fit:contain;background:var(--surface-2);border:1px solid var(--line)}
+.set-card .pc .sl{display:block}
+.hit-tag{outline:1px solid var(--brass);background:color-mix(in srgb,var(--brass) 18%,var(--surface-2))}
+.sk-hits{margin-bottom:18px}
+.sk-hits table{min-width:520px}
+.sk-hits td img{width:36px;height:36px;object-fit:contain;vertical-align:middle;background:var(--surface-2)}
+.gi{width:26px;height:26px;object-fit:contain;flex:none;background:var(--surface-2);border:1px solid var(--line)}
+.opt .nm .gi{width:32px;height:32px}
+.credit{display:block;margin-top:6px;font-size:12px}
 @media (max-width:420px){.set-grid{grid-template-columns:1fr}}
 .ar-filter{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,260px) minmax(0,200px);gap:10px;margin-bottom:18px}
 @media (max-width:760px){.ar-filter{grid-template-columns:1fr}}
@@ -481,7 +500,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   <div class="wrap view">
     <div class="routes">
       <a class="route" href="#builder"><span class="eyebrow">เครื่องมือ</span><h4>จัดบิลด์ 6 ช่อง</h4><p>อาวุธ 1 ชิ้น และเกราะหัว ลำตัว แขน เอว ขา ระบบรวมเลเวลสกิล บวกเลเวลจากเซ็ทเอฟเฟกต์ และสรุปออปชั่นทั้งหมดเป็นภาษาไทย</p></a>
-      <a class="route" href="#armor"><span class="eyebrow">ฐานข้อมูล</span><h4>ชุดเกราะ 40 ชุด</h4><p>เกราะครบ 200 ชิ้น พร้อมสกิลของแต่ละชิ้นและเซ็ทเอฟเฟกต์ที่ได้เมื่อใส่ครบ 2 หรือ 3 ชิ้น</p></a>
+      <a class="route" href="#armor"><span class="eyebrow">ฐานข้อมูล</span><h4>ชุดเกราะ 48 ชุด</h4><p>เกราะครบ 240 ชิ้น พร้อมไอคอนและรูปชุดเต็มตัว พร้อมสกิลของแต่ละชิ้นและเซ็ทเอฟเฟกต์ที่ได้เมื่อใส่ครบ 2 หรือ 3 ชิ้น</p></a>
       <a class="route" href="#skills"><span class="eyebrow">ข้อมูลอ้างอิง</span><h4>สกิล 88 อย่าง</h4><p>ผลของทุกเลเวลเป็นภาษาไทย และบอกว่าได้จากเกราะชิ้นไหนหรือเซ็ทไหน</p></a>
     </div>
     <div class="section">
@@ -587,12 +606,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <section id="v-armor" data-view="armor" hidden>
   <div class="wrap view">
-    <div class="view-head"><div><div class="eyebrow">ฐานข้อมูล</div><h2>ชุดเกราะ</h2><p>ชุดเกราะทั้ง 40 ชุด ค่าป้องกันและสกิลเป็นค่าของระดับสูงสุดของแต่ละชิ้น</p></div></div>
+    <div class="view-head"><div><div class="eyebrow">ฐานข้อมูล</div><h2>ชุดเกราะ</h2><p>ชุดเกราะทั้ง 48 ชุด 240 ชิ้น ค่าป้องกันและสกิลเป็นค่าของระดับสูงสุด (ระดับ 14) กด “ดูทั้ง 5 ชิ้น” เพื่อดูไอคอน สกิล และเซ็ทสกิล</p></div></div>
     <div class="ar-filter">
-      <input class="input" id="ar-q" type="search" placeholder="ค้นหาชื่อชุด ชิ้นเกราะ หรือมอนสเตอร์">
+      <input class="input" id="ar-q" type="search" placeholder="ค้นหาชื่อชุด ชิ้นเกราะ มอนสเตอร์ หรือสกิล เช่น Charge Enhancement">
       <select class="input" id="ar-skill" aria-label="กรองตามสกิล"></select>
       <select class="input" id="ar-sort" aria-label="เรียงลำดับ"><option value="r">เรียงตามระดับ</option><option value="def">เรียงตามป้องกัน</option><option value="n">เรียงตามชื่อ A–Z</option></select>
     </div>
+    <div class="sk-hits" id="ar-hits"></div>
     <div class="set-grid" id="ar-grid"></div>
   </div>
 </section>
@@ -634,7 +654,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 </main>
 
 <footer><div class="wrap">
-  <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับผู้พัฒนาหรือผู้จัดจำหน่ายเกม · ข้อมูลรวบรวมจากเว็บชุมชน (mhoutlandersbuild.com) อ้างอิง 3rd Closed Beta Test อาจต่างจากเกมจริง</span>
+  <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับผู้พัฒนาหรือผู้จัดจำหน่ายเกม · ภาพและชื่อในเกมเป็นลิขสิทธิ์ของ Capcom
+  <span class="credit">ข้อมูลชุดเกราะและภาพชุดเกราะ: <a href="https://gamewith.ai/monster-hunter-outlanders/en/armor" target="_blank" rel="noopener">GameWith.ai</a> · ข้อมูลอ้างอิงเพิ่มเติม: <a href="https://game8.co/games/Monster-Hunter-Outlanders" target="_blank" rel="noopener">Game8</a>, mhoutlandersbuild.com · ตัวเลขอาจต่างจากเกมจริงหลังอัปเดต</span></span>
   <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
 </div></footer>
 
@@ -690,8 +711,8 @@ const GEAR_SVG={weapon:'M26 3 29 6 13 22l2 2-2 2-2-2-4 4-3-3 4-4-2-2 2-2 2 2z',h
 const gIcon=k=>`<svg viewBox="0 0 32 32" aria-hidden="true"><path d="${GEAR_SVG[k]}"/></svg>`;
 const MM=MEDIA.monsters;
 const slugify=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-const monIcon=(k,cls='mi')=>MM[k]?`<img class="${cls}" src="${MM[k].icon}" alt="" loading="lazy">`:'';
-const wIcon=t=>MEDIA.weaponIcons[t]?`<img class="wi" src="${MEDIA.weaponIcons[t]}" alt="" loading="lazy">`:'';
+const monIcon=(k,cls='mi')=>MM[k]?`<img class="${cls}" src="${MM[k].icon}" alt="" loading="lazy" decoding="async">`:'';
+const wIcon=t=>MEDIA.weaponIcons[t]?`<img class="wi" src="${MEDIA.weaponIcons[t]}" alt="" loading="lazy" decoding="async">`:'';
 const EL_EN={Fire:'fire',Water:'water',Thunder:'thunder',Ice:'ice',Dragon:'dragon'};
 const setOfMon=n=>SETS.filter(s=>s.m===n);
 const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
@@ -749,16 +770,30 @@ document.addEventListener('click',e=>{
 });
 
 /* armor page */
+const pcIcon=(a,cls='gi')=>a&&a.icon?`<img class="${cls}" src="${a.icon}" alt="" loading="lazy" decoding="async">`:'';
+function skillFromQuery(q){if(!q)return null;q=q.toLowerCase();const ids=Object.keys(SK);return ids.find(id=>SK[id].en.toLowerCase()===q||SK[id].th===q)||(q.length>=4?ids.find(id=>SK[id].en.toLowerCase().includes(q)):null)}
 function renderArmor(){
-  const q=$('#ar-q').value.trim().toLowerCase(),sk=$('#ar-skill').value,so=$('#ar-sort').value;
+  const qRaw=$('#ar-q').value.trim(),q=qRaw.toLowerCase(),so=$('#ar-sort').value;
+  const qs=skillFromQuery(qRaw);const sk=$('#ar-skill').value||qs||'';
+  const textQ=qs&&!$('#ar-skill').value?'':q;
   let list=SETS.filter(s=>{const ps=ARMOR.filter(a=>a.set===s.k);
     if(sk&&!(s.b.s===sk||ps.some(p=>p.s.some(x=>x[0]===sk))))return false;
-    if(q&&!(s.n+' '+(s.m||'')+' '+ps.map(p=>p.n).join(' ')).toLowerCase().includes(q))return false;return true});
+    if(textQ&&!(s.n+' '+(s.m||'')+' '+s.b.n+' '+ps.map(p=>p.n).join(' ')).toLowerCase().includes(textQ))return false;return true});
   list.sort((a,b)=>so==='def'?b.def-a.def:so==='n'?a.n.localeCompare(b.n):b.r-a.r||b.def-a.def);
-  $('#ar-grid').innerHTML=list.length?list.map(s=>{const ps=SLOTS.map(sl=>AR_BY[s.k+'-'+sl]);return `<article class="set-card ${rcls(s.r)}">
-   <header><div style="display:flex;gap:10px;align-items:center">${s.m?monIcon(slugify(s.m)):''}<div><h4 class="rname">${esc(s.n)}</h4><span class="muted" style="font-size:12px">${s.m?'จาก '+esc(s.m)+' · ':''}ระดับ ${s.rmin===s.r?s.r:s.rmin+'–'+s.r}</span></div></div><span class="num muted" style="font-size:13px">ป้องกันรวม ${s.def}</span></header>
-   <div class="bonus"><span class="muted" style="font-size:12px">เซ็ทเอฟเฟกต์ · ใส่ ${s.b.p} ชิ้น</span><br><b>${esc(s.b.n)}</b><br>${esc(SK[s.b.s].en)} +${s.b.add} เลเวล · ${esc(s.b.d)}</div>
-   ${ps.map(p=>`<div class="pc"><span class="sl">${SLOT_TH[p.slot]}</span><div><div class="nm">${esc(p.n)}</div>${skTags(p.s)}</div><span class="num muted" style="font-size:12px">${p.d}</span></div>`).join('')}</article>`}).join(''):'<p class="muted">ไม่พบชุดเกราะที่ตรงกับตัวกรอง ลองล้างคำค้นหรือเลือกสกิลอื่น</p>';
+  // pieces having the skill
+  if(sk){const hits=ARMOR.filter(a=>a.s.some(x=>x[0]===sk)).map(a=>({a,lv:a.s.find(x=>x[0]===sk)[1]})).sort((x,y)=>y.lv-x.lv||y.a.d-x.a.d);
+    const sb=SETS.filter(s=>s.b.s===sk);
+    $('#ar-hits').innerHTML=`<h3 style="font-size:18px;margin-bottom:10px">ชิ้นเกราะที่มี ${esc(SK[sk].en)} <span class="muted" style="font-size:14px;font-weight:400">${esc(SK[sk].th)} · ${hits.length} ชิ้น${sb.length?` · เซ็ทสกิล ${sb.length} ชุด`:''}</span></h3>
+    <div class="tbl-wrap"><table><thead><tr><th></th><th>ชิ้นเกราะ</th><th>ส่วน</th><th>เลเวล</th><th>ชุด</th><th>ป้องกัน</th></tr></thead><tbody>${hits.map(({a,lv})=>`<tr><td>${a.icon?`<img src="${a.icon}" alt="" loading="lazy" decoding="async">`:''}</td><td style="font-weight:600">${esc(a.n)}</td><td>${SLOT_TH[a.slot]}</td><td class="num">Lv${lv}</td><td>${esc(SET_BY[a.set].n)}</td><td class="num">${a.d}</td></tr>`).join('')}${sb.map(s=>`<tr><td></td><td style="font-weight:600;color:var(--moss)">${esc(s.b.n)}</td><td>เซ็ทสกิล</td><td class="num">+${s.b.add}</td><td>${esc(s.n)} · ${s.b.p} ชิ้น</td><td></td></tr>`).join('')}</tbody></table></div>`}
+  else $('#ar-hits').innerHTML='';
+  $('#ar-grid').innerHTML=list.length?list.map(s=>{const ps=SLOTS.map(sl=>AR_BY[s.k+'-'+sl]);const open=!!sk||!!textQ;return `<article class="set-card ${rcls(s.r)}">
+   <div class="set-top2">${s.full?`<img class="set-full" src="${s.full}" alt="${esc(s.n)}" loading="lazy" decoding="async" data-zoom="${s.full}" data-cap="${esc(s.n)}">`:'<span class="set-full ph">ไม่มีรูป</span>'}
+    <div style="min-width:0"><div style="display:flex;gap:8px;align-items:center">${s.m?monIcon(slugify(s.m)):''}<h4 class="rname" style="font-size:18px">${esc(s.n)}</h4></div>
+     <div class="muted" style="font-size:12px">${s.m?'จาก '+esc(s.m)+' · ':''}ระดับ ${s.rmin===s.r?s.r:s.rmin+'–'+s.r} · ป้องกันรวม ${s.def}</div>
+     <div style="font-size:13px;margin-top:6px"><b style="font-family:var(--f-display);color:var(--moss)">${esc(s.b.n)}</b> <span class="muted">(${s.b.p} ชิ้น)</span><br>${esc(SK[s.b.s].en)} +${s.b.add} · ${esc(s.b.d)}</div>
+     <div class="pc-icons">${ps.map(p=>p.icon?`<img src="${p.icon}" alt="${esc(p.n)}" title="${esc(p.n)}" loading="lazy" decoding="async">`:`<span class="pc-ic" title="${esc(p.n)}">${SLOT_TH[p.slot]}</span>`).join('')}</div></div></div>
+   <details ${open?'open':''}><summary>ดูทั้ง 5 ชิ้น</summary>
+   ${ps.map(p=>`<div class="pc">${p.icon?`<img class="pi" src="${p.icon}" alt="" loading="lazy" decoding="async">`:'<span class="pc-ic">—</span>'}<div><span class="sl">${SLOT_TH[p.slot]}</span><div class="nm">${esc(p.n)}</div><span class="tags">${p.s.map(([id,lv])=>`<span class="tag ${id===sk?'hit-tag':''}" title="${esc(SK[id].th)}">${esc(SK[id].en)} <b>${lv}</b></span>`).join('')}</span></div><span class="num muted" style="font-size:12px">${p.d}</span></div>`).join('')}</details></article>`}).join(''):'<p class="muted">ไม่พบชุดเกราะที่ตรงกับตัวกรอง ลองล้างคำค้นหรือเลือกสกิลอื่น</p>';
 }
 function initArmor(){
   const used=[...new Set(ARMOR.flatMap(a=>a.s.map(x=>x[0])).concat(SETS.map(s=>s.b.s)))].sort((a,b)=>SK[a].en.localeCompare(SK[b].en));
@@ -797,7 +832,7 @@ $('#sk-q').addEventListener('input',renderSkills);
 document.addEventListener('click',e=>{const c=e.target.closest('[data-skcat]');if(c){skCat=c.dataset.skcat;renderSkills()}});
 
 /* builder */
-const SAMPLE={weapon:'long-sword--wyvern-blade-blood',armor:{head:'rathalos-head',chest:'rathalos-chest',arms:'rathalos-arms',waist:'radiant-kulu-ya-ku-waist',legs:'radiant-kulu-ya-ku-legs'},target:'legiana',cond:{weak:true,enraged:false,unleashed:false,radiant:false}};
+const SAMPLE={weapon:'long-sword--wyvern-blade-blood',armor:{head:'radiant-rathalos-head',chest:'radiant-rathalos-chest',arms:'radiant-rathalos-arms',waist:'rathalos-waist',legs:'rathalos-legs'},target:'legiana',cond:{weak:true,enraged:false,unleashed:false,radiant:false}};
 const EMPTY=()=>({weapon:null,armor:{head:null,chest:null,arms:null,waist:null,legs:null},target:'',cond:{weak:true,enraged:false,unleashed:false,radiant:false}});
 function normalize(b){if(!b||typeof b!=='object')return null;const e=EMPTY();if(b.target&&!(MON_BY[b.target]&&MON_BY[b.target].w))b.target='';e.weapon=W_BY[b.weapon]?b.weapon:null;SLOTS.forEach(s=>{const id=b.armor&&b.armor[s];e.armor[s]=AR_BY[id]&&AR_BY[id].slot===s?id:null});e.target=MON_BY[b.target]?b.target:'';e.cond=Object.assign(e.cond,b.cond||{});return e}
 function sampleBuild(){const b=JSON.parse(JSON.stringify(SAMPLE));if(!W_BY[b.weapon]){const w=WEAPONS.find(x=>x.t==='long-sword'&&x.el==='fire')||WEAPONS[0];b.weapon=w.id}return normalize(b)}
@@ -827,7 +862,7 @@ function compute(b=B){
 function renderBuilder(){
   const R=compute(),w=R.w;
   const filled=(w?1:0)+SLOTS.filter(s=>B.armor[s]).length;$('#bd-filled').textContent=`ใส่แล้ว ${filled}/6 ช่อง`;
-  const row=(key,icon,label,item,sub)=>`<div class="gear-row ${item?rcls(item.r||SET_BY[item.set].r):''}"><div class="gear-ic">${icon==='weapon'&&item&&MEDIA.weaponIcons[item.t]?`<img src="${MEDIA.weaponIcons[item.t]}" alt="" style="width:34px;height:34px;filter:var(--icon-filter)">`:gIcon(icon)}</div><div class="gear-main"><button class="gear-pick" data-pick="${key}"><span class="lbl">${label}</span><span class="nm ${item?'':'empty'}">${item?`<span class="rname">${esc(item.n)}</span>`:'+ เลือก'+label}</span></button>${item?`<div class="gear-sub">${sub}<button class="x-btn" data-unequip="${key}" aria-label="ถอด${label}">ถอด</button></div>`:''}</div></div>`;
+  const row=(key,icon,label,item,sub)=>`<div class="gear-row ${item?rcls(item.r||SET_BY[item.set].r):''}"><div class="gear-ic">${item&&item.icon?`<img src="${item.icon}" alt="" style="width:48px;height:48px;object-fit:contain">`:icon==='weapon'&&item&&MEDIA.weaponIcons[item.t]?`<img src="${MEDIA.weaponIcons[item.t]}" alt="" style="width:34px;height:34px;filter:var(--icon-filter)">`:gIcon(icon)}</div><div class="gear-main"><button class="gear-pick" data-pick="${key}"><span class="lbl">${label}</span><span class="nm ${item?'':'empty'}">${item?`<span class="rname">${esc(item.n)}</span>`:'+ เลือก'+label}</span></button>${item?`<div class="gear-sub">${sub}<button class="x-btn" data-unequip="${key}" aria-label="ถอด${label}">ถอด</button></div>`:''}</div></div>`;
   let h=row('weapon','weapon','อาวุธ',w,w?`<span class="muted">${WT_BY[w.t].n}</span><span class="rar">R${w.r}</span><span class="num">โจมตี ${w.atk??'—'}</span><span>คริ ${affText(w.aff)}</span>${elemText(w)}`:'');
   SLOTS.forEach(s=>{const a=B.armor[s]&&AR_BY[B.armor[s]];h+=row(s,s,SLOT_TH[s],a,a?`${skTags(a.s)}<span class="num muted">ป้องกัน ${a.d}</span>`:'')});
   $('#gear').innerHTML=h;
@@ -863,7 +898,7 @@ function renderBuilder(){
   // sets
   const sk=Object.keys(R.sets).sort((a,b)=>R.sets[b]-R.sets[a]);
   $('#bd-sets').innerHTML=sk.length?sk.map(k=>{const s=SET_BY[k],n=R.sets[k],on=n>=s.b.p;return `<div class="set-row ${rcls(s.r)}"><div class="set-top"><b class="rname">${esc(s.n)}</b><span class="pcs">${[1,2,3,4,5].map(i=>`<i class="${i<=n?'on':''}"></i>`).join('')} ${n}/5</span></div>
-    <div class="set-pieces">ใส่อยู่: ${SLOTS.filter(sl=>B.armor[sl]&&AR_BY[B.armor[sl]].set===k).map(sl=>SLOT_TH[sl]).join(', ')}</div>
+    <div class="set-pieces" style="display:flex;gap:6px;align-items:center;flex-wrap:wrap">ใส่อยู่: ${SLOTS.filter(sl=>B.armor[sl]&&AR_BY[B.armor[sl]].set===k).map(sl=>`${pcIcon(AR_BY[B.armor[sl]])}${SLOT_TH[sl]}`).join(' ')}</div>
     <div class="set-tier ${on?'on':''}"><span class="badge">${on?'ได้รับแล้ว':'ใส่อีก '+(s.b.p-n)+' ชิ้น'}</span><div><b>${s.b.p} ชิ้น · ${esc(s.b.n)}</b><span>${esc(SK[s.b.s].en)} +${s.b.add} เลเวล · ${esc(s.b.d)}</span></div></div></div>`}).join(''):'<div class="empty-note">ยังไม่ได้ใส่เกราะ เซ็ทเอฟเฟกต์จะขึ้นเมื่อใส่ชุดเดียวกันตั้งแต่ 1 ชิ้น</div>';
 
   // skill detail
@@ -903,7 +938,7 @@ function renderPicker(){
     if(isW)meta=`<span class="num">โจมตี ${it.atk??'—'} · คริ ${it.aff??'—'}%</span>${elemText(it)}<span class="muted">R${it.r}${it.m?' · '+esc(it.m):''}</span>`;
     else{const st=SET_BY[it.set];meta=`<span class="num">ป้องกัน ${it.d}</span><span class="muted" style="font-size:12px">เซ็ท ${st.b.p} ชิ้น: ${esc(st.b.n)}</span>`;tags=skTags(it.s)}
     const rc=rcls(isW?it.r:SET_BY[it.set].r);
-    return `<button class="opt ${rc} ${it.id===cur?'cur':''}" data-choose="${it.id}"><span class="nm"><span class="rname">${esc(it.n)}</span>${it.id===cur?'<span class="muted" style="font-size:12px;font-weight:500">กำลังใส่</span>':''}</span><span class="meta">${meta}</span>${tags}</button>`}).join('');
+    return `<button class="opt ${rc} ${it.id===cur?'cur':''}" data-choose="${it.id}"><span class="nm">${isW?'':pcIcon(it)}<span class="rname">${esc(it.n)}</span>${it.id===cur?'<span class="muted" style="font-size:12px;font-weight:500">กำลังใส่</span>':''}</span><span class="meta">${meta}</span>${tags}</button>`}).join('');
   if(!items.length)h+='<div class="empty-note">ไม่พบรายการที่ตรงกับตัวกรอง ลองล้างคำค้นหรือเปลี่ยนสกิล</div>';
   $('#sheet-list').innerHTML=h;$('#sheet-list').scrollTop=0;
 }
@@ -940,7 +975,7 @@ $('#theme-btn').addEventListener('click',()=>{const r=document.documentElement,c
 /* characters */
 const CH=MEDIA.characters;let chSel=CH[0].id,chTab='info',chF='ทั้งหมด';
 const EL_TH={Fire:'ไฟ',Water:'น้ำ',Thunder:'สายฟ้า',Ice:'น้ำแข็ง',Dragon:'มังกร'};
-const chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span><img src="${c.p}" alt="${esc(c.n)}" loading="lazy"><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
+const chCard=c=>`<button class="ch-card" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span><img src="${c.p}" alt="${esc(c.n)}" loading="lazy" decoding="async"><span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${EL_EN[c.el]?ei(EL_EN[c.el]):''}${EL_TH[c.el]||c.el}</span></span></button>`;
 function renderChars(){
   const opts=['ทั้งหมด','SSR','SR',...WTYPES.map(t=>t.n).filter(n=>CH.some(c=>c.w===n))];
   $('#ch-filter').innerHTML=opts.map(o=>`<button class="chip" aria-pressed="${o===chF}" data-chf="${esc(o)}">${esc(o)}</button>`).join('');
@@ -965,10 +1000,10 @@ document.addEventListener('click',e=>{
   const b=e.target.closest('[data-chbuild]');if(b){const w=WEAPONS.filter(x=>x.t===b.dataset.chbuild).sort((a,c)=>(c.atk??0)-(a.atk??0))[0];if(w){B.weapon=w.id;saveCur();renderBuilder()}location.hash='builder'}
 });
 function renderMedia(){
-  $('#gift-grid').innerHTML=MEDIA.gifts.map(g=>`<div class="gift"><img src="${g.img}" alt="" loading="lazy"><span>${esc(g.n)}</span></div>`).join('');
+  $('#gift-grid').innerHTML=MEDIA.gifts.map(g=>`<div class="gift"><img src="${g.img}" alt="" loading="lazy" decoding="async"><span>${esc(g.n)}</span></div>`).join('');
   const BN={arya:'Arya',elwin:'Elwin'};
   $('#bd-feature').innerHTML=MEDIA.buddies.map(b=>`<figure><img src="${b.img}" alt="${esc(b.n)}" loading="lazy" data-zoom="${b.img}" data-cap="${esc(b.n)}"><figcaption><b>${esc(b.n)}</b>${b.n==='Arya'?'บัดดี้คู่กับ Freya':b.n==='Elwin'?'บัดดี้คู่กับ Stylia':esc(b.note)}</figcaption></figure>`).join('');
-  $('#bc-grid').innerHTML=MEDIA.buddyCards.map((b,i)=>`<button data-zoom="${b.img}" data-cap="การ์ดบัดดี้ #${String(i+1).padStart(2,'0')}" aria-label="ขยายการ์ดบัดดี้ ${i+1}"><img src="${b.img}" alt="" loading="lazy"></button>`).join('');
+  $('#bc-grid').innerHTML=MEDIA.buddyCards.map((b,i)=>`<button data-zoom="${b.img}" data-cap="การ์ดบัดดี้ #${String(i+1).padStart(2,'0')}" aria-label="ขยายการ์ดบัดดี้ ${i+1}"><img src="${b.img}" alt="" loading="lazy" decoding="async"></button>`).join('');
   const NEWS={'news-arya':'บัดดี้ใหม่ Arya','news-elwin':'บัดดี้ใหม่ Elwin','news-rosequeen':'คอสตูม Rose Queen (Freya)','news-silken':'คอสตูม Silken Dancer (Stylia)'};
   $('#home-news').innerHTML=MEDIA.banners.filter(b=>NEWS[b.id]).map(b=>`<figure><img src="${b.img}" alt="${NEWS[b.id]}" loading="lazy" data-zoom="${b.img}" data-cap="${NEWS[b.id]}"><figcaption>${NEWS[b.id]}</figcaption></figure>`).join('');
   const OF={'freya-rose-queen':'Rose Queen · Freya','stylia-silken-dancer':'Silken Dancer · Stylia','weapon-flying-feather':'Flying Feather · สกินธนู','buddy-flower-bearing-plume':'Flower-Bearing Plume · ชุดบัดดี้'};

@@ -1,0 +1,4687 @@
+{
+ "source": "GameWith.ai (EN) armor pages, 27 Nov 2026",
+ "note": "Icons cut from GameWith icons (84px originals upscaled with Lanczos to 256px where noted). Full-body images: the larger of the male/female previews; small 180x300 previews were upscaled 2x.",
+ "sets": [
+  {
+   "set": "Adventurers' Guild",
+   "slug": "adventurers-guild",
+   "rarity": "1-11",
+   "monster": null,
+   "set_skill": "Guild's Comeback (2 pieces: Adversity +1)",
+   "set_skill_detail": {
+    "name": "Guild's Comeback",
+    "pieces": 2,
+    "skill": "Adversity",
+    "add": 1,
+    "effect": "Each time health is depleted, damage dealt and defense are multiplied by 1.1x and defense +10 for the rest of the hunt (up to 2 times)."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/adventurers-guild",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Guild Helm",
+     "defense": 146,
+     "rarity_shown": 11,
+     "skills": [
+      "Guild Might - Helm 11",
+      "Recovery Booster 1",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/adventurers-guild/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_16.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Guild Mail",
+     "defense": 146,
+     "rarity_shown": 11,
+     "skills": [
+      "Guild Might - Mail 11",
+      "Blessing 1",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/adventurers-guild/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_17.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Guild Gauntlets",
+     "defense": 146,
+     "rarity_shown": 11,
+     "skills": [
+      "Guild Might - Gauntlets 11",
+      "Blessing 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/adventurers-guild/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_18.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Guild Coil",
+     "defense": 146,
+     "rarity_shown": 11,
+     "skills": [
+      "Guild Might - Coil 11",
+      "Blessing 1",
+      "Flinching-Free 1"
+     ],
+     "icon": "12-armor/adventurers-guild/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_19.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Guild Greaves",
+     "defense": 146,
+     "rarity_shown": 11,
+     "skills": [
+      "Guild Might - Greaves 11",
+      "Quick-Bite 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/adventurers-guild/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_20.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/adventurers-guild/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/1fe20bfb39db2eadbaba507626487615.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/adventurers-guild/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/67f3407a90c531e257933933e16d3dff.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Alloy",
+   "slug": "alloy",
+   "rarity": "3-14",
+   "monster": null,
+   "set_skill": "Alloy Barrier (2 pieces: Windproof +1)",
+   "set_skill_detail": {
+    "name": "Alloy Barrier",
+    "pieces": 2,
+    "skill": "Windproof",
+    "add": 1,
+    "effect": "Reduces the effects of minor wind pressure."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/alloy",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Alloy Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Resistance 1",
+      "Offensive Defense 2",
+      "Breaker 1"
+     ],
+     "icon": "12-armor/alloy/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_61.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Alloy Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Immovable Stance 1",
+      "Breaker 1",
+      "Poison Resistance 1"
+     ],
+     "icon": "12-armor/alloy/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_62.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Alloy Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Windproof 1",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/alloy/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_63.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Alloy Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Windproof 1",
+      "Immovable Stance 1",
+      "Water Resistance 1"
+     ],
+     "icon": "12-armor/alloy/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_64.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Alloy Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Offensive Defense 1",
+      "Defense Up 1",
+      "Poison Resistance 1"
+     ],
+     "icon": "12-armor/alloy/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_65.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/alloy/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/125892c625e30b5d4502298defd7bfdb.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/alloy/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/ea5775c07b202942ba40ae582ead6241.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Anjanath",
+   "slug": "anjanath",
+   "rarity": "3-14",
+   "monster": "Anjanath",
+   "set_skill": "Anjanath Ember (3 pieces: Fire Damage Up +1)",
+   "set_skill_detail": {
+    "name": "Anjanath Ember",
+    "pieces": 3,
+    "skill": "Fire Damage Up",
+    "add": 1,
+    "effect": "Fire damage +3%; +8% instead against Radiant monsters."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/anjanath",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Anja Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Weakspot Follow-Up 1",
+      "Wrecker 2",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/anjanath/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_66.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Anja Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Resistance 1",
+      "Charge Enhancement 2",
+      "Weakspot Follow-Up 1"
+     ],
+     "icon": "12-armor/anjanath/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_67.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Anja Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Weakspot Follow-Up 1",
+      "Health Cycle 1",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/anjanath/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_68.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Anja Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 2",
+      "Health Cycle 1",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/anjanath/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_69.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Anja Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 1",
+      "Health Cycle 1",
+      "Adversity 1"
+     ],
+     "icon": "12-armor/anjanath/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_70.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/anjanath/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/13a1ec7e4bba28f6c21dfcff27e6413d.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/anjanath/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/5addf9da0586d64542c77950c934e258.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Baan",
+   "slug": "baan",
+   "rarity": "7-14",
+   "monster": "Radobaan",
+   "set_skill": "Radobaan's Bulwark (2 pieces: Iron Skin +1)",
+   "set_skill_detail": {
+    "name": "Radobaan's Bulwark",
+    "pieces": 2,
+    "skill": "Iron Skin",
+    "add": 1,
+    "effect": "Shortens the duration of defense down by 50%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/baan",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Baan Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 2",
+      "Fearless 1",
+      "Bleeding Resistance 1"
+     ],
+     "icon": "12-armor/baan/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_161.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Baan Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Intimidation 2",
+      "Fearless 1",
+      "Bleeding Resistance 1"
+     ],
+     "icon": "12-armor/baan/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_162.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Baan Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 3",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/baan/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_163.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Baan Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Sleep Resistance 1",
+      "Immovable Stance 3"
+     ],
+     "icon": "12-armor/baan/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_164.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Baan Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Iron Skin 2",
+      "Bleeding Resistance 1"
+     ],
+     "icon": "12-armor/baan/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_165.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/baan/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/2dfd9da435beb17602f9ba968fa9fc2e.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/baan/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/48791308c326dadc044f47ce9eaa2bab.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Barroth",
+   "slug": "barroth",
+   "rarity": "2-14",
+   "monster": "Barroth",
+   "set_skill": "Barroth Mudguard (2 pieces: Muck Resistance +1)",
+   "set_skill_detail": {
+    "name": "Barroth Mudguard",
+    "pieces": 2,
+    "skill": "Muck Resistance",
+    "add": 1,
+    "effect": "Reduces limits on movement speed and evasion."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/barroth",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Barroth Helm",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Battle Spirit 1",
+      "Immovable Stance 2",
+      "Stun Resistance 1"
+     ],
+     "icon": "12-armor/barroth/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_31.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Barroth Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Battle Spirit 1",
+      "Pierce 2",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/barroth/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_32.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Barroth Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Stun Resistance 1",
+      "Guard Technique 1"
+     ],
+     "icon": "12-armor/barroth/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_33.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Barroth Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Immovable Stance 1",
+      "Defense Up 2"
+     ],
+     "icon": "12-armor/barroth/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_34.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Barroth Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Battle Spirit 1",
+      "Guard Technique 1",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/barroth/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_35.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/barroth/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/fd09bc0750d4efcc28d5dcc74688fd89.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/barroth/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/cf109291f528e8cd17e12433d32d8732.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Black Diablos",
+   "slug": "black-diablos",
+   "rarity": "13-14",
+   "monster": "Black Diablos",
+   "set_skill": "Black Diablos's Rampart (2 pieces: Sturdy Guard +1)",
+   "set_skill_detail": {
+    "name": "Black Diablos's Rampart",
+    "pieces": 2,
+    "skill": "Sturdy Guard",
+    "add": 1,
+    "effect": "Allows you to guard against ordinarily unblockable attacks."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/black-diablos",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Diablos Nero Helm",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Damage Up 2",
+      "Fearless 1",
+      "Guard Technique 1"
+     ],
+     "icon": null,
+     "source": null,
+     "icon_upscaled_from": 100
+    },
+    {
+     "part": "chest",
+     "name": "Diablos Nero Mail",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Morph Boost 2",
+      "Fearless 1",
+      "Guard Technique 1"
+     ],
+     "icon": null,
+     "source": null,
+     "icon_upscaled_from": 100
+    },
+    {
+     "part": "arms",
+     "name": "Diablos Nero Vambraces",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Stun Resistance 2",
+      "Tremor Resistance 1"
+     ],
+     "icon": "12-armor/black-diablos/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_239.png"
+    },
+    {
+     "part": "waist",
+     "name": "Diablos Nero Coil",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Damage Up 3",
+      "Stun Resistance 1"
+     ],
+     "icon": "12-armor/black-diablos/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_240.png"
+    },
+    {
+     "part": "legs",
+     "name": "Diablos Nero Greaves",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 3",
+      "Guard Technique 1"
+     ],
+     "icon": "12-armor/black-diablos/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_241.png"
+    }
+   ],
+   "full": "12-armor/black-diablos/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/2f7ff8df0870260790a86856871d3850.png",
+   "full_alt": "12-armor/black-diablos/full-alt.png",
+   "full_alt_variant": "female",
+   "full_alt_source": "https://img.gamewith.jp/img/a6ae7d6f886c74b64aa510961f5490fd.png"
+  },
+  {
+   "set": "Bone",
+   "slug": "bone",
+   "rarity": "2-14",
+   "monster": null,
+   "set_skill": "Sepulcros Divinity (3 pieces: Dragon Damage Up +1)",
+   "set_skill_detail": {
+    "name": "Sepulcros Divinity",
+    "pieces": 3,
+    "skill": "Dragon Damage Up",
+    "add": 1,
+    "effect": "Dragon damage +3%; +8% instead against Radiant monsters."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/bone",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Bone Helm",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Morph Boost 2",
+      "Health Boost 1",
+      "Breaker 1"
+     ],
+     "icon": "12-armor/bone/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_46.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Bone Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Damage Up 1",
+      "Health Recovery 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/bone/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_47.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Bone Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Breaker 1",
+      "Specimen Expert 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/bone/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_48.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Bone Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Specimen Expert 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/bone/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_49.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Bone Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Stun Resistance 1",
+      "Dragon Damage Up 2",
+      "Breaker 1"
+     ],
+     "icon": "12-armor/bone/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_50.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/bone/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/9fc8717f0f7067e34dc3d6eb4ed00cb6.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/bone/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/b5ce0f914ef8016f4c94772ce5aabf45.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Butterfly",
+   "slug": "butterfly",
+   "rarity": "4-14",
+   "monster": null,
+   "set_skill": "Butterfly Bond (2 pieces: Sleep Resistance +1)",
+   "set_skill_detail": {
+    "name": "Butterfly Bond",
+    "pieces": 2,
+    "skill": "Sleep Resistance",
+    "add": 1,
+    "effect": "Shortens the duration of sleep by 30%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/butterfly",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Butterfly Vertex",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 2",
+      "Insight 1",
+      "Improviser 1"
+     ],
+     "icon": "12-armor/butterfly/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_91.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Butterfly Thorax",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 1",
+      "Insight 1",
+      "Improviser 1"
+     ],
+     "icon": "12-armor/butterfly/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_92.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Butterfly Brachia",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Sleep Resistance 1",
+      "Counter Boost 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/butterfly/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_93.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Butterfly Elytra",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Sleep Resistance 1",
+      "Honey Harvester 1"
+     ],
+     "icon": "12-armor/butterfly/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_94.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Butterfly Crura",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 1",
+      "Ballistics 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/butterfly/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_95.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/butterfly/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/9196c952727831eff932a15c94630eff.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/butterfly/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/0c29cb5e79472c67442d49e1a2a29a8e.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Chainmail",
+   "slug": "chainmail",
+   "rarity": "1-14",
+   "monster": null,
+   "set_skill": "Coldsteel Craft (3 pieces: Ice Damage Up +1)",
+   "set_skill_detail": {
+    "name": "Coldsteel Craft",
+    "pieces": 3,
+    "skill": "Ice Damage Up",
+    "add": 1,
+    "effect": "Ice damage +3%; +8% instead against Radiant monsters."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/chainmail",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Chainmail Headgear",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Damage Up 1",
+      "Water Resistance 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/chainmail/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_21.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Chainmail Vest",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Resistance 1",
+      "Guard Technique 1"
+     ],
+     "icon": "12-armor/chainmail/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_22.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Chainmail Gloves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 1",
+      "Water Resistance 1",
+      "Guard Technique 1"
+     ],
+     "icon": "12-armor/chainmail/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_23.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Chainmail Belt",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Unleashed 1",
+      "Ice Damage Up 2",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/chainmail/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_24.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Chainmail Trousers",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Intimidation 2",
+      "Health Recovery 1",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/chainmail/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_25.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/chainmail/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/7cb8e1b4f0375c90eb42ea91773baad3.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/chainmail/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/b041e85342d8e23687ed222650156000.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Diablos",
+   "slug": "diablos",
+   "rarity": "7-14",
+   "monster": "Diablos",
+   "set_skill": "Diablos's Footing (2 pieces: Tremor Resistance +1)",
+   "set_skill_detail": {
+    "name": "Diablos's Footing",
+    "pieces": 2,
+    "skill": "Tremor Resistance",
+    "add": 1,
+    "effect": "Nullifies minor ground tremors."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/diablos",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Diablos Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Tremor Resistance 2",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/diablos/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_156.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Diablos Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Damage Up 3",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/diablos/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_157.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Diablos Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Bento Lover 2",
+      "Weakspot Follow-Up 1",
+      "Guard Technique 1"
+     ],
+     "icon": "12-armor/diablos/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_158.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Diablos Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Pierce 2",
+      "Guard Technique 1",
+      "Weakspot Follow-Up 1"
+     ],
+     "icon": "12-armor/diablos/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_159.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Diablos Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Bento Lover 3",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/diablos/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_160.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/diablos/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/0c7b187205ae27580e79759aa3875b9e.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/diablos/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/d13c560a5c34434825c53bff87d53f7d.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Great Girros",
+   "slug": "great-girros",
+   "rarity": "2-14",
+   "monster": "Great Girros",
+   "set_skill": "Great Girros Ambush (3 pieces: Thunder Damage Up +1)",
+   "set_skill_detail": {
+    "name": "Great Girros Ambush",
+    "pieces": 3,
+    "skill": "Thunder Damage Up",
+    "add": 1,
+    "effect": "Thunder damage +3%; +8% instead against Radiant monsters."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/great-girros",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Girros Mask",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 2",
+      "Paralysis Resistance 1"
+     ],
+     "icon": "12-armor/great-girros/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_41.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Girros Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Damage Up 1",
+      "Improviser 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/great-girros/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_42.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Girros Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Damage Up 2",
+      "Deterrence 1",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/great-girros/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_43.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Girros Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Relentless Pursuit 2",
+      "Buddy Boost 1"
+     ],
+     "icon": "12-armor/great-girros/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_44.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Girros Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 1",
+      "Paralysis Resistance 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/great-girros/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_45.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/great-girros/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/1c4fbc45304c0b32bb213df2be15dba1.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/great-girros/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/5894524a56f81de1fc32e846cc8bfcd6.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Great Jagras",
+   "slug": "great-jagras",
+   "rarity": "1-14",
+   "monster": "Great Jagras",
+   "set_skill": "Great Jagras Resistance (2 pieces: Stun Resistance +1)",
+   "set_skill_detail": {
+    "name": "Great Jagras Resistance",
+    "pieces": 2,
+    "skill": "Stun Resistance",
+    "add": 1,
+    "effect": "Shortens the duration of stun by 60%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/great-jagras",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Jagras Helm",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Stun Resistance 1",
+      "Bento Lover 2",
+      "Fearless 1"
+     ],
+     "icon": "12-armor/great-jagras/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_1.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Jagras Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Fearless 1",
+      "Stun Resistance 1",
+      "Deterrence 1"
+     ],
+     "icon": "12-armor/great-jagras/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_2.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Jagras Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Spirit Bind Blade 2",
+      "Deterrence 1",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/great-jagras/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_3.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Jagras Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 1",
+      "Thrifty Meal 1"
+     ],
+     "icon": "12-armor/great-jagras/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_4.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Jagras Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Bento Lover 1",
+      "Deterrence 1",
+      "Adversity 1"
+     ],
+     "icon": "12-armor/great-jagras/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_5.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/great-jagras/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/cd929f60712dfb3754a9f863fca407ff.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/great-jagras/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/d40c020222653c55bc135fffcc4822aa.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "High Metal",
+   "slug": "high-metal",
+   "rarity": "4-14",
+   "monster": null,
+   "set_skill": "Silence of the Veins (2 pieces: Roar Resistance +1)",
+   "set_skill_detail": {
+    "name": "Silence of the Veins",
+    "pieces": 2,
+    "skill": "Roar Resistance",
+    "add": 1,
+    "effect": "Reduces the effects of weak monster roars."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/high-metal",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "High Metal Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Roar Resistance 1",
+      "Gathering Master 1"
+     ],
+     "icon": "12-armor/high-metal/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_101.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "High Metal Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Damage Up 3",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/high-metal/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_102.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "High Metal Braces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Resistance 1",
+      "Morph Boost 2",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/high-metal/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_103.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "High Metal Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Morph Boost 2",
+      "Relentless Pursuit 1",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/high-metal/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_104.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "High Metal Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Roar Resistance 1",
+      "Ice Damage Up 2",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/high-metal/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_105.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/high-metal/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/b9fca35e7107e925d9d83c9b07434b01.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/high-metal/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/2b46d9adf4f25c956d8dc69cceff8e9b.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Hornetaur",
+   "slug": "hornetaur",
+   "rarity": "4-14",
+   "monster": null,
+   "set_skill": "Hornetaur Might (2 pieces: Dragon Resistance +1)",
+   "set_skill_detail": {
+    "name": "Hornetaur Might",
+    "pieces": 2,
+    "skill": "Dragon Resistance",
+    "add": 1,
+    "effect": "Dragon resistance +6."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/hornetaur",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Hornetaur Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Resistance 1",
+      "Carving Pro 1"
+     ],
+     "icon": "12-armor/hornetaur/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_76.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Hornetaur Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Bento Lover 1",
+      "Weakspot Follow-Up 1",
+      "Thrifty Meal 1"
+     ],
+     "icon": "12-armor/hornetaur/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_77.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Hornetaur Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 1",
+      "Dragon Damage Up 2",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/hornetaur/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_78.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Hornetaur Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Damage Up 1",
+      "Weakspot Follow-Up 1",
+      "Thrifty Meal 1"
+     ],
+     "icon": "12-armor/hornetaur/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_79.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Hornetaur Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Dragon Resistance 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/hornetaur/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_80.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/hornetaur/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/a2ada771ce99028ce153d35f6fbc9017.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/hornetaur/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/6ce164eedae9b7aa7132e2c8d5b65a58.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Hunter",
+   "slug": "hunter",
+   "rarity": "2-14",
+   "monster": null,
+   "set_skill": "Wilds Mastery (2 pieces: Specimen Expert +1)",
+   "set_skill_detail": {
+    "name": "Wilds Mastery",
+    "pieces": 2,
+    "skill": "Specimen Expert",
+    "add": 1,
+    "effect": "Increases the chance of retaining carves when slaying Insect-type Small Monsters with attacks."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/hunter",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Hunter's Headgear",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Insight 1",
+      "Geo Expert 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/hunter/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_56.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Hunter's Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Improviser 1",
+      "Ammo Enhancement 2",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/hunter/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_57.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Hunter's Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Specimen Expert 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/hunter/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_58.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Hunter's Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Ammo Enhancement 2",
+      "Geo Expert 1",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/hunter/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_59.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Hunter's Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Insight 1",
+      "Master Climber 1"
+     ],
+     "icon": "12-armor/hunter/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_60.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/hunter/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/9574413078abdce68ff07a11dbbc685a.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/hunter/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/52c0540f9610f0d9c8ef41e7fce63e12.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Ingot",
+   "slug": "ingot",
+   "rarity": "5-14",
+   "monster": null,
+   "set_skill": "Ingot Blast Shield (2 pieces: Blast Resistance +1)",
+   "set_skill_detail": {
+    "name": "Ingot Blast Shield",
+    "pieces": 2,
+    "skill": "Blast Resistance",
+    "add": 1,
+    "effect": "Delays blastblight and reduces blast damage."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/ingot",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Ingot Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Intimidation 2",
+      "Windproof 1",
+      "Fearless 1"
+     ],
+     "icon": "12-armor/ingot/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_116.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Ingot Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Blast Resistance 1",
+      "Defense Up 2"
+     ],
+     "icon": "12-armor/ingot/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_117.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Ingot Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Offensive Defense 1",
+      "Grace Under Pressure 1",
+      "Blast Resistance 1"
+     ],
+     "icon": "12-armor/ingot/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_118.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Ingot Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Offensive Defense 2",
+      "Windproof 1",
+      "Fearless 1"
+     ],
+     "icon": "12-armor/ingot/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_119.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Ingot Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Defense Up 1",
+      "Thunder Damage Up 2",
+      "Fearless 1"
+     ],
+     "icon": "12-armor/ingot/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_120.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/ingot/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/042c5e4a40c4c6143aaf436f5dcee5c5.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/ingot/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/71d3708eabff8792d834d6ba0cea01d0.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Jyuratodus",
+   "slug": "jyuratodus",
+   "rarity": "2-14",
+   "monster": "Jyuratodus",
+   "set_skill": "Jyuratodus Aquaguard (3 pieces: Water Damage Up +1)",
+   "set_skill_detail": {
+    "name": "Jyuratodus Aquaguard",
+    "pieces": 3,
+    "skill": "Water Damage Up",
+    "add": 1,
+    "effect": "Water damage +3%; +8% instead against Radiant monsters."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/jyuratodus",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Jyura Helm",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Unleashed 1",
+      "Water Damage Up 2",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/jyuratodus/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_36.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Jyura Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 1",
+      "Ice Resistance 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/jyuratodus/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_37.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Jyura Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Unleashed 1",
+      "Charge Up 2",
+      "Ice Resistance 1"
+     ],
+     "icon": "12-armor/jyuratodus/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_38.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Jyura Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 1",
+      "Ice Resistance 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/jyuratodus/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_39.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Jyura Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Unleashed 1",
+      "Suppression Recovery 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/jyuratodus/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_40.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/jyuratodus/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/3a90adbc5ace2b867d780bc2233fdb71.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/jyuratodus/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/f66818d7e599425b401950bf8601d054.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Kadachi",
+   "slug": "kadachi",
+   "rarity": "5-14",
+   "monster": "Tobi-Kadachi",
+   "set_skill": "Tobi-Kadachi Thunderplate (2 pieces: Thunder Resistance +1)",
+   "set_skill_detail": {
+    "name": "Tobi-Kadachi Thunderplate",
+    "pieces": 2,
+    "skill": "Thunder Resistance",
+    "add": 1,
+    "effect": "Thunder resistance +6."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/kadachi",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Kadachi Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Deterrence 1",
+      "Thunder Damage Up 3"
+     ],
+     "icon": "12-armor/kadachi/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_106.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Kadachi Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Resistance 1",
+      "Stamina Conversion 3"
+     ],
+     "icon": "12-armor/kadachi/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_107.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Kadachi Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Resistance 1",
+      "Blessing 2"
+     ],
+     "icon": "12-armor/kadachi/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_108.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Kadachi Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Damage Up 1",
+      "Critical Element 1",
+      "Deterrence 1"
+     ],
+     "icon": "12-armor/kadachi/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_109.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Kadachi Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 1",
+      "Unleashed 1",
+      "Master Climber 1"
+     ],
+     "icon": "12-armor/kadachi/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_110.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/kadachi/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/edcd11b7b784bc84e8a5f30b4e6744e0.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/kadachi/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/55fe8d681e32ea5f3da97b2501b06ce2.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "King Beetle",
+   "slug": "king-beetle",
+   "rarity": "4-14",
+   "monster": null,
+   "set_skill": "Monocerus Divinity (2 pieces: Geo Expert +1)",
+   "set_skill_detail": {
+    "name": "Monocerus Divinity",
+    "pieces": 2,
+    "skill": "Geo Expert",
+    "add": 1,
+    "effect": "Allows you to gather 1 extra time from bonepiles."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/king-beetle",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "King Beetle Vertex",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 1",
+      "Honey Harvester 1",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/king-beetle/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_96.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "King Beetle Thorax",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Blessing 1",
+      "Capacity Boost 3"
+     ],
+     "icon": "12-armor/king-beetle/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_97.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "King Beetle Brachia",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flawless 1",
+      "Ammo Enhancement 2",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/king-beetle/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_98.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "King Beetle Elytra",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Geo Expert 1",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/king-beetle/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_99.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "King Beetle Crura",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Capacity Boost 1",
+      "Geo Expert 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/king-beetle/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_100.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/king-beetle/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/32d076eb5b6697c9613651275753657d.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/king-beetle/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/e9de15e679c74a0fcdd0906b73f3738e.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Kulu-Ya-Ku",
+   "slug": "kulu-ya-ku",
+   "rarity": "1-14",
+   "monster": "Kulu-Ya-Ku",
+   "set_skill": "Kulu-Ya-Ku Flash Attack (2 pieces: Instinct +1)",
+   "set_skill_detail": {
+    "name": "Kulu-Ya-Ku Flash Attack",
+    "pieces": 2,
+    "skill": "Instinct",
+    "add": 1,
+    "effect": "Prevents attacks from being deflected."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/kulu-ya-ku",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Kulu Headpiece",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Insight 2",
+      "Carve Master 1"
+     ],
+     "icon": "12-armor/kulu-ya-ku/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_6.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Kulu Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Weakspot Exploit 1",
+      "Fire Resistance 1",
+      "Thrifty Meal 1"
+     ],
+     "icon": "12-armor/kulu-ya-ku/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_7.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Kulu Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Item Master 1",
+      "Insight 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/kulu-ya-ku/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_8.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Kulu Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Resistance 1",
+      "Combo Enhancement 2",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/kulu-ya-ku/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_9.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Kulu Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Demonic Strength 2",
+      "Item Master 1",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/kulu-ya-ku/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_10.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/kulu-ya-ku/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/c2fc32c17f069d43d489d203e4582718.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/kulu-ya-ku/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/c933bf1f1b53374535221443c591c08a.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Leather",
+   "slug": "leather",
+   "rarity": "1-14",
+   "monster": null,
+   "set_skill": "Compound Fiber (2 pieces: Fire Resistance +1)",
+   "set_skill_detail": {
+    "name": "Compound Fiber",
+    "pieces": 2,
+    "skill": "Fire Resistance",
+    "add": 1,
+    "effect": "Fire resistance +6."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/leather",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Leather Headgear",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Item Master 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/leather/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_26.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Leather Vest",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 2",
+      "Item Master 1"
+     ],
+     "icon": "12-armor/leather/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_27.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Leather Gloves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Piercing Strike 1",
+      "Fire Resistance 1",
+      "Iron Skin 1"
+     ],
+     "icon": "12-armor/leather/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_28.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Leather Belt",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Resistance 1",
+      "Master Climber 1"
+     ],
+     "icon": "12-armor/leather/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_29.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Leather Pants",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Iron Skin 1",
+      "Piercing Strike 2",
+      "Ballistics 1"
+     ],
+     "icon": "12-armor/leather/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_30.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/leather/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/97ea9d88a5c39a174768b5d119f4512f.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/leather/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/f215bf9bdfbc0e6ae2eaf8f3f100d372.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Legiana",
+   "slug": "legiana",
+   "rarity": "8-14",
+   "monster": "Legiana",
+   "set_skill": "Legiana Dance (2 pieces: Ice Resistance +1)",
+   "set_skill_detail": {
+    "name": "Legiana Dance",
+    "pieces": 2,
+    "skill": "Ice Resistance",
+    "add": 1,
+    "effect": "Ice resistance +6."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/legiana",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Legiana Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Resistance 2",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/legiana/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_181.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Legiana Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 2",
+      "Weakspot Exploit 1",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/legiana/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_182.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Legiana Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Damage Up 2",
+      "Weakspot Exploit 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/legiana/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_183.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Legiana Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Blessing 2",
+      "Ice Damage Up 1"
+     ],
+     "icon": "12-armor/legiana/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_184.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Legiana Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Ammo Enhancement 2",
+      "Suppression Recovery 1",
+      "Critical Element 1"
+     ],
+     "icon": "12-armor/legiana/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_185.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/legiana/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/386f6413806ca7bb929030eba1df9b9d.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/legiana/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/4a925415d8b7791508835360c9afab25.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Odogaron",
+   "slug": "odogaron",
+   "rarity": "7-14",
+   "monster": "Odogaron",
+   "set_skill": "Odogaron's Tenacity (2 pieces: Bleeding Resistance +1)",
+   "set_skill_detail": {
+    "name": "Odogaron's Tenacity",
+    "pieces": 2,
+    "skill": "Bleeding Resistance",
+    "add": 1,
+    "effect": "Reduces damage while bleeding."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/odogaron",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Odogaron Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 2",
+      "Hunting Instinct 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/odogaron/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_166.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Odogaron Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Recovery Booster 1",
+      "Demonic Strength 2",
+      "Hunting Instinct 1"
+     ],
+     "icon": "12-armor/odogaron/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_167.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Odogaron Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Bleeding Resistance 2",
+      "Rejuvenation 1"
+     ],
+     "icon": "12-armor/odogaron/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_168.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Odogaron Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 3",
+      "Rejuvenation 1"
+     ],
+     "icon": "12-armor/odogaron/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_169.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Odogaron Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 2",
+      "Weakspot Exploit 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/odogaron/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_170.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/odogaron/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/90fae8b56f1174016c2ad9ffe3c9d908.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/odogaron/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/c11b63db696ea1d397e44ef181e6d945.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Paolumu",
+   "slug": "paolumu",
+   "rarity": "8-14",
+   "monster": "Paolumu",
+   "set_skill": "Paolumu's Presence (2 pieces: Health Recovery +1)",
+   "set_skill_detail": {
+    "name": "Paolumu's Presence",
+    "pieces": 2,
+    "skill": "Health Recovery",
+    "add": 1,
+    "effect": "When taking damage, the gray gauge's auto-recovery speed increases by 2x."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/paolumu",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Lumu Hat",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Ammo Enhancement 2",
+      "Windproof 1",
+      "Flawless 1"
+     ],
+     "icon": "12-armor/paolumu/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_176.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Lumu Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Offensive Defense 3",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/paolumu/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_177.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Lumu Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 3",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/paolumu/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_178.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Lumu Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Health Recovery 2",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/paolumu/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_179.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Lumu Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Offensive Defense 2",
+      "Flawless 1",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/paolumu/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_180.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/paolumu/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/18cad97fb1409c5a922db1c6eba47bf0.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/paolumu/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/fcc562f44b89145a2addd21702226a8a.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Pink Rathian",
+   "slug": "pink-rathian",
+   "rarity": "9-14",
+   "monster": "Pink Rathian",
+   "set_skill": "Pink Rathian's Acuity (3 pieces: Hunting Instinct +1)",
+   "set_skill_detail": {
+    "name": "Pink Rathian's Acuity",
+    "pieces": 3,
+    "skill": "Hunting Instinct",
+    "add": 1,
+    "effect": "When using an environmental interactive object to inflict negative effects or damage on a monster, increases damage by 4% for 120s."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/pink-rathian",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Rath Heart Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 2",
+      "Hunting Instinct 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/pink-rathian/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_186.png"
+    },
+    {
+     "part": "chest",
+     "name": "Rath Heart Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Poison Resistance 2",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/pink-rathian/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_187.png"
+    },
+    {
+     "part": "arms",
+     "name": "Rath Heart Braces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Capacity Boost 2",
+      "Hunting Instinct 1",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/pink-rathian/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_188.png"
+    },
+    {
+     "part": "waist",
+     "name": "Rath Heart Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Capacity Boost 2",
+      "Insight 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/pink-rathian/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_189.png"
+    },
+    {
+     "part": "legs",
+     "name": "Rath Heart Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Instinct 1",
+      "Spirit Bind Blade 2",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/pink-rathian/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_190.png"
+    }
+   ],
+   "full": "12-armor/pink-rathian/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/f92f161f136a3c6715c66630f34e302e.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/pink-rathian/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/82db340c140665d78df8444b6e861bdb.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Pukei-Pukei",
+   "slug": "pukei-pukei",
+   "rarity": "1-14",
+   "monster": "Pukei-Pukei",
+   "set_skill": "Pukei-Pukei Tailwhip (2 pieces: Poison Resistance +1)",
+   "set_skill_detail": {
+    "name": "Pukei-Pukei Tailwhip",
+    "pieces": 2,
+    "skill": "Poison Resistance",
+    "add": 1,
+    "effect": "Shortens the duration of poison by 30%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/pukei-pukei",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Pukei Hood",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Ballistics 1",
+      "Bow Skill Boost 2",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/pukei-pukei/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_11.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Pukei Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Charged Power Shot 1",
+      "Improviser 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/pukei-pukei/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_12.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Pukei Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Battle Spirit 1",
+      "Poison Resistance 1",
+      "Improviser 1"
+     ],
+     "icon": "12-armor/pukei-pukei/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_13.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Pukei Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Poison Resistance 1",
+      "Charged Power Shot 3"
+     ],
+     "icon": "12-armor/pukei-pukei/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_14.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Pukei Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Battle Spirit 1",
+      "Botanical Expert 1",
+      "Improviser 1"
+     ],
+     "icon": "12-armor/pukei-pukei/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_15.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/pukei-pukei/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/8c3b4a0755cacdf32f9929c1b4370b10.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/pukei-pukei/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/309c162aa392effe03dfbcebc87c62ba.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Anjanath",
+   "slug": "radiant-anjanath",
+   "rarity": "5-14",
+   "monster": "Radiant Anjanath",
+   "set_skill": "Anjanath's Wrath (2 pieces: Breaker +1)",
+   "set_skill_detail": {
+    "name": "Anjanath's Wrath",
+    "pieces": 2,
+    "skill": "Breaker",
+    "add": 1,
+    "effect": "Makes it easier to break large monster parts, with buildup damage to parts multiplied by 1.1x."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-anjanath",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Anja Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 1",
+      "Quick-Bite 1",
+      "Adversity 1"
+     ],
+     "icon": "12-armor/radiant-anjanath/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_111.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Anja Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Resistance 1",
+      "Health Cycle 2"
+     ],
+     "icon": "12-armor/radiant-anjanath/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_112.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Anja Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Wrecker 2",
+      "Fire Resistance 1",
+      "Breaker 1"
+     ],
+     "icon": "12-armor/radiant-anjanath/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_113.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Anja Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 1",
+      "Breaker 1",
+      "Quick-Bite 1"
+     ],
+     "icon": "12-armor/radiant-anjanath/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_114.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Anja Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 2",
+      "Fire Resistance 1",
+      "Hunting Instinct 1"
+     ],
+     "icon": "12-armor/radiant-anjanath/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_115.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-anjanath/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/747344553cf2b07feb228588916dbaea.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-anjanath/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/df806d59b813135521a5322630926cd3.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Baan",
+   "slug": "radiant-baan",
+   "rarity": "12-14",
+   "monster": "Radiant Radobaan",
+   "set_skill": "Radobaan's Fearlessness (3 pieces: Fearless +1)",
+   "set_skill_detail": {
+    "name": "Radobaan's Fearlessness",
+    "pieces": 3,
+    "skill": "Fearless",
+    "add": 1,
+    "effect": "Increases damage by 3% while the health gauge has a remaining gray portion."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-baan",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Baan Helm",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Tremor Resistance 1",
+      "Grace Under Pressure 2"
+     ],
+     "icon": "12-armor/radiant-baan/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_227.png"
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Baan Mail",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Immovable Stance 3",
+      "Tremor Resistance 1"
+     ],
+     "icon": "12-armor/radiant-baan/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_228.png"
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Baan Vambraces",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Intimidation 2",
+      "Tremor Resistance 1",
+      "Fearless 1"
+     ],
+     "icon": "12-armor/radiant-baan/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_229.png"
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Baan Coil",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Intimidation 2",
+      "Breaker 1",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/radiant-baan/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_230.png"
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Baan Greaves",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Immovable Stance 2",
+      "Fearless 1",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/radiant-baan/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_231.png"
+    }
+   ],
+   "full": "12-armor/radiant-baan/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/c05bab7e4b48258946157fcfafd8a225.png",
+   "full_alt": "12-armor/radiant-baan/full-alt.png",
+   "full_alt_variant": "female",
+   "full_alt_source": "https://img.gamewith.jp/img/4fff3c8764db8c82ddf68f27c204d61c.png"
+  },
+  {
+   "set": "Radiant Barroth",
+   "slug": "radiant-barroth",
+   "rarity": "5-14",
+   "monster": "Radiant Barroth",
+   "set_skill": "Barroth's Resolve (2 pieces: Guard Technique +1)",
+   "set_skill_detail": {
+    "name": "Barroth's Resolve",
+    "pieces": 2,
+    "skill": "Guard Technique",
+    "add": 1,
+    "effect": "Reduces stagger while guarding, and slightly reduces the power of the attack blocked."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-barroth",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Barroth Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Capacity Boost 2",
+      "Guard Technique 1",
+      "Radiant Sense 1"
+     ],
+     "icon": "12-armor/radiant-barroth/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_126.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Barroth Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Guard Technique 2",
+      "Stun Resistance 1"
+     ],
+     "icon": "12-armor/radiant-barroth/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_127.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Barroth Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Immovable Stance 2",
+      "Stun Resistance 1",
+      "Battle Spirit 1"
+     ],
+     "icon": "12-armor/radiant-barroth/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_128.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Barroth Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Capacity Boost 1",
+      "Battle Spirit 1",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/radiant-barroth/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_129.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Barroth Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Pierce 2",
+      "Guard Technique 1",
+      "Weakspot Follow-Up 1"
+     ],
+     "icon": "12-armor/radiant-barroth/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_130.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-barroth/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/6c3429018c9e060d48338cb0cc4d1288.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-barroth/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/caa165e22c01de364b799c4e7a76add5.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Diablos",
+   "slug": "radiant-diablos",
+   "rarity": "11-14",
+   "monster": "Radiant Diablos",
+   "set_skill": "Diablos's Barrier (3 pieces: Battle Spirit +1)",
+   "set_skill_detail": {
+    "name": "Diablos's Barrier",
+    "pieces": 3,
+    "skill": "Battle Spirit",
+    "add": 1,
+    "effect": ""
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-diablos",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Diablos Helm",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Tremor Resistance 1",
+      "Pierce 2",
+      "Battle Spirit 1"
+     ],
+     "icon": "12-armor/radiant-diablos/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_222.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Diablos Mail",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Defense Up 1",
+      "Bento Lover 3"
+     ],
+     "icon": "12-armor/radiant-diablos/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_223.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Diablos Vambraces",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Pierce 2",
+      "Battle Spirit 1",
+      "Defense Up 1"
+     ],
+     "icon": "12-armor/radiant-diablos/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_224.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Diablos Coil",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 3",
+      "Tremor Resistance 1"
+     ],
+     "icon": "12-armor/radiant-diablos/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_225.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Diablos Greaves",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Tremor Resistance 1",
+      "Defense Up 2"
+     ],
+     "icon": "12-armor/radiant-diablos/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_226.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-diablos/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/b6c78575d6d9202eb78affa89a8630e6.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-diablos/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/b5532f0fd45c963b79886590739386e4.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Great Girros",
+   "slug": "radiant-great-girros",
+   "rarity": "7-14",
+   "monster": "Radiant Girros",
+   "set_skill": "Great Girros's Command (2 pieces: Buddy Boost +1)",
+   "set_skill_detail": {
+    "name": "Great Girros's Command",
+    "pieces": 2,
+    "skill": "Buddy Boost",
+    "add": 1,
+    "effect": "Multiplies buddy damage by 1.1x."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-great-girros",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Girros Mask",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Combo Enhancement 2",
+      "Radiant Sense 1",
+      "Paralysis Resistance 1"
+     ],
+     "icon": "12-armor/radiant-great-girros/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_146.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Girros Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Damage Up 3",
+      "Paralysis Resistance 1"
+     ],
+     "icon": "12-armor/radiant-great-girros/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_147.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Girros Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Combo Enhancement 3",
+      "Flinching-Free 1"
+     ],
+     "icon": "12-armor/radiant-great-girros/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_148.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Girros Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Damage Up 2",
+      "Fearless 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/radiant-great-girros/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_149.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Girros Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Health Recovery 2",
+      "Flinching-Free 1"
+     ],
+     "icon": "12-armor/radiant-great-girros/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_150.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-great-girros/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/88cfef2e796920a22cd6e9973bb32dba.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-great-girros/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/9c57585fed40c8a96129fbbdeca82774.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Great Jagras",
+   "slug": "radiant-great-jagras",
+   "rarity": "4-14",
+   "monster": "Radiant Great Jagras",
+   "set_skill": "Great Jagras's Roll (2 pieces: Insight +1)",
+   "set_skill_detail": {
+    "name": "Great Jagras's Roll",
+    "pieces": 2,
+    "skill": "Insight",
+    "add": 1,
+    "effect": "Affinity +2%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-great-jagras",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Jagras Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 1",
+      "Breaker 1",
+      "Insight 1"
+     ],
+     "icon": "12-armor/radiant-great-jagras/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_81.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Jagras Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 2",
+      "Stun Resistance 1",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/radiant-great-jagras/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_82.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Jagras Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Insight 2",
+      "Bento Lover 1"
+     ],
+     "icon": "12-armor/radiant-great-jagras/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_83.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Jagras Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Bento Lover 2",
+      "Thrifty Meal 1",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/radiant-great-jagras/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_84.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Jagras Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Breaker 1",
+      "Stun Resistance 1",
+      "Thrifty Meal 1"
+     ],
+     "icon": "12-armor/radiant-great-jagras/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_85.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-great-jagras/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/07df8531ffcc8621eae1719940b74689.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-great-jagras/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/05272bc11216337c3d695f4b91733da7.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Jyuratodus",
+   "slug": "radiant-jyuratodus",
+   "rarity": "6-14",
+   "monster": "Radiant Jyuratodus",
+   "set_skill": "Jyuratodus Flowmend (2 pieces: Water Resistance +1)",
+   "set_skill_detail": {
+    "name": "Jyuratodus Flowmend",
+    "pieces": 2,
+    "skill": "Water Resistance",
+    "add": 1,
+    "effect": "Water resistance +6."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-jyuratodus",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Jyura Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flinching-Free 2",
+      "Water Resistance 1"
+     ],
+     "icon": "12-armor/radiant-jyuratodus/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_131.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Jyura Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Piercing Strike 2",
+      "Health Recovery 1",
+      "Radiant Sense 1"
+     ],
+     "icon": "12-armor/radiant-jyuratodus/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_132.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Jyura Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 2",
+      "Health Recovery 1",
+      "Hunting Instinct 1"
+     ],
+     "icon": "12-armor/radiant-jyuratodus/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_133.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Jyura Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Piercing Strike 1",
+      "Hunting Instinct 1",
+      "Water Resistance 1"
+     ],
+     "icon": "12-armor/radiant-jyuratodus/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_134.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Jyura Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 1",
+      "Radiant Sense 1",
+      "Health Recovery 1"
+     ],
+     "icon": "12-armor/radiant-jyuratodus/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_135.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-jyuratodus/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/5b0e3fde135bf4657c865ce87a6ff546.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-jyuratodus/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/a3f80c8b2d2617d192dc67b37078e8b4.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Kadachi",
+   "slug": "radiant-kadachi",
+   "rarity": "7-14",
+   "monster": "Radiant Tobi-Kadachi",
+   "set_skill": "Tobi-Kadachi Surge (3 pieces: Unleashed +1)",
+   "set_skill_detail": {
+    "name": "Tobi-Kadachi Surge",
+    "pieces": 3,
+    "skill": "Unleashed",
+    "add": 1,
+    "effect": "90s after a hunt begins, or after taking 100 total damage, increases affinity by 3% for 180s."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-kadachi",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Kadachi Helm",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 2",
+      "Battle Spirit 1",
+      "Thunder Resistance 1"
+     ],
+     "icon": "12-armor/radiant-kadachi/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_151.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Kadachi Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Deterrence 2",
+      "Adversity 1"
+     ],
+     "icon": "12-armor/radiant-kadachi/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_152.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Kadachi Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Bow Skill Boost 2",
+      "Thunder Resistance 1",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/radiant-kadachi/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_153.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Kadachi Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Thunder Resistance 1",
+      "Bow Skill Boost 2",
+      "Unleashed 1"
+     ],
+     "icon": "12-armor/radiant-kadachi/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_154.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Kadachi Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 3",
+      "Deterrence 1"
+     ],
+     "icon": "12-armor/radiant-kadachi/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_155.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-kadachi/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/3ac9c41fddc0edd3595b8cc39858ae8e.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-kadachi/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/ca06b52af91a0ba6da9a1021468c590a.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Kulu-Ya-Ku",
+   "slug": "radiant-kulu-ya-ku",
+   "rarity": "5-14",
+   "monster": "Radiant Kulu-Ya-Ku",
+   "set_skill": "Kulu-Ya-Ku's Skill (2 pieces: Insight +1)",
+   "set_skill_detail": {
+    "name": "Kulu-Ya-Ku's Skill",
+    "pieces": 2,
+    "skill": "Insight",
+    "add": 1,
+    "effect": "Affinity +2%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-kulu-ya-ku",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Kulu Headpiece",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Demonic Strength 2",
+      "Item Master 1",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/radiant-kulu-ya-ku/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_121.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Kulu Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Combo Enhancement 1",
+      "Insight 1",
+      "Grace Under Pressure 1"
+     ],
+     "icon": "12-armor/radiant-kulu-ya-ku/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_122.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Kulu Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Item Master 2",
+      "Fire Resistance 1"
+     ],
+     "icon": "12-armor/radiant-kulu-ya-ku/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_123.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Kulu Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 2",
+      "Grace Under Pressure 1",
+      "Insight 1"
+     ],
+     "icon": "12-armor/radiant-kulu-ya-ku/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_124.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Kulu Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Combo Enhancement 2",
+      "Fire Resistance 1",
+      "Weakspot Exploit 1"
+     ],
+     "icon": "12-armor/radiant-kulu-ya-ku/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_125.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-kulu-ya-ku/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/666ea7e35d8c4fe8c7c63d94f514be4b.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-kulu-ya-ku/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/7daf7bcdc570b767246a7bdd149c1d47.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Legiana",
+   "slug": "radiant-legiana",
+   "rarity": "11-14",
+   "monster": "Radiant Legiana",
+   "set_skill": "Legiana Blessing (2 pieces: Blessing +1)",
+   "set_skill_detail": {
+    "name": "Legiana Blessing",
+    "pieces": 2,
+    "skill": "Blessing",
+    "add": 1,
+    "effect": "Taking damage has a 25% chance to reduce that damage by 15%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-legiana",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Legiana Helm",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Damage Up 3",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/radiant-legiana/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_211.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Legiana Mail",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Charged Power Shot 3",
+      "Ice Resistance 1"
+     ],
+     "icon": "12-armor/radiant-legiana/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_212.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Legiana Vambraces",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Ice Damage Up 1",
+      "Ice Resistance 1",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/radiant-legiana/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_213.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Legiana Coil",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Blessing 2",
+      "Ice Resistance 1"
+     ],
+     "icon": "12-armor/radiant-legiana/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_214.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Legiana Greaves",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Blessing 1",
+      "Charged Power Shot 2",
+      "Insight 1"
+     ],
+     "icon": "12-armor/radiant-legiana/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_215.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-legiana/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/eac58a8f5f312adf32608a50ee5eb36c.png",
+   "full_alt": "12-armor/radiant-legiana/full-alt.png",
+   "full_alt_variant": "female",
+   "full_alt_source": "https://img.gamewith.jp/img/bf7ae84804a6d3d802892b25f0b31f7e.png"
+  },
+  {
+   "set": "Radiant Odogaron",
+   "slug": "radiant-odogaron",
+   "rarity": "10-14",
+   "monster": "Radiant Odogaron",
+   "set_skill": "Odogaron's Surge (2 pieces: Rejuvenation +1)",
+   "set_skill_detail": {
+    "name": "Odogaron's Surge",
+    "pieces": 2,
+    "skill": "Rejuvenation",
+    "add": 1,
+    "effect": "Health will automatically recover until it reaches 75."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-odogaron",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Odogaron Helm",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Up 3",
+      "Rejuvenation 1"
+     ],
+     "icon": "12-armor/radiant-odogaron/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_206.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Odogaron Mail",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Combo Enhancement 3",
+      "Rejuvenation 1"
+     ],
+     "icon": "12-armor/radiant-odogaron/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_207.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Odogaron Vambraces",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Demonic Strength 2",
+      "Health Cycle 1",
+      "Instinct 1"
+     ],
+     "icon": "12-armor/radiant-odogaron/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_208.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Odogaron Coil",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Demonic Strength 2",
+      "Health Cycle 1",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/radiant-odogaron/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_209.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Odogaron Greaves",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Rejuvenation 1",
+      "Health Boost 2"
+     ],
+     "icon": "12-armor/radiant-odogaron/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_210.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-odogaron/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/7eff4c01819a36dba41bc033c79270e2.png",
+   "full_alt": "12-armor/radiant-odogaron/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/cfc7b14203d696d3686bb0da520afc98.png"
+  },
+  {
+   "set": "Radiant Paolumu",
+   "slug": "radiant-paolumu",
+   "rarity": "9-14",
+   "monster": "Radiant Paolumu",
+   "set_skill": "Paolumu's Airflow (2 pieces: Grace Under Pressure +1)",
+   "set_skill_detail": {
+    "name": "Paolumu's Airflow",
+    "pieces": 2,
+    "skill": "Grace Under Pressure",
+    "add": 1,
+    "effect": "Increases adventurer defense by 20 when Radiant monsters are in Radiant Rage."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-paolumu",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Lumu Hat",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charged Power Shot 1",
+      "Item Master 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/radiant-paolumu/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_191.png"
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Lumu Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Grace Under Pressure 2",
+      "Item Master 1"
+     ],
+     "icon": "12-armor/radiant-paolumu/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_192.png"
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Lumu Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Charged Power Shot 2",
+      "Ballistics 1",
+      "Gathering Master 1"
+     ],
+     "icon": "12-armor/radiant-paolumu/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_193.png"
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Lumu Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 3",
+      "Item Master 1"
+     ],
+     "icon": "12-armor/radiant-paolumu/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_194.png"
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Lumu Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 2",
+      "Radiant Sense 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/radiant-paolumu/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_195.png"
+    }
+   ],
+   "full": "12-armor/radiant-paolumu/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/935d647fa7f6d74d060527d541562c79.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-paolumu/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/e2a6b0737272fac33683c696a8199936.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Pink Rathian",
+   "slug": "radiant-pink-rathian",
+   "rarity": "12-14",
+   "monster": "Radiant Pink Rathian",
+   "set_skill": "Pink Rathian's Rampage (2 pieces: Radiant Frenzy +1)",
+   "set_skill_detail": {
+    "name": "Pink Rathian's Rampage",
+    "pieces": 2,
+    "skill": "Radiant Frenzy",
+    "add": 1,
+    "effect": "While affected by radiant particles, adventurer damage +10% for 30s. After it ends, damage -10% and maximum stamina -50 for 30s."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-pink-rathian",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Rath Heart Helm",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Unshaken Resolve 1",
+      "Critical Element 2",
+      "Grace Under Pressure 1"
+     ],
+     "icon": "12-armor/radiant-pink-rathian/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_232.png"
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Rath Heart Mail",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Unshaken Resolve 2",
+      "Grace Under Pressure 1",
+      "Critical Element 1"
+     ],
+     "icon": "12-armor/radiant-pink-rathian/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_233.png"
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Rath Heart Braces",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Insight 2",
+      "Unshaken Resolve 1",
+      "Grace Under Pressure 1"
+     ],
+     "icon": "12-armor/radiant-pink-rathian/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_234.png"
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Rath Heart Coil",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Recovery Booster 1",
+      "Poison Resistance 2"
+     ],
+     "icon": "12-armor/radiant-pink-rathian/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_235.png"
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Rath Heart Greaves",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Recovery Booster 1",
+      "Capacity Boost 3"
+     ],
+     "icon": "12-armor/radiant-pink-rathian/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_236.png"
+    }
+   ],
+   "full": "12-armor/radiant-pink-rathian/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/550b110430f6c728857c15debeb7b1a3.png",
+   "full_alt": "12-armor/radiant-pink-rathian/full-alt.png",
+   "full_alt_variant": "female",
+   "full_alt_source": "https://img.gamewith.jp/img/15a50494465b3e900c6b56b25040e6d0.png"
+  },
+  {
+   "set": "Radiant Pukei-Pukei",
+   "slug": "radiant-pukei-pukei",
+   "rarity": "4-14",
+   "monster": "Radiant Pukei-Pukei",
+   "set_skill": "Pukei-Pukei Territory (2 pieces: Flawless +1)",
+   "set_skill_detail": {
+    "name": "Pukei-Pukei Territory",
+    "pieces": 2,
+    "skill": "Flawless",
+    "add": 1,
+    "effect": "Increases damage dealt by 3% when health is full."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-pukei-pukei",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Pukei Hood",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Charged Power Shot 2",
+      "Improviser 1",
+      "Flawless 1"
+     ],
+     "icon": "12-armor/radiant-pukei-pukei/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_86.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Pukei Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Bow Skill Boost 2",
+      "Suppression Recovery 1",
+      "Hunting Instinct 1"
+     ],
+     "icon": "12-armor/radiant-pukei-pukei/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_87.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Pukei Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Hunting Instinct 1",
+      "Item Master 1",
+      "Suppression Recovery 1"
+     ],
+     "icon": "12-armor/radiant-pukei-pukei/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_88.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Pukei Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Hunting Instinct 1",
+      "Stamina Conversion 1",
+      "Item Master 1"
+     ],
+     "icon": "12-armor/radiant-pukei-pukei/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_89.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Pukei Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Bow Skill Boost 2",
+      "Improviser 1",
+      "Flawless 1"
+     ],
+     "icon": "12-armor/radiant-pukei-pukei/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_90.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-pukei-pukei/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/1761d4bb377156f87fec9e0e2c40b88f.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-pukei-pukei/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/94da35e9e883ece845f0c1f4da9c84d7.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Rathalos",
+   "slug": "radiant-rathalos",
+   "rarity": "11-14",
+   "monster": "Radiant Rathalos",
+   "set_skill": "Rathalos's Fervor (3 pieces: Critical Element +1)",
+   "set_skill_detail": {
+    "name": "Rathalos's Fervor",
+    "pieces": 3,
+    "skill": "Critical Element",
+    "add": 1,
+    "effect": "Increases elemental damage by 5% when landing critical hits."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-rathalos",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Rathalos Helm",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Deterrence 2",
+      "Suppression Recovery 1"
+     ],
+     "icon": "12-armor/radiant-rathalos/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_216.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Rathalos Mail",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Wrecker 2",
+      "Critical Element 1",
+      "Suppression Recovery 1"
+     ],
+     "icon": "12-armor/radiant-rathalos/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_217.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Rathalos Vambraces",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 3",
+      "Suppression Recovery 1"
+     ],
+     "icon": "12-armor/radiant-rathalos/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_218.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Rathalos Coil",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Charge Enhancement 3",
+      "Deterrence 1"
+     ],
+     "icon": "12-armor/radiant-rathalos/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_219.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Rathalos Greaves",
+     "defense": 194,
+     "rarity_shown": 14,
+     "skills": [
+      "Adversity 1",
+      "Fire Damage Up 2",
+      "Critical Element 1"
+     ],
+     "icon": "12-armor/radiant-rathalos/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_220.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-rathalos/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/ab07d77d91a4fc23ba5712e5a5d4d10d.png",
+   "full_alt": "12-armor/radiant-rathalos/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/1718c99e356a776294ed34a2dbfc6619.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Rathian",
+   "slug": "radiant-rathian",
+   "rarity": "3-14",
+   "monster": "Radiant Rathian",
+   "set_skill": "Rathian's Instinct (3 pieces: Radiant Sense +1)",
+   "set_skill_detail": {
+    "name": "Rathian's Instinct",
+    "pieces": 3,
+    "skill": "Radiant Sense",
+    "add": 1,
+    "effect": "Increases adventurer damage by 4% against monsters in Radiant Rage."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-rathian",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Rathian Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Recovery Booster 1",
+      "Flash Draw 3"
+     ],
+     "icon": "12-armor/radiant-rathian/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_71.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Rathian Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Radiant Sense 1",
+      "Spirit Bind Blade 2",
+      "Recovery Booster 1"
+     ],
+     "icon": "12-armor/radiant-rathian/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_72.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Rathian Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 1",
+      "Health Boost 1",
+      "Poison Resistance 1"
+     ],
+     "icon": "12-armor/radiant-rathian/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_73.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Rathian Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Radiant Sense 1",
+      "Health Boost 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/radiant-rathian/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_74.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Rathian Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 2",
+      "Hunting Instinct 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/radiant-rathian/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_75.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-rathian/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/d125fc650d3e166373829a32cbffe929.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/radiant-rathian/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/f9f112d478018550f0ad43e450236b60.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Radiant Tzitzi-Ya-Ku",
+   "slug": "radiant-tzitzi-ya-ku",
+   "rarity": "10-14",
+   "monster": "Radiant Tzitzi-Ya-Ku",
+   "set_skill": "Tzitzi-Ya-Ku's Precision (2 pieces: Ballistics +1)",
+   "set_skill_detail": {
+    "name": "Tzitzi-Ya-Ku's Precision",
+    "pieces": 2,
+    "skill": "Ballistics",
+    "add": 1,
+    "effect": "Shortens the distance before ammo and arrows reach maximum power."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/radiant-tzitzi-ya-ku",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Radiant Tzitzi Headgear",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 1",
+      "Health Recovery 1",
+      "Item Master 1"
+     ],
+     "icon": "12-armor/radiant-tzitzi-ya-ku/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_201.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Radiant Tzitzi Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Item Master 2",
+      "Piercing Strike 1"
+     ],
+     "icon": "12-armor/radiant-tzitzi-ya-ku/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_202.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Radiant Tzitzi Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Health Recovery 1",
+      "Sleep Resistance 2"
+     ],
+     "icon": "12-armor/radiant-tzitzi-ya-ku/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_203.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Radiant Tzitzi Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Health Recovery 1",
+      "Piercing Strike 3"
+     ],
+     "icon": "12-armor/radiant-tzitzi-ya-ku/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_204.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Radiant Tzitzi Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Sleep Resistance 1",
+      "Water Damage Up 3"
+     ],
+     "icon": "12-armor/radiant-tzitzi-ya-ku/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_205.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/radiant-tzitzi-ya-ku/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/96bbc2167bdf9419b924eb0584f061a8.png",
+   "full_alt": "12-armor/radiant-tzitzi-ya-ku/full-alt.png",
+   "full_alt_variant": "female",
+   "full_alt_source": "https://img.gamewith.jp/img/9e75cf454a3df8482d513daedb4d7c4b.png"
+  },
+  {
+   "set": "Rathalos",
+   "slug": "rathalos",
+   "rarity": "6-14",
+   "monster": "Rathalos",
+   "set_skill": "Rathalos's Weakness (3 pieces: Weakspot Exploit +1)",
+   "set_skill_detail": {
+    "name": "Rathalos's Weakness",
+    "pieces": 3,
+    "skill": "Weakspot Exploit",
+    "add": 1,
+    "effect": "Attacks on the monster's weak point have 4% increased affinity."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/rathalos",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Rathalos Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 1",
+      "Breaker 1",
+      "Deterrence 1"
+     ],
+     "icon": "12-armor/rathalos/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_141.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Rathalos Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Damage Up 3",
+      "Health Cycle 1"
+     ],
+     "icon": "12-armor/rathalos/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_142.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Rathalos Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Deterrence 2",
+      "Fire Resistance 1"
+     ],
+     "icon": "12-armor/rathalos/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_143.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Rathalos Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Wrecker 2",
+      "Weakspot Exploit 1",
+      "Fire Resistance 1"
+     ],
+     "icon": "12-armor/rathalos/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_144.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Rathalos Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Fire Resistance 1",
+      "Wrecker 2",
+      "Breaker 1"
+     ],
+     "icon": "12-armor/rathalos/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_145.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/rathalos/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/8a24061699a011903ddc701d8e7cb2b2.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/rathalos/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/218d0fd8bf7ad4936279227cebe2898f.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Rathian",
+   "slug": "rathian",
+   "rarity": "6-14",
+   "monster": "Rathian",
+   "set_skill": "Rathian Vigor (2 pieces: Health Boost +1)",
+   "set_skill_detail": {
+    "name": "Rathian Vigor",
+    "pieces": 2,
+    "skill": "Health Boost",
+    "add": 1,
+    "effect": "Health +10."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/rathian",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Rathian Helm",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Spirit Bind Blade 2",
+      "Hunting Instinct 1",
+      "Botanical Expert 1"
+     ],
+     "icon": "12-armor/rathian/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_136.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Rathian Mail",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Airborne 2",
+      "Poison Resistance 1",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/rathian/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_137.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Rathian Vambraces",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flash Draw 2",
+      "Botanical Expert 1",
+      "Relentless Pursuit 1"
+     ],
+     "icon": "12-armor/rathian/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_138.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Rathian Coil",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Flawless 1",
+      "Roar Resistance 1",
+      "Spirit Bind Blade 2"
+     ],
+     "icon": "12-armor/rathian/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_139.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Rathian Greaves",
+     "defense": 190,
+     "rarity_shown": 14,
+     "skills": [
+      "Health Boost 2",
+      "Roar Resistance 1"
+     ],
+     "icon": "12-armor/rathian/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_140.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/rathian/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/4c883a32122d74714c080ef7ad263058.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/rathian/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/6ab330781b63a5e5b83388f9b9c6474e.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Ruger Aidal",
+   "slug": "ruger-aidal",
+   "rarity": "9-14",
+   "monster": "Ruger Aidal",
+   "set_skill": "Ruger Aidal's Intimidation (3 pieces: Weakspot Follow-Up +1)",
+   "set_skill_detail": {
+    "name": "Ruger Aidal's Intimidation",
+    "pieces": 3,
+    "skill": "Weakspot Follow-Up",
+    "add": 1,
+    "effect": "Attacking a monster's broken part has a 75% chance to deal 4% additional damage."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/ruger-aidal",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Ruger Aidal Oath",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Grace Under Pressure 1",
+      "Suppression Recovery 2"
+     ],
+     "icon": "12-armor/ruger-aidal/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_196.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Ruger Aidal Guard",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 3",
+      "Rejuvenation 1"
+     ],
+     "icon": "12-armor/ruger-aidal/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_197.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Ruger Aidal Verdict",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 2",
+      "Rejuvenation 1",
+      "Weakspot Follow-Up 1"
+     ],
+     "icon": "12-armor/ruger-aidal/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_198.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Ruger Aidal Devotion",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Stamina Conversion 2",
+      "Weakspot Follow-Up 1",
+      "Suppression Recovery 1"
+     ],
+     "icon": "12-armor/ruger-aidal/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_199.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Ruger Aidal Resolve",
+     "defense": 196,
+     "rarity_shown": 14,
+     "skills": [
+      "Relentless Pursuit 1",
+      "Morph Boost 2",
+      "Adversity 1"
+     ],
+     "icon": "12-armor/ruger-aidal/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_200.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/ruger-aidal/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/55f62806efedd6472de2f1bbd943c19b.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/ruger-aidal/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/0364caa2bd34ce696b7447bccd91e3df.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Tzitzi-Ya-Ku",
+   "slug": "tzitzi-ya-ku",
+   "rarity": "8-14",
+   "monster": "Tzitzi-Ya-Ku",
+   "set_skill": "Tzitzi-Ya-Ku's Pursuit (3 pieces: Relentless Pursuit +1)",
+   "set_skill_detail": {
+    "name": "Tzitzi-Ya-Ku's Pursuit",
+    "pieces": 3,
+    "skill": "Relentless Pursuit",
+    "add": 1,
+    "effect": "After a monster is staggered or suppressed, adventurer damage increases by 4% for 15s."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/tzitzi-ya-ku",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Tzitzi Headgear",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Piercing Strike 2",
+      "Relentless Pursuit 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/tzitzi-ya-ku/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_171.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Tzitzi Mail",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 3",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/tzitzi-ya-ku/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_172.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Tzitzi Vambraces",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Piercing Strike 3",
+      "Sleep Resistance 1"
+     ],
+     "icon": "12-armor/tzitzi-ya-ku/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_173.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Tzitzi Coil",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Water Damage Up 2",
+      "Relentless Pursuit 1",
+      "Stun Resistance 1"
+     ],
+     "icon": "12-armor/tzitzi-ya-ku/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_174.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Tzitzi Greaves",
+     "defense": 192,
+     "rarity_shown": 14,
+     "skills": [
+      "Capturing Expert 1",
+      "Stun Resistance 1",
+      "Blessing 1"
+     ],
+     "icon": "12-armor/tzitzi-ya-ku/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_175.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/tzitzi-ya-ku/full.png",
+   "full_variant": "female",
+   "full_source": "https://img.gamewith.jp/img/69eabe5854882cc4c82ccde7daebc3f8.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ],
+   "full_alt": "12-armor/tzitzi-ya-ku/full-alt.png",
+   "full_alt_variant": "male",
+   "full_alt_source": "https://img.gamewith.jp/img/c60a5a4cf64eafa0215c455acd6aac72.png",
+   "full_alt_upscaled_from": [
+    180,
+    300
+   ]
+  },
+  {
+   "set": "Vespoid",
+   "slug": "vespoid",
+   "rarity": "2-14",
+   "monster": null,
+   "set_skill": "Insulation of the Summit (2 pieces: Paralysis Resistance +1)",
+   "set_skill_detail": {
+    "name": "Insulation of the Summit",
+    "pieces": 2,
+    "skill": "Paralysis Resistance",
+    "add": 1,
+    "effect": "Shortens the duration of paralysis by 30%."
+   },
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/armor/vespoid",
+   "pieces": [
+    {
+     "part": "head",
+     "name": "Vespoid Helm",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Paralysis Resistance 1",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/vespoid/head.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_51.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "chest",
+     "name": "Vespoid Mail",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 1",
+      "Health Boost 1"
+     ],
+     "icon": "12-armor/vespoid/chest.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_52.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "arms",
+     "name": "Vespoid Vambraces",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Paralysis Resistance 1",
+      "Counter Boost 2",
+      "Insight 1"
+     ],
+     "icon": "12-armor/vespoid/arms.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_53.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "waist",
+     "name": "Vespoid Coil",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Critical Element 1",
+      "Paralysis Resistance 1",
+      "Honey Harvester 1"
+     ],
+     "icon": "12-armor/vespoid/waist.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_54.png",
+     "icon_upscaled_from": 84
+    },
+    {
+     "part": "legs",
+     "name": "Vespoid Greaves",
+     "defense": 188,
+     "rarity_shown": 14,
+     "skills": [
+      "Counter Boost 1",
+      "Health Boost 1",
+      "Windproof 1"
+     ],
+     "icon": "12-armor/vespoid/legs.png",
+     "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_55.png",
+     "icon_upscaled_from": 84
+    }
+   ],
+   "full": "12-armor/vespoid/full.png",
+   "full_variant": "male",
+   "full_source": "https://img.gamewith.jp/img/8040c07db42e6f1ed249a6260a882ce8.png",
+   "full_upscaled_from": [
+    180,
+    300
+   ]
+  }
+ ]
+}
