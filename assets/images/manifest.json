@@ -1,0 +1,777 @@
+{
+ "characters": [
+  {
+   "id": "freya",
+   "name": "Freya",
+   "rarity": "SSR",
+   "weapon": "Great Sword",
+   "element": "Fire",
+   "portrait": "01-characters/portrait/freya.jpg",
+   "full": "01-characters/full/freya.jpg",
+   "hires": "01-characters/hires/freya.jpg",
+   "build_card": "05-build-cards/01-freya-build-4k.jpg",
+   "info_card": "06-character-info-cards/01-freya-full-4k.jpg"
+  },
+  {
+   "id": "stylia",
+   "name": "Stylia",
+   "rarity": "SSR",
+   "weapon": "Bow",
+   "element": "Ice",
+   "portrait": "01-characters/portrait/stylia.jpg",
+   "full": "01-characters/full/stylia.jpg",
+   "hires": "01-characters/hires/stylia.jpg",
+   "build_card": "05-build-cards/02-stylia-build-4k.jpg",
+   "info_card": "06-character-info-cards/02-stylia-full-4k.jpg"
+  },
+  {
+   "id": "midori",
+   "name": "Midori",
+   "rarity": "SSR",
+   "weapon": "Long Sword",
+   "element": "Fire",
+   "portrait": "01-characters/portrait/midori.jpg",
+   "full": "01-characters/full/midori.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/03-midori-build-4k.jpg",
+   "info_card": "06-character-info-cards/03-midori-full-4k.jpg"
+  },
+  {
+   "id": "luka",
+   "name": "Luka",
+   "rarity": "SSR",
+   "weapon": "Bow",
+   "element": "Thunder",
+   "portrait": "01-characters/portrait/luka.jpg",
+   "full": "01-characters/full/luka.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/04-luka-build-4k.jpg",
+   "info_card": "06-character-info-cards/04-luka-full-4k.jpg"
+  },
+  {
+   "id": "pyro",
+   "name": "Pyro",
+   "rarity": "SSR",
+   "weapon": "Great Sword",
+   "element": "Dragon",
+   "portrait": "01-characters/portrait/pyro.jpg",
+   "full": "01-characters/full/pyro.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/05-pyro-build-4k.jpg",
+   "info_card": "06-character-info-cards/05-pyro-full-4k.jpg"
+  },
+  {
+   "id": "rhodes",
+   "name": "Rhodes",
+   "rarity": "SSR",
+   "weapon": "Hammer",
+   "element": "Ice",
+   "portrait": "01-characters/portrait/rhodes.jpg",
+   "full": "01-characters/full/rhodes.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/06-rhodes-build-4k.jpg",
+   "info_card": "06-character-info-cards/06-rhodes-full-4k.jpg"
+  },
+  {
+   "id": "keres",
+   "name": "Keres",
+   "rarity": "SSR",
+   "weapon": "Dual Blades",
+   "element": "Dragon",
+   "portrait": "01-characters/portrait/keres.jpg",
+   "full": "01-characters/full/keres.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/07-keres-build-4k.jpg",
+   "info_card": "06-character-info-cards/07-keres-full-4k.jpg"
+  },
+  {
+   "id": "pepper",
+   "name": "Pepper",
+   "rarity": "SSR",
+   "weapon": "Heavy Bowgun",
+   "element": "Water",
+   "portrait": "01-characters/portrait/pepper.jpg",
+   "full": "01-characters/full/pepper.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/08-pepper-build-4k.jpg",
+   "info_card": "06-character-info-cards/08-pepper-full-4k.jpg"
+  },
+  {
+   "id": "arkaya",
+   "name": "Arkaya",
+   "rarity": "SSR",
+   "weapon": "Lance",
+   "element": "Dragon",
+   "portrait": "01-characters/portrait/arkaya.jpg",
+   "full": "01-characters/full/arkaya.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/09-arkaya-build-4k.jpg",
+   "info_card": "06-character-info-cards/09-arkaya-full-4k.jpg"
+  },
+  {
+   "id": "haze",
+   "name": "Haze",
+   "rarity": "SSR",
+   "weapon": "Dual Blades",
+   "element": "Thunder",
+   "portrait": "01-characters/portrait/haze.jpg",
+   "full": "01-characters/full/haze.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/10-haze-build-4k.jpg",
+   "info_card": "06-character-info-cards/10-haze-full-4k.jpg"
+  },
+  {
+   "id": "raya",
+   "name": "Raya",
+   "rarity": "SR",
+   "weapon": "Dual Blades",
+   "element": "Fire",
+   "portrait": "01-characters/portrait/raya.jpg",
+   "full": "01-characters/full/raya.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/11-raya-build-4k.jpg",
+   "info_card": "06-character-info-cards/11-raya-full-4k.jpg"
+  },
+  {
+   "id": "luxheart",
+   "name": "Luxheart",
+   "rarity": "SR",
+   "weapon": "Great Sword",
+   "element": "Thunder",
+   "portrait": "01-characters/portrait/luxheart.jpg",
+   "full": "01-characters/full/luxheart.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/12-luxheart-build-4k.jpg",
+   "info_card": "06-character-info-cards/12-luxheart-full-4k.jpg"
+  },
+  {
+   "id": "madelyn",
+   "name": "Madelyn",
+   "rarity": "SR",
+   "weapon": "Bow",
+   "element": "Water",
+   "portrait": "01-characters/portrait/madelyn.jpg",
+   "full": "01-characters/full/madelyn.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/13-madelyn-build-4k.jpg",
+   "info_card": "06-character-info-cards/13-madelyn-full-4k.jpg"
+  },
+  {
+   "id": "ryunosuke",
+   "name": "Ryunosuke",
+   "rarity": "SR",
+   "weapon": "Long Sword",
+   "element": "Fire",
+   "portrait": "01-characters/portrait/ryunosuke.jpg",
+   "full": "01-characters/full/ryunosuke.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/14-ryunosuke-build-4k.jpg",
+   "info_card": "06-character-info-cards/14-ryunosuke-full-4k.jpg"
+  },
+  {
+   "id": "ouyangvaren",
+   "name": "Ouyang Varen",
+   "rarity": "SR",
+   "weapon": "Lance",
+   "element": "Water",
+   "portrait": "01-characters/portrait/ouyangvaren.jpg",
+   "full": "01-characters/full/ouyangvaren.jpg",
+   "hires": null,
+   "build_card": "05-build-cards/15-ouyang-varen-build-4k.jpg",
+   "info_card": "06-character-info-cards/15-ouyang-varen-full-4k.jpg"
+  }
+ ],
+ "buddies": [
+  {
+   "name": "Arya",
+   "file": "02-buddies/arya.jpg",
+   "note": "Freya motif buddy"
+  },
+  {
+   "name": "Elwin",
+   "file": "02-buddies/elwin.jpg",
+   "note": "Stylia motif buddy"
+  }
+ ],
+ "gifts": [
+  {
+   "name": "Adventurers Charm",
+   "file": "03-gifts/adventurers-charm.png"
+  },
+  {
+   "name": "Black Pearl Roe",
+   "file": "03-gifts/black-pearl-roe.png"
+  },
+  {
+   "name": "Bonfire Album",
+   "file": "03-gifts/bonfire-album.png"
+  },
+  {
+   "name": "Dome Landscape",
+   "file": "03-gifts/dome-landscape.png"
+  },
+  {
+   "name": "Elder Dragon Banner",
+   "file": "03-gifts/elder-dragon-banner.png"
+  },
+  {
+   "name": "Exploration Badge",
+   "file": "03-gifts/exploration-badge.png"
+  },
+  {
+   "name": "Forest Amber",
+   "file": "03-gifts/forest-amber.png"
+  },
+  {
+   "name": "Glowmoss Bottle",
+   "file": "03-gifts/glowmoss-bottle.png"
+  },
+  {
+   "name": "Journey Cord",
+   "file": "03-gifts/journey-cord.png"
+  },
+  {
+   "name": "Journey Memento",
+   "file": "03-gifts/journey-memento.png"
+  },
+  {
+   "name": "Kulune Songbook",
+   "file": "03-gifts/kulune-songbook.png"
+  },
+  {
+   "name": "Moonfeather Chime",
+   "file": "03-gifts/moonfeather-chime.png"
+  },
+  {
+   "name": "Outlands Poetry",
+   "file": "03-gifts/outlands-poetry.png"
+  },
+  {
+   "name": "Prized Matsutake",
+   "file": "03-gifts/prized-matsutake.png"
+  },
+  {
+   "name": "Sheet",
+   "file": "03-gifts/sheet.png"
+  },
+  {
+   "name": "Thick Cut Tail",
+   "file": "03-gifts/thick-cut-tail.png"
+  },
+  {
+   "name": "Vista Display",
+   "file": "03-gifts/vista-display.png"
+  },
+  {
+   "name": "Wooden Carving",
+   "file": "03-gifts/wooden-carving.png"
+  },
+  {
+   "name": "Worn Adventurer Badge",
+   "file": "03-gifts/worn-adventurer-badge.png"
+  }
+ ],
+ "outfits": [
+  {
+   "file": "04-outfits/buddy-flower-bearing-plume-full.jpg"
+  },
+  {
+   "file": "04-outfits/buddy-flower-bearing-plume.jpg"
+  },
+  {
+   "file": "04-outfits/freya-rose-queen-full.jpg"
+  },
+  {
+   "file": "04-outfits/freya-rose-queen.jpg"
+  },
+  {
+   "file": "04-outfits/stylia-silken-dancer-full.jpg"
+  },
+  {
+   "file": "04-outfits/stylia-silken-dancer.jpg"
+  },
+  {
+   "file": "04-outfits/weapon-flying-feather-full.jpg"
+  },
+  {
+   "file": "04-outfits/weapon-flying-feather.jpg"
+  }
+ ],
+ "guide_freya_stylia": [
+  "07-freya-stylia-guide/01-freya-4k.jpg",
+  "07-freya-stylia-guide/02-freya-skills-4k.jpg",
+  "07-freya-stylia-guide/03-freya-insights-4k.jpg",
+  "07-freya-stylia-guide/04-freya-build-4k.jpg",
+  "07-freya-stylia-guide/05-arya-4k.jpg",
+  "07-freya-stylia-guide/06-stylia-4k.jpg",
+  "07-freya-stylia-guide/07-stylia-skills-4k.jpg",
+  "07-freya-stylia-guide/08-stylia-info-4k.jpg",
+  "07-freya-stylia-guide/09-stylia-build-4k.jpg",
+  "07-freya-stylia-guide/10-elwin-4k.jpg",
+  "07-freya-stylia-guide/11-outfits-4k.jpg"
+ ],
+ "banners": [
+  "08-banners/news-arya.jpg",
+  "08-banners/news-elwin.jpg",
+  "08-banners/news-rosequeen.jpg",
+  "08-banners/news-silken.jpg",
+  "08-banners/og-cover-1200x630.jpg"
+ ],
+ "buddies_all": [
+  {
+   "file": "09-buddies-all/cat_a_01.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_02.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_03.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_04.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_05.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_06.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_07.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_08.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_a_09.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_b_01.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_b_02.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_b_03.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_b_04.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/cat_b_05.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_01.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_02.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_03.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_04.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_05.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_06.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_07.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_08.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_09.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_10.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_11.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/monkey_12.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_01.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_02.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_03.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_04.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_05.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_06.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_07.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_08.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_09.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_10.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_11.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  },
+  {
+   "file": "09-buddies-all/owl_12.png",
+   "name": null,
+   "note": "brightened, 2x; name unknown (rename when list is known)"
+  }
+ ],
+ "weapon_icons": [
+  {
+   "weapon": "Bow",
+   "file": "10-weapon-icons/weapon-bow.png"
+  },
+  {
+   "weapon": "Charge Blade",
+   "file": "10-weapon-icons/weapon-charge-blade.png"
+  },
+  {
+   "weapon": "Dual Blades",
+   "file": "10-weapon-icons/weapon-dual-blades.png"
+  },
+  {
+   "weapon": "Great Sword",
+   "file": "10-weapon-icons/weapon-great-sword.png"
+  },
+  {
+   "weapon": "Hammer",
+   "file": "10-weapon-icons/weapon-hammer.png"
+  },
+  {
+   "weapon": "Heavy Bowgun",
+   "file": "10-weapon-icons/weapon-heavy-bowgun.png"
+  },
+  {
+   "weapon": "Lance",
+   "file": "10-weapon-icons/weapon-lance.png"
+  },
+  {
+   "weapon": "Long Sword",
+   "file": "10-weapon-icons/weapon-long-sword.png"
+  }
+ ],
+ "monsters": [
+  {
+   "id": "anjanath",
+   "name": "Anjanath",
+   "icon": "11-monsters/icons/anjanath.png",
+   "info_card": "11-monsters/info-cards/anjanath.png"
+  },
+  {
+   "id": "barroth",
+   "name": "Barroth",
+   "icon": "11-monsters/icons/barroth.png",
+   "info_card": "11-monsters/info-cards/barroth.png"
+  },
+  {
+   "id": "black-diablos",
+   "name": "Black Diablos",
+   "icon": "11-monsters/icons/black-diablos.png",
+   "info_card": "11-monsters/info-cards/black-diablos.png"
+  },
+  {
+   "id": "diablos",
+   "name": "Diablos",
+   "icon": "11-monsters/icons/diablos.png",
+   "info_card": "11-monsters/info-cards/diablos.png"
+  },
+  {
+   "id": "great-girros",
+   "name": "Great Girros",
+   "icon": "11-monsters/icons/great-girros.png",
+   "info_card": "11-monsters/info-cards/great-girros.png"
+  },
+  {
+   "id": "great-jagras",
+   "name": "Great Jagras",
+   "icon": "11-monsters/icons/great-jagras.png",
+   "info_card": "11-monsters/info-cards/great-jagras.png"
+  },
+  {
+   "id": "jyuratodus",
+   "name": "Jyuratodus",
+   "icon": "11-monsters/icons/jyuratodus.png",
+   "info_card": "11-monsters/info-cards/jyuratodus.png"
+  },
+  {
+   "id": "kulu-ya-ku",
+   "name": "Kulu-Ya-Ku",
+   "icon": "11-monsters/icons/kulu-ya-ku.png",
+   "info_card": "11-monsters/info-cards/kulu-ya-ku.png"
+  },
+  {
+   "id": "kushala-daora",
+   "name": "Kushala Daora",
+   "icon": "11-monsters/icons/kushala-daora.png",
+   "info_card": "11-monsters/info-cards/kushala-daora.png"
+  },
+  {
+   "id": "legiana",
+   "name": "Legiana",
+   "icon": "11-monsters/icons/legiana.png",
+   "info_card": "11-monsters/info-cards/legiana.png"
+  },
+  {
+   "id": "odogaron",
+   "name": "Odogaron",
+   "icon": "11-monsters/icons/odogaron.png",
+   "info_card": "11-monsters/info-cards/odogaron.png"
+  },
+  {
+   "id": "paolumu",
+   "name": "Paolumu",
+   "icon": "11-monsters/icons/paolumu.png",
+   "info_card": "11-monsters/info-cards/paolumu.png"
+  },
+  {
+   "id": "pink-rathian",
+   "name": "Pink Rathian",
+   "icon": "11-monsters/icons/pink-rathian.png",
+   "info_card": "11-monsters/info-cards/pink-rathian.png"
+  },
+  {
+   "id": "pukei-pukei",
+   "name": "Pukei-Pukei",
+   "icon": "11-monsters/icons/pukei-pukei.png",
+   "info_card": "11-monsters/info-cards/pukei-pukei.png"
+  },
+  {
+   "id": "radiant-anjanath",
+   "name": "Radiant Anjanath",
+   "icon": "11-monsters/icons/radiant-anjanath.png",
+   "info_card": "11-monsters/info-cards/radiant-anjanath.png"
+  },
+  {
+   "id": "radiant-barroth",
+   "name": "Radiant Barroth",
+   "icon": "11-monsters/icons/radiant-barroth.png",
+   "info_card": "11-monsters/info-cards/radiant-barroth.png"
+  },
+  {
+   "id": "radiant-black-diablos",
+   "name": "Radiant Black Diablos",
+   "icon": "11-monsters/icons/radiant-black-diablos.png",
+   "info_card": "11-monsters/info-cards/radiant-black-diablos.png"
+  },
+  {
+   "id": "radiant-diablos",
+   "name": "Radiant Diablos",
+   "icon": "11-monsters/icons/radiant-diablos.png",
+   "info_card": "11-monsters/info-cards/radiant-diablos.png"
+  },
+  {
+   "id": "radiant-great-girros",
+   "name": "Radiant Great Girros",
+   "icon": "11-monsters/icons/radiant-great-girros.png",
+   "info_card": "11-monsters/info-cards/radiant-great-girros.png"
+  },
+  {
+   "id": "radiant-great-jagras",
+   "name": "Radiant Great Jagras",
+   "icon": "11-monsters/icons/radiant-great-jagras.png",
+   "info_card": "11-monsters/info-cards/radiant-great-jagras.png"
+  },
+  {
+   "id": "radiant-jyuratodus",
+   "name": "Radiant Jyuratodus",
+   "icon": "11-monsters/icons/radiant-jyuratodus.png",
+   "info_card": "11-monsters/info-cards/radiant-jyuratodus.png"
+  },
+  {
+   "id": "radiant-kulu-ya-ku",
+   "name": "Radiant Kulu-Ya-Ku",
+   "icon": "11-monsters/icons/radiant-kulu-ya-ku.png",
+   "info_card": "11-monsters/info-cards/radiant-kulu-ya-ku.png"
+  },
+  {
+   "id": "radiant-legiana",
+   "name": "Radiant Legiana",
+   "icon": "11-monsters/icons/radiant-legiana.png",
+   "info_card": "11-monsters/info-cards/radiant-legiana.png"
+  },
+  {
+   "id": "radiant-odogaron",
+   "name": "Radiant Odogaron",
+   "icon": "11-monsters/icons/radiant-odogaron.png",
+   "info_card": "11-monsters/info-cards/radiant-odogaron.png"
+  },
+  {
+   "id": "radiant-paolumu",
+   "name": "Radiant Paolumu",
+   "icon": "11-monsters/icons/radiant-paolumu.png",
+   "info_card": "11-monsters/info-cards/radiant-paolumu.png"
+  },
+  {
+   "id": "radiant-pink-rathian",
+   "name": "Radiant Pink Rathian",
+   "icon": "11-monsters/icons/radiant-pink-rathian.png",
+   "info_card": "11-monsters/info-cards/radiant-pink-rathian.png"
+  },
+  {
+   "id": "radiant-pukei-pukei",
+   "name": "Radiant Pukei-Pukei",
+   "icon": "11-monsters/icons/radiant-pukei-pukei.png",
+   "info_card": "11-monsters/info-cards/radiant-pukei-pukei.png"
+  },
+  {
+   "id": "radiant-radobaan",
+   "name": "Radiant Radobaan",
+   "icon": "11-monsters/icons/radiant-radobaan.png",
+   "info_card": "11-monsters/info-cards/radiant-radobaan.png"
+  },
+  {
+   "id": "radiant-rathalos",
+   "name": "Radiant Rathalos",
+   "icon": "11-monsters/icons/radiant-rathalos.png",
+   "info_card": "11-monsters/info-cards/radiant-rathalos.png"
+  },
+  {
+   "id": "radiant-rathian",
+   "name": "Radiant Rathian",
+   "icon": "11-monsters/icons/radiant-rathian.png",
+   "info_card": "11-monsters/info-cards/radiant-rathian.png"
+  },
+  {
+   "id": "radiant-tobi-kadachi",
+   "name": "Radiant Tobi-Kadachi",
+   "icon": "11-monsters/icons/radiant-tobi-kadachi.png",
+   "info_card": "11-monsters/info-cards/radiant-tobi-kadachi.png"
+  },
+  {
+   "id": "radiant-tzitzi-ya-ku",
+   "name": "Radiant Tzitzi-Ya-Ku",
+   "icon": "11-monsters/icons/radiant-tzitzi-ya-ku.png",
+   "info_card": "11-monsters/info-cards/radiant-tzitzi-ya-ku.png"
+  },
+  {
+   "id": "radobaan",
+   "name": "Radobaan",
+   "icon": "11-monsters/icons/radobaan.png",
+   "info_card": "11-monsters/info-cards/radobaan.png"
+  },
+  {
+   "id": "rathalos",
+   "name": "Rathalos",
+   "icon": "11-monsters/icons/rathalos.png",
+   "info_card": "11-monsters/info-cards/rathalos.png"
+  },
+  {
+   "id": "rathian",
+   "name": "Rathian",
+   "icon": "11-monsters/icons/rathian.png",
+   "info_card": "11-monsters/info-cards/rathian.png"
+  },
+  {
+   "id": "ruger-aidal",
+   "name": "Ruger Aidal",
+   "icon": "11-monsters/icons/ruger-aidal.png",
+   "info_card": "11-monsters/info-cards/ruger-aidal.png"
+  },
+  {
+   "id": "tobi-kadachi",
+   "name": "Tobi-Kadachi",
+   "icon": "11-monsters/icons/tobi-kadachi.png",
+   "info_card": "11-monsters/info-cards/tobi-kadachi.png"
+  },
+  {
+   "id": "tzitzi-ya-ku",
+   "name": "Tzitzi-Ya-Ku",
+   "icon": "11-monsters/icons/tzitzi-ya-ku.png",
+   "info_card": "11-monsters/info-cards/tzitzi-ya-ku.png"
+  }
+ ],
+ "_note": "All paths are relative to assets/images/. Character ids: lowercase, no spaces (ouyangvaren). Data source for builds: GameWith JP, 27 Nov 2026."
+}
