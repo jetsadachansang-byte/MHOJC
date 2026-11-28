@@ -5,7 +5,8 @@ style=open(os.path.join(H,'src/style.css'),encoding='utf-8').read()
 import json
 _g=json.load(open(os.path.join(H,'data/gathering.json'),encoding='utf-8'))
 MS='<script>window.MATSLUG='+json.dumps({m['n']:m['id'] for m in _g['materials']})+'</script>\n'
-body=MS+open(os.path.join(H,'src/body.html'),encoding='utf-8').read()+'\n<script>\n'+open(os.path.join(H,'src/ui2.js'),encoding='utf-8').read()+'\n</script>'
+MS+='<script>window.HD='+open(os.path.join(H,'data/hd.json'),encoding='utf-8').read()+'</script>\n'
+body=MS+open(os.path.join(H,'src/body.html'),encoding='utf-8').read()+'\n<script>\n'+open(os.path.join(H,'src/ui2.js'),encoding='utf-8').read()+'\n</script>'+'\n'+open(os.path.join(H,'src/theme.css'),encoding='utf-8').read()
 fonts='''<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">'''

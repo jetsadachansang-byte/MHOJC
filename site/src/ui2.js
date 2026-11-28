@@ -1,6 +1,8 @@
 /* ===== ui2: real images + card data rendered as HTML ===== */
 const SZ=MEDIA.size||{};
-const IMG=(src,cls='',alt='',extra='')=>{if(!src)return '';const d=SZ[src];return `<img class="${cls}" src="${src}" alt="${esc(alt)}" ${d?`width="${d[0]}" height="${d[1]}"`:''} loading="lazy" decoding="async" ${extra}>`};
+const HDM=window.HD||{};
+const hdSet=src=>{const h=src&&HDM[src.split('?')[0]];return h&&h.set.length>1?` srcset="${h.set.map(([w,p])=>p+' '+w+'w').join(', ')}" sizes="${h.sizes}"`:''};
+const IMG=(src,cls='',alt='',extra='')=>{if(!src)return '';const d=SZ[src];return `<img class="${cls}" src="${src}"${/sizes=/.test(extra)?'':hdSet(src)} alt="${esc(alt)}" ${d?`width="${d[0]}" height="${d[1]}"`:''} loading="lazy" decoding="async" ${extra}>`};
 const md=t=>esc(t||'').replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[([^\]]+)\]/g,'<span class="tag">$1</span>').replace(/\n/g,'<br>');
 const EL_EN2={Fire:'fire',Water:'water',Thunder:'thunder',Ice:'ice',Dragon:'dragon'};
 const ELK=s=>EL_EN2[(s||'').split(' ')[0]]||'';
@@ -362,7 +364,7 @@ $('#bd-shot').addEventListener('click',async()=>{
 const _rh=renderHome;
 renderHome=function(){_rh();document.querySelectorAll('#weak-table img').forEach(i=>{const d=SZ[i.getAttribute('src')];if(d){i.width=d[0];i.height=d[1]}})};
 /* fill width/height for any image rendered by older templates */
-new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType!==1)continue;(n.tagName==='IMG'?[n]:n.querySelectorAll('img:not([width])')).forEach(i=>{const d=SZ[i.getAttribute('src')];if(d&&!i.hasAttribute('width')){i.setAttribute('width',d[0]);i.setAttribute('height',d[1])}})}}).observe(document.body,{childList:true,subtree:true});
+new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType!==1)continue;(n.tagName==='IMG'?[n]:n.querySelectorAll('img')).forEach(i=>{const k=(i.getAttribute('src')||'').split('?')[0],h=HDM[k];if(h&&h.set.length>1&&!i.hasAttribute('srcset')){i.setAttribute('sizes',i.dataset.sizes||h.sizes);i.setAttribute('srcset',h.set.map(([w,p])=>p+' '+w+'w').join(', '))}if(!i.hasAttribute('loading')&&!i.classList.contains('hero-art'))i.setAttribute('loading','lazy');const d=SZ[i.getAttribute('src')];if(d&&!i.hasAttribute('width')){i.setAttribute('width',d[0]);i.setAttribute('height',d[1])}})}}).observe(document.body,{childList:true,subtree:true});
 /* ---- builder: boss image + multi-skill search ---- */
 document.head.insertAdjacentHTML('beforeend','<style>.boss{display:flex;gap:12px;align-items:center;background:var(--surface-2);padding:10px;border:1px solid var(--line)}.boss img{width:84px;height:84px;object-fit:contain}.boss b{font-family:var(--f-display);font-size:18px}#msk-chips{max-height:150px;overflow-y:auto}#msk-chips .chip small{opacity:.7;margin-left:4px}.mrow{display:flex;gap:8px;align-items:center;padding:6px 0;border-top:1px solid var(--line);font-size:13px}.mrow img{width:34px;height:34px;object-fit:contain;background:var(--surface-2)}.mrow .n{flex:1;min-width:0}.mrow .n b{display:block;font-size:14px}.mrow .tag.hit-tag{font-weight:700}.mslot{font-family:var(--f-display);font-size:12px;color:var(--brass);margin-top:8px}</style>');
 const MSK=new Set();
@@ -629,3 +631,7 @@ function egRoute(){const h=location.hash;let m;
 window.addEventListener('hashchange',egRoute);egRoute();
 /* link materials on weapon pages to the Gathering page */
 function matLink(n){return window.MATSLUG&&MATSLUG[n]?`<a href="#m-${MATSLUG[n]}" style="color:inherit;text-decoration:underline dotted">${esc(n)}</a>`:esc(n)}
+
+/* ---- theme-hd: character cards (sharp art, element tint, weapon icon, rarity frame) ---- */
+chCard=c=>{const ek=EL_EN[c.el]||'';const big=c.f&&HDM[c.f];return `<button class="ch-card rar-${c.r.toLowerCase()}" style="--elc:${ek?ECOL[ek]:'var(--brass)'}" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span>${IMG(c.p,'',c.n,'data-sizes="(max-width:600px) 46vw, 220px"')}<span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${ek?ei(ek):''}${EL_TH[c.el]||c.el}</span></span></button>`};
+renderChars();if(typeof renderHome==='function')renderHome();

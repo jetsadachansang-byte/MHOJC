@@ -52,7 +52,7 @@
    "w": "Hammer",
    "el": "Ice",
    "p": "img/adventurer/rhodes.webp",
-   "f": null
+   "f": "img/adventurer/full/rhodes.webp"
   },
   {
    "id": "keres",
@@ -1731,80 +1731,80 @@
  },
  "size": {
   "img/gift/forest-amber.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/exploration-badge.webp": [
-   98,
-   98
+   128,
+   128
   ],
   "img/gift/journey-cord.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/prized-matsutake.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/black-pearl-roe.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/thick-cut-tail.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/dome-landscape.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/outlands-poetry.webp": [
-   210,
-   210
+   128,
+   128
   ],
   "img/gift/journey-memento.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/bonfire-album.webp": [
-   210,
-   210
+   128,
+   128
   ],
   "img/gift/kulune-songbook.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/vista-display.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/elder-dragon-banner.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/worn-adventurer-badge.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/wooden-carving.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/sheet.webp": [
    128,
    64
   ],
   "img/gift/adventurers-charm.webp": [
-   98,
-   98
+   128,
+   128
   ],
   "img/gift/glowmoss-bottle.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/gift/moonfeather-chime.webp": [
-   170,
-   170
+   128,
+   128
   ],
   "img/weapon/blood-drinker-chainblade.webp": [
    84,
@@ -3131,152 +3131,152 @@
    84
   ],
   "img/weapon/type/charge-blade.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/dual-blades.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/bow.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/great-sword.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/heavy-bowgun.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/hammer.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/long-sword.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/weapon/type/lance.webp": [
-   100,
-   100
+   128,
+   128
   ],
   "img/adventurer/haze.webp": [
-   225,
-   269
+   480,
+   600
   ],
   "img/adventurer/stylia.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/pepper.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/raya.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/rhodes.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/midori.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/luka.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/ryunosuke.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/ouyangvaren.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/arkaya.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/madelyn.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/keres.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/luxheart.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/pyro.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/freya.webp": [
-   180,
-   215
+   480,
+   600
   ],
   "img/adventurer/full/haze.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/stylia.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/pepper.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/raya.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/midori.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/luka.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/ryunosuke.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/ouyangvaren.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/arkaya.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/madelyn.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/keres.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/luxheart.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/pyro.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/adventurer/full/freya.webp": [
-   625,
-   372
+   480,
+   600
   ],
   "img/visage/radiant-jyuratodus.webp": [
    256,
@@ -3503,168 +3503,168 @@
    256
   ],
   "img/outfit/stylia-silken-dancer.webp": [
-   1000,
-   932
+   480,
+   448
   ],
   "img/outfit/freya-rose-queen.webp": [
-   1000,
-   816
+   480,
+   392
   ],
   "img/outfit/stylia-silken-dancer-full.webp": [
-   1600,
-   914
+   480,
+   274
   ],
   "img/outfit/weapon-flying-feather-full.webp": [
-   1400,
-   718
+   480,
+   246
   ],
   "img/outfit/buddy-flower-bearing-plume-full.webp": [
-   1400,
-   718
+   480,
+   246
   ],
   "img/outfit/buddy-flower-bearing-plume.webp": [
-   1000,
-   761
+   480,
+   365
   ],
   "img/outfit/weapon-flying-feather.webp": [
-   1000,
-   983
+   480,
+   472
   ],
   "img/outfit/freya-rose-queen-full.webp": [
-   1600,
-   835
+   480,
+   251
   ],
   "img/monster/radiant-jagras.webp": [
    59,
    59
   ],
   "img/monster/radiant-jyuratodus.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-rathian.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/anjanath.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/noios.webp": [
    59,
    59
   ],
   "img/monster/radiant-black-diablos.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/odogaron.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/tobi-kadachi.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-radobaan.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-kulu-ya-ku.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-rathalos.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/pukei-pukei.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/jagras.webp": [
    59,
    59
   ],
   "img/monster/radiant-odogaron.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/ruger-aidal.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-pink-rathian.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/paolumu.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-anjanath.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/black-diablos.webp": [
-   92,
-   92
+   128,
+   128
   ],
   "img/monster/kushala-daora.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/girros.webp": [
    59,
    59
   ],
   "img/monster/radiant-great-jagras.webp": [
-   142,
-   142
+   128,
+   128
   ],
   "img/monster/radiant-paolumu.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/diablos.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/pink-rathian.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/rathian.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-legiana.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/apceros.webp": [
    59,
    59
   ],
   "img/monster/legiana.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/barroth.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-girros.webp": [
    103,
    103
   ],
   "img/monster/radiant-great-girros.webp": [
-   141,
-   141
+   128,
+   128
   ],
   "img/monster/great-jagras.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/mernos.webp": [
    59,
@@ -3675,8 +3675,8 @@
    59
   ],
   "img/monster/radiant-tobi-kadachi.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/gajau.webp": [
    59,
@@ -3691,20 +3691,20 @@
    59
   ],
   "img/monster/jyuratodus.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/rathalos.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/kulu-ya-ku.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/tzitzi-ya-ku.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/warrior-atecoli.webp": [
    59,
@@ -3715,8 +3715,8 @@
    59
   ],
   "img/monster/radobaan.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/nergigante.webp": [
    148,
@@ -3727,20 +3727,20 @@
    59
   ],
   "img/monster/great-girros.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-tzitzi-ya-ku.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-pukei-pukei.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-diablos.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-mernos.webp": [
    59,
@@ -3751,8 +3751,8 @@
    59
   ],
   "img/monster/radiant-barroth.webp": [
-   148,
-   148
+   128,
+   128
   ],
   "img/monster/radiant-gajau.webp": [
    59,
@@ -4919,164 +4919,164 @@
    256
   ],
   "img/buddy/wolfe.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/golden-bell.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/ario.webp": [
-   180,
-   215
+   480,
+   582
   ],
   "img/buddy/icarus.webp": [
-   180,
-   215
+   480,
+   575
   ],
   "img/buddy/banako.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/tidal-sound.webp": [
-   180,
-   215
+   480,
+   581
   ],
   "img/buddy/pipa.webp": [
-   180,
-   215
+   480,
+   572
   ],
   "img/buddy/ro.webp": [
-   180,
-   215
+   480,
+   582
   ],
   "img/buddy/pheasant.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/viper.webp": [
-   180,
-   215
+   480,
+   582
   ],
   "img/buddy/nako.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/reefcore.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/shadow.webp": [
-   180,
-   215
+   480,
+   551
   ],
   "img/buddy/barim.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/bladey.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/ron.webp": [
-   180,
-   215
+   480,
+   580
   ],
   "img/buddy/nailu.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/tidal-claw.webp": [
-   180,
-   215
+   480,
+   579
   ],
   "img/buddy/kojiro.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/zira.webp": [
-   180,
-   215
+   480,
+   584
   ],
   "img/buddy/mith.webp": [
-   180,
-   215
+   480,
+   579
   ],
   "img/buddy/alon.webp": [
-   180,
-   215
+   480,
+   583
   ],
   "img/buddy/blademaster.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/pupo.webp": [
-   180,
-   215
+   480,
+   576
   ],
   "img/buddy/lido.webp": [
-   180,
-   215
+   480,
+   581
   ],
   "img/buddy/ravinge.webp": [
-   180,
-   215
+   480,
+   581
   ],
   "img/buddy/horn.webp": [
-   180,
-   215
+   480,
+   581
   ],
   "img/buddy/daisho.webp": [
-   180,
-   215
+   480,
+   583
   ],
   "img/buddy/sand-velvet.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/sand-echo.webp": [
-   180,
-   215
+   480,
+   581
   ],
   "img/buddy/devu.webp": [
-   180,
-   215
+   480,
+   579
   ],
   "img/buddy/aloo.webp": [
-   180,
-   215
+   480,
+   579
   ],
   "img/buddy/fortie.webp": [
-   180,
-   215
+   480,
+   545
   ],
   "img/buddy/hoppy.webp": [
-   180,
-   215
+   480,
+   579
   ],
   "img/buddy/falee-hendsom.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/boomie.webp": [
-   180,
-   215
+   480,
+   580
   ],
   "img/buddy/aku.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/mac.webp": [
-   180,
-   215
+   480,
+   578
   ],
   "img/buddy/featured/arya.webp": [
-   900,
-   900
+   480,
+   480
   ],
   "img/buddy/featured/elwin.webp": [
-   900,
-   900
+   480,
+   480
   ],
   "img/outfit/pepper-exclusive.webp": [
    320,
@@ -5097,6 +5097,14 @@
   "img/outfit/fated-adventurer-exclusive.webp": [
    320,
    320
+  ],
+  "img/adventurer/full/rhodes.webp": [
+   480,
+   600
+  ],
+  "img/hero/hero.webp": [
+   480,
+   684
   ]
  }
 }

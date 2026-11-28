@@ -1,987 +1,1322 @@
 {
  "img/adventurer/pyro.webp": {
-  "source": "https://img.gamewith.jp/img/277c2b6488f8e643d90924cfba3feb7a.png",
+  "source": "assets/images/01-characters/portrait/pyro.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/pyro",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/pyro@560.webp"
+  ]
  },
  "img/adventurer/full/pyro.webp": {
-  "source": "https://img.gamewith.jp/img/e37a40b549fb9045e14c9d9e1e5deb9d.png",
+  "source": "assets/images/01-characters/full/pyro.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577460",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/pyro@960.webp",
+   "img/adventurer/full/pyro@1122.webp"
+  ]
  },
  "img/adventurer/freya.webp": {
-  "source": "https://img.gamewith.jp/img/1f90476b408f5c2c78cbc1cc41180515.png",
+  "source": "assets/images/01-characters/portrait/freya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/freya",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/freya@560.webp"
+  ]
  },
  "img/adventurer/full/freya.webp": {
-  "source": "https://img.gamewith.jp/img/9ea49529da9c960ae58bc89a5fedc0da.png",
+  "source": "assets/images/01-characters/full/freya.jpg",
   "page": "https://gamewith.jp/mhoutlanders/586524",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/freya@960.webp",
+   "img/adventurer/full/freya@1122.webp"
+  ]
  },
  "img/adventurer/midori.webp": {
-  "source": "https://img.gamewith.jp/img/9d1497be7cea177f0a21aca743a2121a.png",
+  "source": "assets/images/01-characters/portrait/midori.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/midori",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/midori@560.webp"
+  ]
  },
  "img/adventurer/full/midori.webp": {
-  "source": "https://img.gamewith.jp/img/d683e1488023d3700adb9a68f6b6ebf4.png",
+  "source": "assets/images/01-characters/full/midori.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577465",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/midori@960.webp",
+   "img/adventurer/full/midori@1122.webp"
+  ]
  },
  "img/adventurer/keres.webp": {
-  "source": "https://img.gamewith.jp/img/12a98419be010ebfecf5586c86192438.png",
+  "source": "assets/images/01-characters/portrait/keres.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/keres",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/keres@560.webp"
+  ]
  },
  "img/adventurer/full/keres.webp": {
-  "source": "https://img.gamewith.jp/img/1ff41ef445560ec438fe39ef0d6d4f21.png",
+  "source": "assets/images/01-characters/full/keres.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577459",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/keres@960.webp",
+   "img/adventurer/full/keres@1122.webp"
+  ]
  },
  "img/adventurer/haze.webp": {
-  "source": "https://img.gamewith.jp/img/47f5a8ce3326ec59d6b59fe4cf19d449.jpg",
+  "source": "assets/images/01-characters/portrait/haze.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/haze",
   "src_px": [
    225,
    269
   ],
-  "w": 225,
-  "h": 269
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/haze@560.webp"
+  ]
  },
  "img/adventurer/full/haze.webp": {
-  "source": "https://img.gamewith.jp/img/229bf378fdd13e9118d807f7afd1dd14.png",
+  "source": "assets/images/01-characters/full/haze.jpg",
   "page": "https://gamewith.jp/mhoutlanders/583505",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/haze@960.webp",
+   "img/adventurer/full/haze@1122.webp"
+  ]
  },
  "img/adventurer/arkaya.webp": {
-  "source": "https://img.gamewith.jp/img/21c5ee258e8939517b09a0dc879cb345.png",
+  "source": "assets/images/01-characters/portrait/arkaya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/arkaya",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/arkaya@560.webp"
+  ]
  },
  "img/adventurer/full/arkaya.webp": {
-  "source": "https://img.gamewith.jp/img/3320589d39e7e48ee85347a4d1b61d03.png",
+  "source": "assets/images/01-characters/full/arkaya.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577458",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/arkaya@960.webp",
+   "img/adventurer/full/arkaya@1122.webp"
+  ]
  },
  "img/adventurer/rhodes.webp": {
-  "source": "https://img.gamewith.jp/img/2f27ad2ae451a139897535bab08a2204.png",
+  "source": "assets/images/01-characters/portrait/rhodes.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/rhodes",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/rhodes@560.webp"
+  ]
  },
  "img/adventurer/pepper.webp": {
-  "source": "https://img.gamewith.jp/img/0587e356a64cd6c2c6cf3177ce92b2db.png",
+  "source": "assets/images/01-characters/portrait/pepper.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/pepper",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/pepper@560.webp"
+  ]
  },
  "img/adventurer/full/pepper.webp": {
-  "source": "https://img.gamewith.jp/img/ac6feb6678013fd31bc8a5e7780c1dd4.png",
+  "source": "assets/images/01-characters/full/pepper.jpg",
   "page": "https://gamewith.jp/mhoutlanders/561564",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/pepper@960.webp",
+   "img/adventurer/full/pepper@1122.webp"
+  ]
  },
  "img/adventurer/luka.webp": {
-  "source": "https://img.gamewith.jp/img/9e4000429ded9c44b30801954d0d8b72.png",
+  "source": "assets/images/01-characters/portrait/luka.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/luka",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/luka@560.webp"
+  ]
  },
  "img/adventurer/full/luka.webp": {
-  "source": "https://img.gamewith.jp/img/37e3a3fdbf73d9bb546cf9e9f651f224.png",
+  "source": "assets/images/01-characters/full/luka.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577461",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/luka@960.webp",
+   "img/adventurer/full/luka@1122.webp"
+  ]
  },
  "img/adventurer/stylia.webp": {
-  "source": "https://img.gamewith.jp/img/95c6e406fde04c5704cc1c82ef3e08bc.png",
+  "source": "assets/images/01-characters/portrait/stylia.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/stylia",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/stylia@560.webp"
+  ]
  },
  "img/adventurer/full/stylia.webp": {
-  "source": "https://img.gamewith.jp/img/e21ec2671971069ccb5fe667dcceb12a.png",
+  "source": "assets/images/01-characters/full/stylia.jpg",
   "page": "https://gamewith.jp/mhoutlanders/588284",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/stylia@960.webp",
+   "img/adventurer/full/stylia@1122.webp"
+  ]
  },
  "img/adventurer/luxheart.webp": {
-  "source": "https://img.gamewith.jp/img/acf40125ac8531df471d64c15aaa7799.png",
+  "source": "assets/images/01-characters/portrait/luxheart.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/luxheart",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/luxheart@560.webp"
+  ]
  },
  "img/adventurer/full/luxheart.webp": {
-  "source": "https://img.gamewith.jp/img/317ce481e24b3ffedf919da95498e896.png",
+  "source": "assets/images/01-characters/full/luxheart.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577456",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/luxheart@960.webp",
+   "img/adventurer/full/luxheart@1122.webp"
+  ]
  },
  "img/adventurer/ryunosuke.webp": {
-  "source": "https://img.gamewith.jp/img/14dcb977934d9922a1d297a23f61c228.png",
+  "source": "assets/images/01-characters/portrait/ryunosuke.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/ryunosuke",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/ryunosuke@560.webp"
+  ]
  },
  "img/adventurer/full/ryunosuke.webp": {
-  "source": "https://img.gamewith.jp/img/5ff18da048fa877db469abc53fb11a63.png",
+  "source": "assets/images/01-characters/full/ryunosuke.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577455",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/ryunosuke@960.webp",
+   "img/adventurer/full/ryunosuke@1122.webp"
+  ]
  },
  "img/adventurer/raya.webp": {
-  "source": "https://img.gamewith.jp/img/44bdfe618d56832ab23b27546f9224c8.png",
+  "source": "assets/images/01-characters/portrait/raya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/raya",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/raya@560.webp"
+  ]
  },
  "img/adventurer/full/raya.webp": {
-  "source": "https://img.gamewith.jp/img/ff1c5060573b2aecc1622506e5cc56e6.png",
+  "source": "assets/images/01-characters/full/raya.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577463",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/raya@960.webp",
+   "img/adventurer/full/raya@1122.webp"
+  ]
  },
  "img/adventurer/ouyangvaren.webp": {
-  "source": "https://img.gamewith.jp/img/43a43cfcf16d501ccb28ffdfb09811b0.png",
+  "source": "assets/images/01-characters/portrait/ouyangvaren.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/ouyang-varen",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/ouyangvaren@560.webp"
+  ]
  },
  "img/adventurer/full/ouyangvaren.webp": {
-  "source": "https://img.gamewith.jp/img/d15eada63d5c8456b8f7a6c5f0f8b83c.png",
+  "source": "assets/images/01-characters/full/ouyangvaren.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577462",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/ouyangvaren@960.webp",
+   "img/adventurer/full/ouyangvaren@1122.webp"
+  ]
  },
  "img/adventurer/madelyn.webp": {
-  "source": "https://img.gamewith.jp/img/7f066202ea8e4192737ab4032d52e86a.png",
+  "source": "assets/images/01-characters/portrait/madelyn.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/madelyn",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/madelyn@560.webp"
+  ]
  },
  "img/adventurer/full/madelyn.webp": {
-  "source": "https://img.gamewith.jp/img/05ab3b119238d48dfc8d2fba57f67d4d.png",
+  "source": "assets/images/01-characters/full/madelyn.jpg",
   "page": "https://gamewith.jp/mhoutlanders/577464",
   "src_px": [
    625,
    372
   ],
-  "w": 625,
-  "h": 372,
-  "note": "GameWith JP character art"
+  "w": 480,
+  "h": 600,
+  "note": "GameWith JP character art",
+  "variants": [
+   "img/adventurer/full/madelyn@960.webp",
+   "img/adventurer/full/madelyn@1122.webp"
+  ]
  },
  "img/buddy/kojiro.webp": {
-  "source": "https://img.gamewith.jp/img/552d83423c43ff822c0244bce9852805.png",
+  "source": "assets/images/09-buddies-all/kojiro.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/kojiro",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/kojiro@960.webp"
+  ]
  },
  "img/buddy/daisho.webp": {
-  "source": "https://img.gamewith.jp/img/288e2a5a55b451c05de89539cce02d41.png",
+  "source": "assets/images/09-buddies-all/daisho.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/daisho",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 583,
+  "variants": [
+   "img/buddy/daisho@884.webp"
+  ]
  },
  "img/buddy/pipa.webp": {
-  "source": "https://img.gamewith.jp/img/7ca48d4ceee3807b4b14856362097da6.png",
+  "source": "assets/images/09-buddies-all/pipa.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pipa",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 572,
+  "variants": [
+   "img/buddy/pipa@960.webp"
+  ]
  },
  "img/buddy/ro.webp": {
-  "source": "https://img.gamewith.jp/img/8e8ef0efb5eb27edcebb48c827d25ad5.png",
+  "source": "assets/images/09-buddies-all/ro.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ro",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 582,
+  "variants": [
+   "img/buddy/ro@886.webp"
+  ]
  },
  "img/buddy/hoppy.webp": {
-  "source": "https://img.gamewith.jp/img/fa274c306c98109aa0f9b0d0add82f44.png",
+  "source": "assets/images/09-buddies-all/hoppy.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/hoppy",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 579,
+  "variants": [
+   "img/buddy/hoppy@878.webp"
+  ]
  },
  "img/buddy/devu.webp": {
-  "source": "https://img.gamewith.jp/img/136db10131b3465d7846285b472a0480.png",
+  "source": "assets/images/09-buddies-all/devu.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/devu",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 579,
+  "variants": [
+   "img/buddy/devu@878.webp"
+  ]
  },
  "img/buddy/nailu.webp": {
-  "source": "https://img.gamewith.jp/img/f0e7a7a4fe59deee770dea2d4d802df5.png",
+  "source": "assets/images/09-buddies-all/nailu.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nailu",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/nailu@894.webp"
+  ]
  },
  "img/buddy/pheasant.webp": {
-  "source": "https://img.gamewith.jp/img/6ead107c95a50cb5d6058c20adad1d33.png",
+  "source": "assets/images/09-buddies-all/pheasant.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pheasant",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/pheasant@896.webp"
+  ]
  },
  "img/buddy/icarus.webp": {
-  "source": "https://img.gamewith.jp/img/4d8609c13a393b357dab0e786b553c36.png",
+  "source": "assets/images/09-buddies-all/icarus.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/icarus",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 575,
+  "variants": [
+   "img/buddy/icarus@890.webp"
+  ]
  },
  "img/buddy/fortie.webp": {
-  "source": "https://img.gamewith.jp/img/d903b914986fa47c64a9064bf7db023f.png",
+  "source": "assets/images/09-buddies-all/fortie.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/fortie",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 545,
+  "variants": [
+   "img/buddy/fortie@960.webp"
+  ]
  },
  "img/buddy/banako.webp": {
-  "source": "https://img.gamewith.jp/img/c0e5a90b3cd6a2cd414ed81c78d2c732.png",
+  "source": "assets/images/09-buddies-all/banako.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/banako",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/banako@960.webp"
+  ]
  },
  "img/buddy/sand-velvet.webp": {
-  "source": "https://img.gamewith.jp/img/b8cff4d3311037bc142ca25ecd4290a8.png",
+  "source": "assets/images/09-buddies-all/sand-velvet.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-velvet",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/sand-velvet@886.webp"
+  ]
  },
  "img/buddy/tidal-claw.webp": {
-  "source": "https://img.gamewith.jp/img/1c253b40230e8191fa3e486bacbe7ca0.png",
+  "source": "assets/images/09-buddies-all/tidal-claw.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-claw",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 579,
+  "variants": [
+   "img/buddy/tidal-claw@884.webp"
+  ]
  },
  "img/buddy/nako.webp": {
-  "source": "https://img.gamewith.jp/img/f6ed9419426e89be60a880c25926fc32.png",
+  "source": "assets/images/09-buddies-all/nako.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/nako",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/nako@878.webp"
+  ]
  },
  "img/buddy/barim.webp": {
-  "source": "https://img.gamewith.jp/img/b222a6290cfe318aa2c5f7b26fb5b111.png",
+  "source": "assets/images/09-buddies-all/barim.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/barim",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/barim@876.webp"
+  ]
  },
  "img/buddy/falee-hendsom.webp": {
-  "source": "https://img.gamewith.jp/img/eac09ded8cb660339f572e9fac64de1b.png",
+  "source": "assets/images/09-buddies-all/falee-hendsom.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/falee-hendsom",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/falee-hendsom@878.webp"
+  ]
  },
  "img/buddy/sand-echo.webp": {
-  "source": "https://img.gamewith.jp/img/974cb36600f1a25f1dc5b9704f7b08a7.png",
+  "source": "assets/images/09-buddies-all/sand-echo.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/sand-echo",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 581,
+  "variants": [
+   "img/buddy/sand-echo@876.webp"
+  ]
  },
  "img/buddy/reefcore.webp": {
-  "source": "https://img.gamewith.jp/img/dd76b480e1f08fb5d3c7c0e5b971d6af.png",
+  "source": "assets/images/09-buddies-all/reefcore.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/reefcore",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/reefcore@878.webp"
+  ]
  },
  "img/buddy/ravinge.webp": {
-  "source": "https://img.gamewith.jp/img/49e9b995f5dd7c886cc9dcf0cb063e1e.png",
+  "source": "assets/images/09-buddies-all/ravinge.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ravinge",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 581,
+  "variants": [
+   "img/buddy/ravinge@896.webp"
+  ]
  },
  "img/buddy/ario.webp": {
-  "source": "https://img.gamewith.jp/img/0f35a744f2e74798047c7d4ec44ae6b8.png",
+  "source": "assets/images/09-buddies-all/ario.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ario",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 582,
+  "variants": [
+   "img/buddy/ario@894.webp"
+  ]
  },
  "img/buddy/golden-bell.webp": {
-  "source": "https://img.gamewith.jp/img/e5d707259348ecf25b20f6ddf7df0844.png",
+  "source": "assets/images/09-buddies-all/golden-bell.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/golden-bell",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/golden-bell@896.webp"
+  ]
  },
  "img/buddy/tidal-sound.webp": {
-  "source": "https://img.gamewith.jp/img/da3b671ed4f96d667057d0bfaad53cf3.png",
+  "source": "assets/images/09-buddies-all/tidal-sound.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/tidal-sound",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 581,
+  "variants": [
+   "img/buddy/tidal-sound@896.webp"
+  ]
  },
  "img/buddy/blademaster.webp": {
-  "source": "https://img.gamewith.jp/img/ef81d523418269e2c19bd099d0e3f298.png",
+  "source": "assets/images/09-buddies-all/blademaster.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/blademaster",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/blademaster@896.webp"
+  ]
  },
  "img/buddy/zira.webp": {
-  "source": "https://img.gamewith.jp/img/450277ddfc7f9f8f2d979734e1ff8930.png",
+  "source": "assets/images/09-buddies-all/zira.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/zira",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 584,
+  "variants": [
+   "img/buddy/zira@884.webp"
+  ]
  },
  "img/buddy/aloo.webp": {
-  "source": "https://img.gamewith.jp/img/0ef1a9e83a27725923fb5e97652ba1bb.png",
+  "source": "assets/images/09-buddies-all/aloo.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aloo",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 579,
+  "variants": [
+   "img/buddy/aloo@890.webp"
+  ]
  },
  "img/buddy/shadow.webp": {
-  "source": "https://img.gamewith.jp/img/f58b9302bcf9ad18193eb5f773010604.png",
+  "source": "assets/images/09-buddies-all/shadow.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/shadow",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 551,
+  "variants": [
+   "img/buddy/shadow@960.webp"
+  ]
  },
  "img/buddy/ron.webp": {
-  "source": "https://img.gamewith.jp/img/9210fc6d23c6ee1f1a38ab53413d9649.png",
+  "source": "assets/images/09-buddies-all/ron.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/ron",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 580,
+  "variants": [
+   "img/buddy/ron@890.webp"
+  ]
  },
  "img/buddy/alon.webp": {
-  "source": "https://img.gamewith.jp/img/3612bd431daa8d2fd455ebed73a93c4c.png",
+  "source": "assets/images/09-buddies-all/alon.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/alon",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 583,
+  "variants": [
+   "img/buddy/alon@886.webp"
+  ]
  },
  "img/buddy/boomie.webp": {
-  "source": "https://img.gamewith.jp/img/5fb39efce005fad2cc46ea81dd66f414.png",
+  "source": "assets/images/09-buddies-all/boomie.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/boomie",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 580,
+  "variants": [
+   "img/buddy/boomie@876.webp"
+  ]
  },
  "img/buddy/pupo.webp": {
-  "source": "https://img.gamewith.jp/img/945003bc95f35ecd12883b83201c332e.png",
+  "source": "assets/images/09-buddies-all/pupo.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/pupo",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/pupo@878.webp"
+  ]
  },
  "img/buddy/mac.webp": {
-  "source": "https://img.gamewith.jp/img/40b43f07aee4f91aa05aad1e87ac512c.png",
+  "source": "assets/images/09-buddies-all/mac.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mac",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/mac@878.webp"
+  ]
  },
  "img/buddy/wolfe.webp": {
-  "source": "https://img.gamewith.jp/img/046eadfe1a40542caa1cb77a84513951.png",
+  "source": "assets/images/09-buddies-all/wolfe.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/wolfe",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 576,
+  "variants": [
+   "img/buddy/wolfe@878.webp"
+  ]
  },
  "img/buddy/aku.webp": {
-  "source": "https://img.gamewith.jp/img/8fb80fdb946438aeafec9eeb5c53ffd1.png",
+  "source": "assets/images/09-buddies-all/aku.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/aku",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/aku@876.webp"
+  ]
  },
  "img/buddy/viper.webp": {
-  "source": "https://img.gamewith.jp/img/b29e1611f06a61750bbfb7195aa851b3.png",
+  "source": "assets/images/09-buddies-all/viper.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/viper",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 582,
+  "variants": [
+   "img/buddy/viper@894.webp"
+  ]
  },
  "img/buddy/bladey.webp": {
-  "source": "https://img.gamewith.jp/img/016624225ba4a71183a56b67cd7fc9f4.png",
+  "source": "assets/images/09-buddies-all/bladey.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/bladey",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 578,
+  "variants": [
+   "img/buddy/bladey@896.webp"
+  ]
  },
  "img/buddy/horn.webp": {
-  "source": "https://img.gamewith.jp/img/ea466966174492b10d4562f0a3283791.png",
+  "source": "assets/images/09-buddies-all/horn.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/horn",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 581,
+  "variants": [
+   "img/buddy/horn@896.webp"
+  ]
  },
  "img/buddy/lido.webp": {
-  "source": "https://img.gamewith.jp/img/c7468f8a74ccc490d82c98b0fda48750.png",
+  "source": "assets/images/09-buddies-all/lido.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/lido",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 581,
+  "variants": [
+   "img/buddy/lido@896.webp"
+  ]
  },
  "img/buddy/mith.webp": {
-  "source": "https://img.gamewith.jp/img/4397eb8f4dbd32f3e6d1fabdb3935275.png",
+  "source": "assets/images/09-buddies-all/mith.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/buddies/mith",
   "src_px": [
    180,
    215
   ],
-  "w": 180,
-  "h": 215
+  "w": 480,
+  "h": 579,
+  "variants": [
+   "img/buddy/mith@894.webp"
+  ]
  },
  "img/monster/great-jagras.webp": {
-  "source": "https://img.gamewith.jp/img/933892cb3bd5410e7054225bc26b2e0b.png",
+  "source": "assets/images/11-monsters/icons/great-jagras.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/great-jagras",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/great-jagras@256.webp",
+   "img/monster/great-jagras@512.webp"
+  ]
  },
  "img/monster/tobi-kadachi.webp": {
-  "source": "https://img.gamewith.jp/img/efeced448c247c58ceaaa9d9bfa1d8b2.png",
+  "source": "assets/images/11-monsters/icons/tobi-kadachi.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/tobi-kadachi",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/tobi-kadachi@256.webp",
+   "img/monster/tobi-kadachi@512.webp"
+  ]
  },
  "img/monster/great-girros.webp": {
-  "source": "https://img.gamewith.jp/img/5ec726da0ea4078dd5d468f28828ae58.png",
+  "source": "assets/images/11-monsters/icons/great-girros.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/great-girros",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/great-girros@256.webp",
+   "img/monster/great-girros@512.webp"
+  ]
  },
  "img/monster/odogaron.webp": {
-  "source": "https://img.gamewith.jp/img/2cf75d1609cf8770e1c857d5f0401d07.png",
+  "source": "assets/images/11-monsters/icons/odogaron.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/odogaron",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/odogaron@256.webp",
+   "img/monster/odogaron@512.webp"
+  ]
  },
  "img/monster/kulu-ya-ku.webp": {
-  "source": "https://img.gamewith.jp/img/0b9ae35920d0019b8fb6857965bf6474.png",
+  "source": "assets/images/11-monsters/icons/kulu-ya-ku.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/kulu-ya-ku",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/kulu-ya-ku@256.webp",
+   "img/monster/kulu-ya-ku@512.webp"
+  ]
  },
  "img/monster/pukei-pukei.webp": {
-  "source": "https://img.gamewith.jp/img/aedd86f3f3c65d5d98149334db9e3741.png",
+  "source": "assets/images/11-monsters/icons/pukei-pukei.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/pukei-pukei",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/pukei-pukei@256.webp",
+   "img/monster/pukei-pukei@512.webp"
+  ]
  },
  "img/monster/tzitzi-ya-ku.webp": {
-  "source": "https://img.gamewith.jp/img/f582c9cd7bc77ef70a8e9188d90915dc.png",
+  "source": "assets/images/11-monsters/icons/tzitzi-ya-ku.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/tzitzi-ya-ku",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/tzitzi-ya-ku@256.webp",
+   "img/monster/tzitzi-ya-ku@512.webp"
+  ]
  },
  "img/monster/barroth.webp": {
-  "source": "https://img.gamewith.jp/img/ee7031e18ae8a4adbc4b6ac626919dfd.png",
+  "source": "assets/images/11-monsters/icons/barroth.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/barroth",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/barroth@256.webp",
+   "img/monster/barroth@512.webp"
+  ]
  },
  "img/monster/anjanath.webp": {
-  "source": "https://img.gamewith.jp/img/fb51757171a4e145e385a85ffcfc41fc.png",
+  "source": "assets/images/11-monsters/icons/anjanath.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/anjanath",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/anjanath@256.webp",
+   "img/monster/anjanath@512.webp"
+  ]
  },
  "img/monster/radobaan.webp": {
-  "source": "https://img.gamewith.jp/img/201dfd8be009f621246dcc232d497515.png",
+  "source": "assets/images/11-monsters/icons/radobaan.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radobaan",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radobaan@256.webp",
+   "img/monster/radobaan@512.webp"
+  ]
  },
  "img/monster/rathian.webp": {
-  "source": "https://img.gamewith.jp/img/c181cfb4d399611f2392b32b2479ce0f.png",
+  "source": "assets/images/11-monsters/icons/rathian.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/rathian",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/rathian@256.webp",
+   "img/monster/rathian@512.webp"
+  ]
  },
  "img/monster/pink-rathian.webp": {
-  "source": "https://img.gamewith.jp/img/f52ef283758e7d93345e8f851010b17d.png",
+  "source": "assets/images/11-monsters/icons/pink-rathian.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/pink-rathian",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/pink-rathian@256.webp",
+   "img/monster/pink-rathian@512.webp"
+  ]
  },
  "img/monster/rathalos.webp": {
-  "source": "https://img.gamewith.jp/img/99d8b7061586cb045b5bff9105442686.png",
+  "source": "assets/images/11-monsters/icons/rathalos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/rathalos",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/rathalos@256.webp",
+   "img/monster/rathalos@512.webp"
+  ]
  },
  "img/monster/diablos.webp": {
-  "source": "https://img.gamewith.jp/img/fe5dda51045458c91f774ec54ae9e13e.png",
+  "source": "assets/images/11-monsters/icons/diablos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/diablos",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/diablos@256.webp",
+   "img/monster/diablos@512.webp"
+  ]
  },
  "img/monster/black-diablos.webp": {
-  "source": "https://img.gamewith.jp/img/75a0aac92f7a67f1c7ac76e598ff549b.png",
+  "source": "assets/images/11-monsters/icons/black-diablos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/black-diablos",
   "src_px": [
    92,
    92
   ],
-  "w": 92,
-  "h": 92
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/black-diablos@256.webp",
+   "img/monster/black-diablos@512.webp"
+  ]
  },
  "img/monster/paolumu.webp": {
-  "source": "https://img.gamewith.jp/img/c4084a6f1532e4a0b4d372763efb9b39.png",
+  "source": "assets/images/11-monsters/icons/paolumu.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/paolumu",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/paolumu@256.webp",
+   "img/monster/paolumu@512.webp"
+  ]
  },
  "img/monster/legiana.webp": {
-  "source": "https://img.gamewith.jp/img/6c6f2cbf11c3f8255b96dcb4b7e3ecf0.png",
+  "source": "assets/images/11-monsters/icons/legiana.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/legiana",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/legiana@256.webp",
+   "img/monster/legiana@512.webp"
+  ]
  },
  "img/monster/jyuratodus.webp": {
-  "source": "https://img.gamewith.jp/img/4f48ca5f3fe38ee36f725a408597260a.png",
+  "source": "assets/images/11-monsters/icons/jyuratodus.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/jyuratodus",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/jyuratodus@256.webp",
+   "img/monster/jyuratodus@512.webp"
+  ]
  },
  "img/monster/radiant-great-jagras.webp": {
-  "source": "https://img.gamewith.jp/img/fadf726797ca9444e24a98205c74092e.png",
+  "source": "assets/images/11-monsters/icons/radiant-great-jagras.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-great-jagras",
   "src_px": [
    142,
    142
   ],
-  "w": 142,
-  "h": 142
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-great-jagras@256.webp",
+   "img/monster/radiant-great-jagras@512.webp"
+  ]
  },
  "img/monster/radiant-kulu-ya-ku.webp": {
-  "source": "https://img.gamewith.jp/img/d9c161c9e58b87d89928b9baf958272c.png",
+  "source": "assets/images/11-monsters/icons/radiant-kulu-ya-ku.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-kulu-ya-ku",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-kulu-ya-ku@256.webp",
+   "img/monster/radiant-kulu-ya-ku@512.webp"
+  ]
  },
  "img/monster/radiant-pukei-pukei.webp": {
-  "source": "https://img.gamewith.jp/img/f01a0dbe86454a03be3b9fd3d9b0e03e.png",
+  "source": "assets/images/11-monsters/icons/radiant-pukei-pukei.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-pukei-pukei",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-pukei-pukei@256.webp",
+   "img/monster/radiant-pukei-pukei@512.webp"
+  ]
  },
  "img/monster/radiant-jyuratodus.webp": {
-  "source": "https://img.gamewith.jp/img/a48e8c74f856265a5fd05b36fd91889a.png",
+  "source": "assets/images/11-monsters/icons/radiant-jyuratodus.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-jyuratodus",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-jyuratodus@256.webp",
+   "img/monster/radiant-jyuratodus@512.webp"
+  ]
  },
  "img/monster/radiant-barroth.webp": {
-  "source": "https://img.gamewith.jp/img/cdab4f0ce9d8b64f50ff06c5a4f179e5.png",
+  "source": "assets/images/11-monsters/icons/radiant-barroth.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-barroth",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-barroth@256.webp",
+   "img/monster/radiant-barroth@512.webp"
+  ]
  },
  "img/monster/radiant-anjanath.webp": {
-  "source": "https://img.gamewith.jp/img/f84e839dabbbc51852f3edbfee657384.png",
+  "source": "assets/images/11-monsters/icons/radiant-anjanath.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-anjanath",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-anjanath@256.webp",
+   "img/monster/radiant-anjanath@512.webp"
+  ]
  },
  "img/monster/radiant-rathian.webp": {
-  "source": "https://img.gamewith.jp/img/aaf503af19df42ec602745bb1cb93757.png",
+  "source": "assets/images/11-monsters/icons/radiant-rathian.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-rathian",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-rathian@256.webp",
+   "img/monster/radiant-rathian@512.webp"
+  ]
  },
  "img/monster/radiant-diablos.webp": {
-  "source": "https://img.gamewith.jp/img/1ab2f0b1d4f71e3bcea6c9c09ca7e3ac.png",
+  "source": "assets/images/11-monsters/icons/radiant-diablos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-diablos",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-diablos@256.webp",
+   "img/monster/radiant-diablos@512.webp"
+  ]
  },
  "img/monster/radiant-legiana.webp": {
-  "source": "https://img.gamewith.jp/img/ca287a1e378e5921b02385da288e0ded.png",
+  "source": "assets/images/11-monsters/icons/radiant-legiana.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-legiana",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-legiana@256.webp",
+   "img/monster/radiant-legiana@512.webp"
+  ]
  },
  "img/monster/radiant-paolumu.webp": {
-  "source": "https://img.gamewith.jp/img/18fba630975addd843c9a029212f3995.png",
+  "source": "assets/images/11-monsters/icons/radiant-paolumu.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-paolumu",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-paolumu@256.webp",
+   "img/monster/radiant-paolumu@512.webp"
+  ]
  },
  "img/monster/radiant-rathalos.webp": {
-  "source": "https://img.gamewith.jp/img/396f8e4799e9c621ee15519dd71d13c1.png",
+  "source": "assets/images/11-monsters/icons/radiant-rathalos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-rathalos",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-rathalos@256.webp",
+   "img/monster/radiant-rathalos@512.webp"
+  ]
  },
  "img/monster/kushala-daora.webp": {
-  "source": "https://img.gamewith.jp/img/bfd88409bd51edcea25856f6a12177dd.png",
+  "source": "assets/images/11-monsters/icons/kushala-daora.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/kushala-daora",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/kushala-daora@256.webp",
+   "img/monster/kushala-daora@512.webp"
+  ]
  },
  "img/monster/nergigante.webp": {
   "source": "https://img.gamewith.jp/img/97e9e04ce617cc96f5bf81ceab4a8190.png",
@@ -994,74 +1329,102 @@
   "h": 148
  },
  "img/monster/radiant-pink-rathian.webp": {
-  "source": "https://img.gamewith.jp/img/6336a1379d6b39d97045ccb649a782c8.png",
+  "source": "assets/images/11-monsters/icons/radiant-pink-rathian.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-pink-rathian",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-pink-rathian@256.webp",
+   "img/monster/radiant-pink-rathian@512.webp"
+  ]
  },
  "img/monster/radiant-black-diablos.webp": {
-  "source": "https://img.gamewith.jp/img/fc22d40597ba7afd11508dc69b1fcd56.png",
+  "source": "assets/images/11-monsters/icons/radiant-black-diablos.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-black-diablos",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-black-diablos@256.webp",
+   "img/monster/radiant-black-diablos@512.webp"
+  ]
  },
  "img/monster/radiant-radobaan.webp": {
-  "source": "https://img.gamewith.jp/img/ace9cab7c4b601d3e7a1f8dacd3b8f21.png",
+  "source": "assets/images/11-monsters/icons/radiant-radobaan.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-radobaan",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-radobaan@256.webp",
+   "img/monster/radiant-radobaan@512.webp"
+  ]
  },
  "img/monster/radiant-great-girros.webp": {
-  "source": "https://img.gamewith.jp/img/d0aaba960df57f0da51313ac4a5d5ae2.png",
+  "source": "assets/images/11-monsters/icons/radiant-great-girros.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-great-girros",
   "src_px": [
    141,
    141
   ],
-  "w": 141,
-  "h": 141
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-great-girros@256.webp",
+   "img/monster/radiant-great-girros@512.webp"
+  ]
  },
  "img/monster/radiant-tobi-kadachi.webp": {
-  "source": "https://img.gamewith.jp/img/97f1689733072f40f21d886ff736aa87.png",
+  "source": "assets/images/11-monsters/icons/radiant-tobi-kadachi.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-tobi-kadachi",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-tobi-kadachi@256.webp",
+   "img/monster/radiant-tobi-kadachi@512.webp"
+  ]
  },
  "img/monster/radiant-tzitzi-ya-ku.webp": {
-  "source": "https://img.gamewith.jp/img/f05a1cfc709749794772b3f962c08a78.png",
+  "source": "assets/images/11-monsters/icons/radiant-tzitzi-ya-ku.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-tzitzi-ya-ku",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-tzitzi-ya-ku@256.webp",
+   "img/monster/radiant-tzitzi-ya-ku@512.webp"
+  ]
  },
  "img/monster/radiant-odogaron.webp": {
-  "source": "https://img.gamewith.jp/img/27f007cb20f6b6e6e77b0b4bc3f369ef.png",
+  "source": "assets/images/11-monsters/icons/radiant-odogaron.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/radiant-odogaron",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/radiant-odogaron@256.webp",
+   "img/monster/radiant-odogaron@512.webp"
+  ]
  },
  "img/monster/jagras.webp": {
   "source": "https://img.gamewith.jp/img/87a97b5e8e0f553064f561771589d254.png",
@@ -1254,14 +1617,18 @@
   "h": 103
  },
  "img/monster/ruger-aidal.webp": {
-  "source": "https://img.gamewith.jp/img/32ec5fea3e2f8a3107735420290e708c.png",
+  "source": "assets/images/11-monsters/icons/ruger-aidal.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/monsters/ruger-aidal",
   "src_px": [
    148,
    148
   ],
-  "w": 148,
-  "h": 148
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/monster/ruger-aidal@256.webp",
+   "img/monster/ruger-aidal@512.webp"
+  ]
  },
  "img/visage/rathian.webp": {
   "source": "https://img.gamewith.jp/img/f36f12e45c4279cf2935275576acd622.png",
@@ -1824,84 +2191,116 @@
   "h": 216
  },
  "img/weapon/type/great-sword.webp": {
-  "source": "https://img.gamewith.jp/img/5c7a4f0eba34d8ad5f96a2f0c08026fe.png",
+  "source": "assets/images/10-weapon-icons/weapon-great-sword.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/great-sword",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/great-sword@256.webp",
+   "img/weapon/type/great-sword@512.webp"
+  ]
  },
  "img/weapon/type/long-sword.webp": {
-  "source": "https://img.gamewith.jp/img/5598294dbb9229c7344b5bb5fdf9b1c2.png",
+  "source": "assets/images/10-weapon-icons/weapon-long-sword.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/long-sword",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/long-sword@256.webp",
+   "img/weapon/type/long-sword@512.webp"
+  ]
  },
  "img/weapon/type/dual-blades.webp": {
-  "source": "https://img.gamewith.jp/img/15ab1008996818b3232ef8fb42976094.png",
+  "source": "assets/images/10-weapon-icons/weapon-dual-blades.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/dual-blades",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/dual-blades@256.webp",
+   "img/weapon/type/dual-blades@512.webp"
+  ]
  },
  "img/weapon/type/lance.webp": {
-  "source": "https://img.gamewith.jp/img/2d24e1a482ada690b7a236cfd412436e.png",
+  "source": "assets/images/10-weapon-icons/weapon-lance.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/lance",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/lance@256.webp",
+   "img/weapon/type/lance@512.webp"
+  ]
  },
  "img/weapon/type/hammer.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/weapon_icon5.png",
+  "source": "assets/images/10-weapon-icons/weapon-hammer.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/hammer",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/hammer@256.webp",
+   "img/weapon/type/hammer@512.webp"
+  ]
  },
  "img/weapon/type/charge-blade.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/weapon_icon10.png",
+  "source": "assets/images/10-weapon-icons/weapon-charge-blade.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/charge-blade",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/charge-blade@256.webp",
+   "img/weapon/type/charge-blade@512.webp"
+  ]
  },
  "img/weapon/type/heavy-bowgun.webp": {
-  "source": "https://img.gamewith.jp/img/d19af964d28ad4dbe8d82de6f455e210.png",
+  "source": "assets/images/10-weapon-icons/weapon-heavy-bowgun.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/heavy-bowgun",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/heavy-bowgun@256.webp",
+   "img/weapon/type/heavy-bowgun@512.webp"
+  ]
  },
  "img/weapon/type/bow.webp": {
-  "source": "https://img.gamewith.jp/img/704ac3ac33e262c8ca53c64570dfe888.png",
+  "source": "assets/images/10-weapon-icons/weapon-bow.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/weapons/type/bow",
   "src_px": [
    100,
    100
   ],
-  "w": 100,
-  "h": 100
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/weapon/type/bow@256.webp",
+   "img/weapon/type/bow@512.webp"
+  ]
  },
  "img/weapon/jagras-blade.webp": {
   "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/weapon_1.png",
@@ -5214,184 +5613,238 @@
   "h": 152
  },
  "img/gift/adventurers-charm.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_748.png",
+  "source": "assets/images/03-gifts/adventurers-charm.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/adventurers-charm",
   "src_px": [
    98,
    98
   ],
-  "w": 98,
-  "h": 98
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/adventurers-charm@160.webp"
+  ]
  },
  "img/gift/black-pearl-roe.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_67.png",
+  "source": "assets/images/03-gifts/black-pearl-roe.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/black-pearl-roe",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/black-pearl-roe@160.webp"
+  ]
  },
  "img/gift/bonfire-album.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_79.png",
+  "source": "assets/images/03-gifts/bonfire-album.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/bonfire-album",
   "src_px": [
    210,
    210
   ],
-  "w": 210,
-  "h": 210
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/bonfire-album@160.webp"
+  ]
  },
  "img/gift/dome-landscape.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_74.png",
+  "source": "assets/images/03-gifts/dome-landscape.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/dome-landscape",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/dome-landscape@160.webp"
+  ]
  },
  "img/gift/elder-dragon-banner.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_71.png",
+  "source": "assets/images/03-gifts/elder-dragon-banner.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/elder-dragon-banner",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/elder-dragon-banner@160.webp"
+  ]
  },
  "img/gift/exploration-badge.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_747.png",
+  "source": "assets/images/03-gifts/exploration-badge.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/exploration-badge",
   "src_px": [
    98,
    98
   ],
-  "w": 98,
-  "h": 98
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/exploration-badge@160.webp"
+  ]
  },
  "img/gift/forest-amber.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_76.png",
+  "source": "assets/images/03-gifts/forest-amber.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/forest-amber",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/forest-amber@160.webp"
+  ]
  },
  "img/gift/glowmoss-bottle.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_75.png",
+  "source": "assets/images/03-gifts/glowmoss-bottle.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/glowmoss-bottle",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/glowmoss-bottle@160.webp"
+  ]
  },
  "img/gift/journey-cord.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_69.png",
+  "source": "assets/images/03-gifts/journey-cord.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/journey-cord",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/journey-cord@160.webp"
+  ]
  },
  "img/gift/journey-memento.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_65.png",
+  "source": "assets/images/03-gifts/journey-memento.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/journey-memento",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/journey-memento@160.webp"
+  ]
  },
  "img/gift/kulune-songbook.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_80.png",
+  "source": "assets/images/03-gifts/kulune-songbook.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/kulune-songbook",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/kulune-songbook@160.webp"
+  ]
  },
  "img/gift/moonfeather-chime.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_77.png",
+  "source": "assets/images/03-gifts/moonfeather-chime.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/moonfeather-chime",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/moonfeather-chime@160.webp"
+  ]
  },
  "img/gift/outlands-poetry.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_78.png",
+  "source": "assets/images/03-gifts/outlands-poetry.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/outlands-poetry",
   "src_px": [
    210,
    210
   ],
-  "w": 210,
-  "h": 210
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/outlands-poetry@160.webp"
+  ]
  },
  "img/gift/prized-matsutake.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_66.png",
+  "source": "assets/images/03-gifts/prized-matsutake.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/prized-matsutake",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/prized-matsutake@160.webp"
+  ]
  },
  "img/gift/thick-cut-tail.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_68.png",
+  "source": "assets/images/03-gifts/thick-cut-tail.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/thick-cut-tail",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/thick-cut-tail@160.webp"
+  ]
  },
  "img/gift/vista-display.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_73.png",
+  "source": "assets/images/03-gifts/vista-display.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/vista-display",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/vista-display@160.webp"
+  ]
  },
  "img/gift/wooden-carving.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_72.png",
+  "source": "assets/images/03-gifts/wooden-carving.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/wooden-carving",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/wooden-carving@160.webp"
+  ]
  },
  "img/gift/worn-adventurer-badge.webp": {
-  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_70.png",
+  "source": "assets/images/03-gifts/worn-adventurer-badge.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/worn-adventurer-badge",
   "src_px": [
    170,
    170
   ],
-  "w": 170,
-  "h": 170
+  "w": 128,
+  "h": 128,
+  "variants": [
+   "img/gift/worn-adventurer-badge@160.webp"
+  ]
  },
  "img/armor/adventurers-guild/head.webp": {
   "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/armor_16.png",
@@ -7076,14 +7529,22 @@
  "img/buddy/featured/arya.webp": {
   "source": "assets/images/02-buddies/arya.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 900,
-  "h": 900
+  "w": 480,
+  "h": 480,
+  "variants": [
+   "img/buddy/featured/arya@960.webp",
+   "img/buddy/featured/arya@1600.webp"
+  ]
  },
  "img/buddy/featured/elwin.webp": {
   "source": "assets/images/02-buddies/elwin.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 900,
-  "h": 900
+  "w": 480,
+  "h": 480,
+  "variants": [
+   "img/buddy/featured/elwin@960.webp",
+   "img/buddy/featured/elwin@1600.webp"
+  ]
  },
  "img/gift/sheet.webp": {
   "source": "assets/images/03-gifts/sheet.png",
@@ -7094,50 +7555,82 @@
  "img/outfit/buddy-flower-bearing-plume.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1000,
-  "h": 761
+  "w": 480,
+  "h": 365,
+  "variants": [
+   "img/outfit/buddy-flower-bearing-plume@960.webp",
+   "img/outfit/buddy-flower-bearing-plume@1400.webp"
+  ]
  },
  "img/outfit/buddy-flower-bearing-plume-full.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1400,
-  "h": 718
+  "w": 480,
+  "h": 246,
+  "variants": [
+   "img/outfit/buddy-flower-bearing-plume-full@960.webp",
+   "img/outfit/buddy-flower-bearing-plume-full@1400.webp"
+  ]
  },
  "img/outfit/freya-rose-queen.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1000,
-  "h": 816
+  "w": 480,
+  "h": 392,
+  "variants": [
+   "img/outfit/freya-rose-queen@960.webp",
+   "img/outfit/freya-rose-queen@1600.webp"
+  ]
  },
  "img/outfit/freya-rose-queen-full.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1600,
-  "h": 835
+  "w": 480,
+  "h": 251,
+  "variants": [
+   "img/outfit/freya-rose-queen-full@960.webp",
+   "img/outfit/freya-rose-queen-full@1600.webp"
+  ]
  },
  "img/outfit/stylia-silken-dancer.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1000,
-  "h": 932
+  "w": 480,
+  "h": 448,
+  "variants": [
+   "img/outfit/stylia-silken-dancer@960.webp",
+   "img/outfit/stylia-silken-dancer@1600.webp"
+  ]
  },
  "img/outfit/stylia-silken-dancer-full.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1600,
-  "h": 914
+  "w": 480,
+  "h": 274,
+  "variants": [
+   "img/outfit/stylia-silken-dancer-full@960.webp",
+   "img/outfit/stylia-silken-dancer-full@1600.webp"
+  ]
  },
  "img/outfit/weapon-flying-feather.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1000,
-  "h": 983
+  "w": 480,
+  "h": 472,
+  "variants": [
+   "img/outfit/weapon-flying-feather@960.webp",
+   "img/outfit/weapon-flying-feather@1200.webp"
+  ]
  },
  "img/outfit/weapon-flying-feather-full.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 1400,
-  "h": 718
+  "w": 480,
+  "h": 246,
+  "variants": [
+   "img/outfit/weapon-flying-feather-full@960.webp",
+   "img/outfit/weapon-flying-feather-full@1400.webp"
+  ]
  },
  "img/armor/adventurers-guild/full.webp": {
   "source": "https://img.gamewith.jp/img/1fe20bfb39db2eadbaba507626487615.png",
@@ -8107,5 +8600,24 @@
   "w": 1600,
   "h": 1600,
   "note": "stitched zoom-3 tiles; Japanese place labels removed (inpainted)"
+ },
+ "img/adventurer/full/rhodes.webp": {
+  "source": "assets/images/01-characters/full/rhodes.jpg",
+  "w": 480,
+  "h": 600,
+  "variants": [
+   "img/adventurer/full/rhodes@960.webp",
+   "img/adventurer/full/rhodes@1122.webp"
+  ]
+ },
+ "img/hero/hero.webp": {
+  "source": "assets/images/01-characters/hires/freya.jpg (crop 750,0,2048,1850)",
+  "w": 480,
+  "h": 684,
+  "variants": [
+   "img/hero/hero@960.webp",
+   "img/hero/hero@1298.webp"
+  ],
+  "note": "Freya key art cropped to the clean right part"
  }
 }
