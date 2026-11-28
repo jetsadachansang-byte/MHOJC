@@ -1,0 +1,1618 @@
+{
+ "maps": [
+  {
+   "id": "GL",
+   "n": "Giantwood Locale"
+  },
+  {
+   "id": "SP",
+   "n": "Searing Plains"
+  },
+  {
+   "id": "RA",
+   "n": "Rotfall Abyss"
+  },
+  {
+   "id": "GA",
+   "n": "Grand Archipelago"
+  }
+ ],
+ "types": {
+  "hunt": "ใช้ในการล่า",
+  "life": "สัตว์ท้องถิ่นทั่วไป",
+  "aquatic": "สัตว์น้ำ (ตกปลา)"
+ },
+ "items": [
+  {
+   "id": "armagold-moly",
+   "n": "Armagold Moly",
+   "img": "img/endemic/armagold-moly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP"
+   ],
+   "when": "กลางวัน – เย็น ตอนพายุฝุ่น (Dust Storm)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "160",
+    "109"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/armagold-moly"
+  },
+  {
+   "id": "ashen-vulture",
+   "n": "Ashen Vulture",
+   "img": "img/endemic/ashen-vulture.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "164",
+    "78"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ashen-vulture"
+  },
+  {
+   "id": "blissbill",
+   "n": "Blissbill",
+   "img": "img/endemic/blissbill.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "147",
+    "68"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/blissbill"
+  },
+  {
+   "id": "bomb-arowana",
+   "n": "Bomb Arowana",
+   "img": "img/endemic/bomb-arowana.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Arowana Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bomb-arowana"
+  },
+  {
+   "id": "bristly-crake",
+   "n": "Bristly Crake",
+   "img": "img/endemic/bristly-crake.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "69",
+    "39"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bristly-crake"
+  },
+  {
+   "id": "broad-eared-ghost-bat",
+   "n": "Broad-Eared Ghost Bat",
+   "img": "img/endemic/broad-eared-ghost-bat.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "รุ่งเช้า – เย็น (เจอบ่อยตอนฝนตก)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "158",
+    "103"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/broad-eared-ghost-bat"
+  },
+  {
+   "id": "bubblefish",
+   "n": "Bubblefish",
+   "img": "img/endemic/bubblefish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Gunpowderfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "48",
+    "40"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubblefish"
+  },
+  {
+   "id": "bubbly-moly",
+   "n": "Bubbly Moly",
+   "img": "img/endemic/bubbly-moly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "กลางวัน – เย็น ตอนลมแรง (Strong Winds)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubbly-moly"
+  },
+  {
+   "id": "burst-arowana",
+   "n": "Burst Arowana",
+   "img": "img/endemic/burst-arowana.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Arowana Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/burst-arowana"
+  },
+  {
+   "id": "clover-moly",
+   "n": "Clover Moly",
+   "img": "img/endemic/clover-moly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": "กลางวัน – เย็น ตอนพายุฝนฟ้าคะนอง (Thunderstorm)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "169",
+    "108"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/clover-moly"
+  },
+  {
+   "id": "copperwing-flutterfly",
+   "n": "Copperwing Flutterfly",
+   "img": "img/endemic/copperwing-flutterfly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "101",
+    "53"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/copperwing-flutterfly"
+  },
+  {
+   "id": "corrosive-helmcrab",
+   "n": "Corrosive Helmcrab",
+   "img": "img/endemic/corrosive-helmcrab.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/corrosive-helmcrab"
+  },
+  {
+   "id": "dapper-coralbird",
+   "n": "Dapper Coralbird",
+   "img": "img/endemic/dapper-coralbird.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "ทุกเวลา ยกเว้นตอนฟ้าใส",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dapper-coralbird"
+  },
+  {
+   "id": "downy-crake",
+   "n": "Downy Crake",
+   "img": "img/endemic/downy-crake.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": [
+    {
+     "n": "Hard to the Touch",
+     "req": "จับสัตว์ท้องถิ่นหายาก Downy Crake",
+     "title": "Equals",
+     "item": "Forest Amber ×1"
+    }
+   ],
+   "size": [
+    "69",
+    "39"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/downy-crake"
+  },
+  {
+   "id": "dung-beetle",
+   "n": "Dung Beetle",
+   "img": "img/endemic/dung-beetle.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "84",
+    "43"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dung-beetle"
+  },
+  {
+   "id": "emperor-hopper",
+   "n": "Emperor Hopper",
+   "img": "img/endemic/emperor-hopper.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "กลางวัน – เย็น",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "75",
+    "47"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/emperor-hopper"
+  },
+  {
+   "id": "evergreen-ray",
+   "n": "Evergreen Ray",
+   "img": "img/endemic/evergreen-ray.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "กลางวัน – เย็น",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/evergreen-ray"
+  },
+  {
+   "id": "flashfly",
+   "n": "Flashfly",
+   "img": "img/endemic/flashfly.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ปล่อยแสงแฟลช ทำให้มอนสเตอร์มึน (Dazed)",
+   "rewards": [
+    {
+     "n": "Flashing Wings",
+     "req": "ใช้ Flashflies ครบ 10 ครั้ง",
+     "title": "Ones",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "57",
+    "28"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/flashfly"
+  },
+  {
+   "id": "gastronome-tuna",
+   "n": "Gastronome Tuna",
+   "img": "img/endemic/gastronome-tuna.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Baitbug",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gastronome-tuna"
+  },
+  {
+   "id": "ghostly-jellyfish",
+   "n": "Ghostly Jellyfish",
+   "img": "img/endemic/ghostly-jellyfish.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "เย็น – กลางคืน",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ghostly-jellyfish"
+  },
+  {
+   "id": "giant-vigorwasp",
+   "n": "Giant Vigorwasp",
+   "img": "img/endemic/giant-vigorwasp.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ปล่อยผงที่ฟื้นฟู HP ต่อเนื่อง",
+   "rewards": [
+    {
+     "n": "Full Recovery!",
+     "req": "ใช้ Giant Vigorwasps ครบ 10 ครั้ง",
+     "title": "Better To",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "131",
+    "84"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/giant-vigorwasp"
+  },
+  {
+   "id": "gloomfly",
+   "n": "Gloomfly",
+   "img": "img/endemic/gloomfly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "กลางคืน ตอนอากาศแย่",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "135",
+    "79"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gloomfly"
+  },
+  {
+   "id": "glowring-gekko",
+   "n": "Glowring Gekko",
+   "img": "img/endemic/glowring-gekko.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "กลางคืน",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/glowring-gekko"
+  },
+  {
+   "id": "gold-hercudrome",
+   "n": "Gold Hercudrome",
+   "img": "img/endemic/gold-hercudrome.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "กลางคืน",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "62",
+    "28"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gold-hercudrome"
+  },
+  {
+   "id": "golden-wingdrake",
+   "n": "Golden Wingdrake",
+   "img": "img/endemic/golden-wingdrake.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": "ทุกเวลา (เจอบ่อยตอนกลางคืน)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "179",
+    "92"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/golden-wingdrake"
+  },
+  {
+   "id": "goldenfish",
+   "n": "Goldenfish",
+   "img": "img/endemic/goldenfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Goldenfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "130",
+    "105"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfish"
+  },
+  {
+   "id": "goldenfry",
+   "n": "Goldenfry",
+   "img": "img/endemic/goldenfry.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Gunpowderfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "47",
+    "38"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfry"
+  },
+  {
+   "id": "great-bomb-arowana",
+   "n": "Great Bomb Arowana",
+   "img": "img/endemic/great-bomb-arowana.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Arowana Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bomb-arowana"
+  },
+  {
+   "id": "great-bubblefish",
+   "n": "Great Bubblefish",
+   "img": "img/endemic/great-bubblefish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Gunpowderfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "95",
+    "75"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bubblefish"
+  },
+  {
+   "id": "great-burst-arowana",
+   "n": "Great Burst Arowana",
+   "img": "img/endemic/great-burst-arowana.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Arowana Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-burst-arowana"
+  },
+  {
+   "id": "great-gastronome-tuna",
+   "n": "Great Gastronome Tuna",
+   "img": "img/endemic/great-gastronome-tuna.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Baitbug",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-gastronome-tuna"
+  },
+  {
+   "id": "great-goldenfish",
+   "n": "Great Goldenfish",
+   "img": "img/endemic/great-goldenfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Goldenfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfish"
+  },
+  {
+   "id": "great-goldenfry",
+   "n": "Great Goldenfry",
+   "img": "img/endemic/great-goldenfry.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Gunpowderfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "95",
+    "77"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfry"
+  },
+  {
+   "id": "great-king-marlin",
+   "n": "Great King Marlin",
+   "img": "img/endemic/great-king-marlin.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Baitbug",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-king-marlin"
+  },
+  {
+   "id": "great-platinumfish",
+   "n": "Great Platinumfish",
+   "img": "img/endemic/great-platinumfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Goldenfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-platinumfish"
+  },
+  {
+   "id": "great-scarlet-blossomfish",
+   "n": "Great Scarlet Blossomfish",
+   "img": "img/endemic/great-scarlet-blossomfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "135",
+    "105"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-scarlet-blossomfish"
+  },
+  {
+   "id": "great-sushifish",
+   "n": "Great Sushifish",
+   "img": "img/endemic/great-sushifish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "195",
+    "105"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-sushifish"
+  },
+  {
+   "id": "great-whetfish",
+   "n": "Great Whetfish",
+   "img": "img/endemic/great-whetfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "225",
+    "205"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-whetfish"
+  },
+  {
+   "id": "greenleaf-gekko",
+   "n": "Greenleaf Gekko",
+   "img": "img/endemic/greenleaf-gekko.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "95",
+    "32"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/greenleaf-gekko"
+  },
+  {
+   "id": "hercudrome",
+   "n": "Hercudrome",
+   "img": "img/endemic/hercudrome.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "62",
+    "28"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/hercudrome"
+  },
+  {
+   "id": "iron-helmcrab",
+   "n": "Iron Helmcrab",
+   "img": "img/endemic/iron-helmcrab.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "182",
+    "101"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/iron-helmcrab"
+  },
+  {
+   "id": "ironfist-crab",
+   "n": "Ironfist Crab",
+   "img": "img/endemic/ironfist-crab.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "เย็น – กลางคืน ยกเว้นตอนฟ้าใส",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "88",
+    "62"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ironfist-crab"
+  },
+  {
+   "id": "king-spearfish",
+   "n": "King Spearfish",
+   "img": "img/endemic/king-spearfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Baitbug",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/king-spearfish"
+  },
+  {
+   "id": "lantern-rockfish",
+   "n": "Lantern Rockfish",
+   "img": "img/endemic/lantern-rockfish.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lantern-rockfish"
+  },
+  {
+   "id": "lusterwasp",
+   "n": "Lusterwasp",
+   "img": "img/endemic/lusterwasp.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": "ใช้อัปเลเวล Watchtower (ปลดล็อกที่วาง Gatherer เพิ่ม)",
+   "rewards": null,
+   "size": [
+    "178",
+    "114"
+   ],
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lusterwasp",
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
+   ]
+  },
+  {
+   "id": "lustrous-jellyfish",
+   "n": "Lustrous Jellyfish",
+   "img": "img/endemic/lustrous-jellyfish.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "เย็น – กลางคืน",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lustrous-jellyfish"
+  },
+  {
+   "id": "marine-seahorse",
+   "n": "Marine Seahorse",
+   "img": "img/endemic/marine-seahorse.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marine-seahorse"
+  },
+  {
+   "id": "marshal-seahorse",
+   "n": "Marshal Seahorse",
+   "img": "img/endemic/marshal-seahorse.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GA"
+   ],
+   "when": "กลางคืนเท่านั้น",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marshal-seahorse"
+  },
+  {
+   "id": "moonlight-helmcrab",
+   "n": "Moonlight Helmcrab",
+   "img": "img/endemic/moonlight-helmcrab.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP",
+    "RA"
+   ],
+   "when": "กลางคืน (เจอบ่อยตอน Sandstorm หรือ Ultraviolet Mist)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "182",
+    "99"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/moonlight-helmcrab"
+  },
+  {
+   "id": "mudflat-tearbass",
+   "n": "Mudflat Tearbass",
+   "img": "img/endemic/mudflat-tearbass.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP",
+    "RA"
+   ],
+   "when": "ทุกเวลา (เจอบ่อยตอนเย็นที่อากาศแย่)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "160",
+    "104"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mudflat-tearbass"
+  },
+  {
+   "id": "mythozard",
+   "n": "Mythozard",
+   "img": "img/endemic/mythozard.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา (เจอบ่อยตอนกลางคืน)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "101",
+    "32"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mythozard"
+  },
+  {
+   "id": "nightglow-flutterfly",
+   "n": "Nightglow Flutterfly",
+   "img": "img/endemic/nightglow-flutterfly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "กลางคืน ยกเว้นตอนฟ้าใส",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "95",
+    "48"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nightglow-flutterfly"
+  },
+  {
+   "id": "nitrotoad",
+   "n": "Nitrotoad",
+   "img": "img/endemic/nitrotoad.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ระเบิด ทำให้มอนสเตอร์ใหญ่เสียหลัก (Staggered)",
+   "rewards": [
+    {
+     "n": "Art Is Explosion!",
+     "req": "ใช้ Nitrotoads ครบ 10 ครั้ง",
+     "title": "An",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "107",
+    "50"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nitrotoad"
+  },
+  {
+   "id": "orange-moly",
+   "n": "Orange Moly",
+   "img": "img/endemic/orange-moly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "163",
+    "106"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/orange-moly"
+  },
+  {
+   "id": "paratoad",
+   "n": "Paratoad",
+   "img": "img/endemic/paratoad.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ปล่อยแก๊สทำให้มอนสเตอร์ใหญ่เป็นอัมพาต (Paralyzed)",
+   "rewards": [
+    {
+     "n": "Who Put This Here?",
+     "req": "ใช้ Paratoads ครบ 10 ครั้ง",
+     "title": "No",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "107",
+    "50"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/paratoad"
+  },
+  {
+   "id": "pearl-warbler",
+   "n": "Pearl Warbler",
+   "img": "img/endemic/pearl-warbler.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "175",
+    "109"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/pearl-warbler"
+  },
+  {
+   "id": "phantom-jorogumo",
+   "n": "Phantom Jorogumo",
+   "img": "img/endemic/phantom-jorogumo.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "103",
+    "54"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/phantom-jorogumo"
+  },
+  {
+   "id": "platinumfish",
+   "n": "Platinumfish",
+   "img": "img/endemic/platinumfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Goldenfish Bait",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "130",
+    "105"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/platinumfish"
+  },
+  {
+   "id": "red-whisker-crayfish",
+   "n": "Red-Whisker Crayfish",
+   "img": "img/endemic/red-whisker-crayfish.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "93",
+    "52"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/red-whisker-crayfish"
+  },
+  {
+   "id": "rosyfluff-hare",
+   "n": "Rosyfluff Hare",
+   "img": "img/endemic/rosyfluff-hare.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "กลางวัน",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "179",
+    "102"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/rosyfluff-hare"
+  },
+  {
+   "id": "sand-armored-lizard",
+   "n": "Sand-Armored Lizard",
+   "img": "img/endemic/sand-armored-lizard.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "122",
+    "63"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sand-armored-lizard"
+  },
+  {
+   "id": "saturnian",
+   "n": "Saturnian",
+   "img": "img/endemic/saturnian.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/saturnian"
+  },
+  {
+   "id": "scarlet-blossomfish",
+   "n": "Scarlet Blossomfish",
+   "img": "img/endemic/scarlet-blossomfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 10 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "115",
+    "75"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/scarlet-blossomfish"
+  },
+  {
+   "id": "seerfly",
+   "n": "Seerfly",
+   "img": "img/endemic/seerfly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "132",
+    "75"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/seerfly"
+  },
+  {
+   "id": "serene-coralbird",
+   "n": "Serene Coralbird",
+   "img": "img/endemic/serene-coralbird.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "146",
+    "96"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/serene-coralbird"
+  },
+  {
+   "id": "skimmerfish",
+   "n": "Skimmerfish",
+   "img": "img/endemic/skimmerfish.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "78",
+    "51"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/skimmerfish"
+  },
+  {
+   "id": "sleeptoad",
+   "n": "Sleeptoad",
+   "img": "img/endemic/sleeptoad.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ปล่อยแก๊สทำให้มอนสเตอร์ใหญ่หลับ (Sleep)",
+   "rewards": [
+    {
+     "n": "Feelin' Sleepy?",
+     "req": "ใช้ Sleeptoads ครบ 10 ครั้ง",
+     "title": "and",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "105",
+    "47"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sleeptoad"
+  },
+  {
+   "id": "sludge-spider",
+   "n": "Sludge Spider",
+   "img": "img/endemic/sludge-spider.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
+   "when": "เย็น (ตอนฟ้าใสเจอยาก)",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "87",
+    "52"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sludge-spider"
+  },
+  {
+   "id": "sonic-bug",
+   "n": "Sonic Bug",
+   "img": "img/endemic/sonic-bug.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "SP"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sonic-bug"
+  },
+  {
+   "id": "starrycanth",
+   "n": "Starrycanth",
+   "img": "img/endemic/starrycanth.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Baitbug",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/starrycanth"
+  },
+  {
+   "id": "sushifish",
+   "n": "Sushifish",
+   "img": "img/endemic/sushifish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 10 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "109",
+    "88"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sushifish"
+  },
+  {
+   "id": "swiftsprig-hare",
+   "n": "Swiftsprig Hare",
+   "img": "img/endemic/swiftsprig-hare.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "176",
+    "96"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/swiftsprig-hare"
+  },
+  {
+   "id": "titan-ant",
+   "n": "Titan Ant",
+   "img": "img/endemic/titan-ant.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "48",
+    "17"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/titan-ant"
+  },
+  {
+   "id": "vigorwasp",
+   "n": "Vigorwasp",
+   "img": "img/endemic/vigorwasp.webp",
+   "type": "hunt",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": "ทุกเวลา",
+   "how": "ใช้ในสนามล่า",
+   "effect": "ฟื้นฟู HP 50",
+   "rewards": [
+    {
+     "n": "Salvation!",
+     "req": "ใช้ Vigorwasps ครบ 10 ครั้ง",
+     "title": "Or",
+     "item": "Moonfeather Chime ×1"
+    }
+   ],
+   "size": [
+    "90",
+    "42"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/vigorwasp"
+  },
+  {
+   "id": "viridian-hercudrome",
+   "n": "Viridian Hercudrome",
+   "img": "img/endemic/viridian-hercudrome.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL",
+    "RA"
+   ],
+   "when": "รุ่งเช้า",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "62",
+    "28"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/viridian-hercudrome"
+  },
+  {
+   "id": "warhopper",
+   "n": "Warhopper",
+   "img": "img/endemic/warhopper.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/warhopper"
+  },
+  {
+   "id": "whetfish",
+   "n": "Whetfish",
+   "img": "img/endemic/whetfish.webp",
+   "type": "aquatic",
+   "type_en": "Aquatic Life",
+   "maps": [
+    "GL",
+    "SP",
+    "RA",
+    "GA"
+   ],
+   "when": null,
+   "how": "ตกปลา ใช้เหยื่อ Fake Lure",
+   "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 10 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
+   "rewards": null,
+   "size": [
+    "130",
+    "105"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/whetfish"
+  },
+  {
+   "id": "witchcap-moly",
+   "n": "Witchcap Moly",
+   "img": "img/endemic/witchcap-moly.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "RA"
+   ],
+   "when": "กลางวัน – เย็น ตอน Radiant Mist",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": null,
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/witchcap-moly"
+  },
+  {
+   "id": "woodland-wingdrake",
+   "n": "Woodland Wingdrake",
+   "img": "img/endemic/woodland-wingdrake.webp",
+   "type": "life",
+   "type_en": "Endemic Life",
+   "maps": [
+    "GL"
+   ],
+   "when": "ทุกเวลา",
+   "how": null,
+   "effect": null,
+   "rewards": null,
+   "size": [
+    "170",
+    "84"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/woodland-wingdrake"
+  }
+ ],
+ "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life",
+ "updated": "2026-11-27"
+}

@@ -7378,5 +7378,683 @@
   "source": "https://img.gamewith.jp/img/8040c07db42e6f1ed249a6260a882ce8.png",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/armor/vespoid",
   "note": "background removed, resized"
+ },
+ "img/endemic/armagold-moly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/armagold-moly",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/ashen-vulture.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ashen-vulture",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/blissbill.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/blissbill",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/bomb-arowana.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bomb-arowana",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/bristly-crake.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bristly-crake",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/broad-eared-ghost-bat.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/broad-eared-ghost-bat",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/bubblefish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubblefish",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/bubbly-moly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubbly-moly",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/burst-arowana.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/burst-arowana",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/clover-moly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/clover-moly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/copperwing-flutterfly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/copperwing-flutterfly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/corrosive-helmcrab.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/corrosive-helmcrab",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/dapper-coralbird.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dapper-coralbird",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/downy-crake.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/downy-crake",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/dung-beetle.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dung-beetle",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/emperor-hopper.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/emperor-hopper",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/evergreen-ray.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/evergreen-ray",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/flashfly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/flashfly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/gastronome-tuna.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gastronome-tuna",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/ghostly-jellyfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ghostly-jellyfish",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/giant-vigorwasp.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/giant-vigorwasp",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/gloomfly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gloomfly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/glowring-gekko.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/glowring-gekko",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/gold-hercudrome.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gold-hercudrome",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/golden-wingdrake.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/golden-wingdrake",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/goldenfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfish",
+  "w": 101,
+  "h": 101
+ },
+ "img/endemic/goldenfry.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfry",
+  "w": 91,
+  "h": 91
+ },
+ "img/endemic/great-bomb-arowana.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bomb-arowana",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/great-bubblefish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bubblefish",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/great-burst-arowana.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-burst-arowana",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/great-gastronome-tuna.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-gastronome-tuna",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/great-goldenfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfish",
+  "w": 101,
+  "h": 101
+ },
+ "img/endemic/great-goldenfry.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfry",
+  "w": 94,
+  "h": 94
+ },
+ "img/endemic/great-king-marlin.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-king-marlin",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/great-platinumfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-platinumfish",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/great-scarlet-blossomfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-scarlet-blossomfish",
+  "w": 92,
+  "h": 92
+ },
+ "img/endemic/great-sushifish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-sushifish",
+  "w": 91,
+  "h": 91
+ },
+ "img/endemic/great-whetfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-whetfish",
+  "w": 108,
+  "h": 108
+ },
+ "img/endemic/greenleaf-gekko.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/greenleaf-gekko",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/hercudrome.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/hercudrome",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/iron-helmcrab.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/iron-helmcrab",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/ironfist-crab.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ironfist-crab",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/king-spearfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/king-spearfish",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/lantern-rockfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lantern-rockfish",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/lusterwasp.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lusterwasp",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/lustrous-jellyfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lustrous-jellyfish",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/marine-seahorse.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marine-seahorse",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/marshal-seahorse.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marshal-seahorse",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/moonlight-helmcrab.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/moonlight-helmcrab",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/mudflat-tearbass.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mudflat-tearbass",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/mythozard.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mythozard",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/nightglow-flutterfly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nightglow-flutterfly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/nitrotoad.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nitrotoad",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/orange-moly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/orange-moly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/paratoad.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/paratoad",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/pearl-warbler.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/pearl-warbler",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/phantom-jorogumo.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/phantom-jorogumo",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/platinumfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/platinumfish",
+  "w": 102,
+  "h": 102
+ },
+ "img/endemic/red-whisker-crayfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/red-whisker-crayfish",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/rosyfluff-hare.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/rosyfluff-hare",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/sand-armored-lizard.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sand-armored-lizard",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/saturnian.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/saturnian",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/scarlet-blossomfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/scarlet-blossomfish",
+  "w": 92,
+  "h": 92
+ },
+ "img/endemic/seerfly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/seerfly",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/serene-coralbird.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/serene-coralbird",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/skimmerfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/skimmerfish",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/sleeptoad.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sleeptoad",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/sludge-spider.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sludge-spider",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/sonic-bug.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sonic-bug",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/starrycanth.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/starrycanth",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/sushifish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sushifish",
+  "w": 91,
+  "h": 91
+ },
+ "img/endemic/swiftsprig-hare.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/swiftsprig-hare",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/titan-ant.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/titan-ant",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/vigorwasp.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/vigorwasp",
+  "w": 103,
+  "h": 103
+ },
+ "img/endemic/viridian-hercudrome.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/viridian-hercudrome",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/warhopper.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/warhopper",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/whetfish.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/whetfish",
+  "w": 108,
+  "h": 108
+ },
+ "img/endemic/witchcap-moly.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/witchcap-moly",
+  "w": 114,
+  "h": 114
+ },
+ "img/endemic/woodland-wingdrake.webp": {
+  "source": "reference/endemic-life/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/woodland-wingdrake",
+  "w": 103,
+  "h": 103
+ },
+ "img/material/herb.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/herb",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/antidote-herb.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/antidote-herb",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/sleep-herb.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/sleep-herb",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/chillshroom.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/chillshroom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/hot-pepper.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/hot-pepper",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/parashroom.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/parashroom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/honey.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/honey",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/nitroshroom.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/nitroshroom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/dustbush.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/dustbush",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/nulberry.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/bauble-cactus.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_81.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/bauble-cactus",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/dragonbloom.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_82.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonbloom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/monster-bone-s.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/ancient-bone.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/ancient-bone",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/earth-crystal.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/earth-crystal",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/iron-ore.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/iron-ore",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/machalite-ore.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/machalite-ore",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/dragonite-ore.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonite-ore",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/lightcrystal.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_107.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/lightcrystal",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/boulder-bone.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/boulder-bone",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/coral-bone.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/charred-bone.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/charred-bone",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/coral-crystal.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/hardwood.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/hardwood",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/ironwood.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/ironwood",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/island-specialty-rice.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/island-specialty-rice",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/exquisite-island-rice.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/exquisite-island-rice",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/fine-honeyfruit.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/fine-honeyfruit",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/exotic-honeyfruit.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/exotic-honeyfruit",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/moonlit-mushroom.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/moonlit-mushroom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/divineapple.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_119.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/divineapple",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/sunbloom.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunbloom",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/sunkissed-grass.webp": {
+  "source": "reference/gathering/icons (ตรวจตรงกับไอคอน GameWith.ai แล้ว)",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunkissed-grass",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/heavenberry.webp": {
+  "source": "https://img.gamewith.jp/article_tools/mhoutlanders/gacha/item_749.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
+  "w": 98,
+  "h": 98
  }
 }
