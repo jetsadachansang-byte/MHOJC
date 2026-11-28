@@ -1688,9 +1688,9 @@ const gaGat=t=>t==='tree'?'Wood Gatherer':t==='ore'?'Ore Gatherer':'Plant Gather
 const gaHit=(s,q)=>(gaType==='all'||s.type===gaType)&&(!q||s.drops.some(d=>d.item.toLowerCase().includes(q)));
 function gaMapHTML(M,G,q){const T=G.spot_types;
   if(!M.image)return `<div class="ga-card"><b>${esc(M.n)}</b><p class="muted">${esc(M.note||'ยังไม่มีรูปแผนที่ของแมพนี้')}</p></div>`;
-  return `<div class="ga-mapwrap"><div class="ga-mapctl"><button class="btn btn-ghost btn-sm" data-gazoom="-1" type="button" aria-label="ซูมออก">−</button><button class="btn btn-ghost btn-sm" data-gazoom="1" type="button" aria-label="ซูมเข้า">+</button><span class="src2">ซูม ${gaZoom}× · ลากหรือเลื่อนเพื่อดูแผนที่</span></div>
+  return `<div class="ga-mapwrap"><div class="ga-zoom" role="group" aria-label="ซูมแผนที่"><button data-gazoom="1" type="button" aria-label="ซูมเข้า">+</button><span id="ga-zl">${gaZoom}×</span><button data-gazoom="-1" type="button" aria-label="ซูมออก">−</button><button data-gazoom="0" type="button" aria-label="ดูทั้งแผนที่">⤢</button></div>
    <div class="ga-map" id="ga-map-vp"><div class="ga-map-in" style="width:${gaZoom*100}%"><img src="${M.image}" alt="แผนที่ ${esc(M.n)}" draggable="false">
-   ${M.spots.filter(s=>s.x!=null).map(s=>`<button class="ga-pin ${gaHit(s,q)?'':'dim'} ${s.id===gaSel?'on':''}" style="left:${s.x}%;top:${s.y}%;--c:${T[s.type].color}" data-gaspot="${s.id}" type="button" title="#${s.no} ${esc(s.area)} · ${esc(T[s.type].th)}"><span>${GA_IC[s.type]||''}</span><i>${s.no}</i></button>`).join('')}</div></div></div>`}
+   ${M.spots.filter(s=>s.x!=null).map(s=>`<button class="ga-pin ${gaHit(s,q)?'':'dim'} ${s.id===gaSel?'on':''}" style="left:${s.x}%;top:${s.y}%;--c:${T[s.type].color}" data-gaspot="${s.id}" type="button" title="#${s.no} ${esc(s.area)} · ${esc(T[s.type].th)}"><span>${GA_IC[s.type]||''}</span><i>${s.no}</i></button>`).join('')}</div></div><p class="src2" style="margin:4px 0 0">ปุ่ม +/− มุมขวาบน · แตะสองครั้งเพื่อซูม · มือถือใช้สองนิ้วถ่าง · คอมกด Ctrl + เลื่อนล้อเมาส์</p></div>`}
 function gaSpotHTML(s,M,G,pop){const T=G.spot_types,MB=Object.fromEntries(G.materials.map(m=>[m.n,m]));
   return `<div class="ga-spot ${pop?'ga-pop':''} ${s.id===gaSel?'on':''}" ${pop?'':`data-gaspot="${s.id}" role="button" tabindex="0"`} style="--c:${T[s.type].color}"><div class="gs-h"><span class="gs-ic">${GA_IC[s.type]||''}</span><div><b>#${s.no} ${esc(s.area)}</b><small>${esc(T[s.type].th)} · ${gaGat(s.type)}</small></div>${pop?'<button class="x-btn" data-gaspot="" type="button">ปิด</button>':''}</div>
    <div class="gs-drops">${s.drops.map(d=>`<span class="ga-mat">${MB[d.item]?IMG(MB[d.item].img,'',d.item):''}<span>${esc(d.item)}<small>${esc(d.qty)}</small></span></span>`).join('')}</div>
@@ -1726,7 +1726,7 @@ document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
   else if(t=g('[data-ensel]')){enSel=t.dataset.ensel;enView=2;renderEndemic();scrollTo(0,0)}
   else if(t=g('[data-gamap]')){gaMap=t.dataset.gamap;gaSel=null;renderGathering()}
   else if(t=g('[data-gatype]')){gaType=t.dataset.gatype;renderGathering()}
-  else if(t=g('[data-gazoom]')){const vp=$('#ga-map-vp');const cx=vp?(vp.scrollLeft+vp.clientWidth/2)/vp.scrollWidth:.5,cy=vp?(vp.scrollTop+vp.clientHeight/2)/vp.scrollHeight:.5;gaZoom=Math.max(1,Math.min(4,gaZoom+ +t.dataset.gazoom));renderGathering();setTimeout(()=>{const v=$('#ga-map-vp');if(v){v.scrollLeft=cx*v.scrollWidth-v.clientWidth/2;v.scrollTop=cy*v.scrollHeight-v.clientHeight/2}},80)}
+  else if(t=g('[data-gazoom]')){const d=+t.dataset.gazoom;gaSetZoom(d===0?1:gaZstep(d))}
   else if(t=g('[data-gaspot]')){const id=t.dataset.gaspot;if(!id){gaSel=null;renderGathering();return}loadJ('gathering').then(G=>{const mp=G.maps.find(x=>x.spots&&x.spots.some(s=>s.id===id));if(mp)gaMap=mp.id;gaSel=id;if(location.hash!=='#gathering')history.replaceState(null,'','#gathering');renderGathering();setTimeout(()=>{const pin=document.querySelector('.ga-pin.on'),vp=$('#ga-map-vp');if(pin&&vp){vp.scrollLeft=pin.offsetLeft-vp.clientWidth/2;vp.scrollTop=pin.offsetTop-vp.clientHeight/2}if(innerWidth<900){const p=document.querySelector('.ga-pop');if(p)p.scrollIntoView({block:'nearest'})}},80)})}});
 let egT;document.addEventListener('input',e=>{if(e.target.id==='en-q'){clearTimeout(egT);egT=setTimeout(renderEndemic,120)}if(e.target.id==='ga-q'){clearTimeout(egT);egT=setTimeout(renderGathering,120)}});
 function egRoute(){const h=location.hash;let m;
@@ -1739,6 +1739,21 @@ function matLink(n){return window.MATSLUG&&MATSLUG[n]?`<a href="#m-${MATSLUG[n]}
 /* ---- theme-hd: character cards (sharp art, element tint, weapon icon, rarity frame) ---- */
 chCard=c=>{const ek=EL_EN[c.el]||'';const big=c.f&&HDM[c.f];return `<button class="ch-card rar-${c.r.toLowerCase()}" style="--elc:${ek?ECOL[ek]:'var(--brass)'}" aria-pressed="${c.id===chSel}" data-ch="${c.id}"><span class="rarity-tag ${c.r==='SR'?'sr':''}">${c.r}</span>${IMG(c.p,'',c.n,'data-sizes="(max-width:600px) 46vw, 220px"')}<span class="meta"><b>${esc(c.n)}</b><span>${wIcon(slugify(c.w))}${esc(c.w)}</span><span>${ek?ei(ek):''}${EL_TH[c.el]||c.el}</span></span></button>`};
 renderChars();if(typeof renderHome==='function')renderHome();
+
+/* gathering map zoom: steps, keep centre, double-tap, pinch, ctrl+wheel */
+const GA_Z=[1,1.5,2,3,4];
+function gaZstep(d){const i=GA_Z.findIndex(z=>z>=gaZoom-1e-6);return GA_Z[Math.max(0,Math.min(GA_Z.length-1,(i<0?0:i)+d))]}
+function gaSetZoom(z,fx,fy){const vp=$('#ga-map-vp'),inn=vp&&vp.querySelector('.ga-map-in');if(!inn){gaZoom=z;return}
+  const r=vp.getBoundingClientRect();fx=fx==null?vp.clientWidth/2:fx-r.left;fy=fy==null?vp.clientHeight/2:fy-r.top;
+  const px=(vp.scrollLeft+fx)/vp.scrollWidth,py=(vp.scrollTop+fy)/vp.scrollHeight;gaZoom=z;inn.style.width=z*100+'%';
+  vp.scrollLeft=px*vp.scrollWidth-fx;vp.scrollTop=py*vp.scrollHeight-fy;const l=$('#ga-zl');if(l)l.textContent=z+'×'}
+document.addEventListener('dblclick',e=>{if(e.target.closest('#ga-map-vp')&&!e.target.closest('.ga-pin')){e.preventDefault();gaSetZoom(gaZstep(gaZoom>=4?-9:1),e.clientX,e.clientY)}});
+document.addEventListener('wheel',e=>{if(!(e.ctrlKey||e.metaKey)||!e.target.closest('#ga-map-vp'))return;e.preventDefault();gaSetZoom(gaZstep(e.deltaY<0?1:-1),e.clientX,e.clientY)},{passive:false});
+let gaPinch=null;
+document.addEventListener('touchstart',e=>{if(e.touches.length===2&&e.target.closest('#ga-map-vp')){const[a,b]=e.touches;gaPinch={d:Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY),z:gaZoom,x:(a.clientX+b.clientX)/2,y:(a.clientY+b.clientY)/2}}},{passive:true});
+document.addEventListener('touchmove',e=>{if(!gaPinch||e.touches.length!==2)return;e.preventDefault();const[a,b]=e.touches;const d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);const z=Math.max(1,Math.min(4,+(gaPinch.z*d/gaPinch.d).toFixed(2)));gaSetZoom(z,gaPinch.x,gaPinch.y)},{passive:false});
+document.addEventListener('touchend',e=>{if(gaPinch&&e.touches.length<2)gaPinch=null});
+document.head.insertAdjacentHTML('beforeend','<style>.ga-mapwrap{position:relative}.ga-zoom{position:absolute;right:10px;top:10px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:4px;background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--frame,var(--line));padding:4px;box-shadow:0 4px 12px rgba(0,0,0,.4)}.ga-zoom button{width:40px;height:40px;border:1px solid var(--line-2);background:var(--surface-2);color:var(--fg);font:700 20px/1 var(--f-display);cursor:pointer}.ga-zoom button:hover{border-color:var(--brass);color:var(--brass)}.ga-zoom span{font:600 11px var(--f-num);color:var(--muted)}#ga-map-vp{touch-action:pan-x pan-y}@media (pointer:coarse){.ga-zoom button{width:44px;height:44px}}</style>');
 
 </script>
 <style>
