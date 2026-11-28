@@ -9,7 +9,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/pyro@960.webp",
+   "img/adventurer/pyro@720.webp",
    "img/adventurer/pyro@1122.webp"
   ]
  },
@@ -37,7 +37,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/freya@960.webp",
+   "img/adventurer/freya@720.webp",
    "img/adventurer/freya@1122.webp"
   ]
  },
@@ -65,7 +65,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/midori@960.webp",
+   "img/adventurer/midori@720.webp",
    "img/adventurer/midori@1122.webp"
   ]
  },
@@ -93,7 +93,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/keres@960.webp",
+   "img/adventurer/keres@720.webp",
    "img/adventurer/keres@1122.webp"
   ]
  },
@@ -121,7 +121,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/haze@960.webp",
+   "img/adventurer/haze@720.webp",
    "img/adventurer/haze@1122.webp"
   ]
  },
@@ -149,7 +149,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/arkaya@960.webp",
+   "img/adventurer/arkaya@720.webp",
    "img/adventurer/arkaya@1122.webp"
   ]
  },
@@ -177,7 +177,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/rhodes@960.webp",
+   "img/adventurer/rhodes@720.webp",
    "img/adventurer/rhodes@1122.webp"
   ]
  },
@@ -191,7 +191,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/pepper@960.webp",
+   "img/adventurer/pepper@720.webp",
    "img/adventurer/pepper@1122.webp"
   ]
  },
@@ -219,7 +219,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/luka@960.webp",
+   "img/adventurer/luka@720.webp",
    "img/adventurer/luka@1122.webp"
   ]
  },
@@ -247,7 +247,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/stylia@960.webp",
+   "img/adventurer/stylia@720.webp",
    "img/adventurer/stylia@1122.webp"
   ]
  },
@@ -275,7 +275,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/luxheart@960.webp",
+   "img/adventurer/luxheart@720.webp",
    "img/adventurer/luxheart@1122.webp"
   ]
  },
@@ -303,7 +303,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/ryunosuke@960.webp",
+   "img/adventurer/ryunosuke@720.webp",
    "img/adventurer/ryunosuke@1122.webp"
   ]
  },
@@ -331,7 +331,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/raya@960.webp",
+   "img/adventurer/raya@720.webp",
    "img/adventurer/raya@1122.webp"
   ]
  },
@@ -359,7 +359,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/ouyangvaren@960.webp",
+   "img/adventurer/ouyangvaren@720.webp",
    "img/adventurer/ouyangvaren@1122.webp"
   ]
  },
@@ -387,7 +387,7 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/madelyn@960.webp",
+   "img/adventurer/madelyn@720.webp",
    "img/adventurer/madelyn@1122.webp"
   ]
  },
@@ -415,7 +415,7 @@
   "w": 480,
   "h": 578,
   "variants": [
-   "img/buddy/kojiro@960.webp",
+   "img/buddy/kojiro@720.webp",
    "img/buddy/kojiro@1272.webp"
   ]
  },
@@ -429,6 +429,7 @@
   "w": 480,
   "h": 583,
   "variants": [
+   "img/buddy/daisho@720.webp",
    "img/buddy/daisho@884.webp"
   ]
  },
@@ -442,7 +443,7 @@
   "w": 480,
   "h": 572,
   "variants": [
-   "img/buddy/pipa@960.webp",
+   "img/buddy/pipa@720.webp",
    "img/buddy/pipa@1286.webp"
   ]
  },
@@ -456,6 +457,7 @@
   "w": 480,
   "h": 582,
   "variants": [
+   "img/buddy/ro@720.webp",
    "img/buddy/ro@886.webp"
   ]
  },
@@ -469,6 +471,7 @@
   "w": 480,
   "h": 579,
   "variants": [
+   "img/buddy/hoppy@720.webp",
    "img/buddy/hoppy@878.webp"
   ]
  },
@@ -482,6 +485,7 @@
   "w": 480,
   "h": 579,
   "variants": [
+   "img/buddy/devu@720.webp",
    "img/buddy/devu@878.webp"
   ]
  },
@@ -495,6 +499,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/nailu@720.webp",
    "img/buddy/nailu@894.webp"
   ]
  },
@@ -508,6 +513,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/pheasant@720.webp",
    "img/buddy/pheasant@896.webp"
   ]
  },
@@ -521,6 +527,7 @@
   "w": 480,
   "h": 575,
   "variants": [
+   "img/buddy/icarus@720.webp",
    "img/buddy/icarus@890.webp"
   ]
  },
@@ -534,7 +541,7 @@
   "w": 480,
   "h": 545,
   "variants": [
-   "img/buddy/fortie@960.webp",
+   "img/buddy/fortie@720.webp",
    "img/buddy/fortie@1286.webp"
   ]
  },
@@ -548,7 +555,7 @@
   "w": 480,
   "h": 578,
   "variants": [
-   "img/buddy/banako@960.webp",
+   "img/buddy/banako@720.webp",
    "img/buddy/banako@1272.webp"
   ]
  },
@@ -562,6 +569,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/sand-velvet@720.webp",
    "img/buddy/sand-velvet@886.webp"
   ]
  },
@@ -575,6 +583,7 @@
   "w": 480,
   "h": 579,
   "variants": [
+   "img/buddy/tidal-claw@720.webp",
    "img/buddy/tidal-claw@884.webp"
   ]
  },
@@ -588,6 +597,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/nako@720.webp",
    "img/buddy/nako@878.webp"
   ]
  },
@@ -601,6 +611,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/barim@720.webp",
    "img/buddy/barim@876.webp"
   ]
  },
@@ -614,6 +625,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/falee-hendsom@720.webp",
    "img/buddy/falee-hendsom@878.webp"
   ]
  },
@@ -627,6 +639,7 @@
   "w": 480,
   "h": 581,
   "variants": [
+   "img/buddy/sand-echo@720.webp",
    "img/buddy/sand-echo@876.webp"
   ]
  },
@@ -640,6 +653,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/reefcore@720.webp",
    "img/buddy/reefcore@878.webp"
   ]
  },
@@ -653,6 +667,7 @@
   "w": 480,
   "h": 581,
   "variants": [
+   "img/buddy/ravinge@720.webp",
    "img/buddy/ravinge@896.webp"
   ]
  },
@@ -666,6 +681,7 @@
   "w": 480,
   "h": 582,
   "variants": [
+   "img/buddy/ario@720.webp",
    "img/buddy/ario@894.webp"
   ]
  },
@@ -679,6 +695,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/golden-bell@720.webp",
    "img/buddy/golden-bell@896.webp"
   ]
  },
@@ -692,6 +709,7 @@
   "w": 480,
   "h": 581,
   "variants": [
+   "img/buddy/tidal-sound@720.webp",
    "img/buddy/tidal-sound@896.webp"
   ]
  },
@@ -705,6 +723,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/blademaster@720.webp",
    "img/buddy/blademaster@896.webp"
   ]
  },
@@ -718,6 +737,7 @@
   "w": 480,
   "h": 584,
   "variants": [
+   "img/buddy/zira@720.webp",
    "img/buddy/zira@884.webp"
   ]
  },
@@ -731,6 +751,7 @@
   "w": 480,
   "h": 579,
   "variants": [
+   "img/buddy/aloo@720.webp",
    "img/buddy/aloo@890.webp"
   ]
  },
@@ -744,7 +765,7 @@
   "w": 480,
   "h": 551,
   "variants": [
-   "img/buddy/shadow@960.webp",
+   "img/buddy/shadow@720.webp",
    "img/buddy/shadow@1272.webp"
   ]
  },
@@ -758,6 +779,7 @@
   "w": 480,
   "h": 580,
   "variants": [
+   "img/buddy/ron@720.webp",
    "img/buddy/ron@890.webp"
   ]
  },
@@ -771,6 +793,7 @@
   "w": 480,
   "h": 583,
   "variants": [
+   "img/buddy/alon@720.webp",
    "img/buddy/alon@886.webp"
   ]
  },
@@ -784,6 +807,7 @@
   "w": 480,
   "h": 580,
   "variants": [
+   "img/buddy/boomie@720.webp",
    "img/buddy/boomie@876.webp"
   ]
  },
@@ -797,6 +821,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/pupo@720.webp",
    "img/buddy/pupo@878.webp"
   ]
  },
@@ -810,6 +835,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/mac@720.webp",
    "img/buddy/mac@878.webp"
   ]
  },
@@ -823,6 +849,7 @@
   "w": 480,
   "h": 576,
   "variants": [
+   "img/buddy/wolfe@720.webp",
    "img/buddy/wolfe@878.webp"
   ]
  },
@@ -836,6 +863,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/aku@720.webp",
    "img/buddy/aku@876.webp"
   ]
  },
@@ -849,6 +877,7 @@
   "w": 480,
   "h": 582,
   "variants": [
+   "img/buddy/viper@720.webp",
    "img/buddy/viper@894.webp"
   ]
  },
@@ -862,6 +891,7 @@
   "w": 480,
   "h": 578,
   "variants": [
+   "img/buddy/bladey@720.webp",
    "img/buddy/bladey@896.webp"
   ]
  },
@@ -875,6 +905,7 @@
   "w": 480,
   "h": 581,
   "variants": [
+   "img/buddy/horn@720.webp",
    "img/buddy/horn@896.webp"
   ]
  },
@@ -888,6 +919,7 @@
   "w": 480,
   "h": 581,
   "variants": [
+   "img/buddy/lido@720.webp",
    "img/buddy/lido@896.webp"
   ]
  },
@@ -901,6 +933,7 @@
   "w": 480,
   "h": 579,
   "variants": [
+   "img/buddy/mith@720.webp",
    "img/buddy/mith@894.webp"
   ]
  },
