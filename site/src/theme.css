@@ -75,4 +75,7 @@ footer{border-top:1px solid var(--frame);background:color-mix(in srgb,var(--surf
 img.wi{width:18px!important;height:18px!important;object-fit:contain;flex:none}
 .ch-card .meta span{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion: reduce){.mon-card{transition:none}.mon-card:hover{transform:none}}
+.bar .wrap{position:relative}.bar .theme-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;min-width:40px;padding:6px 10px;margin-left:8px;flex:none;border:1px solid var(--frame);background:var(--surface-2);color:var(--fg);font:600 13px var(--f-body);white-space:nowrap}.bar .theme-btn:hover{border-color:var(--brass);color:var(--brass)}.bar .tb-ic{font-size:16px;line-height:1}.bar .tb-t{display:none}
+@media (max-width:860px){.bar .theme-btn{position:absolute;right:16px;top:10px;margin:0;padding:6px 10px;min-height:40px}.bar .tb-t{display:none}}
+@media (min-width:861px){.bar .nav a{padding-left:9px!important;padding-right:9px!important}}
 </style>

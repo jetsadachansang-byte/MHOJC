@@ -492,6 +492,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
       <a href="#endemic">สัตว์ท้องถิ่น</a>
       <a href="#gathering">การเก็บของ</a>
     </nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="สลับโหมดมืด/สว่าง" title="สลับโหมดมืด/สว่าง"><span class="tb-ic" aria-hidden="true"></span><span class="tb-t"></span></button>
   </div>
 </header>
 
@@ -727,7 +728,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <footer><div class="wrap">
   <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับ Capcom / Garena · ภาพเป็นลิขสิทธิ์ของเจ้าของ</span>
-  <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
 </div></footer>
 
 <div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheet-title">
@@ -1031,8 +1031,9 @@ $('#bd-target').addEventListener('change',e=>{B.target=e.target.value;saveCur();
 $('#bd-sample').addEventListener('click',()=>{B=sampleBuild();saveCur();renderBuilder();toast('โหลดบิลด์ตัวอย่างแล้ว')});
 let clearArm=false;
 $('#bd-clear').addEventListener('click',e=>{if(!clearArm){clearArm=true;e.currentTarget.textContent='กดอีกครั้งเพื่อยืนยัน';setTimeout(()=>{clearArm=false;$('#bd-clear').textContent='ล้างบิลด์'},3000);return}clearArm=false;e.currentTarget.textContent='ล้างบิลด์';B=EMPTY();saveCur();renderBuilder();toast('ล้างบิลด์แล้ว')});
-$('#theme-btn').addEventListener('click',()=>{const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');const n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);store.set('mho_theme',n);drawContour()});
-(()=>{const t=store.get('mho_theme',null);if(t)document.documentElement.setAttribute('data-theme',t)})();
+$('#theme-btn').addEventListener('click',()=>{const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');const n=cur==='dark'?'light':'dark';r.setAttribute('data-theme',n);store.set('mho_theme',n);drawContour();themeLbl()});
+function themeLbl(){const r=document.documentElement,cur=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark');const b=$('#theme-btn');b.querySelector('.tb-ic').textContent=cur==='dark'?'☀':'🌙';b.querySelector('.tb-t').textContent=cur==='dark'?'โหมดสว่าง':'โหมดมืด'}
+(()=>{const t=store.get('mho_theme',null);if(t)document.documentElement.setAttribute('data-theme',t);themeLbl()})();
 /* characters */
 const CH=MEDIA.characters;let chSel=CH[0].id,chTab='info',chF='ทั้งหมด';
 const EL_TH={Fire:'ไฟ',Water:'น้ำ',Thunder:'สายฟ้า',Ice:'น้ำแข็ง',Dragon:'มังกร'};
@@ -1946,6 +1947,9 @@ footer{border-top:1px solid var(--frame);background:color-mix(in srgb,var(--surf
 img.wi{width:18px!important;height:18px!important;object-fit:contain;flex:none}
 .ch-card .meta span{display:flex;align-items:center;gap:6px}
 @media (prefers-reduced-motion: reduce){.mon-card{transition:none}.mon-card:hover{transform:none}}
+.bar .wrap{position:relative}.bar .theme-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;min-width:40px;padding:6px 10px;margin-left:8px;flex:none;border:1px solid var(--frame);background:var(--surface-2);color:var(--fg);font:600 13px var(--f-body);white-space:nowrap}.bar .theme-btn:hover{border-color:var(--brass);color:var(--brass)}.bar .tb-ic{font-size:16px;line-height:1}.bar .tb-t{display:none}
+@media (max-width:860px){.bar .theme-btn{position:absolute;right:16px;top:10px;margin:0;padding:6px 10px;min-height:40px}.bar .tb-t{display:none}}
+@media (min-width:861px){.bar .nav a{padding-left:9px!important;padding-right:9px!important}}
 </style>
 
 </body>
