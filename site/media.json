@@ -3223,60 +3223,60 @@
    600
   ],
   "img/adventurer/full/haze.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/stylia.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/pepper.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/raya.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/midori.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/luka.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/ryunosuke.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/ouyangvaren.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/arkaya.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/madelyn.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/keres.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/luxheart.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/pyro.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/adventurer/full/freya.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/visage/radiant-jyuratodus.webp": [
    256,
@@ -3503,36 +3503,36 @@
    256
   ],
   "img/outfit/stylia-silken-dancer.webp": [
-   480,
-   448
+   640,
+   597
   ],
   "img/outfit/freya-rose-queen.webp": [
-   480,
-   392
+   640,
+   522
   ],
   "img/outfit/stylia-silken-dancer-full.webp": [
-   480,
-   274
+   640,
+   366
   ],
   "img/outfit/weapon-flying-feather-full.webp": [
-   480,
-   246
+   640,
+   328
   ],
   "img/outfit/buddy-flower-bearing-plume-full.webp": [
-   480,
-   246
+   640,
+   328
   ],
   "img/outfit/buddy-flower-bearing-plume.webp": [
-   480,
-   365
+   640,
+   487
   ],
   "img/outfit/weapon-flying-feather.webp": [
-   480,
-   472
+   640,
+   629
   ],
   "img/outfit/freya-rose-queen-full.webp": [
-   480,
-   251
+   640,
+   334
   ],
   "img/monster/radiant-jagras.webp": [
    59,
@@ -5071,12 +5071,12 @@
    578
   ],
   "img/buddy/featured/arya.webp": [
-   480,
-   480
+   640,
+   640
   ],
   "img/buddy/featured/elwin.webp": [
-   480,
-   480
+   640,
+   640
   ],
   "img/outfit/pepper-exclusive.webp": [
    320,
@@ -5099,12 +5099,12 @@
    320
   ],
   "img/adventurer/full/rhodes.webp": [
-   480,
-   600
+   640,
+   800
   ],
   "img/hero/hero.webp": [
-   480,
-   684
+   640,
+   912
   ]
  }
 }

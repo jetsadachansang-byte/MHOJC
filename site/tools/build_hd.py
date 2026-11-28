@@ -6,8 +6,8 @@ from PIL import Image
 S=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..');A=os.path.join(S,'..','assets','images')
 cred=json.load(open(f'{S}/img/credits.json'));M=json.load(open(f'{S}/media.json',encoding='utf-8'))
 HD={};done=[]
-ROLE={'profile':([480,960],512,'(max-width:600px) 46vw, 240px'),'full':([480,960,1600],1200,'(max-width:900px) 100vw, 640px'),
-      'wide':([480,960,1600],1200,'(max-width:600px) 60vw, 480px'),'icon':([128,256,512],256,'48px'),'hero':([480,960,1600],1200,'100vw')}
+ROLE={'profile':([480,960,1440],720,'(max-width:600px) 46vw, 240px'),'full':([640,1280,1920,2560],1280,'(max-width:900px) 100vw, 640px'),
+      'wide':([640,1280,1920,2560],1280,'(max-width:600px) 60vw, 480px'),'icon':([128,256,512],256,'48px'),'hero':([640,1280,1920,2560,3840],1920,'100vw')}
 def make(src,dest,role,note=None):
     widths,thr,sizes=ROLE[role]
     im=Image.open(src);im=im.convert('RGBA') if im.mode in('RGBA','LA','P') else im.convert('RGB')
@@ -25,7 +25,7 @@ def rel(p):return p
 # characters
 for c in M['characters']:
     i=c['id']
-    if os.path.exists(f'{A}/01-characters/portrait/{i}.jpg'):make(f'{A}/01-characters/portrait/{i}.jpg',f"img/adventurer/{i}.webp",'profile')
+    if os.path.exists(f'{A}/01-characters/full/{i}.jpg'):make(f'{A}/01-characters/full/{i}.jpg',f"img/adventurer/{i}.webp",'profile')
     src=f'{A}/01-characters/full/{i}.jpg'  # hires/ copies have smeared patches from old text removal
     if os.path.exists(src):make(src,f'img/adventurer/full/{i}.webp','full');c['f']=f'img/adventurer/full/{i}.webp'
 for b in M['buddies']:
@@ -77,10 +77,12 @@ scan('img/armor/*/head.webp','icon',256,'ไฟล์ใน repo มีแค่
 json.dump(M,open(f'{S}/media.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 open(f'{S}/media.js','w',encoding='utf-8').write('window.MEDIA='+json.dumps(M,ensure_ascii=False,separators=(',',':'))+';\n')
 json.dump(HD,open(f'{S}/data/hd.json','w'),separators=(',',':'))
-old=[x for x in json.load(open(f'{S}/img/missing.json')) if x.get('category')!='hd-resolution']
+old=[x for x in json.load(open(f'{S}/img/missing.json')) if x.get('category') not in('hd-resolution','hd-fallback')]
 # Rhodes now has full art from the repo pack
 old=[x for x in old if not (x.get('name')=='Rhodes' and 'full art' in x.get('category',''))]
 for m in miss:m['category']='hd-resolution';m['name']=m['img']
+_fb=[{'category':'hd-fallback','name':d,'img':d,'role':r,'best_px':[W,H],'reason':'ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co'} for d,r,W,H,t in done]
+miss=miss+_fb
 json.dump(old+miss,open(f'{S}/img/missing.json','w'),ensure_ascii=False,indent=1)
 json.dump(cred,open(f'{S}/img/credits.json','w'),ensure_ascii=False,indent=1)
 from collections import Counter
