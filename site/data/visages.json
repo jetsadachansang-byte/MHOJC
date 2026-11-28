@@ -19,7 +19,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/anjanath",
-   "img": "img/visage/anjanath.webp"
+   "img": "img/visage/anjanath.webp",
+   "core_th": "เมื่อนักผจญภัยใช้สกิลบัฟเพื่อนร่วมทีม ดาเมจทั้งทีม +3.5% นาน 60 วินาที"
   },
   {
    "id": "apceros",
@@ -37,7 +38,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/apceros",
-   "img": "img/visage/apceros.webp"
+   "img": "img/visage/apceros.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "aptonoth",
@@ -54,7 +56,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/aptonoth",
-   "img": "img/visage/aptonoth.webp"
+   "img": "img/visage/aptonoth.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "barnos",
@@ -72,7 +75,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/barnos",
-   "img": "img/visage/barnos.webp"
+   "img": "img/visage/barnos.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "barroth",
@@ -97,7 +101,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/barroth",
-   "img": "img/visage/barroth.webp"
+   "img": "img/visage/barroth.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุน้ำ ดาเมจน้ำ +7%"
   },
   {
    "id": "black-diablos",
@@ -121,7 +126,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/black-diablos",
-   "img": "img/visage/black-diablos.webp"
+   "img": "img/visage/black-diablos.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุมังกร ดาเมจมังกร +7%"
   },
   {
    "id": "diablos",
@@ -145,7 +151,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/diablos",
-   "img": "img/visage/diablos.webp"
+   "img": "img/visage/diablos.webp",
+   "core_th": "เมื่อใช้อาวุธกายภาพหรืออาวุธสถานะ ดาเมจกายภาพ +3.5%"
   },
   {
    "id": "gajau",
@@ -163,7 +170,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/gajau",
-   "img": "img/visage/gajau.webp"
+   "img": "img/visage/gajau.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "gastodon",
@@ -181,7 +189,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/gastodon",
-   "img": "img/visage/gastodon.webp"
+   "img": "img/visage/gastodon.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "girros",
@@ -199,7 +208,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/girros",
-   "img": "img/visage/girros.webp"
+   "img": "img/visage/girros.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "great-girros",
@@ -224,7 +234,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/great-girros",
-   "img": "img/visage/great-girros.webp"
+   "img": "img/visage/great-girros.webp",
+   "core_th": "ต้านอัมพาต +3 ไม่ติดอัมพาต"
   },
   {
    "id": "great-jagras",
@@ -246,7 +257,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/great-jagras",
-   "img": "img/visage/great-jagras.webp"
+   "img": "img/visage/great-jagras.webp",
+   "core_th": "Quick-Bite +3 กินเนื้อและใช้ไอเทมเร็วขึ้นมาก"
   },
   {
    "id": "hornetaur",
@@ -264,7 +276,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/hornetaur",
-   "img": "img/visage/hornetaur.webp"
+   "img": "img/visage/hornetaur.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "jagras",
@@ -282,7 +295,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/jagras",
-   "img": "img/visage/jagras.webp"
+   "img": "img/visage/jagras.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "jyuratodus",
@@ -307,7 +321,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/jyuratodus",
-   "img": "img/visage/jyuratodus.webp"
+   "img": "img/visage/jyuratodus.webp",
+   "core_th": "ไม่โดนลดความเร็วเมื่อติดโคลน"
   },
   {
    "id": "kelbi",
@@ -325,7 +340,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kelbi",
-   "img": "img/visage/kelbi.webp"
+   "img": "img/visage/kelbi.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "kestodon",
@@ -343,7 +359,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kestodon",
-   "img": "img/visage/kestodon.webp"
+   "img": "img/visage/kestodon.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "kulu-ya-ku",
@@ -365,7 +382,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kulu-ya-ku",
-   "img": "img/visage/kulu-ya-ku.webp"
+   "img": "img/visage/kulu-ya-ku.webp",
+   "core_th": "Instinct +1 การโจมตีไม่เด้ง"
   },
   {
    "id": "kushala-daora",
@@ -386,7 +404,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kushala-daora",
-   "img": "img/visage/kushala-daora.webp"
+   "img": "img/visage/kushala-daora.webp",
+   "core_th": "ดาเมจธาตุ +10% และเพิ่มเป็น 18% เมื่อตีส่วนที่แตกแล้ว (เฉพาะ Season 0)"
   },
   {
    "id": "legiana",
@@ -410,7 +429,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/legiana",
-   "img": "img/visage/legiana.webp"
+   "img": "img/visage/legiana.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุน้ำแข็ง ดาเมจน้ำแข็ง +7%"
   },
   {
    "id": "mernos",
@@ -428,7 +448,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/mernos",
-   "img": "img/visage/mernos.webp"
+   "img": "img/visage/mernos.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "nergigante",
@@ -449,7 +470,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/nergigante",
-   "img": "img/visage/nergigante.webp"
+   "img": "img/visage/nergigante.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุน้ำแข็ง ดาเมจน้ำแข็ง +15% (เฉพาะ Season 0)"
   },
   {
    "id": "noios",
@@ -467,7 +489,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/noios",
-   "img": "img/visage/noios.webp"
+   "img": "img/visage/noios.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "odogaron",
@@ -489,7 +512,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/odogaron",
-   "img": "img/visage/odogaron.webp"
+   "img": "img/visage/odogaron.webp",
+   "core_th": "ต้านเลือดออก +3 ไม่ติดสถานะเลือดออก"
   },
   {
    "id": "paolumu",
@@ -514,7 +538,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/paolumu",
-   "img": "img/visage/paolumu.webp"
+   "img": "img/visage/paolumu.webp",
+   "core_th": "เมื่อสกิล Windproof ถึงเลเวล 3 ทั้งทีมไม่โดนแรงลมทุกแบบ (รวมแรงลมของมังกร)"
   },
   {
    "id": "pink-rathian",
@@ -538,7 +563,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pink-rathian",
-   "img": "img/visage/pink-rathian.webp"
+   "img": "img/visage/pink-rathian.webp",
+   "core_th": "เมื่อสกิลดีบัฟโดนมอนสเตอร์ มอนสเตอร์รับดาเมจเพิ่มขึ้น 6% นาน 30 วินาที (คูลดาวน์ 60 วินาที)"
   },
   {
    "id": "pitcher-atecoli",
@@ -556,7 +582,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pitcher-atecoli",
-   "img": "img/visage/pitcher-atecoli.webp"
+   "img": "img/visage/pitcher-atecoli.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "pukei-pukei",
@@ -578,7 +605,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pukei-pukei",
-   "img": "img/visage/pukei-pukei.webp"
+   "img": "img/visage/pukei-pukei.webp",
+   "core_th": "เมื่อ Ultimate ฮีลเพื่อนร่วมทีม ดาเมจทั้งทีม +3.5% นาน 60 วินาที"
   },
   {
    "id": "radiant-anjanath",
@@ -599,7 +627,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-anjanath",
-   "img": "img/visage/radiant-anjanath.webp"
+   "img": "img/visage/radiant-anjanath.webp",
+   "core_th": "ระหว่างโจมตีแบบชาร์จ ดาเมจมังกร +10%"
   },
   {
    "id": "radiant-barroth",
@@ -620,7 +649,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-barroth",
-   "img": "img/visage/radiant-barroth.webp"
+   "img": "img/visage/radiant-barroth.webp",
+   "core_th": "เมื่อชาร์จถึงระดับสูงสุด ดาเมจน้ำ +10% นาน 45 วินาที"
   },
   {
    "id": "radiant-black-diablos",
@@ -641,7 +671,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-black-diablos",
-   "img": "img/visage/radiant-black-diablos.webp"
+   "img": "img/visage/radiant-black-diablos.webp",
+   "core_th": "เมื่อไม่ได้เป็นนักผจญภัยที่ควบคุมเอง ดาเมจธาตุของ Ultimate +32%"
   },
   {
    "id": "radiant-diablos",
@@ -663,7 +694,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-diablos",
-   "img": "img/visage/radiant-diablos.webp"
+   "img": "img/visage/radiant-diablos.webp",
+   "core_th": "เมื่อเกิดสถานะ Ferocity ดาเมจมังกร +10% นาน 45 วินาที"
   },
   {
    "id": "radiant-great-girros",
@@ -685,7 +717,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-great-girros",
-   "img": "img/visage/radiant-great-girros.webp"
+   "img": "img/visage/radiant-great-girros.webp",
+   "core_th": "เมื่อเกิดดาเมจคอมโบ ดาเมจสายฟ้า +10% นาน 15 วินาที"
   },
   {
    "id": "radiant-great-jagras",
@@ -709,7 +742,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-great-jagras",
-   "img": "img/visage/radiant-great-jagras.webp"
+   "img": "img/visage/radiant-great-jagras.webp",
+   "core_th": "หลังกินเนื้อย่าง (BBQ) ดาเมจไฟ +10% นาน 45 วินาที (หมดผลก่อนเวลาถ้ารับดาเมจรวม 100)"
   },
   {
    "id": "radiant-jyuratodus",
@@ -731,7 +765,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-jyuratodus",
-   "img": "img/visage/radiant-jyuratodus.webp"
+   "img": "img/visage/radiant-jyuratodus.webp",
+   "core_th": "หลังใช้โล่ ป้องกันทั้งทีม +10 และดาเมจทั้งทีม +4% นาน 45 วินาที"
   },
   {
    "id": "radiant-kulu-ya-ku",
@@ -756,7 +791,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-kulu-ya-ku",
-   "img": "img/visage/radiant-kulu-ya-ku.webp"
+   "img": "img/visage/radiant-kulu-ya-ku.webp",
+   "core_th": "เมื่อเกิดดาเมจคอมโบ ดาเมจไฟ +16% นาน 10 วินาที (คูลดาวน์ 20 วินาที)"
   },
   {
    "id": "radiant-legiana",
@@ -777,7 +813,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-legiana",
-   "img": "img/visage/radiant-legiana.webp"
+   "img": "img/visage/radiant-legiana.webp",
+   "core_th": "ขณะลอยกลางอากาศ ดาเมจน้ำแข็ง +10%"
   },
   {
    "id": "radiant-odogaron",
@@ -802,7 +839,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-odogaron",
-   "img": "img/visage/radiant-odogaron.webp"
+   "img": "img/visage/radiant-odogaron.webp",
+   "core_th": "เมื่อเกิดดาเมจคอมโบ ดาเมจมังกร +10% นาน 15 วินาที"
   },
   {
    "id": "radiant-paolumu",
@@ -823,7 +861,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-paolumu",
-   "img": "img/visage/radiant-paolumu.webp"
+   "img": "img/visage/radiant-paolumu.webp",
+   "core_th": "ขณะลอยกลางอากาศ ดาเมจน้ำ +10%"
   },
   {
    "id": "radiant-pink-rathian",
@@ -848,7 +887,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-pink-rathian",
-   "img": "img/visage/radiant-pink-rathian.webp"
+   "img": "img/visage/radiant-pink-rathian.webp",
+   "core_th": "เมื่อไม่ได้เป็นนักผจญภัยที่ควบคุมเอง ดาเมจธาตุของ Ultimate +32%"
   },
   {
    "id": "radiant-pukei-pukei",
@@ -870,7 +910,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-pukei-pukei",
-   "img": "img/visage/radiant-pukei-pukei.webp"
+   "img": "img/visage/radiant-pukei-pukei.webp",
+   "core_th": "หลังใช้สกิลที่ใช้ Coating ดาเมจน้ำ +10% นาน 45 วินาที"
   },
   {
    "id": "radiant-radobaan",
@@ -891,7 +932,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-radobaan",
-   "img": "img/visage/radiant-radobaan.webp"
+   "img": "img/visage/radiant-radobaan.webp",
+   "core_th": "หลังใช้สกิลชาร์จ ดาเมจน้ำแข็ง +10% นาน 15 วินาที"
   },
   {
    "id": "radiant-rathalos",
@@ -913,7 +955,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-rathalos",
-   "img": "img/visage/radiant-rathalos.webp"
+   "img": "img/visage/radiant-rathalos.webp",
+   "core_th": "หลังใช้สกิลชาร์จ ดาเมจไฟ +10% นาน 15 วินาที"
   },
   {
    "id": "radiant-rathian",
@@ -937,7 +980,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-rathian",
-   "img": "img/visage/radiant-rathian.webp"
+   "img": "img/visage/radiant-rathian.webp",
+   "core_th": "เมื่อเกิดดาเมจแตกระเบิด (Rupture) ดาเมจไฟ +10% นาน 20 วินาที"
   },
   {
    "id": "radiant-tobi-kadachi",
@@ -958,7 +1002,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-tobi-kadachi",
-   "img": "img/visage/radiant-tobi-kadachi.webp"
+   "img": "img/visage/radiant-tobi-kadachi.webp",
+   "core_th": "เมื่อทำดาเมจแบบทะลุ (Piercing) ดาเมจสายฟ้า +10%"
   },
   {
    "id": "radiant-tzitzi-ya-ku",
@@ -979,7 +1024,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-tzitzi-ya-ku",
-   "img": "img/visage/radiant-tzitzi-ya-ku.webp"
+   "img": "img/visage/radiant-tzitzi-ya-ku.webp",
+   "core_th": "เมื่อทำให้มอนสเตอร์มึน (Daze) ดาเมจสายฟ้า +16% นาน 30 วินาที (คูลดาวน์ 60 วินาที)"
   },
   {
    "id": "radobaan",
@@ -1001,7 +1047,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radobaan",
-   "img": "img/visage/radobaan.webp"
+   "img": "img/visage/radobaan.webp",
+   "core_th": "ต้านหลับ +3 ไม่ติดหลับ"
   },
   {
    "id": "raphinos",
@@ -1019,7 +1066,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/raphinos",
-   "img": "img/visage/raphinos.webp"
+   "img": "img/visage/raphinos.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "rathalos",
@@ -1041,7 +1089,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/rathalos",
-   "img": "img/visage/rathalos.webp"
+   "img": "img/visage/rathalos.webp",
+   "core_th": "เมื่อ Ultimate ทำให้มอนสเตอร์ติดสถานะกดข่ม (Suppression) ดาเมจทั้งทีม +6% นาน 30 วินาที (คูลดาวน์ 60 วินาที)"
   },
   {
    "id": "rathian",
@@ -1062,7 +1111,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/rathian",
-   "img": "img/visage/rathian.webp"
+   "img": "img/visage/rathian.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุไฟ ดาเมจไฟ +7%"
   },
   {
    "id": "ruger-aidal",
@@ -1083,7 +1133,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/ruger-aidal",
-   "img": "img/visage/ruger-aidal.webp"
+   "img": "img/visage/ruger-aidal.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุไฟ ดาเมจไฟ +15% (เฉพาะ Season 0)"
   },
   {
    "id": "shamos",
@@ -1101,7 +1152,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/shamos",
-   "img": "img/visage/shamos.webp"
+   "img": "img/visage/shamos.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "tobi-kadachi",
@@ -1126,7 +1178,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/tobi-kadachi",
-   "img": "img/visage/tobi-kadachi.webp"
+   "img": "img/visage/tobi-kadachi.webp",
+   "core_th": "เมื่อใช้อาวุธธาตุสายฟ้า ดาเมจสายฟ้า +7%"
   },
   {
    "id": "tzitzi-ya-ku",
@@ -1147,7 +1200,8 @@
     "Defense"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/tzitzi-ya-ku",
-   "img": "img/visage/tzitzi-ya-ku.webp"
+   "img": "img/visage/tzitzi-ya-ku.webp",
+   "core_th": "เวลามึนของมอนสเตอร์ +0.5 วินาที และเมื่อมอนสเตอร์มึน มอนสเตอร์รับดาเมจ +6% นาน 30 วินาที (คูลดาวน์ 60 วินาที)"
   },
   {
    "id": "vespoid",
@@ -1165,7 +1219,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/vespoid",
-   "img": "img/visage/vespoid.webp"
+   "img": "img/visage/vespoid.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   },
   {
    "id": "warrior-atecoli",
@@ -1183,7 +1238,8 @@
     "Attack"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/warrior-atecoli",
-   "img": "img/visage/warrior-atecoli.webp"
+   "img": "img/visage/warrior-atecoli.webp",
+   "core_th": "ไม่มี (การ์ด Cost 1 ไม่มี Core Effect)"
   }
  ],
  "sets": [
@@ -1198,6 +1254,10 @@
      "el_fire": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจไฟ +5%",
+    "4": "เมื่อตีโดนส่วนที่มีค่าจุดอ่อนดีหรือพอใช้ ดาเมจไฟ +24% นาน 20 วินาที"
    }
   },
   {
@@ -1211,6 +1271,10 @@
      "aff": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "คริติคอล +5%",
+    "4": "เมื่อ Ultimate ติดดีบัฟให้มอนสเตอร์ ดาเมจทั้งทีม +6.5% นาน 60 วินาที"
    }
   },
   {
@@ -1224,6 +1288,10 @@
      "ult": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ความเร็วชาร์จ Ultimate +5%",
+    "4": "ภายใน 8 วินาทีหลัง Ultimate กดข่มมอนสเตอร์ ทุกครั้งที่ทีมใช้ Ultimate ดาเมจทั้งทีม +2.2% นาน 60 วินาที (สูงสุด 3 ชั้น)"
    }
   },
   {
@@ -1237,6 +1305,10 @@
      "ult": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ความเร็วชาร์จ Ultimate +5%",
+    "4": "เมื่อนักผจญภัยและบัดดี้ให้ฮีลหรือโล่แก่เพื่อนร่วมทีม ผลนั้น +20% และดาเมจทั้งทีม +6% นาน 45 วินาที"
    }
   },
   {
@@ -1250,6 +1322,10 @@
      "el_dragon": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจมังกร +5%",
+    "4": "หลังใช้ Ultimate ดาเมจมังกร +24% นาน 60 วินาที"
    }
   },
   {
@@ -1263,6 +1339,10 @@
      "el_water": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจน้ำ +5%",
+    "4": "ทุกครั้งที่เพื่อนร่วมทีมใช้ Ultimate ดาเมจน้ำ +6% นาน 60 วินาที (สูงสุด 4 ชั้น)"
    }
   },
   {
@@ -1276,6 +1356,10 @@
      "phys": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจกายภาพ +5%",
+    "4": "หลังตีติดคริติคอล ดาเมจกายภาพ +12% นาน 60 วินาที"
    }
   },
   {
@@ -1289,6 +1373,10 @@
      "ult": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ความเร็วชาร์จ Ultimate +5%",
+    "4": "เมื่อนักผจญภัยให้บัฟเพื่อนร่วมทีม ดาเมจทั้งทีม +6.5% นาน 60 วินาที"
    }
   },
   {
@@ -1302,6 +1390,10 @@
      "el_ice": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจน้ำแข็ง +5%",
+    "4": "หลังตีโดนมอนสเตอร์ ดาเมจน้ำแข็ง +24% นาน 8 วินาที"
    }
   },
   {
@@ -1315,6 +1407,10 @@
      "el_thunder": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "ดาเมจสายฟ้า +5%",
+    "4": "หลังทำดาเมจใส่มอนสเตอร์ ดาเมจสายฟ้า +5% นาน 12 วินาที (สูงสุด 5 ชั้น)"
    }
   },
   {
@@ -1328,6 +1424,10 @@
      "aff": 5.0
     },
     "4": null
+   },
+   "eff_th": {
+    "2": "คริติคอล +5%",
+    "4": "เมื่อไม่ได้เป็นนักผจญภัยที่ควบคุมเอง ดาเมจ Ultimate +32%"
    }
   },
   {
@@ -1341,6 +1441,10 @@
      "ele_all": 2.0
     },
     "2": null
+   },
+   "eff_th": {
+    "1": "ดาเมจธาตุ +2% (เฉพาะ Season 0)",
+    "2": "ดาเมจธาตุ +3% และเพิ่มเป็น 10% เมื่อมอนสเตอร์ถูกกดข่ม (เฉพาะ Season 0)"
    }
   }
  ],
@@ -1366,8 +1470,9 @@
  "sub_every": 2,
  "notes": [
   "Cost รวมสูงสุด 12 · Core Effect ทำงานเฉพาะการ์ดในช่อง Core",
-  "ทุกระดับเลเวลสูงสุด 10 และปลดช่องค่ารอง (substat) ทุก 2 เลเวล รวม 5 ช่อง",
-  "แหล่งข้อมูลไม่เปิดเผยตัวเลขค่าหลัก/ค่ารองตามระดับและเลเวล จึงให้ใส่ตัวเลขเองตามที่เห็นในเกม"
+  "ทุกระดับเลเวลสูงสุด 10 ปลดช่องค่ารองทุก 2 เลเวล รวม 5 ช่อง",
+  "ค่ารองมีทั้งแบบตัวเลข (พลังโจมตี, ป้องกัน) และแบบ % (ที่เหลือ) ตามชื่อในเกม",
+  "แหล่งข้อมูลไม่เปิดเผยค่าสูงสุดของค่ารองแต่ละแบบ จึงจำกัดไว้ที่ 100% สำหรับค่า % และ 9999 สำหรับค่าตัวเลข"
  ],
  "apex": {
   "mastery": {
@@ -1383,20 +1488,124 @@
   "radiant_base": 8,
   "awaken_slots": 5,
   "awaken_types": [
-   "Attack Power",
-   "Affinity",
-   "Crit Damage",
-   "Ele. Crit DMG",
-   "Element Damage Bonus",
-   "Physical Damage",
-   "Defense"
+   "Elemental Damage Bonus",
+   "Affinity"
   ],
-  "note": "ปลุกพลัง (Awakening) ได้ 1 ช่องต่อการอัปเกรด 1 ระดับ (R10–R14 = 5 ช่อง) และเลือกเอฟเฟกต์จากตัวเลือก · แหล่งข้อมูลไม่เปิดเผยรายการและตัวเลขทั้งหมด จึงให้เลือกประเภทและใส่ตัวเลขเอง",
-  "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/apex-weapons"
+  "note": "ปลุกพลัง (Awakening) ได้ 1 ช่องต่อการอัปเกรด 1 ระดับ (R10–R14 = 5 ช่อง) · แหล่งข้อมูลระบุเอฟเฟกต์ที่ยืนยันได้แค่ “โบนัสดาเมจธาตุ” และ “คริติคอล” และไม่ระบุตัวเลข จึงให้ใส่ตัวเลขเอง",
+  "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/apex-weapons",
+  "awaken_th": {
+   "Elemental Damage Bonus": {
+    "th": "โบนัสดาเมจธาตุ",
+    "unit": "%",
+    "key": "ele_all"
+   },
+   "Affinity": {
+    "th": "คริติคอล",
+    "unit": "%",
+    "key": "aff"
+   }
+  }
  },
  "source": [
   "https://gamewith.ai/monster-hunter-outlanders/en/visages",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-guide",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-album-level"
- ]
+ ],
+ "substats": {
+  "Attack Power": {
+   "th": "พลังโจมตี",
+   "jp": "攻撃力",
+   "unit": "",
+   "key": "atk",
+   "cap": null
+  },
+  "Attack": {
+   "th": "โบนัสพลังโจมตี",
+   "jp": "攻撃ボーナス",
+   "unit": "%",
+   "key": "atkp",
+   "cap": null
+  },
+  "Defense": {
+   "th": "ป้องกัน",
+   "jp": "防御力",
+   "unit": "",
+   "key": "def",
+   "cap": null
+  },
+  "Affinity": {
+   "th": "คริติคอล",
+   "jp": "会心率",
+   "unit": "%",
+   "key": "aff",
+   "cap": null
+  },
+  "Crit Damage": {
+   "th": "ดาเมจคริติคอล",
+   "jp": "会心ダメージ増加",
+   "unit": "%",
+   "key": "cd",
+   "cap": null
+  },
+  "Ele. Crit DMG": {
+   "th": "ดาเมจคริติคอลธาตุ",
+   "jp": "属性クリティカルダメージ増加",
+   "unit": "%",
+   "key": "ecd",
+   "cap": null
+  },
+  "Damage Reduction": {
+   "th": "ลดดาเมจที่ได้รับ",
+   "jp": "被ダメージ軽減",
+   "unit": "%",
+   "key": "dr",
+   "cap": null
+  },
+  "Physical Damage": {
+   "th": "ดาเมจกายภาพ",
+   "jp": "物理ダメージ",
+   "unit": "%",
+   "key": "phys",
+   "cap": null
+  },
+  "Fire Damage Bonus": {
+   "th": "โบนัสดาเมจไฟ",
+   "jp": "火属性ダメージボーナス",
+   "unit": "%",
+   "key": "el_fire",
+   "cap": null
+  },
+  "Water Damage Bonus": {
+   "th": "โบนัสดาเมจน้ำ",
+   "jp": "水属性ダメージボーナス",
+   "unit": "%",
+   "key": "el_water",
+   "cap": null
+  },
+  "Thunder Damage Bonus": {
+   "th": "โบนัสดาเมจสายฟ้า",
+   "jp": "雷属性ダメージボーナス",
+   "unit": "%",
+   "key": "el_thunder",
+   "cap": null
+  },
+  "Ice Damage Bonus": {
+   "th": "โบนัสดาเมจน้ำแข็ง",
+   "jp": "氷属性ダメージボーナス",
+   "unit": "%",
+   "key": "el_ice",
+   "cap": null
+  },
+  "Dragon Damage Bonus": {
+   "th": "โบนัสดาเมจมังกร",
+   "jp": "龍属性ダメージボーナス",
+   "unit": "%",
+   "key": "el_dragon",
+   "cap": null
+  }
+ },
+ "cap_fallback": {
+  "%": 100,
+  "": 9999
+ }
 }
