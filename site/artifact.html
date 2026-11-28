@@ -2,7 +2,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&family=Sarabun:wght@400;500;600;700&family=Montserrat:wght@700;900&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
 /* Layout: field-journal UI — sticky camp bar, contour-map hero, notched panels like an in-game HUD; builder = gear column + live readout column */
 :root{
@@ -1918,6 +1918,45 @@ document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
 window.addEventListener('hashchange',()=>{if(location.hash==='#meta')renderMeta()});if(location.hash==='#meta')renderMeta();
 
 
+/* ---- premium decoration (visual only): ribbons, hero embers, card tilt ---- */
+(function(){
+  const RM=matchMedia('(prefers-reduced-motion: reduce)');
+  const fine=matchMedia('(hover:hover) and (pointer:fine)');
+  // ribbons: data update card + costumes in the "new costumes" section
+  function ribbons(){
+    const fc=document.querySelector('#v-home .field-card>div');
+    if(fc&&!fc.dataset.ribbon){fc.classList.add('p-ribbon','r-right');fc.dataset.ribbon='อัปเดต'}
+    document.querySelectorAll('#home-outfits figure:not(.p-ribbon)').forEach(f=>{f.classList.add('p-ribbon','r-right');f.dataset.ribbon='ใหม่'});
+  }
+  // embers: a few CSS-animated dots (transform/opacity only), fewer on small screens
+  function embers(){
+    const hero=document.querySelector('#v-home .hero');if(!hero||hero.querySelector('.p-embers'))return;
+    const box=document.createElement('div');box.className='p-embers';box.setAttribute('aria-hidden','true');
+    const n=innerWidth<700?8:16;let h='';
+    for(let i=0;i<n;i++){const r=Math.random;
+      h+=`<i style="--x:${(r()*100).toFixed(1)}%;--s:${(2+r()*4).toFixed(1)}px;--d:${(8+r()*8).toFixed(1)}s;--dl:${(-r()*14).toFixed(1)}s;--dx:${(r()*60-30).toFixed(0)}px"></i>`}
+    box.innerHTML=h;hero.prepend(box);
+  }
+  // tilt: pointer position -> CSS vars, one rAF per frame
+  let cur=null,raf=0,px=0,py=0;
+  function apply(){raf=0;if(!cur)return;const b=cur.getBoundingClientRect();
+    const x=(px-b.left)/b.width-.5,y=(py-b.top)/b.height-.5;
+    cur.style.setProperty('--ry',(x*8).toFixed(2)+'deg');cur.style.setProperty('--rx',(-y*8).toFixed(2)+'deg')}
+  function reset(el){el.style.removeProperty('--rx');el.style.removeProperty('--ry')}
+  const SEL='#v-home .route,#v-home .ch-card,#v-home .outfits figure';
+  document.addEventListener('pointermove',e=>{
+    if(RM.matches||!fine.matches||e.pointerType!=='mouse')return;
+    const el=e.target.closest&&e.target.closest(SEL);
+    if(el!==cur){if(cur)reset(cur);cur=el}
+    if(!cur)return;px=e.clientX;py=e.clientY;if(!raf)raf=requestAnimationFrame(apply)},{passive:true});
+  document.addEventListener('pointerleave',()=>{if(cur){reset(cur);cur=null}},true);
+  function run(){ribbons();if(!RM.matches)embers()}
+  run();
+  // home grids are re-rendered by the app: re-apply ribbons when they change
+  const o=document.getElementById('home-outfits');if(o)new MutationObserver(ribbons).observe(o,{childList:true});
+  RM.addEventListener&&RM.addEventListener('change',()=>{const e=document.querySelector('.p-embers');if(RM.matches&&e)e.remove();else if(!RM.matches)embers()});
+})();
+
 </script>
 <style>
 /* ===== theme-hd: "hunter's journal in the guild camp" — layered on top of the base theme (same CSS variables) ===== */
@@ -1999,4 +2038,95 @@ img.wi{width:18px!important;height:18px!important;object-fit:contain;flex:none}
 .bar .wrap{position:relative}.bar .theme-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;min-width:40px;padding:6px 10px;margin-left:8px;flex:none;border:1px solid var(--frame);background:var(--surface-2);color:var(--fg);font:600 13px var(--f-body);white-space:nowrap}.bar .theme-btn:hover{border-color:var(--brass);color:var(--brass)}.bar .tb-ic{font-size:16px;line-height:1}.bar .tb-t{display:none}
 @media (max-width:860px){.bar .theme-btn{position:absolute;right:16px;top:10px;margin:0;padding:6px 10px;min-height:40px}.bar .tb-t{display:none}}
 @media (min-width:861px){.bar .nav a{padding-left:9px!important;padding-right:9px!important}}
+</style>
+
+<style>
+/* ===== premium: "hunter's journal" gold-brown polish — visuals only, layered last ===== */
+:root{
+  --f-display:"Kanit","Sarabun",system-ui,sans-serif;
+  --f-body:"Sarabun",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-brand:"Montserrat","Kanit",system-ui,sans-serif;
+  --gold-hi:#fff3c4;--gold-1:#f6d77a;--gold-2:#d9a53c;--gold-3:#a8721f;--gold-ink:#3e2708;
+  --gold-grad:linear-gradient(180deg,var(--gold-hi) 0%,var(--gold-1) 28%,var(--gold-2) 58%,var(--gold-3) 100%);
+  --gold-line:color-mix(in srgb,var(--gold-2) 80%,transparent);
+  --lift-shadow:0 18px 34px -14px rgba(0,0,0,.7),0 4px 10px -4px rgba(0,0,0,.45);
+  --key-edge:#5a3b0e;
+}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--gold-line:color-mix(in srgb,var(--gold-3) 85%,transparent);--lift-shadow:0 16px 28px -14px rgba(70,45,10,.5),0 3px 8px -3px rgba(70,45,10,.25);--key-edge:#b08436}}
+:root[data-theme="light"]{--gold-line:color-mix(in srgb,var(--gold-3) 85%,transparent);--lift-shadow:0 16px 28px -14px rgba(70,45,10,.5),0 3px 8px -3px rgba(70,45,10,.25);--key-edge:#b08436}
+body{font-size:16px}
+h1,h2,h3,h4{font-weight:600}
+
+/* 1. brand wordmark: Montserrat 900, wide tracking, gold */
+.brand b{font-family:var(--f-brand);font-weight:900;letter-spacing:.16em;font-size:15px;
+  background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 1px 0 color-mix(in srgb,var(--gold-ink) 70%,transparent))}
+.brand small{font-family:var(--f-brand);font-weight:700;letter-spacing:.24em;font-size:10px}
+
+/* 2. home hero title: gold gradient, dark outline, stacked 3D extrusion */
+#v-home .hero h1{font-family:var(--f-brand);font-weight:900;letter-spacing:.02em;text-transform:uppercase;line-height:1.02;
+  background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(1px 0 0 var(--gold-ink)) drop-shadow(-1px 0 0 var(--gold-ink)) drop-shadow(0 -1px 0 var(--gold-ink)) drop-shadow(0 1px 0 #8a5a16) drop-shadow(0 2px 0 #74490f) drop-shadow(0 3px 0 #5e3a0b) drop-shadow(0 4px 0 #4a2d08) drop-shadow(0 12px 14px rgba(0,0,0,.55))}
+#v-home .hero h1 span{color:transparent;background:inherit;-webkit-background-clip:text;background-clip:text;letter-spacing:.06em}
+#v-home .hero .eyebrow{font-family:var(--f-display);font-weight:600;letter-spacing:.04em;font-size:14px}
+#v-home .route .eyebrow{letter-spacing:.04em;font-size:13px}
+#v-home .hero .lead{font-size:17px}
+
+/* 3. diagonal corner ribbons ("อัปเดต" on the field card, "ใหม่" on new costumes) */
+.p-ribbon{position:relative;overflow:hidden}
+.p-ribbon::before{content:attr(data-ribbon);position:absolute;z-index:3;top:14px;left:-34px;width:128px;transform:rotate(-45deg);
+  text-align:center;font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.08em;line-height:22px;color:var(--gold-ink);
+  background:var(--gold-grad);box-shadow:0 3px 6px rgba(0,0,0,.4);border-block:1px solid color-mix(in srgb,var(--gold-ink) 45%,transparent);pointer-events:none}
+.p-ribbon.r-right::before{left:auto;right:-34px;transform:rotate(45deg)}
+
+/* 4. gold corner ornaments on home cards/boxes */
+#v-home :is(.route,.field-card>div,.outfits figure,.ch-card,.tally>div){position:relative}
+#v-home :is(.route,.field-card>div,.outfits figure,.ch-card)::after{content:"";position:absolute;inset:5px;pointer-events:none;z-index:2;
+  --c:var(--gold-line);--l:16px;--w:2px;
+  background:
+    linear-gradient(var(--c),var(--c)) 0 0/var(--l) var(--w),linear-gradient(var(--c),var(--c)) 0 0/var(--w) var(--l),
+    linear-gradient(var(--c),var(--c)) 100% 0/var(--l) var(--w),linear-gradient(var(--c),var(--c)) 100% 0/var(--w) var(--l),
+    linear-gradient(var(--c),var(--c)) 0 100%/var(--l) var(--w),linear-gradient(var(--c),var(--c)) 0 100%/var(--w) var(--l),
+    linear-gradient(var(--c),var(--c)) 100% 100%/var(--l) var(--w),linear-gradient(var(--c),var(--c)) 100% 100%/var(--w) var(--l);
+  background-repeat:no-repeat;transition:inset .25s ease}
+#v-home .field-card>div::after{inset:8px}
+#v-home :is(.route,.ch-card,.outfits figure):hover::after{inset:3px;--c:var(--gold-1)}
+#v-home .route,#v-home .outfits figure{border-color:var(--frame);background:linear-gradient(180deg,color-mix(in srgb,var(--gold-2) 7%,var(--surface)),var(--surface) 60%)}
+#v-home .route h4{color:var(--brass);font-weight:700}
+#v-home .section>h3{font-weight:700;display:flex;align-items:center;gap:12px}
+#v-home .section>h3::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--gold-line),transparent)}
+
+/* 5. stat tiles: raised 3D keys */
+#v-home .tally{gap:12px}
+#v-home .tally>div{border:1px solid color-mix(in srgb,var(--gold-2) 55%,var(--line));border-top:1px solid color-mix(in srgb,var(--gold-1) 70%,transparent);
+  padding:10px 12px 9px;background:linear-gradient(180deg,color-mix(in srgb,var(--gold-2) 16%,var(--surface-2)),var(--surface));
+  box-shadow:0 4px 0 var(--key-edge),0 9px 14px -6px rgba(0,0,0,.55),inset 0 1px 0 color-mix(in srgb,var(--gold-hi) 35%,transparent);
+  transition:transform .15s ease,box-shadow .15s ease}
+#v-home .tally>div:hover{transform:translateY(2px);box-shadow:0 2px 0 var(--key-edge),0 5px 10px -6px rgba(0,0,0,.55),inset 0 1px 0 color-mix(in srgb,var(--gold-hi) 35%,transparent)}
+#v-home .tally b{font-family:var(--f-brand);font-weight:900;background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent;
+  filter:drop-shadow(.6px 0 0 var(--gold-ink)) drop-shadow(-.6px 0 0 var(--gold-ink)) drop-shadow(0 2px 0 rgba(0,0,0,.35))}
+
+/* 6. hover tilt + lift (transform set by premium.js; fine pointers only) */
+@media (hover:hover) and (pointer:fine){
+  #v-home :is(.route,.ch-card,.outfits figure){transform:perspective(800px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(var(--ty,0));
+    transition:transform .2s ease,box-shadow .25s ease,border-color .2s ease;will-change:auto}
+  #v-home :is(.route,.ch-card,.outfits figure):hover{--ty:-6px;box-shadow:var(--lift-shadow);border-color:var(--brass)}
+}
+
+/* 7. rising embers in the hero */
+.p-embers{position:absolute;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.p-embers i{position:absolute;bottom:-12px;width:var(--s,4px);height:var(--s,4px);border-radius:50%;left:var(--x,50%);
+  background:radial-gradient(circle,var(--gold-hi) 0,var(--gold-1) 35%,color-mix(in srgb,var(--ember) 70%,transparent) 65%,transparent 72%);
+  box-shadow:0 0 6px 1px color-mix(in srgb,var(--gold-1) 60%,transparent);opacity:0;
+  animation:p-rise var(--d,9s) linear var(--dl,0s) infinite}
+@keyframes p-rise{0%{transform:translate3d(0,0,0) scale(.6);opacity:0}10%{opacity:.9}60%{opacity:.6}
+  100%{transform:translate3d(var(--dx,20px),-78vh,0) scale(1);opacity:0}}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .p-embers i{box-shadow:0 0 5px 1px rgba(184,112,20,.45)}}
+:root[data-theme="light"] .p-embers i{box-shadow:0 0 5px 1px rgba(184,112,20,.45)}
+
+/* reduced motion: no animation, no tilt, no hover movement */
+@media (prefers-reduced-motion: reduce){
+  .p-embers{display:none}
+  #v-home :is(.route,.ch-card,.outfits figure,.tally>div){transform:none!important;transition:none!important}
+  #v-home :is(.route,.ch-card,.outfits figure)::after{transition:none}
+}
 </style>
