@@ -2126,7 +2126,7 @@
     "reference/gathering/old_data_guide.py"
    ],
    "note": null,
-   "image": "img/map/grand-archipelago.webp",
+   "image": "img/map/grand-archipelago.webp?v=2",
    "spots": [
     {
      "id": "ga-01",
@@ -2137,7 +2137,7 @@
      "type": "honey",
      "type_en": "Honey & Mushroom Area",
      "x": 25.76,
-     "y": 53.11,
+     "y": 52.95,
      "drops": [
       {
        "item": "Nitroshroom",
@@ -2168,7 +2168,7 @@
      "type": "honey",
      "type_en": "Honey & Mushroom Area",
      "x": 55.09,
-     "y": 76.98,
+     "y": 75.9,
      "drops": [
       {
        "item": "Nitroshroom",
@@ -2199,7 +2199,7 @@
      "type": "plant",
      "type_en": "Plant Resource Area",
      "x": 18.13,
-     "y": 39.5,
+     "y": 39.86,
      "drops": [
       {
        "item": "Honey",
@@ -2234,7 +2234,7 @@
      "type": "plant",
      "type_en": "Plant Resource Area",
      "x": 64.57,
-     "y": 35.78,
+     "y": 36.28,
      "drops": [
       {
        "item": "Herb",
@@ -2276,7 +2276,7 @@
      "type": "specialty",
      "type_en": "Local Specialty Area",
      "x": 10.76,
-     "y": 54.8,
+     "y": 54.57,
      "drops": [
       {
        "item": "Fine Honeyfruit",
@@ -2325,7 +2325,7 @@
      "type": "tree",
      "type_en": "Tree Resource Area",
      "x": 63.78,
-     "y": 26.9,
+     "y": 27.74,
      "drops": [
       {
        "item": "Hardwood",
@@ -2352,7 +2352,7 @@
      "type": "tree",
      "type_en": "Tree Resource Area",
      "x": 67.05,
-     "y": 29.63,
+     "y": 30.36,
      "drops": [
       {
        "item": "Hardwood",
@@ -2379,7 +2379,7 @@
      "type": "ore",
      "type_en": "Mineral & Fossil Area",
      "x": 87.43,
-     "y": 45.23,
+     "y": 45.37,
      "drops": [
       {
        "item": "Monster Bone S",
@@ -2422,7 +2422,7 @@
      "type": "ore",
      "type_en": "Mineral & Fossil Area",
      "x": 55.01,
-     "y": 45.42,
+     "y": 45.55,
      "drops": [
       {
        "item": "Monster Bone S",

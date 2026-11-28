@@ -8639,7 +8639,7 @@
   "source": "user screenshot of https://game8.co/games/Monster-Hunter-Outlanders/archives/599531 (map), UI border cropped",
   "page": "https://game8.co/games/Monster-Hunter-Outlanders/archives/599531",
   "w": 1125,
-  "h": 1082,
-  "note": "labels are English; contains Game8 map pins"
+  "h": 1125,
+  "note": "Game8 map pins and labels removed (inpainted), padded to square like the other maps (no upscaling)"
  }
 }
