@@ -493,7 +493,7 @@ function viewHTML(r,owner){const b=normalize(r.build)||EMPTY();const keep=B;B=b;
    ${P('ค่าสถานะ',`<div class="stats"><div class="stat"><span>พลังโจมตี</span><b class="num">${w&&w.atk!=null?w.atk:'—'}</b></div><div class="stat"><span>คริติคอล</span><b class="num">${w?R.aff+'%':'—'}</b>${R.affParts.length?`<em>${R.affParts.join(', ')}</em>`:''}</div><div class="stat"><span>ธาตุ / สถานะ</span><b class="num" style="font-size:22px">${w&&w.el?`${ei(w.el)} ${R.ev}`:'—'}</b>${R.eb?`<em>ดาเมจธาตุ +${R.eb}%</em>`:''}</div><div class="stat"><span>ป้องกัน</span><b class="num">${R.def}</b>${R.hp?`<em>HP +${R.hp}</em>`:''}</div></div>`)}
    ${P('เป้าหมาย',tg+(cond?`<div class="muted" style="font-size:13px">เงื่อนไขที่ตั้งไว้: ${cond}</div>`:''))}
    ${P('อุปกรณ์และแหล่งที่มา',gear)}${P('เซ็ตเกราะ',sets)}${typeof visViewHTML==='function'?visViewHTML(b,R):''}${P('สกิลทั้งหมด ('+ids.length+')',sk)}`}
-async function cmView(id){const V=$('#cm-view');try{await loadJ('visages')}catch(e){}V.innerHTML='<div class="empty-note">กำลังโหลด…</div>';
+async function cmView(id){const V=$('#cm-view');V.innerHTML='<div class="empty-note">กำลังโหลด…</div>';
   try{const j=await capi('',{id});cmCur=j.build;V.innerHTML=viewHTML(j.build,j.owner)}catch(e){cmCur=null;V.innerHTML=`<a class="btn btn-ghost btn-sm" href="#community">← กลับไปคลังบิลด์</a><div class="empty-note">${e.status===403?'บิลด์นี้เป็นส่วนตัว':e.status===404?'ไม่พบบิลด์นี้ อาจถูกลบไปแล้ว':'โหลดไม่สำเร็จ'}</div>`}}
 window.addEventListener('hashchange',cmRoute);
 try{$('#pub-author').value=localStorage.getItem('mho_author')||''}catch(e){}
@@ -664,7 +664,7 @@ document.addEventListener('touchend',e=>{if(gaPinch&&e.touches.length<2)gaPinch=
 document.head.insertAdjacentHTML('beforeend','<style>.ga-mapwrap{position:relative}.ga-zoom{position:absolute;right:10px;top:10px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:4px;background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--frame,var(--line));padding:4px;box-shadow:0 4px 12px rgba(0,0,0,.4)}.ga-zoom button{width:40px;height:40px;border:1px solid var(--line-2);background:var(--surface-2);color:var(--fg);font:700 20px/1 var(--f-display);cursor:pointer}.ga-zoom button:hover{border-color:var(--brass);color:var(--brass)}.ga-zoom span{font:600 11px var(--f-num);color:var(--muted)}#ga-map-vp{touch-action:pan-x pan-y}@media (pointer:coarse){.ga-zoom button{width:44px;height:44px}}</style>');
 
 /* ---- Builder: Visage cards (cost 12, core slot, rarity, level, substats) + Apex awakening ---- */
-let VD=null;loadJ('visages').then(d=>{VD=d;if(typeof renderBuilder==='function')renderBuilder()});
+let VD=null;loadJ('visages').then(d=>{VD=d;if(typeof renderBuilder==='function')renderBuilder();if(/^#b-[a-f0-9]{12}$/.test(location.hash)&&typeof cmRoute==='function')cmRoute()});
 const VSUB={'Attack Power':'atkp','Attack':'atk','Affinity':'aff','Crit Damage':'cd','Ele. Crit DMG':'ecd','Damage Reduction':'dr','Defense':'def','Physical Damage':'phys',
  'Fire Damage Bonus':'el_fire','Water Damage Bonus':'el_water','Thunder Damage Bonus':'el_thunder','Ice Damage Bonus':'el_ice','Dragon Damage Bonus':'el_dragon','Element Damage Bonus':'ele_all'};
 const VLBL={atkp:'โบนัสพลังโจมตี %',atk:'พลังโจมตี +',aff:'คริติคอล %',cd:'ดาเมจคริ %',ecd:'ดาเมจคริธาตุ %',dr:'ลดดาเมจที่ได้รับ %',def:'ป้องกัน',phys:'ดาเมจกายภาพ %',ult:'ชาร์จ Ultimate %',ele_all:'ดาเมจธาตุ (ทุกธาตุ) %',el_fire:'ดาเมจไฟ %',el_water:'ดาเมจน้ำ %',el_thunder:'ดาเมจสายฟ้า %',el_ice:'ดาเมจน้ำแข็ง %',el_dragon:'ดาเมจมังกร %'};
