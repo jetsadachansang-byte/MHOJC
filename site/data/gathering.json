@@ -59,6 +59,664 @@
     "Plant Resource Area",
     "Local Specialty Area",
     "Tree Resource Area"
+   ],
+   "slug": "giantwood-locale",
+   "image": "img/map/giantwood-locale.webp",
+   "spots": [
+    {
+     "id": "gl-01",
+     "no": 1,
+     "pin": "11002",
+     "area": "Mistwood",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 63.58,
+     "y": 17.75,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-02",
+     "no": 2,
+     "pin": "13002",
+     "area": "Mistwood",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 68.4,
+     "y": 19.36,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-03",
+     "no": 3,
+     "pin": "8002",
+     "area": "Mistwood",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 62.59,
+     "y": 23.6,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-04",
+     "no": 4,
+     "pin": "9002",
+     "area": "Mistwood",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 70.7,
+     "y": 38.29,
+     "drops": [
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Moonlit Mushroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunkissed Grass",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Moonlit Mushroom",
+      "Sunbloom",
+      "Sunkissed Grass"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-05",
+     "no": 5,
+     "pin": "13001",
+     "area": "Muddy Swamp",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 72.26,
+     "y": 53.48,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-06",
+     "no": 6,
+     "pin": "9001",
+     "area": "Muddy Swamp",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 81.18,
+     "y": 63.14,
+     "drops": [
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Moonlit Mushroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunkissed Grass",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Moonlit Mushroom",
+      "Sunbloom",
+      "Sunkissed Grass"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-07",
+     "no": 7,
+     "pin": "11001",
+     "area": "Muddy Swamp",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 71.42,
+     "y": 61.33,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-08",
+     "no": 8,
+     "pin": "8001",
+     "area": "Muddy Swamp",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 56.01,
+     "y": 57.68,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-09",
+     "no": 9,
+     "pin": "13005",
+     "area": "Outlands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 50.05,
+     "y": 64.06,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-10",
+     "no": 10,
+     "pin": "9003",
+     "area": "Outlands",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 38.51,
+     "y": 75.81,
+     "drops": [
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Moonlit Mushroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunkissed Grass",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Moonlit Mushroom",
+      "Sunbloom",
+      "Sunkissed Grass"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-11",
+     "no": 11,
+     "pin": "8003",
+     "area": "Outlands",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 31.36,
+     "y": 67.28,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-12",
+     "no": 12,
+     "pin": "8006",
+     "area": "Outlands",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 30.94,
+     "y": 52.3,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-13",
+     "no": 13,
+     "pin": "13004",
+     "area": "Outlands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 35.14,
+     "y": 52.74,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-14",
+     "no": 14,
+     "pin": "11003",
+     "area": "Outlands",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 40.26,
+     "y": 46.46,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-15",
+     "no": 15,
+     "pin": "8004",
+     "area": "Outlands",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 48.52,
+     "y": 46.36,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-16",
+     "no": 16,
+     "pin": "8005",
+     "area": "Mistwood",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 47.24,
+     "y": 34.41,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-17",
+     "no": 17,
+     "pin": "9004",
+     "area": "Mistwood",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 42.15,
+     "y": 33.8,
+     "drops": [
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Moonlit Mushroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sunkissed Grass",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Moonlit Mushroom",
+      "Sunbloom",
+      "Sunkissed Grass"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "gl-18",
+     "no": 18,
+     "pin": "13003",
+     "area": "Outlands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 31.6,
+     "y": 35.37,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    }
    ]
   },
   {
@@ -109,6 +767,573 @@
     "Honey & Mushroom Area",
     "Honey & Mushroom Area",
     "Local Specialty Area"
+   ],
+   "slug": "searing-plains",
+   "image": "img/map/searing-plains.webp",
+   "spots": [
+    {
+     "id": "sp-01",
+     "no": 1,
+     "pin": "8007",
+     "area": "Golden Expanse",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 35.91,
+     "y": 40.19,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-02",
+     "no": 2,
+     "pin": "9005",
+     "area": "Golden Expanse",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 39.58,
+     "y": 41.34,
+     "drops": [
+      {
+       "item": "Bauble Cactus",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dragonbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Divineapple",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Bauble Cactus",
+      "Dragonbloom",
+      "Divineapple"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-03",
+     "no": 3,
+     "pin": "13007",
+     "area": "Golden Expanse",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 43.33,
+     "y": 46.97,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-04",
+     "no": 4,
+     "pin": "8009",
+     "area": "Golden Expanse",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 38.37,
+     "y": 46.26,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-05",
+     "no": 5,
+     "pin": "9006",
+     "area": "Desert Oasis",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 25.94,
+     "y": 60.25,
+     "drops": [
+      {
+       "item": "Bauble Cactus",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dragonbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Divineapple",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Bauble Cactus",
+      "Dragonbloom",
+      "Divineapple"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-06",
+     "no": 6,
+     "pin": "13006",
+     "area": "Desert Oasis",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 28.54,
+     "y": 63.1,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-07",
+     "no": 7,
+     "pin": "8010",
+     "area": "Desert Oasis",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 33.61,
+     "y": 62.86,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-08",
+     "no": 8,
+     "pin": "13008",
+     "area": "Desert Oasis",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 47.54,
+     "y": 67.44,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-09",
+     "no": 9,
+     "pin": "8011",
+     "area": "Desert Oasis",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 49.34,
+     "y": 66.05,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-10",
+     "no": 10,
+     "pin": "11004",
+     "area": "Desert Oasis",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 46.81,
+     "y": 62.41,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-11",
+     "no": 11,
+     "pin": "9007",
+     "area": "Golden Expanse",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 50.05,
+     "y": 52.87,
+     "drops": [
+      {
+       "item": "Bauble Cactus",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dragonbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Divineapple",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Bauble Cactus",
+      "Dragonbloom",
+      "Divineapple"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-12",
+     "no": 12,
+     "pin": "8008",
+     "area": "Golden Expanse",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 64.13,
+     "y": 45.29,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-13",
+     "no": 13,
+     "pin": "11005",
+     "area": "Golden Expanse",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 66.18,
+     "y": 50.81,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-14",
+     "no": 14,
+     "pin": "11006",
+     "area": "Desert Oasis",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 60.97,
+     "y": 59.28,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-15",
+     "no": 15,
+     "pin": "9008",
+     "area": "Desert Oasis",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 65.68,
+     "y": 68.39,
+     "drops": [
+      {
+       "item": "Bauble Cactus",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dragonbloom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Divineapple",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Bauble Cactus",
+      "Dragonbloom",
+      "Divineapple"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    }
    ]
   },
   {
@@ -149,6 +1374,239 @@
     "Plant Resource Area",
     "Honey & Mushroom Area",
     "Plant Resource Area"
+   ],
+   "slug": "rotfall-abyss",
+   "image": "img/map/rotfall-abyss.webp",
+   "spots": [
+    {
+     "id": "ra-01",
+     "no": 1,
+     "pin": "13010",
+     "area": "Gloomshade Gorge",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 22.22,
+     "y": 37.31,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-02",
+     "no": 2,
+     "pin": "9009",
+     "area": "Gloomshade Gorge",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 19.09,
+     "y": 47.68,
+     "drops": [
+      {
+       "item": "Island Specialty Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exquisite Island Rice",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Heavenberry",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Heavenberry"
+     ],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-03",
+     "no": 3,
+     "pin": "11008",
+     "area": "Gloomshade Gorge",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 38.83,
+     "y": 47.56,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-04",
+     "no": 4,
+     "pin": "13009",
+     "area": "Luminant Lakelands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 58.53,
+     "y": 42.01,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-05",
+     "no": 5,
+     "pin": "8013",
+     "area": "Luminant Lakelands",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 74.14,
+     "y": 41.95,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-06",
+     "no": 6,
+     "pin": "11007",
+     "area": "Luminant Lakelands",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": 64.47,
+     "y": 64.65,
+     "drops": [
+      {
+       "item": "Chillshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nitroshroom",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-07",
+     "no": 7,
+     "pin": "8012",
+     "area": "Luminant Lakelands",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 51.43,
+     "y": 68.87,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Hot Pepper",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Dustbush",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    }
    ]
   },
   {
@@ -162,7 +1620,9 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "note": "ยังไม่มีข้อมูลจุดเก็บพืช/ไม้/ของพิเศษของแมพนี้ในแหล่งข้อมูล (หน้าจุดเก็บของ GameWith ครอบคลุม 3 แมพ ณ 10 พ.ย. 2026) ยืนยันได้เฉพาะแร่ที่มีแค่แมพนี้"
+   "note": "ยังไม่มีข้อมูลจุดเก็บพืช/ไม้/ของพิเศษของแมพนี้ในแหล่งข้อมูล (หน้าจุดเก็บของ GameWith ครอบคลุม 3 แมพ ณ 10 พ.ย. 2026) ยืนยันได้เฉพาะแร่ที่มีแค่แมพนี้",
+   "image": null,
+   "spots": []
   }
  ],
  "resource_areas": [
@@ -254,7 +1714,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/herb"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/herb",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "antidote-herb",
@@ -275,7 +1751,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/antidote-herb"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/antidote-herb",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "sleep-herb",
@@ -296,7 +1788,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sleep-herb"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sleep-herb",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "chillshroom",
@@ -317,7 +1825,18 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/chillshroom"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/chillshroom",
+   "found_in": [
+    "gl-07",
+    "gl-01",
+    "gl-14",
+    "sp-10",
+    "sp-13",
+    "sp-14",
+    "ra-06",
+    "ra-03"
+   ],
+   "gatherer": []
   },
   {
    "id": "hot-pepper",
@@ -338,7 +1857,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/hot-pepper"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/hot-pepper",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "parashroom",
@@ -359,7 +1894,18 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/parashroom"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/parashroom",
+   "found_in": [
+    "gl-07",
+    "gl-01",
+    "gl-14",
+    "sp-10",
+    "sp-13",
+    "sp-14",
+    "ra-06",
+    "ra-03"
+   ],
+   "gatherer": []
   },
   {
    "id": "honey",
@@ -380,7 +1926,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/honey"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/honey",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "nitroshroom",
@@ -401,7 +1963,18 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nitroshroom"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nitroshroom",
+   "found_in": [
+    "gl-07",
+    "gl-01",
+    "gl-14",
+    "sp-10",
+    "sp-13",
+    "sp-14",
+    "ra-06",
+    "ra-03"
+   ],
+   "gatherer": []
   },
   {
    "id": "dustbush",
@@ -422,7 +1995,23 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dustbush"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dustbush",
+   "found_in": [
+    "gl-08",
+    "gl-03",
+    "gl-11",
+    "gl-15",
+    "gl-16",
+    "gl-12",
+    "sp-01",
+    "sp-12",
+    "sp-04",
+    "sp-07",
+    "sp-09",
+    "ra-07",
+    "ra-05"
+   ],
+   "gatherer": []
   },
   {
    "id": "nulberry",
@@ -443,7 +2032,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "bauble-cactus",
@@ -466,7 +2057,14 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/bauble-cactus"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/bauble-cactus",
+   "found_in": [
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15"
+   ],
+   "gatherer": []
   },
   {
    "id": "dragonbloom",
@@ -492,7 +2090,14 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonbloom",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
-   ]
+   ],
+   "found_in": [
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15"
+   ],
+   "gatherer": []
   },
   {
    "id": "monster-bone-s",
@@ -561,7 +2166,11 @@
     "Hunter's Greaves",
     "Hunter Set"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s",
+   "found_in": [],
+   "gatherer": [
+    "GL/Outlands/Ore"
+   ]
   },
   {
    "id": "ancient-bone",
@@ -596,6 +2205,10 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/ancient-bone",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "found_in": [],
+   "gatherer": [
+    "GL/Outlands/Ore"
    ]
   },
   {
@@ -643,7 +2256,9 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/earth-crystal",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
-   ]
+   ],
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "iron-ore",
@@ -794,6 +2409,10 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/iron-ore",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "found_in": [],
+   "gatherer": [
+    "GL/Outlands/Ore"
    ]
   },
   {
@@ -853,6 +2472,10 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/machalite-ore",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ],
+   "found_in": [],
+   "gatherer": [
+    "GL/Outlands/Ore"
    ]
   },
   {
@@ -876,7 +2499,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonite-ore"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonite-ore",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "lightcrystal",
@@ -894,7 +2519,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/lightcrystal"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/lightcrystal",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "boulder-bone",
@@ -920,7 +2547,9 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/boulder-bone",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
-   ]
+   ],
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "coral-bone",
@@ -943,7 +2572,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "charred-bone",
@@ -966,7 +2597,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/charred-bone"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/charred-bone",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "coral-crystal",
@@ -989,7 +2622,9 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal",
+   "found_in": [],
+   "gatherer": []
   },
   {
    "id": "hardwood",
@@ -1013,6 +2648,21 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/hardwood",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   ],
+   "found_in": [
+    "gl-05",
+    "gl-02",
+    "gl-18",
+    "gl-13",
+    "gl-09",
+    "sp-06",
+    "sp-03",
+    "sp-08",
+    "ra-04",
+    "ra-01"
+   ],
+   "gatherer": [
+    "SP/Desert Oasis/Wood"
    ]
   },
   {
@@ -1037,6 +2687,21 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/ironwood",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   ],
+   "found_in": [
+    "gl-05",
+    "gl-02",
+    "gl-18",
+    "gl-13",
+    "gl-09",
+    "sp-06",
+    "sp-03",
+    "sp-08",
+    "ra-04",
+    "ra-01"
+   ],
+   "gatherer": [
+    "SP/Desert Oasis/Wood"
    ]
   },
   {
@@ -1058,7 +2723,19 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/island-specialty-rice"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/island-specialty-rice",
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17",
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15",
+    "ra-02"
+   ],
+   "gatherer": []
   },
   {
    "id": "exquisite-island-rice",
@@ -1082,7 +2759,19 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/exquisite-island-rice",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
-   ]
+   ],
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17",
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15",
+    "ra-02"
+   ],
+   "gatherer": []
   },
   {
    "id": "fine-honeyfruit",
@@ -1103,7 +2792,19 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/fine-honeyfruit"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/fine-honeyfruit",
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17",
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15",
+    "ra-02"
+   ],
+   "gatherer": []
   },
   {
    "id": "exotic-honeyfruit",
@@ -1127,7 +2828,19 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/exotic-honeyfruit",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
-   ]
+   ],
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17",
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15",
+    "ra-02"
+   ],
+   "gatherer": []
   },
   {
    "id": "moonlit-mushroom",
@@ -1150,7 +2863,14 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/moonlit-mushroom"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/moonlit-mushroom",
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17"
+   ],
+   "gatherer": []
   },
   {
    "id": "divineapple",
@@ -1173,7 +2893,14 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/divineapple"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/divineapple",
+   "found_in": [
+    "sp-02",
+    "sp-05",
+    "sp-11",
+    "sp-15"
+   ],
+   "gatherer": []
   },
   {
    "id": "sunbloom",
@@ -1196,7 +2923,14 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunbloom"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunbloom",
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17"
+   ],
+   "gatherer": []
   },
   {
    "id": "sunkissed-grass",
@@ -1219,7 +2953,14 @@
    "weapons": 0,
    "armor": 0,
    "gear": [],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunkissed-grass"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/sunkissed-grass",
+   "found_in": [
+    "gl-06",
+    "gl-04",
+    "gl-10",
+    "gl-17"
+   ],
+   "gatherer": []
   },
   {
    "id": "heavenberry",
@@ -1245,7 +2986,11 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
-   ]
+   ],
+   "found_in": [
+    "ra-02"
+   ],
+   "gatherer": []
   }
  ],
  "gatherers": {
@@ -1329,5 +3074,75 @@
  "source": [
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
- ]
+ ],
+ "gatherer_spots": [
+  {
+   "map": "SP",
+   "area": "Desert Oasis",
+   "gatherer": "Wood",
+   "per_cycle": {
+    "Hardwood": 45,
+    "Ironwood": 15
+   },
+   "cycle": "ต่อวัน",
+   "cycle_hours": "ยังไม่มีข้อมูล (แหล่งข้อมูลบอกว่าเก็บ “ทุกวัน”)",
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+   ]
+  },
+  {
+   "map": "GL",
+   "area": "Outlands",
+   "gatherer": "Ore",
+   "per_cycle": {
+    "Iron Ore": 12,
+    "Machalite Ore": 4,
+    "Monster Bone S": 18,
+    "Ancient Bone": 6
+   },
+   "cycle": "ต่อวัน",
+   "cycle_hours": "ยังไม่มีข้อมูล (แหล่งข้อมูลบอกว่าเก็บ “ทุกวัน”)",
+   "source": [
+    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+   ]
+  }
+ ],
+ "map_source": {
+  "markers": "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+  "route": "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+  "fetched": "2026-11-10 (ข้อมูลจุดของ GameWith)",
+  "note": "ตำแหน่งจุดอ่านจากข้อมูลแผนที่ interactive ของ GameWith.ai EN แปลงเป็น % ของรูป"
+ },
+ "spot_types": {
+  "plant": {
+   "th": "จุดเก็บพืช",
+   "en": "Plant Resource Area",
+   "color": "#4caf50"
+  },
+  "specialty": {
+   "th": "จุดของพิเศษท้องถิ่น",
+   "en": "Local Specialty Area",
+   "color": "#e0a800"
+  },
+  "honey": {
+   "th": "จุดน้ำผึ้ง/เห็ด",
+   "en": "Honey & Mushroom Area",
+   "color": "#c2185b"
+  },
+  "tree": {
+   "th": "จุดไม้",
+   "en": "Tree Resource Area",
+   "color": "#8d5a2b"
+  },
+  "ore": {
+   "th": "จุดแร่/กระดูก",
+   "en": "Mineral & Fossil Area",
+   "color": "#5c7cfa"
+  },
+  "special": {
+   "th": "จุดไอเทมพิเศษ",
+   "en": "Special item",
+   "color": "#9c27b0"
+  }
+ }
 }
