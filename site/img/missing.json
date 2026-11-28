@@ -77,6 +77,354 @@
   "reason": "name translated from Japanese, not listed on GameWith.ai EN"
  },
  {
+  "img": "img/adventurer/freya.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/freya.webp"
+ },
+ {
+  "img": "img/adventurer/full/freya.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/freya.webp"
+ },
+ {
+  "img": "img/adventurer/stylia.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/stylia.webp"
+ },
+ {
+  "img": "img/adventurer/full/stylia.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/stylia.webp"
+ },
+ {
+  "img": "img/adventurer/midori.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/midori.webp"
+ },
+ {
+  "img": "img/adventurer/full/midori.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/midori.webp"
+ },
+ {
+  "img": "img/adventurer/luka.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/luka.webp"
+ },
+ {
+  "img": "img/adventurer/full/luka.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/luka.webp"
+ },
+ {
+  "img": "img/adventurer/pyro.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/pyro.webp"
+ },
+ {
+  "img": "img/adventurer/full/pyro.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/pyro.webp"
+ },
+ {
+  "img": "img/adventurer/rhodes.webp",
+  "role": "profile",
+  "best_px": [
+   180,
+   215
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/rhodes.webp"
+ },
+ {
+  "img": "img/adventurer/keres.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/keres.webp"
+ },
+ {
+  "img": "img/adventurer/full/keres.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/keres.webp"
+ },
+ {
+  "img": "img/adventurer/pepper.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/pepper.webp"
+ },
+ {
+  "img": "img/adventurer/full/pepper.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/pepper.webp"
+ },
+ {
+  "img": "img/adventurer/arkaya.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/arkaya.webp"
+ },
+ {
+  "img": "img/adventurer/full/arkaya.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/arkaya.webp"
+ },
+ {
+  "img": "img/adventurer/haze.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/haze.webp"
+ },
+ {
+  "img": "img/adventurer/full/haze.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/haze.webp"
+ },
+ {
+  "img": "img/adventurer/raya.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/raya.webp"
+ },
+ {
+  "img": "img/adventurer/full/raya.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/raya.webp"
+ },
+ {
+  "img": "img/adventurer/luxheart.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/luxheart.webp"
+ },
+ {
+  "img": "img/adventurer/full/luxheart.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/luxheart.webp"
+ },
+ {
+  "img": "img/adventurer/madelyn.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/madelyn.webp"
+ },
+ {
+  "img": "img/adventurer/full/madelyn.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/madelyn.webp"
+ },
+ {
+  "img": "img/adventurer/ryunosuke.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/ryunosuke.webp"
+ },
+ {
+  "img": "img/adventurer/full/ryunosuke.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/ryunosuke.webp"
+ },
+ {
+  "img": "img/adventurer/ouyangvaren.webp",
+  "role": "profile",
+  "best_px": [
+   298,
+   372
+  ],
+  "need": 720,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/ouyangvaren.webp"
+ },
+ {
+  "img": "img/adventurer/full/ouyangvaren.webp",
+  "role": "full",
+  "best_px": [
+   625,
+   372
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/adventurer/full/ouyangvaren.webp"
+ },
+ {
   "img": "img/outfit/weapon-flying-feather.webp",
   "role": "wide",
   "best_px": [
@@ -6150,127 +6498,6 @@
  },
  {
   "category": "hd-fallback",
-  "name": "img/adventurer/freya.webp",
-  "img": "img/adventurer/freya.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/freya.webp",
-  "img": "img/adventurer/full/freya.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/stylia.webp",
-  "img": "img/adventurer/stylia.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/stylia.webp",
-  "img": "img/adventurer/full/stylia.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/midori.webp",
-  "img": "img/adventurer/midori.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/midori.webp",
-  "img": "img/adventurer/full/midori.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/luka.webp",
-  "img": "img/adventurer/luka.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/luka.webp",
-  "img": "img/adventurer/full/luka.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/pyro.webp",
-  "img": "img/adventurer/pyro.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/pyro.webp",
-  "img": "img/adventurer/full/pyro.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/rhodes.webp",
-  "img": "img/adventurer/rhodes.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
   "name": "img/adventurer/full/rhodes.webp",
   "img": "img/adventurer/full/rhodes.webp",
   "role": "full",
@@ -6278,205 +6505,7 @@
    1122,
    1402
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/keres.webp",
-  "img": "img/adventurer/keres.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/keres.webp",
-  "img": "img/adventurer/full/keres.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/pepper.webp",
-  "img": "img/adventurer/pepper.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/pepper.webp",
-  "img": "img/adventurer/full/pepper.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/arkaya.webp",
-  "img": "img/adventurer/arkaya.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/arkaya.webp",
-  "img": "img/adventurer/full/arkaya.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/haze.webp",
-  "img": "img/adventurer/haze.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/haze.webp",
-  "img": "img/adventurer/full/haze.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/raya.webp",
-  "img": "img/adventurer/raya.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/raya.webp",
-  "img": "img/adventurer/full/raya.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/luxheart.webp",
-  "img": "img/adventurer/luxheart.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/luxheart.webp",
-  "img": "img/adventurer/full/luxheart.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/madelyn.webp",
-  "img": "img/adventurer/madelyn.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/madelyn.webp",
-  "img": "img/adventurer/full/madelyn.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/ryunosuke.webp",
-  "img": "img/adventurer/ryunosuke.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/ryunosuke.webp",
-  "img": "img/adventurer/full/ryunosuke.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/ouyangvaren.webp",
-  "img": "img/adventurer/ouyangvaren.webp",
-  "role": "profile",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
- },
- {
-  "category": "hd-fallback",
-  "name": "img/adventurer/full/ouyangvaren.webp",
-  "img": "img/adventurer/full/ouyangvaren.webp",
-  "role": "full",
-  "best_px": [
-   1122,
-   1402
-  ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6487,7 +6516,7 @@
    2048,
    2048
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6498,7 +6527,7 @@
    2048,
    2048
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6509,7 +6538,7 @@
    884,
    1074
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6520,7 +6549,7 @@
    1272,
    1532
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6531,7 +6560,7 @@
    1286,
    1532
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6542,7 +6571,7 @@
    886,
    1074
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6553,7 +6582,7 @@
    878,
    1060
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6564,7 +6593,7 @@
    878,
    1060
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6575,7 +6604,7 @@
    894,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6586,7 +6615,7 @@
    896,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6597,7 +6626,7 @@
    1272,
    1532
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6608,7 +6637,7 @@
    1286,
    1460
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6619,7 +6648,7 @@
    890,
    1066
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6630,7 +6659,7 @@
    886,
    1066
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6641,7 +6670,7 @@
    884,
    1066
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6652,7 +6681,7 @@
    876,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6663,7 +6692,7 @@
    878,
    1058
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6674,7 +6703,7 @@
    878,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6685,7 +6714,7 @@
    878,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6696,7 +6725,7 @@
    876,
    1060
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6707,7 +6736,7 @@
    894,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6718,7 +6747,7 @@
    896,
    1078
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6729,7 +6758,7 @@
    896,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6740,7 +6769,7 @@
    896,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6751,7 +6780,7 @@
    896,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6762,7 +6791,7 @@
    886,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6773,7 +6802,7 @@
    890,
    1074
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6784,7 +6813,7 @@
    890,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6795,7 +6824,7 @@
    1272,
    1460
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6806,7 +6835,7 @@
    884,
    1076
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6817,7 +6846,7 @@
    876,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6828,7 +6857,7 @@
    876,
    1058
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6839,7 +6868,7 @@
    878,
    1058
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6850,7 +6879,7 @@
    878,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6861,7 +6890,7 @@
    878,
    1054
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6872,7 +6901,7 @@
    896,
    1078
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6883,7 +6912,7 @@
    896,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6894,7 +6923,7 @@
    896,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6905,7 +6934,7 @@
    894,
    1078
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6916,7 +6945,7 @@
    894,
    1084
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6927,7 +6956,7 @@
    1400,
    1065
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6938,7 +6967,7 @@
    1400,
    718
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6949,7 +6978,7 @@
    1600,
    1306
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6960,7 +6989,7 @@
    2000,
    1044
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6971,7 +7000,7 @@
    2000,
    1865
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6982,7 +7011,7 @@
    2000,
    1143
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -6993,7 +7022,7 @@
    1200,
    1180
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7004,7 +7033,7 @@
    1400,
    718
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7015,7 +7044,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7026,7 +7055,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7037,7 +7066,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7048,7 +7077,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7059,7 +7088,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7070,7 +7099,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7081,7 +7110,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7092,7 +7121,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7103,7 +7132,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7114,7 +7143,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7125,7 +7154,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7136,7 +7165,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7147,7 +7176,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7158,7 +7187,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7169,7 +7198,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7180,7 +7209,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7191,7 +7220,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7202,7 +7231,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7213,7 +7242,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7224,7 +7253,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7235,7 +7264,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7246,7 +7275,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7257,7 +7286,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7268,7 +7297,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7279,7 +7308,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7290,7 +7319,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7301,7 +7330,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7312,7 +7341,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7323,7 +7352,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7334,7 +7363,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7345,7 +7374,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7356,7 +7385,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7367,7 +7396,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7378,7 +7407,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7389,7 +7418,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7400,7 +7429,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7411,7 +7440,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7422,7 +7451,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7433,7 +7462,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7444,7 +7473,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7455,7 +7484,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7466,7 +7495,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7477,7 +7506,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7488,7 +7517,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7499,7 +7528,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7510,7 +7539,7 @@
    512,
    512
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7521,7 +7550,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7532,7 +7561,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7543,7 +7572,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7554,7 +7583,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7565,7 +7594,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7576,7 +7605,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7587,7 +7616,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7598,7 +7627,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7609,7 +7638,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7620,7 +7649,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7631,7 +7660,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7642,7 +7671,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7653,7 +7682,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7664,7 +7693,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7675,7 +7704,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7686,7 +7715,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7697,7 +7726,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7708,7 +7737,7 @@
    160,
    160
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  },
  {
   "category": "hd-fallback",
@@ -7719,6 +7748,6 @@
    1298,
    1850
   ],
-  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้"
  }
 ]

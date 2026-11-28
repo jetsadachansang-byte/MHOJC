@@ -5,7 +5,7 @@ import json,os,glob
 from PIL import Image
 S=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..');A=os.path.join(S,'..','assets','images')
 cred=json.load(open(f'{S}/img/credits.json'));M=json.load(open(f'{S}/media.json',encoding='utf-8'))
-HD={};done=[]
+HD={};done=[];FALLBACK=set()
 ROLE={'profile':([480,720,1440],720,'(max-width:600px) 46vw, 240px'),'full':([640,1280,1920,2560],1280,'(max-width:900px) 100vw, 640px'),
       'wide':([640,1280,1920,2560],1280,'(max-width:600px) 60vw, 480px'),'icon':([128,256,512],256,'48px'),'hero':([640,1280,1920,2560,3840],1920,'100vw')}
 def make(src,dest,role,note=None):
@@ -22,12 +22,18 @@ def make(src,dest,role,note=None):
     cred[dest]=dict(cred.get(dest,{}),**{'source':os.path.relpath(src,os.path.join(S,'..')),'w':ws[0],'h':round(H*ws[0]/W),'variants':[x[1] for x in out[1:]],**({'note':note} if note else {})})
     done.append((dest,role,W,H,thr));return out
 def rel(p):return p
-# characters
+# characters: official art from GameWith (primary source, originals in assets/images/hd/characters); repo art only as fallback
+HC=f'{A}/hd/characters';HSRC=json.load(open(f'{HC}/sources.json'))
 for c in M['characters']:
-    i=c['id']
-    if os.path.exists(f'{A}/01-characters/full/{i}.jpg'):make(f'{A}/01-characters/full/{i}.jpg',f"img/adventurer/{i}.webp",'profile')
-    src=f'{A}/01-characters/full/{i}.jpg'  # hires/ copies have smeared patches from old text removal
-    if os.path.exists(src):make(src,f'img/adventurer/full/{i}.webp','full');c['f']=f'img/adventurer/full/{i}.webp'
+    i=c['id'];hs=HSRC.get(i,{})
+    if os.path.exists(f'{HC}/{i}-card.png'):
+        make(f'{HC}/{i}-card.png',f"img/adventurer/{i}.webp",'profile');u=hs.get('full',hs.get('card',{}))
+        cred[f"img/adventurer/{i}.webp"].update(source=u.get('source'),page=u.get('page'),note='GameWith official art'+(f" crop {hs['card_crop']}" if 'card_crop' in hs else ' (card portrait)'))
+    if os.path.exists(f'{HC}/{i}-full.png'):
+        make(f'{HC}/{i}-full.png',f'img/adventurer/full/{i}.webp','full');c['f']=f'img/adventurer/full/{i}.webp'
+        cred[f'img/adventurer/full/{i}.webp'].update(source=hs['full']['source'],page=hs['full']['page'],note='GameWith official art')
+    elif os.path.exists(f'{A}/01-characters/full/{i}.jpg'):
+        make(f'{A}/01-characters/full/{i}.jpg',f'img/adventurer/full/{i}.webp','full','fallback: repo art (no official full art in sources)');c['f']=f'img/adventurer/full/{i}.webp';FALLBACK.add(f'img/adventurer/full/{i}.webp')
 for b in M['buddies']:
     p=f"{A}/02-buddies/{b['id']}.jpg"
     if os.path.exists(p):make(p,b['img'],'wide')
@@ -81,7 +87,7 @@ old=[x for x in json.load(open(f'{S}/img/missing.json')) if x.get('category') no
 # Rhodes now has full art from the repo pack
 old=[x for x in old if not (x.get('name')=='Rhodes' and 'full art' in x.get('category',''))]
 for m in miss:m['category']='hd-resolution';m['name']=m['img']
-_fb=[{'category':'hd-fallback','name':d,'img':d,'role':r,'best_px':[W,H],'reason':'ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co'} for d,r,W,H,t in done]
+_fb=[{'category':'hd-fallback','name':d,'img':d,'role':r,'best_px':[W,H],'reason':'ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session หรือแหล่งข้อมูลหลักไม่มีรูปนี้'} for d,r,W,H,t in done if not d.startswith('img/adventurer/') or d in FALLBACK]
 miss=miss+_fb
 json.dump(old+miss,open(f'{S}/img/missing.json','w'),ensure_ascii=False,indent=1)
 json.dump(cred,open(f'{S}/img/credits.json','w'),ensure_ascii=False,indent=1)

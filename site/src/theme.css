@@ -50,9 +50,9 @@ header.bar{background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop
 .bc:has(.rk.SSR){border-color:var(--ssr)}.bc:has(.rk.SR){border-color:var(--sr)}.bc:has(.rk.R){border-color:var(--r)}
 .bc img{aspect-ratio:5/6;object-fit:cover;object-position:top}
 /* character detail: big full-body art fading into the panel */
-.hero-full{max-height:none!important;height:auto;aspect-ratio:4/5;object-fit:cover!important;object-position:top!important;background:none!important;border-bottom:0!important;
-  -webkit-mask-image:linear-gradient(180deg,#000 62%,transparent 100%);mask-image:linear-gradient(180deg,#000 62%,transparent 100%);margin-bottom:-60px}
-@media (min-width:980px){.hero-full{aspect-ratio:auto;max-height:640px!important}}
+.hero-full{max-height:none!important;height:auto;object-fit:contain!important;object-position:center!important;background:none!important;border-bottom:0!important;
+  -webkit-mask-image:linear-gradient(180deg,#000 62%,transparent 100%);mask-image:linear-gradient(180deg,#000 70%,transparent 100%);margin-bottom:-30px}
+
 /* home hero with key art */
 .hero{min-height:min(78vh,640px);display:flex;align-items:flex-end;isolation:isolate}
 .hero .hero-art{position:absolute;top:0;right:0;bottom:0;left:auto;width:min(62%,900px);height:100%;object-fit:cover;object-position:50% 12%;z-index:-2;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%);mask-image:linear-gradient(90deg,transparent 0,#000 30%)}

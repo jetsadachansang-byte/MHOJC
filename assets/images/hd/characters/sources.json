@@ -1,0 +1,280 @@
+{
+ "arkaya": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/3320589d39e7e48ee85347a4d1b61d03.png",
+   "page": "https://gamewith.jp/mhoutlanders/577458",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   151,
+   0,
+   449,
+   372
+  ]
+ },
+ "freya": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/9ea49529da9c960ae58bc89a5fedc0da.png",
+   "page": "https://gamewith.jp/mhoutlanders/586524",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   170,
+   0,
+   468,
+   372
+  ]
+ },
+ "haze": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/229bf378fdd13e9118d807f7afd1dd14.png",
+   "page": "https://gamewith.jp/mhoutlanders/583505",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   138,
+   0,
+   436,
+   372
+  ]
+ },
+ "keres": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/1ff41ef445560ec438fe39ef0d6d4f21.png",
+   "page": "https://gamewith.jp/mhoutlanders/577459",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   188,
+   0,
+   486,
+   372
+  ]
+ },
+ "luka": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/37e3a3fdbf73d9bb546cf9e9f651f224.png",
+   "page": "https://gamewith.jp/mhoutlanders/577461",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   114,
+   0,
+   412,
+   372
+  ]
+ },
+ "luxheart": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/317ce481e24b3ffedf919da95498e896.png",
+   "page": "https://gamewith.jp/mhoutlanders/577456",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   138,
+   0,
+   436,
+   372
+  ]
+ },
+ "madelyn": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/05ab3b119238d48dfc8d2fba57f67d4d.png",
+   "page": "https://gamewith.jp/mhoutlanders/577464",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   132,
+   0,
+   430,
+   372
+  ]
+ },
+ "midori": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/d683e1488023d3700adb9a68f6b6ebf4.png",
+   "page": "https://gamewith.jp/mhoutlanders/577465",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   157,
+   0,
+   455,
+   372
+  ]
+ },
+ "ouyangvaren": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/d15eada63d5c8456b8f7a6c5f0f8b83c.png",
+   "page": "https://gamewith.jp/mhoutlanders/577462",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   188,
+   0,
+   486,
+   372
+  ]
+ },
+ "pepper": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/ac6feb6678013fd31bc8a5e7780c1dd4.png",
+   "page": "https://gamewith.jp/mhoutlanders/561564",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   138,
+   0,
+   436,
+   372
+  ]
+ },
+ "pyro": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/e37a40b549fb9045e14c9d9e1e5deb9d.png",
+   "page": "https://gamewith.jp/mhoutlanders/577460",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   201,
+   0,
+   499,
+   372
+  ]
+ },
+ "raya": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/ff1c5060573b2aecc1622506e5cc56e6.png",
+   "page": "https://gamewith.jp/mhoutlanders/577463",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   138,
+   0,
+   436,
+   372
+  ]
+ },
+ "ryunosuke": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/5ff18da048fa877db469abc53fb11a63.png",
+   "page": "https://gamewith.jp/mhoutlanders/577455",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   114,
+   0,
+   412,
+   372
+  ]
+ },
+ "stylia": {
+  "full": {
+   "source": "https://img.gamewith.jp/img/e21ec2671971069ccb5fe667dcceb12a.png",
+   "page": "https://gamewith.jp/mhoutlanders/588284",
+   "src_px": [
+    625,
+    372
+   ],
+   "w": 625,
+   "h": 372,
+   "note": "GameWith JP character art"
+  },
+  "card_crop": [
+   101,
+   0,
+   399,
+   372
+  ]
+ },
+ "rhodes": {
+  "card": {
+   "source": "https://img.gamewith.jp/img/2f27ad2ae451a139897535bab08a2204.png",
+   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/rhodes",
+   "src_px": [
+    180,
+    215
+   ],
+   "w": 180,
+   "h": 215
+  }
+ }
+}
