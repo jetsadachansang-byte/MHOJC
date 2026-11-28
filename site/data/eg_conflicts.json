@@ -872,5 +872,99 @@
     "detail": "ไม่มีรูปแผนที่ GA ทั้งแผ่นที่ไม่มีตัวอักษรญี่ปุ่น (GameWith EN ไม่มี GA, PDF มีแค่ภาพครอปซูม) จึงยังไม่ได้ใส่พิกัด"
    }
   ]
+ },
+ "gathering_spots_2026_11_28": {
+  "ore_spots_added": 7,
+  "resource_spots_filled": 11,
+  "unmatched": [
+   {
+    "ref": "W3",
+    "map": "SP",
+    "type": "tree",
+    "area_old": "Desert Oasis",
+    "nearest_dist_pct": 12.0
+   },
+   {
+    "ref": "P8",
+    "map": "RA",
+    "type": "specialty",
+    "area_old": "Luminant Lakelands",
+    "nearest_dist_pct": 48.0
+   },
+   {
+    "ref": "P9",
+    "map": "RA",
+    "type": "specialty",
+    "area_old": "Luminant Lakelands",
+    "nearest_dist_pct": 40.5
+   },
+   {
+    "ref": "W5",
+    "map": "RA",
+    "type": "tree",
+    "area_old": "Luminant Lakelands",
+    "nearest_dist_pct": 15.5
+   },
+   {
+    "ref": "W6",
+    "map": "RA",
+    "type": "tree",
+    "area_old": "Luminant Lakelands",
+    "nearest_dist_pct": 25.7
+   }
+  ],
+  "conflicts": [
+   {
+    "spot": "GL O1 (Outlands, Ore)",
+    "old_jp": {
+     "Monster Bone S": 12,
+     "Ancient Bone": 4,
+     "Iron Ore": 18,
+     "Machalite Ore": 6,
+     "Radiantite Crystal": 40
+    },
+    "new_en_per_day": {
+     "Iron Ore": 12,
+     "Machalite Ore": 4,
+     "Monster Bone S": 18,
+     "Ancient Bone": 6
+    },
+    "used": "EN",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+    ]
+   },
+   {
+    "topic": "Wood Gatherer Desert Oasis",
+    "old_jp": {
+     "W3": {
+      "Hardwood": 21,
+      "Ironwood": 7
+     },
+     "W4": {
+      "Hardwood": 15,
+      "Ironwood": 5
+     }
+    },
+    "new_en_per_day": {
+     "Hardwood": 45,
+     "Ironwood": 15
+    },
+    "used": "JP ต่อจุด (EN ไม่ระบุว่าเป็นจุดไหน)",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-wood"
+    ]
+   },
+   {
+    "topic": "ของที่ GameWith JP ระบุแต่ไม่อยู่ในรายการของประเภทจุดตาม GameWith EN (เช่น Honey ในจุดน้ำผึ้ง/เห็ด, Moonlit Mushroom, Nulberry)",
+    "used": "เพิ่มเป็นของในจุดนั้นพร้อมจำนวนจาก JP",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
+    ]
+   }
+  ]
  }
 }

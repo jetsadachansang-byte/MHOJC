@@ -137,11 +137,11 @@
       },
       {
        "item": "Sleep Herb",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "8 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Hot Pepper",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Honey",
@@ -150,13 +150,20 @@
       {
        "item": "Dustbush",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Nulberry",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P3.png"
+     ],
+     "ref": "P3"
     },
     {
      "id": "gl-04",
@@ -219,18 +226,21 @@
      "drops": [
       {
        "item": "Hardwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "15 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Ironwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "5 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W1.png"
+     ],
+     "ref": "W1"
     },
     {
      "id": "gl-06",
@@ -297,18 +307,25 @@
       },
       {
        "item": "Parashroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Nitroshroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "8 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P2.png"
+     ],
+     "ref": "P2"
     },
     {
      "id": "gl-08",
@@ -388,19 +405,19 @@
      "drops": [
       {
        "item": "Island Specialty Rice",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Exquisite Island Rice",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Fine Honeyfruit",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "6 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Exotic Honeyfruit",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "2 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Moonlit Mushroom",
@@ -408,11 +425,11 @@
       },
       {
        "item": "Sunbloom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "15 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Sunkissed Grass",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "5 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [
@@ -422,8 +439,11 @@
      ],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P4.png"
+     ],
+     "ref": "P4"
     },
     {
      "id": "gl-11",
@@ -544,22 +564,33 @@
      "drops": [
       {
        "item": "Chillshroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Parashroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Moonlit Mushroom",
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P1.png"
+     ],
+     "ref": "P1"
     },
     {
      "id": "gl-15",
@@ -704,17 +735,147 @@
      "drops": [
       {
        "item": "Hardwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "15 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Ironwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "5 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W2.png"
+     ],
+     "ref": "W2"
+    },
+    {
+     "id": "gl-19",
+     "no": 19,
+     "pin": null,
+     "ref": "O1",
+     "area": "Outlands",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 31.29,
+     "y": 49.23,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "18 ต่อวัน (GameWith EN)"
+      },
+      {
+       "item": "Ancient Bone",
+       "qty": "6 ต่อวัน (GameWith EN)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "12 ต่อวัน (GameWith EN)"
+      },
+      {
+       "item": "Machalite Ore",
+       "qty": "4 ต่อวัน (GameWith EN)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Ancient Bone",
+      "Machalite Ore"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O1.png",
+      "reference/gathering/old_data_guide.py",
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+     ]
+    },
+    {
+     "id": "gl-20",
+     "no": 20,
+     "pin": null,
+     "ref": "O2",
+     "area": "Outlands",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 27.46,
+     "y": 34.96,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Ancient Bone",
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "21 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Machalite Ore",
+       "qty": "7 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Ancient Bone",
+      "Machalite Ore"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O2.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "gl-21",
+     "no": 21,
+     "pin": null,
+     "ref": "O3",
+     "area": "Muddy Swamp",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 77.85,
+     "y": 57.41,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Ancient Bone",
+       "qty": "4 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "18 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Machalite Ore",
+       "qty": "6 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Ancient Bone",
+      "Machalite Ore"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O3.png",
+      "reference/gathering/old_data_guide.py"
      ]
     }
    ]
@@ -898,7 +1059,7 @@
      "drops": [
       {
        "item": "Herb",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Antidote Herb",
@@ -906,7 +1067,7 @@
       },
       {
        "item": "Sleep Herb",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "8 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Hot Pepper",
@@ -918,14 +1079,17 @@
       },
       {
        "item": "Dustbush",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P7.png"
+     ],
+     "ref": "P7"
     },
     {
      "id": "sp-05",
@@ -1054,18 +1218,21 @@
      "drops": [
       {
        "item": "Hardwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "15 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Ironwood",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "5 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W4.png"
+     ],
+     "ref": "W4"
     },
     {
      "id": "sp-09",
@@ -1120,22 +1287,29 @@
      "drops": [
       {
        "item": "Chillshroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Parashroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "8 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P5.png"
+     ],
+     "ref": "P5"
     },
     {
      "id": "sp-11",
@@ -1239,22 +1413,29 @@
      "drops": [
       {
        "item": "Chillshroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Parashroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P6.png"
+     ],
+     "ref": "P6"
     },
     {
      "id": "sp-14",
@@ -1332,6 +1513,90 @@
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
       "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "sp-16",
+     "no": 16,
+     "pin": null,
+     "ref": "O4",
+     "area": "Golden Expanse",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 51.44,
+     "y": 55.55,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Boulder Bone",
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "21 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Earth Crystal",
+       "qty": "7 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Boulder Bone",
+      "Earth Crystal"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O4.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "sp-17",
+     "no": 17,
+     "pin": null,
+     "ref": "O5",
+     "area": "Golden Expanse",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 28.52,
+     "y": 35.37,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Boulder Bone",
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "21 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Earth Crystal",
+       "qty": "7 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Boulder Bone",
+      "Earth Crystal"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O5.png",
+      "reference/gathering/old_data_guide.py"
      ]
     }
    ]
@@ -1553,18 +1818,25 @@
       },
       {
        "item": "Parashroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       },
       {
        "item": "Nitroshroom",
-       "qty": "ยังไม่มีข้อมูล"
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P10.png"
+     ],
+     "ref": "P10"
     },
     {
      "id": "ra-07",
@@ -1605,6 +1877,90 @@
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
       "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+     ]
+    },
+    {
+     "id": "ra-08",
+     "no": 8,
+     "pin": null,
+     "ref": "O6",
+     "area": "Gloomshade Gorge",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 46.1,
+     "y": 58.89,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Charred Bone",
+       "qty": "4 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "18 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Dragonite Ore",
+       "qty": "6 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Charred Bone",
+      "Dragonite Ore"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O6.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ra-09",
+     "no": 9,
+     "pin": null,
+     "ref": "O7",
+     "area": "Gloomshade Gorge",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 41.86,
+     "y": 41.44,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "9 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Charred Bone",
+       "qty": "3 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "21 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Dragonite Ore",
+       "qty": "7 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Charred Bone",
+      "Dragonite Ore"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O7.png",
+      "reference/gathering/old_data_guide.py"
      ]
     }
    ]
@@ -2301,7 +2657,12 @@
     "ra-05",
     "ga-01",
     "ga-02",
-    "ga-03"
+    "ga-03",
+    "gl-14",
+    "gl-07",
+    "sp-10",
+    "sp-13",
+    "ra-06"
    ],
    "gatherer": []
   },
@@ -2397,7 +2758,8 @@
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry",
    "found_in": [
-    "ga-03"
+    "ga-03",
+    "gl-03"
    ],
    "gatherer": []
   },
@@ -2534,7 +2896,14 @@
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s",
    "found_in": [
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-19",
+    "gl-20",
+    "gl-21",
+    "sp-16",
+    "sp-17",
+    "ra-08",
+    "ra-09"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -2574,7 +2943,11 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/items/ancient-bone",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "found_in": [],
+   "found_in": [
+    "gl-19",
+    "gl-20",
+    "gl-21"
+   ],
    "gatherer": [
     "GL/Outlands/Ore"
    ]
@@ -2625,7 +2998,10 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/items/earth-crystal",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "found_in": [],
+   "found_in": [
+    "sp-16",
+    "sp-17"
+   ],
    "gatherer": []
   },
   {
@@ -2780,7 +3156,14 @@
    ],
    "found_in": [
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-19",
+    "gl-20",
+    "gl-21",
+    "sp-16",
+    "sp-17",
+    "ra-08",
+    "ra-09"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -2844,7 +3227,11 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/items/machalite-ore",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "found_in": [],
+   "found_in": [
+    "gl-19",
+    "gl-20",
+    "gl-21"
+   ],
    "gatherer": [
     "GL/Outlands/Ore"
    ]
@@ -2871,7 +3258,10 @@
    "armor": 0,
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/dragonite-ore",
-   "found_in": [],
+   "found_in": [
+    "ra-08",
+    "ra-09"
+   ],
    "gatherer": []
   },
   {
@@ -2919,7 +3309,10 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/items/boulder-bone",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "found_in": [],
+   "found_in": [
+    "sp-16",
+    "sp-17"
+   ],
    "gatherer": []
   },
   {
@@ -2972,7 +3365,10 @@
    "armor": 0,
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/charred-bone",
-   "found_in": [],
+   "found_in": [
+    "ra-08",
+    "ra-09"
+   ],
    "gatherer": []
   },
   {
@@ -3251,7 +3647,8 @@
     "gl-06",
     "gl-04",
     "gl-10",
-    "gl-17"
+    "gl-17",
+    "gl-14"
    ],
    "gatherer": []
   },
@@ -3504,7 +3901,14 @@
    ],
    "found_in": [
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-19",
+    "gl-20",
+    "gl-21",
+    "sp-16",
+    "sp-17",
+    "ra-08",
+    "ra-09"
    ],
    "gatherer": []
   }
