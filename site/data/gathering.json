@@ -852,6 +852,90 @@
       "reference/gathering/gamewith-jp-pdf/spot-crops/O3.png"
      ],
      "gatherer_spot": true
+    },
+    {
+     "id": "gl-22",
+     "no": 22,
+     "pin": null,
+     "area": "Mistwood",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 77.1,
+     "y": 25.8,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ancient Bone",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Machalite Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Ancient Bone",
+      "Machalite Ore"
+     ],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดแร่-กระดูกในแมพเดียวกันได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "gl-23",
+     "no": 23,
+     "pin": null,
+     "area": "Outlands",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 34.9,
+     "y": 71.7,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ancient Bone",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Machalite Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Ancient Bone",
+      "Machalite Ore"
+     ],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดแร่-กระดูกในแมพเดียวกันได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
     }
    ]
   },
@@ -1583,6 +1667,48 @@
       "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
       "reference/gathering/gamewith-jp-pdf/spot-crops/W3.png"
      ]
+    },
+    {
+     "id": "sp-19",
+     "no": 19,
+     "pin": null,
+     "area": "Desert Oasis",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 34.1,
+     "y": 54.8,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Boulder Bone",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Earth Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Boulder Bone",
+      "Earth Crystal"
+     ],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดแร่-กระดูกในแมพเดียวกันได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
     }
    ]
   },
@@ -2078,7 +2204,8 @@
    ],
    "source": [
     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
-    "reference/gathering/old_data_guide.py"
+    "reference/gathering/old_data_guide.py",
+    "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)"
    ],
    "note": null,
    "image": "img/map/grand-archipelago.webp?v=2",
@@ -2419,24 +2546,211 @@
       "reference/gathering/gamewith-jp-pdf/spot-crops/O9.png"
      ],
      "gatherer_spot": true
+    },
+    {
+     "id": "ga-10",
+     "no": 10,
+     "pin": null,
+     "area": "Saltthorn Dunes",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 32.8,
+     "y": 52.1,
+     "drops": [],
+     "rare": [],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของและจำนวน: ยังไม่มีข้อมูล (GameWith JP ยืนยันตำแหน่งจุด แต่ไม่ได้ระบุของที่ได้ของจุดนี้)",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-11",
+     "no": 11,
+     "pin": null,
+     "area": "Spore Isle",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": 56.1,
+     "y": 41.1,
+     "drops": [],
+     "rare": [],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของและจำนวน: ยังไม่มีข้อมูล (GameWith JP ยืนยันตำแหน่งจุด แต่ไม่ได้ระบุของที่ได้ของจุดนี้)",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-12",
+     "no": 12,
+     "pin": null,
+     "area": "Spore Isle",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 50.7,
+     "y": 60.7,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Coral Bone",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Coral Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Coral Bone",
+      "Coral Crystal",
+      "Radiantite Crystal"
+     ],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดแร่-กระดูกในแมพเดียวกันได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-13",
+     "no": 13,
+     "pin": null,
+     "area": "Spore Isle",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": 86.8,
+     "y": 43.4,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Coral Bone",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Coral Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [
+      "Coral Bone",
+      "Coral Crystal",
+      "Radiantite Crystal"
+     ],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดแร่-กระดูกในแมพเดียวกันได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-14",
+     "no": 14,
+     "pin": null,
+     "area": "Spore Isle",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 60.9,
+     "y": 68.9,
+     "drops": [],
+     "rare": [],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของและจำนวน: ยังไม่มีข้อมูล (GameWith JP ยืนยันตำแหน่งจุด แต่ไม่ได้ระบุของที่ได้ของจุดนี้)",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-15",
+     "no": 15,
+     "pin": null,
+     "area": "Spore Isle",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 70.4,
+     "y": 31.0,
+     "drops": [],
+     "rare": [],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของและจำนวน: ยังไม่มีข้อมูล (GameWith JP ยืนยันตำแหน่งจุด แต่ไม่ได้ระบุของที่ได้ของจุดนี้)",
+     "added": "2026-11-28"
+    },
+    {
+     "id": "ga-16",
+     "no": 16,
+     "pin": null,
+     "area": "Saltthorn Dunes",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 33.3,
+     "y": 36.5,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "ยังไม่มีข้อมูล"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "https://gamewith.jp/mhoutlanders/576794 (群生地の場所チェッカー, อัปเดต 24 พ.ย. 2026)",
+      "https://gamewith.jp/mhoutlanders/587282 (อัปเดต 27 พ.ย. 2026)"
+     ],
+     "note": "ชนิดของที่ได้: GameWith JP ระบุว่าจุดไม้ทุกแมพได้ของชนิดเดียวกัน · จำนวนยังไม่มีข้อมูล",
+     "added": "2026-11-28"
     }
    ],
    "areas": [
     {
      "n": "Saltthorn Dunes",
-     "Plant Resource Area": 1,
+     "Plant Resource Area": 2,
      "Local Specialty Area": 1,
      "Honey & Mushroom Area": 1,
-     "Tree Resource Area": 0,
-     "total": 3
+     "Tree Resource Area": 1,
+     "total": 5,
+     "Mineral & Fossil Area": 0
     },
     {
      "n": "Spore Isle",
-     "Plant Resource Area": 1,
-     "Local Specialty Area": 0,
+     "Plant Resource Area": 2,
+     "Local Specialty Area": 2,
      "Honey & Mushroom Area": 1,
      "Tree Resource Area": 2,
-     "total": 4
+     "total": 11,
+     "Mineral & Fossil Area": 4
     }
    ]
   }
@@ -3000,7 +3314,12 @@
     "ra-08",
     "ra-09",
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-22",
+    "gl-23",
+    "sp-19",
+    "ga-12",
+    "ga-13"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -3043,7 +3362,9 @@
    "found_in": [
     "gl-19",
     "gl-20",
-    "gl-21"
+    "gl-21",
+    "gl-22",
+    "gl-23"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -3097,7 +3418,8 @@
    ],
    "found_in": [
     "sp-16",
-    "sp-17"
+    "sp-17",
+    "sp-19"
    ],
    "gatherer": []
   },
@@ -3260,7 +3582,12 @@
     "ra-08",
     "ra-09",
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-22",
+    "gl-23",
+    "sp-19",
+    "ga-12",
+    "ga-13"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -3327,7 +3654,9 @@
    "found_in": [
     "gl-19",
     "gl-20",
-    "gl-21"
+    "gl-21",
+    "gl-22",
+    "gl-23"
    ],
    "gatherer": [
     "GL/Outlands/Ore"
@@ -3408,7 +3737,8 @@
    ],
    "found_in": [
     "sp-16",
-    "sp-17"
+    "sp-17",
+    "sp-19"
    ],
    "gatherer": []
   },
@@ -3436,7 +3766,9 @@
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone",
    "found_in": [
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "ga-12",
+    "ga-13"
    ],
    "gatherer": []
   },
@@ -3492,7 +3824,9 @@
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal",
    "found_in": [
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "ga-12",
+    "ga-13"
    ],
    "gatherer": []
   },
@@ -3534,7 +3868,8 @@
     "ra-12",
     "ra-13",
     "ga-06",
-    "ga-07"
+    "ga-07",
+    "ga-16"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -3578,7 +3913,8 @@
     "ra-12",
     "ra-13",
     "ga-06",
-    "ga-07"
+    "ga-07",
+    "ga-16"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -4012,7 +4348,12 @@
     "ra-08",
     "ra-09",
     "ga-08",
-    "ga-09"
+    "ga-09",
+    "gl-22",
+    "gl-23",
+    "sp-19",
+    "ga-12",
+    "ga-13"
    ],
    "gatherer": []
   }
@@ -4094,7 +4435,7 @@
    ]
   }
  ],
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": [
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
