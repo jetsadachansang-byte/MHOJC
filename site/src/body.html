@@ -121,6 +121,7 @@
     <nav class="nav" aria-label="เมนูหลัก">
       <a href="#home">หน้าแรก</a>
       <a href="#builder">จัดบิลด์</a>
+      <a href="#meta">บิลด์เมต้า</a>
       <a href="#community">คลังบิลด์</a>
       <a href="#adventurers">ตัวละคร</a>
       <a href="#armor">ชุดเกราะ</a>
@@ -293,6 +294,12 @@
   </div>
 </section>
 
+<section id="v-meta" data-view="meta" hidden>
+  <div class="wrap view">
+    <div class="view-head"><div><div class="eyebrow">META BUILDS</div><h2>บิลด์เมต้า</h2><p>รวมบิลด์แนะนำของตัวเอก (Fated Adventurer) ทุกประเภทอาวุธ แยกตามธาตุ และบิลด์ของตัวละครทุกตัว กดเปิดในหน้าจัดบิลด์เพื่อปรับต่อได้</p></div></div>
+    <div id="mt-res"></div>
+  </div>
+</section>
 <section id="v-gathering" data-view="gathering" hidden>
   <div class="wrap view">
     <div class="view-head"><div><div class="eyebrow">GATHERING</div><h2>การเก็บของ</h2><p>เลือกแมพเพื่อดูพื้นที่และจุดเก็บของ หรือค้นหาวัตถุดิบว่าเก็บได้ที่ไหน ระบบ Gatherer (ที่เก็บของอัตโนมัติ) และของพิเศษ</p></div></div>
@@ -431,7 +438,7 @@ const setOfMon=n=>SETS.filter(s=>s.m===n);
 const wepOfMon=n=>WEAPONS.filter(w=>w.m===n);
 
 /* router */
-const VIEWS=['home','builder','community','adventurers','armor','weapons','skills','monsters','buddies','endemic','gathering'];
+const VIEWS=['home','builder','meta','community','adventurers','armor','weapons','skills','monsters','buddies','endemic','gathering'];
 function route(){let v=location.hash.slice(1);if(/^b-[a-f0-9]{12}$/.test(v))v='community';if(/^m-[a-z0-9-]+$/.test(v))v='gathering';if(/^e-[a-z0-9-]+$/.test(v))v='endemic';if(!VIEWS.includes(v))v='home';
   document.querySelectorAll('[data-view]').forEach(s=>s.hidden=s.dataset.view!==v);
   document.querySelectorAll('.nav a').forEach(a=>{if(a.getAttribute('href')==='#'+v)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
