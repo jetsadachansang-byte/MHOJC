@@ -6,7 +6,7 @@ from PIL import Image
 S=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..');A=os.path.join(S,'..','assets','images')
 cred=json.load(open(f'{S}/img/credits.json'));M=json.load(open(f'{S}/media.json',encoding='utf-8'))
 HD={};done=[]
-ROLE={'profile':([480,960,1440],720,'(max-width:600px) 46vw, 240px'),'full':([640,1280,1920,2560],1280,'(max-width:900px) 100vw, 640px'),
+ROLE={'profile':([480,720,1440],720,'(max-width:600px) 46vw, 240px'),'full':([640,1280,1920,2560],1280,'(max-width:900px) 100vw, 640px'),
       'wide':([640,1280,1920,2560],1280,'(max-width:600px) 60vw, 480px'),'icon':([128,256,512],256,'48px'),'hero':([640,1280,1920,2560,3840],1920,'100vw')}
 def make(src,dest,role,note=None):
     widths,thr,sizes=ROLE[role]
