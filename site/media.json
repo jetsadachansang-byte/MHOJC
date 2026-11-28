@@ -266,7 +266,7 @@
    "id": "arkaya-exclusive",
    "n": "Shieldbound Champion · Arkaya",
    "img": "img/outfit/arkaya-exclusive.webp",
-   "full": "img/outfit/arkaya-exclusive.webp",
+   "full": "img/outfit/arkaya-exclusive-full.webp",
    "ch": "arkaya",
    "how": "Wish (กาชา Crimson Crest Coin)",
    "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
@@ -275,16 +275,16 @@
    "id": "midori-exclusive",
    "n": "Cherry Petals · Midori",
    "img": "img/outfit/midori-exclusive.webp",
-   "full": "img/outfit/midori-exclusive.webp",
+   "full": "img/outfit/midori-exclusive-full.webp",
    "ch": "midori",
    "how": "Shop (ร้านค้า)",
    "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
   },
   {
    "id": "keres-exclusive",
-   "n": "ชุดเฉพาะตัว · Keres",
+   "n": "Spiked Punk · Keres",
    "img": "img/outfit/keres-exclusive.webp",
-   "full": "img/outfit/keres-exclusive.webp",
+   "full": "img/outfit/keres-exclusive-full.webp",
    "ch": "keres",
    "how": "Daily top-up (เติมเงินรายวัน)",
    "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
@@ -5105,6 +5105,18 @@
   "img/hero/hero.webp": [
    640,
    912
+  ],
+  "img/outfit/arkaya-exclusive-full.webp": [
+   430,
+   561
+  ],
+  "img/outfit/midori-exclusive-full.webp": [
+   385,
+   512
+  ],
+  "img/outfit/keres-exclusive-full.webp": [
+   437,
+   344
   ]
  }
 }
