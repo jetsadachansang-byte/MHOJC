@@ -1653,21 +1653,33 @@ document.head.insertAdjacentHTML('beforeend','<style>.en-grid{display:grid;grid-
 const DATA={};const loadJ=k=>DATA[k]?Promise.resolve(DATA[k]):fetch('data/'+k+'.json').then(r=>r.json()).then(j=>DATA[k]=j);
 const MPN={GL:'Giantwood Locale',SP:'Searing Plains',RA:'Rotfall Abyss',GA:'Grand Archipelago'};
 const srcLinks=s=>[].concat(s||[]).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https:\/\/gamewith\.ai\/monster-hunter-outlanders\/en\//,'GameWith: '))}</a>`).join(' · ');
-let enMap='all',enType='all',enSel=null;
+let enMap='all',enType='all',enSel=null,enView=0;
+const EN_IC={hunt:'⚔',life:'🦎',aquatic:'🐟',all:'📖'};
 function renderEndemic(){loadJ('endemic').then(D=>{
-  $('#en-map').innerHTML=[['all','ทุกแมพ'],...D.maps.map(m=>[m.id,m.n])].map(([k,l])=>`<button class="chip" aria-pressed="${k===enMap}" data-enmap="${k}" type="button">${esc(l)}</button>`).join('');
-  $('#en-type').innerHTML=[['all','ทุกประเภท'],...Object.entries(D.types)].map(([k,l])=>`<button class="chip" aria-pressed="${k===enType}" data-entype="${k}" type="button">${esc(l)}</button>`).join('');
-  const q=($('#en-q').value||'').trim().toLowerCase();
-  const L=D.items.filter(e=>(enMap==='all'||e.maps.includes(enMap))&&(enType==='all'||e.type===enType)&&(!q||e.n.toLowerCase().includes(q)));
-  if(!enSel||!D.items.some(e=>e.id===enSel))enSel=(L[0]||D.items[0]).id;
-  $('#en-grid').innerHTML=L.map(e=>`<button class="en-card" data-ensel="${e.id}" aria-pressed="${e.id===enSel}" type="button">${IMG(e.img,'',e.n)}<b>${esc(e.n)}</b><small>${esc(D.types[e.type])}</small></button>`).join('')||'<p class="muted">ไม่พบสัตว์ที่ตรงกับตัวกรอง</p>';
-  const e=D.items.find(x=>x.id===enSel);const row=(k,v)=>v?`<dt>${k}</dt><dd>${v}</dd>`:'';
-  $('#en-detail').innerHTML=`<div class="head">${IMG(e.img,'',e.n,'style="width:88px;height:88px;object-fit:contain"')}<div><div class="eyebrow">${esc(e.type_en)}</div><h3>${esc(e.n)}</h3><div class="title">${esc(D.types[e.type])}</div></div></div>
+  const q=($('#en-q').value||'').trim().toLowerCase();if(q&&enView===0)enView=1;
+  const lay=document.querySelector('#v-endemic .mon-layout'),G=$('#en-grid'),Dt=$('#en-detail');lay.style.gridTemplateColumns='minmax(0,1fr)';
+  let nav=$('#en-nav');if(!nav){nav=document.createElement('div');nav.id='en-nav';lay.before(nav)}
+  const T=D.types,cnt=t=>D.items.filter(e=>t==='all'||e.type===t);
+  $('#en-map').hidden=enView!==1;$('#en-type').hidden=true;
+  if(enView===0){nav.innerHTML='<h3 style="margin:0 0 10px">เลือกหมวด</h3>';Dt.hidden=true;G.hidden=false;G.classList.add('en-cats');
+    G.innerHTML=[['all','ทั้งหมด'],...Object.entries(T)].map(([k,l])=>{const L=cnt(k);return `<button class="mon-card" data-encat="${k}" type="button"><span class="top"><span><span class="threat">${EN_IC[k]||''} ${k==='all'?'ALL':esc(L[0]?L[0].type_en:'')}</span><h4>${esc(l)}</h4><span class="muted" style="font-size:13px">${L.length} ชนิด</span></span></span><span class="mcat-ic">${L.slice(0,6).map(e=>IMG(e.img,'',e.n)).join('')}</span></button>`}).join('');
+    $('#en-src').innerHTML=`ทั้งหมด ${D.items.length} ชนิด · ข้อมูล ณ ${esc(D.updated)} จาก ${srcLinks(D.source)}`;return}
+  G.classList.remove('en-cats');
+  const L=D.items.filter(e=>q?e.n.toLowerCase().includes(q):(enType==='all'||e.type===enType)&&(enMap==='all'||e.maps.includes(enMap)));
+  const title=q?'ผลการค้นหา':(enType==='all'?'ทั้งหมด':T[enType]);
+  if(enView===1){nav.innerHTML=`<div class="en-navbar"><button class="btn btn-ghost btn-sm" data-enback="0" type="button">← หมวดทั้งหมด</button><h3 style="margin:0">${EN_IC[enType]||''} ${esc(title)} <small class="muted">${L.length} ชนิด</small></h3></div>`;
+    $('#en-map').innerHTML=[['all','ทุกแมพ'],...D.maps.map(m=>[m.id,m.n])].map(([k,l])=>`<button class="chip" aria-pressed="${k===enMap}" data-enmap="${k}" type="button">${esc(l)}</button>`).join('');
+    Dt.hidden=true;G.hidden=false;G.innerHTML=L.map(e=>`<button class="en-card" data-ensel="${e.id}" type="button">${IMG(e.img,'',e.n)}<b>${esc(e.n)}</b><small>${esc(T[e.type])}</small></button>`).join('')||'<p class="muted">ไม่พบสัตว์ที่ตรงกับตัวกรอง</p>';return}
+  const e=D.items.find(x=>x.id===enSel)||L[0];if(!e){enView=1;return renderEndemic()}
+  const k=L.findIndex(x=>x.id===e.id),prev=L[k-1],next=L[k+1];
+  nav.innerHTML=`<div class="en-navbar"><button class="btn btn-ghost btn-sm" data-enback="1" type="button">← ${esc(title)}</button><span style="flex:1"></span>${prev?`<button class="x-btn" data-ensel="${prev.id}" type="button">‹ ${esc(prev.n)}</button>`:''}${next?`<button class="x-btn" data-ensel="${next.id}" type="button">${esc(next.n)} ›</button>`:''}</div>`;
+  G.hidden=true;Dt.hidden=false;const row=(a,b)=>b?`<dt>${a}</dt><dd>${b}</dd>`:'';
+  Dt.innerHTML=`<div class="head">${IMG(e.img,'',e.n,'style="width:96px;height:96px;object-fit:contain"')}<div><div class="eyebrow">${esc(e.type_en)}</div><h3>${esc(e.n)}</h3><div class="title">${EN_IC[e.type]||''} ${esc(T[e.type])}</div></div></div>
    <dl class="kv2">${row('แมพที่พบ',e.maps.map(m=>`<span class="mpill">${esc(MPN[m])}</span>`).join(''))}${row('ช่วงเวลา/อากาศ',esc(e.when))}${row('วิธีจับ/ใช้',esc(e.how))}${row('ผล/ประโยชน์',esc(e.effect))}${row('ขนาด (ใหญ่สุด/เล็กสุด)',e.size?esc(e.size.join(' / ')):'')}
    ${row('รางวัลสะสม',e.rewards?e.rewards.map(r=>`<b>${esc(r.n)}</b>: ${esc(r.req)} → ฉายา “${esc(r.title)}” + ${esc(r.item)}`).join('<br>'):'')}</dl>
    <p class="src2">ช่องที่ไม่แสดง = แหล่งข้อมูลไม่ได้ระบุ · ที่มา: ${srcLinks(e.source)}</p>`;
-  $('#en-src').innerHTML=`ทั้งหมด ${D.items.length} ชนิด · แสดง ${L.length} · ข้อมูล ณ ${esc(D.updated)} จาก ${srcLinks(D.source)}`;
 })}
+document.head.insertAdjacentHTML('beforeend','<style>.en-navbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}#en-map{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}#en-map .chip{flex:none;white-space:nowrap}#en-grid.en-cats{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))!important}#v-endemic .mon-detail{position:static;max-width:760px}</style>');
 let gaMap='GL',gaType='all',gaSel=null,gaZoom=1;
 const matChip=(m,extra='')=>`<a class="ga-mat" href="#m-${m.id}" ${extra}>${IMG(m.img,'',m.n)}<span>${esc(m.n)}</span></a>`;
 const spotLink=(id,G)=>{const mp=G.maps.find(x=>x.spots&&x.spots.some(s=>s.id===id));return `<button class="x-btn" data-gaspot="${id}" type="button">${esc(mp?mp.n.split(' ')[0]:'')} #${esc(id.split('-').pop())}</button>`};
@@ -1710,15 +1722,15 @@ function renderGathering(){loadJ('gathering').then(G=>{
 })}
 document.head.insertAdjacentHTML('beforeend','<style>#ga-body,#ga-res{display:grid;grid-template-columns:minmax(0,1fr)}.ga-card{min-width:0}.ga-mapgrid>div{min-width:0}.ga-mapgrid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:12px;align-items:start;margin-bottom:12px}@media(max-width:900px){.ga-mapgrid{grid-template-columns:minmax(0,1fr)}}.ga-map{position:relative;overflow:auto;max-height:78vh;border:1px solid var(--line);background:#cfc6b3;touch-action:pan-x pan-y;-webkit-overflow-scrolling:touch}.ga-map-in{position:relative;min-width:100%}.ga-map-in img{width:100%;height:auto;display:block;user-select:none}.ga-pin{position:absolute;transform:translate(-50%,-50%);width:26px;height:26px;border-radius:50%;border:2px solid #fff;background:var(--c);color:#fff;font:700 11px/22px var(--f-body);padding:0;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.5)}.ga-pin.dim{opacity:.18}.ga-pin.on{outline:3px solid #ffeb3b;z-index:2;width:32px;height:32px;line-height:28px}.ga-mapctl{display:flex;gap:6px;align-items:center;margin-bottom:6px}.ga-leg{display:flex;flex-wrap:wrap;gap:10px;font-size:12px;margin-top:6px}.ga-leg i,.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:middle}.ga-pop{border-color:var(--brass)}.ga-filter{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;margin-bottom:8px;scrollbar-width:thin}.ga-filter .chip{white-space:nowrap;flex:none}.ga-pin{display:grid;place-items:center;width:30px;height:30px;font-size:14px;line-height:1}.ga-pin span{filter:drop-shadow(0 1px 1px rgba(0,0,0,.6))}.ga-pin i{position:absolute;right:-7px;top:-7px;font:700 10px/16px var(--f-num);min-width:16px;height:16px;padding:0 3px;border-radius:8px;background:#111;color:#fff;border:1px solid var(--c);font-style:normal}.ga-pin.on{width:38px;height:38px;line-height:1;animation:gaPulse 1s ease-out 2}@keyframes gaPulse{0%{box-shadow:0 0 0 0 var(--c)}100%{box-shadow:0 0 0 14px transparent}}.ga-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;margin:12px 0}.ga-list .bc-group{grid-column:1/-1}.ga-spot{background:var(--surface);border:1px solid var(--frame,var(--line));border-left:4px solid var(--c);padding:10px 12px;cursor:pointer;box-shadow:var(--shadow,none)}.ga-spot.on{outline:2px solid var(--brass)}.ga-spot.ga-pop{cursor:default}.gs-h{display:flex;gap:10px;align-items:center;margin-bottom:6px}.gs-h>div{flex:1}.gs-h b{display:block;font-family:var(--f-display)}.gs-h small{color:var(--muted);font-size:12px}.gs-ic{width:30px;height:30px;border-radius:50%;background:var(--c);display:grid;place-items:center;flex:none}.gs-drops .ga-mat small{display:block;color:var(--muted);font-size:11px;line-height:1.3}@media(max-width:900px){.ga-list{grid-template-columns:minmax(0,1fr)}.ga-map{max-height:70vh}}@media (prefers-reduced-motion: reduce){.ga-pin.on{animation:none}}</style>');
 document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;
-  if(t=g('[data-enmap]')){enMap=t.dataset.enmap;renderEndemic()}else if(t=g('[data-entype]')){enType=t.dataset.entype;renderEndemic()}
-  else if(t=g('[data-ensel]')){enSel=t.dataset.ensel;renderEndemic();if(innerWidth<960)setTimeout(()=>$('#en-detail').scrollIntoView({block:'start'}),60)}
+  if(t=g('[data-enmap]')){enMap=t.dataset.enmap;renderEndemic()}else if(t=g('[data-encat]')){enType=t.dataset.encat;enView=1;renderEndemic();scrollTo(0,0)}else if(t=g('[data-enback]')){enView=+t.dataset.enback;if(!enView){$('#en-q').value='';enMap='all'}renderEndemic();scrollTo(0,0)}
+  else if(t=g('[data-ensel]')){enSel=t.dataset.ensel;enView=2;renderEndemic();scrollTo(0,0)}
   else if(t=g('[data-gamap]')){gaMap=t.dataset.gamap;gaSel=null;renderGathering()}
   else if(t=g('[data-gatype]')){gaType=t.dataset.gatype;renderGathering()}
   else if(t=g('[data-gazoom]')){const vp=$('#ga-map-vp');const cx=vp?(vp.scrollLeft+vp.clientWidth/2)/vp.scrollWidth:.5,cy=vp?(vp.scrollTop+vp.clientHeight/2)/vp.scrollHeight:.5;gaZoom=Math.max(1,Math.min(4,gaZoom+ +t.dataset.gazoom));renderGathering();setTimeout(()=>{const v=$('#ga-map-vp');if(v){v.scrollLeft=cx*v.scrollWidth-v.clientWidth/2;v.scrollTop=cy*v.scrollHeight-v.clientHeight/2}},80)}
   else if(t=g('[data-gaspot]')){const id=t.dataset.gaspot;if(!id){gaSel=null;renderGathering();return}loadJ('gathering').then(G=>{const mp=G.maps.find(x=>x.spots&&x.spots.some(s=>s.id===id));if(mp)gaMap=mp.id;gaSel=id;if(location.hash!=='#gathering')history.replaceState(null,'','#gathering');renderGathering();setTimeout(()=>{const pin=document.querySelector('.ga-pin.on'),vp=$('#ga-map-vp');if(pin&&vp){vp.scrollLeft=pin.offsetLeft-vp.clientWidth/2;vp.scrollTop=pin.offsetTop-vp.clientHeight/2}if(innerWidth<900){const p=document.querySelector('.ga-pop');if(p)p.scrollIntoView({block:'nearest'})}},80)})}});
 let egT;document.addEventListener('input',e=>{if(e.target.id==='en-q'){clearTimeout(egT);egT=setTimeout(renderEndemic,120)}if(e.target.id==='ga-q'){clearTimeout(egT);egT=setTimeout(renderGathering,120)}});
 function egRoute(){const h=location.hash;let m;
-  if(h==='#endemic')renderEndemic();else if(m=h.match(/^#e-([a-z0-9-]+)$/)){enSel=m[1];renderEndemic()}
+  if(h==='#endemic')renderEndemic();else if(m=h.match(/^#e-([a-z0-9-]+)$/)){enSel=m[1];enView=2;renderEndemic()}
   else if(h==='#gathering')renderGathering();else if(m=h.match(/^#m-([a-z0-9-]+)$/)){loadJ('gathering').then(G=>{const x=G.materials.find(y=>y.id===m[1]);if(x){$('#ga-q').value=x.n;const f=x.found_in[0];const mp=f&&G.maps.find(m=>m.spots&&m.spots.some(s=>s.id===f));gaMap=mp?mp.id:(x.maps?x.maps[0]:gaMap);gaSel=null}renderGathering()})}}
 window.addEventListener('hashchange',egRoute);egRoute();
 /* link materials on weapon pages to the Gathering page */
