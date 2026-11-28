@@ -824,5 +824,53 @@
    }
   ],
   "map_images": "รูปแผนที่ 3 แมพ ต่อจาก tile ของ GameWith (zoom 3) แล้วลบป้ายชื่อภาษาญี่ปุ่นออกด้วย inpainting จุดมาร์กวาดด้วย HTML ทับบนรูป"
+ },
+ "grand_archipelago_2026_11_28": {
+  "added": "9 จุด (P11–P15, W7–W8, O8–O9) จาก GameWith JP PDF 15 พ.ย. 2026 + reference/old_data_guide.py",
+  "check_vs_gamewith_en": {
+   "url": "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+   "result": "GameWith EN ไม่มีข้อมูลแมพ Grand Archipelago (ครอบคลุม 3 แมพ ข้อมูล 10 พ.ย.) จึงไม่มีตัวเลขใหม่ให้เทียบ ใช้ตัวเลขจาก GameWith JP"
+  },
+  "conflicts": [
+   {
+    "topic": "ชื่อไอเทมที่ไม่พบในรายการไอเทม GameWith EN (780 ชิ้น)",
+    "items": [
+     "Light Pearl",
+     "Platinum Pearl",
+     "Super Abalone",
+     "Violet Abalone",
+     "Radiantite Crystal (ORANGE ในข้อมูลเก่า)"
+    ],
+    "used": "ใส่ตาม GameWith JP พร้อมป้าย “ยังไม่ยืนยันชื่อใน GameWith EN”",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+     "https://gamewith.ai/monster-hunter-outlanders/en/items"
+    ]
+   },
+   {
+    "topic": "รอบการเก็บของ Gatherer",
+    "old": "GameWith JP / ไกด์เก่า: ต่อรอบ (ไกด์เก่าเขียนว่า 12 ชม.)",
+    "new": "GameWith EN: ทุกวัน",
+    "used": "แสดงเป็น “ต่อรอบ” ไม่ระบุชั่วโมง",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
+    ]
+   },
+   {
+    "topic": "Honey ในจุดน้ำผึ้ง/เห็ด (P11, P12)",
+    "old": "GameWith JP: Honey ×16 ใน Honey & Mushroom Area",
+    "new": "GameWith EN จัด Honey ไว้ที่ Plant Resource Area (แมพอื่น)",
+    "used": "GA ใช้ GameWith JP เพราะ EN ไม่มีข้อมูล GA",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+     "https://gamewith.ai/monster-hunter-outlanders/en/items/honey"
+    ]
+   },
+   {
+    "topic": "ตำแหน่งจุด (x,y)",
+    "detail": "ไม่มีรูปแผนที่ GA ทั้งแผ่นที่ไม่มีตัวอักษรญี่ปุ่น (GameWith EN ไม่มี GA, PDF มีแค่ภาพครอปซูม) จึงยังไม่ได้ใส่พิกัด"
+   }
+  ]
  }
 }

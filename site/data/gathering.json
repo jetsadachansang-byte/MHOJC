@@ -1614,15 +1614,366 @@
    "n": "Grand Archipelago",
    "exclusive": [
     "Coral Bone",
-    "Coral Crystal"
+    "Coral Crystal",
+    "Light Pearl",
+    "Platinum Pearl",
+    "Radiantite Crystal",
+    "Super Abalone",
+    "Violet Abalone"
    ],
    "source": [
-    "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
-    "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+    "reference/gathering/old_data_guide.py"
    ],
-   "note": "ยังไม่มีข้อมูลจุดเก็บพืช/ไม้/ของพิเศษของแมพนี้ในแหล่งข้อมูล (หน้าจุดเก็บของ GameWith ครอบคลุม 3 แมพ ณ 10 พ.ย. 2026) ยืนยันได้เฉพาะแร่ที่มีแค่แมพนี้",
+   "note": "ยังไม่มีรูปแผนที่ Grand Archipelago ที่ไม่มีตัวอักษรญี่ปุ่น จึงยังวางจุดบนแผนที่ไม่ได้ · มีจุดวาง Gatherer 9 จุด (ตาราง: ไม่รวมจุดแร่ 2 จุด) กดดูแต่ละจุดได้จากลิงก์ในรายการวัตถุดิบด้านล่าง",
    "image": null,
-   "spots": []
+   "spots": [
+    {
+     "id": "ga-01",
+     "no": 1,
+     "pin": null,
+     "ref": "P11",
+     "area": "Saltthorn Dunes",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Nitroshroom",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 (GameWith JP)"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "12 (GameWith JP)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P11.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-02",
+     "no": 2,
+     "pin": null,
+     "ref": "P12",
+     "area": "Spore Isle",
+     "type": "honey",
+     "type_en": "Honey & Mushroom Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Nitroshroom",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Honey",
+       "qty": "16 (GameWith JP)"
+      },
+      {
+       "item": "Parashroom",
+       "qty": "12 (GameWith JP)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P12.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-03",
+     "no": 3,
+     "pin": null,
+     "ref": "P13",
+     "area": "Saltthorn Dunes",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Honey",
+       "qty": "8 (GameWith JP)"
+      },
+      {
+       "item": "Herb",
+       "qty": "16 (GameWith JP)"
+      },
+      {
+       "item": "Nulberry",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "4 (GameWith JP)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P13.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-04",
+     "no": 4,
+     "pin": null,
+     "ref": "P14",
+     "area": "Spore Isle",
+     "type": "plant",
+     "type_en": "Plant Resource Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Herb",
+       "qty": "16 (GameWith JP)"
+      },
+      {
+       "item": "Antidote Herb",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Sleep Herb",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Light Pearl",
+       "qty": "3 (GameWith JP)"
+      },
+      {
+       "item": "Platinum Pearl",
+       "qty": "1 (GameWith JP)"
+      }
+     ],
+     "rare": [
+      "Light Pearl",
+      "Platinum Pearl"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P14.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-05",
+     "no": 5,
+     "pin": null,
+     "ref": "P15",
+     "area": "Saltthorn Dunes",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Fine Honeyfruit",
+       "qty": "9 (GameWith JP)"
+      },
+      {
+       "item": "Exotic Honeyfruit",
+       "qty": "3 (GameWith JP)"
+      },
+      {
+       "item": "Super Abalone",
+       "qty": "9 (GameWith JP)"
+      },
+      {
+       "item": "Violet Abalone",
+       "qty": "3 (GameWith JP)"
+      },
+      {
+       "item": "Light Pearl",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Platinum Pearl",
+       "qty": "4 (GameWith JP)"
+      }
+     ],
+     "rare": [
+      "Super Abalone",
+      "Violet Abalone",
+      "Light Pearl",
+      "Platinum Pearl"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P15.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-06",
+     "no": 6,
+     "pin": null,
+     "ref": "W7",
+     "area": "Spore Isle",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "18 (GameWith JP)"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "6 (GameWith JP)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W7.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-07",
+     "no": 7,
+     "pin": null,
+     "ref": "W8",
+     "area": "Spore Isle",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "18 (GameWith JP)"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "6 (GameWith JP)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W8.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-08",
+     "no": 8,
+     "pin": null,
+     "ref": "O8",
+     "area": "Spore Isle",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "12 (GameWith JP)"
+      },
+      {
+       "item": "Coral Bone",
+       "qty": "4 (GameWith JP)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "18 (GameWith JP)"
+      },
+      {
+       "item": "Coral Crystal",
+       "qty": "6 (GameWith JP)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 (GameWith JP)"
+      }
+     ],
+     "rare": [
+      "Coral Bone",
+      "Coral Crystal",
+      "Radiantite Crystal"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O8.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ga-09",
+     "no": 9,
+     "pin": null,
+     "ref": "O9",
+     "area": "Spore Isle",
+     "type": "ore",
+     "type_en": "Mineral & Fossil Area",
+     "x": null,
+     "y": null,
+     "drops": [
+      {
+       "item": "Monster Bone S",
+       "qty": "9 (GameWith JP)"
+      },
+      {
+       "item": "Coral Bone",
+       "qty": "3 (GameWith JP)"
+      },
+      {
+       "item": "Iron Ore",
+       "qty": "21 (GameWith JP)"
+      },
+      {
+       "item": "Coral Crystal",
+       "qty": "7 (GameWith JP)"
+      },
+      {
+       "item": "Radiantite Crystal",
+       "qty": "40 (GameWith JP)"
+      }
+     ],
+     "rare": [
+      "Coral Bone",
+      "Coral Crystal",
+      "Radiantite Crystal"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/O9.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    }
+   ],
+   "areas": [
+    {
+     "n": "Saltthorn Dunes",
+     "Plant Resource Area": 1,
+     "Local Specialty Area": 1,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 0,
+     "total": 3
+    },
+    {
+     "n": "Spore Isle",
+     "Plant Resource Area": 1,
+     "Local Specialty Area": 0,
+     "Honey & Mushroom Area": 1,
+     "Tree Resource Area": 2,
+     "total": 4
+    }
+   ]
   }
  ],
  "resource_areas": [
@@ -1728,7 +2079,9 @@
     "sp-07",
     "sp-09",
     "ra-07",
-    "ra-05"
+    "ra-05",
+    "ga-03",
+    "ga-04"
    ],
    "gatherer": []
   },
@@ -1765,7 +2118,8 @@
     "sp-07",
     "sp-09",
     "ra-07",
-    "ra-05"
+    "ra-05",
+    "ga-04"
    ],
    "gatherer": []
   },
@@ -1802,7 +2156,9 @@
     "sp-07",
     "sp-09",
     "ra-07",
-    "ra-05"
+    "ra-05",
+    "ga-03",
+    "ga-04"
    ],
    "gatherer": []
   },
@@ -1903,7 +2259,9 @@
     "sp-13",
     "sp-14",
     "ra-06",
-    "ra-03"
+    "ra-03",
+    "ga-01",
+    "ga-02"
    ],
    "gatherer": []
   },
@@ -1940,7 +2298,10 @@
     "sp-07",
     "sp-09",
     "ra-07",
-    "ra-05"
+    "ra-05",
+    "ga-01",
+    "ga-02",
+    "ga-03"
    ],
    "gatherer": []
   },
@@ -1972,7 +2333,9 @@
     "sp-13",
     "sp-14",
     "ra-06",
-    "ra-03"
+    "ra-03",
+    "ga-01",
+    "ga-02"
    ],
    "gatherer": []
   },
@@ -2033,7 +2396,9 @@
    "armor": 0,
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/nulberry",
-   "found_in": [],
+   "found_in": [
+    "ga-03"
+   ],
    "gatherer": []
   },
   {
@@ -2167,7 +2532,10 @@
     "Hunter Set"
    ],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/monster-bone-s",
-   "found_in": [],
+   "found_in": [
+    "ga-08",
+    "ga-09"
+   ],
    "gatherer": [
     "GL/Outlands/Ore"
    ]
@@ -2410,7 +2778,10 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/items/iron-ore",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/how-to-farm-ore-and-bones"
    ],
-   "found_in": [],
+   "found_in": [
+    "ga-08",
+    "ga-09"
+   ],
    "gatherer": [
     "GL/Outlands/Ore"
    ]
@@ -2573,7 +2944,10 @@
    "armor": 0,
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-bone",
-   "found_in": [],
+   "found_in": [
+    "ga-08",
+    "ga-09"
+   ],
    "gatherer": []
   },
   {
@@ -2623,7 +2997,10 @@
    "armor": 0,
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/coral-crystal",
-   "found_in": [],
+   "found_in": [
+    "ga-08",
+    "ga-09"
+   ],
    "gatherer": []
   },
   {
@@ -2659,7 +3036,9 @@
     "sp-03",
     "sp-08",
     "ra-04",
-    "ra-01"
+    "ra-01",
+    "ga-06",
+    "ga-07"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -2698,7 +3077,9 @@
     "sp-03",
     "sp-08",
     "ra-04",
-    "ra-01"
+    "ra-01",
+    "ga-06",
+    "ga-07"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -2802,7 +3183,8 @@
     "sp-05",
     "sp-11",
     "sp-15",
-    "ra-02"
+    "ra-02",
+    "ga-05"
    ],
    "gatherer": []
   },
@@ -2838,7 +3220,8 @@
     "sp-05",
     "sp-11",
     "sp-15",
-    "ra-02"
+    "ra-02",
+    "ga-05"
    ],
    "gatherer": []
   },
@@ -2989,6 +3372,139 @@
    ],
    "found_in": [
     "ra-02"
+   ],
+   "gatherer": []
+  },
+  {
+   "id": "light-pearl",
+   "n": "Light Pearl",
+   "img": "img/material/light-pearl.webp",
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ga-04",
+    "ga-05"
+   ],
+   "gatherer": []
+  },
+  {
+   "id": "platinum-pearl",
+   "n": "Platinum Pearl",
+   "img": "img/material/platinum-pearl.webp",
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ga-04",
+    "ga-05"
+   ],
+   "gatherer": []
+  },
+  {
+   "id": "super-abalone",
+   "n": "Super Abalone",
+   "img": "img/material/super-abalone.webp",
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ga-05"
+   ],
+   "gatherer": []
+  },
+  {
+   "id": "violet-abalone",
+   "n": "Violet Abalone",
+   "img": "img/material/violet-abalone.webp",
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ga-05"
+   ],
+   "gatherer": []
+  },
+  {
+   "id": "radiantite-crystal",
+   "n": "Radiantite Crystal",
+   "img": "img/material/radiantite-crystal.webp",
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [],
+   "maps": [
+    "GA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+   ],
+   "use": "ชิ้นละ 100 Zenny (ตามไกด์เก่า)",
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ga-08",
+    "ga-09"
    ],
    "gatherer": []
   }

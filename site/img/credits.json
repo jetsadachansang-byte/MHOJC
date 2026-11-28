@@ -8604,5 +8604,35 @@
    "img/hero/hero@1298.webp"
   ],
   "note": "Freya key art cropped to the clean right part"
+ },
+ "img/material/light-pearl.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/platinum-pearl.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/super-abalone.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/violet-abalone.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/radiantite-crystal.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
  }
 }
