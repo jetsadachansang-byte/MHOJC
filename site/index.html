@@ -590,7 +590,11 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
           <div id="bd-card" style="padding:14px 16px"></div>
         </div>
         <div class="panel">
-          <div class="panel-h"><h3>คำนวณดาเมจ</h3><span class="muted" style="font-size:12px">ค่าประมาณจากค่าในฐานข้อมูล</span></div>
+          <div class="panel" id="vis-panel">
+          <div class="panel-h"><h3>การ์ด Visage และอาวุธ Apex</h3><span class="muted" style="font-size:12px" id="vis-cost"></span></div>
+          <div id="bd-vis" style="padding:12px 16px"></div>
+        </div>
+        <div class="panel-h"><h3>คำนวณดาเมจ</h3><span class="muted" style="font-size:12px">ค่าประมาณจากค่าในฐานข้อมูล</span></div>
           <div id="bd-dmg" style="padding:12px 16px"></div>
         </div>
         <div class="panel">
@@ -1394,7 +1398,7 @@ function builderCardHTML(){
    <div class="bw">${wi?IMG(wi,'',w.n):blank('อาวุธ')}<div><b>${w?esc(w.n):'—'}</b><span>${w?`ATK ${w.atk??'—'}${w.el?` · ${WK_TH[w.el]} ${R.ev}`:''} · คริ ${R.aff}%`:''}</span></div></div>
    ${SLOTS.map(sl=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];return `<div class="ba"><span class="sl">${SLOT_TH[sl]}</span>${a&&a.icon?IMG(a.icon,'',a.n):blank(SLOT_TH[sl])}<span>${a?esc(a.n):'<span class="muted">ว่าง</span>'}</span></div>`}).join('')}
    <div class="chipz">${chips.map(chip).join('')||'<span class="muted" style="border:0">ยังไม่มีสกิล</span>'}</div>
-   <div class="legend"><span>▮ เซ็ตเกราะ</span><span style="color:var(--elc)">▮ ธาตุเต็ม Lv7</span><span>▯ สกิลเต็มลิมิต</span><span style="margin-left:auto">MHOUTLANDERTHGUILD · mhoutlanderthguild.pages.dev</span></div></div></div>`;
+   ${(B.vis||[]).length&&typeof vById==='function'?`<div class="bvis">${B.vis.map((c,k)=>{const v=vById(c.id);return v?`<span title="${esc(v.n)}" style="border-color:${{r:'#5aa6dc',e:'#9b7be0',s:'#e0b552'}[c.r]}">${v.img?IMG(v.img,'',v.n):''}${k===0?'<i>CORE</i>':''}</span>`:''}).join('')}</div>`:''}<div class="legend"><span>▮ เซ็ตเกราะ</span><span style="color:var(--elc)">▮ ธาตุเต็ม Lv7</span><span>▯ สกิลเต็มลิมิต</span><span style="margin-left:auto">MHOUTLANDERTHGUILD · mhoutlanderthguild.pages.dev</span></div></div></div>`;
 }
 const _rb=renderBuilder;
 renderBuilder=function(){_rb();$('#bd-card').innerHTML=builderCardHTML();preShot();
@@ -1414,7 +1418,7 @@ async function drawCard(){
   // measure chip rows
   x.font=`600 30px ${FD}`;let cx=P,cy=0,rowsH=0;const pos=[];
   chips.forEach(ch=>{const tw=x.measureText(ch.n).width+(ch.tag?(ch.tag==='set'?70:80):0)+36;if(cx+tw>W-P){cx=P;cy+=58}pos.push([cx,cy,tw]);cx+=tw+12});rowsH=chips.length?cy+50:0;
-  const H=P+70+120+5*86+30+rowsH+130;c.width=W;c.height=H;
+  const VIS=(B.vis||[]).map(c=>[c,typeof vById==='function'?vById(c.id):null]).filter(x=>x[1]);const visH=VIS.length?120:0;const H=P+70+120+5*86+30+rowsH+130+visH;c.width=W;c.height=H;
   const items=[w?(weaponImg(w.n)||MEDIA.weaponIcons[w.t]):null,...SLOTS.map(sl=>{const a=B.armor[sl]&&AR_BY[B.armor[sl]];return a&&a.icon})];
   const imgs=await Promise.all(items.map(loadImg));
   x.fillStyle=V('--bg');x.fillRect(0,0,W,H);x.fillStyle=V('--surface-2');x.fillRect(16,16,W-32,H-32);x.strokeStyle=V('--line-2');x.lineWidth=2;x.strokeRect(16,16,W-32,H-32);
@@ -1428,11 +1432,13 @@ async function drawCard(){
     if(ch.tag==='set'){x.fillStyle='#efe9dc';x.fillRect(px,Y,tw,46)}else if(ch.tag==='elem'){x.fillStyle=EC;x.fillRect(px,Y,tw,46)}else{x.strokeStyle=ch.tag==='max'?EC:V('--line-2');x.lineWidth=2;x.strokeRect(px+1,Y+1,tw-2,44)}
     x.fillStyle=ch.tag==='set'?'#1a1406':ch.tag==='elem'?V('--on-brass'):ch.tag==='max'?EC:V('--fg');x.font=`600 30px ${FD}`;x.fillText(ch.n,px+18,Y+33);
     if(ch.tag){const lab=ch.tag==='set'?'SET':'MAX';const lx=px+18+x.measureText(ch.n).width+10;x.font=`700 20px ${FD}`;const lw=x.measureText(lab).width+12;x.fillStyle=ch.tag==='set'?'#1a1406':ch.tag==='elem'?V('--surface'):EC;x.fillRect(lx,Y+10,lw,26);x.fillStyle=ch.tag==='set'?'#efe9dc':ch.tag==='elem'?EC:V('--surface');x.fillText(lab,lx+6,Y+30)}});
+  if(VIS.length){const vi=await Promise.all(VIS.map(([c,v])=>loadImg(v.img)));y+=rowsH+20;x.fillStyle=V('--muted');x.font=`600 24px ${FD}`;x.fillText('VISAGE',P,y+20);
+    VIS.forEach(([c,v],k)=>{const X=P+130+k*96;x.strokeStyle={r:'#5aa6dc',e:'#9b7be0',s:'#e0b552'}[c.r];x.lineWidth=4;x.strokeRect(X,y-14,80,80);if(vi[k])x.drawImage(vi[k],X+4,y-10,72,72);if(k===0){x.fillStyle='#e0b552';x.fillRect(X,y+56,80,14);x.fillStyle='#111';x.font=`700 12px ${FD}`;x.fillText('CORE',X+22,y+67)}});y+=visH-rowsH-20}
   y+=rowsH+40;x.font=`400 22px ${FB}`;x.fillStyle=V('--muted');x.fillText('▮ เซ็ตเกราะ   ▯ สกิลเต็มลิมิต',P,y);x.fillStyle=EC;x.fillText('▮ ธาตุเต็ม Lv7',P+330,y);x.fillStyle=V('--muted');x.textAlign='right';x.fillText('MHOUTLANDERTHGUILD · mhoutlanderthguild.pages.dev',W-P,y+40);x.textAlign='left';
   return c;
 }
 async function makeShot(){
-  const key=JSON.stringify([B.weapon,B.armor,B.cond,document.documentElement.dataset.theme||'']);
+  const key=JSON.stringify([B.weapon,B.armor,B.cond,B.vis,document.documentElement.dataset.theme||'']);
   if(SHOT.key===key&&SHOT.blob)return SHOT;if(SHOT.busy&&SHOT.busyKey===key)return SHOT.busy;
   SHOT.busyKey=key;SHOT.busy=(async()=>{const cv=await drawCard();const blob=await new Promise(r=>cv.toBlob(r,'image/png'));
     if(SHOT.url)URL.revokeObjectURL(SHOT.url);Object.assign(SHOT,{key,blob,url:URL.createObjectURL(blob),busy:null});return SHOT})();
@@ -1442,7 +1448,7 @@ let shotT;const preShot=()=>{clearTimeout(shotT);shotT=setTimeout(()=>{if(locati
 window.addEventListener('hashchange',preShot);
 $('#bd-shot').addEventListener('click',async()=>{
   const btn=$('#bd-shot');const fn='mhoutlanderthguild-build.png';
-  const ready=SHOT.blob&&SHOT.key===JSON.stringify([B.weapon,B.armor,B.cond,document.documentElement.dataset.theme||'']);
+  const ready=SHOT.blob&&SHOT.key===JSON.stringify([B.weapon,B.armor,B.cond,B.vis,document.documentElement.dataset.theme||'']);
   if(!ready){btn.disabled=true;btn.textContent='กำลังสร้างรูป…'}
   try{
     const r=ready?SHOT:await makeShot();if(!r)throw 0;
@@ -1499,16 +1505,16 @@ function renderDmg(){
   const R=compute(),w=R.w;if(!w){$('#bd-dmg').innerHTML='<p class="muted">เลือกอาวุธก่อน</p>';return}
   const ds=dmgSkills(R);ds.forEach(d=>{if(!(d.id in DMGON))DMGON[d.id]=true});
   const dmgP=ds.filter(d=>DMGON[d.id]).reduce((t,d)=>t+d.p,0);
-  const aff=Math.max(-100,Math.min(100,R.aff));const CM=1.25;const crit=aff>=0?1+aff/100*(CM-1):1+aff/100*0.25;
-  const ce=[0,5,10,15][R.lv('critical-element')]||0;
-  const atk=w.atk||0;const raw=atk*(1+dmgP/100)*crit;
-  let ev=w.el&&ELSK[w.el]!==undefined?R.ev:0;const eb=R.eb||0;const ele=ev*(1+eb/100)*(1+dmgP/100)*(1+Math.max(0,aff)/100*ce/100);
+  const VB=R.vis||{};const aff=Math.max(-100,Math.min(100,R.aff));const CM=1.25+(VB.cd||0)/100;const crit=aff>=0?1+aff/100*(CM-1):1+aff/100*0.25;
+  const ce=([0,5,10,15][R.lv('critical-element')]||0)+(VB.ecd||0);
+  const rad=VB.radiant||0;const atk=Math.round((w.atk||0)*(1+(VB.atkp||0)/100)+(VB.atk||0));const raw=atk*(1+(dmgP+(VB.phys||0)+rad)/100)*crit;
+  let ev=w.el&&ELSK[w.el]!==undefined?R.ev:0;const eb=R.eb||0;const ele=ev*(1+eb/100)*(1+(dmgP+rad)/100)*(1+Math.max(0,aff)/100*ce/100);
   const m=MON_BY[B.target];let note='';
   if(m&&m.w&&w.el){const st=m.w[WK.indexOf(w.el)];note=`ธาตุ${WK_TH[w.el]}ต่อ ${esc(m.n)}: ${st}/3 ดาว`}
   $('#bd-dmg').innerHTML=`<div style="display:flex;gap:18px;flex-wrap:wrap;align-items:end"><div><div class="muted" style="font-size:12px">ดาเมจรวมต่อหน่วย (กายภาพ + ธาตุ)</div><div class="big num">${(raw+ele).toFixed(1)}</div></div><div class="muted" style="font-size:13px">กายภาพ <b class="num">${raw.toFixed(1)}</b> · ธาตุ <b class="num">${ele.toFixed(1)}</b>${note?' · '+note:''}</div></div>
    ${ds.length?`<div class="muted" style="font-size:12px;margin-top:8px">สกิลเพิ่มดาเมจที่มีเงื่อนไข (กดเปิด/ปิด)</div><div class="dmgopt">${ds.map(d=>`<button class="chip" type="button" aria-pressed="${DMGON[d.id]}" data-dmg="${d.id}" title="${esc(d.t)}">${esc(SK[d.id].en)} ${d.l} · +${d.p}%</button>`).join('')}</div>`:''}
    <div class="tbl-wrap dmg"><table><tbody>
-    <tr><td>พลังโจมตีอาวุธ</td><td class="num">${atk}</td></tr>
+    <tr><td>พลังโจมตี (อาวุธ + การ์ด/Apex)</td><td class="num">${atk}${(VB.atkp||VB.atk)?` <small class="muted">(ฐาน ${w.atk||0})</small>`:''}</td></tr>${(VB.cd||VB.phys||rad)?`<tr><td>จากการ์ด/Apex</td><td class="num">${VB.cd?`ดาเมจคริ +${VB.cd}% `:''}${VB.phys?`กายภาพ +${VB.phys}% `:''}${rad?`Radiant +${rad}%`:''}</td></tr>`:''}
     <tr><td>คริติคอล (รวมสกิลและเงื่อนไขด้านบน)</td><td class="num">${aff}% → ตัวคูณ ×${crit.toFixed(3)}</td></tr>
     <tr><td>ดาเมจเพิ่มจากสกิลที่เปิดอยู่</td><td class="num">+${dmgP}%</td></tr>
     <tr><td>ค่าธาตุ${w.el?' '+WK_TH[w.el]:''}</td><td class="num">${ev}${eb?` · ดาเมจธาตุ +${eb}%`:''}${ce?` · คริติคอลธาตุ +${ce}%`:''}</td></tr>
@@ -1754,6 +1760,61 @@ document.addEventListener('touchstart',e=>{if(e.touches.length===2&&e.target.clo
 document.addEventListener('touchmove',e=>{if(!gaPinch||e.touches.length!==2)return;e.preventDefault();const[a,b]=e.touches;const d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);const z=Math.max(1,Math.min(4,+(gaPinch.z*d/gaPinch.d).toFixed(2)));gaSetZoom(z,gaPinch.x,gaPinch.y)},{passive:false});
 document.addEventListener('touchend',e=>{if(gaPinch&&e.touches.length<2)gaPinch=null});
 document.head.insertAdjacentHTML('beforeend','<style>.ga-mapwrap{position:relative}.ga-zoom{position:absolute;right:10px;top:10px;z-index:5;display:flex;flex-direction:column;align-items:center;gap:4px;background:color-mix(in srgb,var(--surface) 88%,transparent);border:1px solid var(--frame,var(--line));padding:4px;box-shadow:0 4px 12px rgba(0,0,0,.4)}.ga-zoom button{width:40px;height:40px;border:1px solid var(--line-2);background:var(--surface-2);color:var(--fg);font:700 20px/1 var(--f-display);cursor:pointer}.ga-zoom button:hover{border-color:var(--brass);color:var(--brass)}.ga-zoom span{font:600 11px var(--f-num);color:var(--muted)}#ga-map-vp{touch-action:pan-x pan-y}@media (pointer:coarse){.ga-zoom button{width:44px;height:44px}}</style>');
+
+/* ---- Builder: Visage cards (cost 12, core slot, rarity, level, substats) + Apex awakening ---- */
+let VD=null;loadJ('visages').then(d=>{VD=d;if(typeof renderBuilder==='function')renderBuilder()});
+const VSUB={'Attack Power':'atkp','Attack':'atk','Affinity':'aff','Crit Damage':'cd','Ele. Crit DMG':'ecd','Damage Reduction':'dr','Defense':'def','Physical Damage':'phys',
+ 'Fire Damage Bonus':'el_fire','Water Damage Bonus':'el_water','Thunder Damage Bonus':'el_thunder','Ice Damage Bonus':'el_ice','Dragon Damage Bonus':'el_dragon','Element Damage Bonus':'ele_all'};
+const VLBL={atkp:'พลังโจมตี %',atk:'พลังโจมตี (ค่าคงที่)',aff:'คริติคอล %',cd:'ดาเมจคริ %',ecd:'ดาเมจคริธาตุ %',dr:'ลดดาเมจที่ได้รับ %',def:'ป้องกัน',phys:'ดาเมจกายภาพ %',ult:'ชาร์จ Ultimate %',ele_all:'ดาเมจธาตุ (ทุกธาตุ) %',el_fire:'ดาเมจไฟ %',el_water:'ดาเมจน้ำ %',el_thunder:'ดาเมจสายฟ้า %',el_ice:'ดาเมจน้ำแข็ง %',el_dragon:'ดาเมจมังกร %'};
+const isApex=w=>!!(w&&WD[w.slug]&&WD[w.slug].apex);
+const vById=id=>VD&&VD.visages.find(v=>v.id===id);
+function visState(b=B){if(!Array.isArray(b.vis))b.vis=[];if(!Array.isArray(b.apex))b.apex=[];return b}
+function visBonus(R,b=B){const o={};const add=(k,v)=>{v=+v;if(!k||!isFinite(v))return;o[k]=(o[k]||0)+v};visState(b);const cnt={};
+  b.vis.forEach(c=>{const v=vById(c.id);if(!v)return;v.sets.forEach(s=>cnt[s]=(cnt[s]||0)+1);(c.subs||[]).forEach(x=>add(VSUB[x.k],x.v))});
+  const act=[];if(VD)VD.sets.forEach(s=>{const n=cnt[s.n]||0;Object.keys(s.eff).forEach(p=>{if(n>=+p){act.push({set:s.n,p,t:s.eff[p],c:s.calc[p]});if(s.calc[p])Object.entries(s.calc[p]).forEach(([k,v])=>add(k,v))}})});
+  const w=R&&R.w;if(isApex(w)){b.apex.forEach(x=>add(VSUB[x.k],x.v));if(b.cond&&b.cond.radiant)add('radiant',VD?VD.apex.radiant_base:8)}
+  const el=w&&w.el;o.eb=(o.ele_all||0)+(el&&o['el_'+el]||0);o.cnt=cnt;o.act=act;return o}
+const _cmpV=compute;compute=function(b=B){const R=_cmpV(b);const VB=visBonus(R,b);R.vis=VB;R.aff=Math.round((R.aff+(VB.aff||0))*10)/10;R.def=(R.def||0)+(VB.def||0);R.eb=(R.eb||0)+(VB.eb||0);return R};
+const _normV=normalize;normalize=function(b){const e=_normV(b);if(!e)return e;const vis=Array.isArray(b&&b.vis)?b.vis:[];
+  e.vis=vis.filter(c=>c&&typeof c.id==='string').slice(0,12).map(c=>({id:c.id,r:['r','e','s'].includes(c.r)?c.r:'s',lv:Math.max(1,Math.min(10,+c.lv||10)),subs:(Array.isArray(c.subs)?c.subs:[]).slice(0,5).map(x=>({k:String(x.k||''),v:+x.v||0}))}));
+  e.apex=(Array.isArray(b&&b.apex)?b.apex:[]).slice(0,5).map(x=>({k:String(x.k||''),v:+x.v||0}));return e};
+B=normalize(B)||B;
+function renderVis(){const box=$('#bd-vis');if(!box)return;if(!VD){box.innerHTML='<p class="muted">กำลังโหลดข้อมูลการ์ด…</p>';return}
+  visState();const R=compute(),VB=R.vis,used=B.vis.reduce((t,c)=>t+((vById(c.id)||{}).cost||0),0),lim=VD.cost_limit;
+  $('#vis-cost').innerHTML=`Cost <b style="color:${used>lim?'var(--danger)':'var(--brass)'}">${used}/${lim}</b>`;
+  const RR=Object.fromEntries(VD.rarity.map(r=>[r.k,r]));
+  const cards=B.vis.map((c,i)=>{const v=vById(c.id);if(!v)return '';const slots=Math.floor(c.lv/VD.sub_every);const rc=RR[c.r].c;
+    return `<div class="vcard" style="--rc:${rc}"><div class="vc-h">${v.img?IMG(v.img,'',v.n):''}<div class="vc-t"><b>${esc(v.n)}</b>${i===0?'<span class="vcore">CORE</span>':`<button class="x-btn" data-vcore="${i}" type="button">ตั้งเป็น Core</button>`}<small>Cost ${v.cost} · ${v.sets.map(esc).join(' / ')}</small></div><button class="x-btn" data-vdel="${i}" type="button" aria-label="เอาออก">✕</button></div>
+     <div class="vc-row"><label>ระดับ <select data-vr="${i}">${VD.rarity.map(r=>`<option value="${r.k}" ${r.k===c.r?'selected':''}>${r.n}</option>`).join('')}</select></label><label>เลเวล <select data-vlv="${i}">${Array.from({length:VD.level_max},(_,k)=>`<option ${k+1===c.lv?'selected':''}>${k+1}</option>`).join('')}</select></label><span class="src2">ช่องค่ารอง ${slots}/5</span></div>
+     ${i===0&&v.core?`<p class="src2" style="margin:4px 0">Core: ${esc(v.core)}</p>`:''}
+     <div class="vc-subs">${Array.from({length:slots},(_,k)=>{const x=(c.subs||[])[k]||{k:'',v:0};return `<div class="vsub"><select data-vsk="${i}:${k}"><option value="">— ค่ารอง ${k+1} —</option>${v.potential.map(p=>`<option ${p===x.k?'selected':''}>${esc(p)}</option>`).join('')}</select><input type="number" step="0.1" inputmode="decimal" placeholder="ค่า" value="${x.k?x.v:''}" data-vsv="${i}:${k}" ${x.k?'':'disabled'}></div>`}).join('')}</div></div>`}).join('');
+  const left=lim-used;const opts=VD.visages.slice().sort((a,b)=>a.n.localeCompare(b.n)).map(v=>`<option value="${v.id}" ${v.cost>left?'disabled':''}>${esc(v.n)} (Cost ${v.cost})</option>`).join('');
+  const setRows=Object.entries(VB.cnt||{}).sort((a,b)=>b[1]-a[1]).map(([s,n])=>{const S=VD.sets.find(x=>x.n===s);return `<div class="vset"><b>${esc(s)}</b> <span class="muted">${n} ใบ</span>${S?Object.entries(S.eff).map(([p,t])=>`<div class="${n>=+p?'on':''}">${p}-piece: ${esc(t)}${n>=+p?(S.calc[p]?' <em>(รวมในคำนวณแล้ว)</em>':' <em>(มีเงื่อนไข ไม่รวมในคำนวณ)</em>'):''}</div>`).join(''):''}</div>`}).join('');
+  const sum=Object.entries(VLBL).filter(([k])=>VB[k]).map(([k,l])=>`<span class="mpill">${l} ${VB[k]>0?'+':''}${Math.round(VB[k]*10)/10}</span>`).join('')+(VB.radiant?`<span class="mpill">ดาเมจต่อ Radiant +${VB.radiant}% (Apex)</span>`:'');
+  let ap='';const w=R.w;if(isApex(w)){const A=VD.apex;ap=`<div class="vapex"><h4 style="margin:0 0 6px">อาวุธ Apex · ${esc(w.n)}</h4><p style="margin:0 0 6px;font-size:14px">${esc(A.mastery[w.t]||'')}</p>
+    <div class="vc-subs">${Array.from({length:A.awaken_slots},(_,k)=>{const x=B.apex[k]||{k:'',v:0};return `<div class="vsub"><select data-ak="${k}"><option value="">— ปลุกพลัง ${k+1} —</option>${A.awaken_types.map(p=>`<option ${p===x.k?'selected':''}>${esc(p)}</option>`).join('')}</select><input type="number" step="0.1" inputmode="decimal" placeholder="ค่า" value="${x.k?x.v:''}" data-av="${k}" ${x.k?'':'disabled'}></div>`}).join('')}</div>
+    <p class="src2">${esc(A.note)} · เปิดเงื่อนไข “เป้าหมายเป็น Radiant” เพื่อรวมดาเมจ +${A.radiant_base}% ของ Mastery · ที่มา: ${srcLinks(A.source)}</p></div>`}
+  box.innerHTML=`<div class="vadd"><select id="vis-pick"><option value="">+ เพิ่มการ์ด (เหลือ Cost ${left})</option>${opts}</select></div>
+   <div class="vgrid">${cards||'<p class="muted">ยังไม่มีการ์ด เลือกจากช่องด้านบน การ์ดใบแรกคือช่อง Core</p>'}</div>
+   ${setRows?`<h4 style="margin:12px 0 6px">เซ็ตการ์ด</h4>${setRows}`:''}
+   ${sum?`<h4 style="margin:12px 0 6px">ค่าที่ได้รวม (นำไปคำนวณดาเมจด้านล่าง)</h4><div>${sum}</div>`:''}${ap}
+   <p class="src2" style="margin-top:8px">${VD.notes.map(esc).join(' · ')} · ที่มา: ${srcLinks(VD.source)}</p>`}
+const _rbV=renderBuilder;renderBuilder=function(){_rbV();renderVis()};
+const visSave=()=>{saveCur();renderBuilder()};
+document.addEventListener('change',e=>{const t=e.target;if(!VD||!t.closest('#bd-vis'))return;visState();let m;
+  if(t.id==='vis-pick'&&t.value){B.vis.push({id:t.value,r:'s',lv:10,subs:[]});visSave()}
+  else if(t.dataset.vr!=null){B.vis[+t.dataset.vr].r=t.value;visSave()}
+  else if(t.dataset.vlv!=null){const c=B.vis[+t.dataset.vlv];c.lv=+t.value;c.subs=(c.subs||[]).slice(0,Math.floor(c.lv/VD.sub_every));visSave()}
+  else if(t.dataset.vsk){const[i,k]=t.dataset.vsk.split(':').map(Number);const c=B.vis[i];c.subs=c.subs||[];c.subs[k]={k:t.value,v:(c.subs[k]||{}).v||0};visSave()}
+  else if(t.dataset.ak!=null){B.apex[+t.dataset.ak]={k:t.value,v:(B.apex[+t.dataset.ak]||{}).v||0};visSave()}});
+document.addEventListener('input',e=>{const t=e.target;if(!VD||!t.closest('#bd-vis'))return;
+  if(t.dataset.vsv){const[i,k]=t.dataset.vsv.split(':').map(Number);const s=B.vis[i].subs[k];if(s){s.v=+t.value||0;saveCur();renderDmg();vsumOnly()}}
+  else if(t.dataset.av!=null){const s=B.apex[+t.dataset.av];if(s){s.v=+t.value||0;saveCur();renderDmg();vsumOnly()}}});
+function vsumOnly(){}/* totals refresh on blur to keep input focus */
+document.addEventListener('focusout',e=>{if(e.target.closest&&e.target.closest('#bd-vis input'))renderBuilder()});
+document.addEventListener('click',e=>{const g=s=>e.target.closest(s);let t;if(!VD)return;
+  if(t=g('[data-vdel]')){B.vis.splice(+t.dataset.vdel,1);visSave()}else if(t=g('[data-vcore]')){const i=+t.dataset.vcore;B.vis.unshift(B.vis.splice(i,1)[0]);visSave()}});
+document.head.insertAdjacentHTML('beforeend','<style>.vadd select{width:100%}.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin-top:10px}.vcard{border:1px solid var(--rc);border-left:4px solid var(--rc);background:var(--surface-2);padding:10px}.vc-h{display:flex;gap:10px;align-items:center}.vc-h img{width:56px;height:56px;object-fit:contain;flex:none;border:1px solid var(--rc);background:var(--bg)}.vc-t{flex:1;min-width:0}.vc-t b{font-family:var(--f-display);margin-right:6px}.vc-t small{display:block;color:var(--muted);font-size:12px}.vcore{font:700 10px var(--f-num);background:var(--brass);color:var(--on-brass);padding:1px 6px}.vc-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0 4px;font-size:13px}.vc-row select,.vsub select,.vsub input,.vadd select{background:var(--bg);color:var(--fg);border:1px solid var(--line-2);padding:6px;min-height:36px}.vc-subs{display:grid;gap:6px}.vsub{display:grid;grid-template-columns:1fr 90px;gap:6px}.vset{font-size:13px;margin-bottom:6px}.vset div{color:var(--muted);padding-left:10px}.vset div.on{color:var(--fg)}.vset em{color:var(--brass);font-style:normal;font-size:11px}.bvis{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.bvis span{position:relative;border:2px solid;width:44px;height:44px;background:var(--bg)}.bvis img{width:100%;height:100%;object-fit:contain}.bvis i{position:absolute;left:0;right:0;bottom:-2px;font:700 8px var(--f-num);text-align:center;background:var(--brass);color:#111;font-style:normal}.vapex{margin-top:12px;border:1px solid var(--frame,var(--line));padding:10px;background:var(--surface-2)}</style>');
 
 </script>
 <style>

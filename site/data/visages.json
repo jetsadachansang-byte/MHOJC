@@ -1,0 +1,1402 @@
+{
+ "visages": [
+  {
+   "id": "anjanath",
+   "n": "Anjanath",
+   "cost": 3,
+   "sets": [
+    "Ink of Combat"
+   ],
+   "monster": "Anjanath",
+   "core": "After an adventurer uses a buff squadmate skill, squad damage +3.5% for 60s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/anjanath",
+   "img": "img/visage/anjanath.webp"
+  },
+  {
+   "id": "apceros",
+   "n": "Apceros",
+   "cost": 1,
+   "sets": [
+    "Ink of Protection",
+    "Ink of Water"
+   ],
+   "monster": "Apceros",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/apceros",
+   "img": "img/visage/apceros.webp"
+  },
+  {
+   "id": "aptonoth",
+   "n": "Aptonoth",
+   "cost": 1,
+   "sets": [
+    "Ink of Protection"
+   ],
+   "monster": "Aptonoth",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/aptonoth",
+   "img": "img/visage/aptonoth.webp"
+  },
+  {
+   "id": "barnos",
+   "n": "Barnos",
+   "cost": 1,
+   "sets": [
+    "Ink of Flames",
+    "Ink of Dragon"
+   ],
+   "monster": "Barnos",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/barnos",
+   "img": "img/visage/barnos.webp"
+  },
+  {
+   "id": "barroth",
+   "n": "Barroth",
+   "cost": 4,
+   "sets": [
+    "Ink of Water",
+    "Ink of Protection"
+   ],
+   "monster": "Barroth",
+   "core": "When equipped with a water weapon, water damage +7%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/barroth",
+   "img": "img/visage/barroth.webp"
+  },
+  {
+   "id": "black-diablos",
+   "n": "Black Diablos",
+   "cost": 4,
+   "sets": [
+    "Ink of Dragon"
+   ],
+   "monster": "Black Diablos",
+   "core": "When equipped with a dragon weapon, dragon damage +7%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/black-diablos",
+   "img": "img/visage/black-diablos.webp"
+  },
+  {
+   "id": "diablos",
+   "n": "Diablos",
+   "cost": 4,
+   "sets": [
+    "Ink of Protection"
+   ],
+   "monster": "Diablos",
+   "core": "When equipped with a physical or ailment weapon, physical damage +3.5%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/diablos",
+   "img": "img/visage/diablos.webp"
+  },
+  {
+   "id": "gajau",
+   "n": "Gajau",
+   "cost": 1,
+   "sets": [
+    "Ink of Water",
+    "Ink of Frost"
+   ],
+   "monster": "Gajau",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/gajau",
+   "img": "img/visage/gajau.webp"
+  },
+  {
+   "id": "gastodon",
+   "n": "Gastodon",
+   "cost": 1,
+   "sets": [
+    "Ink of Might",
+    "Ink of Dragon"
+   ],
+   "monster": "Gastodon",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/gastodon",
+   "img": "img/visage/gastodon.webp"
+  },
+  {
+   "id": "girros",
+   "n": "Girros",
+   "cost": 1,
+   "sets": [
+    "Ink of Thunder",
+    "Ink of Combat"
+   ],
+   "monster": "Girros",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/girros",
+   "img": "img/visage/girros.webp"
+  },
+  {
+   "id": "great-girros",
+   "n": "Great Girros",
+   "cost": 4,
+   "sets": [
+    "Ink of Thunder",
+    "Ink of Grace"
+   ],
+   "monster": "Great Girros",
+   "core": "Paralysis Resistance +3. Prevents paralysis.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/great-girros",
+   "img": "img/visage/great-girros.webp"
+  },
+  {
+   "id": "great-jagras",
+   "n": "Great Jagras",
+   "cost": 3,
+   "sets": [
+    "Ink of Dragon",
+    "Ink of Resonance"
+   ],
+   "monster": "Great Jagras",
+   "core": "Quick-Bite +3. Greatly increases the speed of eating meat and using items.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/great-jagras",
+   "img": "img/visage/great-jagras.webp"
+  },
+  {
+   "id": "hornetaur",
+   "n": "Hornetaur",
+   "cost": 1,
+   "sets": [
+    "Ink of Protection",
+    "Ink of Dragon"
+   ],
+   "monster": "Hornetaur",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/hornetaur",
+   "img": "img/visage/hornetaur.webp"
+  },
+  {
+   "id": "jagras",
+   "n": "Jagras",
+   "cost": 1,
+   "sets": [
+    "Ink of Resonance",
+    "Ink of Combat"
+   ],
+   "monster": "Jagras",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/jagras",
+   "img": "img/visage/jagras.webp"
+  },
+  {
+   "id": "jyuratodus",
+   "n": "Jyuratodus",
+   "cost": 4,
+   "sets": [
+    "Ink of Water",
+    "Ink of Frost"
+   ],
+   "monster": "Jyuratodus",
+   "core": "Unaffected by movement penalties when stuck in mud.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/jyuratodus",
+   "img": "img/visage/jyuratodus.webp"
+  },
+  {
+   "id": "kelbi",
+   "n": "Kelbi",
+   "cost": 1,
+   "sets": [
+    "Ink of Frost",
+    "Ink of Grace"
+   ],
+   "monster": "Kelbi",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kelbi",
+   "img": "img/visage/kelbi.webp"
+  },
+  {
+   "id": "kestodon",
+   "n": "Kestodon",
+   "cost": 1,
+   "sets": [
+    "Ink of Might",
+    "Ink of Flames"
+   ],
+   "monster": "Kestodon",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kestodon",
+   "img": "img/visage/kestodon.webp"
+  },
+  {
+   "id": "kulu-ya-ku",
+   "n": "Kulu-Ya-Ku",
+   "cost": 3,
+   "sets": [
+    "Ink of Might",
+    "Ink of Flames"
+   ],
+   "monster": "Kulu-Ya-Ku",
+   "core": "Instinct +1. Attacks will not be deflected.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kulu-ya-ku",
+   "img": "img/visage/kulu-ya-ku.webp"
+  },
+  {
+   "id": "kushala-daora",
+   "n": "Kushala Daora",
+   "cost": 3,
+   "sets": [
+    "Kushala Daora's Tempest"
+   ],
+   "monster": "Kushala Daora",
+   "core": "Elemental Damage +10%, increased to 18% against a monster's broken parts. (Season 0 only)",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/kushala-daora",
+   "img": "img/visage/kushala-daora.webp"
+  },
+  {
+   "id": "legiana",
+   "n": "Legiana",
+   "cost": 4,
+   "sets": [
+    "Ink of Frost"
+   ],
+   "monster": "Legiana",
+   "core": "When equipped with an ice weapon, ice damage +7%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/legiana",
+   "img": "img/visage/legiana.webp"
+  },
+  {
+   "id": "mernos",
+   "n": "Mernos",
+   "cost": 1,
+   "sets": [
+    "Ink of Water",
+    "Ink of Thunder"
+   ],
+   "monster": "Mernos",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/mernos",
+   "img": "img/visage/mernos.webp"
+  },
+  {
+   "id": "nergigante",
+   "n": "Nergigante",
+   "cost": 3,
+   "sets": [
+    "Ink of Frost"
+   ],
+   "monster": "Nergigante",
+   "core": "When equipped with an ice weapon, ice damage +15%. (S0 Season only)",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/nergigante",
+   "img": "img/visage/nergigante.webp"
+  },
+  {
+   "id": "noios",
+   "n": "Noios",
+   "cost": 1,
+   "sets": [
+    "Ink of Guidance",
+    "Ink of Flames"
+   ],
+   "monster": "Noios",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/noios",
+   "img": "img/visage/noios.webp"
+  },
+  {
+   "id": "odogaron",
+   "n": "Odogaron",
+   "cost": 3,
+   "sets": [
+    "Ink of Combat",
+    "Ink of Dragon"
+   ],
+   "monster": "Odogaron",
+   "core": "Bleeding Resistance +3. Prevents bleeding.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/odogaron",
+   "img": "img/visage/odogaron.webp"
+  },
+  {
+   "id": "paolumu",
+   "n": "Paolumu",
+   "cost": 4,
+   "sets": [
+    "Ink of Resonance",
+    "Ink of Might"
+   ],
+   "monster": "Paolumu",
+   "core": "When Windproof reaches level 3, grants the entire squad immunity to all wind pressure (including dragon wind pressure).",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/paolumu",
+   "img": "img/visage/paolumu.webp"
+  },
+  {
+   "id": "pink-rathian",
+   "n": "Pink Rathian",
+   "cost": 4,
+   "sets": [
+    "Ink of Combat"
+   ],
+   "monster": "Pink Rathian",
+   "core": "After a debuff skill hits a monster, its damage taken +6% for 30s. Cooldown: 60s.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pink-rathian",
+   "img": "img/visage/pink-rathian.webp"
+  },
+  {
+   "id": "pitcher-atecoli",
+   "n": "Pitcher Atecoli",
+   "cost": 1,
+   "sets": [
+    "Ink of Resonance",
+    "Ink of Guidance"
+   ],
+   "monster": "Pitcher Atecoli",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pitcher-atecoli",
+   "img": "img/visage/pitcher-atecoli.webp"
+  },
+  {
+   "id": "pukei-pukei",
+   "n": "Pukei-Pukei",
+   "cost": 3,
+   "sets": [
+    "Ink of Grace",
+    "Ink of Protection"
+   ],
+   "monster": "Pukei-Pukei",
+   "core": "When an ultimate heals a squadmate, squad damage +3.5% for 60s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/pukei-pukei",
+   "img": "img/visage/pukei-pukei.webp"
+  },
+  {
+   "id": "radiant-anjanath",
+   "n": "Radiant Anjanath",
+   "cost": 3,
+   "sets": [
+    "Ink of Might"
+   ],
+   "monster": "Radiant Anjanath",
+   "core": "During charged attacks, dragon damage +10%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-anjanath",
+   "img": "img/visage/radiant-anjanath.webp"
+  },
+  {
+   "id": "radiant-barroth",
+   "n": "Radiant Barroth",
+   "cost": 3,
+   "sets": [
+    "Ink of Water"
+   ],
+   "monster": "Radiant Barroth",
+   "core": "When charge reaches its highest level, water damage +10% for 45s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-barroth",
+   "img": "img/visage/radiant-barroth.webp"
+  },
+  {
+   "id": "radiant-black-diablos",
+   "n": "Radiant Black Diablos",
+   "cost": 3,
+   "sets": [
+    "Ink of Resonance"
+   ],
+   "monster": "Radiant Black Diablos",
+   "core": "When not playing as the Main Adventurer, ultimate elemental damage +32%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-black-diablos",
+   "img": "img/visage/radiant-black-diablos.webp"
+  },
+  {
+   "id": "radiant-diablos",
+   "n": "Radiant Diablos",
+   "cost": 3,
+   "sets": [
+    "Ink of Protection",
+    "Ink of Dragon"
+   ],
+   "monster": "Radiant Diablos",
+   "core": "After triggering ferocity, dragon damage +10% for 45s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-diablos",
+   "img": "img/visage/radiant-diablos.webp"
+  },
+  {
+   "id": "radiant-great-girros",
+   "n": "Radiant Great Girros",
+   "cost": 3,
+   "sets": [
+    "Ink of Thunder",
+    "Ink of Grace"
+   ],
+   "monster": "Radiant Great Girros",
+   "core": "After triggering combo damage, thunder damage +10% for 15s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-great-girros",
+   "img": "img/visage/radiant-great-girros.webp"
+  },
+  {
+   "id": "radiant-great-jagras",
+   "n": "Radiant Great Jagras",
+   "cost": 4,
+   "sets": [
+    "Ink of Guidance"
+   ],
+   "monster": "Radiant Great Jagras",
+   "core": "After eating a BBQ, fire damage +10% for 45s. Effect ends early after taking 100 total damage.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-great-jagras",
+   "img": "img/visage/radiant-great-jagras.webp"
+  },
+  {
+   "id": "radiant-jyuratodus",
+   "n": "Radiant Jyuratodus",
+   "cost": 3,
+   "sets": [
+    "Ink of Water",
+    "Ink of Protection"
+   ],
+   "monster": "Radiant Jyuratodus",
+   "core": "After using shield, squad defense +10 and squad damage +4% for 45s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-jyuratodus",
+   "img": "img/visage/radiant-jyuratodus.webp"
+  },
+  {
+   "id": "radiant-kulu-ya-ku",
+   "n": "Radiant Kulu-Ya-Ku",
+   "cost": 4,
+   "sets": [
+    "Ink of Flames",
+    "Ink of Guidance"
+   ],
+   "monster": "Radiant Kulu-Ya-Ku",
+   "core": "After triggering combo damage, fire damage +16% for 10s. Cooldown: 20s.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-kulu-ya-ku",
+   "img": "img/visage/radiant-kulu-ya-ku.webp"
+  },
+  {
+   "id": "radiant-legiana",
+   "n": "Radiant Legiana",
+   "cost": 3,
+   "sets": [
+    "Ink of Frost"
+   ],
+   "monster": "Radiant Legiana",
+   "core": "While airborne, ice damage +10%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-legiana",
+   "img": "img/visage/radiant-legiana.webp"
+  },
+  {
+   "id": "radiant-odogaron",
+   "n": "Radiant Odogaron",
+   "cost": 4,
+   "sets": [
+    "Ink of Might",
+    "Ink of Combat"
+   ],
+   "monster": "Radiant Odogaron",
+   "core": "After triggering combo damage, dragon damage +10% for 15s.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-odogaron",
+   "img": "img/visage/radiant-odogaron.webp"
+  },
+  {
+   "id": "radiant-paolumu",
+   "n": "Radiant Paolumu",
+   "cost": 3,
+   "sets": [
+    "Ink of Guidance"
+   ],
+   "monster": "Radiant Paolumu",
+   "core": "While airborne, water damage +10%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-paolumu",
+   "img": "img/visage/radiant-paolumu.webp"
+  },
+  {
+   "id": "radiant-pink-rathian",
+   "n": "Radiant Pink Rathian",
+   "cost": 4,
+   "sets": [
+    "Ink of Dragon",
+    "Ink of Resonance"
+   ],
+   "monster": "Radiant Pink Rathian",
+   "core": "When not playing as the Main Adventurer, ultimate elemental damage +32%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-pink-rathian",
+   "img": "img/visage/radiant-pink-rathian.webp"
+  },
+  {
+   "id": "radiant-pukei-pukei",
+   "n": "Radiant Pukei-Pukei",
+   "cost": 3,
+   "sets": [
+    "Ink of Grace",
+    "Ink of Might"
+   ],
+   "monster": "Radiant Pukei-Pukei",
+   "core": "After using a skill that consumes a coating, water damage +10% for 45s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-pukei-pukei",
+   "img": "img/visage/radiant-pukei-pukei.webp"
+  },
+  {
+   "id": "radiant-radobaan",
+   "n": "Radiant Radobaan",
+   "cost": 3,
+   "sets": [
+    "Ink of Frost"
+   ],
+   "monster": "Radiant Radobaan",
+   "core": "After using a charged skill, ice damage +10% for 15s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-radobaan",
+   "img": "img/visage/radiant-radobaan.webp"
+  },
+  {
+   "id": "radiant-rathalos",
+   "n": "Radiant Rathalos",
+   "cost": 3,
+   "sets": [
+    "Ink of Flames",
+    "Ink of Guidance"
+   ],
+   "monster": "Radiant Rathalos",
+   "core": "After using a charged skill, fire damage +10% for 15s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-rathalos",
+   "img": "img/visage/radiant-rathalos.webp"
+  },
+  {
+   "id": "radiant-rathian",
+   "n": "Radiant Rathian",
+   "cost": 4,
+   "sets": [
+    "Ink of Flames"
+   ],
+   "monster": "Radiant Rathian",
+   "core": "After triggering rupture damage, fire damage +10% for 20s.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-rathian",
+   "img": "img/visage/radiant-rathian.webp"
+  },
+  {
+   "id": "radiant-tobi-kadachi",
+   "n": "Radiant Tobi-Kadachi",
+   "cost": 3,
+   "sets": [
+    "Ink of Thunder"
+   ],
+   "monster": "Radiant Tobi-Kadachi",
+   "core": "When dealing piercing damage, thunder damage +10%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-tobi-kadachi",
+   "img": "img/visage/radiant-tobi-kadachi.webp"
+  },
+  {
+   "id": "radiant-tzitzi-ya-ku",
+   "n": "Radiant Tzitzi-Ya-Ku",
+   "cost": 3,
+   "sets": [
+    "Ink of Thunder"
+   ],
+   "monster": "Radiant Tzitzi-Ya-Ku",
+   "core": "After triggering daze on a monster, thunder damage +16% for 30s. Cooldown: 60s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radiant-tzitzi-ya-ku",
+   "img": "img/visage/radiant-tzitzi-ya-ku.webp"
+  },
+  {
+   "id": "radobaan",
+   "n": "Radobaan",
+   "cost": 3,
+   "sets": [
+    "Ink of Resonance",
+    "Ink of Frost"
+   ],
+   "monster": "Radobaan",
+   "core": "Sleep Resistance +3. Prevents sleep.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/radobaan",
+   "img": "img/visage/radobaan.webp"
+  },
+  {
+   "id": "raphinos",
+   "n": "Raphinos",
+   "cost": 1,
+   "sets": [
+    "Ink of Grace",
+    "Ink of Frost"
+   ],
+   "monster": "Raphinos",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/raphinos",
+   "img": "img/visage/raphinos.webp"
+  },
+  {
+   "id": "rathalos",
+   "n": "Rathalos",
+   "cost": 3,
+   "sets": [
+    "Ink of Guidance",
+    "Ink of Combat"
+   ],
+   "monster": "Rathalos",
+   "core": "After an ultimate inflicts suppression on a monster, squad damage +6% for 30s. Cooldown: 60s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/rathalos",
+   "img": "img/visage/rathalos.webp"
+  },
+  {
+   "id": "rathian",
+   "n": "Rathian",
+   "cost": 3,
+   "sets": [
+    "Ink of Flames"
+   ],
+   "monster": "Rathian",
+   "core": "When equipped with a fire weapon, fire damage +7%.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/rathian",
+   "img": "img/visage/rathian.webp"
+  },
+  {
+   "id": "ruger-aidal",
+   "n": "Ruger Aidal",
+   "cost": 3,
+   "sets": [
+    "Ink of Flames"
+   ],
+   "monster": "Ruger Aidal",
+   "core": "When equipped with a fire weapon, fire damage +15%. (S0 Season only)",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/ruger-aidal",
+   "img": "img/visage/ruger-aidal.webp"
+  },
+  {
+   "id": "shamos",
+   "n": "Shamos",
+   "cost": 1,
+   "sets": [
+    "Ink of Grace",
+    "Ink of Resonance"
+   ],
+   "monster": "Shamos",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/shamos",
+   "img": "img/visage/shamos.webp"
+  },
+  {
+   "id": "tobi-kadachi",
+   "n": "Tobi-Kadachi",
+   "cost": 4,
+   "sets": [
+    "Ink of Thunder",
+    "Ink of Grace"
+   ],
+   "monster": "Tobi-Kadachi",
+   "core": "When equipped with a thunder weapon, thunder damage +7%.",
+   "potential": [
+    "Attack Power",
+    "Fire Damage Bonus",
+    "Water Damage Bonus",
+    "Ice Damage Bonus",
+    "Thunder Damage Bonus",
+    "Dragon Damage Bonus",
+    "Physical Damage",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/tobi-kadachi",
+   "img": "img/visage/tobi-kadachi.webp"
+  },
+  {
+   "id": "tzitzi-ya-ku",
+   "n": "Tzitzi-Ya-Ku",
+   "cost": 3,
+   "sets": [
+    "Ink of Water"
+   ],
+   "monster": "Tzitzi-Ya-Ku",
+   "core": "Daze duration +0.5s. After a monster is dazed, its damage taken +6% for 30s. Cooldown: 60s.",
+   "potential": [
+    "Attack Power",
+    "Affinity",
+    "Crit Damage",
+    "Ele. Crit DMG",
+    "Damage Reduction",
+    "Attack",
+    "Defense"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/tzitzi-ya-ku",
+   "img": "img/visage/tzitzi-ya-ku.webp"
+  },
+  {
+   "id": "vespoid",
+   "n": "Vespoid",
+   "cost": 1,
+   "sets": [
+    "Ink of Thunder",
+    "Ink of Guidance"
+   ],
+   "monster": "Vespoid",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/vespoid",
+   "img": "img/visage/vespoid.webp"
+  },
+  {
+   "id": "warrior-atecoli",
+   "n": "Warrior Atecoli",
+   "cost": 1,
+   "sets": [
+    "Ink of Might",
+    "Ink of Combat"
+   ],
+   "monster": "Warrior Atecoli",
+   "core": "None (cost 1 visages have no core effect)",
+   "potential": [
+    "Defense",
+    "Damage Reduction",
+    "Attack"
+   ],
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/visages/warrior-atecoli",
+   "img": "img/visage/warrior-atecoli.webp"
+  }
+ ],
+ "sets": [
+  {
+   "n": "Ink of Flames",
+   "eff": {
+    "2": "Fire damage +5%.",
+    "4": "After hitting a part with good or decent hitzone values, fire damage +24% for 20s."
+   },
+   "calc": {
+    "2": {
+     "el_fire": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Combat",
+   "eff": {
+    "2": "Affinity +5%.",
+    "4": "When an ultimate inflicts a debuff on a monster, squad damage +6.5% for 60s."
+   },
+   "calc": {
+    "2": {
+     "aff": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Guidance",
+   "eff": {
+    "2": "Ultimate charge rate +5%.",
+    "4": "Within 8s after an ultimate inflicts suppression on a monster, each time the squad uses an ultimate, squad damage +2.2% for 60s, up to 3 stacks."
+   },
+   "calc": {
+    "2": {
+     "ult": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Protection",
+   "eff": {
+    "2": "Ultimate charge rate +5%.",
+    "4": "When an adventurer and Buddy grant a squadmate healing or shield effect, the effect +20%, squad damage +6% for 45s."
+   },
+   "calc": {
+    "2": {
+     "ult": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Dragon",
+   "eff": {
+    "2": "Dragon damage +5%.",
+    "4": "After using an ultimate, dragon damage +24% for 60s."
+   },
+   "calc": {
+    "2": {
+     "el_dragon": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Water",
+   "eff": {
+    "2": "Water damage +5%.",
+    "4": "Each time a squadmate unleashes an ultimate, water damage +6% for 60s, up to 4 stacks."
+   },
+   "calc": {
+    "2": {
+     "el_water": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Might",
+   "eff": {
+    "2": "Physical damage +5%.",
+    "4": "After landing a critical hit, physical damage +12% for 60s."
+   },
+   "calc": {
+    "2": {
+     "phys": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Grace",
+   "eff": {
+    "2": "Ultimate charge rate +5%.",
+    "4": "When an adventurer grants a squadmate a buff, squad damage +6.5% for 60s."
+   },
+   "calc": {
+    "2": {
+     "ult": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Frost",
+   "eff": {
+    "2": "Ice damage +5%.",
+    "4": "After hitting a monster, ice damage +24% for 8s."
+   },
+   "calc": {
+    "2": {
+     "el_ice": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Thunder",
+   "eff": {
+    "2": "Thunder damage +5%.",
+    "4": "After dealing damage to monsters, thunder damage +5% for 12s, up to 5 stacks."
+   },
+   "calc": {
+    "2": {
+     "el_thunder": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Ink of Resonance",
+   "eff": {
+    "2": "Affinity +5%.",
+    "4": "When not playing as the Main Adventurer, ultimate damage +32%."
+   },
+   "calc": {
+    "2": {
+     "aff": 5.0
+    },
+    "4": null
+   }
+  },
+  {
+   "n": "Kushala Daora's Tempest",
+   "eff": {
+    "1": "Elemental Damage +2% (Season 0 only)",
+    "2": "Elemental Damage +3%, increased to 10% when the monster is suppressed. (Season 0 only)"
+   },
+   "calc": {
+    "1": {
+     "ele_all": 2.0
+    },
+    "2": null
+   }
+  }
+ ],
+ "cost_limit": 12,
+ "rarity": [
+  {
+   "k": "r",
+   "n": "Rare (ฟ้า)",
+   "c": "#5aa6dc"
+  },
+  {
+   "k": "e",
+   "n": "Epic (ม่วง)",
+   "c": "#9b7be0"
+  },
+  {
+   "k": "s",
+   "n": "Superior (ทอง)",
+   "c": "#e0b552"
+  }
+ ],
+ "level_max": 10,
+ "sub_every": 2,
+ "notes": [
+  "Cost รวมสูงสุด 12 · Core Effect ทำงานเฉพาะการ์ดในช่อง Core",
+  "ทุกระดับเลเวลสูงสุด 10 และปลดช่องค่ารอง (substat) ทุก 2 เลเวล รวม 5 ช่อง",
+  "แหล่งข้อมูลไม่เปิดเผยตัวเลขค่าหลัก/ค่ารองตามระดับและเลเวล จึงให้ใส่ตัวเลขเองตามที่เห็นในเกม"
+ ],
+ "apex": {
+  "mastery": {
+   "great-sword": "Great Sword Mastery: ดาเมจต่อมอนสเตอร์ Radiant +8% · ชาร์จสกิลจังหวะพอดี ท่าชักดาบได้คริ +12% ต่อ Radiant",
+   "long-sword": "Long Sword Mastery: ดาเมจต่อ Radiant +8% · เพิ่มเกจ Spirit แต่ละระดับ ดาเมจต่อ Radiant +1.4% (สูงสุด 3 ชั้น จนจบการล่า)",
+   "dual-blades": "Dual Blades Mastery: ล่า Radiant แล้วโจมตีหลายฮิต คริ +1% ต่อชั้น (สูงสุด 20 ชั้น วินาทีละชั้น)",
+   "hammer": "Hammer Mastery: ดาเมจต่อ Radiant +8% · ตีหัว Radiant ดาเมจเพิ่มอีก +3% และสะสมมึนมากขึ้น",
+   "lance": "Lance Mastery: ใช้สตามินา −5% และดาเมจต่อ Radiant +8% · เพื่อนที่ได้ผล Ultimate ชาร์จ Ultimate +6%",
+   "charge-blade": "Charge Blade Mastery: ดาเมจต่อ Radiant +8% · ชาร์จพลังขวดแล้วดาเมจต่อ Radiant +12% อีก 8 วินาที",
+   "heavy-bowgun": "Heavy Bowgun Mastery: ดาเมจต่อ Radiant +8% · หลังใช้ Ultimate เพิ่มเป็น +12% 10 วินาที",
+   "bow": "Bow Mastery: ดาเมจต่อ Radiant +8% · ใช้พลังงานแต่ละครั้ง ดาเมจต่อ Radiant +1% (สูงสุด 3 ชั้น)"
+  },
+  "radiant_base": 8,
+  "awaken_slots": 5,
+  "awaken_types": [
+   "Attack Power",
+   "Affinity",
+   "Crit Damage",
+   "Ele. Crit DMG",
+   "Element Damage Bonus",
+   "Physical Damage",
+   "Defense"
+  ],
+  "note": "ปลุกพลัง (Awakening) ได้ 1 ช่องต่อการอัปเกรด 1 ระดับ (R10–R14 = 5 ช่อง) และเลือกเอฟเฟกต์จากตัวเลือก · แหล่งข้อมูลไม่เปิดเผยรายการและตัวเลขทั้งหมด จึงให้เลือกประเภทและใส่ตัวเลขเอง",
+  "source": "https://gamewith.ai/monster-hunter-outlanders/en/articles/apex-weapons"
+ },
+ "source": [
+  "https://gamewith.ai/monster-hunter-outlanders/en/visages",
+  "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-guide",
+  "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-album-level"
+ ]
+}

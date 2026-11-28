@@ -10,7 +10,9 @@ function clean(b){
   const x=b&&typeof b==='object'?b:{};const build=x.build&&typeof x.build==='object'?x.build:{};
   const armor={};for(const k of ['head','chest','arms','waist','legs'])armor[k]=build.armor&&typeof build.armor[k]==='string'?clip(build.armor[k],80):null;
   return {name:clip(x.name,60)||'บิลด์ไม่มีชื่อ',author:clip(x.author,30)||'ไม่ระบุชื่อ',desc:clip(x.desc,500),public:!!x.public,
-    build:{weapon:typeof build.weapon==='string'?clip(build.weapon,100):null,armor,target:clip(build.target,60),cond:build.cond&&typeof build.cond==='object'?{weak:!!build.cond.weak,enraged:!!build.cond.enraged,unleashed:!!build.cond.unleashed,radiant:!!build.cond.radiant}:{}}};
+    build:{weapon:typeof build.weapon==='string'?clip(build.weapon,100):null,armor,target:clip(build.target,60),cond:build.cond&&typeof build.cond==='object'?{weak:!!build.cond.weak,enraged:!!build.cond.enraged,unleashed:!!build.cond.unleashed,radiant:!!build.cond.radiant}:{},
+    vis:(Array.isArray(build.vis)?build.vis:[]).slice(0,12).map(c=>({id:clip(c&&c.id,60),r:['r','e','s'].includes(c&&c.r)?c.r:'s',lv:Math.max(1,Math.min(10,+(c&&c.lv)||1)),subs:(Array.isArray(c&&c.subs)?c.subs:[]).slice(0,5).map(x=>({k:clip(x&&x.k,40),v:Number(x&&x.v)||0}))})),
+    apex:(Array.isArray(build.apex)?build.apex:[]).slice(0,5).map(x=>({k:clip(x&&x.k,40),v:Number(x&&x.v)||0}))}};
 }
 const summary=r=>({id:r.id,name:r.name,author:r.author,weapon:r.build.weapon,updated:r.updated});
 async function setIndex(env,r,on){
