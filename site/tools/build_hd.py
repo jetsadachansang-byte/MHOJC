@@ -7,7 +7,7 @@ S=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..');A=os.path.join(S
 cred=json.load(open(f'{S}/img/credits.json'));M=json.load(open(f'{S}/media.json',encoding='utf-8'))
 HD={};done=[]
 ROLE={'profile':([480,960],512,'(max-width:600px) 46vw, 240px'),'full':([480,960,1600],1200,'(max-width:900px) 100vw, 640px'),
-      'wide':([480,960,1600],1200,'(max-width:900px) 100vw, 50vw'),'icon':([128,256,512],256,'96px'),'hero':([480,960,1600],1200,'100vw')}
+      'wide':([480,960,1600],1200,'(max-width:600px) 60vw, 480px'),'icon':([128,256,512],256,'48px'),'hero':([480,960,1600],1200,'100vw')}
 def make(src,dest,role,note=None):
     widths,thr,sizes=ROLE[role]
     im=Image.open(src);im=im.convert('RGBA') if im.mode in('RGBA','LA','P') else im.convert('RGB')
