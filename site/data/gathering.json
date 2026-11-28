@@ -84,13 +84,20 @@
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล",
+       "derived": true
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "https://gamewith.jp/mhoutlanders/587282 (บันทึกเป็น PDF 15 พ.ย. 2026)"
+     ],
+     "note": "Honey: จุดน้ำผึ้ง-เห็ดที่มีข้อมูลยืนยันทั้ง 7 จุดใน 4 แมพได้ Honey ทุกจุด (GameWith JP PDF) จึงใส่ไว้ · จำนวนยังไม่มีข้อมูล"
     },
     {
      "id": "gl-02",
@@ -1413,13 +1420,20 @@
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล",
+       "derived": true
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "https://gamewith.jp/mhoutlanders/587282 (บันทึกเป็น PDF 15 พ.ย. 2026)"
+     ],
+     "note": "Honey: จุดน้ำผึ้ง-เห็ดที่มีข้อมูลยืนยันทั้ง 7 จุดใน 4 แมพได้ Honey ทุกจุด (GameWith JP PDF) จึงใส่ไว้ · จำนวนยังไม่มีข้อมูล"
     },
     {
      "id": "sp-15",
@@ -1713,13 +1727,20 @@
       {
        "item": "Nitroshroom",
        "qty": "ยังไม่มีข้อมูล"
+      },
+      {
+       "item": "Honey",
+       "qty": "ยังไม่มีข้อมูล",
+       "derived": true
       }
      ],
      "rare": [],
      "source": [
       "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
-     ]
+      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations",
+      "https://gamewith.jp/mhoutlanders/587282 (บันทึกเป็น PDF 15 พ.ย. 2026)"
+     ],
+     "note": "Honey: จุดน้ำผึ้ง-เห็ดที่มีข้อมูลยืนยันทั้ง 7 จุดใน 4 แมพได้ Honey ทุกจุด (GameWith JP PDF) จึงใส่ไว้ · จำนวนยังไม่มีข้อมูล"
     },
     {
      "id": "ra-04",
@@ -2072,7 +2093,6 @@
     "Coral Crystal",
     "Light Pearl",
     "Platinum Pearl",
-    "Radiantite Crystal",
     "Super Abalone",
     "Violet Abalone"
    ],
@@ -2547,7 +2567,11 @@
     "ga-03",
     "ga-04"
    ],
-   "gatherer": []
+   "gatherer": [
+    "SP/Golden Expanse/Plant",
+    "GA/Saltthorn Dunes/Plant",
+    "GA/Spore Isle/Plant"
+   ]
   },
   {
    "id": "antidote-herb",
@@ -2583,7 +2607,9 @@
     "ra-07",
     "ga-04"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Spore Isle/Plant"
+   ]
   },
   {
    "id": "sleep-herb",
@@ -2622,7 +2648,12 @@
     "ga-03",
     "ga-04"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Mistwood/Plant",
+    "SP/Golden Expanse/Plant",
+    "GA/Saltthorn Dunes/Plant",
+    "GA/Spore Isle/Plant"
+   ]
   },
   {
    "id": "chillshroom",
@@ -2634,7 +2665,11 @@
    "areas": [
     "Honey & Mushroom Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
    "how": [
     "จุดเก็บน้ำผึ้งและเห็ด",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -2652,7 +2687,11 @@
     "sp-14",
     "ra-03"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant",
+    "SP/Desert Oasis/Plant",
+    "SP/Golden Expanse/Plant"
+   ]
   },
   {
    "id": "hot-pepper",
@@ -2664,7 +2703,11 @@
    "areas": [
     "Plant Resource Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
    "how": [
     "จุดเก็บพืช",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -2688,7 +2731,9 @@
     "ra-05",
     "ra-07"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Mistwood/Plant"
+   ]
   },
   {
    "id": "parashroom",
@@ -2722,7 +2767,15 @@
     "ga-01",
     "ga-02"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Muddy Swamp/Plant",
+    "GL/Outlands/Plant",
+    "SP/Desert Oasis/Plant",
+    "SP/Golden Expanse/Plant",
+    "RA/Luminant Lakelands/Plant",
+    "GA/Saltthorn Dunes/Plant",
+    "GA/Spore Isle/Plant"
+   ]
   },
   {
    "id": "honey",
@@ -2732,6 +2785,7 @@
    "cat_en": "Crafting Material",
    "rarity": null,
    "areas": [
+    "Honey & Mushroom Area",
     "Plant Resource Area"
    ],
    "maps": null,
@@ -2745,6 +2799,7 @@
    "gear": [],
    "source": "https://gamewith.ai/monster-hunter-outlanders/en/items/honey",
    "found_in": [
+    "gl-01",
     "gl-07",
     "gl-08",
     "gl-11",
@@ -2758,6 +2813,8 @@
     "sp-10",
     "sp-12",
     "sp-13",
+    "sp-14",
+    "ra-03",
     "ra-05",
     "ra-06",
     "ra-07",
@@ -2765,7 +2822,16 @@
     "ga-02",
     "ga-03"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Muddy Swamp/Plant",
+    "GL/Outlands/Plant",
+    "SP/Desert Oasis/Plant",
+    "SP/Golden Expanse/Plant",
+    "RA/Luminant Lakelands/Plant",
+    "GA/Saltthorn Dunes/Plant",
+    "GA/Spore Isle/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "nitroshroom",
@@ -2796,7 +2862,12 @@
     "ga-01",
     "ga-02"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Muddy Swamp/Plant",
+    "RA/Luminant Lakelands/Plant",
+    "GA/Saltthorn Dunes/Plant",
+    "GA/Spore Isle/Plant"
+   ]
   },
   {
    "id": "dustbush",
@@ -2808,7 +2879,11 @@
    "areas": [
     "Plant Resource Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
    "how": [
     "จุดเก็บพืช",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -2832,7 +2907,9 @@
     "ra-05",
     "ra-07"
    ],
-   "gatherer": []
+   "gatherer": [
+    "SP/Golden Expanse/Plant"
+   ]
   },
   {
    "id": "nulberry",
@@ -2842,9 +2919,12 @@
    "cat_en": "Crafting Material",
    "rarity": null,
    "areas": [
-    "Gathering"
+    "Plant Resource Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "GA"
+   ],
    "how": [
     "เก็บได้ในสนาม",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -2858,7 +2938,10 @@
     "gl-03",
     "ga-03"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Mistwood/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "bauble-cactus",
@@ -3003,7 +3086,16 @@
     "ga-09"
    ],
    "gatherer": [
-    "GL/Outlands/Ore"
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Muddy Swamp/Ore",
+    "SP/Golden Expanse/Ore",
+    "SP/Golden Expanse/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "GA/Spore Isle/Ore",
+    "GA/Spore Isle/Ore"
    ]
   },
   {
@@ -3046,7 +3138,10 @@
     "gl-21"
    ],
    "gatherer": [
-    "GL/Outlands/Ore"
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Muddy Swamp/Ore"
    ]
   },
   {
@@ -3099,7 +3194,10 @@
     "sp-16",
     "sp-17"
    ],
-   "gatherer": []
+   "gatherer": [
+    "SP/Golden Expanse/Ore",
+    "SP/Golden Expanse/Ore"
+   ]
   },
   {
    "id": "iron-ore",
@@ -3263,7 +3361,16 @@
     "ga-09"
    ],
    "gatherer": [
-    "GL/Outlands/Ore"
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Muddy Swamp/Ore",
+    "SP/Golden Expanse/Ore",
+    "SP/Golden Expanse/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "GA/Spore Isle/Ore",
+    "GA/Spore Isle/Ore"
    ]
   },
   {
@@ -3330,7 +3437,10 @@
     "gl-21"
    ],
    "gatherer": [
-    "GL/Outlands/Ore"
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Muddy Swamp/Ore"
    ]
   },
   {
@@ -3359,7 +3469,10 @@
     "ra-08",
     "ra-09"
    ],
-   "gatherer": []
+   "gatherer": [
+    "RA/Gloomshade Gorge/Ore",
+    "RA/Gloomshade Gorge/Ore"
+   ]
   },
   {
    "id": "lightcrystal",
@@ -3410,7 +3523,10 @@
     "sp-16",
     "sp-17"
    ],
-   "gatherer": []
+   "gatherer": [
+    "SP/Golden Expanse/Ore",
+    "SP/Golden Expanse/Ore"
+   ]
   },
   {
    "id": "coral-bone",
@@ -3438,7 +3554,10 @@
     "ga-08",
     "ga-09"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Spore Isle/Ore",
+    "GA/Spore Isle/Ore"
+   ]
   },
   {
    "id": "charred-bone",
@@ -3466,7 +3585,10 @@
     "ra-08",
     "ra-09"
    ],
-   "gatherer": []
+   "gatherer": [
+    "RA/Gloomshade Gorge/Ore",
+    "RA/Gloomshade Gorge/Ore"
+   ]
   },
   {
    "id": "coral-crystal",
@@ -3494,7 +3616,10 @@
     "ga-08",
     "ga-09"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Spore Isle/Ore",
+    "GA/Spore Isle/Ore"
+   ]
   },
   {
    "id": "hardwood",
@@ -3537,7 +3662,15 @@
     "ga-07"
    ],
    "gatherer": [
-    "SP/Desert Oasis/Wood"
+    "SP/Desert Oasis/Wood",
+    "GL/Muddy Swamp/Wood",
+    "GL/Outlands/Wood",
+    "SP/Desert Oasis/Wood",
+    "SP/Desert Oasis/Wood",
+    "RA/Luminant Lakelands/Wood",
+    "RA/Luminant Lakelands/Wood",
+    "GA/Spore Isle/Wood",
+    "GA/Spore Isle/Wood"
    ]
   },
   {
@@ -3581,7 +3714,15 @@
     "ga-07"
    ],
    "gatherer": [
-    "SP/Desert Oasis/Wood"
+    "SP/Desert Oasis/Wood",
+    "GL/Muddy Swamp/Wood",
+    "GL/Outlands/Wood",
+    "SP/Desert Oasis/Wood",
+    "SP/Desert Oasis/Wood",
+    "RA/Luminant Lakelands/Wood",
+    "RA/Luminant Lakelands/Wood",
+    "GA/Spore Isle/Wood",
+    "GA/Spore Isle/Wood"
    ]
   },
   {
@@ -3594,7 +3735,11 @@
    "areas": [
     "Local Specialty Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
    "how": [
     "จุดเก็บของพิเศษท้องถิ่น",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -3615,7 +3760,9 @@
     "sp-15",
     "ra-02"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant"
+   ]
   },
   {
    "id": "exquisite-island-rice",
@@ -3627,7 +3774,11 @@
    "areas": [
     "Local Specialty Area"
    ],
-   "maps": null,
+   "maps": [
+    "GL",
+    "SP",
+    "RA"
+   ],
    "how": [
     "จุดเก็บของพิเศษท้องถิ่น",
     "ซื้อที่ Resource Center (หมู่บ้าน Kulune ด้วย Zenny จำนวนจำกัด)"
@@ -3651,7 +3802,9 @@
     "sp-15",
     "ra-02"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant"
+   ]
   },
   {
    "id": "fine-honeyfruit",
@@ -3685,7 +3838,10 @@
     "ra-02",
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "exotic-honeyfruit",
@@ -3722,7 +3878,10 @@
     "ra-02",
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "moonlit-mushroom",
@@ -3732,7 +3891,8 @@
    "cat_en": "Specialty Goods",
    "rarity": null,
    "areas": [
-    "Local Specialty Area"
+    "Local Specialty Area",
+    "Honey & Mushroom Area"
    ],
    "maps": [
     "GL"
@@ -3752,7 +3912,9 @@
     "gl-14",
     "gl-17"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant"
+   ]
   },
   {
    "id": "divineapple",
@@ -3812,7 +3974,9 @@
     "gl-10",
     "gl-17"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant"
+   ]
   },
   {
    "id": "sunkissed-grass",
@@ -3842,7 +4006,9 @@
     "gl-10",
     "gl-17"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Plant"
+   ]
   },
   {
    "id": "heavenberry",
@@ -3874,7 +4040,10 @@
     "ra-10",
     "ra-11"
    ],
-   "gatherer": []
+   "gatherer": [
+    "RA/Luminant Lakelands/Plant",
+    "RA/Luminant Lakelands/Plant"
+   ]
   },
   {
    "id": "light-pearl",
@@ -3883,7 +4052,10 @@
    "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
    "cat_en": "Unconfirmed",
    "rarity": null,
-   "areas": [],
+   "areas": [
+    "Plant Resource Area",
+    "Local Specialty Area"
+   ],
    "maps": [
     "GA"
    ],
@@ -3901,7 +4073,10 @@
     "ga-04",
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Spore Isle/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "platinum-pearl",
@@ -3910,7 +4085,10 @@
    "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
    "cat_en": "Unconfirmed",
    "rarity": null,
-   "areas": [],
+   "areas": [
+    "Plant Resource Area",
+    "Local Specialty Area"
+   ],
    "maps": [
     "GA"
    ],
@@ -3928,7 +4106,10 @@
     "ga-04",
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Spore Isle/Plant",
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "super-abalone",
@@ -3937,7 +4118,9 @@
    "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
    "cat_en": "Unconfirmed",
    "rarity": null,
-   "areas": [],
+   "areas": [
+    "Local Specialty Area"
+   ],
    "maps": [
     "GA"
    ],
@@ -3954,7 +4137,9 @@
    "found_in": [
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "violet-abalone",
@@ -3963,7 +4148,9 @@
    "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
    "cat_en": "Unconfirmed",
    "rarity": null,
-   "areas": [],
+   "areas": [
+    "Local Specialty Area"
+   ],
    "maps": [
     "GA"
    ],
@@ -3980,7 +4167,9 @@
    "found_in": [
     "ga-05"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GA/Saltthorn Dunes/Plant"
+   ]
   },
   {
    "id": "radiantite-crystal",
@@ -3989,12 +4178,12 @@
    "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
    "cat_en": "Unconfirmed",
    "rarity": null,
-   "areas": [],
-   "maps": [
-    "GA"
+   "areas": [
+    "Mineral & Fossil Area"
    ],
+   "maps": null,
    "how": [
-    "ได้จาก Gatherer ที่ Grand Archipelago (ตาม GameWith JP)"
+    "ได้จาก Ore Gatherer ที่จุดแร่-กระดูกทุกแมพ จุดละ 40 ต่อรอบ (ตาม GameWith JP: 融石の結晶 ใช้แลกเป็น Zenny)"
    ],
    "use": "ชิ้นละ 100 Zenny (ตามไกด์เก่า)",
    "weapons": 0,
@@ -4014,7 +4203,49 @@
     "ga-08",
     "ga-09"
    ],
-   "gatherer": []
+   "gatherer": [
+    "GL/Outlands/Ore",
+    "GL/Outlands/Ore",
+    "GL/Muddy Swamp/Ore",
+    "SP/Golden Expanse/Ore",
+    "SP/Golden Expanse/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "RA/Gloomshade Gorge/Ore",
+    "GA/Spore Isle/Ore",
+    "GA/Spore Isle/Ore"
+   ]
+  },
+  {
+   "id": "underground-fruit",
+   "n": "Underground Fruit",
+   "img": null,
+   "cat": "ของจาก Gatherer (ยังไม่ยืนยันชื่อใน GameWith EN)",
+   "cat_en": "Unconfirmed",
+   "rarity": null,
+   "areas": [
+    "Local Specialty Area"
+   ],
+   "maps": [
+    "RA"
+   ],
+   "how": [
+    "ได้จาก Gatherer ที่ Rotfall Abyss (ตาม GameWith JP: 地下の果実)"
+   ],
+   "use": null,
+   "weapons": 0,
+   "armor": 0,
+   "gear": [],
+   "source": [
+    "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)"
+   ],
+   "found_in": [
+    "ra-10",
+    "ra-11"
+   ],
+   "gatherer": [
+    "RA/Luminant Lakelands/Plant",
+    "RA/Luminant Lakelands/Plant"
+   ]
   }
  ],
  "gatherers": {
@@ -4094,7 +4325,7 @@
    ]
   }
  ],
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "source": [
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
@@ -4730,635 +4961,5 @@
    "en": "Special item",
    "color": "#9c27b0"
   }
- },
- "wildlife": {
-  "source": [
-   "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
-   "https://gamewith.ai/monster-hunter-outlanders/en/articles/moly-capture-locations"
-  ],
-  "note": "พิกัดจาก Interactive Map ของ GameWith.ai (ข้อมูลอ้างอิง gamewith.jp/mhoutlanders/531937) ครอบคลุม Giantwood Locale, Searing Plains, Rotfall Abyss · Grand Archipelago ยังไม่มีพิกัด (แหล่งข้อมูลมีแค่ภาพหน้าจอจุดจับโมลี่ 5 จุด)",
-  "types": {
-   "moly": {
-    "th": "จุดจับโมลี่",
-    "en": "Moly Capture",
-    "icon": "🐾",
-    "color": "#c98a3c",
-    "d": "ถมรูที่โมลี่ขุดให้ครบทุกรู โมลี่จะวิ่งไปหารูที่ Palico ซุ่มรอ แล้วเดินไปหา Palico เพื่อจับ · รางวัลแน่นอน: Research EXP ×10, Lusterwasp ×2, Zenny ×1000, Verdant Dew ×2",
-    "kind": "moly"
-   },
-   "fish": {
-    "th": "จุดตกปลา",
-    "en": "Fishing Spot",
-    "icon": "🐟",
-    "color": "#3b8fd1",
-    "d": "จุดตกปลาและสัตว์น้ำในแมพนี้",
-    "kind": "aquatic"
-   },
-   "wasp": {
-    "th": "Lusterwasp",
-    "en": "Lusterwasp",
-    "icon": "✨",
-    "color": "#d9b23a",
-    "d": "แมลงที่เก็บได้ตามแผนที่ ใช้อัปเลเวล Watchtower",
-    "ids": [
-     "lusterwasp"
-    ]
-   },
-   "crab": {
-    "th": "ปูสมบัติ",
-    "en": "Treasure Crab",
-    "icon": "🦀",
-    "color": "#d1553b",
-    "d": "จุดที่พบ Treasure Crab"
-   },
-   "hare": {
-    "th": "กระต่ายสมบัติ",
-    "en": "Treasure Shepherd Hare",
-    "icon": "🐇",
-    "color": "#9a7bd1",
-    "d": "จุดที่พบ Treasure Shepherd Hare"
-   },
-   "mayfly": {
-    "th": "แมลงเม่าเรืองแสง",
-    "en": "Glowing Mayflies",
-    "icon": "🪰",
-    "color": "#62b86a",
-    "d": "จุดกิจกรรม Glowing Mayflies"
-   },
-   "butterfly": {
-    "th": "ไล่จับผีเสื้อ",
-    "en": "Butterfly Chase",
-    "icon": "🦋",
-    "color": "#d16fa8",
-    "d": "จุดกิจกรรม Butterfly Chase"
-   }
-  }
- },
- "wildlife_pins": [
-  ["wasp", "GL", 39.64, 67.75, ""],
-  ["wasp", "GL", 43.46, 71.59, ""],
-  ["wasp", "GL", 35.05, 61.57, ""],
-  ["wasp", "GL", 48.79, 49.12, ""],
-  ["wasp", "GL", 53.26, 47.73, ""],
-  ["wasp", "GL", 54.53, 40.63, ""],
-  ["wasp", "GL", 51.41, 32.23, ""],
-  ["wasp", "GL", 50.83, 24.16, ""],
-  ["wasp", "GL", 47.19, 23.46, ""],
-  ["wasp", "GL", 32.09, 34.25, ""],
-  ["wasp", "GL", 72.99, 59.42, ""],
-  ["wasp", "GL", 75.05, 61.86, ""],
-  ["wasp", "GL", 73.32, 52.49, ""],
-  ["wasp", "GL", 78.06, 56.24, ""],
-  ["wasp", "GL", 81.01, 59.35, ""],
-  ["wasp", "GL", 76.46, 54.47, ""],
-  ["wasp", "GL", 67.94, 53.53, ""],
-  ["wasp", "GL", 72.12, 56.17, ""],
-  ["wasp", "GL", 70.42, 60.64, ""],
-  ["wasp", "GL", 69.43, 75.94, ""],
-  ["wasp", "GL", 63.87, 66.71, ""],
-  ["wasp", "GL", 63.39, 64.64, ""],
-  ["wasp", "GL", 63.66, 68.46, ""],
-  ["wasp", "GL", 68.32, 69.83, ""],
-  ["wasp", "GL", 67.21, 64.49, ""],
-  ["wasp", "GL", 68.84, 66.69, ""],
-  ["wasp", "GL", 65.42, 60.8, ""],
-  ["wasp", "GL", 64.91, 60.74, ""],
-  ["wasp", "GL", 61.67, 59.09, ""],
-  ["wasp", "GL", 54.39, 57.39, ""],
-  ["wasp", "GL", 51.49, 53.5, ""],
-  ["wasp", "GL", 56.69, 51.03, ""],
-  ["wasp", "GL", 63.14, 52.49, ""],
-  ["wasp", "GL", 64.08, 54.43, ""],
-  ["wasp", "GL", 67.1, 48.18, ""],
-  ["wasp", "GL", 69.27, 44.95, ""],
-  ["wasp", "GL", 70.75, 43.81, ""],
-  ["wasp", "GL", 70.3, 38.77, ""],
-  ["wasp", "GL", 61.74, 48.34, ""],
-  ["wasp", "GL", 63.89, 35.3, ""],
-  ["wasp", "GL", 72.19, 35.42, ""],
-  ["wasp", "GL", 62.9, 26.1, ""],
-  ["wasp", "GL", 67.71, 22.44, ""],
-  ["wasp", "GL", 55.73, 13.96, ""],
-  ["wasp", "GL", 56.13, 18.15, ""],
-  ["wasp", "GL", 57.87, 19.73, ""],
-  ["wasp", "GL", 66.35, 16.88, ""],
-  ["wasp", "GL", 65.78, 15.56, ""],
-  ["wasp", "GL", 61.42, 22.91, ""],
-  ["wasp", "GL", 57.0, 29.55, ""],
-  ["wasp", "GL", 58.82, 32.61, ""],
-  ["wasp", "GL", 60.85, 28.96, ""],
-  ["wasp", "GL", 55.52, 39.52, ""],
-  ["wasp", "GL", 46.86, 25.35, ""],
-  ["wasp", "GL", 38.47, 20.55, ""],
-  ["wasp", "GL", 40.49, 16.6, ""],
-  ["wasp", "GL", 32.87, 23.72, ""],
-  ["wasp", "GL", 30.18, 41.36, ""],
-  ["wasp", "GL", 29.36, 48.93, ""],
-  ["wasp", "GL", 23.59, 54.89, ""],
-  ["wasp", "GL", 20.56, 55.27, ""],
-  ["wasp", "GL", 20.61, 55.32, ""],
-  ["wasp", "GL", 25.7, 54.19, ""],
-  ["wasp", "GL", 29.46, 54.12, ""],
-  ["wasp", "GL", 27.93, 56.81, ""],
-  ["wasp", "GL", 32.85, 55.65, ""],
-  ["wasp", "GL", 40.71, 58.84, ""],
-  ["wasp", "GL", 41.44, 53.37, ""],
-  ["wasp", "GL", 47.8, 55.15, ""],
-  ["wasp", "GL", 46.27, 58.77, ""],
-  ["wasp", "GL", 44.48, 58.77, ""],
-  ["wasp", "GL", 51.28, 59.92, ""],
-  ["wasp", "GL", 46.46, 63.59, ""],
-  ["wasp", "GL", 49.58, 72.89, ""],
-  ["wasp", "GL", 61.39, 66.69, ""],
-  ["wasp", "GL", 54.86, 64.66, ""],
-  ["wasp", "GL", 32.66, 67.75, ""],
-  ["wasp", "GL", 36.22, 64.64, ""],
-  ["wasp", "GL", 33.2, 43.93, ""],
-  ["wasp", "GL", 36.53, 47.12, ""],
-  ["wasp", "GL", 36.79, 45.21, ""],
-  ["wasp", "GL", 35.71, 43.91, ""],
-  ["wasp", "GL", 43.56, 44.69, ""],
-  ["wasp", "GL", 41.7, 42.16, ""],
-  ["wasp", "GL", 52.97, 46.57, ""],
-  ["wasp", "GL", 56.49, 46.88, ""],
-  ["wasp", "GL", 58.23, 52.34, ""],
-  ["wasp", "GL", 48.04, 17.3, ""],
-  ["wasp", "GL", 51.46, 19.38, ""],
-  ["wasp", "GL", 45.94, 12.96, ""],
-  ["wasp", "GL", 55.31, 29.1, ""],
-  ["wasp", "GL", 72.41, 28.06, ""],
-  ["wasp", "GL", 64.51, 31.34, ""],
-  ["wasp", "GL", 53.99, 24.87, ""],
-  ["wasp", "GL", 39.64, 26.36, ""],
-  ["wasp", "GL", 50.94, 29.35, ""],
-  ["wasp", "GL", 51.53, 29.4, ""],
-  ["wasp", "GL", 39.83, 74.16, ""],
-  ["wasp", "GL", 40.78, 73.24, ""],
-  ["wasp", "GL", 40.71, 73.22, ""],
-  ["wasp", "GL", 39.31, 60.67, ""],
-  ["wasp", "GL", 73.46, 68.43, ""],
-  ["wasp", "GL", 58.58, 56.36, ""],
-  ["wasp", "GL", 44.1, 31.41, ""],
-  ["wasp", "GL", 38.18, 37.28, ""],
-  ["wasp", "GL", 45.38, 33.2, ""],
-  ["wasp", "GL", 34.25, 35.02, ""],
-  ["wasp", "GL", 32.78, 34.82, ""],
-  ["wasp", "GL", 71.34, 50.68, ""],
-  ["wasp", "GL", 71.25, 50.74, ""],
-  ["wasp", "GL", 56.41, 39.75, ""],
-  ["wasp", "GL", 51.51, 33.77, ""],
-  ["wasp", "GL", 46.65, 36.46, ""],
-  ["wasp", "GL", 49.08, 40.68, ""],
-  ["wasp", "GL", 50.97, 37.25, ""],
-  ["wasp", "GL", 50.78, 35.86, ""],
-  ["wasp", "GL", 43.79, 22.61, ""],
-  ["wasp", "GL", 52.85, 29.0, ""],
-  ["wasp", "GL", 37.07, 40.14, ""],
-  ["wasp", "GL", 38.46, 43.19, ""],
-  ["wasp", "GL", 42.24, 48.87, ""],
-  ["wasp", "GL", 37.88, 50.74, ""],
-  ["wasp", "GL", 39.05, 46.99, ""],
-  ["wasp", "GL", 77.43, 56.34, ""],
-  ["wasp", "GL", 67.08, 58.42, ""],
-  ["wasp", "GL", 82.24, 65.15, ""],
-  ["wasp", "GL", 39.17, 46.82, ""],
-  ["wasp", "GL", 38.49, 37.32, ""],
-  ["wasp", "GL", 61.06, 37.95, ""],
-  ["wasp", "GL", 61.16, 38.05, ""],
-  ["wasp", "GL", 44.29, 28.45, ""],
-  ["wasp", "GL", 54.39, 32.72, ""],
-  ["wasp", "GL", 56.25, 34.06, ""],
-  ["wasp", "GL", 57.8, 64.02, ""],
-  ["wasp", "GL", 51.63, 62.18, ""],
-  ["wasp", "GL", 60.56, 54.3, ""],
-  ["wasp", "GL", 59.13, 25.19, ""],
-  ["wasp", "SP", 61.95, 69.25, ""],
-  ["wasp", "SP", 57.5, 64.16, ""],
-  ["wasp", "SP", 57.73, 59.98, ""],
-  ["wasp", "SP", 59.57, 57.18, ""],
-  ["wasp", "SP", 60.38, 53.73, ""],
-  ["wasp", "SP", 62.81, 52.45, ""],
-  ["wasp", "SP", 64.58, 48.73, ""],
-  ["wasp", "SP", 64.34, 44.49, ""],
-  ["wasp", "SP", 63.01, 41.39, ""],
-  ["wasp", "SP", 65.07, 42.38, ""],
-  ["wasp", "SP", 58.77, 41.78, ""],
-  ["wasp", "SP", 58.37, 34.58, ""],
-  ["wasp", "SP", 57.02, 32.1, ""],
-  ["wasp", "SP", 50.28, 34.59, ""],
-  ["wasp", "SP", 50.33, 34.35, ""],
-  ["wasp", "SP", 48.47, 39.13, ""],
-  ["wasp", "SP", 51.7, 20.59, ""],
-  ["wasp", "SP", 52.55, 19.98, ""],
-  ["wasp", "SP", 49.29, 22.39, ""],
-  ["wasp", "SP", 49.52, 19.54, ""],
-  ["wasp", "SP", 49.34, 22.22, ""],
-  ["wasp", "SP", 46.13, 21.99, ""],
-  ["wasp", "SP", 45.28, 29.16, ""],
-  ["wasp", "SP", 42.09, 31.73, ""],
-  ["wasp", "SP", 46.01, 33.61, ""],
-  ["wasp", "SP", 43.21, 44.11, ""],
-  ["wasp", "SP", 60.35, 70.83, ""],
-  ["wasp", "SP", 52.78, 70.01, ""],
-  ["wasp", "SP", 51.15, 21.54, ""],
-  ["wasp", "SP", 51.62, 26.03, ""],
-  ["wasp", "SP", 41.48, 37.42, ""],
-  ["wasp", "SP", 58.37, 49.5, ""],
-  ["wasp", "SP", 46.39, 46.12, ""],
-  ["wasp", "SP", 43.25, 56.83, ""],
-  ["wasp", "SP", 48.2, 57.77, ""],
-  ["wasp", "SP", 48.99, 58.15, ""],
-  ["wasp", "SP", 51.51, 56.64, ""],
-  ["wasp", "SP", 55.78, 53.44, ""],
-  ["wasp", "SP", 60.87, 66.17, ""],
-  ["wasp", "SP", 63.26, 66.22, ""],
-  ["wasp", "SP", 56.49, 67.82, ""],
-  ["wasp", "SP", 40.82, 65.53, ""],
-  ["wasp", "SP", 36.16, 61.15, ""],
-  ["wasp", "SP", 30.16, 61.19, ""],
-  ["wasp", "SP", 30.02, 54.1, ""],
-  ["wasp", "SP", 29.64, 53.55, ""],
-  ["wasp", "SP", 33.82, 55.58, ""],
-  ["wasp", "SP", 28.96, 41.12, ""],
-  ["wasp", "SP", 28.33, 39.9, ""],
-  ["wasp", "SP", 27.81, 36.0, ""],
-  ["wasp", "SP", 32.69, 36.26, ""],
-  ["wasp", "SP", 66.35, 36.75, ""],
-  ["wasp", "SP", 65.21, 42.47, ""],
-  ["wasp", "SP", 65.05, 55.32, ""],
-  ["wasp", "SP", 54.1, 58.53, ""],
-  ["wasp", "SP", 63.42, 53.7, ""],
-  ["wasp", "SP", 66.89, 53.39, ""],
-  ["wasp", "SP", 54.83, 44.36, ""],
-  ["wasp", "SP", 46.09, 47.77, ""],
-  ["wasp", "SP", 36.91, 51.71, ""],
-  ["wasp", "SP", 26.75, 56.15, ""],
-  ["wasp", "SP", 32.22, 38.17, ""],
-  ["wasp", "SP", 70.92, 58.72, ""],
-  ["wasp", "SP", 68.87, 64.85, ""],
-  ["wasp", "SP", 41.09, 70.04, ""],
-  ["wasp", "SP", 43.8, 69.21, ""],
-  ["wasp", "SP", 47.52, 72.02, ""],
-  ["wasp", "SP", 50.83, 71.19, ""],
-  ["wasp", "SP", 60.75, 61.1, ""],
-  ["wasp", "SP", 63.02, 57.66, ""],
-  ["wasp", "SP", 47.33, 53.9, ""],
-  ["wasp", "SP", 41.84, 50.08, ""],
-  ["wasp", "SP", 41.39, 50.67, ""],
-  ["wasp", "SP", 39.12, 46.41, ""],
-  ["wasp", "SP", 38.21, 41.97, ""],
-  ["wasp", "SP", 32.74, 42.18, ""],
-  ["wasp", "SP", 32.73, 45.13, ""],
-  ["wasp", "SP", 31.16, 65.23, ""],
-  ["wasp", "SP", 50.7, 61.83, ""],
-  ["wasp", "SP", 45.96, 65.84, ""],
-  ["wasp", "SP", 46.16, 65.68, ""],
-  ["wasp", "SP", 34.72, 58.57, ""],
-  ["wasp", "SP", 63.26, 47.21, ""],
-  ["wasp", "SP", 67.17, 60.2, ""],
-  ["wasp", "SP", 67.34, 60.34, ""],
-  ["wasp", "SP", 66.61, 57.4, ""],
-  ["wasp", "SP", 55.24, 71.24, ""],
-  ["wasp", "SP", 55.76, 71.62, ""],
-  ["wasp", "SP", 49.51, 68.13, ""],
-  ["wasp", "GL", 41.25, 76.76, ""],
-  ["wasp", "RA", 58.07, 37.39, ""],
-  ["wasp", "RA", 64.28, 35.39, ""],
-  ["wasp", "RA", 66.15, 40.27, ""],
-  ["wasp", "RA", 69.02, 43.0, ""],
-  ["wasp", "RA", 68.24, 46.8, ""],
-  ["wasp", "RA", 63.79, 49.37, ""],
-  ["wasp", "RA", 62.58, 46.04, ""],
-  ["wasp", "RA", 58.13, 45.78, ""],
-  ["wasp", "RA", 58.58, 40.07, ""],
-  ["wasp", "RA", 64.24, 62.22, ""],
-  ["wasp", "RA", 64.0, 59.68, ""],
-  ["wasp", "RA", 60.3, 57.55, ""],
-  ["wasp", "RA", 59.12, 53.57, ""],
-  ["wasp", "RA", 60.84, 51.14, ""],
-  ["wasp", "RA", 59.46, 48.57, ""],
-  ["wasp", "RA", 65.5, 49.47, ""],
-  ["wasp", "RA", 67.03, 49.96, ""],
-  ["wasp", "RA", 67.17, 50.51, ""],
-  ["wasp", "RA", 66.47, 43.74, ""],
-  ["wasp", "RA", 64.46, 43.36, ""],
-  ["wasp", "RA", 61.78, 41.69, ""],
-  ["wasp", "RA", 66.09, 71.1, ""],
-  ["wasp", "RA", 66.19, 67.88, ""],
-  ["wasp", "RA", 64.03, 65.26, ""],
-  ["wasp", "RA", 61.29, 69.14, ""],
-  ["wasp", "RA", 60.91, 71.85, ""],
-  ["wasp", "RA", 65.51, 74.41, ""],
-  ["wasp", "RA", 68.96, 71.38, ""],
-  ["wasp", "RA", 56.08, 73.64, ""],
-  ["wasp", "RA", 53.03, 67.65, ""],
-  ["wasp", "RA", 56.22, 70.46, ""],
-  ["wasp", "RA", 52.16, 69.53, ""],
-  ["wasp", "RA", 51.57, 64.08, ""],
-  ["wasp", "RA", 34.56, 36.52, ""],
-  ["wasp", "RA", 34.63, 38.29, ""],
-  ["wasp", "RA", 40.29, 36.73, ""],
-  ["wasp", "RA", 43.07, 41.83, ""],
-  ["wasp", "RA", 38.55, 40.72, ""],
-  ["wasp", "RA", 39.25, 39.57, ""],
-  ["wasp", "RA", 40.67, 43.05, ""],
-  ["wasp", "RA", 35.95, 42.32, ""],
-  ["wasp", "RA", 36.54, 44.89, ""],
-  ["wasp", "RA", 38.42, 47.46, ""],
-  ["wasp", "RA", 44.04, 34.44, ""],
-  ["wasp", "RA", 36.23, 31.66, ""],
-  ["wasp", "RA", 33.21, 31.17, ""],
-  ["wasp", "RA", 37.13, 22.91, ""],
-  ["wasp", "RA", 38.73, 23.88, ""],
-  ["wasp", "RA", 39.63, 23.12, ""],
-  ["wasp", "RA", 41.23, 22.7, ""],
-  ["wasp", "RA", 42.2, 22.49, ""],
-  ["wasp", "RA", 37.37, 27.53, ""],
-  ["wasp", "RA", 38.24, 25.06, ""],
-  ["wasp", "RA", 38.59, 24.4, ""],
-  ["wasp", "RA", 44.63, 21.28, ""],
-  ["wasp", "RA", 41.4, 21.07, ""],
-  ["wasp", "RA", 41.96, 22.42, ""],
-  ["wasp", "RA", 44.6, 22.53, ""],
-  ["wasp", "RA", 43.8, 25.65, ""],
-  ["wasp", "RA", 46.85, 25.2, ""],
-  ["wasp", "SP", 49.74, 21.73, ""],
-  ["wasp", "SP", 33.92, 34.22, ""],
-  ["wasp", "SP", 34.83, 33.81, ""],
-  ["wasp", "RA", 46.01, 22.47, ""],
-  ["wasp", "RA", 47.73, 22.92, ""],
-  ["wasp", "RA", 46.88, 22.02, ""],
-  ["wasp", "RA", 30.09, 40.63, ""],
-  ["wasp", "RA", 26.63, 44.22, ""],
-  ["wasp", "RA", 26.2, 42.68, ""],
-  ["wasp", "RA", 24.55, 43.96, ""],
-  ["wasp", "RA", 25.54, 45.92, ""],
-  ["wasp", "RA", 23.54, 42.73, ""],
-  ["wasp", "RA", 44.27, 55.6, ""],
-  ["wasp", "RA", 43.12, 53.2, ""],
-  ["wasp", "RA", 41.15, 50.11, ""],
-  ["wasp", "RA", 33.68, 46.79, ""],
-  ["wasp", "RA", 51.68, 25.1, ""],
-  ["wasp", "RA", 54.91, 31.62, ""],
-  ["wasp", "RA", 54.56, 72.25, ""],
-  ["wasp", "RA", 55.81, 74.89, ""],
-  ["wasp", "RA", 54.28, 59.44, ""],
-  ["wasp", "RA", 22.55, 42.91, ""],
-  ["wasp", "RA", 20.92, 42.94, ""],
-  ["wasp", "RA", 21.23, 42.28, ""],
-  ["wasp", "RA", 22.1, 40.62, ""],
-  ["wasp", "RA", 20.29, 43.53, ""],
-  ["wasp", "RA", 19.53, 44.05, ""],
-  ["wasp", "RA", 19.07, 46.87, ""],
-  ["wasp", "RA", 20.22, 46.97, ""],
-  ["wasp", "RA", 21.51, 45.93, ""],
-  ["wasp", "RA", 20.6, 44.82, ""],
-  ["wasp", "RA", 22.86, 46.69, ""],
-  ["wasp", "RA", 22.72, 49.33, ""],
-  ["wasp", "RA", 16.26, 48.39, ""],
-  ["wasp", "RA", 14.14, 45.13, ""],
-  ["wasp", "RA", 13.94, 45.2, ""],
-  ["wasp", "RA", 14.21, 45.16, ""],
-  ["wasp", "RA", 24.35, 48.29, ""],
-  ["wasp", "RA", 27.58, 48.98, ""],
-  ["wasp", "RA", 23.66, 46.14, ""],
-  ["wasp", "RA", 21.57, 47.0, ""],
-  ["wasp", "RA", 19.77, 46.41, ""],
-  ["wasp", "RA", 26.3, 50.89, ""],
-  ["wasp", "RA", 29.73, 50.37, ""],
-  ["wasp", "RA", 29.18, 49.57, ""],
-  ["wasp", "RA", 28.62, 55.37, ""],
-  ["wasp", "RA", 40.89, 24.75, ""],
-  ["wasp", "RA", 40.82, 23.97, ""],
-  ["wasp", "RA", 38.04, 25.95, ""],
-  ["wasp", "RA", 30.56, 55.03, ""],
-  ["wasp", "RA", 31.53, 54.53, ""],
-  ["wasp", "RA", 34.5, 57.48, ""],
-  ["wasp", "RA", 30.68, 56.53, ""],
-  ["wasp", "RA", 25.83, 53.66, ""],
-  ["wasp", "RA", 24.97, 51.86, ""],
-  ["wasp", "RA", 36.81, 57.25, ""],
-  ["wasp", "RA", 41.13, 57.43, ""],
-  ["wasp", "RA", 43.56, 58.17, ""],
-  ["wasp", "RA", 43.92, 57.58, ""],
-  ["fish", "GL", 55.33, 58.34, "Shrouded Swamp"],
-  ["fish", "GL", 69.95, 42.37, "Shrouded Swamp"],
-  ["fish", "GL", 75.97, 15.44, "Whispering Coast"],
-  ["fish", "GL", 62.19, 19.0, "Sea of Trees"],
-  ["fish", "GL", 41.46, 17.71, "Dragonspine Valley"],
-  ["fish", "GL", 30.59, 55.41, "Tranquil Bay"],
-  ["fish", "GL", 53.56, 20.16, "Sea of Trees"],
-  ["fish", "SP", 51.42, 58.11, "Crystalline Canyon"],
-  ["fish", "SP", 33.27, 41.79, "Sunken Oasis"],
-  ["fish", "SP", 23.27, 56.68, "Deadwood Marsh"],
-  ["fish", "SP", 32.15, 55.34, "Deadwood Marsh"],
-  ["fish", "SP", 67.2, 57.58, "Mushroom Crag"],
-  ["fish", "SP", 66.87, 68.11, "Sandsing Falls"],
-  ["fish", "GL", 42.01, 72.03, "Rootbound Plains"],
-  ["fish", "RA", 59.36, 49.96, "Luminous Riverbed"],
-  ["fish", "RA", 72.71, 41.99, "Luminous Riverbed"],
-  ["fish", "RA", 51.15, 26.6, "Colossal Rift"],
-  ["fish", "RA", 21.94, 38.48, "Petrified Forest"],
-  ["mayfly", "GL", 54.95, 50.56, "Outlands"],
-  ["mayfly", "GL", 72.66, 46.03, "Muddy Swamp"],
-  ["mayfly", "GL", 73.63, 35.46, "Mistwood"],
-  ["mayfly", "GL", 41.41, 74.68, "Outlands"],
-  ["mayfly", "GL", 29.0, 55.46, "Outlands"],
-  ["mayfly", "GL", 65.66, 73.17, "Muddy Swamp"],
-  ["mayfly", "GL", 36.04, 17.72, "Mistwood"],
-  ["mayfly", "GL", 59.13, 60.46, "Muddy Swamp"],
-  ["mayfly", "SP", 57.6, 31.01, "Golden Expanse"],
-  ["mayfly", "SP", 49.05, 50.16, "Golden Expanse"],
-  ["mayfly", "SP", 64.13, 63.98, "Desert Oasis"],
-  ["mayfly", "SP", 38.27, 60.96, "Desert Oasis"],
-  ["mayfly", "SP", 30.56, 52.09, "Desert Oasis"],
-  ["mayfly", "SP", 33.18, 35.23, "Golden Expanse"],
-  ["mayfly", "SP", 62.78, 49.09, "Golden Expanse"],
-  ["mayfly", "SP", 50.38, 73.18, "Desert Oasis"],
-  ["mayfly", "SP", 37.74, 44.73, "Golden Expanse"],
-  ["mayfly", "RA", 70.41, 47.32, ""],
-  ["mayfly", "RA", 62.66, 70.64, ""],
-  ["mayfly", "RA", 53.27, 65.52, ""],
-  ["mayfly", "RA", 32.62, 29.44, ""],
-  ["mayfly", "RA", 39.14, 26.17, ""],
-  ["mayfly", "RA", 22.86, 43.67, ""],
-  ["butterfly", "GL", 55.9, 46.41, "Outlands"],
-  ["butterfly", "GL", 56.08, 15.88, "Mistwood"],
-  ["butterfly", "GL", 59.79, 33.63, "Mistwood"],
-  ["butterfly", "GL", 63.47, 21.27, "Mistwood"],
-  ["butterfly", "GL", 70.24, 65.58, "Muddy Swamp"],
-  ["butterfly", "GL", 58.58, 57.78, "Muddy Swamp"],
-  ["butterfly", "GL", 45.05, 63.58, "Outlands"],
-  ["butterfly", "GL", 34.03, 50.89, "Outlands"],
-  ["butterfly", "SP", 48.54, 23.18, "Golden Expanse"],
-  ["butterfly", "SP", 56.13, 34.8, "Golden Expanse"],
-  ["butterfly", "SP", 49.41, 44.54, "Golden Expanse"],
-  ["butterfly", "SP", 62.53, 60.13, "Desert Oasis"],
-  ["butterfly", "SP", 70.21, 52.37, "Desert Oasis"],
-  ["butterfly", "SP", 35.99, 52.91, "Desert Oasis"],
-  ["butterfly", "SP", 46.74, 57.42, "Desert Oasis"],
-  ["butterfly", "SP", 37.78, 41.71, "Golden Expanse"],
-  ["butterfly", "RA", 64.28, 49.93, ""],
-  ["butterfly", "RA", 57.59, 57.84, ""],
-  ["butterfly", "RA", 64.04, 49.92, ""],
-  ["butterfly", "RA", 62.37, 42.53, ""],
-  ["butterfly", "RA", 53.81, 61.54, ""],
-  ["butterfly", "RA", 31.89, 37.11, ""],
-  ["crab", "GL", 41.55, 78.32, ""],
-  ["crab", "GL", 30.12, 66.9, ""],
-  ["crab", "GL", 27.02, 58.72, ""],
-  ["crab", "GL", 25.84, 52.4, ""],
-  ["crab", "GL", 44.31, 42.0, ""],
-  ["crab", "GL", 45.56, 49.66, ""],
-  ["crab", "GL", 59.79, 51.12, ""],
-  ["crab", "GL", 52.22, 61.78, ""],
-  ["crab", "GL", 55.28, 33.08, ""],
-  ["crab", "GL", 61.48, 36.67, ""],
-  ["crab", "GL", 64.34, 32.84, ""],
-  ["crab", "GL", 51.76, 21.29, ""],
-  ["crab", "GL", 59.31, 25.23, ""],
-  ["crab", "GL", 57.1, 17.42, ""],
-  ["crab", "GL", 47.8, 67.21, ""],
-  ["crab", "GL", 44.2, 62.61, ""],
-  ["crab", "GL", 32.22, 59.94, ""],
-  ["crab", "GL", 70.59, 68.91, ""],
-  ["crab", "GL", 53.8, 54.28, ""],
-  ["crab", "GL", 43.11, 13.84, ""],
-  ["crab", "GL", 47.78, 16.57, ""],
-  ["crab", "GL", 35.97, 36.31, ""],
-  ["crab", "GL", 24.22, 46.86, ""],
-  ["crab", "GL", 47.5, 55.87, ""],
-  ["crab", "GL", 75.94, 65.28, ""],
-  ["crab", "GL", 67.26, 39.85, ""],
-  ["crab", "GL", 68.75, 62.68, ""],
-  ["crab", "GL", 65.61, 60.44, ""],
-  ["crab", "GL", 58.79, 61.34, ""],
-  ["crab", "GL", 61.56, 46.34, ""],
-  ["crab", "GL", 43.61, 36.9, ""],
-  ["crab", "GL", 64.29, 19.47, ""],
-  ["crab", "GL", 65.45, 10.34, ""],
-  ["crab", "GL", 37.95, 43.99, ""],
-  ["crab", "GL", 32.62, 65.61, ""],
-  ["crab", "GL", 72.59, 29.72, ""],
-  ["crab", "GL", 62.27, 57.01, ""],
-  ["crab", "GL", 62.69, 59.53, ""],
-  ["crab", "GL", 55.0, 69.69, ""],
-  ["crab", "GL", 70.14, 75.24, ""],
-  ["crab", "GL", 66.09, 77.6, ""],
-  ["crab", "GL", 43.93, 76.52, ""],
-  ["crab", "SP", 50.63, 30.32, ""],
-  ["crab", "SP", 47.12, 32.49, ""],
-  ["crab", "SP", 58.86, 37.83, ""],
-  ["crab", "SP", 52.08, 38.2, ""],
-  ["crab", "SP", 41.6, 48.1, ""],
-  ["crab", "SP", 42.74, 52.75, ""],
-  ["crab", "SP", 50.66, 56.67, ""],
-  ["crab", "SP", 61.86, 57.77, ""],
-  ["crab", "SP", 51.67, 66.1, ""],
-  ["crab", "SP", 50.78, 70.08, ""],
-  ["crab", "SP", 59.12, 77.28, ""],
-  ["crab", "SP", 49.95, 76.88, ""],
-  ["crab", "SP", 35.09, 54.03, ""],
-  ["crab", "SP", 37.15, 30.01, ""],
-  ["crab", "SP", 50.64, 19.49, ""],
-  ["crab", "SP", 64.34, 38.03, ""],
-  ["crab", "SP", 65.78, 49.82, ""],
-  ["crab", "SP", 59.97, 43.69, ""],
-  ["crab", "SP", 46.63, 48.6, ""],
-  ["crab", "SP", 47.07, 42.8, ""],
-  ["crab", "SP", 40.49, 31.34, ""],
-  ["crab", "SP", 55.94, 68.22, ""],
-  ["crab", "SP", 41.7, 42.85, ""],
-  ["crab", "SP", 36.36, 64.8, ""],
-  ["crab", "SP", 53.7, 61.0, ""],
-  ["crab", "SP", 46.96, 63.88, ""],
-  ["crab", "SP", 43.11, 62.32, ""],
-  ["crab", "SP", 39.25, 53.36, ""],
-  ["crab", "SP", 38.39, 41.41, ""],
-  ["crab", "SP", 43.94, 37.91, ""],
-  ["crab", "SP", 51.95, 40.65, ""],
-  ["crab", "SP", 53.46, 46.81, ""],
-  ["crab", "SP", 57.38, 46.17, ""],
-  ["crab", "SP", 67.43, 52.05, ""],
-  ["crab", "RA", 64.4, 36.8, ""],
-  ["crab", "RA", 71.0, 43.43, ""],
-  ["crab", "RA", 67.44, 68.64, ""],
-  ["crab", "RA", 61.41, 57.23, ""],
-  ["crab", "RA", 56.05, 56.28, ""],
-  ["crab", "RA", 61.37, 49.3, ""],
-  ["crab", "RA", 64.77, 42.98, ""],
-  ["crab", "RA", 66.93, 74.94, ""],
-  ["crab", "RA", 69.36, 74.53, ""],
-  ["crab", "RA", 52.3, 60.15, ""],
-  ["crab", "RA", 37.76, 41.31, ""],
-  ["crab", "RA", 20.22, 43.39, ""],
-  ["crab", "RA", 19.25, 49.4, ""],
-  ["crab", "RA", 16.47, 47.04, ""],
-  ["crab", "RA", 23.8, 47.77, ""],
-  ["crab", "RA", 53.67, 69.2, ""],
-  ["crab", "RA", 51.55, 74.41, ""],
-  ["crab", "RA", 28.38, 56.14, ""],
-  ["crab", "RA", 51.63, 74.42, ""],
-  ["crab", "RA", 38.52, 21.09, ""],
-  ["crab", "SP", 57.14, 43.14, ""],
-  ["hare", "GL", 56.7, 22.08, "Mistwood"],
-  ["hare", "GL", 65.83, 14.71, "Mistwood"],
-  ["hare", "GL", 47.9, 23.54, "Mistwood"],
-  ["hare", "GL", 35.26, 24.32, "Mistwood"],
-  ["hare", "GL", 45.21, 58.54, "Outlands"],
-  ["hare", "GL", 56.63, 50.69, "Muddy Swamp"],
-  ["hare", "GL", 58.3, 64.75, "Outlands"],
-  ["hare", "GL", 67.19, 64.37, "Muddy Swamp"],
-  ["hare", "GL", 69.83, 72.1, "Muddy Swamp"],
-  ["hare", "GL", 26.39, 45.33, "Outlands"],
-  ["hare", "SP", 57.93, 49.07, "Golden Expanse"],
-  ["hare", "SP", 58.23, 39.47, "Golden Expanse"],
-  ["hare", "SP", 48.49, 44.92, "Golden Expanse"],
-  ["hare", "SP", 50.04, 52.14, "Golden Expanse"],
-  ["hare", "SP", 46.74, 69.4, "Desert Oasis"],
-  ["hare", "SP", 63.4, 72.75, "Desert Oasis"],
-  ["hare", "SP", 37.73, 61.33, "Desert Oasis"],
-  ["hare", "SP", 39.17, 55.51, "Desert Oasis"],
-  ["hare", "SP", 30.37, 56.78, "Desert Oasis"],
-  ["hare", "SP", 49.37, 31.92, "Golden Expanse"],
-  ["hare", "SP", 27.78, 48.84, "Golden Expanse"],
-  ["hare", "SP", 56.41, 57.0, "Desert Oasis"],
-  ["hare", "SP", 51.67, 63.81, "Desert Oasis"],
-  ["hare", "SP", 40.63, 45.6, "Golden Expanse"],
-  ["hare", "SP", 41.04, 41.27, "Golden Expanse"],
-  ["hare", "SP", 62.5, 61.4, "Desert Oasis"],
-  ["hare", "SP", 52.55, 80.68, "Desert Oasis"],
-  ["hare", "SP", 53.63, 53.7, "Golden Expanse"],
-  ["hare", "SP", 41.25, 33.17, "Golden Expanse"],
-  ["hare", "RA", 30.43, 35.86, ""],
-  ["hare", "RA", 47.58, 26.8, ""],
-  ["hare", "RA", 45.1, 58.55, ""],
-  ["hare", "RA", 39.32, 42.71, ""],
-  ["hare", "RA", 58.52, 34.19, ""],
-  ["hare", "RA", 65.56, 45.45, ""],
-  ["hare", "RA", 54.15, 58.23, ""],
-  ["hare", "RA", 24.31, 42.71, ""],
-  ["moly", "GL", 64.1, 29.03, "Mistwood"],
-  ["moly", "GL", 45.56, 58.56, "Outlands"],
-  ["moly", "GL", 50.8, 50.4, "Outlands"],
-  ["moly", "GL", 57.95, 62.83, "Muddy Swamp"],
-  ["moly", "GL", 46.35, 75.89, "Outlands"],
-  ["moly", "GL", 74.7, 55.79, "Muddy Swamp"],
-  ["moly", "GL", 70.9, 40.02, "Muddy Swamp"],
-  ["moly", "GL", 46.6, 24.88, "Mistwood"],
-  ["moly", "SP", 58.65, 74.8, "Desert Oasis"],
-  ["moly", "SP", 67.5, 64.77, "Desert Oasis"],
-  ["moly", "SP", 61.15, 52.25, "Golden Expanse"],
-  ["moly", "SP", 44.83, 45.97, "Golden Expanse"],
-  ["moly", "SP", 52.85, 34.84, "Golden Expanse"],
-  ["moly", "SP", 44.88, 71.47, "Desert Oasis"],
-  ["moly", "SP", 25.24, 53.55, "Desert Oasis"],
-  ["moly", "RA", 57.98, 38.29, ""],
-  ["moly", "RA", 66.27, 68.17, ""],
-  ["moly", "RA", 55.23, 70.83, ""],
-  ["moly", "RA", 44.76, 55.77, ""],
-  ["moly", "RA", 24.77, 45.51, ""],
-  ["moly", "RA", 55.36, 60.33, "Luminant Lakelands"],
-  ["moly", "RA", 29.04, 49.54, ""]
- ]
+ }
 }
