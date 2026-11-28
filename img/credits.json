@@ -7511,23 +7511,13 @@
   "source": "assets/images/02-buddies/arya.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 640,
-  "variants": [
-   "img/buddy/featured/arya@1280.webp",
-   "img/buddy/featured/arya@1920.webp",
-   "img/buddy/featured/arya@2048.webp"
-  ]
+  "h": 640
  },
  "img/buddy/featured/elwin.webp": {
   "source": "assets/images/02-buddies/elwin.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 640,
-  "variants": [
-   "img/buddy/featured/elwin@1280.webp",
-   "img/buddy/featured/elwin@1920.webp",
-   "img/buddy/featured/elwin@2048.webp"
-  ]
+  "h": 640
  },
  "img/gift/sheet.webp": {
   "source": "assets/images/03-gifts/sheet.png",
@@ -7539,83 +7529,49 @@
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 487,
-  "variants": [
-   "img/outfit/buddy-flower-bearing-plume@1280.webp",
-   "img/outfit/buddy-flower-bearing-plume@1400.webp"
-  ]
+  "h": 487
  },
  "img/outfit/buddy-flower-bearing-plume-full.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 328,
-  "variants": [
-   "img/outfit/buddy-flower-bearing-plume-full@1280.webp",
-   "img/outfit/buddy-flower-bearing-plume-full@1400.webp"
-  ]
+  "h": 328
  },
  "img/outfit/freya-rose-queen.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 522,
-  "variants": [
-   "img/outfit/freya-rose-queen@1280.webp",
-   "img/outfit/freya-rose-queen@1600.webp"
-  ]
+  "h": 522
  },
  "img/outfit/freya-rose-queen-full.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 334,
-  "variants": [
-   "img/outfit/freya-rose-queen-full@1280.webp",
-   "img/outfit/freya-rose-queen-full@1920.webp",
-   "img/outfit/freya-rose-queen-full@2000.webp"
-  ]
+  "h": 334
  },
  "img/outfit/stylia-silken-dancer.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 597,
-  "variants": [
-   "img/outfit/stylia-silken-dancer@1280.webp",
-   "img/outfit/stylia-silken-dancer@1920.webp",
-   "img/outfit/stylia-silken-dancer@2000.webp"
-  ]
+  "h": 597
  },
  "img/outfit/stylia-silken-dancer-full.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 366,
-  "variants": [
-   "img/outfit/stylia-silken-dancer-full@1280.webp",
-   "img/outfit/stylia-silken-dancer-full@1920.webp",
-   "img/outfit/stylia-silken-dancer-full@2000.webp"
-  ]
+  "h": 366
  },
  "img/outfit/weapon-flying-feather.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 629,
-  "variants": [
-   "img/outfit/weapon-flying-feather@1200.webp"
-  ]
+  "h": 629
  },
  "img/outfit/weapon-flying-feather-full.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 640,
-  "h": 328,
-  "variants": [
-   "img/outfit/weapon-flying-feather-full@1280.webp",
-   "img/outfit/weapon-flying-feather-full@1400.webp"
-  ]
+  "h": 328
  },
  "img/armor/adventurers-guild/full.webp": {
   "source": "https://img.gamewith.jp/img/1fe20bfb39db2eadbaba507626487615.png",
@@ -8536,32 +8492,32 @@
   "h": 98
  },
  "img/outfit/pepper-exclusive.webp": {
-  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/pepper.webp",
-  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "source": "assets/images/04-outfits/pepper-exclusive.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 320,
   "h": 320
  },
  "img/outfit/arkaya-exclusive.webp": {
-  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/arkaya.webp",
-  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "source": "assets/images/04-outfits/arkaya-exclusive.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 320,
   "h": 320
  },
  "img/outfit/midori-exclusive.webp": {
-  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/midori.webp",
-  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "source": "assets/images/04-outfits/midori-exclusive.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 320,
   "h": 320
  },
  "img/outfit/keres-exclusive.webp": {
-  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/keres.webp",
-  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "source": "assets/images/04-outfits/keres-exclusive.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 320,
   "h": 320
  },
  "img/outfit/fated-adventurer-exclusive.webp": {
-  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/fated-adventurer.webp",
-  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "source": "assets/images/04-outfits/fated-adventurer-exclusive.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
   "w": 320,
   "h": 320
  },
@@ -8604,5 +8560,60 @@
    "img/hero/hero@1298.webp"
   ],
   "note": "Freya key art cropped to the clean right part"
+ },
+ "img/material/light-pearl.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/platinum-pearl.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/super-abalone.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/violet-abalone.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/material/radiantite-crystal.webp": {
+  "source": "reference/gathering/icons",
+  "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
+  "w": 128,
+  "h": 128
+ },
+ "img/map/grand-archipelago.webp": {
+  "source": "user screenshot of https://game8.co/games/Monster-Hunter-Outlanders/archives/599531 (map), UI border cropped",
+  "page": "https://game8.co/games/Monster-Hunter-Outlanders/archives/599531",
+  "w": 1125,
+  "h": 1125,
+  "note": "Game8 map pins and labels removed (inpainted), padded to square like the other maps (no upscaling)"
+ },
+ "img/outfit/arkaya-exclusive-full.webp": {
+  "source": "assets/images/04-outfits/arkaya-exclusive-full.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
+  "w": 430,
+  "h": 561
+ },
+ "img/outfit/midori-exclusive-full.webp": {
+  "source": "assets/images/04-outfits/midori-exclusive-full.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
+  "w": 385,
+  "h": 512
+ },
+ "img/outfit/keres-exclusive-full.webp": {
+  "source": "assets/images/04-outfits/keres-exclusive-full.jpg",
+  "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
+  "w": 437,
+  "h": 344
  }
 }
