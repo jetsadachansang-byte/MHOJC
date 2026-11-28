@@ -1598,6 +1598,34 @@
       "reference/gathering/gamewith-jp-pdf/spot-crops/O5.png",
       "reference/gathering/old_data_guide.py"
      ]
+    },
+    {
+     "id": "sp-18",
+     "no": 18,
+     "pin": null,
+     "ref": "W3",
+     "area": "Desert Oasis",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 58.23,
+     "y": 72.97,
+     "gatherer_spot": true,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "21 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "7 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W3.png",
+      "reference/gathering/old_data_guide.py"
+     ]
     }
    ]
   },
@@ -1962,6 +1990,122 @@
       "reference/gathering/gamewith-jp-pdf/spot-crops/O7.png",
       "reference/gathering/old_data_guide.py"
      ]
+    },
+    {
+     "id": "ra-10",
+     "no": 10,
+     "pin": null,
+     "ref": "P8",
+     "area": "Luminant Lakelands",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 67.01,
+     "y": 49.69,
+     "gatherer_spot": true,
+     "drops": [
+      {
+       "item": "Heavenberry",
+       "qty": "4 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Underground Fruit",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Heavenberry"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P8.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ra-11",
+     "no": 11,
+     "pin": null,
+     "ref": "P9",
+     "area": "Luminant Lakelands",
+     "type": "specialty",
+     "type_en": "Local Specialty Area",
+     "x": 52.83,
+     "y": 70.16,
+     "gatherer_spot": true,
+     "drops": [
+      {
+       "item": "Heavenberry",
+       "qty": "4 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Underground Fruit",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [
+      "Heavenberry"
+     ],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/P9.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ra-12",
+     "no": 12,
+     "pin": null,
+     "ref": "W5",
+     "area": "Luminant Lakelands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 74.06,
+     "y": 41.71,
+     "gatherer_spot": true,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "36 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "12 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W5.png",
+      "reference/gathering/old_data_guide.py"
+     ]
+    },
+    {
+     "id": "ra-13",
+     "no": 13,
+     "pin": null,
+     "ref": "W6",
+     "area": "Luminant Lakelands",
+     "type": "tree",
+     "type_en": "Tree Resource Area",
+     "x": 65.58,
+     "y": 66.7,
+     "gatherer_spot": true,
+     "drops": [
+      {
+       "item": "Hardwood",
+       "qty": "33 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      },
+      {
+       "item": "Ironwood",
+       "qty": "11 ต่อวันเมื่อวาง Gatherer (GameWith JP 15 พ.ย.)"
+      }
+     ],
+     "rare": [],
+     "source": [
+      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+      "reference/gathering/gamewith-jp-pdf/spot-crops/W6.png",
+      "reference/gathering/old_data_guide.py"
+     ]
     }
    ]
   },
@@ -1981,8 +2125,8 @@
     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
     "reference/gathering/old_data_guide.py"
    ],
-   "note": "ยังไม่มีรูปแผนที่ Grand Archipelago ที่ไม่มีตัวอักษรญี่ปุ่น จึงยังวางจุดบนแผนที่ไม่ได้ · มีจุดวาง Gatherer 9 จุด (ตาราง: ไม่รวมจุดแร่ 2 จุด) กดดูแต่ละจุดได้จากลิงก์ในรายการวัตถุดิบด้านล่าง",
-   "image": null,
+   "note": null,
+   "image": "img/map/grand-archipelago.webp",
    "spots": [
     {
      "id": "ga-01",
@@ -1992,8 +2136,8 @@
      "area": "Saltthorn Dunes",
      "type": "honey",
      "type_en": "Honey & Mushroom Area",
-     "x": null,
-     "y": null,
+     "x": 25.76,
+     "y": 53.11,
      "drops": [
       {
        "item": "Nitroshroom",
@@ -2023,8 +2167,8 @@
      "area": "Spore Isle",
      "type": "honey",
      "type_en": "Honey & Mushroom Area",
-     "x": null,
-     "y": null,
+     "x": 55.09,
+     "y": 76.98,
      "drops": [
       {
        "item": "Nitroshroom",
@@ -2054,8 +2198,8 @@
      "area": "Saltthorn Dunes",
      "type": "plant",
      "type_en": "Plant Resource Area",
-     "x": null,
-     "y": null,
+     "x": 18.13,
+     "y": 39.5,
      "drops": [
       {
        "item": "Honey",
@@ -2089,8 +2233,8 @@
      "area": "Spore Isle",
      "type": "plant",
      "type_en": "Plant Resource Area",
-     "x": null,
-     "y": null,
+     "x": 64.57,
+     "y": 35.78,
      "drops": [
       {
        "item": "Herb",
@@ -2131,8 +2275,8 @@
      "area": "Saltthorn Dunes",
      "type": "specialty",
      "type_en": "Local Specialty Area",
-     "x": null,
-     "y": null,
+     "x": 10.76,
+     "y": 54.8,
      "drops": [
       {
        "item": "Fine Honeyfruit",
@@ -2169,7 +2313,8 @@
       "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
       "reference/gathering/gamewith-jp-pdf/spot-crops/P15.png",
       "reference/gathering/old_data_guide.py"
-     ]
+     ],
+     "approx": true
     },
     {
      "id": "ga-06",
@@ -2179,8 +2324,8 @@
      "area": "Spore Isle",
      "type": "tree",
      "type_en": "Tree Resource Area",
-     "x": null,
-     "y": null,
+     "x": 63.78,
+     "y": 26.9,
      "drops": [
       {
        "item": "Hardwood",
@@ -2206,8 +2351,8 @@
      "area": "Spore Isle",
      "type": "tree",
      "type_en": "Tree Resource Area",
-     "x": null,
-     "y": null,
+     "x": 67.05,
+     "y": 29.63,
      "drops": [
       {
        "item": "Hardwood",
@@ -2233,8 +2378,8 @@
      "area": "Spore Isle",
      "type": "ore",
      "type_en": "Mineral & Fossil Area",
-     "x": null,
-     "y": null,
+     "x": 87.43,
+     "y": 45.23,
      "drops": [
       {
        "item": "Monster Bone S",
@@ -2276,8 +2421,8 @@
      "area": "Spore Isle",
      "type": "ore",
      "type_en": "Mineral & Fossil Area",
-     "x": null,
-     "y": null,
+     "x": 55.01,
+     "y": 45.42,
      "drops": [
       {
        "item": "Monster Bone S",
@@ -3434,7 +3579,10 @@
     "ra-04",
     "ra-01",
     "ga-06",
-    "ga-07"
+    "ga-07",
+    "sp-18",
+    "ra-12",
+    "ra-13"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -3475,7 +3623,10 @@
     "ra-04",
     "ra-01",
     "ga-06",
-    "ga-07"
+    "ga-07",
+    "sp-18",
+    "ra-12",
+    "ra-13"
    ],
    "gatherer": [
     "SP/Desert Oasis/Wood"
@@ -3768,7 +3919,9 @@
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/meals-guide"
    ],
    "found_in": [
-    "ra-02"
+    "ra-02",
+    "ra-10",
+    "ra-11"
    ],
    "gatherer": []
   },

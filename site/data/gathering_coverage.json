@@ -1,0 +1,168 @@
+{
+ "note": "ตรวจกับบทความ GameWith JP 「出張採集施設のおすすめ設置場所」 (587282) จาก PDF ที่ผู้ใช้บันทึกไว้ 15 พ.ย. 2026",
+ "gatherer_article_587282": {
+  "complete": true,
+  "rows": [
+   {
+    "map": "GA",
+    "type": "Honey & Mushroom Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GA",
+    "type": "Local Specialty Area",
+    "jp_spots": 1,
+    "web_spots": 1,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GA",
+    "type": "Mineral & Fossil Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GA",
+    "type": "Plant Resource Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GA",
+    "type": "Tree Resource Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GL",
+    "type": "Honey & Mushroom Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GL",
+    "type": "Local Specialty Area",
+    "jp_spots": 1,
+    "web_spots": 1,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GL",
+    "type": "Mineral & Fossil Area",
+    "jp_spots": 3,
+    "web_spots": 3,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GL",
+    "type": "Plant Resource Area",
+    "jp_spots": 1,
+    "web_spots": 1,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "GL",
+    "type": "Tree Resource Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "RA",
+    "type": "Honey & Mushroom Area",
+    "jp_spots": 1,
+    "web_spots": 1,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "RA",
+    "type": "Local Specialty Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "RA",
+    "type": "Mineral & Fossil Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "RA",
+    "type": "Tree Resource Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "SP",
+    "type": "Honey & Mushroom Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "SP",
+    "type": "Mineral & Fossil Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "SP",
+    "type": "Plant Resource Area",
+    "jp_spots": 1,
+    "web_spots": 1,
+    "missing": [],
+    "item_gaps": []
+   },
+   {
+    "map": "SP",
+    "type": "Tree Resource Area",
+    "jp_spots": 2,
+    "web_spots": 2,
+    "missing": [],
+    "item_gaps": []
+   }
+  ]
+ },
+ "not_read": [
+  {
+   "url": "https://gamewith.jp/mhoutlanders/576794",
+   "reason": "ไม่ได้ดึงหน้าเว็บโดยตรง: GameWith JP เขียนขอไม่ให้เก็บข้อมูลอัตโนมัติ · ถ้าบันทึกหน้าเป็น PDF ไว้ใน reference/ จะตรวจได้"
+  },
+  {
+   "url": "https://gamewith.jp/mhoutlanders/560129 (+ หน้าแผนที่อีก 3 แมพ)",
+   "reason": "เหตุผลเดียวกัน"
+  }
+ ],
+ "gamewith_en_resource_spots": {
+  "GL": 18,
+  "SP": 15,
+  "RA": 7,
+  "GA": 0
+ }
+}

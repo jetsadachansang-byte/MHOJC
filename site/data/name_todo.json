@@ -1,0 +1,39 @@
+{
+ "note": "ชื่อที่ยังยืนยันกับ GameWith.ai EN ไม่ได้ (ไม่ได้เดา)",
+ "items": [
+  {
+   "kind": "GA sub-area",
+   "current": "Saltthorn Dunes",
+   "why": "ชื่อจากไกด์เก่า; GameWith EN ไม่มีข้อมูลแมพ GA; แผนที่ Game8 ไม่มีชื่อนี้"
+  },
+  {
+   "kind": "GA sub-area",
+   "current": "Spore Isle",
+   "why": "เหมือนข้างบน"
+  },
+  {
+   "kind": "GA area labels in GameWith JP crops",
+   "jp": [
+    "潮騒海岸",
+    "浮岩の菌林",
+    "紫瀑の回廊",
+    "日暮れ島",
+    "秘密の渓間",
+    "掌岩の浜",
+    "海天の…"
+   ],
+   "why": "ไม่มีชื่อ EN ใน GameWith EN (แผนที่ Game8 มี Wailing Shore, Fungal Plateau, Isle of Dusk, Rock Hand Beach ฯลฯ แต่ไม่ใช่แหล่ง GameWith EN)"
+  },
+  {
+   "kind": "item",
+   "current": [
+    "Light Pearl",
+    "Platinum Pearl",
+    "Super Abalone",
+    "Violet Abalone",
+    "Radiantite Crystal"
+   ],
+   "why": "ไม่อยู่ในรายการไอเทม GameWith EN"
+  }
+ ]
+}

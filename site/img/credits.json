@@ -8634,5 +8634,12 @@
   "page": "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf (GameWith JP 「出張採集施設のおすすめ設置場所」, saved 2026-11-15)",
   "w": 128,
   "h": 128
+ },
+ "img/map/grand-archipelago.webp": {
+  "source": "user screenshot of https://game8.co/games/Monster-Hunter-Outlanders/archives/599531 (map), UI border cropped",
+  "page": "https://game8.co/games/Monster-Hunter-Outlanders/archives/599531",
+  "w": 1125,
+  "h": 1082,
+  "note": "labels are English; contains Game8 map pins"
  }
 }

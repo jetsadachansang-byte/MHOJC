@@ -964,7 +964,24 @@
      "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
      "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
     ]
+   },
+   {
+    "topic": "Rotfall Abyss: Local Specialty Area ที่ Luminant Lakelands (P8, P9)",
+    "old_jp": "GameWith JP: จุดวาง Gatherer ของพิเศษ 2 จุดที่ Luminant Lakelands",
+    "new_en": "GameWith EN: Luminant Lakelands มี Local Specialty Area 0 จุด",
+    "used": "JP (ใหม่กว่า) เพิ่มเป็นจุดวาง Gatherer",
+    "source": [
+     "reference/gathering/gamewith-jp-pdf/gamewith-gatherer-placement-2026-11-15.pdf",
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+    ]
    }
+  ],
+  "unmatched_now_added_as_spots": [
+   "W3",
+   "P8",
+   "P9",
+   "W5",
+   "W6"
   ]
  }
 }
