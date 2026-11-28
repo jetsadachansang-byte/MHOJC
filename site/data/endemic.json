@@ -40,7 +40,9 @@
     "160",
     "109"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/armagold-moly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/armagold-moly",
+   "note": "Moly variants protected by tough helmets. They boast the fastest digging speeds of their kind.",
+   "note_th": "โมลี่สายพันธุ์ที่มีหมวกเกราะแข็งคุ้มกัน ขุดดินได้เร็วที่สุดในบรรดาโมลี่ทั้งหมด"
   },
   {
    "id": "ashen-vulture",
@@ -61,7 +63,9 @@
     "164",
     "78"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ashen-vulture"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ashen-vulture",
+   "note": "Small carrion-feeding birds that often circle above large monsters, pecking at the leftover scraps from their kills.",
+   "note_th": "นกกินซากขนาดเล็ก มักบินวนเหนือมอนสเตอร์ใหญ่ คอยจิกกินเศษเนื้อที่เหลือจากเหยื่อของมัน"
   },
   {
    "id": "blissbill",
@@ -82,7 +86,9 @@
     "147",
     "68"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/blissbill"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/blissbill",
+   "note": "Herbivorous birds that let out soft coos during clear weather. They are among the few bird species unafraid of humans.",
+   "note_th": "นกกินพืช ส่งเสียงร้องเบา ๆ ในวันที่อากาศแจ่มใส เป็นนกไม่กี่ชนิดที่ไม่กลัวมนุษย์"
   },
   {
    "id": "bomb-arowana",
@@ -101,7 +107,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bomb-arowana"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bomb-arowana",
+   "note": "Fish that favor Arowana bait. Their tenderness is a result of their large appetites.",
+   "note_th": "ปลาที่ชอบเหยื่อ Arowana Bait เนื้อนุ่มเพราะกินจุ"
   },
   {
    "id": "bristly-crake",
@@ -121,7 +129,9 @@
     "69",
     "39"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bristly-crake"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bristly-crake",
+   "note": "They have unusually stiff feathers and are rarely seen, but all recorded cases show that they live in symbiosis with other creatures.",
+   "note_th": "มีขนแข็งผิดปกติและพบเห็นได้ยาก แต่ทุกครั้งที่มีบันทึกพบว่ามันอยู่ร่วมกับสัตว์ชนิดอื่นแบบพึ่งพากัน"
   },
   {
    "id": "broad-eared-ghost-bat",
@@ -143,7 +153,9 @@
     "158",
     "103"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/broad-eared-ghost-bat"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/broad-eared-ghost-bat",
+   "note": "Bats with enormous ears. Adapted to cave life, they have evolved terrifying wings that scare off predators when spread.",
+   "note_th": "ค้างคาวหูใหญ่มาก ปรับตัวให้อยู่ในถ้ำ และวิวัฒนาการปีกที่น่ากลัวไว้ขู่ผู้ล่าเมื่อกางออก"
   },
   {
    "id": "bubblefish",
@@ -164,7 +176,9 @@
     "48",
     "40"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubblefish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubblefish",
+   "note": "Fish that blow giant bubbles. They often surface from the waters, and are very delicious.",
+   "note_th": "ปลาที่เป่าฟองยักษ์ มักโผล่ขึ้นผิวน้ำ และอร่อยมาก"
   },
   {
    "id": "bubbly-moly",
@@ -180,7 +194,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubbly-moly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/bubbly-moly",
+   "note": "Moly that enjoy blowing bubbles. They may look adorably silly, but their digging skills are exceptionally high.",
+   "note_th": "โมลี่ที่ชอบเป่าฟอง ดูน่ารักทึ่ม ๆ แต่ฝีมือขุดดินสูงเป็นพิเศษ"
   },
   {
    "id": "burst-arowana",
@@ -199,7 +215,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 50 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/burst-arowana"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/burst-arowana",
+   "note": "Fish that favor Arowana bait. Their massive size is a result of their large appetites.",
+   "note_th": "ปลาที่ชอบเหยื่อ Arowana Bait ตัวใหญ่มากเพราะกินจุ"
   },
   {
    "id": "clover-moly",
@@ -218,7 +236,9 @@
     "169",
     "108"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/clover-moly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/clover-moly",
+   "note": "Green-coated Moly variants. The clovers on their heads are said to be symbols of good fortune.",
+   "note_th": "โมลี่สายพันธุ์ขนสีเขียว ใบโคลเวอร์บนหัวเชื่อกันว่าเป็นสัญลักษณ์แห่งโชคดี"
   },
   {
    "id": "copperwing-flutterfly",
@@ -238,7 +258,9 @@
     "101",
     "53"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/copperwing-flutterfly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/copperwing-flutterfly",
+   "note": "Creatures with bright, shimmering copper wings. When threatened, they scatter clouds of phosphorescent powder.",
+   "note_th": "สัตว์ที่มีปีกสีทองแดงแวววาว เมื่อถูกคุกคามจะโปรยผงเรืองแสงออกมาเป็นกลุ่มควัน"
   },
   {
    "id": "corrosive-helmcrab",
@@ -254,7 +276,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/corrosive-helmcrab"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/corrosive-helmcrab",
+   "note": "Creatures capable of spitting corrosive fluid. They gather in large groups and swarm around remains, feeding on rotten meat.",
+   "note_th": "สัตว์ที่พ่นของเหลวกัดกร่อนได้ รวมตัวเป็นฝูงใหญ่รุมกินซากเนื้อเน่า"
   },
   {
    "id": "dapper-coralbird",
@@ -270,7 +294,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dapper-coralbird"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dapper-coralbird",
+   "note": "A subspecies of male Coralbirds. They emit pleasant calls that attract females and only appear during breeding season.",
+   "note_th": "Coralbird ตัวผู้สายพันธุ์ย่อย ส่งเสียงร้องไพเราะเพื่อดึงดูดตัวเมีย และปรากฏตัวเฉพาะฤดูผสมพันธุ์"
   },
   {
    "id": "downy-crake",
@@ -296,7 +322,9 @@
     "69",
     "39"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/downy-crake"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/downy-crake",
+   "note": "Extremely rare creatures whose soft feathers are light gray, making them difficult to spot.",
+   "note_th": "สัตว์หายากมาก ขนนุ่มสีเทาอ่อนทำให้มองเห็นได้ยาก"
   },
   {
    "id": "dung-beetle",
@@ -315,7 +343,9 @@
     "84",
     "43"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dung-beetle"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/dung-beetle",
+   "note": "Tenacious insects that have adapted to desert life by evolving golden carapaces capable of withstanding high temperatures.",
+   "note_th": "แมลงทรหดที่ปรับตัวกับทะเลทราย วิวัฒนาการเปลือกสีทองที่ทนความร้อนสูงได้"
   },
   {
    "id": "emperor-hopper",
@@ -336,7 +366,9 @@
     "75",
     "47"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/emperor-hopper"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/emperor-hopper",
+   "note": "Grasshoppers that live in the forest. Their swift, frenetic jumps make them hard to capture.",
+   "note_th": "ตั๊กแตนที่อาศัยในป่า กระโดดเร็วและพล่านจนจับได้ยาก"
   },
   {
    "id": "evergreen-ray",
@@ -352,7 +384,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/evergreen-ray"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/evergreen-ray",
+   "note": "Island-dwelling creatures with claw-like horns. Though said to be strong enough to break reefs, these horns are actually just their antennae.",
+   "note_th": "สัตว์ที่อาศัยบนเกาะ มีเขาคล้ายกรงเล็บ ว่ากันว่าแข็งพอจะทุบแนวปะการังได้ แต่จริง ๆ แล้วเขานั้นเป็นแค่หนวดของมัน"
   },
   {
    "id": "flashfly",
@@ -381,7 +415,9 @@
     "57",
     "28"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/flashfly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/flashfly",
+   "note": "Flash when struck. To avoid predators, they often gather in swarms.",
+   "note_th": "ส่องแสงวาบเมื่อถูกตี มักรวมฝูงเพื่อหลบผู้ล่า"
   },
   {
    "id": "gastronome-tuna",
@@ -400,7 +436,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gastronome-tuna"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gastronome-tuna",
+   "note": "Fish that eat anything—even rocks, it seems...",
+   "note_th": "ปลาที่กินทุกอย่าง ดูเหมือนว่าจะกินแม้กระทั่งก้อนหิน..."
   },
   {
    "id": "ghostly-jellyfish",
@@ -416,7 +454,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ghostly-jellyfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ghostly-jellyfish",
+   "note": "Mysterious creatures inhabiting the archipelago, as enigmatic as the cosmos itself. They can occasionally be seen on the sea's bioluminescent surface.",
+   "note_th": "สัตว์ลึกลับที่อาศัยในหมู่เกาะ ลึกลับราวกับจักรวาล บางครั้งพบได้บนผิวทะเลที่เรืองแสง"
   },
   {
    "id": "giant-vigorwasp",
@@ -445,7 +485,9 @@
     "131",
     "84"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/giant-vigorwasp"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/giant-vigorwasp",
+   "note": "Insects that store a large amount of restorative nectar and are beloved by all.",
+   "note_th": "แมลงที่เก็บน้ำหวานฟื้นฟูไว้จำนวนมาก เป็นที่รักของทุกคน"
   },
   {
    "id": "gloomfly",
@@ -467,7 +509,9 @@
     "135",
     "79"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gloomfly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gloomfly",
+   "note": "Extremely rare insects that emit a purple glow and only appear at night.",
+   "note_th": "แมลงหายากมาก เปล่งแสงสีม่วงและปรากฏเฉพาะตอนกลางคืน"
   },
   {
    "id": "glowring-gekko",
@@ -483,7 +527,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/glowring-gekko"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/glowring-gekko",
+   "note": "Rare venomous gekkos that capture small insects by spitting their toxin.",
+   "note_th": "ตุ๊กแกมีพิษหายาก จับแมลงเล็ก ๆ ด้วยการพ่นพิษ"
   },
   {
    "id": "gold-hercudrome",
@@ -504,7 +550,9 @@
     "62",
     "28"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gold-hercudrome"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/gold-hercudrome",
+   "note": "Golden, large-spotted insects that emerge only at night and are said to bring good fortune.",
+   "note_th": "แมลงลายจุดใหญ่สีทอง ออกมาเฉพาะตอนกลางคืน ว่ากันว่านำโชคดีมาให้"
   },
   {
    "id": "golden-wingdrake",
@@ -523,7 +571,9 @@
     "179",
     "92"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/golden-wingdrake"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/golden-wingdrake",
+   "note": "Winged creatures that exude an ancient aura, said to have existed since antiquity. Only a few have ever been sighted.",
+   "note_th": "สัตว์มีปีกที่แผ่ออร่าโบราณ ว่ากันว่ามีมาตั้งแต่ยุคโบราณ มีผู้พบเห็นเพียงไม่กี่ตัว"
   },
   {
    "id": "goldenfish",
@@ -544,7 +594,9 @@
     "130",
     "105"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfish",
+   "note": "Fish that favor goldenfish bait. Their scales glitter like gold.",
+   "note_th": "ปลาที่ชอบเหยื่อ Goldenfish Bait เกล็ดระยิบระยับราวกับทองคำ"
   },
   {
    "id": "goldenfry",
@@ -565,7 +617,9 @@
     "47",
     "38"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfry"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/goldenfry",
+   "note": "Small fish that favor gunpowderfish bait. Their bodies shimmer like gold.",
+   "note_th": "ปลาตัวเล็กที่ชอบเหยื่อ Gunpowderfish Bait ตัวเป็นประกายราวกับทองคำ"
   },
   {
    "id": "great-bomb-arowana",
@@ -584,7 +638,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bomb-arowana"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bomb-arowana",
+   "note": "Jumbo-sized Goldenfish that are especially delicious when cooked.",
+   "note_th": "Goldenfish ขนาดยักษ์ อร่อยเป็นพิเศษเมื่อนำไปปรุง"
   },
   {
    "id": "great-bubblefish",
@@ -605,7 +661,9 @@
     "95",
     "75"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bubblefish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-bubblefish",
+   "note": "Jumbo-sized Bubblefish. Not only larger, but also much more dangerous.",
+   "note_th": "Bubblefish ขนาดยักษ์ ไม่ได้แค่ตัวใหญ่กว่า แต่ยังอันตรายกว่ามาก"
   },
   {
    "id": "great-burst-arowana",
@@ -624,7 +682,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-burst-arowana"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-burst-arowana",
+   "note": "Jumbo-sized Burst Arowana. Their large size makes them difficult to catch.",
+   "note_th": "Burst Arowana ขนาดยักษ์ ตัวใหญ่จนจับได้ยาก"
   },
   {
    "id": "great-gastronome-tuna",
@@ -643,7 +703,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-gastronome-tuna"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-gastronome-tuna",
+   "note": "They devour all things—their stomachs are practically abysses...",
+   "note_th": "กินทุกสิ่งทุกอย่าง กระเพาะของมันแทบจะเป็นหุบเหวไร้ก้น..."
   },
   {
    "id": "great-goldenfish",
@@ -661,7 +723,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfish",
+   "note": "Exceptionally large Goldenfish whose captivating scales are considered the finest of their kind.",
+   "note_th": "Goldenfish ตัวใหญ่เป็นพิเศษ เกล็ดที่ชวนหลงใหลถือว่าดีที่สุดในสายพันธุ์"
   },
   {
    "id": "great-goldenfry",
@@ -682,7 +746,9 @@
     "95",
     "77"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfry"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-goldenfry",
+   "note": "Jumbo-sized Goldenfry. Their color and luster rival the finest craftsmanship.",
+   "note_th": "Goldenfry ขนาดยักษ์ สีและความแวววาวเทียบชั้นงานฝีมือชั้นยอด"
   },
   {
    "id": "great-king-marlin",
@@ -698,7 +764,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-king-marlin"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-king-marlin",
+   "note": "Jumbo-sized Spearfish. Not only larger, but also far more dangerous.",
+   "note_th": "Spearfish ขนาดยักษ์ ไม่ได้แค่ตัวใหญ่กว่า แต่ยังอันตรายกว่ามาก"
   },
   {
    "id": "great-platinumfish",
@@ -714,7 +782,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-platinumfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-platinumfish",
+   "note": "Jumbo-sized Platinumfish whose dazzling scales are considered the finest of their kind.",
+   "note_th": "Platinumfish ขนาดยักษ์ เกล็ดเจิดจ้าถือว่าดีที่สุดในสายพันธุ์"
   },
   {
    "id": "great-scarlet-blossomfish",
@@ -734,7 +804,9 @@
     "135",
     "105"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-scarlet-blossomfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-scarlet-blossomfish",
+   "note": "Exceptionally large Scarlet Blossomfish. The larger their bodies, the paler their coloration.",
+   "note_th": "Scarlet Blossomfish ตัวใหญ่เป็นพิเศษ ยิ่งตัวใหญ่สียิ่งซีดลง"
   },
   {
    "id": "great-sushifish",
@@ -755,7 +827,9 @@
     "195",
     "105"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-sushifish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-sushifish",
+   "note": "Jumbo-sized Sushifish. Their flavor and nutritional value are both top-tier.",
+   "note_th": "Sushifish ขนาดยักษ์ ทั้งรสชาติและคุณค่าทางอาหารอยู่ในระดับสูงสุด"
   },
   {
    "id": "great-whetfish",
@@ -777,7 +851,9 @@
     "225",
     "205"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-whetfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/great-whetfish",
+   "note": "Jumbo-sized Whetfish. Hard scales protect their bodies like armor.",
+   "note_th": "Whetfish ขนาดยักษ์ เกล็ดแข็งปกป้องตัวเหมือนชุดเกราะ"
   },
   {
    "id": "greenleaf-gekko",
@@ -796,7 +872,9 @@
     "95",
     "32"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/greenleaf-gekko"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/greenleaf-gekko",
+   "note": "Green-camouflaged creatures that are extremely hard to spot. They are known for their soft popping calls, and are commonly found in forests.",
+   "note_th": "สัตว์พรางตัวสีเขียวที่มองเห็นยากมาก ขึ้นชื่อเรื่องเสียงร้องดังป๊อกเบา ๆ พบได้ทั่วไปในป่า"
   },
   {
    "id": "hercudrome",
@@ -818,7 +896,9 @@
     "62",
     "28"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/hercudrome"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/hercudrome",
+   "note": "Large beetles with magnificent horns that feed on plants.",
+   "note_th": "ด้วงตัวใหญ่ที่มีเขาสง่างาม กินพืชเป็นอาหาร"
   },
   {
    "id": "iron-helmcrab",
@@ -839,7 +919,9 @@
     "182",
     "101"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/iron-helmcrab"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/iron-helmcrab",
+   "note": "Creatures that live primarily in muddy areas. The iron-like plates on their bodies serve as armor against predators.",
+   "note_th": "สัตว์ที่อาศัยในพื้นที่โคลนเป็นหลัก แผ่นแข็งคล้ายเหล็กบนตัวใช้เป็นเกราะป้องกันผู้ล่า"
   },
   {
    "id": "ironfist-crab",
@@ -859,7 +941,9 @@
     "88",
     "62"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ironfist-crab"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/ironfist-crab",
+   "note": "Crabs with giant pincers. Due to constant use, their meat is incredibly tender.",
+   "note_th": "ปูก้ามยักษ์ เพราะใช้ก้ามตลอดเวลา เนื้อจึงนุ่มมาก"
   },
   {
    "id": "king-spearfish",
@@ -875,7 +959,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 200 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/king-spearfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/king-spearfish",
+   "note": "Fish with sword-like upper jaws. Some even consider using them as weapons...",
+   "note_th": "ปลาที่มีขากรรไกรบนเหมือนดาบ บางคนถึงขั้นคิดจะใช้มันเป็นอาวุธ..."
   },
   {
    "id": "lantern-rockfish",
@@ -891,7 +977,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lantern-rockfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lantern-rockfish",
+   "note": "Fish said to use the light on their heads to lure and prey on small fish.",
+   "note_th": "ว่ากันว่าเป็นปลาที่ใช้แสงบนหัวล่อและล่าปลาตัวเล็ก"
   },
   {
    "id": "lusterwasp",
@@ -914,7 +1002,9 @@
    "source": [
     "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lusterwasp",
     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide"
-   ]
+   ],
+   "note": "Rare insects whose scattered powder sparks creativity in Rutacoes.",
+   "note_th": "แมลงหายาก ผงที่มันโปรยออกมาจุดประกายความคิดสร้างสรรค์ให้ชาว Rutaco"
   },
   {
    "id": "lustrous-jellyfish",
@@ -930,7 +1020,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lustrous-jellyfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/lustrous-jellyfish",
+   "note": "Island-dwelling creatures that move with the wind, usually found in areas with strong breezes.",
+   "note_th": "สัตว์ที่อาศัยบนเกาะ เคลื่อนที่ไปตามลม มักพบในพื้นที่ที่ลมแรง"
   },
   {
    "id": "marine-seahorse",
@@ -946,7 +1038,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marine-seahorse"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marine-seahorse",
+   "note": "Nimble, mystical creatures that gather in large groups, collectively watching anything that approaches.",
+   "note_th": "สัตว์ลึกลับที่ว่องไว รวมตัวเป็นฝูงใหญ่ และจ้องมองทุกสิ่งที่เข้าใกล้พร้อมกัน"
   },
   {
    "id": "marshal-seahorse",
@@ -962,7 +1056,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marshal-seahorse"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/marshal-seahorse",
+   "note": "Rare creatures that appear only at night. Only a few have been sighted, but they always emerge as part of a large group.",
+   "note_th": "สัตว์หายากที่ปรากฏเฉพาะตอนกลางคืน มีผู้พบเห็นเพียงไม่กี่ครั้ง แต่ทุกครั้งจะโผล่มาเป็นฝูงใหญ่"
   },
   {
    "id": "moonlight-helmcrab",
@@ -982,7 +1078,9 @@
     "182",
     "99"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/moonlight-helmcrab"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/moonlight-helmcrab",
+   "note": "Beautiful creatures with a moonlight hue that emerge at night. Said to be even rarer than precious gems.",
+   "note_th": "สัตว์งดงามสีแสงจันทร์ ออกมาตอนกลางคืน ว่ากันว่าหายากยิ่งกว่าอัญมณีล้ำค่า"
   },
   {
    "id": "mudflat-tearbass",
@@ -1002,7 +1100,9 @@
     "160",
     "104"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mudflat-tearbass"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mudflat-tearbass",
+   "note": "Creatures that inhabit damp regions. Their shimmering blue dorsal fins are used to attract mates, and they occasionally come ashore to escape sandstorms.",
+   "note_th": "สัตว์ที่อาศัยในพื้นที่ชื้น ครีบหลังสีฟ้าแวววาวใช้ดึงดูดคู่ และบางครั้งขึ้นฝั่งเพื่อหลบพายุทราย"
   },
   {
    "id": "mythozard",
@@ -1023,7 +1123,9 @@
     "101",
     "32"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mythozard"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/mythozard",
+   "note": "Lizards that love darting across the ground. Their dreamlike forms shimmer with a radiant, rainbow-like glow.",
+   "note_th": "กิ้งก่าที่ชอบวิ่งพล่านไปตามพื้น ร่างราวกับความฝันเปล่งประกายสีรุ้ง"
   },
   {
    "id": "nightglow-flutterfly",
@@ -1043,7 +1145,9 @@
     "95",
     "48"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nightglow-flutterfly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nightglow-flutterfly",
+   "note": "Dreamy butterflies that appear only at night, with beautiful wings that shimmer with a mystical purple light.",
+   "note_th": "ผีเสื้อราวกับความฝันที่ปรากฏเฉพาะตอนกลางคืน ปีกงดงามเปล่งแสงสีม่วงลึกลับ"
   },
   {
    "id": "nitrotoad",
@@ -1072,7 +1176,9 @@
     "107",
     "50"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nitrotoad"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/nitrotoad",
+   "note": "Toads that explode on impact. The blast is strong enough to intimidate even large monsters.",
+   "note_th": "คางคกที่ระเบิดเมื่อถูกกระแทก แรงระเบิดมากพอจะข่มขวัญแม้แต่มอนสเตอร์ใหญ่"
   },
   {
    "id": "orange-moly",
@@ -1094,7 +1200,9 @@
     "163",
     "106"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/orange-moly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/orange-moly",
+   "note": "Creatures highly skilled at digging burrows, often found sleeping hidden within them.",
+   "note_th": "สัตว์ที่ขุดโพรงเก่งมาก มักพบนอนหลับซ่อนตัวอยู่ในโพรง"
   },
   {
    "id": "paratoad",
@@ -1123,7 +1231,9 @@
     "107",
     "50"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/paratoad"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/paratoad",
+   "note": "Toads that emit paralyzing gas. If used successfully, even large monsters will be paralyzed.",
+   "note_th": "คางคกที่ปล่อยแก๊สทำให้อัมพาต ถ้าใช้สำเร็จ แม้แต่มอนสเตอร์ใหญ่ก็เป็นอัมพาตได้"
   },
   {
    "id": "pearl-warbler",
@@ -1145,7 +1255,9 @@
     "175",
     "109"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/pearl-warbler"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/pearl-warbler",
+   "note": "Birds known for their beautiful voices. They only ever appear in pairs, making them rare sights.",
+   "note_th": "นกที่ขึ้นชื่อเรื่องเสียงร้องไพเราะ ปรากฏตัวเป็นคู่เสมอ จึงพบเห็นได้ยาก"
   },
   {
    "id": "phantom-jorogumo",
@@ -1166,7 +1278,9 @@
     "103",
     "54"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/phantom-jorogumo"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/phantom-jorogumo",
+   "note": "Ground-dwelling spiders that feed on rotten meat. Their glowing eyes allow them to see clearly in the dark.",
+   "note_th": "แมงมุมที่อาศัยบนพื้นดิน กินเนื้อเน่า ดวงตาเรืองแสงทำให้มองเห็นชัดในความมืด"
   },
   {
    "id": "platinumfish",
@@ -1185,7 +1299,9 @@
     "130",
     "105"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/platinumfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/platinumfish",
+   "note": "Fish that favor goldenfish bait. Their scales shimmer like polished platinum.",
+   "note_th": "ปลาที่ชอบเหยื่อ Goldenfish Bait เกล็ดแวววาวราวกับทองคำขาวขัดเงา"
   },
   {
    "id": "red-whisker-crayfish",
@@ -1205,7 +1321,9 @@
     "93",
     "52"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/red-whisker-crayfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/red-whisker-crayfish",
+   "note": "Crayfish shaped like great fighters that dodge with remarkable agility, making them difficult to capture.",
+   "note_th": "กุ้งเครย์ฟิชรูปร่างเหมือนนักสู้ หลบหลีกได้คล่องแคล่วจนจับได้ยาก"
   },
   {
    "id": "rosyfluff-hare",
@@ -1226,7 +1344,9 @@
     "179",
     "102"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/rosyfluff-hare"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/rosyfluff-hare",
+   "note": "Widely distributed rare creatures. Their pink fur is said to be a sign of good luck—encountering them is believed to bring good fortune.",
+   "note_th": "สัตว์หายากที่กระจายตัวกว้าง ขนสีชมพูว่ากันว่าเป็นสัญญาณแห่งโชค เชื่อกันว่าใครได้พบจะโชคดี"
   },
   {
    "id": "sand-armored-lizard",
@@ -1245,7 +1365,9 @@
     "122",
     "63"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sand-armored-lizard"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sand-armored-lizard",
+   "note": "Horned lizards found in sandy areas. Their sandy armor effectively retains moisture, allowing them to survive in scorching hot sands.",
+   "note_th": "กิ้งก่ามีเขาที่พบในพื้นที่ทราย เกราะทรายช่วยเก็บความชื้น ทำให้อยู่รอดในทรายร้อนระอุได้"
   },
   {
    "id": "saturnian",
@@ -1261,7 +1383,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/saturnian"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/saturnian",
+   "note": "Phantasmal creatures whose existence is unconfirmed. They are said to have existed since ancient times, and bounties have offered astronomical sums for their capture.",
+   "note_th": "สัตว์ลี้ลับที่ยังไม่มีใครยืนยันว่ามีอยู่จริง ว่ากันว่ามีมาตั้งแต่โบราณ และเคยมีค่าหัวสูงลิบสำหรับการจับมัน"
   },
   {
    "id": "scarlet-blossomfish",
@@ -1281,7 +1405,9 @@
     "115",
     "75"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/scarlet-blossomfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/scarlet-blossomfish",
+   "note": "Fish that feed on fungi, giving their bodies a cherry-red hue.",
+   "note_th": "ปลาที่กินเห็ดราเป็นอาหาร ทำให้ตัวมีสีแดงเหมือนดอกซากุระ"
   },
   {
    "id": "seerfly",
@@ -1303,7 +1429,9 @@
     "132",
     "75"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/seerfly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/seerfly",
+   "note": "Rare insects whose bodies emit a warning glow when in danger. Their ability to foresee danger allows them to avoid being preyed upon.",
+   "note_th": "แมลงหายากที่ตัวเปล่งแสงเตือนเมื่อตกอยู่ในอันตราย ความสามารถในการรู้ล่วงหน้าทำให้มันหลบผู้ล่าได้"
   },
   {
    "id": "serene-coralbird",
@@ -1323,7 +1451,9 @@
     "146",
     "96"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/serene-coralbird"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/serene-coralbird",
+   "note": "A subspecies of female Coralbirds. Their green color is a result of a fungus-based diet.",
+   "note_th": "Coralbird ตัวเมียสายพันธุ์ย่อย สีเขียวของมันเป็นผลจากการกินเห็ดรา"
   },
   {
    "id": "skimmerfish",
@@ -1343,7 +1473,9 @@
     "78",
     "51"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/skimmerfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/skimmerfish",
+   "note": "Fish with wing-like pectoral fins, allowing them to nimbly leap across the water's surface.",
+   "note_th": "ปลาที่มีครีบอกคล้ายปีก ทำให้กระโดดข้ามผิวน้ำได้อย่างคล่องแคล่ว"
   },
   {
    "id": "sleeptoad",
@@ -1372,7 +1504,9 @@
     "105",
     "47"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sleeptoad"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sleeptoad",
+   "note": "Toads that spray sleeping gas. If used successfully, even large monsters can be put to sleep.",
+   "note_th": "คางคกที่พ่นแก๊สนอนหลับ ถ้าใช้สำเร็จ แม้แต่มอนสเตอร์ใหญ่ก็หลับได้"
   },
   {
    "id": "sludge-spider",
@@ -1393,7 +1527,9 @@
     "87",
     "52"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sludge-spider"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sludge-spider",
+   "note": "Small eight-legged arthropods with wire-tough webs capable of trapping any small insect that strays across them.",
+   "note_th": "สัตว์ขาปล้องแปดขาตัวเล็ก ใยเหนียวราวลวดดักแมลงเล็กทุกตัวที่หลงเข้ามา"
   },
   {
    "id": "sonic-bug",
@@ -1409,7 +1545,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sonic-bug"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sonic-bug",
+   "note": "Known for shrieking loudly when struck. They often gather in groups to avoid being preyed upon.",
+   "note_th": "ขึ้นชื่อเรื่องส่งเสียงแหลมดังเมื่อถูกตี มักรวมกลุ่มเพื่อหลบผู้ล่า"
   },
   {
    "id": "starrycanth",
@@ -1425,7 +1563,9 @@
    "effect": "ใช้เป็นวัตถุดิบปลาในเมนูอาหารปลา (ใช้ปลาตัวไหนก็ได้ที่ระดับความหายากตรงตามที่เมนูต้องการ) · นำไปหลอม (Meld) เป็น Research Points ได้ตัวละ 500 (ปลาแลกได้คุ้มกว่าแร่หรือพืช)",
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/starrycanth"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/starrycanth",
+   "note": "Rare creatures that appear only on starry nights, leaping from the water with a dreamlike grace.",
+   "note_th": "สัตว์หายากที่ปรากฏเฉพาะคืนที่มีดาวเต็มฟ้า กระโดดขึ้นจากน้ำอย่างสง่างามราวกับความฝัน"
   },
   {
    "id": "sushifish",
@@ -1446,7 +1586,9 @@
     "109",
     "88"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sushifish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/sushifish",
+   "note": "Incredibly delicious edible fish that relieve fatigue when consumed.",
+   "note_th": "ปลากินได้ที่อร่อยมาก กินแล้วช่วยคลายความเหนื่อยล้า"
   },
   {
    "id": "swiftsprig-hare",
@@ -1467,7 +1609,9 @@
     "176",
     "96"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/swiftsprig-hare"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/swiftsprig-hare",
+   "note": "Exceptionally fast creatures. Those who manage to catch them may uncover a pleasant surprise.",
+   "note_th": "สัตว์ที่เร็วเป็นพิเศษ ใครจับได้อาจพบเซอร์ไพรส์ที่น่ายินดี"
   },
   {
    "id": "titan-ant",
@@ -1488,7 +1632,9 @@
     "48",
     "17"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/titan-ant"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/titan-ant",
+   "note": "Ants capable of moving objects. Just a single ant can move an entire leaf on its own.",
+   "note_th": "มดที่เคลื่อนย้ายสิ่งของได้ มดตัวเดียวสามารถขนใบไม้ทั้งใบได้"
   },
   {
    "id": "vigorwasp",
@@ -1517,7 +1663,9 @@
     "90",
     "42"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/vigorwasp"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/vigorwasp",
+   "note": "Insects that store restorative nectar. This seems to be due to their fondness for the nectar's sweetness.",
+   "note_th": "แมลงที่เก็บน้ำหวานฟื้นฟูไว้ ดูเหมือนเป็นเพราะมันชอบความหวานของน้ำหวาน"
   },
   {
    "id": "viridian-hercudrome",
@@ -1537,7 +1685,9 @@
     "62",
     "28"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/viridian-hercudrome"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/viridian-hercudrome",
+   "note": "Insects with huge horns that emerge only at dawn and dusk.",
+   "note_th": "แมลงเขาใหญ่ที่ออกมาเฉพาะตอนรุ่งเช้าและพลบค่ำ"
   },
   {
    "id": "warhopper",
@@ -1553,7 +1703,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/warhopper"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/warhopper",
+   "note": "Unusually aggressive grasshoppers that attack fiercely and dodge agilely, making them difficult to capture.",
+   "note_th": "ตั๊กแตนที่ก้าวร้าวผิดปกติ โจมตีดุดันและหลบคล่องแคล่ว จับได้ยาก"
   },
   {
    "id": "whetfish",
@@ -1575,7 +1727,9 @@
     "130",
     "105"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/whetfish"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/whetfish",
+   "note": "Fish with tough scales, thought to have evolved as protection against predators.",
+   "note_th": "ปลาเกล็ดแข็ง เชื่อว่าวิวัฒนาการมาเพื่อป้องกันผู้ล่า"
   },
   {
    "id": "witchcap-moly",
@@ -1591,7 +1745,9 @@
    "effect": null,
    "rewards": null,
    "size": null,
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/witchcap-moly"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/witchcap-moly",
+   "note": "Moly covered entirely in gray fur. They are the most mysterious of all confirmed members of their kind.",
+   "note_th": "โมลี่ที่มีขนสีเทาคลุมทั้งตัว ลึกลับที่สุดในบรรดาโมลี่ทั้งหมดที่ยืนยันแล้ว"
   },
   {
    "id": "woodland-wingdrake",
@@ -1610,7 +1766,9 @@
     "170",
     "84"
    ],
-   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/woodland-wingdrake"
+   "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life/woodland-wingdrake",
+   "note": "Creatures that dwell in dense forests. Their wings exude an ancient aura, and sightings of them are exceptionally rare.",
+   "note_th": "สัตว์ที่อาศัยในป่าทึบ ปีกแผ่ออร่าโบราณ และพบเห็นได้ยากอย่างยิ่ง"
   }
  ],
  "source": "https://gamewith.ai/monster-hunter-outlanders/en/endemic-life",
