@@ -1506,9 +1506,9 @@
  "sub_every": 2,
  "notes": [
   "Cost รวมสูงสุด 12 · Core Effect ทำงานเฉพาะการ์ดในช่อง Core",
-  "ทุกระดับเลเวลสูงสุด 10 ปลดช่องค่ารองทุก 2 เลเวล รวม 5 ช่อง",
-  "ค่ารองมีทั้งแบบตัวเลข (พลังโจมตี, ป้องกัน) และแบบ % (ที่เหลือ) ตามชื่อในเกม",
-  "แหล่งข้อมูลไม่เปิดเผยค่าสูงสุดของค่ารองแต่ละแบบ จึงจำกัดไว้ที่ 100% สำหรับค่า % และ 9999 สำหรับค่าตัวเลข"
+  "เลเวลสูงสุด 10 ปลดช่องค่ารองทุก 2 เลเวล รวม 5 ช่อง",
+  "เพดานค่ารองต่อช่องตามระดับการ์ด อ้างอิงตาราง Resketch ของ Game8 (โบนัสดาเมจ, ดาเมจคริธาตุ, ป้องกัน, พลังโจมตี, ค่าธาตุ)",
+  "คริติคอล, ดาเมจคริ, ลดดาเมจที่ได้รับ และดาเมจกายภาพ ยังไม่มีตัวเลขในแหล่งข้อมูล จึงจำกัดไว้ที่ 100%"
  ],
  "apex": {
   "mastery": {
@@ -1545,7 +1545,8 @@
  "source": [
   "https://gamewith.ai/monster-hunter-outlanders/en/visages",
   "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-guide",
-  "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-album-level"
+  "https://gamewith.ai/monster-hunter-outlanders/en/articles/visage-album-level",
+  "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028"
  ],
  "substats": {
   "Attack Power": {
@@ -1553,21 +1554,39 @@
    "jp": "攻撃力",
    "unit": "",
    "key": "atk",
-   "cap": null
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Physical ATK"
   },
   "Attack": {
-   "th": "โบนัสพลังโจมตี",
+   "th": "โบนัสดาเมจ",
    "jp": "攻撃ボーナス",
    "unit": "%",
    "key": "atkp",
-   "cap": null
+   "cap": {
+    "r": 0.84,
+    "e": 1.35,
+    "s": 1.69
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Damage"
   },
   "Defense": {
    "th": "ป้องกัน",
    "jp": "防御力",
    "unit": "",
    "key": "def",
-   "cap": null
+   "cap": {
+    "r": 3,
+    "e": 5,
+    "s": 6
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Defense"
   },
   "Affinity": {
    "th": "คริติคอล",
@@ -1588,7 +1607,13 @@
    "jp": "属性クリティカルダメージ増加",
    "unit": "%",
    "key": "ecd",
-   "cap": null
+   "cap": {
+    "r": 1.27,
+    "e": 2.03,
+    "s": 2.53
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Ele. Crit DMG"
   },
   "Damage Reduction": {
    "th": "ลดดาเมจที่ได้รับ",
@@ -1605,44 +1630,84 @@
    "cap": null
   },
   "Fire Damage Bonus": {
-   "th": "โบนัสดาเมจไฟ",
+   "th": "ค่าธาตุไฟ",
    "jp": "火属性ダメージボーナス",
-   "unit": "%",
-   "key": "el_fire",
-   "cap": null
+   "unit": "",
+   "key": "evf_fire",
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Fire ATK"
   },
   "Water Damage Bonus": {
-   "th": "โบนัสดาเมจน้ำ",
+   "th": "ค่าธาตุน้ำ",
    "jp": "水属性ダメージボーナス",
-   "unit": "%",
-   "key": "el_water",
-   "cap": null
+   "unit": "",
+   "key": "evf_water",
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Water ATK"
   },
   "Thunder Damage Bonus": {
-   "th": "โบนัสดาเมจสายฟ้า",
+   "th": "ค่าธาตุสายฟ้า",
    "jp": "雷属性ダメージボーナス",
-   "unit": "%",
-   "key": "el_thunder",
-   "cap": null
+   "unit": "",
+   "key": "evf_thunder",
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Thunder ATK"
   },
   "Ice Damage Bonus": {
-   "th": "โบนัสดาเมจน้ำแข็ง",
+   "th": "ค่าธาตุน้ำแข็ง",
    "jp": "氷属性ダメージボーナス",
-   "unit": "%",
-   "key": "el_ice",
-   "cap": null
+   "unit": "",
+   "key": "evf_ice",
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Ice ATK"
   },
   "Dragon Damage Bonus": {
-   "th": "โบนัสดาเมจมังกร",
+   "th": "ค่าธาตุมังกร",
    "jp": "龍属性ダメージボーナス",
-   "unit": "%",
-   "key": "el_dragon",
-   "cap": null
+   "unit": "",
+   "key": "evf_dragon",
+   "cap": {
+    "r": 15,
+    "e": 24,
+    "s": 30
+   },
+   "cap_src": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+   "g8_name": "Dragon ATK"
   }
  },
  "cap_fallback": {
   "%": 100,
   "": 9999
  },
- "set_icon_note": "สัญลักษณ์เซ็ตเป็นสัญลักษณ์ที่เว็บนี้ทำเอง (แหล่งข้อมูลไม่มีไอคอนเซ็ตทางการ)"
+ "set_icon_note": "สัญลักษณ์เซ็ตเป็นสัญลักษณ์ที่เว็บนี้ทำเอง (แหล่งข้อมูลไม่มีไอคอนเซ็ตทางการ)",
+ "substat_ranges": {
+  "source": "https://game8.co/games/Monster-Hunter-Outlanders/archives/602028",
+  "note": "ค่าต่อ 1 ช่อง (ต่อการสุ่ม 1 ครั้ง) แยกตามระดับ Rare / Epic / Superior ตามตาราง Visage Resketch Effects ของ Game8",
+  "unconfirmed": [
+   "Affinity",
+   "Crit Damage",
+   "Damage Reduction",
+   "Physical Damage"
+  ]
+ }
 }
