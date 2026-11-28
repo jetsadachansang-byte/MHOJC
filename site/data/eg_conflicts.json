@@ -760,5 +760,69 @@
    "Heavenberry: จุดเก็บย้ายจาก Luminant Lakelands → Gloomshade Gorge (Local Specialty Area 1 จุด)",
    "จุดเก็บต่อพื้นที่ใช้ตารางจำนวนจุดของ GameWith (GL 18, SP 15, RA 7 จุด)"
   ]
+ },
+ "gathering_map_2026_11_28": {
+  "sources_used": [
+   "GameWith.ai EN interactive map (ข้อมูลจุดในไฟล์ JS ของหน้า ระบุว่าสร้างจาก GameWith JP map tool ดึงวันที่ 2026-11-10): https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+   "ลำดับจุด: https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-spot-locations"
+  ],
+  "sources_not_used": [
+   {
+    "site": "Game8 JP (game8.jp)",
+    "reason": "เครือข่ายของ session บล็อก ขออนุญาตเพิ่ม host แล้ว แต่คำสั่งดึงหน้าถูกปฏิเสธโดยระบบสิทธิ์ จึงไม่ได้ใช้"
+   },
+   {
+    "site": "GameWith JP (gamewith.jp)",
+    "reason": "ท้ายบทความเขียนขอไม่ให้เก็บข้อมูลอัตโนมัติ จึงไม่ดึงตรง (ข้อมูลจุดบน GameWith EN สร้างมาจากเครื่องมือแผนที่ของ GameWith JP อยู่แล้ว)"
+   }
+  ],
+  "missing": [
+   {
+    "topic": "จุดขุดแร่/กระดูก (Mineral & Fossil Area)",
+    "detail": "แผนที่ GameWith EN ไม่มีจุดประเภทนี้ ยังไม่มีตำแหน่ง"
+   },
+   {
+    "topic": "จุดไอเทมพิเศษ (Heavenberry, Crimson Fruit)",
+    "detail": "ไม่มีมาร์กแยก Heavenberry อยู่ใน Local Specialty Area ของ Rotfall Abyss (จุด #2 Gloomshade Gorge) Crimson Fruit ไม่พบในแหล่งข้อมูล"
+   },
+   {
+    "topic": "แผนที่ Grand Archipelago",
+    "detail": "GameWith ไม่มีแผนที่และจุดของแมพนี้"
+   },
+   {
+    "topic": "ของรายจุด / จำนวนต่อรอบ",
+    "detail": "แหล่งข้อมูลให้รายชื่อของตามประเภทจุด+แมพ ไม่แยกรายจุด และไม่มีจำนวนต่อรอบ จึงแสดง “ยังไม่มีข้อมูล”"
+   },
+   {
+    "topic": "จำนวนต่อวันของ Gatherer รายจุด",
+    "detail": "ยืนยันได้ 2 จุด (Outlands Ore, Desert Oasis Wood) จุดอื่นยังไม่มีข้อมูล รอบเก็บเป็นชั่วโมงไม่มีข้อมูล (แหล่งบอกแค่ “ทุกวัน”)"
+   }
+  ],
+  "conflicts": [
+   {
+    "topic": "น้ำผึ้ง (Honey) อยู่จุดไหน",
+    "old": "reference/gathering/old_data_guide.py ใส่ Honey ×16 ใน Honey & Mushroom Area ทุกจุด",
+    "new": "GameWith EN จัด Honey อยู่ใน Plant Resource Area ส่วน Honey & Mushroom Area มีแค่ Chillshroom/Parashroom/Nitroshroom",
+    "used": "new",
+    "source": [
+     "https://gamewith.ai/monster-hunter-outlanders/en/articles/gathering-guide",
+     "https://gamewith.ai/monster-hunter-outlanders/en/items/honey"
+    ]
+   },
+   {
+    "topic": "ชื่อพื้นที่ Rotfall Abyss",
+    "old": "ไกด์ Heavenberry เก่าใช้ชื่อ Petrified Forest, Skyglow Vein ฯลฯ",
+    "new": "ข้อมูลจุดของ GameWith ใช้ Luminant Lakelands และ Gloomshade Gorge",
+    "used": "new",
+    "source": [
+     "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map"
+    ]
+   },
+   {
+    "topic": "ข้อมูลจุดก่อนแพตช์",
+    "detail": "ข้อมูลตำแหน่งจุดของ GameWith ดึงวันที่ 10 พ.ย. 2026 (ก่อนแพตช์ 27 พ.ย.) และไม่มีแหล่งที่ใหม่กว่า จึงใช้ตามนี้"
+   }
+  ],
+  "map_images": "รูปแผนที่ 3 แมพ ต่อจาก tile ของ GameWith (zoom 3) แล้วลบป้ายชื่อภาษาญี่ปุ่นออกด้วย inpainting จุดมาร์กวาดด้วย HTML ทับบนรูป"
  }
 }

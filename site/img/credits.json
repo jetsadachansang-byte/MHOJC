@@ -8086,5 +8086,26 @@
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
   "w": 320,
   "h": 320
+ },
+ "img/map/giantwood-locale.webp": {
+  "source": "https://img.gamewith.jp/walkthrough/tools/mhoutlanders/wilderness_of_giant_trees/map_3_*_*.png?2",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+  "w": 1600,
+  "h": 1600,
+  "note": "stitched zoom-3 tiles; Japanese place labels removed (inpainted)"
+ },
+ "img/map/searing-plains.webp": {
+  "source": "https://img.gamewith.jp/walkthrough/tools/mhoutlanders/plains_of_scorching_sand/map_3_*_*.png?2",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+  "w": 1600,
+  "h": 1600,
+  "note": "stitched zoom-3 tiles; Japanese place labels removed (inpainted)"
+ },
+ "img/map/rotfall-abyss.webp": {
+  "source": "https://img.gamewith.jp/walkthrough/tools/mhoutlanders/rotfall_abyss/map_3_*_*.png",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/interactive/map",
+  "w": 1600,
+  "h": 1600,
+  "note": "stitched zoom-3 tiles; Japanese place labels removed (inpainted)"
  }
 }
