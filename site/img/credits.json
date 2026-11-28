@@ -8056,5 +8056,35 @@
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/items/heavenberry",
   "w": 98,
   "h": 98
+ },
+ "img/outfit/pepper-exclusive.webp": {
+  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/pepper.webp",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "w": 320,
+  "h": 320
+ },
+ "img/outfit/arkaya-exclusive.webp": {
+  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/arkaya.webp",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "w": 320,
+  "h": 320
+ },
+ "img/outfit/midori-exclusive.webp": {
+  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/midori.webp",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "w": 320,
+  "h": 320
+ },
+ "img/outfit/keres-exclusive.webp": {
+  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/keres.webp",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "w": 320,
+  "h": 320
+ },
+ "img/outfit/fated-adventurer-exclusive.webp": {
+  "source": "https://assets.gamewith.ai/monster-hunter-outlanders/1795793884925-816/articles/layered-armor/fated-adventurer.webp",
+  "page": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor",
+  "w": 320,
+  "h": 320
  }
 }

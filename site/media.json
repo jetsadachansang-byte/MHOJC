@@ -237,19 +237,66 @@
    "id": "freya-rose-queen",
    "n": "Rose Queen · Freya",
    "img": "img/outfit/freya-rose-queen.webp",
-   "full": "img/outfit/freya-rose-queen-full.webp"
+   "full": "img/outfit/freya-rose-queen-full.webp",
+   "ch": "freya"
   },
   {
    "id": "stylia-silken-dancer",
    "n": "Silken Dancer · Stylia",
    "img": "img/outfit/stylia-silken-dancer.webp",
-   "full": "img/outfit/stylia-silken-dancer-full.webp"
+   "full": "img/outfit/stylia-silken-dancer-full.webp",
+   "ch": "stylia"
   },
   {
    "id": "weapon-flying-feather",
    "n": "Flying Feather · สกินธนู",
    "img": "img/outfit/weapon-flying-feather.webp",
    "full": "img/outfit/weapon-flying-feather-full.webp"
+  },
+  {
+   "id": "pepper-exclusive",
+   "n": "Dreamy Sweetheart · Pepper",
+   "img": "img/outfit/pepper-exclusive.webp",
+   "full": "img/outfit/pepper-exclusive.webp",
+   "ch": "pepper",
+   "how": "Cumulative top-up bonus (โบนัสเติมเงินสะสม)",
+   "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+  },
+  {
+   "id": "arkaya-exclusive",
+   "n": "Shieldbound Champion · Arkaya",
+   "img": "img/outfit/arkaya-exclusive.webp",
+   "full": "img/outfit/arkaya-exclusive.webp",
+   "ch": "arkaya",
+   "how": "Wish (กาชา Crimson Crest Coin)",
+   "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+  },
+  {
+   "id": "midori-exclusive",
+   "n": "Cherry Petals · Midori",
+   "img": "img/outfit/midori-exclusive.webp",
+   "full": "img/outfit/midori-exclusive.webp",
+   "ch": "midori",
+   "how": "Shop (ร้านค้า)",
+   "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+  },
+  {
+   "id": "keres-exclusive",
+   "n": "ชุดเฉพาะตัว · Keres",
+   "img": "img/outfit/keres-exclusive.webp",
+   "full": "img/outfit/keres-exclusive.webp",
+   "ch": "keres",
+   "how": "Daily top-up (เติมเงินรายวัน)",
+   "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+  },
+  {
+   "id": "fated-adventurer-exclusive",
+   "n": "ชุดเฉพาะตัว · Fated Adventurer",
+   "img": "img/outfit/fated-adventurer-exclusive.webp",
+   "full": "img/outfit/fated-adventurer-exclusive.webp",
+   "ch": "fated-adventurer",
+   "how": "First top-up bonus (โบนัสเติมเงินครั้งแรก)",
+   "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
   }
  ],
  "buddyCards": [
@@ -5030,6 +5077,26 @@
   "img/buddy/featured/elwin.webp": [
    900,
    900
+  ],
+  "img/outfit/pepper-exclusive.webp": [
+   320,
+   320
+  ],
+  "img/outfit/arkaya-exclusive.webp": [
+   320,
+   320
+  ],
+  "img/outfit/midori-exclusive.webp": [
+   320,
+   320
+  ],
+  "img/outfit/keres-exclusive.webp": [
+   320,
+   320
+  ],
+  "img/outfit/fated-adventurer-exclusive.webp": [
+   320,
+   320
   ]
  }
 }

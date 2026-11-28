@@ -1,0 +1,47 @@
+[
+ {
+  "id": "pepper-exclusive",
+  "n": "Dreamy Sweetheart · Pepper",
+  "img": "img/outfit/pepper-exclusive.webp",
+  "full": "img/outfit/pepper-exclusive.webp",
+  "ch": "pepper",
+  "how": "Cumulative top-up bonus (โบนัสเติมเงินสะสม)",
+  "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+ },
+ {
+  "id": "arkaya-exclusive",
+  "n": "Shieldbound Champion · Arkaya",
+  "img": "img/outfit/arkaya-exclusive.webp",
+  "full": "img/outfit/arkaya-exclusive.webp",
+  "ch": "arkaya",
+  "how": "Wish (กาชา Crimson Crest Coin)",
+  "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+ },
+ {
+  "id": "midori-exclusive",
+  "n": "Cherry Petals · Midori",
+  "img": "img/outfit/midori-exclusive.webp",
+  "full": "img/outfit/midori-exclusive.webp",
+  "ch": "midori",
+  "how": "Shop (ร้านค้า)",
+  "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+ },
+ {
+  "id": "keres-exclusive",
+  "n": "ชุดเฉพาะตัว · Keres",
+  "img": "img/outfit/keres-exclusive.webp",
+  "full": "img/outfit/keres-exclusive.webp",
+  "ch": "keres",
+  "how": "Daily top-up (เติมเงินรายวัน)",
+  "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+ },
+ {
+  "id": "fated-adventurer-exclusive",
+  "n": "ชุดเฉพาะตัว · Fated Adventurer",
+  "img": "img/outfit/fated-adventurer-exclusive.webp",
+  "full": "img/outfit/fated-adventurer-exclusive.webp",
+  "ch": "fated-adventurer",
+  "how": "First top-up bonus (โบนัสเติมเงินครั้งแรก)",
+  "src": "https://gamewith.ai/monster-hunter-outlanders/en/articles/layered-armor"
+ }
+]

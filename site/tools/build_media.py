@@ -52,6 +52,12 @@ for f in sorted(glob.glob(f'{S}/data/build/*.json')):
         if k not in M['weapons'] and not any(x.get('name')==k for x in miss):
             miss.append({'category':'build weapon image','name':k,'reason':('name translated from Japanese, not listed on GameWith.ai EN' if n.endswith('*') else 'GameWith.ai page has no weapon image (shows only the weapon type icon)')})
 json.dump(miss,open(f'{S}/img/missing.json','w'),ensure_ascii=False,indent=1)
+# extra outfits (adventurer-exclusive layered armor from GameWith EN), kept in data/outfits_extra.json
+from PIL import Image as _I
+for o in json.load(open(f'{S}/data/outfits_extra.json')):
+    M['outfits']=[x for x in M['outfits'] if x['id']!=o['id']]+[o];M['size'][o['img']]=list(_I.open(f"{S}/{o['img']}").size)
+for o in M['outfits']:
+    if o['id'].split('-')[0] in('freya','stylia'):o['ch']=o['id'].split('-')[0]
 open(f'{S}/media.js','w').write('window.MEDIA='+json.dumps(M,ensure_ascii=False,separators=(',',':'))+';')
 json.dump(M,open(f'{S}/media.json','w'),ensure_ascii=False,indent=1)
 print({k:len(v) for k,v in M.items()})
