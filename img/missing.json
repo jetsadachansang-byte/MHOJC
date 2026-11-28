@@ -77,6 +77,18 @@
   "reason": "name translated from Japanese, not listed on GameWith.ai EN"
  },
  {
+  "img": "img/outfit/weapon-flying-feather.webp",
+  "role": "wide",
+  "best_px": [
+   1200,
+   1180
+  ],
+  "need": 1280,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/outfit/weapon-flying-feather.webp"
+ },
+ {
   "img": "img/gift/adventurers-charm.webp",
   "role": "icon",
   "best_px": [
@@ -291,6 +303,18 @@
   "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
   "category": "hd-resolution",
   "name": "img/gift/worn-adventurer-badge.webp"
+ },
+ {
+  "img": "img/hero/hero.webp",
+  "role": "hero",
+  "best_px": [
+   1298,
+   1850
+  ],
+  "need": 1920,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/hero/hero.webp"
  },
  {
   "img": "img/monster/apceros.webp",
@@ -6123,5 +6147,1578 @@
   "reason": "GameWith EN มีแค่ 320x320",
   "category": "hd-resolution",
   "name": "img/outfit/pepper-exclusive.webp"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/freya.webp",
+  "img": "img/adventurer/freya.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/freya.webp",
+  "img": "img/adventurer/full/freya.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/stylia.webp",
+  "img": "img/adventurer/stylia.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/stylia.webp",
+  "img": "img/adventurer/full/stylia.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/midori.webp",
+  "img": "img/adventurer/midori.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/midori.webp",
+  "img": "img/adventurer/full/midori.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/luka.webp",
+  "img": "img/adventurer/luka.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/luka.webp",
+  "img": "img/adventurer/full/luka.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/pyro.webp",
+  "img": "img/adventurer/pyro.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/pyro.webp",
+  "img": "img/adventurer/full/pyro.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/rhodes.webp",
+  "img": "img/adventurer/rhodes.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/rhodes.webp",
+  "img": "img/adventurer/full/rhodes.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/keres.webp",
+  "img": "img/adventurer/keres.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/keres.webp",
+  "img": "img/adventurer/full/keres.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/pepper.webp",
+  "img": "img/adventurer/pepper.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/pepper.webp",
+  "img": "img/adventurer/full/pepper.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/arkaya.webp",
+  "img": "img/adventurer/arkaya.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/arkaya.webp",
+  "img": "img/adventurer/full/arkaya.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/haze.webp",
+  "img": "img/adventurer/haze.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/haze.webp",
+  "img": "img/adventurer/full/haze.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/raya.webp",
+  "img": "img/adventurer/raya.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/raya.webp",
+  "img": "img/adventurer/full/raya.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/luxheart.webp",
+  "img": "img/adventurer/luxheart.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/luxheart.webp",
+  "img": "img/adventurer/full/luxheart.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/madelyn.webp",
+  "img": "img/adventurer/madelyn.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/madelyn.webp",
+  "img": "img/adventurer/full/madelyn.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/ryunosuke.webp",
+  "img": "img/adventurer/ryunosuke.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/ryunosuke.webp",
+  "img": "img/adventurer/full/ryunosuke.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/ouyangvaren.webp",
+  "img": "img/adventurer/ouyangvaren.webp",
+  "role": "profile",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/adventurer/full/ouyangvaren.webp",
+  "img": "img/adventurer/full/ouyangvaren.webp",
+  "role": "full",
+  "best_px": [
+   1122,
+   1402
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/featured/arya.webp",
+  "img": "img/buddy/featured/arya.webp",
+  "role": "wide",
+  "best_px": [
+   2048,
+   2048
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/featured/elwin.webp",
+  "img": "img/buddy/featured/elwin.webp",
+  "role": "wide",
+  "best_px": [
+   2048,
+   2048
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/daisho.webp",
+  "img": "img/buddy/daisho.webp",
+  "role": "profile",
+  "best_px": [
+   884,
+   1074
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/kojiro.webp",
+  "img": "img/buddy/kojiro.webp",
+  "role": "profile",
+  "best_px": [
+   1272,
+   1532
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/pipa.webp",
+  "img": "img/buddy/pipa.webp",
+  "role": "profile",
+  "best_px": [
+   1286,
+   1532
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/ro.webp",
+  "img": "img/buddy/ro.webp",
+  "role": "profile",
+  "best_px": [
+   886,
+   1074
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/devu.webp",
+  "img": "img/buddy/devu.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1060
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/hoppy.webp",
+  "img": "img/buddy/hoppy.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1060
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/nailu.webp",
+  "img": "img/buddy/nailu.webp",
+  "role": "profile",
+  "best_px": [
+   894,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/pheasant.webp",
+  "img": "img/buddy/pheasant.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/banako.webp",
+  "img": "img/buddy/banako.webp",
+  "role": "profile",
+  "best_px": [
+   1272,
+   1532
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/fortie.webp",
+  "img": "img/buddy/fortie.webp",
+  "role": "profile",
+  "best_px": [
+   1286,
+   1460
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/icarus.webp",
+  "img": "img/buddy/icarus.webp",
+  "role": "profile",
+  "best_px": [
+   890,
+   1066
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/sand-velvet.webp",
+  "img": "img/buddy/sand-velvet.webp",
+  "role": "profile",
+  "best_px": [
+   886,
+   1066
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/tidal-claw.webp",
+  "img": "img/buddy/tidal-claw.webp",
+  "role": "profile",
+  "best_px": [
+   884,
+   1066
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/barim.webp",
+  "img": "img/buddy/barim.webp",
+  "role": "profile",
+  "best_px": [
+   876,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/falee-hendsom.webp",
+  "img": "img/buddy/falee-hendsom.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1058
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/nako.webp",
+  "img": "img/buddy/nako.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/reefcore.webp",
+  "img": "img/buddy/reefcore.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/sand-echo.webp",
+  "img": "img/buddy/sand-echo.webp",
+  "role": "profile",
+  "best_px": [
+   876,
+   1060
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/ario.webp",
+  "img": "img/buddy/ario.webp",
+  "role": "profile",
+  "best_px": [
+   894,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/blademaster.webp",
+  "img": "img/buddy/blademaster.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1078
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/golden-bell.webp",
+  "img": "img/buddy/golden-bell.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/ravinge.webp",
+  "img": "img/buddy/ravinge.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/tidal-sound.webp",
+  "img": "img/buddy/tidal-sound.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/alon.webp",
+  "img": "img/buddy/alon.webp",
+  "role": "profile",
+  "best_px": [
+   886,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/aloo.webp",
+  "img": "img/buddy/aloo.webp",
+  "role": "profile",
+  "best_px": [
+   890,
+   1074
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/ron.webp",
+  "img": "img/buddy/ron.webp",
+  "role": "profile",
+  "best_px": [
+   890,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/shadow.webp",
+  "img": "img/buddy/shadow.webp",
+  "role": "profile",
+  "best_px": [
+   1272,
+   1460
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/zira.webp",
+  "img": "img/buddy/zira.webp",
+  "role": "profile",
+  "best_px": [
+   884,
+   1076
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/aku.webp",
+  "img": "img/buddy/aku.webp",
+  "role": "profile",
+  "best_px": [
+   876,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/boomie.webp",
+  "img": "img/buddy/boomie.webp",
+  "role": "profile",
+  "best_px": [
+   876,
+   1058
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/mac.webp",
+  "img": "img/buddy/mac.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1058
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/pupo.webp",
+  "img": "img/buddy/pupo.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/wolfe.webp",
+  "img": "img/buddy/wolfe.webp",
+  "role": "profile",
+  "best_px": [
+   878,
+   1054
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/bladey.webp",
+  "img": "img/buddy/bladey.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1078
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/horn.webp",
+  "img": "img/buddy/horn.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/lido.webp",
+  "img": "img/buddy/lido.webp",
+  "role": "profile",
+  "best_px": [
+   896,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/mith.webp",
+  "img": "img/buddy/mith.webp",
+  "role": "profile",
+  "best_px": [
+   894,
+   1078
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/buddy/viper.webp",
+  "img": "img/buddy/viper.webp",
+  "role": "profile",
+  "best_px": [
+   894,
+   1084
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/buddy-flower-bearing-plume.webp",
+  "img": "img/outfit/buddy-flower-bearing-plume.webp",
+  "role": "wide",
+  "best_px": [
+   1400,
+   1065
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/buddy-flower-bearing-plume-full.webp",
+  "img": "img/outfit/buddy-flower-bearing-plume-full.webp",
+  "role": "wide",
+  "best_px": [
+   1400,
+   718
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/freya-rose-queen.webp",
+  "img": "img/outfit/freya-rose-queen.webp",
+  "role": "wide",
+  "best_px": [
+   1600,
+   1306
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/freya-rose-queen-full.webp",
+  "img": "img/outfit/freya-rose-queen-full.webp",
+  "role": "wide",
+  "best_px": [
+   2000,
+   1044
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/stylia-silken-dancer.webp",
+  "img": "img/outfit/stylia-silken-dancer.webp",
+  "role": "wide",
+  "best_px": [
+   2000,
+   1865
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/stylia-silken-dancer-full.webp",
+  "img": "img/outfit/stylia-silken-dancer-full.webp",
+  "role": "wide",
+  "best_px": [
+   2000,
+   1143
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/weapon-flying-feather.webp",
+  "img": "img/outfit/weapon-flying-feather.webp",
+  "role": "wide",
+  "best_px": [
+   1200,
+   1180
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/outfit/weapon-flying-feather-full.webp",
+  "img": "img/outfit/weapon-flying-feather-full.webp",
+  "role": "wide",
+  "best_px": [
+   1400,
+   718
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/great-sword.webp",
+  "img": "img/weapon/type/great-sword.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/long-sword.webp",
+  "img": "img/weapon/type/long-sword.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/dual-blades.webp",
+  "img": "img/weapon/type/dual-blades.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/lance.webp",
+  "img": "img/weapon/type/lance.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/hammer.webp",
+  "img": "img/weapon/type/hammer.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/charge-blade.webp",
+  "img": "img/weapon/type/charge-blade.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/heavy-bowgun.webp",
+  "img": "img/weapon/type/heavy-bowgun.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/weapon/type/bow.webp",
+  "img": "img/weapon/type/bow.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/great-jagras.webp",
+  "img": "img/monster/great-jagras.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/tobi-kadachi.webp",
+  "img": "img/monster/tobi-kadachi.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/great-girros.webp",
+  "img": "img/monster/great-girros.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/odogaron.webp",
+  "img": "img/monster/odogaron.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/kulu-ya-ku.webp",
+  "img": "img/monster/kulu-ya-ku.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/pukei-pukei.webp",
+  "img": "img/monster/pukei-pukei.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/tzitzi-ya-ku.webp",
+  "img": "img/monster/tzitzi-ya-ku.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/barroth.webp",
+  "img": "img/monster/barroth.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/anjanath.webp",
+  "img": "img/monster/anjanath.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radobaan.webp",
+  "img": "img/monster/radobaan.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/rathian.webp",
+  "img": "img/monster/rathian.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/pink-rathian.webp",
+  "img": "img/monster/pink-rathian.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/rathalos.webp",
+  "img": "img/monster/rathalos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/diablos.webp",
+  "img": "img/monster/diablos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/black-diablos.webp",
+  "img": "img/monster/black-diablos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/paolumu.webp",
+  "img": "img/monster/paolumu.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/legiana.webp",
+  "img": "img/monster/legiana.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/jyuratodus.webp",
+  "img": "img/monster/jyuratodus.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-great-jagras.webp",
+  "img": "img/monster/radiant-great-jagras.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-kulu-ya-ku.webp",
+  "img": "img/monster/radiant-kulu-ya-ku.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-pukei-pukei.webp",
+  "img": "img/monster/radiant-pukei-pukei.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-jyuratodus.webp",
+  "img": "img/monster/radiant-jyuratodus.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-barroth.webp",
+  "img": "img/monster/radiant-barroth.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-anjanath.webp",
+  "img": "img/monster/radiant-anjanath.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-rathian.webp",
+  "img": "img/monster/radiant-rathian.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-diablos.webp",
+  "img": "img/monster/radiant-diablos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-legiana.webp",
+  "img": "img/monster/radiant-legiana.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-paolumu.webp",
+  "img": "img/monster/radiant-paolumu.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-rathalos.webp",
+  "img": "img/monster/radiant-rathalos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/kushala-daora.webp",
+  "img": "img/monster/kushala-daora.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-pink-rathian.webp",
+  "img": "img/monster/radiant-pink-rathian.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-black-diablos.webp",
+  "img": "img/monster/radiant-black-diablos.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-radobaan.webp",
+  "img": "img/monster/radiant-radobaan.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-great-girros.webp",
+  "img": "img/monster/radiant-great-girros.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-tobi-kadachi.webp",
+  "img": "img/monster/radiant-tobi-kadachi.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-tzitzi-ya-ku.webp",
+  "img": "img/monster/radiant-tzitzi-ya-ku.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/radiant-odogaron.webp",
+  "img": "img/monster/radiant-odogaron.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/monster/ruger-aidal.webp",
+  "img": "img/monster/ruger-aidal.webp",
+  "role": "icon",
+  "best_px": [
+   512,
+   512
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/adventurers-charm.webp",
+  "img": "img/gift/adventurers-charm.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/black-pearl-roe.webp",
+  "img": "img/gift/black-pearl-roe.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/bonfire-album.webp",
+  "img": "img/gift/bonfire-album.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/dome-landscape.webp",
+  "img": "img/gift/dome-landscape.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/elder-dragon-banner.webp",
+  "img": "img/gift/elder-dragon-banner.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/exploration-badge.webp",
+  "img": "img/gift/exploration-badge.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/forest-amber.webp",
+  "img": "img/gift/forest-amber.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/glowmoss-bottle.webp",
+  "img": "img/gift/glowmoss-bottle.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/journey-cord.webp",
+  "img": "img/gift/journey-cord.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/journey-memento.webp",
+  "img": "img/gift/journey-memento.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/kulune-songbook.webp",
+  "img": "img/gift/kulune-songbook.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/moonfeather-chime.webp",
+  "img": "img/gift/moonfeather-chime.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/outlands-poetry.webp",
+  "img": "img/gift/outlands-poetry.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/prized-matsutake.webp",
+  "img": "img/gift/prized-matsutake.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/thick-cut-tail.webp",
+  "img": "img/gift/thick-cut-tail.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/vista-display.webp",
+  "img": "img/gift/vista-display.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/wooden-carving.webp",
+  "img": "img/gift/wooden-carving.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/gift/worn-adventurer-badge.webp",
+  "img": "img/gift/worn-adventurer-badge.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
+ },
+ {
+  "category": "hd-fallback",
+  "name": "img/hero/hero.webp",
+  "img": "img/hero/hero.webp",
+  "role": "hero",
+  "best_px": [
+   1298,
+   1850
+  ],
+  "reason": "ใช้รูปสำรองจาก repo (assets/images) เพราะแหล่งรูปทางการถูกบล็อกจากเครือข่ายของ session: mho.garena.com, levelinfinite.com, youtube/i.ytimg.com, x.com, img.game8.co"
  }
 ]

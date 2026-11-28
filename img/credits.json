@@ -1,6 +1,6 @@
 {
  "img/adventurer/pyro.webp": {
-  "source": "assets/images/01-characters/portrait/pyro.jpg",
+  "source": "assets/images/01-characters/full/pyro.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/pyro",
   "src_px": [
    180,
@@ -9,7 +9,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/pyro@560.webp"
+   "img/adventurer/pyro@960.webp",
+   "img/adventurer/pyro@1122.webp"
   ]
  },
  "img/adventurer/full/pyro.webp": {
@@ -19,16 +20,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/pyro@960.webp",
    "img/adventurer/full/pyro@1122.webp"
   ]
  },
  "img/adventurer/freya.webp": {
-  "source": "assets/images/01-characters/portrait/freya.jpg",
+  "source": "assets/images/01-characters/full/freya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/freya",
   "src_px": [
    180,
@@ -37,7 +37,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/freya@560.webp"
+   "img/adventurer/freya@960.webp",
+   "img/adventurer/freya@1122.webp"
   ]
  },
  "img/adventurer/full/freya.webp": {
@@ -47,16 +48,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/freya@960.webp",
    "img/adventurer/full/freya@1122.webp"
   ]
  },
  "img/adventurer/midori.webp": {
-  "source": "assets/images/01-characters/portrait/midori.jpg",
+  "source": "assets/images/01-characters/full/midori.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/midori",
   "src_px": [
    180,
@@ -65,7 +65,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/midori@560.webp"
+   "img/adventurer/midori@960.webp",
+   "img/adventurer/midori@1122.webp"
   ]
  },
  "img/adventurer/full/midori.webp": {
@@ -75,16 +76,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/midori@960.webp",
    "img/adventurer/full/midori@1122.webp"
   ]
  },
  "img/adventurer/keres.webp": {
-  "source": "assets/images/01-characters/portrait/keres.jpg",
+  "source": "assets/images/01-characters/full/keres.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/keres",
   "src_px": [
    180,
@@ -93,7 +93,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/keres@560.webp"
+   "img/adventurer/keres@960.webp",
+   "img/adventurer/keres@1122.webp"
   ]
  },
  "img/adventurer/full/keres.webp": {
@@ -103,16 +104,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/keres@960.webp",
    "img/adventurer/full/keres@1122.webp"
   ]
  },
  "img/adventurer/haze.webp": {
-  "source": "assets/images/01-characters/portrait/haze.jpg",
+  "source": "assets/images/01-characters/full/haze.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/haze",
   "src_px": [
    225,
@@ -121,7 +121,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/haze@560.webp"
+   "img/adventurer/haze@960.webp",
+   "img/adventurer/haze@1122.webp"
   ]
  },
  "img/adventurer/full/haze.webp": {
@@ -131,16 +132,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/haze@960.webp",
    "img/adventurer/full/haze@1122.webp"
   ]
  },
  "img/adventurer/arkaya.webp": {
-  "source": "assets/images/01-characters/portrait/arkaya.jpg",
+  "source": "assets/images/01-characters/full/arkaya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/arkaya",
   "src_px": [
    180,
@@ -149,7 +149,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/arkaya@560.webp"
+   "img/adventurer/arkaya@960.webp",
+   "img/adventurer/arkaya@1122.webp"
   ]
  },
  "img/adventurer/full/arkaya.webp": {
@@ -159,16 +160,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/arkaya@960.webp",
    "img/adventurer/full/arkaya@1122.webp"
   ]
  },
  "img/adventurer/rhodes.webp": {
-  "source": "assets/images/01-characters/portrait/rhodes.jpg",
+  "source": "assets/images/01-characters/full/rhodes.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/rhodes",
   "src_px": [
    180,
@@ -177,11 +177,12 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/rhodes@560.webp"
+   "img/adventurer/rhodes@960.webp",
+   "img/adventurer/rhodes@1122.webp"
   ]
  },
  "img/adventurer/pepper.webp": {
-  "source": "assets/images/01-characters/portrait/pepper.jpg",
+  "source": "assets/images/01-characters/full/pepper.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/pepper",
   "src_px": [
    180,
@@ -190,7 +191,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/pepper@560.webp"
+   "img/adventurer/pepper@960.webp",
+   "img/adventurer/pepper@1122.webp"
   ]
  },
  "img/adventurer/full/pepper.webp": {
@@ -200,16 +202,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/pepper@960.webp",
    "img/adventurer/full/pepper@1122.webp"
   ]
  },
  "img/adventurer/luka.webp": {
-  "source": "assets/images/01-characters/portrait/luka.jpg",
+  "source": "assets/images/01-characters/full/luka.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/luka",
   "src_px": [
    180,
@@ -218,7 +219,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/luka@560.webp"
+   "img/adventurer/luka@960.webp",
+   "img/adventurer/luka@1122.webp"
   ]
  },
  "img/adventurer/full/luka.webp": {
@@ -228,16 +230,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/luka@960.webp",
    "img/adventurer/full/luka@1122.webp"
   ]
  },
  "img/adventurer/stylia.webp": {
-  "source": "assets/images/01-characters/portrait/stylia.jpg",
+  "source": "assets/images/01-characters/full/stylia.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/stylia",
   "src_px": [
    180,
@@ -246,7 +247,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/stylia@560.webp"
+   "img/adventurer/stylia@960.webp",
+   "img/adventurer/stylia@1122.webp"
   ]
  },
  "img/adventurer/full/stylia.webp": {
@@ -256,16 +258,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/stylia@960.webp",
    "img/adventurer/full/stylia@1122.webp"
   ]
  },
  "img/adventurer/luxheart.webp": {
-  "source": "assets/images/01-characters/portrait/luxheart.jpg",
+  "source": "assets/images/01-characters/full/luxheart.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/luxheart",
   "src_px": [
    180,
@@ -274,7 +275,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/luxheart@560.webp"
+   "img/adventurer/luxheart@960.webp",
+   "img/adventurer/luxheart@1122.webp"
   ]
  },
  "img/adventurer/full/luxheart.webp": {
@@ -284,16 +286,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/luxheart@960.webp",
    "img/adventurer/full/luxheart@1122.webp"
   ]
  },
  "img/adventurer/ryunosuke.webp": {
-  "source": "assets/images/01-characters/portrait/ryunosuke.jpg",
+  "source": "assets/images/01-characters/full/ryunosuke.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/ryunosuke",
   "src_px": [
    180,
@@ -302,7 +303,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/ryunosuke@560.webp"
+   "img/adventurer/ryunosuke@960.webp",
+   "img/adventurer/ryunosuke@1122.webp"
   ]
  },
  "img/adventurer/full/ryunosuke.webp": {
@@ -312,16 +314,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/ryunosuke@960.webp",
    "img/adventurer/full/ryunosuke@1122.webp"
   ]
  },
  "img/adventurer/raya.webp": {
-  "source": "assets/images/01-characters/portrait/raya.jpg",
+  "source": "assets/images/01-characters/full/raya.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/raya",
   "src_px": [
    180,
@@ -330,7 +331,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/raya@560.webp"
+   "img/adventurer/raya@960.webp",
+   "img/adventurer/raya@1122.webp"
   ]
  },
  "img/adventurer/full/raya.webp": {
@@ -340,16 +342,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/raya@960.webp",
    "img/adventurer/full/raya@1122.webp"
   ]
  },
  "img/adventurer/ouyangvaren.webp": {
-  "source": "assets/images/01-characters/portrait/ouyangvaren.jpg",
+  "source": "assets/images/01-characters/full/ouyangvaren.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/ouyang-varen",
   "src_px": [
    180,
@@ -358,7 +359,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/ouyangvaren@560.webp"
+   "img/adventurer/ouyangvaren@960.webp",
+   "img/adventurer/ouyangvaren@1122.webp"
   ]
  },
  "img/adventurer/full/ouyangvaren.webp": {
@@ -368,16 +370,15 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/ouyangvaren@960.webp",
    "img/adventurer/full/ouyangvaren@1122.webp"
   ]
  },
  "img/adventurer/madelyn.webp": {
-  "source": "assets/images/01-characters/portrait/madelyn.jpg",
+  "source": "assets/images/01-characters/full/madelyn.jpg",
   "page": "https://gamewith.ai/monster-hunter-outlanders/en/adventurers/madelyn",
   "src_px": [
    180,
@@ -386,7 +387,8 @@
   "w": 480,
   "h": 600,
   "variants": [
-   "img/adventurer/madelyn@560.webp"
+   "img/adventurer/madelyn@960.webp",
+   "img/adventurer/madelyn@1122.webp"
   ]
  },
  "img/adventurer/full/madelyn.webp": {
@@ -396,11 +398,10 @@
    625,
    372
   ],
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "note": "GameWith JP character art",
   "variants": [
-   "img/adventurer/full/madelyn@960.webp",
    "img/adventurer/full/madelyn@1122.webp"
   ]
  },
@@ -414,7 +415,8 @@
   "w": 480,
   "h": 578,
   "variants": [
-   "img/buddy/kojiro@960.webp"
+   "img/buddy/kojiro@960.webp",
+   "img/buddy/kojiro@1272.webp"
   ]
  },
  "img/buddy/daisho.webp": {
@@ -440,7 +442,8 @@
   "w": 480,
   "h": 572,
   "variants": [
-   "img/buddy/pipa@960.webp"
+   "img/buddy/pipa@960.webp",
+   "img/buddy/pipa@1286.webp"
   ]
  },
  "img/buddy/ro.webp": {
@@ -531,7 +534,8 @@
   "w": 480,
   "h": 545,
   "variants": [
-   "img/buddy/fortie@960.webp"
+   "img/buddy/fortie@960.webp",
+   "img/buddy/fortie@1286.webp"
   ]
  },
  "img/buddy/banako.webp": {
@@ -544,7 +548,8 @@
   "w": 480,
   "h": 578,
   "variants": [
-   "img/buddy/banako@960.webp"
+   "img/buddy/banako@960.webp",
+   "img/buddy/banako@1272.webp"
   ]
  },
  "img/buddy/sand-velvet.webp": {
@@ -739,7 +744,8 @@
   "w": 480,
   "h": 551,
   "variants": [
-   "img/buddy/shadow@960.webp"
+   "img/buddy/shadow@960.webp",
+   "img/buddy/shadow@1272.webp"
   ]
  },
  "img/buddy/ron.webp": {
@@ -7529,21 +7535,23 @@
  "img/buddy/featured/arya.webp": {
   "source": "assets/images/02-buddies/arya.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 480,
+  "w": 640,
+  "h": 640,
   "variants": [
-   "img/buddy/featured/arya@960.webp",
-   "img/buddy/featured/arya@1600.webp"
+   "img/buddy/featured/arya@1280.webp",
+   "img/buddy/featured/arya@1920.webp",
+   "img/buddy/featured/arya@2048.webp"
   ]
  },
  "img/buddy/featured/elwin.webp": {
   "source": "assets/images/02-buddies/elwin.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 480,
+  "w": 640,
+  "h": 640,
   "variants": [
-   "img/buddy/featured/elwin@960.webp",
-   "img/buddy/featured/elwin@1600.webp"
+   "img/buddy/featured/elwin@1280.webp",
+   "img/buddy/featured/elwin@1920.webp",
+   "img/buddy/featured/elwin@2048.webp"
   ]
  },
  "img/gift/sheet.webp": {
@@ -7555,80 +7563,82 @@
  "img/outfit/buddy-flower-bearing-plume.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 365,
+  "w": 640,
+  "h": 487,
   "variants": [
-   "img/outfit/buddy-flower-bearing-plume@960.webp",
+   "img/outfit/buddy-flower-bearing-plume@1280.webp",
    "img/outfit/buddy-flower-bearing-plume@1400.webp"
   ]
  },
  "img/outfit/buddy-flower-bearing-plume-full.webp": {
   "source": "assets/images/04-outfits/buddy-flower-bearing-plume-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 246,
+  "w": 640,
+  "h": 328,
   "variants": [
-   "img/outfit/buddy-flower-bearing-plume-full@960.webp",
+   "img/outfit/buddy-flower-bearing-plume-full@1280.webp",
    "img/outfit/buddy-flower-bearing-plume-full@1400.webp"
   ]
  },
  "img/outfit/freya-rose-queen.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 392,
+  "w": 640,
+  "h": 522,
   "variants": [
-   "img/outfit/freya-rose-queen@960.webp",
+   "img/outfit/freya-rose-queen@1280.webp",
    "img/outfit/freya-rose-queen@1600.webp"
   ]
  },
  "img/outfit/freya-rose-queen-full.webp": {
   "source": "assets/images/04-outfits/freya-rose-queen-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 251,
+  "w": 640,
+  "h": 334,
   "variants": [
-   "img/outfit/freya-rose-queen-full@960.webp",
-   "img/outfit/freya-rose-queen-full@1600.webp"
+   "img/outfit/freya-rose-queen-full@1280.webp",
+   "img/outfit/freya-rose-queen-full@1920.webp",
+   "img/outfit/freya-rose-queen-full@2000.webp"
   ]
  },
  "img/outfit/stylia-silken-dancer.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 448,
+  "w": 640,
+  "h": 597,
   "variants": [
-   "img/outfit/stylia-silken-dancer@960.webp",
-   "img/outfit/stylia-silken-dancer@1600.webp"
+   "img/outfit/stylia-silken-dancer@1280.webp",
+   "img/outfit/stylia-silken-dancer@1920.webp",
+   "img/outfit/stylia-silken-dancer@2000.webp"
   ]
  },
  "img/outfit/stylia-silken-dancer-full.webp": {
   "source": "assets/images/04-outfits/stylia-silken-dancer-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 274,
+  "w": 640,
+  "h": 366,
   "variants": [
-   "img/outfit/stylia-silken-dancer-full@960.webp",
-   "img/outfit/stylia-silken-dancer-full@1600.webp"
+   "img/outfit/stylia-silken-dancer-full@1280.webp",
+   "img/outfit/stylia-silken-dancer-full@1920.webp",
+   "img/outfit/stylia-silken-dancer-full@2000.webp"
   ]
  },
  "img/outfit/weapon-flying-feather.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 472,
+  "w": 640,
+  "h": 629,
   "variants": [
-   "img/outfit/weapon-flying-feather@960.webp",
    "img/outfit/weapon-flying-feather@1200.webp"
   ]
  },
  "img/outfit/weapon-flying-feather-full.webp": {
   "source": "assets/images/04-outfits/weapon-flying-feather-full.jpg",
   "note": "official promo image from the user's image pack (not found on GameWith/Game8)",
-  "w": 480,
-  "h": 246,
+  "w": 640,
+  "h": 328,
   "variants": [
-   "img/outfit/weapon-flying-feather-full@960.webp",
+   "img/outfit/weapon-flying-feather-full@1280.webp",
    "img/outfit/weapon-flying-feather-full@1400.webp"
   ]
  },
@@ -8603,19 +8613,18 @@
  },
  "img/adventurer/full/rhodes.webp": {
   "source": "assets/images/01-characters/full/rhodes.jpg",
-  "w": 480,
-  "h": 600,
+  "w": 640,
+  "h": 800,
   "variants": [
-   "img/adventurer/full/rhodes@960.webp",
    "img/adventurer/full/rhodes@1122.webp"
   ]
  },
  "img/hero/hero.webp": {
   "source": "assets/images/01-characters/hires/freya.jpg (crop 750,0,2048,1850)",
-  "w": 480,
-  "h": 684,
+  "w": 640,
+  "h": 912,
   "variants": [
-   "img/hero/hero@960.webp",
+   "img/hero/hero@1280.webp",
    "img/hero/hero@1298.webp"
   ],
   "note": "Freya key art cropped to the clean right part"
