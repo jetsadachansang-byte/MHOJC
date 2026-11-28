@@ -1,10 +1,5 @@
 [
  {
-  "category": "adventurer full art",
-  "name": "Rhodes",
-  "reason": "no art found: GameWith.ai has only the card icon and no GameWith JP page shows this character"
- },
- {
   "category": "buddy icon",
   "name": "Arya",
   "reason": "not listed on GameWith.ai buddies (new buddy); not found on GameWith JP list",
@@ -80,5 +75,6053 @@
   "category": "build weapon image",
   "name": "Radiant Fernlike",
   "reason": "name translated from Japanese, not listed on GameWith.ai EN"
+ },
+ {
+  "img": "img/gift/adventurers-charm.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/adventurers-charm.webp"
+ },
+ {
+  "img": "img/gift/black-pearl-roe.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/black-pearl-roe.webp"
+ },
+ {
+  "img": "img/gift/bonfire-album.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/bonfire-album.webp"
+ },
+ {
+  "img": "img/gift/dome-landscape.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/dome-landscape.webp"
+ },
+ {
+  "img": "img/gift/elder-dragon-banner.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/elder-dragon-banner.webp"
+ },
+ {
+  "img": "img/gift/exploration-badge.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/exploration-badge.webp"
+ },
+ {
+  "img": "img/gift/forest-amber.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/forest-amber.webp"
+ },
+ {
+  "img": "img/gift/glowmoss-bottle.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/glowmoss-bottle.webp"
+ },
+ {
+  "img": "img/gift/journey-cord.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/journey-cord.webp"
+ },
+ {
+  "img": "img/gift/journey-memento.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/journey-memento.webp"
+ },
+ {
+  "img": "img/gift/kulune-songbook.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/kulune-songbook.webp"
+ },
+ {
+  "img": "img/gift/moonfeather-chime.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/moonfeather-chime.webp"
+ },
+ {
+  "img": "img/gift/outlands-poetry.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/outlands-poetry.webp"
+ },
+ {
+  "img": "img/gift/prized-matsutake.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/prized-matsutake.webp"
+ },
+ {
+  "img": "img/gift/thick-cut-tail.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/thick-cut-tail.webp"
+ },
+ {
+  "img": "img/gift/vista-display.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/vista-display.webp"
+ },
+ {
+  "img": "img/gift/wooden-carving.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/wooden-carving.webp"
+ },
+ {
+  "img": "img/gift/worn-adventurer-badge.webp",
+  "role": "icon",
+  "best_px": [
+   160,
+   160
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใหญ่สุดที่มีใน repo ยังไม่ถึงเกณฑ์",
+  "category": "hd-resolution",
+  "name": "img/gift/worn-adventurer-badge.webp"
+ },
+ {
+  "img": "img/monster/apceros.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/apceros.webp"
+ },
+ {
+  "img": "img/monster/aptonoth.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/aptonoth.webp"
+ },
+ {
+  "img": "img/monster/gajau.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/gajau.webp"
+ },
+ {
+  "img": "img/monster/girros.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/girros.webp"
+ },
+ {
+  "img": "img/monster/hornetaur.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/hornetaur.webp"
+ },
+ {
+  "img": "img/monster/jagras.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/jagras.webp"
+ },
+ {
+  "img": "img/monster/kelbi.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/kelbi.webp"
+ },
+ {
+  "img": "img/monster/kestodon.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/kestodon.webp"
+ },
+ {
+  "img": "img/monster/mernos.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/mernos.webp"
+ },
+ {
+  "img": "img/monster/nergigante.webp",
+  "role": "icon",
+  "best_px": [
+   148,
+   148
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/nergigante.webp"
+ },
+ {
+  "img": "img/monster/noios.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/noios.webp"
+ },
+ {
+  "img": "img/monster/radiant-gajau.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-gajau.webp"
+ },
+ {
+  "img": "img/monster/radiant-girros.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-girros.webp"
+ },
+ {
+  "img": "img/monster/radiant-hornetaur.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-hornetaur.webp"
+ },
+ {
+  "img": "img/monster/radiant-jagras.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-jagras.webp"
+ },
+ {
+  "img": "img/monster/radiant-kestodon.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-kestodon.webp"
+ },
+ {
+  "img": "img/monster/radiant-mernos.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-mernos.webp"
+ },
+ {
+  "img": "img/monster/radiant-vespoid.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/radiant-vespoid.webp"
+ },
+ {
+  "img": "img/monster/vespoid.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/vespoid.webp"
+ },
+ {
+  "img": "img/monster/warrior-atecoli.webp",
+  "role": "icon",
+  "best_px": [
+   59,
+   59
+  ],
+  "need": 256,
+  "reason": "ไม่มีไฟล์ใหญ่ใน repo (มอนสเตอร์เล็ก) ใช้ไฟล์จาก GameWith ขนาดเดิม",
+  "category": "hd-resolution",
+  "name": "img/monster/warrior-atecoli.webp"
+ },
+ {
+  "img": "img/weapon/anja-arch.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/anja-arch.webp"
+ },
+ {
+  "img": "img/weapon/anja-cyclone.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/anja-cyclone.webp"
+ },
+ {
+  "img": "img/weapon/anja-scimitar.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/anja-scimitar.webp"
+ },
+ {
+  "img": "img/weapon/anja-striker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/anja-striker.webp"
+ },
+ {
+  "img": "img/weapon/aqua-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/aqua-arrow.webp"
+ },
+ {
+  "img": "img/weapon/aqua-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/aqua-assault.webp"
+ },
+ {
+  "img": "img/weapon/aqua-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/aqua-hammer.webp"
+ },
+ {
+  "img": "img/weapon/aqua-horn.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/aqua-horn.webp"
+ },
+ {
+  "img": "img/weapon/aqua-slasher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/aqua-slasher.webp"
+ },
+ {
+  "img": "img/weapon/arcanaria.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/arcanaria.webp"
+ },
+ {
+  "img": "img/weapon/archers-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/archers-dance.webp"
+ },
+ {
+  "img": "img/weapon/arma-destroyer.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/arma-destroyer.webp"
+ },
+ {
+  "img": "img/weapon/axelion-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/axelion-blade.webp"
+ },
+ {
+  "img": "img/weapon/baan-roar.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/baan-roar.webp"
+ },
+ {
+  "img": "img/weapon/baan-strike.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/baan-strike.webp"
+ },
+ {
+  "img": "img/weapon/barroth-breaker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/barroth-breaker.webp"
+ },
+ {
+  "img": "img/weapon/barroth-shredder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/barroth-shredder.webp"
+ },
+ {
+  "img": "img/weapon/barroth-stinger.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/barroth-stinger.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-bow.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-cannon.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-charger.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-charger.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-chopper.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-chopper.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-hammer.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-lance.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-long-sword.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-long-sword.webp"
+ },
+ {
+  "img": "img/weapon/blacksteel-twins.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blacksteel-twins.webp"
+ },
+ {
+  "img": "img/weapon/blazing-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blazing-assault.webp"
+ },
+ {
+  "img": "img/weapon/blazing-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blazing-bow.webp"
+ },
+ {
+  "img": "img/weapon/blazing-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blazing-hammer.webp"
+ },
+ {
+  "img": "img/weapon/blazing-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blazing-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/blazing-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blazing-shotel.webp"
+ },
+ {
+  "img": "img/weapon/blood-drinker-chainblade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blood-drinker-chainblade.webp"
+ },
+ {
+  "img": "img/weapon/blooming-arch.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blooming-arch.webp"
+ },
+ {
+  "img": "img/weapon/blooming-glaive.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blooming-glaive.webp"
+ },
+ {
+  "img": "img/weapon/blooming-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blooming-hammer.webp"
+ },
+ {
+  "img": "img/weapon/blooming-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blooming-lance.webp"
+ },
+ {
+  "img": "img/weapon/blooming-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/blooming-shooter.webp"
+ },
+ {
+  "img": "img/weapon/bone-bludgeon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-bludgeon.webp"
+ },
+ {
+  "img": "img/weapon/bone-cleaver.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-cleaver.webp"
+ },
+ {
+  "img": "img/weapon/bone-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/bone-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-lance.webp"
+ },
+ {
+  "img": "img/weapon/bone-reaper.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-reaper.webp"
+ },
+ {
+  "img": "img/weapon/bone-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-shooter.webp"
+ },
+ {
+  "img": "img/weapon/bone-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-shotel.webp"
+ },
+ {
+  "img": "img/weapon/bone-slasher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-slasher.webp"
+ },
+ {
+  "img": "img/weapon/bone-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/bone-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/brilliant-hippogriff.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/brilliant-hippogriff.webp"
+ },
+ {
+  "img": "img/weapon/buon-fiore.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/buon-fiore.webp"
+ },
+ {
+  "img": "img/weapon/buster-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/buster-blade.webp"
+ },
+ {
+  "img": "img/weapon/buster-sword.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/buster-sword.webp"
+ },
+ {
+  "img": "img/weapon/carapace-buster.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/carapace-buster.webp"
+ },
+ {
+  "img": "img/weapon/carapace-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/carapace-lance.webp"
+ },
+ {
+  "img": "img/weapon/carapace-sledge.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/carapace-sledge.webp"
+ },
+ {
+  "img": "img/weapon/chrome-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/chrome-assault.webp"
+ },
+ {
+  "img": "img/weapon/chrome-guardian.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/chrome-guardian.webp"
+ },
+ {
+  "img": "img/weapon/chrome-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/chrome-lance.webp"
+ },
+ {
+  "img": "img/weapon/chrome-razor.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/chrome-razor.webp"
+ },
+ {
+  "img": "img/weapon/chrome-slicers.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/chrome-slicers.webp"
+ },
+ {
+  "img": "img/weapon/crushing-beak.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/crushing-beak.webp"
+ },
+ {
+  "img": "img/weapon/dark-ripper.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dark-ripper.webp"
+ },
+ {
+  "img": "img/weapon/dark-scimitar.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dark-scimitar.webp"
+ },
+ {
+  "img": "img/weapon/dark-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dark-shotel.webp"
+ },
+ {
+  "img": "img/weapon/dark-stinger.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dark-stinger.webp"
+ },
+ {
+  "img": "img/weapon/datura-blaster.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/datura-blaster.webp"
+ },
+ {
+  "img": "img/weapon/datura-blaze.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/datura-blaze.webp"
+ },
+ {
+  "img": "img/weapon/datura-pike.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/datura-pike.webp"
+ },
+ {
+  "img": "img/weapon/datura-string.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/datura-string.webp"
+ },
+ {
+  "img": "img/weapon/dawnlit-joyeuse.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dawnlit-joyeuse.webp"
+ },
+ {
+  "img": "img/weapon/dazzling-flash.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dazzling-flash.webp"
+ },
+ {
+  "img": "img/weapon/dear-hecatel.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dear-hecatel.webp"
+ },
+ {
+  "img": "img/weapon/dear-lutemia.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dear-lutemia.webp"
+ },
+ {
+  "img": "img/weapon/dear-lutemis.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dear-lutemis.webp"
+ },
+ {
+  "img": "img/weapon/diablos-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/diablos-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/diablos-sledge.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/diablos-sledge.webp"
+ },
+ {
+  "img": "img/weapon/diablos-wall.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/diablos-wall.webp"
+ },
+ {
+  "img": "img/weapon/dipterus.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dipterus.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-basher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-basher.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-bow.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-cannon.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-cleaver.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-cleaver.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-cutter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-cutter.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-lance.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-stabber.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-stabber.webp"
+ },
+ {
+  "img": "img/weapon/dragonbone-twinblades.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dragonbone-twinblades.webp"
+ },
+ {
+  "img": "img/weapon/dual-blades.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dual-blades.webp"
+ },
+ {
+  "img": "img/weapon/dual-destroyers.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dual-destroyers.webp"
+ },
+ {
+  "img": "img/weapon/dual-slicers.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dual-slicers.webp"
+ },
+ {
+  "img": "img/weapon/dual-threat.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/dual-threat.webp"
+ },
+ {
+  "img": "img/weapon/everfrost-blade.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/everfrost-blade.webp"
+ },
+ {
+  "img": "img/weapon/first-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/first-dance.webp"
+ },
+ {
+  "img": "img/weapon/flame-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/flame-blade.webp"
+ },
+ {
+  "img": "img/weapon/flame-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/flame-lance.webp"
+ },
+ {
+  "img": "img/weapon/flammenkanone.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/flammenkanone.webp"
+ },
+ {
+  "img": "img/weapon/flammenzahn.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/flammenzahn.webp"
+ },
+ {
+  "img": "img/weapon/flickering-glow.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/flickering-glow.webp"
+ },
+ {
+  "img": "img/weapon/fossil-bludgeon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/fossil-bludgeon.webp"
+ },
+ {
+  "img": "img/weapon/freeze-blade.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/freeze-blade.webp"
+ },
+ {
+  "img": "img/weapon/freeze-chain.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/freeze-chain.webp"
+ },
+ {
+  "img": "img/weapon/freeze-daggers.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/freeze-daggers.webp"
+ },
+ {
+  "img": "img/weapon/frost-blaze.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/frost-blaze.webp"
+ },
+ {
+  "img": "img/weapon/garon-dhara.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/garon-dhara.webp"
+ },
+ {
+  "img": "img/weapon/giant-jawblade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/giant-jawblade.webp"
+ },
+ {
+  "img": "img/weapon/gigafrost.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/gigafrost.webp"
+ },
+ {
+  "img": "img/weapon/girros-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/girros-blade.webp"
+ },
+ {
+  "img": "img/weapon/girros-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/girros-hammer.webp"
+ },
+ {
+  "img": "img/weapon/girros-nadja.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/girros-nadja.webp"
+ },
+ {
+  "img": "img/weapon/girros-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/girros-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/glacial-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/glacial-arrow.webp"
+ },
+ {
+  "img": "img/weapon/glacial-lance.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/glacial-lance.webp"
+ },
+ {
+  "img": "img/weapon/glacial-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/glacial-shotel.webp"
+ },
+ {
+  "img": "img/weapon/gleaming-curtana.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/gleaming-curtana.webp"
+ },
+ {
+  "img": "img/weapon/grandrock.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/grandrock.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-bow.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-charge-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-charge-blade.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-dual-blades.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-dual-blades.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-great-sword.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-great-sword.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-hammer.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-heavy-bowgun.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-heavy-bowgun.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-lance.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword-dragon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword-dragon.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword-fire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword-fire.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword-ice.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword-ice.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword-thunder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword-thunder.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword-water.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword-water.webp"
+ },
+ {
+  "img": "img/weapon/guild-crimson-crest-long-sword.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/guild-crimson-crest-long-sword.webp"
+ },
+ {
+  "img": "img/weapon/hard-bone-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hard-bone-lance.webp"
+ },
+ {
+  "img": "img/weapon/hard-bone-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hard-bone-shotel.webp"
+ },
+ {
+  "img": "img/weapon/hard-bone-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hard-bone-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/hates-undying-flame.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hates-undying-flame.webp"
+ },
+ {
+  "img": "img/weapon/heavy-bone-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/heavy-bone-lance.webp"
+ },
+ {
+  "img": "img/weapon/heavy-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/heavy-shooter.webp"
+ },
+ {
+  "img": "img/weapon/hornetaur-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hornetaur-lance.webp"
+ },
+ {
+  "img": "img/weapon/hunters-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hunters-bow.webp"
+ },
+ {
+  "img": "img/weapon/hunters-proudbow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hunters-proudbow.webp"
+ },
+ {
+  "img": "img/weapon/hunters-stoutbow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/hunters-stoutbow.webp"
+ },
+ {
+  "img": "img/weapon/iron-archdemon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-archdemon.webp"
+ },
+ {
+  "img": "img/weapon/iron-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-assault.webp"
+ },
+ {
+  "img": "img/weapon/iron-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-bow.webp"
+ },
+ {
+  "img": "img/weapon/iron-demon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-demon.webp"
+ },
+ {
+  "img": "img/weapon/iron-gospel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-gospel.webp"
+ },
+ {
+  "img": "img/weapon/iron-grace.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-grace.webp"
+ },
+ {
+  "img": "img/weapon/iron-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-hammer.webp"
+ },
+ {
+  "img": "img/weapon/iron-katana.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-katana.webp"
+ },
+ {
+  "img": "img/weapon/iron-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/iron-lance.webp"
+ },
+ {
+  "img": "img/weapon/jagras-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-assault.webp"
+ },
+ {
+  "img": "img/weapon/jagras-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-blade.webp"
+ },
+ {
+  "img": "img/weapon/jagras-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-cannon.webp"
+ },
+ {
+  "img": "img/weapon/jagras-escudo.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-escudo.webp"
+ },
+ {
+  "img": "img/weapon/jagras-hacker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-hacker.webp"
+ },
+ {
+  "img": "img/weapon/jagras-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jagras-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/jyura-depth.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jyura-depth.webp"
+ },
+ {
+  "img": "img/weapon/jyura-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jyura-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/jyura-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/jyura-shotel.webp"
+ },
+ {
+  "img": "img/weapon/kadachi-claws.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kadachi-claws.webp"
+ },
+ {
+  "img": "img/weapon/kadachi-fang.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kadachi-fang.webp"
+ },
+ {
+  "img": "img/weapon/kadachi-kaina.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kadachi-kaina.webp"
+ },
+ {
+  "img": "img/weapon/kadachi-lion.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kadachi-lion.webp"
+ },
+ {
+  "img": "img/weapon/kadachi-strikebow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kadachi-strikebow.webp"
+ },
+ {
+  "img": "img/weapon/kulu-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kulu-arrow.webp"
+ },
+ {
+  "img": "img/weapon/kulu-beak.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kulu-beak.webp"
+ },
+ {
+  "img": "img/weapon/kulu-hasta.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kulu-hasta.webp"
+ },
+ {
+  "img": "img/weapon/kulu-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/kulu-lance.webp"
+ },
+ {
+  "img": "img/weapon/last-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/last-dance.webp"
+ },
+ {
+  "img": "img/weapon/legiana-halberd.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/legiana-halberd.webp"
+ },
+ {
+  "img": "img/weapon/lightning-bash.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/lightning-bash.webp"
+ },
+ {
+  "img": "img/weapon/lightning-punisher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/lightning-punisher.webp"
+ },
+ {
+  "img": "img/weapon/lightning-spire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/lightning-spire.webp"
+ },
+ {
+  "img": "img/weapon/lucent-hauteclaire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/lucent-hauteclaire.webp"
+ },
+ {
+  "img": "img/weapon/luminous-assault.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/luminous-assault.webp"
+ },
+ {
+  "img": "img/weapon/luminous-daggers.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/luminous-daggers.webp"
+ },
+ {
+  "img": "img/weapon/luminous-durandal.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/luminous-durandal.webp"
+ },
+ {
+  "img": "img/weapon/madness-pangas.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/madness-pangas.webp"
+ },
+ {
+  "img": "img/weapon/maladys-fist.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/maladys-fist.webp"
+ },
+ {
+  "img": "img/weapon/maladys-kiss.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/maladys-kiss.webp"
+ },
+ {
+  "img": "img/weapon/mudslide-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/mudslide-blade.webp"
+ },
+ {
+  "img": "img/weapon/power-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/power-shooter.webp"
+ },
+ {
+  "img": "img/weapon/princess-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/princess-arrow.webp"
+ },
+ {
+  "img": "img/weapon/proto-charge-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/proto-charge-blade.webp"
+ },
+ {
+  "img": "img/weapon/pulsar-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/pulsar-bow.webp"
+ },
+ {
+  "img": "img/weapon/pulsar-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/pulsar-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/pulsar-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/pulsar-shooter.webp"
+ },
+ {
+  "img": "img/weapon/pulsar-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/pulsar-shotel.webp"
+ },
+ {
+  "img": "img/weapon/pulsar-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/pulsar-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/radiant-anja-arch.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-anja-arch.webp"
+ },
+ {
+  "img": "img/weapon/radiant-anja-cyclone.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-anja-cyclone.webp"
+ },
+ {
+  "img": "img/weapon/radiant-anja-scimitar.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-anja-scimitar.webp"
+ },
+ {
+  "img": "img/weapon/radiant-anja-striker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-anja-striker.webp"
+ },
+ {
+  "img": "img/weapon/radiant-aqua-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-aqua-arrow.webp"
+ },
+ {
+  "img": "img/weapon/radiant-aqua-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-aqua-assault.webp"
+ },
+ {
+  "img": "img/weapon/radiant-aqua-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-aqua-hammer.webp"
+ },
+ {
+  "img": "img/weapon/radiant-aqua-horn.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-aqua-horn.webp"
+ },
+ {
+  "img": "img/weapon/radiant-aqua-slasher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-aqua-slasher.webp"
+ },
+ {
+  "img": "img/weapon/radiant-arcanaria.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-arcanaria.webp"
+ },
+ {
+  "img": "img/weapon/radiant-archers-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-archers-dance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-arma-destroyer.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-arma-destroyer.webp"
+ },
+ {
+  "img": "img/weapon/radiant-barroth-breaker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-barroth-breaker.webp"
+ },
+ {
+  "img": "img/weapon/radiant-barroth-shredder.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-barroth-shredder.webp"
+ },
+ {
+  "img": "img/weapon/radiant-barroth-stinger.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-barroth-stinger.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blazing-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blazing-assault.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blazing-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blazing-bow.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blazing-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blazing-hammer.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blazing-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blazing-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blazing-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blazing-shotel.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blooming-arch.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blooming-arch.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blooming-glaive.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blooming-glaive.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blooming-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blooming-lance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-blooming-shooter.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-blooming-shooter.webp"
+ },
+ {
+  "img": "img/weapon/radiant-carapace-buster.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-carapace-buster.webp"
+ },
+ {
+  "img": "img/weapon/radiant-carapace-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-carapace-lance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-carapace-sledge.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-carapace-sledge.webp"
+ },
+ {
+  "img": "img/weapon/radiant-crushing-beak.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-crushing-beak.webp"
+ },
+ {
+  "img": "img/weapon/radiant-datura-blaster.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-datura-blaster.webp"
+ },
+ {
+  "img": "img/weapon/radiant-datura-blaze.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-datura-blaze.webp"
+ },
+ {
+  "img": "img/weapon/radiant-datura-pike.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-datura-pike.webp"
+ },
+ {
+  "img": "img/weapon/radiant-datura-string.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-datura-string.webp"
+ },
+ {
+  "img": "img/weapon/radiant-dazzling-flash.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-dazzling-flash.webp"
+ },
+ {
+  "img": "img/weapon/radiant-dear-lutemia.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-dear-lutemia.webp"
+ },
+ {
+  "img": "img/weapon/radiant-dear-lutemis.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-dear-lutemis.webp"
+ },
+ {
+  "img": "img/weapon/radiant-dipterus.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-dipterus.webp"
+ },
+ {
+  "img": "img/weapon/radiant-dual-destroyers.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-dual-destroyers.webp"
+ },
+ {
+  "img": "img/weapon/radiant-first-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-first-dance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-flammenkanone.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-flammenkanone.webp"
+ },
+ {
+  "img": "img/weapon/radiant-flammenzahn.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-flammenzahn.webp"
+ },
+ {
+  "img": "img/weapon/radiant-freeze-chain.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-freeze-chain.webp"
+ },
+ {
+  "img": "img/weapon/radiant-frost-blaze.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-frost-blaze.webp"
+ },
+ {
+  "img": "img/weapon/radiant-gigafrost.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-gigafrost.webp"
+ },
+ {
+  "img": "img/weapon/radiant-girros-nadja.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-girros-nadja.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-assault.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-blade.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-cannon.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-escudo.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-escudo.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-hacker.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-hacker.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jagras-strongarm.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jagras-strongarm.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jyura-depth.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jyura-depth.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jyura-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jyura-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/radiant-jyura-shotel.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-jyura-shotel.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kadachi-claws.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kadachi-claws.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kadachi-fang.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kadachi-fang.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kadachi-kaina.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kadachi-kaina.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kadachi-lion.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kadachi-lion.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kadachi-strikebow.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kadachi-strikebow.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kulu-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kulu-arrow.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kulu-beak.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kulu-beak.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kulu-hasta.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kulu-hasta.webp"
+ },
+ {
+  "img": "img/weapon/radiant-kulu-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-kulu-lance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-last-dance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-last-dance.webp"
+ },
+ {
+  "img": "img/weapon/radiant-legiana-halberd.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-legiana-halberd.webp"
+ },
+ {
+  "img": "img/weapon/radiant-lightning-bash.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-lightning-bash.webp"
+ },
+ {
+  "img": "img/weapon/radiant-lightning-punisher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-lightning-punisher.webp"
+ },
+ {
+  "img": "img/weapon/radiant-lightning-spire.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-lightning-spire.webp"
+ },
+ {
+  "img": "img/weapon/radiant-madness-pangas.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-madness-pangas.webp"
+ },
+ {
+  "img": "img/weapon/radiant-maladys-fist.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-maladys-fist.webp"
+ },
+ {
+  "img": "img/weapon/radiant-maladys-kiss.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-maladys-kiss.webp"
+ },
+ {
+  "img": "img/weapon/radiant-mudslide-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-mudslide-blade.webp"
+ },
+ {
+  "img": "img/weapon/radiant-princess-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-princess-arrow.webp"
+ },
+ {
+  "img": "img/weapon/radiant-rending-beaks.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-rending-beaks.webp"
+ },
+ {
+  "img": "img/weapon/radiant-shattercryst.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-shattercryst.webp"
+ },
+ {
+  "img": "img/weapon/radiant-snowfletcher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-snowfletcher.webp"
+ },
+ {
+  "img": "img/weapon/radiant-stealer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-stealer.webp"
+ },
+ {
+  "img": "img/weapon/radiant-water-basher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-water-basher.webp"
+ },
+ {
+  "img": "img/weapon/radiant-water-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-water-cannon.webp"
+ },
+ {
+  "img": "img/weapon/radiant-water-golem.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-water-golem.webp"
+ },
+ {
+  "img": "img/weapon/radiant-water-shot.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-water-shot.webp"
+ },
+ {
+  "img": "img/weapon/radiant-water-spike.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-water-spike.webp"
+ },
+ {
+  "img": "img/weapon/radiant-wyvern-blade-leaf.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-wyvern-blade-leaf.webp"
+ },
+ {
+  "img": "img/weapon/radiant-wyvern-blade-verde.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/radiant-wyvern-blade-verde.webp"
+ },
+ {
+  "img": "img/weapon/rathsblade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/rathsblade.webp"
+ },
+ {
+  "img": "img/weapon/rathslinger.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/rathslinger.webp"
+ },
+ {
+  "img": "img/weapon/red-tail.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/red-tail.webp"
+ },
+ {
+  "img": "img/weapon/red-wing.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/red-wing.webp"
+ },
+ {
+  "img": "img/weapon/rending-beaks.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/rending-beaks.webp"
+ },
+ {
+  "img": "img/weapon/resplendent-montauban.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/resplendent-montauban.webp"
+ },
+ {
+  "img": "img/weapon/rosen-arrow.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/rosen-arrow.webp"
+ },
+ {
+  "img": "img/weapon/scintillant-bayard.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/scintillant-bayard.webp"
+ },
+ {
+  "img": "img/weapon/shattercryst.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/shattercryst.webp"
+ },
+ {
+  "img": "img/weapon/snowfletcher.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/snowfletcher.webp"
+ },
+ {
+  "img": "img/weapon/sonorous-olifant.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/sonorous-olifant.webp"
+ },
+ {
+  "img": "img/weapon/stealer.webp",
+  "role": "icon",
+  "best_px": [
+   152,
+   152
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/stealer.webp"
+ },
+ {
+  "img": "img/weapon/steel-assault.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/steel-assault.webp"
+ },
+ {
+  "img": "img/weapon/steel-bow.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/steel-bow.webp"
+ },
+ {
+  "img": "img/weapon/steel-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/steel-lance.webp"
+ },
+ {
+  "img": "img/weapon/strong-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/strong-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/taurus-pangas.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/taurus-pangas.webp"
+ },
+ {
+  "img": "img/weapon/thunder-blade.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/thunder-blade.webp"
+ },
+ {
+  "img": "img/weapon/thunder-hammer.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/thunder-hammer.webp"
+ },
+ {
+  "img": "img/weapon/thunder-lance.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/thunder-lance.webp"
+ },
+ {
+  "img": "img/weapon/water-basher.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/water-basher.webp"
+ },
+ {
+  "img": "img/weapon/water-cannon.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/water-cannon.webp"
+ },
+ {
+  "img": "img/weapon/water-golem.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/water-golem.webp"
+ },
+ {
+  "img": "img/weapon/water-shot.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/water-shot.webp"
+ },
+ {
+  "img": "img/weapon/water-spike.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/water-spike.webp"
+ },
+ {
+  "img": "img/weapon/wild-hatchets.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/wild-hatchets.webp"
+ },
+ {
+  "img": "img/weapon/wyvern-blade-blood.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/wyvern-blade-blood.webp"
+ },
+ {
+  "img": "img/weapon/wyvern-blade-fall.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/wyvern-blade-fall.webp"
+ },
+ {
+  "img": "img/weapon/wyvern-blade-leaf.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/wyvern-blade-leaf.webp"
+ },
+ {
+  "img": "img/weapon/wyvern-blade-verde.webp",
+  "role": "icon",
+  "best_px": [
+   84,
+   84
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/weapon/wyvern-blade-verde.webp"
+ },
+ {
+  "img": "img/visage/black-diablos.webp",
+  "role": "icon",
+  "best_px": [
+   245,
+   245
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/black-diablos.webp"
+ },
+ {
+  "img": "img/visage/kushala-daora.webp",
+  "role": "icon",
+  "best_px": [
+   244,
+   244
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/kushala-daora.webp"
+ },
+ {
+  "img": "img/visage/legiana.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/legiana.webp"
+ },
+ {
+  "img": "img/visage/nergigante.webp",
+  "role": "icon",
+  "best_px": [
+   148,
+   148
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/nergigante.webp"
+ },
+ {
+  "img": "img/visage/paolumu.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/paolumu.webp"
+ },
+ {
+  "img": "img/visage/pink-rathian.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/pink-rathian.webp"
+ },
+ {
+  "img": "img/visage/radiant-barroth.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-barroth.webp"
+ },
+ {
+  "img": "img/visage/radiant-diablos.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-diablos.webp"
+ },
+ {
+  "img": "img/visage/radiant-legiana.webp",
+  "role": "icon",
+  "best_px": [
+   245,
+   245
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-legiana.webp"
+ },
+ {
+  "img": "img/visage/radiant-odogaron.webp",
+  "role": "icon",
+  "best_px": [
+   213,
+   213
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-odogaron.webp"
+ },
+ {
+  "img": "img/visage/radiant-paolumu.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-paolumu.webp"
+ },
+ {
+  "img": "img/visage/radiant-pink-rathian.webp",
+  "role": "icon",
+  "best_px": [
+   245,
+   245
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-pink-rathian.webp"
+ },
+ {
+  "img": "img/visage/radiant-radobaan.webp",
+  "role": "icon",
+  "best_px": [
+   245,
+   245
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-radobaan.webp"
+ },
+ {
+  "img": "img/visage/radiant-rathalos.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/radiant-rathalos.webp"
+ },
+ {
+  "img": "img/visage/ruger-aidal.webp",
+  "role": "icon",
+  "best_px": [
+   216,
+   216
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/ruger-aidal.webp"
+ },
+ {
+  "img": "img/visage/tzitzi-ya-ku.webp",
+  "role": "icon",
+  "best_px": [
+   200,
+   200
+  ],
+  "need": 256,
+  "reason": "แหล่งข้อมูล (GameWith) มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/visage/tzitzi-ya-ku.webp"
+ },
+ {
+  "img": "img/endemic/armagold-moly.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/armagold-moly.webp"
+ },
+ {
+  "img": "img/endemic/ashen-vulture.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/ashen-vulture.webp"
+ },
+ {
+  "img": "img/endemic/blissbill.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/blissbill.webp"
+ },
+ {
+  "img": "img/endemic/bomb-arowana.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/bomb-arowana.webp"
+ },
+ {
+  "img": "img/endemic/bristly-crake.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/bristly-crake.webp"
+ },
+ {
+  "img": "img/endemic/broad-eared-ghost-bat.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/broad-eared-ghost-bat.webp"
+ },
+ {
+  "img": "img/endemic/bubblefish.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/bubblefish.webp"
+ },
+ {
+  "img": "img/endemic/bubbly-moly.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/bubbly-moly.webp"
+ },
+ {
+  "img": "img/endemic/burst-arowana.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/burst-arowana.webp"
+ },
+ {
+  "img": "img/endemic/clover-moly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/clover-moly.webp"
+ },
+ {
+  "img": "img/endemic/copperwing-flutterfly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/copperwing-flutterfly.webp"
+ },
+ {
+  "img": "img/endemic/corrosive-helmcrab.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/corrosive-helmcrab.webp"
+ },
+ {
+  "img": "img/endemic/dapper-coralbird.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/dapper-coralbird.webp"
+ },
+ {
+  "img": "img/endemic/downy-crake.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/downy-crake.webp"
+ },
+ {
+  "img": "img/endemic/dung-beetle.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/dung-beetle.webp"
+ },
+ {
+  "img": "img/endemic/emperor-hopper.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/emperor-hopper.webp"
+ },
+ {
+  "img": "img/endemic/evergreen-ray.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/evergreen-ray.webp"
+ },
+ {
+  "img": "img/endemic/flashfly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/flashfly.webp"
+ },
+ {
+  "img": "img/endemic/gastronome-tuna.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/gastronome-tuna.webp"
+ },
+ {
+  "img": "img/endemic/ghostly-jellyfish.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/ghostly-jellyfish.webp"
+ },
+ {
+  "img": "img/endemic/giant-vigorwasp.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/giant-vigorwasp.webp"
+ },
+ {
+  "img": "img/endemic/gloomfly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/gloomfly.webp"
+ },
+ {
+  "img": "img/endemic/glowring-gekko.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/glowring-gekko.webp"
+ },
+ {
+  "img": "img/endemic/gold-hercudrome.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/gold-hercudrome.webp"
+ },
+ {
+  "img": "img/endemic/golden-wingdrake.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/golden-wingdrake.webp"
+ },
+ {
+  "img": "img/endemic/goldenfish.webp",
+  "role": "icon",
+  "best_px": [
+   101,
+   101
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/goldenfish.webp"
+ },
+ {
+  "img": "img/endemic/goldenfry.webp",
+  "role": "icon",
+  "best_px": [
+   91,
+   91
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/goldenfry.webp"
+ },
+ {
+  "img": "img/endemic/great-bomb-arowana.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-bomb-arowana.webp"
+ },
+ {
+  "img": "img/endemic/great-bubblefish.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-bubblefish.webp"
+ },
+ {
+  "img": "img/endemic/great-burst-arowana.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-burst-arowana.webp"
+ },
+ {
+  "img": "img/endemic/great-gastronome-tuna.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-gastronome-tuna.webp"
+ },
+ {
+  "img": "img/endemic/great-goldenfish.webp",
+  "role": "icon",
+  "best_px": [
+   101,
+   101
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-goldenfish.webp"
+ },
+ {
+  "img": "img/endemic/great-goldenfry.webp",
+  "role": "icon",
+  "best_px": [
+   94,
+   94
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-goldenfry.webp"
+ },
+ {
+  "img": "img/endemic/great-king-marlin.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-king-marlin.webp"
+ },
+ {
+  "img": "img/endemic/great-platinumfish.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-platinumfish.webp"
+ },
+ {
+  "img": "img/endemic/great-scarlet-blossomfish.webp",
+  "role": "icon",
+  "best_px": [
+   92,
+   92
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-scarlet-blossomfish.webp"
+ },
+ {
+  "img": "img/endemic/great-sushifish.webp",
+  "role": "icon",
+  "best_px": [
+   91,
+   91
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-sushifish.webp"
+ },
+ {
+  "img": "img/endemic/great-whetfish.webp",
+  "role": "icon",
+  "best_px": [
+   108,
+   108
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/great-whetfish.webp"
+ },
+ {
+  "img": "img/endemic/greenleaf-gekko.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/greenleaf-gekko.webp"
+ },
+ {
+  "img": "img/endemic/hercudrome.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/hercudrome.webp"
+ },
+ {
+  "img": "img/endemic/iron-helmcrab.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/iron-helmcrab.webp"
+ },
+ {
+  "img": "img/endemic/ironfist-crab.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/ironfist-crab.webp"
+ },
+ {
+  "img": "img/endemic/king-spearfish.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/king-spearfish.webp"
+ },
+ {
+  "img": "img/endemic/lantern-rockfish.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/lantern-rockfish.webp"
+ },
+ {
+  "img": "img/endemic/lusterwasp.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/lusterwasp.webp"
+ },
+ {
+  "img": "img/endemic/lustrous-jellyfish.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/lustrous-jellyfish.webp"
+ },
+ {
+  "img": "img/endemic/marine-seahorse.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/marine-seahorse.webp"
+ },
+ {
+  "img": "img/endemic/marshal-seahorse.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/marshal-seahorse.webp"
+ },
+ {
+  "img": "img/endemic/moonlight-helmcrab.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/moonlight-helmcrab.webp"
+ },
+ {
+  "img": "img/endemic/mudflat-tearbass.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/mudflat-tearbass.webp"
+ },
+ {
+  "img": "img/endemic/mythozard.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/mythozard.webp"
+ },
+ {
+  "img": "img/endemic/nightglow-flutterfly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/nightglow-flutterfly.webp"
+ },
+ {
+  "img": "img/endemic/nitrotoad.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/nitrotoad.webp"
+ },
+ {
+  "img": "img/endemic/orange-moly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/orange-moly.webp"
+ },
+ {
+  "img": "img/endemic/paratoad.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/paratoad.webp"
+ },
+ {
+  "img": "img/endemic/pearl-warbler.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/pearl-warbler.webp"
+ },
+ {
+  "img": "img/endemic/phantom-jorogumo.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/phantom-jorogumo.webp"
+ },
+ {
+  "img": "img/endemic/platinumfish.webp",
+  "role": "icon",
+  "best_px": [
+   102,
+   102
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/platinumfish.webp"
+ },
+ {
+  "img": "img/endemic/red-whisker-crayfish.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/red-whisker-crayfish.webp"
+ },
+ {
+  "img": "img/endemic/rosyfluff-hare.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/rosyfluff-hare.webp"
+ },
+ {
+  "img": "img/endemic/sand-armored-lizard.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/sand-armored-lizard.webp"
+ },
+ {
+  "img": "img/endemic/saturnian.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/saturnian.webp"
+ },
+ {
+  "img": "img/endemic/scarlet-blossomfish.webp",
+  "role": "icon",
+  "best_px": [
+   92,
+   92
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/scarlet-blossomfish.webp"
+ },
+ {
+  "img": "img/endemic/seerfly.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/seerfly.webp"
+ },
+ {
+  "img": "img/endemic/serene-coralbird.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/serene-coralbird.webp"
+ },
+ {
+  "img": "img/endemic/skimmerfish.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/skimmerfish.webp"
+ },
+ {
+  "img": "img/endemic/sleeptoad.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/sleeptoad.webp"
+ },
+ {
+  "img": "img/endemic/sludge-spider.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/sludge-spider.webp"
+ },
+ {
+  "img": "img/endemic/sonic-bug.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/sonic-bug.webp"
+ },
+ {
+  "img": "img/endemic/starrycanth.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/starrycanth.webp"
+ },
+ {
+  "img": "img/endemic/sushifish.webp",
+  "role": "icon",
+  "best_px": [
+   91,
+   91
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/sushifish.webp"
+ },
+ {
+  "img": "img/endemic/swiftsprig-hare.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/swiftsprig-hare.webp"
+ },
+ {
+  "img": "img/endemic/titan-ant.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/titan-ant.webp"
+ },
+ {
+  "img": "img/endemic/vigorwasp.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/vigorwasp.webp"
+ },
+ {
+  "img": "img/endemic/viridian-hercudrome.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/viridian-hercudrome.webp"
+ },
+ {
+  "img": "img/endemic/warhopper.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/warhopper.webp"
+ },
+ {
+  "img": "img/endemic/whetfish.webp",
+  "role": "icon",
+  "best_px": [
+   108,
+   108
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/whetfish.webp"
+ },
+ {
+  "img": "img/endemic/witchcap-moly.webp",
+  "role": "icon",
+  "best_px": [
+   114,
+   114
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/witchcap-moly.webp"
+ },
+ {
+  "img": "img/endemic/woodland-wingdrake.webp",
+  "role": "icon",
+  "best_px": [
+   103,
+   103
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/endemic/woodland-wingdrake.webp"
+ },
+ {
+  "img": "img/material/ancient-bone.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/ancient-bone.webp"
+ },
+ {
+  "img": "img/material/antidote-herb.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/antidote-herb.webp"
+ },
+ {
+  "img": "img/material/bauble-cactus.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/bauble-cactus.webp"
+ },
+ {
+  "img": "img/material/boulder-bone.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/boulder-bone.webp"
+ },
+ {
+  "img": "img/material/charred-bone.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/charred-bone.webp"
+ },
+ {
+  "img": "img/material/chillshroom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/chillshroom.webp"
+ },
+ {
+  "img": "img/material/coral-bone.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/coral-bone.webp"
+ },
+ {
+  "img": "img/material/coral-crystal.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/coral-crystal.webp"
+ },
+ {
+  "img": "img/material/divineapple.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/divineapple.webp"
+ },
+ {
+  "img": "img/material/dragonbloom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/dragonbloom.webp"
+ },
+ {
+  "img": "img/material/dragonite-ore.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/dragonite-ore.webp"
+ },
+ {
+  "img": "img/material/dustbush.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/dustbush.webp"
+ },
+ {
+  "img": "img/material/earth-crystal.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/earth-crystal.webp"
+ },
+ {
+  "img": "img/material/exotic-honeyfruit.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/exotic-honeyfruit.webp"
+ },
+ {
+  "img": "img/material/exquisite-island-rice.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/exquisite-island-rice.webp"
+ },
+ {
+  "img": "img/material/fine-honeyfruit.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/fine-honeyfruit.webp"
+ },
+ {
+  "img": "img/material/hardwood.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/hardwood.webp"
+ },
+ {
+  "img": "img/material/heavenberry.webp",
+  "role": "icon",
+  "best_px": [
+   98,
+   98
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/heavenberry.webp"
+ },
+ {
+  "img": "img/material/herb.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/herb.webp"
+ },
+ {
+  "img": "img/material/honey.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/honey.webp"
+ },
+ {
+  "img": "img/material/hot-pepper.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/hot-pepper.webp"
+ },
+ {
+  "img": "img/material/iron-ore.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/iron-ore.webp"
+ },
+ {
+  "img": "img/material/ironwood.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/ironwood.webp"
+ },
+ {
+  "img": "img/material/island-specialty-rice.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/island-specialty-rice.webp"
+ },
+ {
+  "img": "img/material/lightcrystal.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/lightcrystal.webp"
+ },
+ {
+  "img": "img/material/machalite-ore.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/machalite-ore.webp"
+ },
+ {
+  "img": "img/material/monster-bone-s.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/monster-bone-s.webp"
+ },
+ {
+  "img": "img/material/moonlit-mushroom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/moonlit-mushroom.webp"
+ },
+ {
+  "img": "img/material/nitroshroom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/nitroshroom.webp"
+ },
+ {
+  "img": "img/material/nulberry.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/nulberry.webp"
+ },
+ {
+  "img": "img/material/parashroom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/parashroom.webp"
+ },
+ {
+  "img": "img/material/sleep-herb.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/sleep-herb.webp"
+ },
+ {
+  "img": "img/material/sunbloom.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/sunbloom.webp"
+ },
+ {
+  "img": "img/material/sunkissed-grass.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   128
+  ],
+  "need": 256,
+  "reason": "ไอคอนจาก reference/GameWith มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/material/sunkissed-grass.webp"
+ },
+ {
+  "img": "img/gift/sheet.webp",
+  "role": "icon",
+  "best_px": [
+   128,
+   64
+  ],
+  "need": 256,
+  "reason": "ไฟล์ใน repo มีแค่ขนาดนี้",
+  "category": "hd-resolution",
+  "name": "img/gift/sheet.webp"
+ },
+ {
+  "img": "img/outfit/arkaya-exclusive.webp",
+  "role": "full",
+  "best_px": [
+   320,
+   320
+  ],
+  "need": 1200,
+  "reason": "GameWith EN มีแค่ 320x320",
+  "category": "hd-resolution",
+  "name": "img/outfit/arkaya-exclusive.webp"
+ },
+ {
+  "img": "img/outfit/fated-adventurer-exclusive.webp",
+  "role": "full",
+  "best_px": [
+   320,
+   320
+  ],
+  "need": 1200,
+  "reason": "GameWith EN มีแค่ 320x320",
+  "category": "hd-resolution",
+  "name": "img/outfit/fated-adventurer-exclusive.webp"
+ },
+ {
+  "img": "img/outfit/keres-exclusive.webp",
+  "role": "full",
+  "best_px": [
+   320,
+   320
+  ],
+  "need": 1200,
+  "reason": "GameWith EN มีแค่ 320x320",
+  "category": "hd-resolution",
+  "name": "img/outfit/keres-exclusive.webp"
+ },
+ {
+  "img": "img/outfit/midori-exclusive.webp",
+  "role": "full",
+  "best_px": [
+   320,
+   320
+  ],
+  "need": 1200,
+  "reason": "GameWith EN มีแค่ 320x320",
+  "category": "hd-resolution",
+  "name": "img/outfit/midori-exclusive.webp"
+ },
+ {
+  "img": "img/outfit/pepper-exclusive.webp",
+  "role": "full",
+  "best_px": [
+   320,
+   320
+  ],
+  "need": 1200,
+  "reason": "GameWith EN มีแค่ 320x320",
+  "category": "hd-resolution",
+  "name": "img/outfit/pepper-exclusive.webp"
  }
 ]

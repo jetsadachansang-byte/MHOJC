@@ -115,7 +115,7 @@
 <header class="bar">
   <div class="wrap">
     <a class="brand" href="#home" aria-label="หน้าแรก">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="var(--brass)" d="M16 2 29 9v14l-13 7L3 23V9z" opacity=".22"/><path fill="none" stroke="var(--brass)" stroke-width="1.6" d="M16 2 29 9v14l-13 7L3 23V9z"/><path fill="var(--brass)" d="M16 7c2.4 3 4.6 4.6 4.6 9 0 3-2 5.6-4.6 6.6-2.6-1-4.6-3.6-4.6-6.6 0-2 .7-3.3 1.8-4.6.2 1.6.8 2.6 1.6 3.2-.2-3 .2-5.3 1.2-7.6z"/></svg>
+      <svg class="crest" viewBox="0 0 40 44" aria-hidden="true"><path d="M20 2 37 8v13c0 10-7.4 17.6-17 21C10.4 38.6 3 31 3 21V8z" fill="var(--surface-2)" stroke="var(--brass)" stroke-width="2"/><path d="M20 6.5 33 11v10c0 7.8-5.6 13.8-13 16.8C12.6 34.8 7 28.8 7 21V11z" fill="none" stroke="var(--brass)" stroke-width=".8" opacity=".55"/><path d="M12 29 28 13M12 13l16 16" stroke="var(--brass)" stroke-width="2.2" stroke-linecap="round"/><path d="M26.5 11.5 29.5 10.5 28.5 13.5M13.5 11.5 10.5 10.5 11.5 13.5" fill="none" stroke="var(--brass)" stroke-width="1.6" stroke-linejoin="round"/><path d="M20 15c1.6 2 3 3.1 3 5.9 0 2-1.3 3.7-3 4.4-1.7-.7-3-2.4-3-4.4 0-2.8 1.4-3.9 3-5.9z" fill="var(--ember)"/></svg>
       <span><b>MHOUTLANDERTHGUILD</b><small>MONSTER HUNTER OUTLANDERS · TH</small></span>
     </a>
     <nav class="nav" aria-label="เมนูหลัก">
@@ -137,6 +137,7 @@
 <main>
 <section id="v-home" data-view="home">
   <div class="hero">
+    <img class="hero-art" src="img/hero/hero.webp" srcset="img/hero/hero.webp 480w, img/hero/hero@960.webp 960w, img/hero/hero@1298.webp 1298w" sizes="(max-width:860px) 100vw, 60vw" width="480" height="684" alt="" fetchpriority="high" decoding="async">
     <canvas id="contour" aria-hidden="true"></canvas>
     <div class="wrap">
       <div>
@@ -145,6 +146,7 @@
         <p class="lead">ฐานข้อมูลชุดเกราะ อาวุธ สกิล และจุดอ่อนมอนสเตอร์ พร้อมเครื่องมือจัดบิลด์ อาวุธ 1 ชิ้นกับเกราะ 5 ชิ้น ดูสกิลและเซ็ทเอฟเฟกต์ที่ได้ทันทีที่เปลี่ยนชุด</p>
         <div class="ctas">
           <a class="btn btn-brass" href="#builder">เริ่มจัดบิลด์</a>
+          <a class="btn btn-ghost" href="#adventurers">ดูตัวละคร</a>
           <a class="btn btn-ghost" href="#armor">ดูชุดเกราะทั้งหมด</a>
         </div>
       </div>
@@ -156,6 +158,11 @@
       </div></div>
     </div>
   </div>
+  <div class="wrap newsbar" aria-label="ข่าวล่าสุด"><b class="nb-h">ข่าวล่าสุด</b><div class="nb-items">
+    <a href="https://gamewith.ai/monster-hunter-outlanders/en/articles/nergigante-guide" target="_blank" rel="noopener"><time>4–17 ธ.ค.</time> อีเวนต์ Nergigante เปิดล่า</a>
+    <a href="https://gamewith.ai/monster-hunter-outlanders/en/articles/latest-update" target="_blank" rel="noopener"><time>27 พ.ย.</time> Season 0 ครึ่งหลัง · ตู้ Freya และ Stylia</a>
+    <a href="https://gamewith.ai/monster-hunter-outlanders/en/articles/kushala-daora-guide" target="_blank" rel="noopener"><time>13–26 พ.ย.</time> อีเวนต์ Kushala Daora (จบแล้ว)</a>
+  </div></div>
   <div class="wrap view">
     <div class="routes">
       <a class="route" href="#builder"><span class="eyebrow">เครื่องมือ</span><h4>จัดบิลด์ 6 ช่อง</h4><p>อาวุธ 1 ชิ้น และเกราะหัว ลำตัว แขน เอว ขา ระบบรวมเลเวลสกิล บวกเลเวลจากเซ็ทเอฟเฟกต์ และสรุปออปชั่นทั้งหมดเป็นภาษาไทย</p></a>
@@ -354,7 +361,7 @@
 </main>
 
 <footer><div class="wrap">
-  <span>เว็บนี้ไม่ได้เกี่ยวข้องกับ OFFICIAL</span>
+  <span>เว็บแฟนเมด ไม่เกี่ยวข้องกับ Capcom / Garena · ภาพเป็นลิขสิทธิ์ของเจ้าของ</span>
   <button class="theme-btn" id="theme-btn" type="button">สลับธีม</button>
 </div></footer>
 
@@ -716,7 +723,7 @@ function renderBuddyCards(){
 }
 document.addEventListener('click',e=>{const f=e.target.closest('[data-bcf]');if(f){bcF=f.dataset.bcf;renderBuddyCards()}});
 /* lightbox */
-document.addEventListener('click',e=>{const z=e.target.closest('[data-zoom]');if(!z)return;e.preventDefault();e.stopPropagation();$('#lb-img').src=z.dataset.zoom;$('#lb-img').alt=z.dataset.cap||'';$('#lb-cap').textContent=z.dataset.cap||'';$('#lb').hidden=false;$('#lb-scroll').scrollTop=0;document.body.style.overflow='hidden'},true);
+document.addEventListener('click',e=>{const z=e.target.closest('[data-zoom]');if(!z)return;e.preventDefault();e.stopPropagation();{const h=(window.HD||{})[z.dataset.zoom.split('?')[0]];$('#lb-img').src=h?h.set[h.set.length-1][1]:z.dataset.zoom}$('#lb-img').alt=z.dataset.cap||'';$('#lb-cap').textContent=z.dataset.cap||'';$('#lb').hidden=false;$('#lb-scroll').scrollTop=0;document.body.style.overflow='hidden'},true);
 const lbClose=()=>{$('#lb').hidden=true;$('#lb-img').src='';document.body.style.overflow=''};
 $('#lb-close').addEventListener('click',lbClose);$('#lb').addEventListener('click',e=>{if(e.target.id==='lb'||e.target.id==='lb-scroll')lbClose()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('#lb').hidden)lbClose()});
